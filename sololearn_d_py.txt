@@ -1,10 +1,13 @@
 
+-------------------------------------------------------------
 #SOLOLEARN - PYTHON 3 TUTORIAL
-
 -------------------------------------------------------------
 
+--------------------
 01. BASIC CONCEPTS
+--------------------
 
+--------------------
 01.001. What is Python?
 01.002. Your first program
 01.003. Simple operations
@@ -18,27 +21,54 @@
 01.011. In-Place Operators
 01.012. Using an Editor
 ******. MODULE 1 QUIZ
+--------------------
 
-CONTROL STRUCTURES
+--------------------
+02. CONTROL STRUCTURES
+--------------------
 
+--------------------
+02.001. Booleans & Comparisons
+02.002. if Statements
+02.003. else Statements
+02.004. Boolean Logic
+02.005. Operator Precedence
+02.006. while Loops
+02.007. Lists
+02.008. List Operations
+02.009. List Functions
+02.010. Range
+02.011. for Loops
+02.012. A Simple Calculator
+******. MODULE 2 QUIZ
+--------------------
 
-
+--------------------
 FUNCTIONS  & MODULES
+--------------------
 
-
-
+--------------------
 EXCEPTIONS & FILES
+--------------------
 
-
-
+--------------------
 MORE TYPES
+--------------------
 
+--------------------
 FUNCTIONAL PROGRAMMING
+--------------------
 
+--------------------
 OBJECT-ORIENTED PROGRAMMING
+--------------------
 
+--------------------
 REGULAR EXPRESSIONS
+--------------------
 
+--------------------
 PYTHONICNESS & PACKAGING
+--------------------
 
 -------------------------------------------------------------
