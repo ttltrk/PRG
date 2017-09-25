@@ -1,16 +1,3720 @@
 
-#CODECADEMY - LEARN PYTHON
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01. PYTHON SYNTAX
+codecademy.com
 
-01.001. PYTHON SYNTAX
-  
-01.001.0001. ---
+PYTHON
 
-01.002.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.
+----------------------------------------------------------------------
 
-02.001
+001. WELCOME
+002. VARIABLES
+003. BOOLEANS
+004. YOU HAVE BEEN REASSIGNED
+005. WHITESPACE
+006. WHITESPACE MEANS RIGHT SPACE
+007. A MATTER OF INTERPRETATION
+008. A SINGLE LINE COMMENTS
+009. MULTI LINE COMMENTS
+010. MATH
 
-02.001.0001.
+----------------------------------------------------------------------
+
+011. EXPONENTIATION
+012. MODULO
+013. BRING IT ALL TOGETHER
+014. THE MEAL
+015. THE TAX
+016. THE TIP
+017. REASSIGN IN A SINGLE LINE
+018. THE TOTAL
+019. THE STRINGS
+020. THE PRACTICE
+
+----------------------------------------------------------------------
+
+021. ESCAPING CHARACTERS
+022. ACCESS BY INDEX 
+023. STRING METHODS
+024. lower()
+025. upper()
+026. str()
+027. THE MINISTRY OF SILLY WALKS
+028. PRINTING STRINGS
+029. PRINTING VARIABLES
+030. STRING CONCATENATION
+
+----------------------------------------------------------------------
+
+031. EXPLICIT STRING CONVERSION
+032. STRING FORMAT WITH %, PART 1
+033. STRING FORMAT WITH %, PART 2
+034. COMPLETELY FAMILIAR
+035. THE DATETIME LIBRARY
+036. GETTING THE CURRENT DATE AND TIME
+037. EXTRACTING INFORMATION
+038. HOT DATE
+039. PRETTY TIME
+040. GRANDE FINALE
+
+----------------------------------------------------------------------
+
+041. GO WITH THE FLOW
+042. COMPARE CLOSELY 
+043. COMPARE CLOSELIER
+044. HOW THE TABLES HAVE TURNED
+045. TO BE OR NOT TO BE
+046. AND
+047. OR
+048. NOT
+049. THIS AND THAT
+050. MIX 'N' MATCH
+
+----------------------------------------------------------------------
+
+051. CONDITIONAL STATEMENT SYNTAX
+052. IF YOU'RE HAVING
+053. ELSE PROBLEMS, I FEEL BAD FOR YOU, SON
+054. I GOT 99 PROBLEMS, BUT A SWITCH AIN'T ONE
+055. THE BIG IF
+056. BREAK IT DOWN
+057. AHOY
+058. INPUT
+059. CHECK YOURSELF
+060. CHECK YOURSELF SOME MORE
+
+------------------------- 051 - 060
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+061. POP QUIZ
+062. Ay B C
+063. Ay B C (2)
+064. MOVE IT ON BACK 
+065. ENDING UP
+066. TESTING
+067. WHAT GOOD ARE FUNCTIONS
+068. FUNCTION JUNCTION
+069. CALL AND RESPONSE
+070. PARAMETERS AND ARGUMENTS
+
+------------------------- 631 - 070
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+071. FUNCTIONS CALLING FUNCTIONS
+072. PRACTICE MAKES PERFECT
+073. I KNOW KUNG FU
+074. GENERIC IMPORTS
+075. FUNCTION IMPORTS
+076. UNIVERSAL IMPORTS
+077. HERE BE DRAGONS
+078. ON BEYOND STRINGS
+079. max()
+080. min()
+
+------------------------- 071 - 080
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+081. abs()
+082. type()
+083. REVIEW: FUNCTIONS
+084. REVIEW: MODULES
+085. REVIEW: BUILT-IN FUNCTIONS
+086. BEFORE WE BEGIN
+087. PLANNING YOUR TRIP
+088. GETTING THERE
+089. TRANSPORTATION
+090. PULL IT TOGETHER
+
+------------------------- 081 - 090
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+091. HEY, YOU NEVER KNOW
+092. PLAN YOUR TRIP
+093. INTRODUCTION TO LISTS
+094. ACCESS BY INDEX
+095. NEW NEIGHBORS
+096. LATE ARRIVALS & LIST LENGTH
+097. LIST SLICING
+098. SLICING LISTS AND STRINGS
+099. MAINTAINING ORDER
+100. FOR ONE AND ALL
+
+------------------------- 091 - 100
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+101. MORE WITH FOR
+102. THIS NEXT PART IS KEY
+103. NEW ENTRIES
+104. CHANGING YOUR MIND
+105. REMOVE A FEW THINGS
+106. IT'S DANGEROUS TO GO ALONE! TAKE THIS
+107. BeFOR WE BEGIN
+108. THIS IS KEY!
+109. CONTROL FLOW AND LOOPING
+110. LIST + FUNCTIONS
+
+------------------------- 101 - 110
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+111. STRING LOOPING
+112. YOUR OWN STORE
+113. INVESTING IN STOCK
+114. KEEPING TRACK OF THE PRODUCE
+115. SOMETHING OF VALUE
+116. SHOPPING AT THE MARKET
+117. MAKING A PURCHASE
+118. STOCKING OUT
+119. empty
+120. LESSON NUMBER ONE
+
+------------------------- 111 - 120
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+121. WHAT'S THE SCORE
+122. PUT IT TOGETHER
+123. FOR THE RECORD
+124. It's Okay to be Average
+125. Just Weight and See
+126. Sending a Letter
+127.
+128.
+129.
+130.
+
+------------------------- 121 - 130
+***
+
+***
+-------------------------
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+001. WELCOME
+
+-----------------------------------
+
+print ("Welcome to Python!")
+
+>>>
+Welcome to Python!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+002. VARIABLES
+
+-----------------------------------
+
+my_variable = 10
+spam = 5
+age = 33
+curry = 30
+
+print(my_variable)
+print(spam)
+print(age)
+print(curry)
+
+>>>
+10
+5
+33
+30
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+003. BOOLEANS
+
+-----------------------------------
+
+my_int = 7
+my_float = 1.23
+my_bool = True
+a = True
+b = False
+
+print(my_int)
+print(my_float)
+print(my_bool)
+print(a, b)
+
+>>>
+7
+1.23
+True
+True False
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+004. YOU HAVE BEEN REASSIGNED
+
+-----------------------------------
+
+my_int = 7
+my_int = 3
+
+print (my_int)
+
+>>>
+3
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+005. WHITESPACE
+
+-----------------------------------
+
+def spam():
+eggs = 12
+return eggs
+        
+print spam()
+
+>>>
+Syntax error
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+006. WHITESPACE MEANS RIGHT SPACE
+
+-----------------------------------
+
+"""
+visszaadja a tojasok erteket 
+"""
+
+def spam():
+    eggs = 12
+    return eggs
+        
+print (spam())
+
+>>>
+12
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+007. A MATTER OF INTERPRETATION
+
+-----------------------------------
+
+spam = True
+eggs = False
+
+print(spam)
+print(eggs)
+
+>>>
+True
+False
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+008. A SINGLE LINE COMMENTS
+
+-----------------------------------
+
+"""
+a valtozo erteke 42
+"""
+
+mysterious_variable = 42
+
+print(mysterious_variable)
+
+>>>
+42
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+009. MULTI LINE COMMENTS
+
+-----------------------------------
+
+"""
+ez egy sima
+2 soros komment
+"""
+
+mysterious_variable = 11
+
+print(mysterious_variable)
+
+>>>
+11
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+010. MATH
+
+-----------------------------------
+
+count_to = 72 + 23
+ 
+print (count_to)
+
+>>>
+95
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+011. EXPONENTIATION
+
+-----------------------------------
+
+"""
+10 ** 2 == 10 x 10
+10 ** 3 == 10 x 10 x 10
+10 ** 4 == 10 x 10 x 10 x 10 
+"""
+
+eggs = 10 ** 2
+
+print (eggs)
+
+>>>
+100
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+012. MODULO
+
+-----------------------------------
+
+"""
+A modulo egy szamnak egy masik szammal valo egeszosztasabol szarmazo maradekat
+adja meg.
+"""
+
+spam = 3 % 2
+
+print (spam)
+
+>>>
+1
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+013. BRING IT ALL TOGETHER
+
+-----------------------------------
+
+monty = True
+python = 1.234
+
+monty_python = python ** 2
+
+print(monty_python)
+
+>>>
+1.522756
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+014. THE MEAL
+
+-----------------------------------
+
+# Assign the variable meal the value 44.50 on line 3!
+
+meal = 44.50
+
+print(meal)
+
+>>>
+44.5
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+015. THE TAX
+
+-----------------------------------
+
+meal = 44.50
+tax = 0.0675 % 100
+
+print(meal)
+print(tax)
+
+>>>
+44.5
+0.0675
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+016. THE TIP
+
+-----------------------------------
+
+# You're almost there! Assign the tip variable on line 5.
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+print(meal)
+print(tax)
+print(tip)
+
+>>>
+44.5
+0.0675
+0.15
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+017. REASSIGN IN A SINGLE LINE
+
+-----------------------------------
+
+# Assign the variable total on line 8!
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal_total = meal + meal * tax
+
+print(meal)
+print(tax)
+print(tip)
+print(meal_total)
+
+>>>
+44.5
+0.0675
+0.15
+47.50375
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+018. THE TOTAL
+
+-----------------------------------
+
+"""
+The code on line 10 formats and prints to the console the value of total with exactly two numbers after the decimal. 
+(We'll learn about string formatting, the console, and print in Unit 2!)
+"""
+
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal = meal + meal * tax
+total = meal + meal * tip
+
+print("%.2f" % total)
+
+>>>
+54.63
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+019. THE STRINGS
+
+-----------------------------------
+
+
+brian = "Hello life!"
+
+print(brian)
+
+>>>
+Hello life!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+020. THE PRACTICE
+
+-----------------------------------
+
+caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+print(caesar, praline, viking)
+
+>>>
+Graham John Teresa
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+021. ESCAPING CHARACTERS
+
+-----------------------------------
+
+var = 'This isn\'t flying, this is falling with style!'
+
+print(var)
+
+>>>
+This isn't flying, this is falling with style!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+022. ACCESS BY INDEX
+
+-----------------------------------
+
+"""
+kiiratja a 4.ik (a 0 is beleszamitva) karaktert a MONTY szobol
+"""
+
+fifth_letter = "MONTY"[4]
+print(fifth_letter)
+
+>>>
+Y
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+023. STRING METHODS
+
+-----------------------------------
+
+"""
+a len viiszaadja a karakterek szamat 
+"""
+
+parrot = "Norwegian Blue"
+print (len(parrot))
+
+>>>
+14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+024. lower()
+
+-----------------------------------
+
+"""
+a lower() visszadja a hozzarendelt valtozot kisbetukkel irva
+"""
+
+parrot = "Norwegian Blue"
+print (parrot.lower())
+
+>>>
+norwegian blue
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+025. upper()
+
+-----------------------------------
+
+"""
+az upper() visszadja a hozzarendelt valtozot nagybetukkel irva
+"""
+
+parrot = "norwegian blue"
+print (parrot.upper())
+
+>>>
+NORWEGIAN BLUE
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+026. str()
+
+-----------------------------------
+
+"""
+The str() method turns non-strings into strings! 
+"""
+
+pi = 3.14
+print (str(pi))
+
+>>>
+3.14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+027. THE MINISTRY OF SILLY WALKS
+
+-----------------------------------
+
+ministry = "The Ministry of Silly Walks"
+
+print (len(ministry))
+print (ministry.upper())
+
+>>>
+27
+THE MINISTRY OF SILLY WALKS
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+028. PRINTING STRINGS
+
+-----------------------------------
+
+print ("Monty Python") 
+
+>>>
+Monty Python 
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+029. PRINTING VARIABLES
+
+-----------------------------------
+
+the_machine_goes = "Ping!"
+print (the_machine_goes)
+
+>>>
+Ping!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+030. STRING CONCATENATION
+
+-----------------------------------
+
+print ("Spam" + " " + "and" + " " + "eggs")
+
+>>>
+Spam and eggs
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+031. EXPLICIT STRING CONVERSION
+
+-----------------------------------
+
+"""
+The str() method turns non-strings into strings! 
+"""
+
+print ("The value of pi is around " + str(3.14))
+
+>>>
+The value of pi is around 3.14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+032. STRING FORMAT WITH %, PART 1
+
+-----------------------------------
+
+"""
+a %s sorban hivatkozik a % utan a stringekre
+"""
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
+
+>>>
+Let's not go to Camelot. 'Tis a silly place.
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+033. STRING FORMAT WITH %, PART 2
+
+-----------------------------------
+
+"""
+a %s sorban hivatkozik a % utan a stringekre
+"""
+
+name = input("What is your name?")
+quest = input("What is your quest?")
+color = input("What is your favorite color?")
+
+print ("Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color))
+
+>>>
+What is your name? trk
+What is your quest? code
+What is your favorite color? green
+Ah, so your name is trk, your quest is code, and your favorite color is green.
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+034. COMPLETELY FAMILIAR
+
+-----------------------------------
+
+my_string = "egy"
+
+print (len(my_string))
+print (my_string.upper())
+
+>>>
+3
+EGY
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+035. THE DATETIME LIBRARY
+
+-----------------------------------
+
+from datetime import datetime
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+036. GETTING THE CURRENT DATE AND TIME
+
+-----------------------------------
+
+from datetime import datetime
+
+now = datetime.now()
+print (now)
+
+>>>
+2016-12-14 05:10:19.892864
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+037. EXTRACTING INFORMATION
+
+-----------------------------------
+
+from datetime import datetime
+
+now = datetime.now()
+
+current_year = now.year
+current_month = now.month
+current_day = now.day
+
+print (now.year)
+print (now.month)
+print (now.day)
+
+>>>
+2016
+12
+14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+038. HOT DATE
+
+-----------------------------------
+
+from datetime import datetime
+now = datetime.now()
+
+print ('%s/%s/%s' % (now.year, now.month, now.day))
+
+>>>
+2016/12/14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+039. PRETTY TIME
+
+-----------------------------------
+
+from datetime import datetime
+now = datetime.now()
+
+print ('%s:%s:%s' % (now.hour, now.minute, now.second))
+
+>>>
+7:24:38
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+040. GRANDE FINALE
+
+-----------------------------------
+
+from datetime import datetime
+now = datetime.now()
+
+print ('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second))
+
+>>>
+12/14/2016 7:31:39
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+041. GO WITH THE FLOW
+
+-----------------------------------
+
+def clinic():
+    
+    print ("You've just entered the clinic!")
+    print ("Do you take the door on the left or the right?")
+    
+    answer = input("Type left (l) or right (r) and hit 'Enter'.").lower()
+    
+    if answer == "left" or answer == "l":
+        print ("This is the Verbal Abuse Room, you heap of parrot droppings!")
+    elif answer == "right" or answer == "r":
+        print ("Of course this is the Argument Room, I've told you that already!")
+    else:
+        print ("You didn't pick left or right! Try again.")
+        clinic()
+
+clinic()
+
+>>>
+You've just entered the clinic!
+Do you take the door on the left or the right?
+Type left or right and hit 'Enter'. right
+Of course this is the Argument Room, I've told you that already!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+042. COMPARE CLOSELY
+
+-----------------------------------
+
+# Assign True or False as appropriate on the lines below!
+
+# Set this to True if 17 < 328 or to False if it is not.
+bool_one = True   # We did this one for you!
+
+# Set this to True if 100 == (2 * 50) or to False otherwise.
+bool_two = True
+
+# Set this to True if 19 <= 19 or to False if it is not.
+bool_three = True
+
+# Set this to True if -22 >= -18 or to False if it is not.
+bool_four = False
+
+# Set this to True if 99 != (98 + 1) or to False otherwise.
+bool_five = False
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+043. COMPARE CLOSELIER
+
+-----------------------------------
+
+# Assign True or False as appropriate on the lines below!
+
+# (20 - 10) > 15
+bool_one = False    # We did this one for you!
+
+# (10 + 17) == 3**16
+# Remember that ** can be read as 'to the power of'. 3**16 is about 43 million.
+bool_two = False
+
+# 1**2 <= -1
+bool_three = False
+
+# 40 * 4 >= -4
+bool_four = True
+
+# 100 != 10**2
+bool_five = False
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+044. HOW THE TABLES HAVE TURNED
+
+-----------------------------------
+
+# Create comparative statements as appropriate on the lines below!
+
+# Make me true!
+bool_one = 3 < 5  # We already did this one for you!
+
+# Make me false!
+bool_two = 3 == 2
+
+# Make me true!
+bool_three = 1 != 10
+
+# Make me false!
+bool_four = 200 > 200
+
+# Make me true!
+bool_five = 1 >= 1
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+045. TO BE OR NOT TO BE
+
+-----------------------------------
+
+"""
+     Boolean Operators
+------------------------      
+True and True is True
+True and False is False
+False and True is False
+False and False is False
+
+True or True is True
+True or False is True
+False or True is True
+False or False is False
+
+Not True is False
+Not False is True
+
+"""
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+046. AND
+
+-----------------------------------
+
+bool_one = False
+
+bool_two = False
+
+bool_three = False
+
+bool_four = True
+
+bool_five = True
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+047. OR
+
+-----------------------------------
+
+Set bool_one equal to the result of 2**3 == 108 % 100 or 'Cleese' == 'King Arthur'
+Set bool_two equal to the result of True or False
+Set bool_three equal to the result of 100**0.5 >= 50 or False
+Set bool_four equal to the result of True or True
+Set bool_five equal to the result of 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1
+
+bool_one = True
+
+bool_two = True
+
+bool_three = False
+
+bool_four =  True
+
+bool_five = False
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+048. NOT
+
+-----------------------------------
+
+Set bool_one equal to the result of not True
+Set bool_two equal to the result of not 3**4 < 4**3
+Set bool_three equal to the result of not 10 % 3 <= 10 % 2
+Set bool_four equal to the result of not 3**2 + 4**2 != 5**2
+Set bool_five equal to the result of not not False
+
+bool_one = False
+
+bool_two = True
+
+bool_three = True
+
+bool_four = True
+
+bool_five = False
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+049. THIS AND THAT
+
+-----------------------------------
+
+Set bool_one equal to the result of False or not True and True
+Set bool_two equal to the result of False and not True or True
+Set bool_three equal to the result of True and not (False or False)
+Set bool_four equal to the result of not not True or False and not True
+Set bool_five equal to the result of False or not (True and True)
+
+bool_one = False
+
+bool_two = True
+
+bool_three = True
+
+bool_four = True
+
+bool_five = False
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+050. MIX 'N' MATCH
+
+-----------------------------------
+
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+
+# Make me true!
+bool_two = 1 == 1 and 2 == 2
+
+# Make me false!
+bool_three = 1 > 1 and 2 == 2
+
+# Make me true!
+bool_four = 10 >= 2 and 2 > 1
+
+# Make me true!
+bool_five = 1 == 1 and 10 > 9
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+051. CONDITIONAL STATEMENT SYNTAX
+
+-----------------------------------
+
+response = 'Y'
+
+answer = "Left"
+if answer == "Left":
+    print ("This is the Verbal Abuse Room, you heap of parrot droppings!")
+    
+# Will the above print statement print to the console?
+# Set response to 'Y' if you think so, and 'N' if you think not.
+
+>>>
+This is the Verbal Abuse Room, you heap of parrot droppings!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+052. IF YOU'RE HAVING
+
+-----------------------------------
+
+def using_control_once():
+    if True:
+        return "Success #1"
+
+def using_control_again():
+    if True:
+        return "Success #2"
+
+print (using_control_once())
+print (using_control_again())
+
+>>>
+Success #1
+Success #2
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+053. ELSE PROBLEMS, I FEEL BAD FOR YOU, SON
+
+-----------------------------------
+
+answer = "'Tis but a scratch!"
+
+def black_knight():
+    if answer == "'Tis but a scratch!":
+        return True
+    else:             
+        return False      # Make sure this returns False
+
+def french_soldier():
+    if answer == "Go away, or I shall taunt you a second time!":
+        return True
+    else:             
+        return False     # Make sure this returns False
+
+print(black_knight())
+print(french_soldier())
+
+>>>
+True
+False
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+054. I GOT 99 PROBLEMS, BUT A SWITCH AIN'T ONE
+
+-----------------------------------
+
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print (greater_less_equal_5(4))
+print (greater_less_equal_5(5))
+print (greater_less_equal_5(6))
+
+>>>
+-1
+0
+1
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+055. THE BIG IF
+
+-----------------------------------
+
+# Make sure that the_flying_circus() returns True
+
+def the_flying_circus():
+    if 10 <= 10:
+        return True
+        print ("That's true")
+    elif 10 == 18 or 89 < 88:
+        return False
+    else:
+        return False
+
+print(the_flying_circus())
+
+>>>
+True
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+056. BREAK IT DOWN
+
+-----------------------------------
+
+xxx
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+057. AHOY
+
+-----------------------------------
+
+print ("Pig Latin")
+
+>>>
+Pig Latin
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+058. INPUT
+
+-----------------------------------
+
+print ('Welcome to the Pig Latin Translator!')
+
+original = input("Enter a word:")
+
+>>>
+Welcome to the Pig Latin Translator!
+Enter a word: hello
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+059. CHECK YOURSELF
+
+-----------------------------------
+
+"""
+a len erzekeli hogy irtunk e karaktert vagy se
+"""
+
+print ('Welcome to the Pig Latin Translator!')
+
+# Start coding here!
+original = input("Enter a word:")
+
+empty_string = " "
+if len(original) > 0:
+    print (original)
+else:
+    print ("Empty")
+
+>>>
+Welcome to the Pig Latin Translator!
+Enter a word: hello
+hello
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+060. CHECK YOURSELF SOME MORE
+
+-----------------------------------
+
+"""
+The method isalpha() checks whether the string consists of alphabetic characters only.
+you should also use .isalpha() to make sure that it only contains letters. 
+"""
+
+print ('Welcome to the Pig Latin Translator!')
+
+# Start coding here!
+
+original = input('Prompt')
+
+if original.isalpha() == True or False and len(original) != 0:
+	print (original)
+else:
+	print ("empty")
+
+>>>
+Welcome to the Pig Latin Translator!
+Prompt hello
+hello
+>>>
+
+-----------------------------------
+#example
+-----------------------------------
+
+a = "karakter"
+b = "nem csak karakter"
+
+print(a.isalpha())
+print(b.isalpha())
+
+>>>
+True
+False
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+061. POP QUIZ
+
+-----------------------------------
+
+print ('Welcome to the Pig Latin Translator!')
+
+# Start coding here!
+
+original = input('Prompt')
+
+if original.isalpha() == True or False and len(original) != 0:
+    print (original)
+else:
+    print ("empty")
+
+>>>
+Welcome to the Pig Latin Translator!
+Prompt hello
+hello
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+062. Ay B C
+
+-----------------------------------
+
+pyg = "ay"
+
+print(pyg)
+
+>>>
+ay
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+063. Ay B C (2)
+
+-----------------------------------
+
+pyg = 'ay'
+
+original = input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():    
+    word = original.lower()
+    first = word[0]
+    print (original, word, first)
+else:
+    print ('empty')
+
+>>>
+Enter a word:SZOHI
+SZOHI szohi s
+>>> 
+
+>>>
+Enter a word:
+empty
+>>> 
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+064. MOVE IT ON BACK
+
+-----------------------------------
+
+pyg = 'ay'
+
+original = input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg
+    
+    print (new_word)
+else:
+    print ('empty')
+
+>>>
+Enter a word:SZOHI
+szohisay
+>>> 
+
+>>>
+Enter a word:
+empty
+>>> 
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+065. ENDING UP
+
+-----------------------------------
+
+pyg = 'ay'
+
+original = input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg    
+    new_word = new_word[1:len(new_word)]
+    print (new_word)
+        
+else:
+    print ('empty')
+
+>>>
+Enter a word:SZOHI
+zohisay
+>>> 
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+066. TESTING
+
+-----------------------------------
+
+pyg = 'ay'
+
+original = input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    
+    word = original.lower()
+    first = word[0]
+    new_word = word + first + pyg
+    
+    new_word = new_word[1:len(new_word)]
+        
+else:
+    print ('empty')
+
+>>>
+Enter a word: wawawa
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+067. WHAT GOOD ARE FUNCTIONS
+
+-----------------------------------
+
+def tax(bill):
+    """Adds 8% tax to a restaurant bill."""
+    bill *= 1.08
+    print ("With tax: %f" % bill)
+    return bill
+
+def tip(bill):
+    """Adds 15% tip to a restaurant bill."""
+    bill *= 1.15
+    print ("With tip: %f" % bill)
+    return bill
+    
+meal_cost = 100
+meal_with_tax = tax(meal_cost)
+meal_with_tip = tip(meal_with_tax)
+
+>>>
+With tax: 108.000000
+With tip: 124.200000
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.68.
+
+- FUNCTION JUNCTION
+
+-----------------------------------
+
+def spam():
+    """Prints eggs to the console"""
+    print("Eggs!")
+
+>>>
+Eggs!
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.69.
+
+- CALL AND RESPONSE
+
+-----------------------------------
+
+def square(n):
+    """Returns the square of a number."""
+    squared = n**2
+    print ("%d squared is %d." % (n, squared))
+    return squared
+    
+# Call the square function on line 9! Make sure to
+# include the number 10 between the parentheses.
+
+square(10)
+
+>>>
+10 squared is 100.
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.70.
+
+- PARAMETERS AND ARGUMENTS
+
+-----------------------------------
+
+def power(base , exponent):  # Add your parameters here!
+    result = base**exponent
+    print("%d to the power of %d is %d." % (base, exponent, result))
+
+power(37 , 4)  # Add your arguments here!
+
+>>>
+37 to the power of 4 is 1874161.
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.71.
+
+- FUNCTIONS CALLING FUNCTIONS
+
+-----------------------------------
+
+def one_good_turn(n):
+    return n + 1
+    
+def deserves_another(n):
+    return n + 3
+	
+print(one_good_turn(5))
+print(deserves_another(4))
+
+>>>
+6
+7
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.72.
+
+- PRACTICE MAKES PERFECT
+
+-----------------------------------
+
+def cube(number):
+    return number ** 3    
+
+def by_three(number):
+    if number % 3 == 0:
+        return cube(number)
+    else:
+        return False
+		
+print(cube(5)) 
+
+>>>
+125
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.73.
+
+- I KNOW KUNG FU
+
+-----------------------------------
+
+# Ask Python to print sqrt(25) on line 3.
+
+print (sqrt(25))
+
+>>>
+Traceback (most recent call last):
+  File "python", line 3, in <module>
+NameError: name 'sqrt' is not defined
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.74.
+
+- GENERIC IMPORTS
+
+-----------------------------------
+
+# Ask Python to print sqrt(25) on line 3.
+import math
+print(math.sqrt(25))
+
+>>>
+5.0
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.75.
+
+- FUNCTION IMPORTS
+
+-----------------------------------
+
+# Import *just* the sqrt function from math on line 3!
+
+from math import sqrt
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.76.
+
+- UNIVERSAL IMPORTS
+
+-----------------------------------
+
+# Import *everything* from the math module on line 3!
+
+from math import *
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.77.
+
+- HERE BE DRAGONS
+
+-----------------------------------
+
+import math            		# Imports the math module
+everything = dir(math) 		# Sets everything to a list of things from math
+print (everything)       	# Prints 'em all!
+
+>>>
+['__doc__', '__name__', '__package__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'ceil', 'copysign', 
+'cos', 'cosh', 'degrees', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'hypot', 'isinf', 'isnan', 'ldexp', 'lgamma', 'log', 'log10', 
+'log1p', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.78.
+
+- ON BEYOND STRINGS
+
+-----------------------------------
+
+def biggest_number(*args):
+    print (max(args))
+    return max(args)
+    
+def smallest_number(*args):
+    print (min(args))
+    return min(args)
+
+def distance_from_zero(arg):
+    print (abs(arg))
+    return abs(arg)
+
+
+biggest_number(-10, -5, 5, 10)
+smallest_number(-10, -5, 5, 10)
+distance_from_zero(-10)
+
+>>>
+10
+-10
+10
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.79.
+
+- max()
+
+-----------------------------------
+
+# Set maximum to the max value of any set of numbers on line 3!
+
+maximum = 10
+max(1, 5, 10)
+
+print (maximum)
+
+>>>
+10
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.80.
+
+- min()
+
+-----------------------------------
+
+# Set minimum to the min value of any set of numbers on line 3!
+
+minimum = 5
+min(5, 15, 100)
+
+print (minimum)
+
+>>>
+5
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.81.
+
+- abs()
+
+-----------------------------------
+
+absolute = abs(-42)
+
+print (absolute)
+
+>>>
+42
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.82.
+
+- type()
+
+-----------------------------------
+
+# Print out the types of an integer, a float,
+# and a string on separate lines below.
+
+print (type(420))
+print (type(4.20))
+print (type('nocsi'))
+
+>>>
+<class 'int'>
+<class 'float'>
+<class 'str'>
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.83.
+
+- REVIEW: FUNCTIONS
+
+-----------------------------------
+
+def shut_down(s):
+    if s == 'yes':
+        return "Shutting down"
+    elif s == "no":
+        return "Shutdown Aborted"
+    else:
+        return "Sorry"
+		
+print(shut_down("yes"))
+print(shut_down("no"))
+
+>>>
+Shutting down
+Shutdown Aborted
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.84.
+
+- REVIEW: MODULES
+
+-----------------------------------
+
+import math
+print (math.sqrt(13689))
+
+>>>
+117.0
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.85.
+
+- REVIEW: BUILT-IN FUNCTIONS
+
+-----------------------------------
+
+def distance_from_zero(szo):
+    if type(szo) == int or type(szo) == float:
+        return abs(szo)
+    else:
+        return "Nope"
+		
+print(distance_from_zero(1))
+print(distance_from_zero(1.0))
+
+>>>
+1
+1.0
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.86.
+
+- BEFORE WE BEGIN
+
+-----------------------------------
+
+def answer():
+    return 42
+    
+print(answer())
+
+>>>
+42
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.87.
+
+- PLANNING YOUR TRIP
+
+-----------------------------------
+
+def hotel_cost(nights):
+    return 140 * nights
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.88.
+
+- GETTING THERE
+
+-----------------------------------
+
+def hotel_cost(nights):
+    return 140 * nights
+    
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.89.
+
+- TRANSPORTATION
+
+-----------------------------------
+
+def hotel_cost(nights):
+    return 140 * nights
+    
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+        
+def rental_car_cost(days):
+    car_cost = 40 * days
+    if days >= 7:
+        car_cost -=50
+    elif days >= 3:
+        car_cost -=20
+    return car_cost
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.90.
+
+- PULL IT TOGETHER
+
+-----------------------------------
+
+def hotel_cost(days):
+    return 140 * days
+    
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+        
+def rental_car_cost(days):
+    car_cost = 40 * days
+    if days >= 7:
+        car_cost -=50
+    elif days >= 3:
+        car_cost -=20
+    return car_cost
+    
+def trip_cost(city, days):
+    return plane_ride_cost(city) + rental_car_cost(days) + hotel_cost(days)
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.91.
+
+- HEY, YOU NEVER KNOW
+
+-----------------------------------
+
+def hotel_cost(days):
+    return 140 * days
+    
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+        
+def rental_car_cost(days):
+    car_cost = 40 * days
+    if days >= 7:
+        car_cost -=50
+    elif days >= 3:
+        car_cost -=20
+    return car_cost
+    
+def additional(spending_money):
+    spending_money = 200 * days
+        
+def trip_cost(city, days, spending_money):
+    return plane_ride_cost(city) + rental_car_cost(days) + hotel_cost(days) + spending_money
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.92.
+
+- PLAN YOUR TRIP
+
+-----------------------------------
+
+def hotel_cost(days):
+    return 140 * days
+    
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+        
+def rental_car_cost(days):
+    car_cost = 40 * days
+    if days >= 7:
+        car_cost -=50
+    elif days >= 3:
+        car_cost -=20
+    return car_cost
+    
+def additional(spending_money):
+    spending_money = 200 * days
+        
+def trip_cost(city, days, spending_money):
+    return plane_ride_cost(city) + rental_car_cost(days) + hotel_cost(days) + spending_money
+    
+print(trip_cost("Los Angeles" , 5 , 600))
+
+>>>
+1955
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.93.
+
+- INTRODUCTION TO LISTS
+
+-----------------------------------
+
+zoo_animals = ["pangolin", "cassowary", "sloth", "turtle" ];
+# One animal is missing!
+
+if len(zoo_animals) > 3:
+	print("The first animal at the zoo is the " + zoo_animals[0])
+	print("The second animal at the zoo is the " + zoo_animals[1])
+	print("The third animal at the zoo is the " + zoo_animals[2])
+	print("The fourth animal at the zoo is the " + zoo_animals[3])
+
+>>>
+The first animal at the zoo is the pangolin
+The second animal at the zoo is the cassowary
+The third animal at the zoo is the sloth
+The fourth animal at the zoo is the turtle
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.94.
+
+- ACCESS BY INDEX
+
+-----------------------------------
+
+numbers = [5, 6, 7, 8]
+
+print(numbers)
+print ("Adding the numbers at indices 0 and 2...")
+print (numbers[0] + numbers[2])
+print ("Adding the numbers at indices 1 and 3...")
+print (numbers[1] + numbers[3])
+
+>>>
+[5, 6, 7, 8]
+Adding the numbers at indices 0 and 2...
+12
+Adding the numbers at indices 1 and 3...
+14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.95.
+
+- NEW NEIGHBORS
+
+-----------------------------------
+
+zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
+# Last night our zoo's sloth brutally attacked 
+#the poor tiger and ate it whole.
+
+print(zoo_animals)
+
+# The ferocious sloth has been replaced by a friendly hyena.
+zoo_animals[2] = "hyena"
+
+# What shall fill the void left by our dear departed tiger?
+# Your code here!
+zoo_animals[3] = "turtle"
+
+print(zoo_animals)
+
+>>>
+['pangolin', 'cassowary', 'sloth', 'tiger']
+['pangolin', 'cassowary', 'hyena', 'turtle']
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.96.
+
+- LATE ARRIVALS & LIST LENGTH
+
+-----------------------------------
+
+suitcase = [] 
+suitcase.append("sunglasses")
+
+print (suitcase)
+
+# Your code here!
+suitcase.append("knife")
+suitcase.append("mt")
+suitcase.append("g9")
+
+list_length = len(suitcase) # Set this to the length of suitcase
+
+print ("..and now there are %d items in the suitcase." % (list_length))
+print (suitcase)
+
+>>>
+['sunglasses']
+..and now there are 4 items in the suitcase.
+['sunglasses', 'knife', 'mt', 'g9']
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.97.
+
+- LIST SLICING
+
+-----------------------------------
+
+suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+
+first  = suitcase[0:2]  # The first and second items (index zero and one)
+middle = suitcase[2:4]               # Third and fourth items (index two and three)
+last   = suitcase[4:6]              # The last two items (index four and five)
+
+print(first)
+print(middle)
+print(last)
+
+>>>
+['sunglasses', 'hat']
+['passport', 'laptop']
+['suit', 'shoes']
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.98.
+
+- SLICING LISTS AND STRINGS
+
+-----------------------------------
+
+animals = "catdogfrog"
+cat  = animals[:3]   # The first three characters of animals
+dog  = animals[3:6]              # The fourth through sixth characters
+frog = animals[6:]            # From the seventh character to the end
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.99.
+
+- MAINTAINING ORDER
+
+-----------------------------------
+
+animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+duck_index = animals.index("duck")  # Use index() to find "duck"
+
+print(animals)
+
+# Your code here!
+animals.insert(duck_index, "cobra")
+
+
+print (animals) # Observe what prints after the insert operation
+
+>>>
+['aardvark', 'badger', 'duck', 'emu', 'fennec fox']
+['aardvark', 'badger', 'cobra', 'duck', 'emu', 'fennec fox']
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.100.
+
+- FOR ONE AND ALL
+
+-----------------------------------
+
+my_list = [1,9,3,8,5,7]
+
+for number in my_list:
+    # Your code here
+    print (2 * number)
+
+>>>
+2
+18
+6
+16
+10
+14
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.101.
+
+- MORE WITH FOR
+
+-----------------------------------
+
+start_list = [5, 3, 1, 2, 4]
+square_list = []
+
+# Your code here!
+for number in start_list:
+    square_list.append(number ** 2)   #megszorozza onmagaval
+    square_list.sort()				  #emelkedo sorrendbe allitja
+
+print (square_list)
+
+>>>
+[1, 4, 9, 16, 25]
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.102.
+
+- THIS NEXT PART IS KEY
+
+-----------------------------------
+
+# Assigning a dictionary with three key-value pairs to residents:
+residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+
+print (residents['Puffin']) # Prints Puffin's room number
+
+# Your code here!
+
+print (residents['Sloth'])
+print (residents['Burmese Python'])
+
+>>>
+104
+105
+106
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.103.
+
+- NEW ENTRIES
+
+-----------------------------------
+
+menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+print (menu['Chicken Alfredo'])
+
+# Your code here: Add some dish-price pairs to menu!
+menu['Spin'] = 420
+menu['Reverse'] = 55
+menu['Behind'] = 6.3
+
+print ("There are " + str(len(menu)) + " items on the menu.")
+print (menu)
+
+>>>
+14.5
+There are 4 items on the menu.
+{'Chicken Alfredo': 14.5, 'Behind': 6.3, 'Spin': 420, 'Reverse': 55}
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.104.
+
+- CHANGING YOUR MIND
+
+-----------------------------------
+
+# key - animal_name : value - location 
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+# A dictionary (or list) declaration may break across multiple lines
+
+# Removing the 'Unicorn' entry. (Unicorns are incredibly expensive.)
+del zoo_animals['Unicorn']
+
+# Your code here!
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+
+zoo_animals['Rockhopper Penguin'] = 'Rainforest Exhibit'
+
+print (zoo_animals)
+
+>>>
+{'Atlantic Puffin': 'Arctic Exhibit', 'Rockhopper Penguin': 'Rainforest Exhibit'}
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.105.
+
+- REMOVE A FEW THINGS
+
+-----------------------------------
+
+backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
+backpack.remove('dagger')
+
+print(backpack)
+
+>>>
+['xylophone', 'tent', 'bread loaf']
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.106.
+
+- IT'S DANGEROUS TO GO ALONE! TAKE THIS
+
+-----------------------------------
+
+inventory = {
+    'gold' : 500,
+    'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+    'backpack' : ['xylophone','dagger', 'bedroll','bread loaf']
+}
+
+# Adding a key 'burlap bag' and assigning a list to it
+inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+
+# Sorting the list found under the key 'pouch'
+inventory['pouch'].sort() 
+
+# Your code here
+inventory['pocket'] = ['seashell', 'strange berry', 'lint']
+inventory['backpack'].sort() 
+inventory['backpack'].remove('dagger')
+inventory['gold'] += 50
+
+>>>
+{
+ 'pouch': ['flint', 'gemstone', 'twine'], 
+ 'backpack': ['bedroll', 'bread loaf', 'xylophone'], 
+ 'gold': 550, 
+ 'burlap bag': ['apple', 'small ruby', 'three-toed sloth'], 
+ 'pocket': ['seashell', 'strange berry', 'lint']
+ }
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.107.
+
+- BeFOR WE BEGIN
+
+-----------------------------------
+
+names = ["Adam","Alex","Mariah","Martine","Columbus"]
+
+for elements in names:
+    print (elements)
+
+>>>
+Adam
+Alex
+Mariah
+Martine
+Columbus
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.108.
+
+- THIS IS KEY!
+
+-----------------------------------
+
+webster = {
+	"Aardvark" : "A star of a popular children's cartoon show.",
+    "Baa" : "The sound a goat makes.",
+    "Carpet": "Goes on the floor.",
+    "Dab": "A small amount."
+}
+
+# Add your code below!
+
+for dictionary in webster:
+    print (webster[dictionary])
+
+>>>
+A star of a popular children's cartoon show.
+Goes on the floor.
+A small amount.
+The sound a goat makes.
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.109.
+
+- CONTROL FLOW AND LOOPING
+
+-----------------------------------
+
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+for nums in a:
+    if nums % 2 == 0:
+        print (nums)
+
+>>>
+0
+2
+4
+6
+8
+10
+12
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.110.
+
+- LIST + FUNCTIONS
+
+-----------------------------------
+
+# Write your function below!
+def fizz_count(numbers):
+    count = 0
+    for x in numbers:
+        if x == "fizz":
+            count = count + 1
+    return count
+
+lost = ["fizz", "buzz", "fizz"]
+small = fizz_count(lost)
+print (small)
+
+>>>
+2
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.111.
+
+- STRING LOOPING
+
+-----------------------------------
+
+for letter in "Codecademy":
+    print (letter)
+    
+# Empty lines to make the output pretty
+print
+print
+
+word = "Programming is fun!"
+
+for letter in word:
+    # Only print out the letter i
+    if letter == "i":
+        print (letter)
+
+>>>
+C
+o
+d
+e
+c
+a
+d
+e
+m
+y
+
+
+i
+i
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.112.
+
+- YOUR OWN STORE
+
+-----------------------------------
+
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3    
+    }
+	
+print(prices)
+
+>>>
+{'banana': 4, 'orange': 1.5, 'apple': 2, 'pear': 3}
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.113.
+
+- INVESTING IN STOCK
+
+-----------------------------------
+
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3    
+    }
+    
+stock = {
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+    }
+
+print(prices)
+print(stock)
+
+>>>
+{'orange': 1.5, 'apple': 2, 'pear': 3, 'banana': 4}
+{'orange': 32, 'apple': 0, 'pear': 15, 'banana': 6}
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.114.
+
+- KEEPING TRACK OF THE PRODUCE
+
+-----------------------------------
+
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3    
+    }
+    
+stock = {
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+    }
+
+for key in prices:
+    print (key)
+    print ("price: %s" % prices[key])
+    print ("stock: %s" % stock[key])
+
+>>>
+orange
+price: 1.5
+stock: 32
+pear
+price: 3
+stock: 15
+banana
+price: 4
+stock: 6
+apple
+price: 2
+stock: 0
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.115.
+
+- SOMETHING OF VALUE
+
+-----------------------------------
+
+prices = {
+    "banana" : 4,
+    "apple"  : 2,
+    "orange" : 1.5,
+    "pear"   : 3,
+}
+stock = {
+    "banana" : 6,
+    "apple"  : 0,
+    "orange" : 32,
+    "pear"   : 15,
+}
+
+for key in prices:
+    print (key)
+    print ("price: %s" % prices[key])
+    print ("stock: %s" % stock[key])
+    
+totalValue = 0
+for item in prices:
+    totalValue += prices[item] * stock[item]
+
+print (totalValue)
+
+>>>
+orange
+price: 1.5
+stock: 32
+pear
+price: 3
+stock: 15
+banana
+price: 4
+stock: 6
+apple
+price: 2
+stock: 0
+117.0
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.116.
+
+- SHOPPING AT THE MARKET
+
+-----------------------------------
+
+groceries = ["banana", "orange", "apple"]
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.117.
+
+- MAKING A PURCHASE
+
+-----------------------------------
+
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+}
+    
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+    total = 0
+    for item in food:
+        total += prices[item]
+    return total
+    
+print (compute_bill(shopping_list))
+
+>>>
+7.5
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.118.
+
+- STOCKING OUT
+
+-----------------------------------
+
+groceries = ["banana", "orange","apple"]
+
+stock = {"banana": 6,"apple": 0,"orange": 32,"pear": 15}
+prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
+
+def compute_bill(food):
+    total = 0
+    for item in food:  
+        if stock[item] > 0: 
+            total += prices[item] 
+            stock[item] -= 1
+    return total
+	
+print(compute_bill(groceries))
+	
+>>>
+5.5
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.119.
+
+-----------------------------------
+
+same as 1.118.
+
+-----------------------------------
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.120.
+
+- LESSON NUMBER ONE
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [],
+    "quizzes": [],
+    "tests": []
+    }
+
+alice = {
+    "name": "Alice",
+    "homework": [],
+    "quizzes": [],
+    "tests": []
+    }
+
+tyler = {
+    "name": "Tyler",
+    "homework": [],
+    "quizzes": [],
+    "tests": []
+    }
+	
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.121.
+
+- WHAT'S THE SCORE
+
+-----------------------------------
+
+Now fill out your lloyd dictionary with the appropriate scores. To save you some time, we've filled out the rest for you.
+
+Homework: 90.0, 97.0, 75.0, 92.0
+Quizzes: 88.0, 40.0, 94.0
+Test Scores: 75.0, 90.0
+
+Make sure to include the decimal points so your grades are stored as floats! This will be important later.
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [90.0, 97.0, 75.0, 92.0],
+    "quizzes": [88.0, 40.0, 94.0],
+    "tests": [75.0, 90.0]
+}
+alice = {
+    "name": "Alice",
+    "homework": [100.0, 92.0, 98.0, 100.0],
+    "quizzes": [82.0, 83.0, 91.0],
+    "tests": [89.0, 97.0]
+}
+tyler = {
+    "name": "Tyler",
+    "homework": [0.0, 87.0, 75.0, 22.0],
+    "quizzes": [0.0, 75.0, 78.0],
+    "tests": [100.0, 100.0]
+}
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.122.
+
+- PUT IT TOGETHER
+
+-----------------------------------
+
+Now lets put the three dictionaries in a list together.
+
+my_list = [1, 2, 3]
+The above example is just a reminder on how to create a list. Afterwards, my_list contains 1, 2, and 3.
+
+Instructions
+Below your code, create a list called students that contains lloyd, alice, and tyler.
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [90.0, 97.0, 75.0, 92.0],
+    "quizzes": [88.0, 40.0, 94.0],
+    "tests": [75.0, 90.0]
+}
+alice = {
+    "name": "Alice",
+    "homework": [100.0, 92.0, 98.0, 100.0],
+    "quizzes": [82.0, 83.0, 91.0],
+    "tests": [89.0, 97.0]
+}
+tyler = {
+    "name": "Tyler",
+    "homework": [0.0, 87.0, 75.0, 22.0],
+    "quizzes": [0.0, 75.0, 78.0],
+    "tests": [100.0, 100.0]
+}
+
+students = [lloyd, alice, tyler]
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.123.
+
+- FOR THE RECORD
+
+-----------------------------------
+
+Excellent. Now you need a hard copy document with all of your students' grades.
+
+The example above is just to remind you how to create a dictionary and then to access the item stored by the "cat" key.
+
+Instructions
+for each student in your students list, print out that student's data, as follows:
+
+print the student's name
+print the student's homework
+print the student's quizzes
+print the student's tests
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [90.0, 97.0, 75.0, 92.0],
+    "quizzes": [88.0, 40.0, 94.0],
+    "tests": [75.0, 90.0]
+}
+alice = {
+    "name": "Alice",
+    "homework": [100.0, 92.0, 98.0, 100.0],
+    "quizzes": [82.0, 83.0, 91.0],
+    "tests": [89.0, 97.0]
+}
+tyler = {
+    "name": "Tyler",
+    "homework": [0.0, 87.0, 75.0, 22.0],
+    "quizzes": [0.0, 75.0, 78.0],
+    "tests": [100.0, 100.0]
+}
+
+students = [lloyd, alice, tyler]
+
+for data in students:
+    print (data["name"])
+    print (data["homework"])
+    print (data["quizzes"])
+    print (data["tests"])
+	
+>>>
+Lloyd
+[90.0, 97.0, 75.0, 92.0]
+[88.0, 40.0, 94.0]
+[75.0, 90.0]
+Alice
+[100.0, 92.0, 98.0, 100.0]
+[82.0, 83.0, 91.0]
+[89.0, 97.0]
+Tyler
+[0.0, 87.0, 75.0, 22.0]
+[0.0, 75.0, 78.0]
+[100.0, 100.0]
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.124 - It's Okay to be Average
+
+-----------------------------------
+
+Write a function average that takes a list of numbers and returns the average.
+
+Define a function called average that has one argument, numbers.
+Inside that function, call the built-in sum() function with the numbers list as a parameter. Store the result in a variable called total.
+Like the example above, use float() to convert total and store the result in total.
+Divide total by the length of the numbers list. Use the built-in len() function to calculate that.
+Return that result.
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [90.0, 97.0, 75.0, 92.0],
+    "quizzes": [88.0, 40.0, 94.0],
+    "tests": [75.0, 90.0]
+}
+alice = {
+    "name": "Alice",
+    "homework": [100.0, 92.0, 98.0, 100.0],
+    "quizzes": [82.0, 83.0, 91.0],
+    "tests": [89.0, 97.0]
+}
+tyler = {
+    "name": "Tyler",
+    "homework": [0.0, 87.0, 75.0, 22.0],
+    "quizzes": [0.0, 75.0, 78.0],
+    "tests": [100.0, 100.0]
+}
+
+# Add your function below!
+
+def average(numbers):
+    def sum(numbers):
+        total = 0
+        for number in numbers:
+            total += number
+        return total
+    return float(sum(numbers))/len(numbers)
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.125 - Just Weight and See
+
+-----------------------------------
+
+Write a function called get_average that takes a student dictionary (like lloyd, alice, or tyler) as input and returns his/her weighted average.
+
+Define a function called get_average that takes one argument called student.
+Make a variable homework that stores the average() of student["homework"].
+Repeat step 2 for "quizzes" and "tests".
+Multiply the 3 averages by their weights and return the sum of those three. Homework is 10%, quizzes are 30% and tests are 60%.
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [90.0, 97.0, 75.0, 92.0],
+    "quizzes": [88.0, 40.0, 94.0],
+    "tests": [75.0, 90.0]
+}
+alice = {
+    "name": "Alice",
+    "homework": [100.0, 92.0, 98.0, 100.0],
+    "quizzes": [82.0, 83.0, 91.0],
+    "tests": [89.0, 97.0]
+}
+tyler = {
+    "name": "Tyler",
+    "homework": [0.0, 87.0, 75.0, 22.0],
+    "quizzes": [0.0, 75.0, 78.0],
+    "tests": [100.0, 100.0]
+}
+
+# Add your function below!
+
+def average(numbers):
+    def sum(numbers):
+        total = 0
+        for number in numbers:
+            total += number
+        return total
+    return float(sum(numbers))/len(numbers)
+    
+def get_average (student):
+    summa = 0
+    for key in student:
+        if key == "homework":
+            summa += average(student ["homework"]) * 0.1
+        elif key == "quizzes":
+            summa += average(student ["quizzes"]) * 0.3
+        elif key == "tests":
+            summa += average(student ["tests"]) * 0.6
+    return summa
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------------------------------------------------------------------
+
+1.126 - Sending a Letter
+
+-----------------------------------
+
+Define a new function called get_letter_grade that has one argument called score. Expect score to be a number.
+Inside your function, test score using a chain of if: / elif: / else: statements, like so:
+
+If score is 90 or above: return "A"
+Else if score is 80 or above: return "B"
+Else if score is 70 or above: return "C"
+Else if score is 60 or above: return "D"
+Otherwise: return "F"
+
+Finally, test your function! Call your get_letter_grade function with the result of get_average(lloyd). Print the resulting letter grade.
+
+-----------------------------------
+
+lloyd = {
+    "name": "Lloyd",
+    "homework": [90.0, 97.0, 75.0, 92.0],
+    "quizzes": [88.0, 40.0, 94.0],
+    "tests": [75.0, 90.0]
+}
+alice = {
+    "name": "Alice",
+    "homework": [100.0, 92.0, 98.0, 100.0],
+    "quizzes": [82.0, 83.0, 91.0],
+    "tests": [89.0, 97.0]
+}
+tyler = {
+    "name": "Tyler",
+    "homework": [0.0, 87.0, 75.0, 22.0],
+    "quizzes": [0.0, 75.0, 78.0],
+    "tests": [100.0, 100.0]
+}
+
+# Add your function below!
+
+def average(numbers):
+    def sum(numbers):
+        total = 0
+        for number in numbers:
+            total += number
+        return total
+    return float(sum(numbers))/len(numbers)
+    
+def get_average (student):
+    summa = 0
+    for key in student:
+        if key == "homework":
+            summa += average(student ["homework"]) * 0.1
+        elif key == "quizzes":
+            summa += average(student ["quizzes"]) * 0.3
+        elif key == "tests":
+            summa += average(student ["tests"]) * 0.6
+    return summa
+
+def get_letter_grade(score):
+    if score >= 90:
+        return "A"
+    elif score < 90 and score >= 80:
+        return "B"
+    elif score < 80 and score >= 70:
+        return "C"
+    elif score < 70 and score >= 60:
+        return "D"
+    else:
+        return "F"
+
+>>>
+None
+>>>
+
+----------------------------------------------------------------------
