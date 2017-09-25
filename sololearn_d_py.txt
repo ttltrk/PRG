@@ -170,13 +170,17 @@
 
 Python is a:
 
-  - Programming language
+>>>
+Programming language
+>>>
 
 --------------------
 
 Which of these statements is true?
 
-  - CPython is an implementation of Python
+>>>
+CPython is an implementation of Python
+>>>
 
 -------------------------------------------------------------
 01.002. Your first program
