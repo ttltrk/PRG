@@ -64,7 +64,16 @@ EXCEPTIONS & FILES
 -------------------------------------------------------------
 
 --------------------
-
+04.001. Exceptions
+04.002. Exception Handling
+04.003. finally
+04.004. Raising Exceptions
+04.005. Assertions
+04.006. Opening Files
+04.007. Reading Files
+04.008. Writing Files
+04.009. Working with Files
+******. MODULE 3 QUIZ
 --------------------
 
 -------------------------------------------------------------
