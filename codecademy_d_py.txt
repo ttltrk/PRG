@@ -35,7 +35,7 @@ PYTHON
 
 ----------------------------------------------------------------------
 
-021. ESCAPING CHARACTERS
+021. ESCAPING CHARACTERS 
 022. ACCESS BY INDEX 
 023. STRING METHODS
 024. lower()
