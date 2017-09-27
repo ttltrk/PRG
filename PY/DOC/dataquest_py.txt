@@ -1,7 +1,7 @@
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 dataquest.io
-
 PYTHON
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -33,7 +33,7 @@ SECTION 2 - FILES AND LOOPS
 016. SPLITTING
 017. LOOPS
 018. PRACTICE - LOOPS
-019.
+019. List of Lists
 020.
 
 ----------------------------------------------------------------------
@@ -408,6 +408,53 @@ for nums in rows:
 ['Albuquerque,749', 'Anaheim,371', 'Anchorage,828', 'Arlington,503', 'Atlanta,1379', 
 'Aurora,425', 'Austin,408', 'Bakersfield,542', 'Baltimore,1405', 'Boston,835']
 ['Albuquerque,749' ...
+>>>
+
+--------------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+--------------------------------------------------------------------------
+
+019. List of Lists
+
+----------------------------------
+splits each element in three_rows (which contains the first three elements from rows) on the comma delimiter (,)
+appends the resulting list (split_list) to a new list we create (final_list)
+displays the final list using the print() function
+----------------------------------
+
+three_rows = ["Albuquerque,749", "Anaheim,371", "Anchorage,828"]
+final_list = []
+for row in three_rows:
+    split_list = row.split(',')
+    final_list.append(split_list)
+print(final_list)
+print(final_list[0])
+print(final_list[1])
+print(final_list[2])
+
+>>>
+ row
+ split_list
+ three_rows
+ final_list
+>>>
+
+--------------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+--------------------------------------------------------------------------
+
+020. 
+
+----------------------------------
+
+----------------------------------
+
+>>>
+
 >>>
 
 --------------------------------------------------------------------------
