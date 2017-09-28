@@ -163,6 +163,17 @@ PYTHON
 139. List manipulation in functions
 140. Printing out a list item by item in a function
 
+141. Modifying each element in a list in a function
+142. Passing a range into a function
+143. Iterating over a list in a function
+144.
+145.
+146.
+147.
+148.
+149.
+150.
+
 ----------------------------------------------------------------------
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -4132,10 +4143,27 @@ print_list(n)
 
 ----------------------------------------------------------------------
 
+141. Modifying each element in a list in a function
+
 ----------------------------------------------------------------------
 
->>>
+"""
+Create a function called double_list that takes a single argument x (which will be a list) 
+and multiplies each element by 2 and returns that list. Use the existing code as a scaffold.
+"""
 
+n = [3, 5, 7]
+
+def double_list(x):
+  for i in range(0, len(x)):
+    x[i] = x[i] * 2
+  return x
+# Don't forget to return your new list!
+
+print(double_list(n))
+
+>>>
+[6, 10, 14]
 >>>
 
 ----------------------------------------------------------------------
@@ -4144,10 +4172,23 @@ print_list(n)
 
 ----------------------------------------------------------------------
 
+142. Passing a range into a function
+
 ----------------------------------------------------------------------
 
->>>
+"""
+On line 6, replace the ____ with a range() that returns a list containing [0, 1, 2].
+"""
 
+def my_function(x):
+    for i in range(0, len(x)):
+        x[i] = x[i] * 2
+    return x
+
+print(my_function(range(0,3))) # Add your range between the parentheses!
+
+>>>
+[0, 2 ,4]
 >>>
 
 ----------------------------------------------------------------------
@@ -4156,7 +4197,33 @@ print_list(n)
 
 ----------------------------------------------------------------------
 
+143. Iterating over a list in a function
+
 ----------------------------------------------------------------------
+
+"""
+Create a function that returns the sum of a list of numbers.
+On line 3, define a function called total that accepts one argument called numbers. It will be a list.
+Inside the function, create a variable called result and set it to zero.
+Using one of the two methods above, iterate through the numbers list. For each number, add it to result.
+Finally, return result.
+"""
+
+n = [3, 5, 7]
+
+def total(numbers):
+  result = 0
+  for i in range(0,len(numbers)):
+    result += numbers[i]
+  return result
+
+"""
+Or :)
+"""
+
+n = [3, 5, 7]
+ns = sum(n)
+print(ns)
 
 >>>
 
