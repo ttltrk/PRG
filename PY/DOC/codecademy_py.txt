@@ -1,188 +1,108 @@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
+*************************************************************************************************************
 codecademy.com
+Learn Python
+*************************************************************************************************************
 
-PYTHON
+=============================================================================================================
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01. Python Syntax
 
-----------------------------------------------------------------------
+01.001. Python Syntax
 
-001. WELCOME
-002. VARIABLES
-003. BOOLEANS
-004. YOU HAVE BEEN REASSIGNED
-005. WHITESPACE
-006. WHITESPACE MEANS RIGHT SPACE
-007. A MATTER OF INTERPRETATION
-008. A SINGLE LINE COMMENTS
-009. MULTI LINE COMMENTS
-010. MATH
+01.001.01. Welcome!
+01.001.02. Variables
+01.001.03. Booleans
+01.001.04. You've Been Reassigned
+01.001.05. Whitespace
+01.001.06. Whitespace Means Right Space
+01.001.07. A Matter of Interpretation
+01.001.08. Single Line Comments
+01.001.09. Multi-Line Comments
+01.001.10. Math
+01.001.11. Exponentiation
+01.001.12. Modulo
+01.001.13. Bringing It All Together
 
-011. EXPONENTIATION
-012. MODULO
-013. BRING IT ALL TOGETHER
-014. THE MEAL
-015. THE TAX
-016. THE TIP
-017. REASSIGN IN A SINGLE LINE
-018. THE TOTAL
-019. THE STRINGS
-020. THE PRACTICE
+01.002. Tip Calculator
 
-021. ESCAPING CHARACTERS 
-022. ACCESS BY INDEX 
-023. STRING METHODS
-024. lower()
-025. upper()
-026. str()
-027. THE MINISTRY OF SILLY WALKS
-028. PRINTING STRINGS
-029. PRINTING VARIABLES
-030. STRING CONCATENATION
+02. Strings and Console Output
 
-031. EXPLICIT STRING CONVERSION
-032. STRING FORMAT WITH %, PART 1
-033. STRING FORMAT WITH %, PART 2
-034. COMPLETELY FAMILIAR
-035. THE DATETIME LIBRARY
-036. GETTING THE CURRENT DATE AND TIME
-037. EXTRACTING INFORMATION
-038. HOT DATE
-039. PRETTY TIME
-040. GRANDE FINALE
+02.001. Strings & Console Output
+02.002. Date and Time
 
-041. GO WITH THE FLOW
-042. COMPARE CLOSELY 
-043. COMPARE CLOSELIER
-044. HOW THE TABLES HAVE TURNED
-045. TO BE OR NOT TO BE
-046. AND
-047. OR
-048. NOT
-049. THIS AND THAT
-050. MIX 'N' MATCH
+03. Conditionals and Control Flow
 
-051. CONDITIONAL STATEMENT SYNTAX
-052. IF YOU'RE HAVING
-053. ELSE PROBLEMS, I FEEL BAD FOR YOU, SON
-054. I GOT 99 PROBLEMS, BUT A SWITCH AIN'T ONE
-055. THE BIG IF
-056. BREAK IT DOWN
-057. AHOY
-058. INPUT
-059. CHECK YOURSELF
-060. CHECK YOURSELF SOME MORE
+03.001. Conditionals & Control Flow
+03.002. PygLatin
 
-061. POP QUIZ
-062. Ay B C
-063. Ay B C (2)
-064. MOVE IT ON BACK 
-065. ENDING UP
-066. TESTING
-067. WHAT GOOD ARE FUNCTIONS
-068. FUNCTION JUNCTION
-069. CALL AND RESPONSE
-070. PARAMETERS AND ARGUMENTS
+04. Functions
 
-071. FUNCTIONS CALLING FUNCTIONS
-072. PRACTICE MAKES PERFECT
-073. I KNOW KUNG FU
-074. GENERIC IMPORTS
-075. FUNCTION IMPORTS
-076. UNIVERSAL IMPORTS
-077. HERE BE DRAGONS
-078. ON BEYOND STRINGS
-079. max()
-080. min()
+04.001. Functions
+04.002. Taking a Vacation
 
-081. abs()
-082. type()
-083. REVIEW: FUNCTIONS
-084. REVIEW: MODULES
-085. REVIEW: BUILT-IN FUNCTIONS
-086. BEFORE WE BEGIN
-087. PLANNING YOUR TRIP
-088. GETTING THERE
-089. TRANSPORTATION
-090. PULL IT TOGETHER
+05. Lists & Dictionaries
 
-091. HEY, YOU NEVER KNOW
-092. PLAN YOUR TRIP
-093. INTRODUCTION TO LISTS
-094. ACCESS BY INDEX
-095. NEW NEIGHBORS
-096. LATE ARRIVALS & LIST LENGTH
-097. LIST SLICING
-098. SLICING LISTS AND STRINGS
-099. MAINTAINING ORDER
-100. FOR ONE AND ALL
+05.001. Python Lists and Dictionaries
+05.002. A Day at the Supermarket
 
-101. MORE WITH FOR
-102. THIS NEXT PART IS KEY
-103. NEW ENTRIES
-104. CHANGING YOUR MIND
-105. REMOVE A FEW THINGS
-106. IT'S DANGEROUS TO GO ALONE! TAKE THIS
-107. BeFOR WE BEGIN
-108. THIS IS KEY!
-109. CONTROL FLOW AND LOOPING
-110. LIST + FUNCTIONS
+06. Students Becomes the Teachers
 
-111. STRING LOOPING
-112. YOUR OWN STORE
-113. INVESTING IN STOCK
-114. KEEPING TRACK OF THE PRODUCE
-115. SOMETHING OF VALUE
-116. SHOPPING AT THE MARKET
-117. MAKING A PURCHASE
-118. STOCKING OUT
-119. empty
-120. LESSON NUMBER ONE
+06.001. Students Becomes the Teachers
 
-121. WHAT'S THE SCORE
-122. PUT IT TOGETHER
-123. FOR THE RECORD
-124. It's Okay to be Average
-125. Just Weight and See
-126. Sending a Letter
-127. Part of the Whole
-128. How is Everybody Doing?
-129  List accessing
-130. List Element Modification
+07. Lists and Functions
 
-131. Appending to a list
-132. Removing elements from lists
-133. Changing the functionality of a function
-134. More than one argument
-135. Strings in functions
-136. Passing a list to a function
-137. Using an element from a list in a function
-138. Modifying an element of a list in a function
-139. List manipulation in functions
-140. Printing out a list item by item in a function
+07.001. Lists and Functions
+07.002. Battleship!
 
-141. Modifying each element in a list in a function
-142. Passing a range into a function
-143. Iterating over a list in a function
-144.
-145.
-146.
-147.
-148.
-149.
-150.
+08. Loops
 
-----------------------------------------------------------------------
+08.001. Loops
+08.002. Practice Makes Perfect
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+09. Exam Statistics
 
-----------------------------------------------------------------------
+09.001. Exam Statistics
 
-001. WELCOME
+10. Advanced Topics in Python
 
------------------------------------
+10.001. Advanced Topics in Python
+10.002. Introduction to Bitwise Operators
+
+11. Introduction to Classes
+
+11.001. Introduction to Classes
+11.002. Classes
+
+12. File Input and Output
+
+12.001. File Input/Output
+
+13. PYTHON FINAL PROJECT
+
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01. 01. Python Syntax
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+01.001. Python Syntax
+=============================================================================================================
+
+This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
+you can use for countless standalone projects or scripting applications.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+01.001.01. Welcome!
+
+Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
+Ready to learn Python? Click Run to continue!
+
+"""
+Ready to learn Python? Click Run to continue
+"""
 
 print ("Welcome to Python!")
 
@@ -190,15 +110,23 @@ print ("Welcome to Python!")
 Welcome to Python!
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.2. Variables
 
-----------------------------------------------------------------------
+Creating web apps, games, and search engines all involve storing and working with different types of data. 
+They do so using variables. A variable stores a piece of data, and gives it a specific name.
 
-002. VARIABLES
+For example:
 
------------------------------------
+spam = 5
+
+The variable spam now stores the number 5.
+
+"""
+Set the variable my_variable equal to the value 10.
+Click the Run button to run your code.
+"""
 
 my_variable = 10
 spam = 5
@@ -217,15 +145,29 @@ print(curry)
 30
 >>>
 
-----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-----------------------------------------------------------------------
+01.001.3. Booleans
 
-003. BOOLEANS
+Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
+A second data type is called a boolean.
 
------------------------------------
+A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, 
+a boolean can only be True or False.
+
+You can use variables to store booleans like this:
+
+a = True
+b = False
+
+"""
+Set the following variables to the corresponding values:
+
+my_int to the value 7
+my_float to the value 1.23
+my_bool to the value True
+"""
 
 my_int = 7
 my_float = 1.23
@@ -245,15 +187,19 @@ True
 True False
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.4. You've Been Reassigned
 
-----------------------------------------------------------------------
+Now you know how to use variables to store values.
 
-004. YOU HAVE BEEN REASSIGNED
+Say my_int = 7. You can change the value of a variable by "reassigning" it, like this:
 
------------------------------------
+my_int = 3
+
+"""
+Try it and see! Change the value of my_int from 7 to 3 in the editor
+"""
 
 my_int = 7
 my_int = 3
@@ -264,15 +210,17 @@ print (my_int)
 3
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.5. Whitespace
 
-----------------------------------------------------------------------
+In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
-005. WHITESPACE
+"""
+The code on the right is badly formatted. Hit Run to see what happens.
 
------------------------------------
+You should see an error message. We'll fix it in the next exercise!
+"""
 
 def spam():
 eggs = 12
@@ -284,18 +232,23 @@ print spam()
 Syntax error
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.6. Whitespace Means Right Space
 
-----------------------------------------------------------------------
+Now let's examine the error from the last lesson:
 
-006. WHITESPACE MEANS RIGHT SPACE
+IndentationError: expected an indented block
+You'll get this error whenever your whitespace is off.
 
------------------------------------
+On Codecademy, we will use two-space indentation (two blank spaces for each indentation) 
+to make sure you can easily read code with multiple indentations in your browser. Beyond Codecademy, 
+you will also see Python code that uses four-space indentation. Both are correct, 
+as long as you make sure to be consistent throughout your code.
 
 """
-visszaadja a tojasok erteket 
+Properly indent the code with two spaces before eggs on line 2 and another two before return on line 3.
+You should indent your code with two spaces.
 """
 
 def spam():
@@ -308,15 +261,22 @@ print (spam())
 12
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.7. A Matter of Interpretation
 
-----------------------------------------------------------------------
+The window on the right side of the page is called the interpreter. 
+The interpreter runs your code line by line, and checks for any errors.
 
-007. A MATTER OF INTERPRETATION
+cats = 3
 
------------------------------------
+In the above example, we create a variable cats and assign it the value of 3.
+
+"""
+Create a variable called spam and assign it the value of True.
+
+Create a variable called eggs and assign it the value of False.
+"""
 
 spam = True
 eggs = False
@@ -329,20 +289,22 @@ True
 False
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.8. Single Line Comments
 
-----------------------------------------------------------------------
+You probably saw us use the # sign a few times in earlier exercises. 
+The # sign is for comments. A comment is a line of text that Python won't try to run as code. 
+It's just for humans to read.
 
-008. A SINGLE LINE COMMENTS
-
------------------------------------
+Comments make your program easier to understand. When you look back at your code or others want to collaborate with you, 
+they can read your comments and easily figure out what your code does.
 
 """
-a valtozo erteke 42
+Write a comment on line 1. Make sure it starts with #. It can say anything you like.
 """
 
+#a valtozo erteke 42
 mysterious_variable = 42
 
 print(mysterious_variable)
@@ -351,15 +313,22 @@ print(mysterious_variable)
 42
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.9. Multi-Line Comments
 
-----------------------------------------------------------------------
+The # sign will only comment out a single line. While you could write a multi-line comment, 
+starting each line with #, that can be a pain.
 
-009. MULTI LINE COMMENTS
+Instead, for multi-line comments, you can include the whole block in a set of triple quotation marks:
 
------------------------------------
+"""Sipping from your cup 'til it runneth over,
+Holy Grail.
+"""
+
+"""
+Write a multi-line comment in the editor. It can be any text you'd like!
+"""
 
 """
 ez egy sima
@@ -374,15 +343,20 @@ print(mysterious_variable)
 11
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.10. Math
 
-----------------------------------------------------------------------
+Great! Now let's do some math. You can add, subtract, multiply, divide numbers like this
 
-010. MATH
+addition = 72 + 23
+subtraction = 108 - 204
+multiplication = 108 * 0.5
+division = 108 / 9
 
------------------------------------
+"""
+Set the variable count_to equal to the sum of two big numbers.
+"""
 
 count_to = 72 + 23
  
@@ -392,15 +366,23 @@ print (count_to)
 95
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.11. Exponentiation
 
-----------------------------------------------------------------------
+All that math can be done on a calculator, so why use Python? Because you can combine math with other data types 
+(e.g. booleans) and commands to create useful programs. Calculators just stick to numbers.
 
-011. EXPONENTIATION
+Now let's work with exponents.
 
------------------------------------
+eight = 2 ** 3
+In the above example, we create a new variable called eight and set it to 8, or the result of 2 to the power to 3 (2^3).
+
+Notice that we use ** instead of * or the multiplication operator.
+
+"""
+Create a new variable called eggs and use exponents to set eggs equal 100. Try raising 10 to the power of 2.
+"""
 
 """
 10 ** 2 == 10 x 10
@@ -416,19 +398,15 @@ print (eggs)
 100
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.12. Modulo
 
-----------------------------------------------------------------------
-
-012. MODULO
-
------------------------------------
+Our final operator is modulo. Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, 
+because 2 goes into 3 evenly once, with 1 left over.
 
 """
-A modulo egy szamnak egy masik szammal valo egeszosztasabol szarmazo maradekat
-adja meg.
+Use modulo to set spam equal to 1. You can use any two numbers that will leave a remainder of 1 to do this.
 """
 
 spam = 3 % 2
@@ -439,15 +417,26 @@ print (spam)
 1
 >>>
 
-----------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+01.001.13. Bringing It All Together
 
-----------------------------------------------------------------------
+Nice work! So far, you've learned about:
 
-013. BRING IT ALL TOGETHER
+Variables, which store values for later use
+Data types, such as numbers and booleans
+Whitespace, which separates statements
+Comments, which make your code easier to read
+Arithmetic operations, including +, -, *, /, **, and %
 
------------------------------------
+"""
+Let's put our knowledge to work.
+
+Write a single-line comment on line 1. It can be anything! (Make sure it starts with #)
+Set the variable monty equal to True.
+Set another variable python equal to 1.234.
+Set a third variable monty_python equal to python squared.
+"""
 
 monty = True
 python = 1.234
@@ -459,6 +448,31 @@ print(monty_python)
 >>>
 1.522756
 >>>
+
+=============================================================================================================
+01.002. Tip Calculator
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+02.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+=============================================================================================================
+02.001.
+=============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
 
 ----------------------------------------------------------------------
 
