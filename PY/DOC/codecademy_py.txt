@@ -100,11 +100,13 @@ you can use for countless standalone projects or scripting applications.
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 Ready to learn Python? Click Run to continue!
 
+-------------------------------------------------------------------------------
 """
 Ready to learn Python? Click Run to continue
 """
 
 print ("Welcome to Python!")
+-------------------------------------------------------------------------------
 
 >>>
 Welcome to Python!
@@ -123,6 +125,7 @@ spam = 5
 
 The variable spam now stores the number 5.
 
+-------------------------------------------------------------------------------
 """
 Set the variable my_variable equal to the value 10.
 Click the Run button to run your code.
@@ -137,6 +140,7 @@ print(my_variable)
 print(spam)
 print(age)
 print(curry)
+-------------------------------------------------------------------------------
 
 >>>
 10
@@ -161,6 +165,7 @@ You can use variables to store booleans like this:
 a = True
 b = False
 
+-------------------------------------------------------------------------------
 """
 Set the following variables to the corresponding values:
 
@@ -179,6 +184,7 @@ print(my_int)
 print(my_float)
 print(my_bool)
 print(a, b)
+-------------------------------------------------------------------------------
 
 >>>
 7
@@ -197,6 +203,7 @@ Say my_int = 7. You can change the value of a variable by "reassigning" it, like
 
 my_int = 3
 
+-------------------------------------------------------------------------------
 """
 Try it and see! Change the value of my_int from 7 to 3 in the editor
 """
@@ -205,6 +212,7 @@ my_int = 7
 my_int = 3
 
 print (my_int)
+-------------------------------------------------------------------------------
 
 >>>
 3
@@ -216,6 +224,7 @@ print (my_int)
 
 In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
+-------------------------------------------------------------------------------
 """
 The code on the right is badly formatted. Hit Run to see what happens.
 
@@ -227,6 +236,7 @@ eggs = 12
 return eggs
         
 print spam()
+-------------------------------------------------------------------------------
 
 >>>
 Syntax error
@@ -246,6 +256,7 @@ to make sure you can easily read code with multiple indentations in your browser
 you will also see Python code that uses four-space indentation. Both are correct, 
 as long as you make sure to be consistent throughout your code.
 
+-------------------------------------------------------------------------------
 """
 Properly indent the code with two spaces before eggs on line 2 and another two before return on line 3.
 You should indent your code with two spaces.
@@ -256,6 +267,7 @@ def spam():
     return eggs
         
 print (spam())
+-------------------------------------------------------------------------------
 
 >>>
 12
@@ -272,6 +284,8 @@ cats = 3
 
 In the above example, we create a variable cats and assign it the value of 3.
 
+
+-------------------------------------------------------------------------------
 """
 Create a variable called spam and assign it the value of True.
 
@@ -283,6 +297,7 @@ eggs = False
 
 print(spam)
 print(eggs)
+-------------------------------------------------------------------------------
 
 >>>
 True
@@ -300,6 +315,7 @@ It's just for humans to read.
 Comments make your program easier to understand. When you look back at your code or others want to collaborate with you, 
 they can read your comments and easily figure out what your code does.
 
+-------------------------------------------------------------------------------
 """
 Write a comment on line 1. Make sure it starts with #. It can say anything you like.
 """
@@ -308,6 +324,7 @@ Write a comment on line 1. Make sure it starts with #. It can say anything you l
 mysterious_variable = 42
 
 print(mysterious_variable)
+-------------------------------------------------------------------------------
 
 >>>
 42
@@ -330,6 +347,7 @@ Holy Grail.
 Write a multi-line comment in the editor. It can be any text you'd like!
 """
 
+-------------------------------------------------------------------------------
 """
 ez egy sima
 2 soros komment
@@ -338,6 +356,7 @@ ez egy sima
 mysterious_variable = 11
 
 print(mysterious_variable)
+-------------------------------------------------------------------------------
 
 >>>
 11
@@ -354,6 +373,7 @@ subtraction = 108 - 204
 multiplication = 108 * 0.5
 division = 108 / 9
 
+-------------------------------------------------------------------------------
 """
 Set the variable count_to equal to the sum of two big numbers.
 """
@@ -361,6 +381,7 @@ Set the variable count_to equal to the sum of two big numbers.
 count_to = 72 + 23
  
 print (count_to)
+-------------------------------------------------------------------------------
 
 >>>
 95
@@ -380,11 +401,10 @@ In the above example, we create a new variable called eight and set it to 8, or 
 
 Notice that we use ** instead of * or the multiplication operator.
 
+-------------------------------------------------------------------------------
 """
 Create a new variable called eggs and use exponents to set eggs equal 100. Try raising 10 to the power of 2.
-"""
 
-"""
 10 ** 2 == 10 x 10
 10 ** 3 == 10 x 10 x 10
 10 ** 4 == 10 x 10 x 10 x 10 
@@ -393,6 +413,7 @@ Create a new variable called eggs and use exponents to set eggs equal 100. Try r
 eggs = 10 ** 2
 
 print (eggs)
+-------------------------------------------------------------------------------
 
 >>>
 100
@@ -405,6 +426,7 @@ print (eggs)
 Our final operator is modulo. Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, 
 because 2 goes into 3 evenly once, with 1 left over.
 
+-------------------------------------------------------------------------------
 """
 Use modulo to set spam equal to 1. You can use any two numbers that will leave a remainder of 1 to do this.
 """
@@ -412,6 +434,7 @@ Use modulo to set spam equal to 1. You can use any two numbers that will leave a
 spam = 3 % 2
 
 print (spam)
+-------------------------------------------------------------------------------
 
 >>>
 1
@@ -429,6 +452,7 @@ Whitespace, which separates statements
 Comments, which make your code easier to read
 Arithmetic operations, including +, -, *, /, **, and %
 
+-------------------------------------------------------------------------------
 """
 Let's put our knowledge to work.
 
@@ -444,6 +468,7 @@ python = 1.234
 monty_python = python ** 2
 
 print(monty_python)
+-------------------------------------------------------------------------------
 
 >>>
 1.522756
