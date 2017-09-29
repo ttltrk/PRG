@@ -53,7 +53,28 @@ Learn Python
 07. Lists and Functions
 
 07.001. Lists and Functions
+
 07.002. Battleship!
+
+07.002.01. Welcome to Battleship!
+07.002.02. Getting Our Feet Wet
+07.002.03. Make a List
+07.002.04. Check it Twice
+07.002.05. Custom Print
+07.002.06. Printing Pretty
+07.002.07. Hide...
+07.002.08. ...and Seek!
+07.002.09. It's Not Cheating -- It's Debugging!
+07.002.10. You win!
+07.002.11. Danger, Will Robinson!!
+07.002.12. Bad Aim
+07.002.13. Not Again!
+07.002.14. Test Run
+07.002.15. Play It, Sam
+07.002.16. Game Over
+07.002.17. A Real Win
+07.002.18. To Your Battle Stations!
+07.002.19. Extra Credit
 
 08. Loops
 
