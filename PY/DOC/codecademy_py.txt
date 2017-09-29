@@ -8,102 +8,109 @@ Learn Python
 
 01. Python Syntax
 
-01.001. Python Syntax
+	01.001. Python Syntax
 
-01.001.01. Welcome!
-01.001.02. Variables
-01.001.03. Booleans
-01.001.04. You've Been Reassigned
-01.001.05. Whitespace
-01.001.06. Whitespace Means Right Space
-01.001.07. A Matter of Interpretation
-01.001.08. Single Line Comments
-01.001.09. Multi-Line Comments
-01.001.10. Math
-01.001.11. Exponentiation
-01.001.12. Modulo
-01.001.13. Bringing It All Together
+		01.001.01. Welcome!
+		01.001.02. Variables
+		01.001.03. Booleans
+		01.001.04. You've Been Reassigned
+		01.001.05. Whitespace
+		01.001.06. Whitespace Means Right Space
+		01.001.07. A Matter of Interpretation
+		01.001.08. Single Line Comments
+		01.001.09. Multi-Line Comments
+		01.001.10. Math
+		01.001.11. Exponentiation
+		01.001.12. Modulo
+		01.001.13. Bringing It All Together
 
-01.002. Tip Calculator
+	01.002. Tip Calculator
 
-01.002.01. The Meal
-01.002.02. The Tax
-01.002.03. The Tip
-01.002.04. Reassign in a Single Line
-01.002.05. The Total
+		01.002.01. The Meal
+		01.002.02. The Tax
+		01.002.03. The Tip
+		01.002.04. Reassign in a Single Line
+		01.002.05. The Total
 
 02. Strings and Console Output
 
-02.001. Strings & Console Output
-02.002. Date and Time
+	02.001. Strings & Console Output
+
+	02.002. Date and Time
 
 03. Conditionals and Control Flow
 
-03.001. Conditionals & Control Flow
-03.002. PygLatin
+	03.001. Conditionals & Control Flow
+
+	03.002. PygLatin
 
 04. Functions
 
-04.001. Functions
-04.002. Taking a Vacation
+	04.001. Functions
+
+	04.002. Taking a Vacation
 
 05. Lists & Dictionaries
 
-05.001. Python Lists and Dictionaries
-05.002. A Day at the Supermarket
+	05.001. Python Lists and Dictionaries
+
+	05.002. A Day at the Supermarket
 
 06. Students Becomes the Teachers
 
-06.001. Students Becomes the Teachers
+	06.001. Students Becomes the Teachers
 
 07. Lists and Functions
 
-07.001. Lists and Functions
+	07.001. Lists and Functions
 
-07.002. Battleship!
+	07.002. Battleship!
 
-07.002.01. Welcome to Battleship!
-07.002.02. Getting Our Feet Wet
-07.002.03. Make a List
-07.002.04. Check it Twice
-07.002.05. Custom Print
-07.002.06. Printing Pretty
-07.002.07. Hide...
-07.002.08. ...and Seek!
-07.002.09. It's Not Cheating -- It's Debugging!
-07.002.10. You win!
-07.002.11. Danger, Will Robinson!!
-07.002.12. Bad Aim
-07.002.13. Not Again!
-07.002.14. Test Run
-07.002.15. Play It, Sam
-07.002.16. Game Over
-07.002.17. A Real Win
-07.002.18. To Your Battle Stations!
-07.002.19. Extra Credit
+		07.002.01. Welcome to Battleship!
+		07.002.02. Getting Our Feet Wet
+		07.002.03. Make a List
+		07.002.04. Check it Twice
+		07.002.05. Custom Print
+		07.002.06. Printing Pretty
+		07.002.07. Hide...
+		07.002.08. ...and Seek!
+		07.002.09. It's Not Cheating -- It's Debugging!
+		07.002.10. You win!
+		07.002.11. Danger, Will Robinson!!
+		07.002.12. Bad Aim
+		07.002.13. Not Again!
+		07.002.14. Test Run
+		07.002.15. Play It, Sam
+		07.002.16. Game Over
+		07.002.17. A Real Win
+		07.002.18. To Your Battle Stations!
+		07.002.19. Extra Credit
 
 08. Loops
 
-08.001. Loops
-08.002. Practice Makes Perfect
+	08.001. Loops
+
+	08.002. Practice Makes Perfect
 
 09. Exam Statistics
 
-09.001. Exam Statistics
+	09.001. Exam Statistics
 
 10. Advanced Topics in Python
 
-10.001. Advanced Topics in Python
-10.002. Introduction to Bitwise Operators
+	10.001. Advanced Topics in Python
+
+	10.002. Introduction to Bitwise Operators
 
 11. Introduction to Classes
 
-11.001. Introduction to Classes
-11.002. Classes
+	11.001. Introduction to Classes
+
+	11.002. Classes
 
 12. File Input and Output
 
-12.001. File Input/Output
+	12.001. File Input/Output
 
 13. PYTHON FINAL PROJECT
 
