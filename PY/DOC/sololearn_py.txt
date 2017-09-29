@@ -1,6 +1,6 @@
 
 *************************************************************************************************************
-sololearn.com
+SOLOLEARN.COM
 PYTHON 3 TUTORIAL
 *************************************************************************************************************
 
@@ -8,122 +8,122 @@ PYTHON 3 TUTORIAL
 
 01. BASIC CONCEPTS
 
-01.001. What is Python?
-01.002. Your first program
-01.003. Simple operations
-01.004. Floats
-01.005. Other Numerical Operations
-01.006. Strings
-01.007. Simple Input & Output
-01.008. String Operations
-01.009. Type Conversion
-01.010. Variables
-01.011. In-Place Operators
-01.012. Using an Editor
-******. MODULE 1 QUIZ
+  01.001. What is Python?
+  01.002. Your first program
+  01.003. Simple operations
+  01.004. Floats
+  01.005. Other Numerical Operations
+  01.006. Strings
+  01.007. Simple Input & Output
+  01.008. String Operations
+  01.009. Type Conversion
+  01.010. Variables
+  01.011. In-Place Operators
+  01.012. Using an Editor
+  ******. MODULE 1 QUIZ
 
 02. CONTROL STRUCTURES
 
-02.001. Booleans & Comparisons
-02.002. if Statements
-02.003. else Statements
-02.004. Boolean Logic
-02.005. Operator Precedence
-02.006. while Loops
-02.007. Lists
-02.008. List Operations
-02.009. List Functions
-02.010. Range
-02.011. for Loops
-02.012. A Simple Calculator
-******. MODULE 2 QUIZ
+  02.001. Booleans & Comparisons
+  02.002. if Statements
+  02.003. else Statements
+  02.004. Boolean Logic
+  02.005. Operator Precedence
+  02.006. while Loops
+  02.007. Lists
+  02.008. List Operations
+  02.009. List Functions
+  02.010. Range
+  02.011. for Loops
+  02.012. A Simple Calculator
+  ******. MODULE 2 QUIZ
 
 03. FUNCTIONS  & MODULES
 
-03.001. Code Reuse
-03.002. Functions
-03.003. Function Arguments
-03.004. Returning from Functions
-03.005. Comments & Docstrings
-03.006. Functions as Objects
-03.007. Modules
-03.008. The Standard Library & pip
-******. MODULE 3 QUIZ
+  03.001. Code Reuse
+  03.002. Functions
+  03.003. Function Arguments
+  03.004. Returning from Functions
+  03.005. Comments & Docstrings
+  03.006. Functions as Objects
+  03.007. Modules
+  03.008. The Standard Library & pip
+  ******. MODULE 3 QUIZ
 
 04. EXCEPTIONS & FILES
 
-04.001. Exceptions
-04.002. Exception Handling
-04.003. finally
-04.004. Raising Exceptions
-04.005. Assertions
-04.006. Opening Files
-04.007. Reading Files
-04.008. Writing Files
-04.009. Working with Files
-******. MODULE 3 QUIZ
+  04.001. Exceptions
+  04.002. Exception Handling
+  04.003. finally
+  04.004. Raising Exceptions
+  04.005. Assertions
+  04.006. Opening Files
+  04.007. Reading Files
+  04.008. Writing Files
+  04.009. Working with Files
+  ******. MODULE 3 QUIZ
 
 05. MORE TYPES
 
-05.001. None
-05.002. Dictionaries
-05.003. Dictionary Functions
-05.004. Tuples
-05.005. List Slices
-05.006. List Comprehensions
-05.007. String Formatting
-05.008. Useful Functions
-05.009. Text Analyzer
-******. MODULE 5 QUIZ
+  05.001. None
+  05.002. Dictionaries
+  05.003. Dictionary Functions
+  05.004. Tuples
+  05.005. List Slices
+  05.006. List Comprehensions
+  05.007. String Formatting
+  05.008. Useful Functions
+  05.009. Text Analyzer
+  ******. MODULE 5 QUIZ
 
 06. FUNCTIONAL PROGRAMMING
 
-06.001. Introduction
-06.002. Lambdas
-06.003. map & filter
-06.004. Generators
-06.005. Decorators
-06.006. Recursion
-06.007. Sets
-06.008. itertools
-******. MODULE 6 QUIZ
+  06.001. Introduction
+  06.002. Lambdas
+  06.003. map & filter
+  06.004. Generators
+  06.005. Decorators
+  06.006. Recursion
+  06.007. Sets
+  06.008. itertools
+  ******. MODULE 6 QUIZ
 
 07. OBJECT-ORIENTED PROGRAMMING
 
-07.001. Classes
-07.002. Inheritance
-07.003. Magic Methods & Operator Overloading
-07.004. Object Lifecycle
-07.005. Data Hiding
-07.006. Class & Static Methods
-07.007. Properties
-07.008. A Simple Game
-******. MODULE 7 QUIZ
+  07.001. Classes
+  07.002. Inheritance
+  07.003. Magic Methods & Operator Overloading
+  07.004. Object Lifecycle
+  07.005. Data Hiding
+  07.006. Class & Static Methods
+  07.007. Properties
+  07.008. A Simple Game
+  ******. MODULE 7 QUIZ
 
 08. REGULAR EXPRESSIONS
 
-08.001. Introduction
-08.002. Simple Metacharacters
-08.003. Character Classes
-08.004. More Metacharcters
-08.005. Groups
-08.006. Special Sequences
-08.007. Email Extractions
-******. MODULE 8 QUIZ
+  08.001. Introduction
+  08.002. Simple Metacharacters
+  08.003. Character Classes
+  08.004. More Metacharcters
+  08.005. Groups
+  08.006. Special Sequences
+  08.007. Email Extractions
+  ******. MODULE 8 QUIZ
 
 09. PYTHONICNESS & PACKAGING
 
-09.001. The Zen of Python
-09.002. PEP
-09.003. More on Function Arguments
-09.004. Tuple Unpacking
-09.005. Ternary Operator
-09.006. More on else Statements
-09.007. __main__
-09.008. Major 3rd Party Libraries
-09.009. Packages
-09.010. Packaging for Users
-******. MODULE 9 QUIZ
+  09.001. The Zen of Python
+  09.002. PEP
+  09.003. More on Function Arguments
+  09.004. Tuple Unpacking
+  09.005. Ternary Operator
+  09.006. More on else Statements
+  09.007. __main__
+  09.008. Major 3rd Party Libraries
+  09.009. Packages
+  09.010. Packaging for Users
+  ******. MODULE 9 QUIZ
 
 =============================================================================================================
 
@@ -134,6 +134,17 @@ PYTHON 3 TUTORIAL
 =============================================================================================================
 01.001. What is Python?
 =============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Welcome to Python!
+
+Python is a high-level programming language, with applications in numerous areas, including web programming, 
+scripting, scientific computing, and artificial intelligence.
+
+It is very popular and used by organizations such as Google, NASA, the CIA, and Disney.
+
+Python is processed at runtime by the interpreter. There is no need to compile your program before executing it.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -142,6 +153,21 @@ Python is a:
 >>>
 Programming language
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Welcome to Python!
+
+The three major versions of Python are 1.x, 2.x and 3.x. These are subdivided into minor versions, 
+such as 2.7 and 3.3.
+Code written for Python 3.x is guaranteed to work in all future versions. 
+Both Python Version 2.x and 3.x are used currently. 
+This course covers Python 3.x, but it isn't hard to change from one version to another.
+
+Python has several different implementations, written in various languages. 
+The version used in this course, CPython, is the most popular by far.
+
+An interpreter is a program that runs scripts written in an interpreted language such as Python.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -159,11 +185,46 @@ CPython is an implementation of Python
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Your First Program
+
+Let's start off by creating a short program that displays "Hello world!".
+In Python, we use the print statement to output text:
+
+>>> print('Hello world!')
+Hello world!
+
+Congratulations! You have written your first program.
+
+Run, save, and share your Python code on our Code Playground without installing any additional software. 
+When using a computer, you will need to download and install Python from www.python.org.
+Note the >>> in the code above. They are the prompt symbol of the Python console. Python is an interpreted language, 
+which means that each line is executed as it is entered. Python also includes IDLE, the integrated development environment,
+which includes tools for writing and debugging entire programs.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 print('Hi!')
 
 >>>
 Hi!
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Printing Text
+
+The print statement can also be used to output multiple lines of text.
+For Example:
+>>> print('Hello world!')
+Hello world!
+>>> print('Hello world!')
+Hello world!
+>>> print('Spam and eggs...')
+Spam and eggs...
+
+Python code often contains references to the comedy group Monty Python. This is why the words, 
+"spam" and "eggs" are often used as placeholder variables in Python where "foo" and "bar"
+would be used in other programming languages.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -181,11 +242,43 @@ ni ni ni
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Simple Operations
+
+Python has the capability of carrying out calculations.
+Enter a calculation directly into the Python console, and it will output the answer.
+
+>>> 2 + 2
+4
+>>> 5 + 4 - 3
+6
+
+The spaces around the plus and minus signs here are optional (the code would work without them), 
+but they make it easier to read.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 1 + 2 + 3
 
 >>>
 6
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Simple Operations
+
+Python also carries out multiplication and division, using an asterisk to indicate multiplication and 
+a forward slash to indicate division. 
+
+Use parentheses to determine which operations are performed first.
+
+>>> 2 * (3 + 4)
+14
+>>> 10 / 2
+5.0
+
+Using a single slash to divide numbers produces a decimal (or float, as it is called in programming). 
+We'll have more about floats in a later lesson.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -197,11 +290,39 @@ ni ni ni
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Simple Operations
+
+The minus sign indicates a negative number. 
+Operations are performed on negative numbers, just as they are on positive ones.
+>>> -7
+-7
+>>> (-7 + 2) * (-4)
+20
+
+The plus signs can also be put in front of numbers, but this has no effect, and is mostly used to emphasize 
+that a number is positive to increase readability of code.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 (-5 -1) * 3
 
 >>>
 -18
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Simple Operations
+
+Dividing by zero in Python produces an error, as no answer can be calculated.
+
+>>> 11 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+
+In Python, the last line of an error message indicates the error's type.
+Read error messages carefully, as they often tell you how to fix a program!
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -223,11 +344,46 @@ ZeroDivisionError: division by zero
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Floats
+
+Floats are used in Python to represent numbers that aren't integers. 
+Some examples of numbers that are represented as floats are 0.5 and -7.8237591. 
+They can be created directly by entering a number with a decimal point, or by using operations such as division on integers. 
+Extra zeros at the number's end are ignored.
+
+>>> 3/4
+0.75
+>>> 9.8765000
+9.8765
+
+Computers can't store floats perfectly accurately, in the same way that we can't write down the complete decimal expansion 
+of 1/3 (0.3333333333333333...). Keep this in mind, because it often leads to infuriating bugs!
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 Which of these will not be stored as a float?
 
 >>>
 7
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Floats
+
+As you saw previously, dividing any two integers produces a float. 
+A float is also produced by running an operation on two floats, or on a float and an integer.
+
+>>> 8 / 2
+4.0
+>>> 6 * 7.0
+42.0
+>>> 4 + 1.65
+5.65
+
+A float can be added to an integer, because Python silently converts the integer to a float. 
+However, this implicit conversion is the exception rather the rule in Python - 
+usually you have to convert values manually if you want to operate on them.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
