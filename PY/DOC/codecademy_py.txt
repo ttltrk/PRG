@@ -26,6 +26,12 @@ Learn Python
 
 01.002. Tip Calculator
 
+01.002.01. The Meal
+01.002.02. The Tax
+01.002.03. The Tip
+01.002.04. Reassign in a Single Line
+01.002.05. The Total
+
 02. Strings and Console Output
 
 02.001. Strings & Console Output
