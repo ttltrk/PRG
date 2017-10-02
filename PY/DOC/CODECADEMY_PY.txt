@@ -35,6 +35,23 @@ Learn Python
 02. Strings and Console Output
 
 	02.001. Strings & Console Output
+	
+		02.001.01. Strings
+		02.001.02. Practice
+		02.001.03. Escaping Characters
+		02.001.04. Access by Index
+		02.001.05. String Methods
+		02.001.06. lower()
+		02.001.07. upper()
+		02.001.08. str() 
+		02.001.09. Dot Notation
+		02.001.10. Printing Strings
+		02.001.11. Printing Variables
+		02.001.12. String Concatenation
+		02.001.13. Explicit String Conversion
+		02.001.14. String Formatting with %, Part1
+		02.001.15. String Formatting with %, Part2
+		02.001.16. And Now, For Something Completly Familiar
 
 	02.002. Date and Time
 
