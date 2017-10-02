@@ -695,9 +695,545 @@ print("%.2f" % total)
 02.001. Strings & Console Output
 =============================================================================================================
 
+This lesson will introduce you to strings and console output in Python, including creating string literals, 
+calling a variety of string methods, and using the "print" keyword.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.01. Strings
+
+Another useful data type is the string. A string can contain letters, numbers, and symbols.
+
+name = "Ryan"
+age = "19"
+food = "cheese"
+
+In the above example, we create a variable name and set it to the string value "Ryan".
+We also set age to "19" and food to "cheese".
+Strings need to be within quotes.
+
+-------------------------------------------------------------------------------
+"""
+Create a new variable brian and assign it the string "Hello life!".
+"""
+
+brian = "Hello life!"
+
+print(brian)
+-------------------------------------------------------------------------------
+
+>>>
+Hello life!
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.02. Practice
+
+Excellent! Let's get a little practice in with strings.
+
+-------------------------------------------------------------------------------
+"""
+Set the following variables to their respective phrases:
+
+Set caesar to "Graham"
+Set praline to "John"
+Set viking to "Teresa"
+"""
+
+caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+print(caesar, praline, viking)
+-------------------------------------------------------------------------------
+
+>>>
+Graham John Teresa
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.03. Escaping Characters
+
+There are some characters that cause problems. For example:
+
+'There's a snake in my boot!'
+This code breaks because Python thinks the apostrophe in 'There's' ends the string. 
+We can use the backslash to fix the problem, like this:
+
+'There\'s a snake in my boot!'
+
+-------------------------------------------------------------------------------
+"""
+Fix the string in the editor!
+"""
+
+var = 'This isn\'t flying, this is falling with style!'
+
+print(var)
+-------------------------------------------------------------------------------
+
+>>>
+This isn't flying, this is falling with style!
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.04. Access by Index
+
+Great work!
+
+Each character in a string is assigned a number. This number is called the index. Check out the diagram in the editor.
+
+c = "cats"[0]
+n = "Ryan"[3]
+
+In the above example, we create a new variable called c and set it to "c", the character at index zero of the string "cats".
+Next, we create a new variable called n and set it to "n", the character at index three of the string "Ryan".
+In Python, we start counting the index from zero instead of one.
+
+-------------------------------------------------------------------------------
+"""
+On line 13, assign the variable fifth_letter equal to the fifth letter of the string "MONTY".
+Remember that the fifth letter is not at index 5. Start counting your indices from zero.
+"""
+
+fifth_letter = "MONTY"[4]
+print(fifth_letter)
+-------------------------------------------------------------------------------
+
+>>>
+Y
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.05. String Methods
+
+Great work! Now that we know how to store strings, let's see how we can change them using string methods.
+
+String methods let you perform specific tasks for strings.
+
+We'll focus on four string methods:
+
+len()
+lower()
+upper()
+str()
+
+Let's start with len(), which gets the length (the number of characters) of a string!
+
+-------------------------------------------------------------------------------
+"""
+On line 1, create a variable named parrot and set it to the string "Norwegian Blue".
+On line 2, type len(parrot) after the word print, like so: print len(parrot).
+The output will be the number of letters in "Norwegian Blue"!
+"""
+
+parrot = "Norwegian Blue"
+print (len(parrot))
+-------------------------------------------------------------------------------
+
+>>>
+14
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.06. lower()
+
+Well done!
+
+You can use the lower() method to get rid of all the capitalization in your strings. You call lower() like so:
+
+"Ryan".lower()
+which will return "ryan".
+
+-------------------------------------------------------------------------------
+"""
+Call lower() on parrot (after print) on line 3 in the editor.
+"""
+
+parrot = "Norwegian Blue"
+print (parrot.lower())
+-------------------------------------------------------------------------------
+
+>>>
+norwegian blue
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.07. upper()
+
+Now your string is 100% lower case! A similar method exists to make a string completely upper case.
+
+-------------------------------------------------------------------------------
+"""
+Call upper() on parrot (after print on line 3) in order to capitalize all the characters in the string!
+"""
+
+parrot = "norwegian blue"
+print (parrot.upper())
+-------------------------------------------------------------------------------
+
+>>>
+NORWEGIAN BLUE
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.08. str()
+
+Now let's look at str(), which is a little less straightforward. The str() method turns non-strings into strings! For example:
+
+str(2)
+
+would turn 2 into "2".
+
+-------------------------------------------------------------------------------
+"""
+Create a variable pi and set it to 3.14 on line 4.
+Call str(pi) on line 5, after print.
+"""
+
+pi = 3.14
+print (str(pi))
+-------------------------------------------------------------------------------
+
+>>>
+3.14
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.09. Dot Notation/The Ministry of Silly Walks
+
+Let's take a closer look at why you use len(string) and str(object), but dot notation (such as "String".upper()) for the rest.
+
+lion = "roar"
+len(lion)
+lion.upper()
+
+Methods that use dot notation only work with strings.
+
+On the other hand, len() and str() can work on other data types.
+
+-------------------------------------------------------------------------------
+"""
+On line 3, call the len() function with the argument ministry.
+On line 4, invoke the ministry's .upper() function.
+"""
+
+ministry = "The Ministry of Silly Walks"
+
+print (len(ministry))
+print (ministry.upper())
+-------------------------------------------------------------------------------
+
+>>>
+27
+THE MINISTRY OF SILLY WALKS
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.10. Printing Strings
+
+The area where we've been writing our code is called the editor.
+
+The console (the window to the right of the editor) is where the results of your code is shown.
+
+print simply displays your code in the console.Print "Monty Python" to the console.
+
+-------------------------------------------------------------------------------
+"""
+Print "Monty Python" to the console.
+"""
+
+print ("Monty Python") 
+-------------------------------------------------------------------------------
+
+>>>
+Monty Python 
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.11. Printing Variables
+
+Great! Now that we've printed strings, let's print variables
+
+-------------------------------------------------------------------------------
+"""
+Declare a variable called the_machine_goes and assign it the string value "Ping!" on line 5.
+Go ahead and print the_machine_goes in line 6.
+"""
+
+the_machine_goes = "Ping!"
+print (the_machine_goes)
+-------------------------------------------------------------------------------
+
+>>>
+Ping!
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.12. String Concatenation
+
+You know about strings, and you know about arithmetic operators. Now let's combine the two!
+
+print "Life " + "of " + "Brian"
+This will print out the phrase Life of Brian.
+
+The + operator between strings will 'add' them together, one after the other. 
+Notice that there are spaces inside the quotation marks after Life and of so that we can make the combined string look like 3 words.
+
+Combining strings together like this is called concatenation. Let's try concatenating a few strings together now!
+
+-------------------------------------------------------------------------------
+"""
+Let's give it a try. Print the concatenated strings "Spam ", "and ", "eggs" on line 3, just like the example above.
+Make sure you include the spaces at the end of "Spam " and "and ".
+"""
+
+print ("Spam" + " " + "and" + " " + "eggs")
+-------------------------------------------------------------------------------
+
+>>>
+Spam and eggs
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.13. Explicit String Conversion
+
+Sometimes you need to combine a string with something that isn't a string. 
+In order to do that, you have to convert the non-string into a string.
+
+print "I have " + str(2) + " coconuts!"
+This will print I have 2 coconuts!.
+
+The str() method converts non-strings into strings. In the above example, you convert the number 2 
+into a string and then you concatenate the strings together just like in the previous exercise.
+
+Now try it yourself!
+
+-------------------------------------------------------------------------------
+"""
+Run the code as-is. You get an error!
+Use str() to turn 3.14 into a string. Then run the code again.
+"""
+
+print ("The value of pi is around " + str(3.14))
+-------------------------------------------------------------------------------
+
+>>>
+The value of pi is around 3.14
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.14. String Formatting with %, Part1
+
+When you want to print a variable with a string, there is a better method than concatenating strings together.
+
+name = "Mike"
+print "Hello %s" % (name)
+
+The % operator after a string is used to combine a string with variables. 
+The % operator will replace a %s in the string with the string variable that comes after it.
+
+-------------------------------------------------------------------------------
+"""
+Take a look at the code in the editor. What do you think it'll do? Click Run when you think you know.
+"""
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
+-------------------------------------------------------------------------------
+
+>>>
+Let's not go to Camelot. 'Tis a silly place.
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.14. String Formatting with %, Part2
+
+Remember, we used the % operator to replace the %s placeholders with the variables in parentheses.
+
+name = "Mike"
+print "Hello %s" % (name)
+
+You need the same number of %s terms in a string as the number of variables in parentheses:
+
+print "The %s who %s %s!" % ("Knights", "say", "Ni")
+# This will print "The Knights who say Ni!"
+
+-------------------------------------------------------------------------------
+"""
+Now it's your turn! We have ___ in the code to show you what you need to change!
+Inside the string, replace the three ___ with %s.
+After the string but before the three variables, replace the final ___ with a %.
+Hit Run.
+Answer the questions in the console as they pop up! Type in your answer and hit Enter.
+"""
+
+name = input("What is your name?")
+quest = input("What is your quest?")
+color = input("What is your favorite color?")
+
+print ("Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color))
+-------------------------------------------------------------------------------
+
+>>>
+What is your name? trk
+What is your quest? code
+What is your favorite color? green
+Ah, so your name is trk, your quest is code, and your favorite color is green.
+>>>
+-------------------------------------------------------------------------------
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.001.16. And Now, For Something Completly Familiar
+
+Great job! You've learned a lot in this unit, including:
+
+Three ways to create strings
+
+'Alpha'
+"Bravo"
+str(3)
+String methods
+
+len("Charlie")
+"Delta".upper()
+"Echo".lower()
+Printing a string
+
+print "Foxtrot"
+Advanced printing techniques
+
+g = "Golf"
+h = "Hotel"
+print "%s, %s" % (g, h)
+
+-------------------------------------------------------------------------------
+"""
+Let's wrap it all up!
+
+On line 3, create the variable my_string and set it to any string you'd like.
+On line 4, print the length of my_string.
+On line 5, print the .upper() case version of my_string.
+"""
+
+my_string = "egy"
+
+print (len(my_string))
+print (my_string.upper())
+-------------------------------------------------------------------------------
+
+>>>
+3
+EGY
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 =============================================================================================================
 02.002. Date and Time
 =============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.002.01. The datetime Library
+
+-------------------------------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.002.02. Getting the Current Date and Time
+
+-------------------------------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.002.03. Extracting Information
+
+-------------------------------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.002.04. Hot Date
+
+-------------------------------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.002.05. Pretty Time
+
+-------------------------------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------------------------------
+
+>>>
+
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+02.002.06. Grande Finale
+
+-------------------------------------------------------------------------------
+"""
+
+"""
+-------------------------------------------------------------------------------
+
+>>>
+
+>>>
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 03. Conditionals and Control Flow
@@ -744,319 +1280,7 @@ print("%.2f" % total)
 =============================================================================================================
 
 
-
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-019. THE STRINGS
-
------------------------------------
-
-
-brian = "Hello life!"
-
-print(brian)
-
->>>
-Hello life!
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-020. THE PRACTICE
-
------------------------------------
-
-caesar = "Graham"
-praline = "John"
-viking = "Teresa"
-
-print(caesar, praline, viking)
-
->>>
-Graham John Teresa
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-021. ESCAPING CHARACTERS
-
------------------------------------
-
-var = 'This isn\'t flying, this is falling with style!'
-
-print(var)
-
->>>
-This isn't flying, this is falling with style!
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-022. ACCESS BY INDEX
-
------------------------------------
-
-"""
-kiiratja a 4.ik (a 0 is beleszamitva) karaktert a MONTY szobol
-"""
-
-fifth_letter = "MONTY"[4]
-print(fifth_letter)
-
->>>
-Y
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-023. STRING METHODS
-
------------------------------------
-
-"""
-a len viiszaadja a karakterek szamat 
-"""
-
-parrot = "Norwegian Blue"
-print (len(parrot))
-
->>>
-14
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-024. lower()
-
------------------------------------
-
-"""
-a lower() visszadja a hozzarendelt valtozot kisbetukkel irva
-"""
-
-parrot = "Norwegian Blue"
-print (parrot.lower())
-
->>>
-norwegian blue
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-025. upper()
-
------------------------------------
-
-"""
-az upper() visszadja a hozzarendelt valtozot nagybetukkel irva
-"""
-
-parrot = "norwegian blue"
-print (parrot.upper())
-
->>>
-NORWEGIAN BLUE
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-026. str()
-
------------------------------------
-
-"""
-The str() method turns non-strings into strings! 
-"""
-
-pi = 3.14
-print (str(pi))
-
->>>
-3.14
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-027. THE MINISTRY OF SILLY WALKS
-
------------------------------------
-
-ministry = "The Ministry of Silly Walks"
-
-print (len(ministry))
-print (ministry.upper())
-
->>>
-27
-THE MINISTRY OF SILLY WALKS
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-028. PRINTING STRINGS
-
------------------------------------
-
-print ("Monty Python") 
-
->>>
-Monty Python 
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-029. PRINTING VARIABLES
-
------------------------------------
-
-the_machine_goes = "Ping!"
-print (the_machine_goes)
-
->>>
-Ping!
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-030. STRING CONCATENATION
-
------------------------------------
-
-print ("Spam" + " " + "and" + " " + "eggs")
-
->>>
-Spam and eggs
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-031. EXPLICIT STRING CONVERSION
-
------------------------------------
-
-"""
-The str() method turns non-strings into strings! 
-"""
-
-print ("The value of pi is around " + str(3.14))
-
->>>
-The value of pi is around 3.14
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-032. STRING FORMAT WITH %, PART 1
-
------------------------------------
-
-"""
-a %s sorban hivatkozik a % utan a stringekre
-"""
-
-string_1 = "Camelot"
-string_2 = "place"
-
-print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
-
->>>
-Let's not go to Camelot. 'Tis a silly place.
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-033. STRING FORMAT WITH %, PART 2
-
------------------------------------
-
-"""
-a %s sorban hivatkozik a % utan a stringekre
-"""
-
-name = input("What is your name?")
-quest = input("What is your quest?")
-color = input("What is your favorite color?")
-
-print ("Ah, so your name is %s, your quest is %s, " \
-"and your favorite color is %s." % (name, quest, color))
-
->>>
-What is your name? trk
-What is your quest? code
-What is your favorite color? green
-Ah, so your name is trk, your quest is code, and your favorite color is green.
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
 034. COMPLETELY FAMILIAR
-
------------------------------------
 
 my_string = "egy"
 
@@ -1076,8 +1300,6 @@ EGY
 
 035. THE DATETIME LIBRARY
 
------------------------------------
-
 from datetime import datetime
 
 >>>
@@ -1091,8 +1313,6 @@ None
 ----------------------------------------------------------------------
 
 036. GETTING THE CURRENT DATE AND TIME
-
------------------------------------
 
 from datetime import datetime
 
@@ -1110,8 +1330,6 @@ print (now)
 ----------------------------------------------------------------------
 
 037. EXTRACTING INFORMATION
-
------------------------------------
 
 from datetime import datetime
 
@@ -1139,8 +1357,6 @@ print (now.day)
 
 038. HOT DATE
 
------------------------------------
-
 from datetime import datetime
 now = datetime.now()
 
@@ -1158,8 +1374,6 @@ print ('%s/%s/%s' % (now.year, now.month, now.day))
 
 039. PRETTY TIME
 
------------------------------------
-
 from datetime import datetime
 now = datetime.now()
 
@@ -1176,8 +1390,6 @@ print ('%s:%s:%s' % (now.hour, now.minute, now.second))
 ----------------------------------------------------------------------
 
 040. GRANDE FINALE
-
------------------------------------
 
 from datetime import datetime
 now = datetime.now()
