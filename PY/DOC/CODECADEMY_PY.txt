@@ -54,6 +54,13 @@ Learn Python
 		02.001.16. And Now, For Something Completly Familiar
 
 	02.002. Date and Time
+	
+		02.002.01. The datetime Library
+		02.002.02. Getting the Current Date and Time
+		02.002.03. Extracting Information
+		02.002.04. Hot Date
+		02.002.05. Pretty Time
+		02.002.06. Grande Finale
 
 03. Conditionals and Control Flow
 
