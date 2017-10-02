@@ -5021,35 +5021,27 @@ These functions should return a random row index and a random column index from 
 Call each function on board.
 """
 
--------------------------------------------------------------------------------
+from random import randint 
 
->>>
+board = []
 
->>>
+for x in range(0, 5):
+  board.append(["O"] * 5)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+def print_board(board):
+  for row in board:
+    print " ".join(row)
 
-07.002.08. 
+# Add your code below!
 
--------------------------------------------------------------------------------
-"""
+def random_row(board):
+  return randint(0, len(board) - 1)
+    
+def random_col(board):
+  return randint(0, len(board) - 1)
 
-"""
-
--------------------------------------------------------------------------------
-
->>>
-
->>>
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-07.002.09. 
-
--------------------------------------------------------------------------------
-"""
-
-"""
+random_row(board)
+random_col(board)
 
 -------------------------------------------------------------------------------
 
@@ -5059,17 +5051,179 @@ Call each function on board.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-07.002.10. 
+07.002.08. ...and Seek!
+
+Good job! For now, let's store coordinates for the ship in the variables ship_row and ship_col. 
+Now you have a hidden battleship in your ocean! Let's write the code to allow the player to guess where it is.
+
+number = raw_input("Enter a number: ")
+if int(number) == 0:
+  print "You entered 0"
+  
+raw_input asks the user for input and returns it as a string. But we're going to want to use integers for our guesses!
+To do this, we'll wrap the raw_inputs with int() to convert the string to an integer.
 
 -------------------------------------------------------------------------------
 """
-
+Create a new variable called guess_row and set it to int(raw_input("Guess Row: ")).
+Create a new variable called guess_col and set it to int(raw_input("Guess Col: ")).
+Click Run and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).
 """
+
+from random import randint
+
+board = []
+
+for x in range(0,5):
+    board.append(["O"] * 5)
+
+def print_board(board):
+    for row in board:
+        print " ".join(row)
+
+def random_row(board):
+    return randint(0, len(board) - 1)
+
+def random_col(board):
+    return randint(0, len(board[0]) - 1)
+
+ship_row = random_row(board)
+ship_col = random_col(board)
+
+# Add your code below!
+
+guess_row = int(input("Guess Row:"))
+guess_col = int(Create a new variable called guess_row and set it to int(raw_input("Guess Row: ")).
+
+Create a new variable called guess_col and set it to int(raw_input("Guess Col: ")).
+
+Click Run and then answer the prompts by typing in a number and pressing Enter (or Return on some computers).input("Guess Col:"))
 
 -------------------------------------------------------------------------------
 
 >>>
+Guess Row:4
+Guess Col:4
+>>>
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+07.002.09. It's Not Cheating—It's Debugging!
+
+Awesome! Now we have a hidden battleship and a guess from our player. In the next few steps, we'll check the user's guess 
+to see if they are correct.
+
+While we're writing and debugging this part of the program, it will be helpful to know where that battleship is hidden. 
+Let's add a print statement that displays the location of the hidden ship.
+
+Of course, we'll remove this output when we're finished debugging since if we left it in, 
+our game wouldn't be very challenging. :)
+
+-------------------------------------------------------------------------------
+"""
+Before the lines prompting the user for input:
+Print the value of ship_row.
+Print the value of ship_col.
+"""
+
+from random import randint
+
+board = []
+
+for x in range(0,5):
+    board.append(["O"] * 5)
+
+def print_board(board):
+    for row in board:
+        print(" ".join(row))
+
+def random_row(board):
+    return randint(0, len(board) - 1)
+
+def random_col(board):
+    return randint(0, len(board[0]) - 1)
+
+ship_row = random_row(board)
+ship_col = random_col(board)
+
+# Add your code below!
+
+guess_row = int(raw_input("Guess Row:"))
+guess_col = int(raw_input("Guess Col:"))
+
+print(ship_row)
+print(ship_col)
+-------------------------------------------------------------------------------
+
+>>>
+Guess Row:4
+Guess Col:0
+0
+>>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+07.002.10. You win!
+
+Okay—now for the fun! We have the actual location of the ship and the player's guess so we can check to see 
+if the player guessed right.
+
+For a guess to be right, guess_col should be equal to ship_col and guess_row should be equal to ship_row.
+
+if guess_col == 0 and guess_row == 0:
+  print "Top-left corner."
+  
+The example above is just a reminder about if statements.
+
+-------------------------------------------------------------------------------
+"""
+On line 29, add an if to check if guess_row equals ship_row and guess_col equals ship_col.
+If that is the case, please print out "Congratulations! You sank my battleship!"
+"""
+
+from random import randint
+
+board = []
+
+for x in range(0, 5):
+    board.append(["O"] * 5)
+
+def print_board(board):
+    for row in board:
+        print(" ".join(row))
+
+print_board(board)
+
+def random_row(board):
+    return randint(0, len(board) - 1)
+
+def random_col(board):
+    return randint(0, len(board[0]) - 1)
+
+ship_row = random_row(board)
+ship_col = random_col(board)
+guess_row = int(raw_input("Guess Row:"))
+guess_col = int(raw_input("Guess Col:"))
+
+print(ship_row)
+print(ship_col)
+
+# Write your code below!
+if guess_row == ship_row and guess_col == ship_col:
+  print("Congratulations! You sank my battleship!")
+
+-------------------------------------------------------------------------------
+
+>>>
+O O O O O
+O O O O O
+O O O O O
+O O O O O
+O O O O O
+Guess Row:4
+Guess Col:4
+1
+4
 >>>
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
