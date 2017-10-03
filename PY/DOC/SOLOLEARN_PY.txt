@@ -675,11 +675,42 @@ print(3 * '7')
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Type Conversion
+
+In Python, it's impossible to complete certain operations due to the types involved. For instance, 
+you can't add two strings containing the numbers 2 and 3 together to produce the integer 5, 
+as the operation will be performed on strings, making the result '23'.
+
+The solution to this is type conversion. 
+In that example, you would use the int function.
+
+>>> "2" + "3"
+'23'
+>>> int("2") + int("3")
+5
+
+In Python, the types we have used so far have been integers, floats, and strings. 
+The functions used to convert to these are int, float and str, respectively.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 int("3" + "4")
 
 >>>
 34
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Type Conversion
+
+Another example of type conversion is turning user input (which is a string) to numbers (integers or floats), 
+to allow for the performance of calculations.
+
+>>> float(input("Enter a number: ")) + float(input("Enter another number: "))
+Enter a number: 40
+Enter another number: 2
+42.0
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -698,12 +729,50 @@ Enter a number:2
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Variables
+
+Variables play a very important role in most programming languages, and Python is no exception. 
+A variable allows you to store a value by assigning it to a name, which can be used to refer to the value later in the program. 
+
+To assign a variable, use one equals sign. Unlike most lines of code we've looked at so far, 
+it doesn't produce any output at the Python console.
+
+>>> x = 7
+>>> print(x)
+7
+>>> print(x + 3)
+10
+>>> print(x)
+7
+Try It Yourself
+
+You can use variables to perform corresponding operations, just as you did with numbers and strings. 
+As you can see, the variable stores its value throughout the program.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 spam = "eggs"
 print(spam * 3)
 
 >>>
 eggseggseggs
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Variables
+
+Variables can be reassigned as many times as you want, in order to change their value. 
+In Python, variables don't have specific types, so you can assign a string to a variable, 
+and later assign an integer to the same variable.
+
+>>> x = 123.456
+>>> print(x)
+123.456
+>>> x = "This is a string"
+>>> print(x + "!")
+
+This is a string!
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -718,11 +787,55 @@ print(x + y)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Variable Names
+
+Certain restrictions apply in regard to the characters that may be used in Python variable names. 
+The only characters that are allowed are letters, numbers, and underscores. Also, they can't start with numbers.
+Not following these rules results in errors.
+
+>>> this_is_a_normal_name = 7
+
+>>> 123abc = 7
+SyntaxError: invalid syntax
+
+>>> spaces are not allowed
+SyntaxError: invalid syntax
+
+Python is a case sensitive programming language. Thus, Lastname and lastname are two different variable names in Python.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 Which of these is a valid variable name in Python?
 
 >>>
 A_VARIABLE_NAME
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Variables
+
+Trying to reference a variable you haven't assigned to causes an error. 
+You can use the del statement to remove a variable, which means the reference from the name to the value is deleted, 
+and trying to use the variable causes an error. Deleted variables can be reassigned to later as normal.
+
+>>> foo = "a string"
+>>> foo
+'a string'
+>>> bar
+NameError: name 'bar' is not defined
+>>> del foo
+>>> foo
+NameError: name 'foo' is not defined
+
+You can also take the value of the variable from the user input.
+>>> foo = input("Enter a number: ")
+Enter a number: 7
+>>> print(foo)
+7
+
+The variables foo and bar are called metasyntactic variables, meaning that they are used as placeholder names in 
+example code to demonstrate something.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -746,6 +859,20 @@ print(spam * eggs)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+In-Place Operators
+
+In-place operators allow you to write code like 'x = x + 3' more concisely, as 'x += 3'. 
+The same thing is possible with other operators such as -, *, / and % as well.
+
+>>> x = 2
+>>> print(x)
+2
+>>> x += 3
+>>> print(x)
+5
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 x = 4
 x *= 3
 
@@ -754,6 +881,21 @@ print(x)
 >>>
 12
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+In-Place Operators
+
+These operators can be used on types other than numbers, as well, such as strings.
+>>> x = "spam"
+>>> print(x)
+spam
+
+>>> x += "eggs"
+>>> print(x)
+spameggs
+
+Many other languages have special operators such as '++' as a shortcut for 'x += 1'. Python does not have these.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -771,6 +913,27 @@ aaa
 =============================================================================================================
 01.012. Using an Editor
 =============================================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Using an Editor
+
+So far, we've only used Python with the console, entering and running one line of code at a time. 
+Actual programs are created differently; many lines of code are written in a file, 
+and then executed with the Python interpreter. 
+
+In IDLE, this can be done by creating a new file, entering some code, saving the file, and running it. 
+This can be done either with the menus or with the keyboard shortcuts Ctrl-N, Ctrl-S and F5. 
+
+Each line of code in the file is interpreted as though you entered it one line at a time at the console.
+
+x = 7
+x = x + 2
+print(x)
+
+Python source files have an extension of .py
+You can run, save, and share your Python codes on our Code Playground, without installing any additional software.
+Reference this lesson if you need to install the software on your computer.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
