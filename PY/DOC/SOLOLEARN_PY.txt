@@ -401,11 +401,39 @@ usually you have to convert values manually if you want to operate on them.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Exponentiation
+
+Besides addition, subtraction, multiplication, and division, Python also supports exponentiation, 
+which is the raising of one number to the power of another. This operation is performed using two asterisks.
+
+>>> 2**5
+32
+>>> 9 ** (1/2)
+3.0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 (1 + 3)  ** 2
 
 >>>
 16
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Quotient & Remainder
+
+To determine the quotient and remainder of a division, use the floor division and modulo operators, respectively. 
+Floor division is done using two forward slashes.
+The modulo operator is carried out with a percent symbol (%). 
+These operators can be used with both floats and integers.
+
+This code shows that 6 goes into 20 three times, and the remainder when 1.25 is divided by 0.5 is 0.25.
+
+>>> 20 // 6
+3
+>>> 1.25 % 0.5
+0.25
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -423,6 +451,21 @@ usually you have to convert values manually if you want to operate on them.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Strings
+
+If you want to use text in Python, you have to use a string. 
+A string is created by entering text between two single or double quotation marks. 
+
+When the Python console displays a string, it generally uses single quotes. 
+The delimiter used for a string doesn't affect how it behaves in any way.
+
+>>> "Python is fun!"
+'Python is fun!'
+>>> 'Always look on the bright side of life'
+'Always look on the bright side of life'
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 "Hello world"
 
 >>>
@@ -431,11 +474,44 @@ usually you have to convert values manually if you want to operate on them.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Strings
+
+Some characters can't be directly included in a string. For instance, double quotes can't be directly included 
+in a double quote string; this would cause it to end prematurely. 
+
+Characters like these must be escaped by placing a backslash before them. 
+Other common characters that must be escaped are newlines and backslashes.
+Double quotes only need to be escaped in double quote strings, and the same is true for single quote strings.
+
+>>> 'Brian\'s mother: He\'s not the Messiah. He\'s a very naughty boy!'
+'Brian's mother: He's not the Messiah. He's a very naughty boy!'
+
+\n represents a new line.
+
+Backslashes can also be used to escape tabs, arbitrary Unicode characters, 
+and various other things that can't be reliably printed. These characters are known as escape characters.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 "\""
 
 >>>
 '"'
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Newlines
+
+Python provides an easy way to avoid manually writing "\n" to escape newlines in a string. 
+Create a string with three sets of quotes, and newlines that are created by pressing Enter are automatically escaped for you.
+
+>>> """Customer: Good morning.
+Owner: Good morning, Sir. Welcome to the National Cheese Emporium."""
+
+'Customer: Good morning.\nOwner: Good morning, Sir. Welcome to the National Cheese Emporium.'
+
+As you can see, the \n was automatically put in the output, where we pressed Enter.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -455,11 +531,41 @@ second line"""
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Output
+
+Usually, programs take input and process it to produce output.
+In Python, you can use the print function to produce output. This displays a textual representation of something to the screen.
+
+>>> print(1 + 1)
+2
+>>> print("Hello\nWorld!")
+Hello
+World!
+
+When a string is printed, the quotes around it are not displayed.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 print('print("print")')
 
 >>>
 print("print")
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Input
+
+To get input from the user in Python, you can use the intuitively named input function. 
+The function prompts the user for input, and returns what they enter as a string (with the contents automatically escaped).
+
+>>> input("Enter something please: ")
+Enter something please: This is what\nthe user enters!
+
+'This is what\\nthe user enters!'
+
+The print and input functions aren't very useful at the Python console, which automatically does input and output. 
+However, they are very useful in actual programs.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -480,11 +586,43 @@ Enter a number:5
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Concatenation
+
+As with integers and floats, strings in Python can be added, using a process called concatenation, 
+which can be done on any two strings. 
+When concatenating strings, it doesn't matter whether they've been created with single or double quotes.
+
+>>> "Spam" + 'eggs'
+'Spameggs'
+
+>>> print("First string" + ", " + "second string")
+
+First string, second string
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 "Hello " + 'world'
 
 >>>
 'Hello world'
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Concatenation
+
+Even if your strings contain numbers, they are still added as strings rather than integers. 
+Adding a string to a number produces an error, as even though they might look similar, they are two different entities.
+
+>>> "2" + "2"
+'22'
+>>> 1 + '2' + 3 + '4'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+In future lessons, only the final line of error messages will be displayed, 
+as it is the only one that gives details about the type of error that has occurred.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -499,6 +637,27 @@ TypeError                                 Traceback (most recent call last)
 
 TypeError: must be str, not int
 >>>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+String Operations
+
+Strings can also be multiplied by integers. This produces a repeated version of the original string. 
+The order of the string and the integer doesn't matter, but the string usually comes first.
+
+Strings can't be multiplied by other strings. Strings also can't be multiplied by floats, even if the floats are whole numbers.
+
+>>> print("spam" * 3)
+spamspamspam
+
+>>> 4 * '2'
+'2222'
+
+>>> '17' * '87'
+TypeError: can't multiply sequence by non-int of type 'str'
+
+>>> 'pythonisfun' * 7.0
+TypeError: can't multiply sequence by non-int of type 'float'
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
