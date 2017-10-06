@@ -27,6 +27,18 @@ Learn Java
 
 	02.001. Conditionals and Control Flow
 	
+		02.001.0001. Decisions
+		02.001.0002. Boolean Operators: &&
+		02.001.0003. Boolean Operators: ||  
+		02.001.0004. Boolean Operators: !
+		02.001.0005. Boolean Operators: Precedence
+		02.001.0006. If Statement
+		02.001.0007. If-Else Statement
+		02.001.0008. If-ElseIf-Else Statement
+		02.001.0009. Ternary Conditional
+		02.001.0010. Switch Statement
+		02.001.0011. Generalizations		
+	
 03. Object-Oriented Java
 
 	03.001. Object-Oriented Java
