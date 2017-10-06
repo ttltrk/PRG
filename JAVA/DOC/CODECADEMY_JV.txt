@@ -49,21 +49,146 @@ Learn Java
 
 01.001.0001. What's your name?
 
+################################################################
+
+----------------------------------------------------------------
+/*
+Let's get started by getting to know each other.
+
+On line 4, type your name within double quotes between the parentheses like this:
+*/
+
+
+System.out.println("Gilberto");
+Click Run to run the code.
+
+public class YourName {
+	public static void main(String[] args) {
+
+		System.out.println("trk");
+
+	}
+}
+----------------------------------------------------------------
+
+>>>
+trk
+>>>
+
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 01.001.0002. Data Types I: int
+
+################################################################
+
+----------------------------------------------------------------
+/*
+Type any whole number in between the parentheses of System.out.println();
+
+int data types do not need to be typed within quotes, so you can avoid using quotes this time.
+*/
+
+public class DataTypes {
+	public static void main(String[] args) {
+
+		System.out.println(83);
+
+	}
+}
+----------------------------------------------------------------
+
+>>>
+83
+>>>
+
+################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 01.001.0003. Data Types II: boolean
 
+################################################################
+
+----------------------------------------------------------------
+/*
+Type either true or false between the parentheses of System.out.println(); to print a boolean value.
+*/
+
+public class DataTypesB {
+	public static void main(String[] args) {
+
+		System.out.println(true);
+
+	}
+}
+----------------------------------------------------------------
+
+>>>
+true
+>>>
+
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 01.001.0004. Data Types III: char
 
+################################################################
+
+----------------------------------------------------------------
+/*
+In between the parentheses of System.out.println(); type any single character of your choice. Make sure it's enclosed in single quotes!
+*/
+
+public class DataTypesC {
+	public static void main(String[] args) {
+
+		System.out.println('s');
+
+	}
+}
+----------------------------------------------------------------
+
+>>>
+s
+>>>
+
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 01.001.0005. Variables
+
+################################################################
+
+----------------------------------------------------------------
+/*
+1.
+Set the int variable myNumber equal to the value 42.
+2.
+Set the boolean variable isFun equal to true.
+3.
+Set the char variable movieRating equal to 'A'.
+*/
+
+public class Variables {
+	public static void main(String[] args) {
+
+		int myNumber = 42;
+		boolean isFun = true; 
+		char movieRating = 'A'; 
+
+	}
+}
+----------------------------------------------------------------
+
+>>>
+
+>>>
+
+################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -107,131 +232,6 @@ Learn Java
 04. 04. Data Structures
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
-
---------------------------------------------------------------------------------------
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---------------------------------------------------------------------------------------
-1.001. What's your name?
---------------------------------------------------------------------------------------
-
-Let's get started by getting to know each other.
-
-On line 4, type your name within double quotes between the parentheses like this:
-
-System.out.println("Gilberto");
-Click Run to run the code.
-
----------------------------------------------
-
-public class YourName {
-	public static void main(String[] args) {
-
-		System.out.println("trk");
-
-	}
-}
-
->>>
-trk
->>>
-
---------------------------------------------------------------------------------------
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---------------------------------------------------------------------------------------
-1.002. Data Types I: int
---------------------------------------------------------------------------------------
-
-Type any whole number in between the parentheses of System.out.println();
-
-int data types do not need to be typed within quotes, so you can avoid using quotes this time.
-
----------------------------------------------
-
-public class DataTypes {
-	public static void main(String[] args) {
-
-		System.out.println(83);
-
-	}
-}
-
->>>
-83
->>>
-
---------------------------------------------------------------------------------------
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---------------------------------------------------------------------------------------
-1.003. Data Types II: boolean
---------------------------------------------------------------------------------------
-
-Type either true or false between the parentheses of System.out.println(); to print a boolean value.
-
----------------------------------------------
-
-public class DataTypesB {
-	public static void main(String[] args) {
-
-		System.out.println(true);
-
-	}
-}
-
->>>
-true
->>>
-
---------------------------------------------------------------------------------------
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---------------------------------------------------------------------------------------
-1.004. Data Types III: char
---------------------------------------------------------------------------------------
-
-In between the parentheses of System.out.println(); type any single character of your choice. Make sure it's enclosed in single quotes!
-
----------------------------------------------
-
-public class DataTypesC {
-	public static void main(String[] args) {
-
-		System.out.println('s');
-
-	}
-}
-
->>>
-s
->>>
-
---------------------------------------------------------------------------------------
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---------------------------------------------------------------------------------------
-1.005. Variables
---------------------------------------------------------------------------------------
-
-1.
-Set the int variable myNumber equal to the value 42.
-2.
-Set the boolean variable isFun equal to true.
-3.
-Set the char variable movieRating equal to 'A'.
-
----------------------------------------------
-
-public class Variables {
-	public static void main(String[] args) {
-
-		int myNumber = 42;
-		boolean isFun = true; 
-		char movieRating = 'A'; 
-
-	}
-}
-
->>>
-
->>>
 
 --------------------------------------------------------------------------------------
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
