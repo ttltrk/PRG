@@ -1,4 +1,4 @@
-Alt-H2
+JavaScript
 ------
 
 ```javascript
@@ -6,7 +6,7 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 ```
  
-Alt-H2
+Python
 ------ 
  
 ```python
