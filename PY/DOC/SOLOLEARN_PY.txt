@@ -1178,7 +1178,104 @@ True
 
 ################################################################
 
+if Statements
+
+You can use if statements to run code if a certain condition holds. 
+If an expression evaluates to True, some statements are carried out. Otherwise, they aren't carried out. 
+An if statement looks like this:
+
+if expression:
+   statements
+
+Python uses indentation (white space at the beginning of a line) to delimit blocks of code. 
+Other languages, such as C, use curly braces to accomplish this, but in Python indentation is mandatory; 
+programs won't work without it. As you can see, the statements in the if should be indented.
+
 ################################################################
+
+What part of an if statement should be indented?
+
+>>>
+The statements within it
+>>>
+
+################################################################
+
+if Statements
+
+Here is an example if statement:
+
+if 10 > 5:
+   print("10 greater than 5")
+
+print("Program ended")
+
+The expression determines whether 10 is greater than five. Since it is, the indented statement runs, 
+and "10 greater than 5" is output. Then, the unindented statement, which is not part of the if statement, 
+is run, and "Program ended" is displayed. 
+
+Result:
+
+>>>
+10 greater than 5
+Program ended
+>>>
+
+Notice the colon at the end of the expression in the if statement.
+As the program contains multiple lines of code, you should create it as a separate file and run it.
+
+################################################################
+
+What is the output of this code?
+
+spam = 7
+if spam > 5:
+   print("five")
+if spam > 8:
+   print("eight")
+   
+>>>
+five
+>>>
+   
+################################################################
+
+if Statements
+
+To perform more complex checks, if statements can be nested, one inside the other.
+This means that the inner if statement is the statement part of the outer one. 
+This is one way to see whether multiple conditions are satisfied. 
+
+For example:
+
+num = 12
+if num > 5:
+   print("Bigger than 5")
+   if num <=47:
+      print("Between 5 and 47")
+
+Result:
+
+>>>
+Bigger than 5
+Between 5 and 47
+>>>
+
+################################################################
+
+What is the output of this code?
+
+num = 7
+if num > 3:
+   print("3")
+   if num < 5:
+      print("5")
+      if num ==7:
+         print("7")
+
+>>>
+3
+>>>
 
 ################################################################
 
