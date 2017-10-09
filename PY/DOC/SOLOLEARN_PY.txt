@@ -1510,6 +1510,62 @@ else:
 
 ################################################################
 
+Operator Precedence
+
+Operator precedence is a very important concept in programming. It is an extension of the mathematical idea 
+of order of operations (multiplication being performed before addition, etc.) to include other operators, 
+such as those in Boolean logic. 
+
+The below code shows that == has a higher precedence than or:
+
+>>> False == False or True
+True
+>>> False == (False or True)
+False
+>>> (False == False) or True
+True
+
+Python's order of operations is the same as that of normal mathematics: parentheses first, 
+then exponentiation, then multiplication/division, and then addition/subtraction.
+
+################################################################
+
+What is the result of this code?
+
+if 1 + 1 * 3 == 6:
+   print("Yes")
+else:
+   print("No")
+
+>>>
+No
+>>>
+
+################################################################
+
+Operator Precedence
+
+The following table lists all of Python's operators, from highest precedence to lowest.
+
+OP            DESC
+
+**            Exponentiation (raise to the power)
+~+-           Complement, unary + and minus (method names for the last two are +@ and -@) 
+*/%//         multiply, divide, modulo and floor division
++ -           addition and subtraction
+>> <<         right and left bitwise shift
+&             Bitwise 'AND'
+^ |           Bitwise exclusive 'OR' and regular 'OR'
+<= <> >=      Comparison operators
+<> == !=      Equality operators
+= %= /= //=   Assignment oerators
+-= += *= **=
+is is not     Identity operators
+in not in     Membership operators
+not or and    Logical operators
+
+
+
 ################################################################
 
 ################################################################
