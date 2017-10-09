@@ -1075,7 +1075,96 @@ print(num % x)
 
 ################################################################
 
+Booleans
+
+Another type in Python is the Boolean type. There are two Boolean values: True and False.
+They can be created by comparing values, for instance by using the equal operator ==.
+
+>>> my_boolean = True
+>>> my_boolean
+True
+>>> 2 == 3
+False
+>>> "hello" == "hello"
+True
+
+Be careful not to confuse assignment (one equals sign) with comparison (two equals signs).
+
 ################################################################
+
+What are the two Boolean values in Python?
+
+>>>
+True and False
+>>>
+
+################################################################
+
+Comparison
+
+Another comparison operator, the not equal operator (!=), evaluates to True if the items being compared aren't equal,
+and False if they are.
+
+>>> 1 != 1
+False
+>>> "eleven" != "seven"
+True
+>>> 2 != 10
+True
+
+################################################################
+
+What is the output of this code?
+>>> 7 != 8
+
+>>>
+True
+>>>
+
+################################################################
+
+Comparison
+
+Python also has operators that determine whether one number (float or integer) is greater than or smaller than another. 
+These operators are > and < respectively.
+
+>>> 7 > 5
+True
+>>> 10 < 10
+False
+
+################################################################
+
+What is the output of this code?
+>>> 7 > 7.0
+
+>>>
+False
+>>>
+
+################################################################
+
+Comparison
+
+The greater than or equal to, and smaller than or equal to operators are >= and <=.
+They are the same as the strict greater than and smaller than operators, except that they return True when comparing equal numbers.
+
+>>> 7 <= 8
+True
+>>> 9 >= 9.0
+True
+
+Greater than and smaller than operators can also be used to compare strings lexicographically 
+(the alphabetical order of words is based on the alphabetical order of their component letters).
+
+################################################################
+
+What is the output of this code?
+>>> 8.7 <= 8.70
+
+>>>
+True
+>>>
 
 ################################################################
 
