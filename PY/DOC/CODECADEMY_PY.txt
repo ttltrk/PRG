@@ -10,57 +10,57 @@ Learn Python
 
 	01.001. Python Syntax
 
-		01.001.01. Welcome!
-		01.001.02. Variables
-		01.001.03. Booleans
-		01.001.04. You've Been Reassigned
-		01.001.05. Whitespace
-		01.001.06. Whitespace Means Right Space
-		01.001.07. A Matter of Interpretation
-		01.001.08. Single Line Comments
-		01.001.09. Multi-Line Comments
-		01.001.10. Math
-		01.001.11. Exponentiation
-		01.001.12. Modulo
-		01.001.13. Bringing It All Together
+		01.001.0001. Welcome!
+		01.001.0002. Variables
+		01.001.0003. Booleans
+		01.001.0004. You've Been Reassigned
+		01.001.0005. Whitespace
+		01.001.0006. Whitespace Means Right Space
+		01.001.0007. A Matter of Interpretation
+		01.001.0008. Single Line Comments
+		01.001.0009. Multi-Line Comments
+		01.001.0010. Math
+		01.001.0011. Exponentiation
+		01.001.0012. Modulo
+		01.001.0013. Bringing It All Together
 
 	01.002. Tip Calculator
 
-		01.002.01. The Meal
-		01.002.02. The Tax
-		01.002.03. The Tip
-		01.002.04. Reassign in a Single Line
-		01.002.05. The Total
+		01.002.0001. The Meal
+		01.002.0002. The Tax
+		01.002.0003. The Tip
+		01.002.0004. Reassign in a Single Line
+		01.002.0005. The Total
 
 02. Strings and Console Output
 
 	02.001. Strings & Console Output
 	
-		02.001.01. Strings
-		02.001.02. Practice
-		02.001.03. Escaping Characters
-		02.001.04. Access by Index
-		02.001.05. String Methods
-		02.001.06. lower()
-		02.001.07. upper()
-		02.001.08. str() 
-		02.001.09. Dot Notation
-		02.001.10. Printing Strings
-		02.001.11. Printing Variables
-		02.001.12. String Concatenation
-		02.001.13. Explicit String Conversion
-		02.001.14. String Formatting with %, Part1
-		02.001.15. String Formatting with %, Part2
-		02.001.16. And Now, For Something Completly Familiar
+		02.001.0001. Strings
+		02.001.0002. Practice
+		02.001.0003. Escaping Characters
+		02.001.0004. Access by Index
+		02.001.0005. String Methods
+		02.001.0006. lower()
+		02.001.0007. upper()
+		02.001.0008. str() 
+		02.001.0009. Dot Notation
+		02.001.0010. Printing Strings
+		02.001.0011. Printing Variables
+		02.001.0012. String Concatenation
+		02.001.0013. Explicit String Conversion
+		02.001.0014. String Formatting with %, Part1
+		02.001.0015. String Formatting with %, Part2
+		02.001.0016. And Now, For Something Completly Familiar
 
 	02.002. Date and Time
 	
-		02.002.01. The datetime Library
-		02.002.02. Getting the Current Date and Time
-		02.002.03. Extracting Information
-		02.002.04. Hot Date
-		02.002.05. Pretty Time
-		02.002.06. Grande Finale
+		02.002.0001. The datetime Library
+		02.002.0002. Getting the Current Date and Time
+		02.002.0003. Extracting Information
+		02.002.0004. Hot Date
+		02.002.0005. Pretty Time
+		02.002.0006. Grande Finale
 
 03. Conditionals and Control Flow
 
@@ -90,25 +90,25 @@ Learn Python
 
 	07.002. Battleship!
 
-		07.002.01. Welcome to Battleship!
-		07.002.02. Getting Our Feet Wet
-		07.002.03. Make a List
-		07.002.04. Check it Twice
-		07.002.05. Custom Print
-		07.002.06. Printing Pretty
-		07.002.07. Hide...
-		07.002.08. ...and Seek!
-		07.002.09. It's Not Cheating -- It's Debugging!
-		07.002.10. You win!
-		07.002.11. Danger, Will Robinson!!
-		07.002.12. Bad Aim
-		07.002.13. Not Again!
-		07.002.14. Test Run
-		07.002.15. Play It, Sam
-		07.002.16. Game Over
-		07.002.17. A Real Win
-		07.002.18. To Your Battle Stations!
-		07.002.19. Extra Credit
+		07.002.0001. Welcome to Battleship!
+		07.002.0002. Getting Our Feet Wet
+		07.002.0003. Make a List
+		07.002.0004. Check it Twice
+		07.002.0005. Custom Print
+		07.002.0006. Printing Pretty
+		07.002.0007. Hide...
+		07.002.0008. ...and Seek!
+		07.002.0009. It's Not Cheating -- It's Debugging!
+		07.002.0010. You win!
+		07.002.0011. Danger, Will Robinson!!
+		07.002.0012. Bad Aim
+		07.002.0013. Not Again!
+		07.002.0014. Test Run
+		07.002.0015. Play It, Sam
+		07.002.0016. Game Over
+		07.002.0017. A Real Win
+		07.002.0018. To Your Battle Stations!
+		07.002.0019. Extra Credit
 
 08. Loops
 
@@ -153,7 +153,7 @@ you can use for countless standalone projects or scripting applications.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.01. Welcome!
+01.001.0001. Welcome!
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 Ready to learn Python? Click Run to continue!
@@ -176,7 +176,7 @@ Welcome to Python!
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.2. Variables
+01.001.0002. Variables
 
 Creating web apps, games, and search engines all involve storing and working with different types of data. 
 They do so using variables. A variable stores a piece of data, and gives it a specific name.
@@ -217,7 +217,7 @@ print(curry)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.3. Booleans
+01.001.0003. Booleans
 
 Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
 A second data type is called a boolean.
@@ -264,7 +264,7 @@ True False
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.4. You've Been Reassigned
+01.001.0004. You've Been Reassigned
 
 Now you know how to use variables to store values.
 
@@ -293,7 +293,7 @@ print (my_int)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.5. Whitespace
+01.001.0005. Whitespace
 
 In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
@@ -321,7 +321,7 @@ Syntax error
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.6. Whitespace Means Right Space
+01.001.0006. Whitespace Means Right Space
 
 Now let's examine the error from the last lesson:
 
@@ -356,7 +356,7 @@ print (spam())
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.7. A Matter of Interpretation
+01.001.0007. A Matter of Interpretation
 
 The window on the right side of the page is called the interpreter. 
 The interpreter runs your code line by line, and checks for any errors.
@@ -390,7 +390,7 @@ False
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.8. Single Line Comments
+01.001.0008. Single Line Comments
 
 You probably saw us use the # sign a few times in earlier exercises. 
 The # sign is for comments. A comment is a line of text that Python won't try to run as code. 
@@ -420,7 +420,7 @@ print(mysterious_variable)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.9. Multi-Line Comments
+01.001.0009. Multi-Line Comments
 
 The # sign will only comment out a single line. While you could write a multi-line comment, 
 starting each line with #, that can be a pain.
@@ -456,7 +456,7 @@ print(mysterious_variable)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.10. Math
+01.001.0010. Math
 
 Great! Now let's do some math. You can add, subtract, multiply, divide numbers like this
 
@@ -485,7 +485,7 @@ print (count_to)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.11. Exponentiation
+01.001.0011. Exponentiation
 
 All that math can be done on a calculator, so why use Python? Because you can combine math with other data types 
 (e.g. booleans) and commands to create useful programs. Calculators just stick to numbers.
@@ -521,7 +521,7 @@ print (eggs)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.12. Modulo
+01.001.0012. Modulo
 
 Our final operator is modulo. Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, 
 because 2 goes into 3 evenly once, with 1 left over.
@@ -546,7 +546,7 @@ print (spam)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.001.13. Bringing It All Together
+01.001.0013. Bringing It All Together
 
 Nice work! So far, you've learned about:
 
@@ -623,7 +623,7 @@ print(meal)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.002.02. The Tax
+01.002.0002. The Tax
 
 Good! Now let's create a variable for the tax percentage.
 
@@ -653,7 +653,7 @@ print(tax)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.002.03. The Tip
+01.002.0003. The Tip
 
 Nice work! You received good service, so you'd like to leave a 15% tip on top of the cost of the meal, including tax.
 
@@ -688,7 +688,7 @@ print(tip)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.002.04. Reassign in a Single Line
+01.002.0004. Reassign in a Single Line
 
 Okay! We've got the three variables we need to perform our calculation, and we know some arithmetic operators that can help us out.
 
@@ -727,7 +727,7 @@ print(meal_total)
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-01.002.05. The Total
+01.002.0005. The Total
 
 Now that meal has the cost of the food plus tax, let's introduce on line 8 a new variable, total, equal to the new meal + meal * tip.
 
@@ -770,7 +770,9 @@ calling a variety of string methods, and using the "print" keyword.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.01. Strings
+02.001.0001. Strings
+
+################################################################
 
 Another useful data type is the string. A string can contain letters, numbers, and symbols.
 
@@ -796,9 +798,13 @@ print(brian)
 Hello life!
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.02. Practice
+02.001.0002. Practice
+
+################################################################
 
 Excellent! Let's get a little practice in with strings.
 
@@ -822,9 +828,13 @@ print(caesar, praline, viking)
 Graham John Teresa
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.03. Escaping Characters
+02.001.0003. Escaping Characters
+
+################################################################
 
 There are some characters that cause problems. For example:
 
@@ -848,9 +858,13 @@ print(var)
 This isn't flying, this is falling with style!
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.04. Access by Index
+02.001.0004. Access by Index
+
+################################################################
 
 Great work!
 
@@ -877,9 +891,13 @@ print(fifth_letter)
 Y
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.05. String Methods
+02.001.0005. String Methods
+
+################################################################
 
 Great work! Now that we know how to store strings, let's see how we can change them using string methods.
 
@@ -909,9 +927,13 @@ print (len(parrot))
 14
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.06. lower()
+02.001.0006. lower()
+
+################################################################
 
 Well done!
 
@@ -933,9 +955,13 @@ print (parrot.lower())
 norwegian blue
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.07. upper()
+02.001.0007. upper()
+
+################################################################
 
 Now your string is 100% lower case! A similar method exists to make a string completely upper case.
 
@@ -952,9 +978,13 @@ print (parrot.upper())
 NORWEGIAN BLUE
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.08. str()
+02.001.0008. str()
+
+################################################################
 
 Now let's look at str(), which is a little less straightforward. The str() method turns non-strings into strings! For example:
 
@@ -976,9 +1006,13 @@ print (str(pi))
 3.14
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.09. Dot Notation/The Ministry of Silly Walks
+02.001.0009. Dot Notation/The Ministry of Silly Walks
+
+################################################################
 
 Let's take a closer look at why you use len(string) and str(object), but dot notation (such as "String".upper()) for the rest.
 
@@ -1007,9 +1041,13 @@ print (ministry.upper())
 THE MINISTRY OF SILLY WALKS
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.10. Printing Strings
+02.001.0010. Printing Strings
+
+################################################################
 
 The area where we've been writing our code is called the editor.
 
@@ -1029,9 +1067,13 @@ print ("Monty Python")
 Monty Python 
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.11. Printing Variables
+02.001.0011. Printing Variables
+
+################################################################
 
 Great! Now that we've printed strings, let's print variables
 
@@ -1049,9 +1091,13 @@ print (the_machine_goes)
 Ping!
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.12. String Concatenation
+02.001.0012. String Concatenation
+
+################################################################
 
 You know about strings, and you know about arithmetic operators. Now let's combine the two!
 
@@ -1076,9 +1122,13 @@ print ("Spam" + " " + "and" + " " + "eggs")
 Spam and eggs
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.13. Explicit String Conversion
+02.001.0013. Explicit String Conversion
+
+################################################################
 
 Sometimes you need to combine a string with something that isn't a string. 
 In order to do that, you have to convert the non-string into a string.
@@ -1104,9 +1154,13 @@ print ("The value of pi is around " + str(3.14))
 The value of pi is around 3.14
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.14. String Formatting with %, Part1
+02.001.0014. String Formatting with %, Part1
+
+################################################################
 
 When you want to print a variable with a string, there is a better method than concatenating strings together.
 
@@ -1131,9 +1185,13 @@ print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
 Let's not go to Camelot. 'Tis a silly place.
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.14. String Formatting with %, Part2
+02.001.0015. String Formatting with %, Part2
+
+################################################################
 
 Remember, we used the % operator to replace the %s placeholders with the variables in parentheses.
 
@@ -1168,11 +1226,14 @@ What is your quest? code
 What is your favorite color? green
 Ah, so your name is trk, your quest is code, and your favorite color is green.
 >>>
--------------------------------------------------------------------------------
+
+################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.16. And Now, For Something Completly Familiar
+02.001.0016. And Now, For Something Completly Familiar
+
+################################################################
 
 Great job! You've learned a lot in this unit, including:
 
@@ -1215,6 +1276,8 @@ print (my_string.upper())
 EGY
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
@@ -1226,7 +1289,9 @@ introduced in that lesson.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.002.01. The datetime Library
+02.002.0001. The datetime Library
+
+################################################################
 
 A lot of times you want to keep track of when something happened. We can do so in Python using datetime.
 
@@ -1244,9 +1309,13 @@ from datetime import datetime
 None
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.002.02. Getting the Current Date and Time
+02.002.0002. Getting the Current Date and Time
+
+################################################################
 
 We can use a function called datetime.now() to retrieve the current date and time.
 
@@ -1273,9 +1342,13 @@ print (now)
 2016-12-14 05:10:19.892864
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.002.03. Extracting Information
+02.002.0003. Extracting Information
+
+################################################################
 
 Notice how the output looks like 2013-11-25 23:45:14.317454. What if you don't want the entire date and time?
 
@@ -1317,9 +1390,13 @@ print (now.day)
 14
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.002.04. Hot Date
+02.002.0004. Hot Date
+
+################################################################
 
 What if we want to print today's date in the following format? mm/dd/yyyy. Let's use string substitution again!
 
@@ -1350,9 +1427,13 @@ print ('%s/%s/%s' % (now.year, now.month, now.day))
 2016/12/14
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.002.05. Pretty Time
+02.002.0005. Pretty Time
+
+################################################################
 
 Nice work! Let's do the same for the hour, minute, and second.
 
@@ -1384,9 +1465,13 @@ print ('%s:%s:%s' % (now.hour, now.minute, now.second))
 7:24:38
 >>>
 
+################################################################
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.002.06. Grande Finale
+02.002.0006. Grande Finale
+
+################################################################
 
 We've managed to print the date and time separately in a very pretty fashion. Let's combine the two!
 
@@ -1406,8 +1491,10 @@ Print the date and time together in the form: mm/dd/yyyy hh:mm:ss.
 To start, change the format string to the left of the % operator.
 
 Ensure that it has 6 %s placeholders.
-Put slashes and colons and a space between the placeholders so that they fit the format above.Then, change the variables in the parentheses to the right of the % operator.
-Place the variables so that now.month, now.day, now.year are before now.hour, now.minute, now.second. Make sure that there is a ( before the six and a ) after them.
+Put slashes and colons and a space between the placeholders so that they fit the format above.Then, 
+change the variables in the parentheses to the right of the % operator.
+Place the variables so that now.month, now.day, now.year are before now.hour, now.minute, now.second. 
+Make sure that there is a ( before the six and a ) after them.
 """
 
 from datetime import datetime
@@ -1419,6 +1506,8 @@ print ('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute
 >>>
 12/14/2016 7:31:39
 >>>
+
+################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 03. Conditionals and Control Flow
