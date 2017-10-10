@@ -2201,7 +2201,95 @@ print(len(list))
 
 ################################################################
 
+Range
+
+The range function creates a sequential list of numbers.
+The code below generates a list containing all of the integers, up to 10.
+
+numbers = list(range(10))
+print(numbers)
+
+Result:
+>>>
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>>
+
+The call to list is necessary because range by itself creates a range object, 
+and this must be converted to a list if you want to use it as one.
+
 ################################################################
+
+What is the result of this code?
+
+nums = list(range(5))
+print(nums[0])
+print(nums[1])
+print(nums[4])
+
+>>>
+0
+1
+4
+>>>
+
+################################################################
+
+Range
+
+If range is called with one argument, it produces an object with values from 0 to that argument. 
+If it is called with two arguments, it produces values from the first to the second.
+
+For example:
+
+numbers = list(range(3, 8))
+print(numbers)
+
+print(range(20) == range(0, 20))
+
+Result:
+
+>>>
+[3, 4, 5, 6, 7]
+
+True
+>>>
+
+################################################################
+
+What is the result of this code?
+
+nums = list(range(5, 8))
+print(len(nums))
+
+>>>
+3
+>>>
+
+################################################################
+
+Range
+
+range can have a third argument, which determines the interval of the sequence produced. This third argument must be an integer.
+
+numbers = list(range(5, 20, 2))
+print(numbers)
+
+Result:
+
+>>>
+[5, 7, 9, 11, 13, 15, 17, 19]
+>>>
+
+################################################################
+
+What is the result of this code?
+
+nums = list(range(3, 15, 3))
+print(nums[2])
+
+>>>
+9
+>>>
 
 ################################################################
 
@@ -2215,8 +2303,121 @@ print(len(list))
 
 ################################################################
 
+Loops
+
+Sometimes, you need to perform code on each item in a list. This is called iteration, 
+and it can be accomplished with a while loop and a counter variable.
+
+For example:
+
+words = ["hello", "world", "spam", "eggs"]
+counter = 0
+max_index = len(words) - 1
+
+while counter <= max_index:
+   word = words[counter]
+   print(word + "!")
+   counter = counter + 1 
+
+Result:
+
+>>>
+hello!
+world!
+spam!
+eggs!
+>>>
+
+The example above iterates through all items in the list, accesses them using their indices, and prints them with exclamation marks.
+
 ################################################################
 
+Which construct can be used to iterate through a list?
+
+>>>
+Loops
+>>>
+
+################################################################
+
+for Loop
+
+Iterating through a list using a while loop requires quite a lot of code, 
+so Python provides the for loop as a shortcut that accomplishes the same thing.
+
+The same code from the previous example can be written with a for loop, as follows:
+
+words = ["hello", "world", "spam", "eggs"]
+for word in words:
+  print(word + "!")
+
+Result:
+
+>>>
+hello!
+world!
+spam!
+eggs!
+>>>
+
+The for loop in Python is like the foreach loop in other languages.
+
+################################################################
+
+Fill in the blanks to create a valid for loop.
+
+letters = ['a', 'b', 'c']
+for l in letters:
+   print(l)
+   
+>>>
+a
+b
+c
+>>>
+
+################################################################
+
+for Loops
+
+The for loop is commonly used to repeat some code a certain number of times. This is done by combining for loops with range objects.
+
+for i in range(5):
+  print("hello!")
+
+Result:
+
+>>>
+hello!
+hello!
+hello!
+hello!
+hello!
+>>>
+
+You don't need to call list on the range object when it is used in a for loop, 
+because it isn't being indexed, so a list isn't required.
+
+################################################################
+
+Fill in the blanks to create a for loop that prints only the even values in the range:
+
+for i in range(0, 20, 2):
+  print(i)
+  
+>>>
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+>>>
+   
 ################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -2229,7 +2430,94 @@ print(len(list))
 
 ################################################################
 
+Creating a Calculator
+
+This lesson is about an example Python project: a simple calculator. 
+Each part explains a different section of the program. 
+The first section is the overall menu. This keeps on accepting user input until the user enters "quit", so a while loop is used.
+
+while True:
+   print("Options:")
+   print("Enter 'add' to add two numbers")
+   print("Enter 'subtract' to subtract two numbers")
+   print("Enter 'multiply' to multiply two numbers")
+   print("Enter 'divide' to divide two numbers")
+   print("Enter 'quit' to end the program")
+   user_input = input(": ")
+
+   if user_input == "quit":
+      break
+   elif user_input == "add":
+      ...
+   elif user_input == "subtract":
+      ...
+   elif user_input == "multiply":
+      ...
+   elif user_input == "divide":
+      ...
+   else:
+      print("Unknown input")
+
+The code above is the starting point for our program. It accepts user input, and compares it to the options in the if/elif statements.
+The break statement is used to stop the while loop, in case the user inputs "quit".
+
 ################################################################
+
+If we were to replace the break statement in the code with a 'continue', what would happen?
+
+>>>
+It would run forever
+>>>
+
+################################################################
+
+Creating a Calculator
+
+The next part of the program is getting the numbers the user wants to do something with. 
+The code below shows this for the addition section of the calculator. Similar code would have to be written for the other sections.
+
+elif user_input == "add":
+  num1 = float(input("Enter a number: "))
+  num2 = float(input("Enter another number: "))
+
+Now, when the user inputs "add", the program prompts to enter two numbers, and stores them in the corresponding variables.
+As it is, this code crashes if the user enters a non-numeric input when prompted to enter a number. 
+We will look at fixing problems like this in a later module.
+
+################################################################
+
+Why are the calls to float necessary in the code?
+
+>>>
+To convert user input to a float
+>>>
+
+################################################################
+
+Creating a Calculator
+
+The final part of the program processes user input and displays it. 
+The code for the addition part is shown here.
+
+elif user_input == "add":
+  num1 = float(input("Enter a number: "))
+  num2 = float(input("Enter another number: "))
+  result = str(num1 + num2)
+  print("The answer is " + result)
+
+We now have a working program that prompts for user input, and then calculates and prints the sum of the input.
+Similar code would have to be written for the other branches (for subtraction, multiplication and division).
+The output line could be put outside the if statements to omit repetition of code.
+
+################################################################
+
+Fill in the blanks to make the calculator work for multiplication.
+
+elif user_input == "multiply":
+  num1 = float(input("Enter a number: "))
+  num2 = float(input("Enter another number: "))
+  result = str(num1 * num2)
+  print("The answer is " + result)
 
 ################################################################
 
@@ -2243,7 +2531,80 @@ print(len(list))
 
 ################################################################
 
+What is the output of this code?
+
+list = [1, 1, 2, 3, 5, 8, 13]
+print(list[list[4]])
+
+>>>
+8
+>>>
+
 ################################################################
+
+What does this code do?
+
+for i in range(10):
+  if not i % 2 == 0:
+    print(i+1)
+    
+>>> 
+2
+4
+6
+8
+10
+>>>
+
+################################################################
+
+How many lines will this code print?
+
+while False:
+  print("Looping...")
+  
+>>>
+0
+>>>
+
+################################################################
+
+Fill in the blanks to print the first element of the list, if it contains even number of elements.
+
+list = [1, 2, 3, 4]
+if len(list) % 2 == 0:
+  print(list[0])
+  
+>>>
+1
+>>>
+
+################################################################
+
+What does this code output?
+
+letters = ['x', 'y', 'z']
+letters.insert(1, 'w')
+print(letters[2])
+
+>>>
+y
+>>>
+
+################################################################
+
+Fill in the blanks to iterate over the list using a for loop and print its values.
+
+list = [1, 2, 3]
+  
+for var in list:
+  print(var)
+  
+>>>
+1
+2
+3
+>>>
 
 ################################################################
 
