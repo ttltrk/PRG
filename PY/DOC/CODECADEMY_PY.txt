@@ -1520,76 +1520,195 @@ print ('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-03.001.0001.
+03.001.0001. Go With the Flow
 
 ################################################################
 
-----------------------------------------------------------------
-"""
+Just like in real life, sometimes we'd like our code to be able to make decisions.
 
-"""
+The Python programs we've written so far have had one-track minds: they can add two numbers or print something, 
+but they don't have the ability to pick one of these outcomes over the other.
 
-----------------------------------------------------------------
-
->>>
-
->>>
-
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-03.001.0002.
-
-################################################################
+Control flow gives us this ability to choose among outcomes based off what else is happening in the program.
 
 ----------------------------------------------------------------
 """
+Check out the code in the editor. You'll see the type of program you'll be able to write once you've mastered control flow. 
 
+Click Run to see what happens!
 """
 
-----------------------------------------------------------------
+def clinic():
+    
+    print ("You've just entered the clinic!")
+    print ("Do you take the door on the left or the right?")
+    
+    answer = input("Type left (l) or right (r) and hit 'Enter'.").lower()
+    
+    if answer == "left" or answer == "l":
+        print ("This is the Verbal Abuse Room, you heap of parrot droppings!")
+    elif answer == "right" or answer == "r":
+        print ("Of course this is the Argument Room, I've told you that already!")
+    else:
+        print ("You didn't pick left or right! Try again.")
+        clinic()
 
->>>
-
->>>
-
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-03.001.0003.
-
-################################################################
-
-----------------------------------------------------------------
-"""
-
-"""
-
+clinic()
 ----------------------------------------------------------------
 
 >>>
-
+You've just entered the clinic!
+Do you take the door on the left or the right?
+Type left or right and hit 'Enter'. right
+Of course this is the Argument Room, I've told you that already!
 >>>
 
 ################################################################
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-03.001.0004.
+03.001.0002. Compare Closely!
 
 ################################################################
 
+Let's start with the simplest aspect of control flow: comparators. There are six:
+
+Equal to (==)
+Not equal to (!=)
+Less than (<)
+Less than or equal to (<=)
+Greater than (>)
+Greater than or equal to (>=)
+
+Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
+
+Note that == compares whether two things are equal, and = assigns a value to a variable.
+
 ----------------------------------------------------------------
 """
+Set each variable to True or False depending on what you think the result will be. For example, 
+1 < 2 will be True, because one is less than two.
 
+Set bool_one equal to the result of 17 < 328
+Set bool_two equal to the result of 100 == (2 * 50)
+Set bool_three equal to the result of 19 <= 19
+Set bool_four equal to the result of -22 >= -18
+Set bool_five equal to the result of 99 != (98 + 1)
 """
 
+# Assign True or False as appropriate on the lines below!
+
+# Set this to True if 17 < 328 or to False if it is not.
+bool_one = True   # We did this one for you!
+
+# Set this to True if 100 == (2 * 50) or to False otherwise.
+bool_two = True
+
+# Set this to True if 19 <= 19 or to False if it is not.
+bool_three = True
+
+# Set this to True if -22 >= -18 or to False if it is not.
+bool_four = False
+
+# Set this to True if 99 != (98 + 1) or to False otherwise.
+bool_five = False
 ----------------------------------------------------------------
 
 >>>
+None
+>>>
 
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+03.001.0003. Compare... Closelier!
+
+################################################################
+
+Excellent! It looks like you're comfortable with basic expressions and comparators.
+
+But what about extreme expressions and comparators?
+
+----------------------------------------------------------------
+"""
+Let's run through the comparators again with more complex expressions. 
+Set each variable to True or False depending on what you think the result will be.
+
+Set bool_one to the result of (20 - 10) > 15
+Set bool_two to the result of (10 + 17) == 3**16
+Set bool_three to the result of 1**2 <= -1
+Set bool_four to the result of 40 * 4 >= -4
+Set bool_five to the result of 100 != 10**2
+"""
+
+# Assign True or False as appropriate on the lines below!
+
+# (20 - 10) > 15
+bool_one = False    # We did this one for you!
+
+# (10 + 17) == 3**16
+# Remember that ** can be read as 'to the power of'. 3**16 is about 43 million.
+bool_two = False
+
+# 1**2 <= -1
+bool_three = False
+
+# 40 * 4 >= -4
+bool_four = True
+
+# 100 != 10**2
+bool_five = False
+----------------------------------------------------------------
+
+>>>
+None
+>>>
+
+################################################################
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+03.001.0004. How the Tables Have Turned
+
+################################################################
+
+Comparisons result in either True or False, which are booleans as we learned before in this exercise.
+
+# Make me true!
+bool_one = 3 < 5
+Let's switch it up: we'll give the boolean, and you'll write the expression, just like the example above.
+
+----------------------------------------------------------------
+"""
+For each boolean value in the editor, write an expression that evaluates to that value. 
+Remember, comparators are: ==, !=, >, >=, <, and <=.
+
+Use at least three different ones!
+
+Don't just use True and False! That's cheating!
+"""
+
+# Create comparative statements as appropriate on the lines below!
+
+# Make me true!
+bool_one = 3 < 5  # We already did this one for you!
+
+# Make me false!
+bool_two = 3 == 2
+
+# Make me true!
+bool_three = 1 != 10
+
+# Make me false!
+bool_four = 200 > 200
+
+# Make me true!
+bool_five = 1 >= 1
+----------------------------------------------------------------
+
+>>>
+None
 >>>
 
 ################################################################
@@ -1842,97 +1961,9 @@ print ('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute
 =============================================================================================================
 
 
-
-041. GO WITH THE FLOW
-
------------------------------------
-
-def clinic():
-    
-    print ("You've just entered the clinic!")
-    print ("Do you take the door on the left or the right?")
-    
-    answer = input("Type left (l) or right (r) and hit 'Enter'.").lower()
-    
-    if answer == "left" or answer == "l":
-        print ("This is the Verbal Abuse Room, you heap of parrot droppings!")
-    elif answer == "right" or answer == "r":
-        print ("Of course this is the Argument Room, I've told you that already!")
-    else:
-        print ("You didn't pick left or right! Try again.")
-        clinic()
-
-clinic()
-
->>>
-You've just entered the clinic!
-Do you take the door on the left or the right?
-Type left or right and hit 'Enter'. right
-Of course this is the Argument Room, I've told you that already!
->>>
-
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-----------------------------------------------------------------------
-
-042. COMPARE CLOSELY
-
------------------------------------
-
-# Assign True or False as appropriate on the lines below!
-
-# Set this to True if 17 < 328 or to False if it is not.
-bool_one = True   # We did this one for you!
-
-# Set this to True if 100 == (2 * 50) or to False otherwise.
-bool_two = True
-
-# Set this to True if 19 <= 19 or to False if it is not.
-bool_three = True
-
-# Set this to True if -22 >= -18 or to False if it is not.
-bool_four = False
-
-# Set this to True if 99 != (98 + 1) or to False otherwise.
-bool_five = False
-
->>>
-None
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-043. COMPARE CLOSELIER
-
------------------------------------
-
-# Assign True or False as appropriate on the lines below!
-
-# (20 - 10) > 15
-bool_one = False    # We did this one for you!
-
-# (10 + 17) == 3**16
-# Remember that ** can be read as 'to the power of'. 3**16 is about 43 million.
-bool_two = False
-
-# 1**2 <= -1
-bool_three = False
-
-# 40 * 4 >= -4
-bool_four = True
-
-# 100 != 10**2
-bool_five = False
-
->>>
-None
->>>
 
 ----------------------------------------------------------------------
 
