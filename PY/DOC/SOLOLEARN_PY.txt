@@ -1784,7 +1784,137 @@ continue
 
 ################################################################
 
+Lists
+
+Lists are another type of object in Python. They are used to store an indexed list of items. 
+A list is created using square brackets with commas separating items.
+The certain item in the list can be accessed by using its index in square brackets.
+
+For example:
+
+words = ["Hello", "world", "!"]
+print(words[0])
+print(words[1])
+print(words[2])
+
+Result:
+
+>>>
+Hello
+world
+!
+>>>
+
+The first list item's index is 0, rather than 1, as might be expected.
+
 ################################################################
+
+What is the result of this code?
+
+nums = [5, 4, 3, 2, 1]
+print(nums[1])
+
+>>>
+4
+>>>
+
+
+################################################################
+
+Lists
+
+An empty list is created with an empty pair of square brackets.
+
+empty_list = []
+print(empty_list)
+
+Result:
+
+>>>
+[]
+>>>
+
+Most of the time, a comma won't follow the last item in a list. However, 
+it is perfectly valid to place one there, and it is encouraged in some cases.
+
+################################################################
+
+How many items are in this list?
+[2,]
+
+a = [2,]
+print(len(a))
+
+>>>
+1
+>>>
+
+################################################################
+
+Lists
+
+Typically, a list will contain items of a single item type, but it is also possible to include several different types. 
+Lists can also be nested within other lists.
+
+number = 3
+things = ["string", 0, [1, 2, number], 4.56]
+print(things[1])
+print(things[2])
+print(things[2][2])
+
+Result:
+
+>>>
+0
+[1, 2, 3]
+3
+>>>
+
+Lists of lists are often used to represent 2D grids, as Python lacks the multidimensional arrays that would be used 
+for this in other languages.
+
+################################################################
+
+Fill in the blanks to create a list and print its 3rd element.
+
+list = [42, 55, 67]
+print(list[2])
+
+>>>
+67
+>>>
+
+################################################################
+
+Lists
+
+Indexing out of the bounds of possible list values causes an IndexError. 
+Some types, such as strings, can be indexed like lists. Indexing strings behaves as though you are 
+indexing a list containing each character in the string. 
+
+For other types, such as integers, indexing them isn't possible, and it causes a TypeError.
+
+str = "Hello world!"
+print(str[6])
+
+Result:
+
+>>>
+w
+>>>
+
+################################################################
+
+Which line of code will cause an error?
+
+num = [5, 4, 3, [2], 1]
+print(num[0])
+print(num[3][0])
+print(num[5])
+
+>>>
+Line 4
+>>>
 
 ################################################################
 
@@ -1798,7 +1928,133 @@ continue
 
 ################################################################
 
+List Operations
+
+The item at a certain index in a list can be reassigned.
+
+For example:
+
+nums = [7, 7, 7, 7, 7]
+nums[2] = 5
+print(nums)
+
+Result:
+
+>>>
+[7, 7, 5, 7, 7]
+>>>
+
 ################################################################
+
+What is the result of this code?
+
+nums = [1, 2, 3, 4, 5]
+nums[3] = nums[1]
+print(nums[3])
+
+>>>
+2
+>>>
+
+################################################################
+
+List Operations
+
+Lists can be added and multiplied in the same way as strings.
+
+For example:
+
+nums = [1, 2, 3]
+print(nums + [4, 5, 6])
+print(nums * 3)
+
+Result:
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>>
+
+Lists and strings are similar in many ways - strings can be thought of as lists of characters that can't be changed.
+
+################################################################
+
+Fill in the blanks to create a list, reassign its 2nd element and print the whole list.
+
+nums = [33, 42, 56]
+nums[1] = 22
+print(nums)
+
+################################################################
+
+List Operations
+
+To check if an item is in a list, the in operator can be used. 
+It returns True if the item occurs one or more times in the list, and False if it doesn't.
+
+words = ["spam", "egg", "spam", "sausage"]
+print("spam" in words)
+print("egg" in words)
+print("tomato" in words)
+
+Result:
+
+>>>
+True
+True
+False
+>>>
+
+The in operator is also used to determine whether or not a string is a substring of another string.
+
+################################################################
+
+What is the result of this code?
+
+nums = [10, 9, 8, 7, 6, 5]
+nums[0] = nums[1] - 5
+if 4 in nums:
+  print(nums[3])
+else:
+  print(nums[4])
+  
+>>>
+7
+>>>
+
+################################################################
+
+List Operations
+
+To check if an item is not in a list, you can use the not operator in one of the following ways:
+
+nums = [1, 2, 3]
+print(not 4 in nums)
+print(4 not in nums)
+print(not 3 in nums)
+print(3 not in nums)
+Try It Yourself
+
+Result:
+
+>>>
+True
+True
+False
+False
+>>>
+
+################################################################
+
+Fill in the blanks to print "Yes" if the list contains 'z':
+
+letters = ['a', 'b', 'z']
+if "z" in letters:
+  print("Yes")
+  
+>>>
+Yes
+>>>
 
 ################################################################
 
