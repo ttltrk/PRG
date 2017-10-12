@@ -245,16 +245,68 @@ int main() {
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-01.003.
+01.003. Getting the Tools
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ################################################################
 
-################################################################
+Getting the Tools
+
+You can run, save, and share your C++ codes on our Code Playground, without installing any additional software.
+Reference this lesson if you need to install the software on your computer.
+
+You need both of the following components to build C++ programs.
+1. Integrated Development Environment (IDE): Provides tools for writing source code. Any text editor can be used as an IDE.
+2. Compiler: Compiles source code into the final executable program. 
+There are a number of C++ compilers available. The most frequently used and free available compiler is the GNU C/C++ compiler.
+
+Various C++ IDEs and compilers are available. We'll use a free tool called Code::Blocks, 
+which includes both an IDE and a compiler, and is available for Windows, Linux and MacOS.
+To download Code::Blocks, go to http://www.codeblocks.org/, Click the Downloads link, and choose "Download the binary release".
+Choose your OS and download the setup file, which includes the C++ compiler (For Windows, it's the one with mingw in the name).
+Make sure to install the version that includes the compiler.
 
 ################################################################
+
+Which two options do you need to write and run C++ programs?
+
+>>>
+IDE
+Compiler
+>>>
+
+################################################################
+
+Getting the Tools
+
+To create a project, open Code::Blocks and click "Create a new project" (or File->New->Project).
+This will open a dialog of project templates. Choose Console application and click Go.
+
+Go through the wizard, making sure that C++ is selected as the language.
+Give your project a name and specify a folder to save it to.
+
+Make sure the Compiler is selected, and click Finish.
+GNU GCC is one of the popular compilers available for Code::Blocks.
+On the left sidebar, expand Sources. You'll see your project, along with its source files. Code::Blocks 
+automatically created a main.cpp file that includes a basic Hello World program (C++ source files have .cpp, .cp or .c extensions).
+
+Click on the "Build and Run" icon in the toolbar to compile and run the program.
+
+A console window will open and display program output.
+
+Congratulations! You just compiled and ran your first C++ program!
+You can run, save, and share your C++ codes on our Code Playground, without installing any additional software.
+Reference this lesson if you need to install the software on your computer.
+
+################################################################
+
+Which of the following is a C++ compiler?
+
+>>>
+GNU GCC
+>>>
 
 ################################################################
 
