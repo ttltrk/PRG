@@ -1,11 +1,10 @@
 
-
-### SOLOLEARN.COM
-### C++ Tutorial
+## C++ Tutorial
+#### SOLOLEARN.COM
 
 -------------------------------------
 
-#### 01. Basic Concepts
+### 01. Basic Concepts
 
   ##### 01.001. What is C++
   ##### 01.002. Hello World!
@@ -19,29 +18,27 @@
   ##### 01.010. Assignment and Increment Operators
   ##### 01.011. Model 1 Quiz
 
-#### 02. Conditionals and Loops
+### 02. Conditionals and Loops
 
-#### 03. Data Types, Pointers, Arrays
+### 03. Data Types, Pointers, Arrays
 
-#### 04. Functions
+### 04. Functions
 
-#### 05. Classes and Objects
+### 05. Classes and Objects
 
-#### 06. More On Classes
+### 06. More On Classes
 
-#### 07. Inheritance & Polymorphism
+### 07. Inheritance & Polymorphism
 
-#### 08. Templates, Exceptions and Files
+### 08. Templates, Exceptions and Files
 
-#### 09. Challanges
+### 09. Challanges
 
 --------------------------------------------------------
 
-#### 01. BASIC CONCEPTS
+### 01. BASIC CONCEPTS
 
 ##### 01.001. What is C++
-
---------------------------------------------------------
 
 Welcome to C++
 
@@ -51,9 +48,9 @@ C++ was derived from C, and is largely based on it.
 
 C++ is a:
 
->>>
+```
 General Purpose programming language
->>>
+```
 
 ##### 01.002. Hello World!
 
@@ -73,6 +70,8 @@ int main()
   return 0;
 }
 ```
+
+--------------------------------------------------------
 
 Let's break down the parts of the code.
 #include <iostream>
