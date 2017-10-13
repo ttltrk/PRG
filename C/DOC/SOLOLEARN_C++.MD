@@ -1,43 +1,47 @@
 
 
-### H3 SOLOLEARN.COM
-### H3 C++ Tutorial
+### SOLOLEARN.COM
+### C++ Tutorial
 
-#### H4 01. Basic Concepts
+-------------------------------------
 
-  ##### H5 01.001. What is C++
-  ##### H5 01.002. Hello World!
-  ##### H5 01.003. Getting the Tools
-  ##### H5 01.004. Printing a Text
-  ##### H5 01.005. Comments
-  ##### H5 01.006. Variables
-  ##### H5 01.007. Working with Variables
-  ##### H5 01.008. More on Variables
-  ##### H5 01.009. Basic Arithmetic
-  ##### H5 01.010. Assignment and Increment Operators
-  ##### H5 01.011. Model 1 Quiz
+#### 01. Basic Concepts
 
-#### H4 02. Conditionals and Loops
+  ##### 01.001. What is C++
+  ##### 01.002. Hello World!
+  ##### 01.003. Getting the Tools
+  ##### 01.004. Printing a Text
+  ##### 01.005. Comments
+  ##### 01.006. Variables
+  ##### 01.007. Working with Variables
+  ##### 01.008. More on Variables
+  ##### 01.009. Basic Arithmetic
+  ##### 01.010. Assignment and Increment Operators
+  ##### 01.011. Model 1 Quiz
 
-#### H4 03. Data Types, Pointers, Arrays
+#### 02. Conditionals and Loops
 
-#### H4 04. Functions
+#### 03. Data Types, Pointers, Arrays
 
-#### H4 05. Classes and Objects
+#### 04. Functions
 
-#### H4 06. More On Classes
+#### 05. Classes and Objects
 
-#### H4 07. Inheritance & Polymorphism
+#### 06. More On Classes
 
-#### H4 08. Templates, Exceptions and Files
+#### 07. Inheritance & Polymorphism
 
-#### H4 09. Challanges
+#### 08. Templates, Exceptions and Files
+
+#### 09. Challanges
 
 --------------------------------------------------------
 
-#### H4 01. BASIC CONCEPTS
+#### 01. BASIC CONCEPTS
 
-##### H5 01.001. What is C++
+##### 01.001. What is C++
+
+--------------------------------------------------------
 
 Welcome to C++
 
@@ -51,7 +55,7 @@ C++ is a:
 General Purpose programming language
 >>>
 
-##### H5 01.002. Hello World!
+##### 01.002. Hello World!
 
 Your First C++ Program
 
@@ -59,7 +63,7 @@ A C++ program is a collection of commands or statements.
 
 Below is a simple code that has "Hello world!" as its output.
 
-```
+```c++
 #include <iostream>
 using namespace std;
 
@@ -91,6 +95,7 @@ The C++ compiler ignores blank lines.
 In general, blank lines serve to improve the code's readability and structure. 
 Whitespace, such as spaces, tabs, and newlines, is also ignored, although it is used to enhance the program's visual attractiveness.
 
+```c++
 #include <iostream>
 using namespace std;
 
@@ -99,6 +104,7 @@ int main()
   cout << "Hello world!";
   return 0;
 }
+```
 
 In our code, the line using namespace std; tells the compiler to use the std (standard) namespace.
 The std namespace includes features of the C++ Standard Library.
@@ -114,6 +120,8 @@ using namespace std;
 Main
 
 Program execution begins with the main function, int main().
+
+```c++
 #include <iostream>
 using namespace std;
 
@@ -122,6 +130,7 @@ int main()
   cout << "Hello world!";
   return 0;
 }
+```
 
 Curly brackets { } indicate the beginning and end of a function, which can also be called the function's body. 
 The information inside the brackets indicates what the function does when executed.
@@ -140,6 +149,8 @@ Main function
 Your First C++ Program
 
 The next line, cout << "Hello world!"; results in the display of "Hello world!" to the screen.
+
+```c++
 #include <iostream>
 using namespace std;
 
@@ -148,6 +159,7 @@ int main()
   cout << "Hello world!";
   return 0;
 }
+```
 
 In C++, streams are used to perform input and output operations.
 In most program environments, the standard default output destination is the screen. In C++, cout is the stream object used to access it. 
@@ -193,6 +205,7 @@ Return
 The last instruction in the program is the return statement. The line return 0; terminates the main() function and
 causes it to return the value 0 to the calling process. A non-zero value (usually of 1) signals abnormal termination.
 
+```c++
 #include <iostream>
 using namespace std;
 
@@ -201,6 +214,7 @@ int main()
   cout << "Hello world!";
   return 0;
 }
+```
 
 If the return statement is left off, the C++ compiler implicitly inserts "return 0;" to the end of the main() function.
 Tap Continue to learn more about functions, return, and other topics.
@@ -219,7 +233,7 @@ int main() {
 
 -----------------------------------
 
-##### H5 01.003. Getting the Tools
+##### 01.003. Getting the Tools
 
 -----------------------------------
 
@@ -281,7 +295,7 @@ GNU GCC
 
 -----------------------------------
 
-##### H5 01.004. Printing a Text
+##### 01.004. Printing a Text
 
 -----------------------------------
 
