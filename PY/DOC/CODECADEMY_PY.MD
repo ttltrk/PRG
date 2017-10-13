@@ -144,11 +144,6 @@ you can use for countless standalone projects or scripting applications.
 #### 1.1.1. Welcome!
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
-Ready to learn Python? Click Run to continue!
-
-```
-Ready to learn Python? Click Run to continue
-```
 
 ```python
 print ("Welcome to Python!")
@@ -165,7 +160,9 @@ They do so using variables. A variable stores a piece of data, and gives it a sp
 
 For example:
 
+```python
 spam = 5
+```
 
 The variable spam now stores the number 5.
 
