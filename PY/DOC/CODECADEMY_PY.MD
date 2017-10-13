@@ -1,15 +1,15 @@
 
-## Learn Python
+# Learn Python
 ##### CODECADEMY.COM
 
-01. Python Syntax
+1. Python Syntax
 
-	01.001. Python Syntax
+	1.1. Python Syntax
 
-		01.001.0001. Welcome!
-		01.001.0002. Variables
-		01.001.0003. Booleans
-		01.001.0004. You've Been Reassigned
+		1.1.1. Welcome!
+		1.1.2. Variables
+		1.1.3. Booleans
+		1.1.4. You've Been Reassigned
 		01.001.0005. Whitespace
 		01.001.0006. Whitespace Means Right Space
 		01.001.0007. A Matter of Interpretation
@@ -134,15 +134,14 @@
 
 13. PYTHON FINAL PROJECT
 
-
 ## 01. Python Syntax
 
-01.001. Python Syntax
+### 1.1. Python Syntax
 
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
 you can use for countless standalone projects or scripting applications.
 
-01.001.0001. Welcome!
+#### 1.1.1. Welcome!
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 Ready to learn Python? Click Run to continue!
