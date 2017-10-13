@@ -313,16 +313,154 @@ GNU GCC
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 =============================================================================================================
-01.004.
+01.004. Printing a Text
 =============================================================================================================
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ################################################################
 
-################################################################
+Your First C++ Program
+
+You can add multiple insertion operators after cout.
+
+cout << "This " << "is " << "awesome!";
+
+>>>
+This is awesome!
+>>>
 
 ################################################################
+
+Fill in the blanks to print "I love C++":
+  
+cout << "I love C++";
+
+>>>
+I love C++
+>>> 
+
+################################################################
+
+New Line
+
+The cout operator does not insert a line break at the end of the output. 
+One way to print two lines is to use the endl manipulator, which will put in a line break.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  cout << "Hello world!" << endl;
+  cout << "I love programming!";
+  return 0;
+}
+
+The endl manipulator moves down to a new line to print the second text.
+
+>>>
+Hello World!
+I love programming!
+>>>
+
+################################################################
+
+What should be used to move to a new line?
+
+>>>
+endl
+>>>
+
+################################################################
+
+New Lines
+
+The new line character \n can be used as an alternative to endl.
+The backslash (\) is called an escape character, and indicates a "special" character.
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   cout << "Hello world! \n";
+   cout << "I love programming!";
+   return 0;
+}
+
+>>>
+Hello world!
+I love programming!
+>>>
+
+################################################################
+
+What is the symbol for moving to a new line (alternative to the endl)?
+
+>>>
+\n
+>>>
+
+################################################################
+
+New Lines
+
+Two newline characters placed together result in a blank line.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   cout << "Hello world! \n\n";
+   cout << "I love programming!";
+   return 0;
+}
+
+>>>
+Hello world!
+
+I love programming!
+>>>
+
+################################################################
+
+Fill in the blanks to print the words "hello" and "world" separated by a blank line:
+  
+cout << "hello \n\n";
+cout << "world";
+
+################################################################
+
+Multiple New Lines
+
+Using a single cout statement with as many instances of \n as your program requires will print out multiple lines of text.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   cout << " Hello \n world! \n I \n love \n programming!";
+   return 0;
+}
+
+>>>
+Hello
+world
+I
+love
+programming!
+>>>
+
+################################################################
+
+Fill in the blanks to print "I love C++" with each word in a new line:
+
+cout << "I \n love \n C++";
 
 ################################################################
 
