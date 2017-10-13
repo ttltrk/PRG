@@ -10,23 +10,23 @@
 		1.1.2. Variables
 		1.1.3. Booleans
 		1.1.4. You've Been Reassigned
-		01.001.0005. Whitespace
-		01.001.0006. Whitespace Means Right Space
-		01.001.0007. A Matter of Interpretation
-		01.001.0008. Single Line Comments
-		01.001.0009. Multi-Line Comments
-		01.001.0010. Math
-		01.001.0011. Exponentiation
-		01.001.0012. Modulo
-		01.001.0013. Bringing It All Together
+		1.1.5. Whitespace
+		1.1.6. Whitespace Means Right Space
+		1.1.7. A Matter of Interpretation
+		1.1.8. Single Line Comments
+		1.1.9. Multi-Line Comments
+		1.1.10. Math
+		1.1.11. Exponentiation
+		1.1.12. Modulo
+		1.1.13. Bringing It All Together
 
-	01.002. Tip Calculator
+	1.2. Tip Calculator
 
-		01.002.0001. The Meal
-		01.002.0002. The Tax
-		01.002.0003. The Tip
-		01.002.0004. Reassign in a Single Line
-		01.002.0005. The Total
+		1.2.1. The Meal
+		1.2.2. The Tax
+		1.2.3. The Tip
+		1.2.4. Reassign in a Single Line
+		1.2.5. The Total
 
 02. Strings and Console Output
 
@@ -146,11 +146,11 @@ you can use for countless standalone projects or scripting applications.
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 Ready to learn Python? Click Run to continue!
 
-```python
-"""
+```
 Ready to learn Python? Click Run to continue
-"""
+```
 
+```python
 print ("Welcome to Python!")
 ```
 
@@ -169,12 +169,12 @@ spam = 5
 
 The variable spam now stores the number 5.
 
-```python
-"""
+```
 Set the variable my_variable equal to the value 10.
 Click the Run button to run your code.
-"""
+```
 
+```python
 my_variable = 10
 spam = 5
 age = 33
