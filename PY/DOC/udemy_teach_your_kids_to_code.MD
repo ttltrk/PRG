@@ -1,8 +1,6 @@
 
 
-## PYTHON - Teach your kids to code
-[teachyourkidstocode.com]
-[udemy.com]
+### PYTHON - Teach your kids to code
 
 ----------------------------------------------------------------------
 
