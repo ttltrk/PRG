@@ -1,8 +1,8 @@
 
 
 ## PYTHON - Teach your kids to code
-teachyourkidstocode.com
-udemy.com
+[teachyourkidstocode.com]
+[udemy.com]
 
 ----------------------------------------------------------------------
 
@@ -224,14 +224,9 @@ GRAPHICAL OUTPUT
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 17. Changing background colors
 
-----------------------------------------------------------------------
-
-017. Changing background colors
-
------------------------------------
-
+```python
 import turtle
 t = turtle.Pen()
 turtle.bgcolor("black")
@@ -241,21 +236,17 @@ for x in range(100):
     t.pencolor(colors [x % 4])
     t.circle(x)		
     t.left(60)
+```
 
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 18. One variable to rule them all
 
-----------------------------------------------------------------------
-
-018. One variable to rule them all
-
------------------------------------
-
+```python
 import turtle
 t = turtle.Pen()
 turtle.bgcolor("black")
@@ -267,21 +258,17 @@ for x in range(360):
     t.forward(x * 3 /sides + x)
     t.left(360/sides + 1)
     t.width(x*sides/100)
+```
 
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 29. Programming with operators
 
-----------------------------------------------------------------------
-
-029. Programming with operators
-
------------------------------------
-
+```python
 number_of_pizzas = eval(input("how many pizzas do you want?"))
 cost_per_pizza = eval(input("how much does each pizza cost?"))
 
@@ -295,48 +282,37 @@ total = sales_tax + subtotal
 print("The total cost is $", total)
 print("This includes $", subtotal, "for the pizza and")
 print("$", sales_tax, "in sales tax")
+```
 
-
->>>
+```
 how many pizzas do you want?5
 how much does each pizza cost?4
 The total cost is $ 21.6
 This includes $ 20 for the pizza and
 $ 1.6 in sales tax
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 30. The real characters in Python
 
-----------------------------------------------------------------------
-
-030. The real characters in Python
-
------------------------------------
-
+```python
 name = input("whats is your name?")
 
 for x in range(100):
     print(name, end = " rules! ")
+```
 
->>>
-
+```
 whats is your name?trk
 trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! trk rules! 
-
->>>
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 ----------------------------------------------------------------------
 
-031. Improving our color spiral with strings
+### 31. Improving our color spiral with strings
 
------------------------------------
-
+```python
 #SpiralMyName.py
 
 import turtle
@@ -354,11 +330,10 @@ for x in range(100):
     t.pendown()
     t.write(your_name, font = ("Arial", int( (x+4) / 4), "bold"))	
     t.left(92)
+```
 
------------------------------------
-
->>>
+```
 Graph outp
->>>
+```
 
 ----------------------------------------------------------------------
