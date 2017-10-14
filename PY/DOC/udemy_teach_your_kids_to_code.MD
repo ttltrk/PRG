@@ -4,6 +4,8 @@
 teachyourkidstocode.com
 udemy.com
 
+----------------------------------------------------------------------
+
 SECTION 1 - Getting your programming environment
 
 001. Welcome and introduction
@@ -126,14 +128,9 @@ The szo ma deed over the lazy brown dog.
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## 12. SquareSpiral: Our first turtle program
 
-----------------------------------------------------------------------
-
-012. SquareSpiral: Our first turtle program
-
------------------------------------
-
+```python
 # SquareSpiral1.py
 
 import turtle
@@ -142,21 +139,17 @@ t.speed(0)              #speed up
 for x in range(100):    #100 times
     t.forward(8*x)		#8* biggest
     t.left(90)			#angle 91
+```
 
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## 13. Turtle on a roll: Building a widing spiral
 
-----------------------------------------------------------------------
-
-013. Turtle on a roll: Building a widing spiral
-
------------------------------------
-
+```python
 # SquareSpiral2.py
 
 import turtle
@@ -165,22 +158,17 @@ t.speed(0)              #speed up
 for x in range(100):    #100 times
     t.forward(8*x)		#8* biggest
     t.left(91)			#angle 91
+```
 
-
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## 14. Loop the loop: Creating a circle spiral
 
-----------------------------------------------------------------------
-
-014. Loop the loop: Creating a circle spiral
-
------------------------------------
-
+```python
 # CircleSpiral1.py
 
 import turtle
@@ -189,11 +177,11 @@ t.speed(0)              #speed up
 for x in range(100):	#100 times
     t.circle(x)			#radius x
     t.left(91)			#angle 91
+```
 
-
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
