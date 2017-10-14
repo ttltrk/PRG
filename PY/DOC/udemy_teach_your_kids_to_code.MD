@@ -4,9 +4,7 @@
 teachyourkidstocode.com
 udemy.com
 
-----------------------------------------------------------------------
-
-- SECTION 1 - Getting your programming environment
+SECTION 1 - Getting your programming environment
 
 001. Welcome and introduction
 002. Installing Python 3.6 and getting started
@@ -19,9 +17,7 @@ udemy.com
 009. xxx
 010. xxx
 
-----------------------------------------------------------------------
-
-- SECTION 2 - Turtle graphics in Python
+SECTION 2 - Turtle graphics in Python
 
 011. Intro to the turtle graphics in Python
 012. SquareSpiral: Our first turtle program
@@ -36,9 +32,7 @@ udemy.com
 021. xxx
 022. xxx
 
-----------------------------------------------------------------------
-
-- SECTION 3 - Numbers and variables in Python
+SECTION 3 - Numbers and variables in Python
 
 023. Intro to variables
 024. Numbers and math in python
@@ -49,8 +43,6 @@ udemy.com
 029. Programming with operators
 030. The real characters in Python
 031. Improving our color spiral with strings
-
-
 
 ----------------------------------------------------------------------
 
@@ -73,8 +65,6 @@ My name is: trk
 
 ### 5. Running and modifying programs in Python
 
-
-
 ```python
 # YourName.py
 
@@ -90,8 +80,9 @@ My name is: trk trk trk trk trk
 
 ----------------------------------------------------------------------
 
-006. NiceHexSpiral.py
+### 6. NiceHexSpiral.py
 
+```python
 # NiceHexSpiral.py
 import turtle
 colors=['red', 'purple', 'blue', 'green', 'yellow', 'orange']
@@ -104,21 +95,17 @@ for x in range(360):
     t.width(x/100+1)
     t.forward(x)
     t.left(59)
+```
 
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## 8. Programming challenges - Practice what you've learned
 
-----------------------------------------------------------------------
-
-008. Programming challenges - Practice what you've learned
-
------------------------------------
-
+```python
 # Madlib.py
 
 adjective = input("Please enter an adjective: ")
@@ -127,14 +114,15 @@ verb = input("Please enter a verb ending in -ed: ")
 
 print("Your Madlib: ")
 print("The", adjective, noun, verb, "over the lazy brown dog.")
+```
 
->>>
+```
 Please enter an adjective: szo
 Please enter a noun: ma
 Please enter a verb ending in -ed: deed
 Your Madlib: 
 The szo ma deed over the lazy brown dog.
->>>
+```
 
 ----------------------------------------------------------------------
 
