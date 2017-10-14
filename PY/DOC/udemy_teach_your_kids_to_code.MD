@@ -105,7 +105,7 @@ GRAPHICAL OUTPUT
 
 ----------------------------------------------------------------------
 
-## 8. Programming challenges - Practice what you've learned
+### 8. Programming challenges - Practice what you've learned
 
 ```python
 # Madlib.py
@@ -128,7 +128,7 @@ The szo ma deed over the lazy brown dog.
 
 ----------------------------------------------------------------------
 
-## 12. SquareSpiral: Our first turtle program
+### 12. SquareSpiral: Our first turtle program
 
 ```python
 # SquareSpiral1.py
@@ -147,7 +147,7 @@ GRAPHICAL OUTPUT
 
 ----------------------------------------------------------------------
 
-## 13. Turtle on a roll: Building a widing spiral
+### 13. Turtle on a roll: Building a widing spiral
 
 ```python
 # SquareSpiral2.py
@@ -166,7 +166,7 @@ GRAPHICAL OUTPUT
 
 ----------------------------------------------------------------------
 
-## 14. Loop the loop: Creating a circle spiral
+### 14. Loop the loop: Creating a circle spiral
 
 ```python
 # CircleSpiral1.py
@@ -185,14 +185,9 @@ GRAPHICAL OUTPUT
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 15. Adding color to your turtle drawings
 
-----------------------------------------------------------------------
-
-015. Adding color to your turtle drawings
-
------------------------------------
-
+```python
 # CircleSpiral2.py
 
 import turtle
@@ -202,21 +197,17 @@ t.pencolor("red")		#color red
 for x in range(100):	#100 times
     t.circle(x)			#radius x
     t.left(91)			#angle 91
+```
 
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 16. Painting a four color spiral
 
-----------------------------------------------------------------------
-
-016. Painting a four color spiral
-
------------------------------------
-
+```python
 import turtle
 t = turtle.Pen()
 t.speed(0)              
@@ -225,10 +216,11 @@ for x in range(100):
     t.pencolor(colors [x % 4])
     t.circle(x)		
     t.left(60)
+```
 
->>>
+```
 GRAPHICAL OUTPUT
->>>
+```
 
 ----------------------------------------------------------------------
 
