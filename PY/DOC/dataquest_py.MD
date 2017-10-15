@@ -103,18 +103,11 @@ print(type(atlanta_string))
 <class 'str'>
 ```
 
-----------------------------------
-
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 6. USING A LIST TO STORE MULTIPLE VALUES
 
---------------------------------------------------------------------------
-
-006. USING A LIST TO STORE MULTIPLE VALUES
-
-----------------------------------
-
+```python
 cities = []
 crime_rates = []
 
@@ -132,64 +125,46 @@ crime_rates.append(1379)
 
 print(cities)
 print(crime_rates)
+```
 
->>>
+```
 ['Albuquerque', 'Anaheim', 'Anchorage', 'Arlington', 'Atlanta']
 [749, 371, 828, 503, 1379]
->>>
+```
 
-
-----------------------------------
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 7. CREATING LISTS WITH VALUES
 
---------------------------------------------------------------------------
-
-007. CREATING LISTS WITH VALUES
-
-----------------------------------
-
+```python
 crime_rates = [749, 371, 828, 503, 1379]
+```
 
->>>
+```
 
->>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 --------------------------------------------------------------------------
 
-008. COMMENTS
+### 8. COMMENTS
 
-----------------------------------
-
+```python
 # a list
 
 crime_rates = [749, 371, 828, 503, 1379] # a list
 print(crime_rates)
+```
 
->>>
+```
 [749, 371, 828, 503, 1379]
->>>
-
-----------------------------------
+```
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 9. ACCESSING ELEMENTS IN A LIST
 
---------------------------------------------------------------------------
-
-009. ACCESSING ELEMENTS IN A LIST
-
-----------------------------------
-
+```python
 # Select the third element from the list cities and assign to the variable anchorage_str.
 # Select the third element from the list crime_rates and assign to the new variable anchorage_cr.
 
@@ -198,23 +173,17 @@ crime_rates = [749, 371, 828, 503, 1379]
 
 anchorage_str = cities[2] 
 anchorage_cr = crime_rates[2] 
+```
 
->>>
+```
 
->>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 --------------------------------------------------------------------------
 
-010. INSTRUCTIONS
+### 10. INSTRUCTIONS
 
-----------------------------------
-
+```python
 # Add the lengths of the cities and crime_rates list objects and assign the sum to two_sum.
 
 cities = ["Albuquerque", "Anaheim", "Anchorage", "Arlington", "Atlanta"]
@@ -222,83 +191,68 @@ crime_rates = [749, 371, 828, 503, 1379]
 # Add your code here.
 
 two_sum = len(cities) + len(crime_rates)
+```
 
->>>
+```
 
->>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 --------------------------------------------------------------------------
 
-011. SLICING LISTS
+### 11. SLICING LISTS
 
-----------------------------------
-
+```python
 cities = ["Albuquerque", "Anaheim", "Anchorage", "Arlington", "Atlanta"]
 crime_rates = [749, 371, 828, 503, 1379]
 
 cities_slice = cities[1:4]
 ending_index = len(crime_rates)
 cr_slice = crime_rates[3:ending_index]
+```
 
->>>
+```
 
->>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
 
 --------------------------------------------------------------------------
 
-014. OPENING FILES
+### 14. OPENING FILES
 
-----------------------------------
-
+```
 Use the open() function to create a File object.
 The name of the file to open is "crime_rates.csv". Access the file in read mode ("r").
 Assign this File object to the variable f.
+```
 
-----------------------------------
-
+```python
 a = open("test.txt", "r")
 print(a)
 
 f = open("crime_rates.csv", "r")
 print(f)
+```
 
->>>
+```
 <_io.TextIOWrapper name='test.txt' mode='r' encoding='UTF-8'>
 <_io.TextIOWrapper name='crime_rates.csv' mode='r' encoding='UTF-8'>
->>>
+```
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 15. READING IN FILES
 
---------------------------------------------------------------------------
-
-015. READING IN FILES
-
-----------------------------------
-
+```
 Run the read() method on the File object f to return the string representation of crime_rates.csv.
 Assign the resulting string to a new variable named data.
+```
 
-----------------------------------
-
+```python
 f = open("crime_rates.csv", "r")
 data = f.read()
 print(data)
+```
 
->>>
+```
 Albuquerque,749
 Anaheim,371
 Anchorage,828
@@ -306,7 +260,7 @@ Arlington,503
 Atlanta,1379
 Aurora,425
 ...
->>>
+```
 
 --------------------------------------------------------------------------
 
