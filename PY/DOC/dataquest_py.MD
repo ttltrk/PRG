@@ -264,19 +264,14 @@ Aurora,425
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 16. SPLITTING
 
---------------------------------------------------------------------------
-
-016. SPLITTING
-
-----------------------------------
-
+```
 Split the string object data on the new-line character "\n", and store the result in a variable named rows. - 
 Then, use the print() function to display the first five elements in rows.
+```
 
-----------------------------------
-
+```python
 # We can split a string into a list.
 sample = "john,plastic,joe"
 split_list = sample.split(",")
@@ -293,56 +288,50 @@ data = f.read()
 
 rows = data.split('\n')
 print(rows)
+```
 
->>>
+```
 ['john', 'plastic', 'joe']
 ['How much wood', 'can a woodchuck chuck', 'if a woodchuck', 'could chuck wood?']
 ['Albuquerque,749', 'Anaheim,371', 'Anchorage,828', 'Arlington,503', 
 'Atlanta,1379', 'Aurora,425', 'Austin,408', 'Bakersfield,542', 'Baltimore,1405'...
->>>
+```
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 18. PRACTICE - LOOPS
 
---------------------------------------------------------------------------
-
-018. PRACTICE - LOOPS
-
-----------------------------------
-
+```
 The variable ten_rows contains the first 10 elements in rows.
 Write a for loop that:
 iterates over each element in ten_rows
 uses the print() function to display each element
+```
 
-----------------------------------
-
+```python
 ten_rows = rows[0:10]
 
 for nums in rows:
     print(ten_rows)
-	
->>>
+```
+
+```
 ['Albuquerque,749', 'Anaheim,371', 'Anchorage,828', 'Arlington,503', 'Atlanta,1379', 
 'Aurora,425', 'Austin,408', 'Bakersfield,542', 'Baltimore,1405', 'Boston,835']
 ['Albuquerque,749' ...
->>>
+```
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### 19. List of Lists
 
---------------------------------------------------------------------------
-
-019. List of Lists
-
-----------------------------------
+```
 splits each element in three_rows (which contains the first three elements from rows) on the comma delimiter (,)
 appends the resulting list (split_list) to a new list we create (final_list)
 displays the final list using the print() function
-----------------------------------
+```
 
+```python
 three_rows = ["Albuquerque,749", "Anaheim,371", "Anchorage,828"]
 final_list = []
 for row in three_rows:
@@ -352,28 +341,15 @@ print(final_list)
 print(final_list[0])
 print(final_list[1])
 print(final_list[2])
+```
 
->>>
+```
  row
  split_list
  three_rows
  final_list
->>>
+```
 
 --------------------------------------------------------------------------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
---------------------------------------------------------------------------
-
-020. 
-
-----------------------------------
-
-----------------------------------
-
->>>
-
->>>
-
---------------------------------------------------------------------------
