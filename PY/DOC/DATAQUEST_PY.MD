@@ -83,9 +83,12 @@ print(anaheim)
 ```python
 atlanta_string = "Atlanta"
 atlanta_float = 1379.5
+
+print(atlanta_string, atlanta_float)
 ```
 
 ```
+Atlanta 1379.5
 ```
 
 --------------------------------------------------------------------------
@@ -138,10 +141,12 @@ print(crime_rates)
 
 ```python
 crime_rates = [749, 371, 828, 503, 1379]
+
+print(crime_rates)
 ```
 
 ```
-
+[749, 371, 828, 503, 1379]
 ```
 
 --------------------------------------------------------------------------
