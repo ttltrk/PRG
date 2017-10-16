@@ -43,7 +43,7 @@ print(1288 + 639)
 1927
 ```
 
-2. ARITHMETIC OPERATORS
+Arithmetic Operators
 ------
 
 ```python
@@ -55,7 +55,8 @@ print(1288 + 639)
 766.0
 ```
 
-### 3. VARIABLES
+Variables
+------
 
 ```python
 albuquerque = 749
@@ -71,7 +72,8 @@ print(anaheim)
 371
 ```
 
-### 4. DATA TYPES
+Data Types
+------
 
 ```python
 atlanta_string = "Atlanta"
@@ -84,7 +86,8 @@ print(atlanta_string, atlanta_float)
 Atlanta 1379.5
 ```
 
-### 5. THE TYPE FUNCTION
+The Type Function
+------
 
 ```python
 atlanta_string = "Atlanta"
@@ -96,9 +99,8 @@ print(type(atlanta_string))
 <class 'str'>
 ```
 
---------------------------------------------------------------------------
-
-### 6. USING A LIST TO STORE MULTIPLE VALUES
+Using a List to Store Multiple Values
+------
 
 ```python
 cities = []
