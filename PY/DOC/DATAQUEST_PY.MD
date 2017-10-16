@@ -28,7 +28,8 @@ SECTION 2 - FILES AND LOOPS
 019. List of Lists
 020.
 
-### 1. PROGRAMMING AND DATA SCIENCE
+1. PROGRAMMING AND DATA SCIENCE
+------
 
 ```python
 print(1288)
@@ -42,7 +43,8 @@ print(1288 + 639)
 1927
 ```
 
-### 2. ARITHMETIC OPERATORS
+2. ARITHMETIC OPERATORS
+------
 
 ```python
 #average
