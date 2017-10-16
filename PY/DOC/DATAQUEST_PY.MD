@@ -2,7 +2,7 @@
 PYTHON - dataquest.io
 ======
 
-Section 1 - Python Basics
+### Section 1 - Python Basics
 
 1. Programming and data science
 2. Arithmetic Operators
@@ -17,7 +17,7 @@ Section 1 - Python Basics
 11. Slicing Lists
 12. Next Steps
 
-Section 2 - Files and Loops
+### Section 2 - Files and Loops
 
 13. Overview
 14. Opening Files
