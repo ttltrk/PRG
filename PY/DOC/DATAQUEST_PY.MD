@@ -28,7 +28,7 @@ SECTION 2 - FILES AND LOOPS
 019. List of Lists
 020.
 
-1. Programming and Data Science
+Programming and Data Science (1.)
 ======
 
 ```python
