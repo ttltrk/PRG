@@ -28,8 +28,8 @@ SECTION 2 - FILES AND LOOPS
 019. List of Lists
 020.
 
-1. PROGRAMMING AND DATA SCIENCE
-------
+1. Programming and Data Science
+======
 
 ```python
 print(1288)
