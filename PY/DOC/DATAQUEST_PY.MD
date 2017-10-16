@@ -1,11 +1,11 @@
 
 PYTHON - dataquest.io
-=============================================================
+======
 
-SECTION 1 - PYTHON - BASICS
+Section 1 - Python - Basics
 
-001. PROGRAMMING AND DATA SCIENCE
-002. ARITHMETIC OPERATORS
+1. Programming and data science
+2. Arithmetic Operators
 003. VARIABLES
 004. DATA TYPES
 005. THE TYPE FUNCTION
@@ -28,8 +28,6 @@ SECTION 2 - FILES AND LOOPS
 019. List of Lists
 020.
 
---------------------------------------------------------------------------
-
 ### 1. PROGRAMMING AND DATA SCIENCE
 
 ```python
@@ -44,8 +42,6 @@ print(1288 + 639)
 1927
 ```
 
---------------------------------------------------------------------------
-
 ### 2. ARITHMETIC OPERATORS
 
 ```python
@@ -56,8 +52,6 @@ print(1288 + 639)
 ```
 766.0
 ```
-
---------------------------------------------------------------------------
 
 ### 3. VARIABLES
 
@@ -75,8 +69,6 @@ print(anaheim)
 371
 ```
 
---------------------------------------------------------------------------
-
 ### 4. DATA TYPES
 
 ```python
@@ -89,8 +81,6 @@ print(atlanta_string, atlanta_float)
 ```
 Atlanta 1379.5
 ```
-
---------------------------------------------------------------------------
 
 ### 5. THE TYPE FUNCTION
 
