@@ -4,7 +4,7 @@ PYTHON - dataquest.io
 
 #### Section 1 - Python Basics
 
-1. Programming and data science
+1. [Programming and data science][1]
 2. Arithmetic Operators
 3. Variables
 4. Data Types
@@ -28,7 +28,7 @@ PYTHON - dataquest.io
 19. List of Lists
 20.
 
-Programming and Data Science 
+[1]: Programming and Data Science 
 ------
 
 ```python
