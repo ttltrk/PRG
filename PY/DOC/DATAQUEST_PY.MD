@@ -2,31 +2,31 @@
 PYTHON - dataquest.io
 ======
 
-Section 1 - Python - Basics
+Section 1 - Python Basics
 
 1. Programming and data science
 2. Arithmetic Operators
-003. VARIABLES
-004. DATA TYPES
-005. THE TYPE FUNCTION
-006. USING A LIST TO STORE MULTIPLE VALUES
-007. CREATING LISTS WITH VALUES
-008. COMMENTS
-009. ACCESSING ELEMENTS IN A LIST
-010. INSTRUCTIONS
-011. SLICING LISTS
-012. NEXT STEPS
+3. Variables
+4. Data Types
+5. The Type Function
+6. Using a List to Store Multiple Values
+7. Creating Lists With Values
+8. Comments
+9. Accessing Elements in a List
+10. Instructions
+11. Slicing Lists
+12. Next Steps
 
-SECTION 2 - FILES AND LOOPS
+Section 2 - Files and Loops
 
-013. OVERVIEW
-014. OPENING FILES
-015. READING IN FILES
-016. SPLITTING
-017. LOOPS
-018. PRACTICE - LOOPS
-019. List of Lists
-020.
+13. Overview
+14. Opening Files
+15. Reading In Files
+16. Splitting
+17. Loops
+18. Practice - Loops
+19. List of Lists
+20.
 
 Programming and Data Science 
 ------
@@ -127,10 +127,8 @@ print(crime_rates)
 [749, 371, 828, 503, 1379]
 ```
 
-
---------------------------------------------------------------------------
-
-### 7. CREATING LISTS WITH VALUES
+Creating Lists with Values
+------
 
 ```python
 crime_rates = [749, 371, 828, 503, 1379]
@@ -142,9 +140,8 @@ print(crime_rates)
 [749, 371, 828, 503, 1379]
 ```
 
---------------------------------------------------------------------------
-
-### 8. COMMENTS
+Comments
+------
 
 ```python
 # a list
@@ -157,9 +154,8 @@ print(crime_rates)
 [749, 371, 828, 503, 1379]
 ```
 
---------------------------------------------------------------------------
-
-### 9. ACCESSING ELEMENTS IN A LIST
+Accessing Elements in a List
+------
 
 ```python
 # Select the third element from the list cities and assign to the variable anchorage_str.
