@@ -2,7 +2,7 @@
 [PYTHON 3 TUTORIAL](https://www.sololearn.com/Play/Python)
 ======
 
-#### 1. Basic Concepts
+#### Basic Concepts
   * What is Python?
   * Your first program
   * Simple operations
@@ -17,7 +17,7 @@
   * Using an Editor
   * MODULE 1 QUIZ
 
-#### 2. Control Structures
+#### Control Structures
   * Booleans & Comparisons
   * if Statements
   * else Statements
@@ -32,7 +32,7 @@
   * A Simple Calculator
   * MODULE 2 QUIZ
 
-#### 3. Functions & Modules
+#### Functions & Modules
   * Code Reuse
   * Functions
   * Function Arguments
@@ -43,7 +43,7 @@
   * The Standard Library & pip
   * MODULE 3 QUIZ
 
-#### 4. Exceptions & Files
+#### Exceptions & Files
   * Exceptions
   * Exception Handling
   * finally
@@ -55,7 +55,7 @@
   * Working with Files
   * MODULE 3 QUIZ
 
-#### 5. More Types
+#### More Types
   * None
   * Dictionaries
   * Dictionary Functions
@@ -67,7 +67,7 @@
   * Text Analyzer
   * MODULE 5 QUIZ
 
-#### 6. Functional Programming
+#### Functional Programming
   * Introduction
   * Lambdas
   * map & filter
