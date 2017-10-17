@@ -2,7 +2,7 @@
 [Learn Python](https://www.codecademy.com/learn/learn-python)
 ======
 
-#### Python Syntax
+### Python Syntax
 
 ##### Python Syntax
   * Welcome! 
@@ -26,7 +26,7 @@
   * Reassign in a Single Line
   * The Total
 
-#### Strings and Console Output
+### Strings and Console Output
 
 ##### Strings and Console Output
   * Strings
@@ -53,7 +53,7 @@
   * Pretty Time
   * Grande Finale
 
-#### Conditionals and Control Flow
+### Conditionals and Control Flow
 
 ##### Conditionals & Control Flow
   * Go with the Flow
@@ -85,23 +85,23 @@
   * Ending Up
   * Testing, testing, is this Thing On?
   
-#### Functions
+### Functions
 
 ##### Functions
 
 ##### Taking a Vacation
 
-####  Lists & Dictionaries
+###  Lists & Dictionaries
 
 ##### Python Lists and Dictionaries
 
 ##### A Day at the Supermarket
 
-####  Students Becomes the Teachers
+###  Students Becomes the Teachers
 
 ##### Students Becomes the Teachers
 
-####  Lists and Functions
+###  Lists and Functions
 
 ##### Lists and Functions
 
@@ -126,29 +126,29 @@
   * To Your Battle Stations!
   * Extra Credit
 
-#### Loops
+### Loops
 
 ##### Loops
 
 ##### Practice Makes Perfect
 
-#### Exam Statistics
+### Exam Statistics
 
 ##### Exam Statistics
 
-#### Advanced Topics in Python
+### Advanced Topics in Python
 
 ##### Advanced Topics in Python
 
 ##### Introduction to Bitwise Operators
 
-#### Introduction to Classes
+### Introduction to Classes
 
 ##### Introduction to Classes
 
 ##### Classes
 
-#### File Input and Output
+### File Input and Output
 
 ##### File Input/Output
 
