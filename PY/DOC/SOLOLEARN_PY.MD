@@ -1,5 +1,5 @@
 
-[PYTHON 3 TUTORIAL](sololearn.com)
+[PYTHON 3 TUTORIAL](https://www.sololearn.com/Play/Python)
 ======
 
 #### 1. Basic Concepts
