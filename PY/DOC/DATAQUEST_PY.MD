@@ -37,11 +37,12 @@ print(639)
 print(1288 + 639)
 ```
 
-```python
+```
 >>>
 1288
 639
 1927
+>>>
 ```
 
 [try it](https://repl.it/languages/python3)
