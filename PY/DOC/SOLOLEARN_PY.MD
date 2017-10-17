@@ -3,7 +3,6 @@ SOLOLEARN.COM - PYTHON 3 TUTORIAL
 ======
 
 #### 1. BASIC CONCEPTS
-
 1.1. What is Python?
 1.2. Your first program
 1.3. Simple operations
