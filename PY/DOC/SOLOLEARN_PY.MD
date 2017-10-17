@@ -78,55 +78,46 @@
   * itertools
   * MODULE 6 QUIZ
 
-#### 7. OBJECT-ORIENTED PROGRAMMING
-  07.001. Classes
-  07.002. Inheritance
-  07.003. Magic Methods & Operator Overloading
-  07.004. Object Lifecycle
-  07.005. Data Hiding
-  07.006. Class & Static Methods
-  07.007. Properties
-  07.008. A Simple Game
-  ******. MODULE 7 QUIZ
+#### Object-Oriented Programming
+  * Classes
+  * Inheritance
+  * Magic Methods & Operator Overloading
+  * Object Lifecycle
+  * Data Hiding
+  * Class & Static Methods
+  * Properties
+  * A Simple Game
+  * MODULE 7 QUIZ
 
-08. REGULAR EXPRESSIONS
+### Regular Expressions
+  * Introduction
+  * Simple Metacharacters
+  * Character Classes
+  * More Metacharcters
+  * Groups
+  * Special Sequences
+  * Email Extractions
+  * MODULE 8 QUIZ
 
-  08.001. Introduction
-  08.002. Simple Metacharacters
-  08.003. Character Classes
-  08.004. More Metacharcters
-  08.005. Groups
-  08.006. Special Sequences
-  08.007. Email Extractions
-  ******. MODULE 8 QUIZ
+#### PYTHONICNESS & PACKAGING
 
-09. PYTHONICNESS & PACKAGING
+  * The Zen of Python
+  * PEP
+  * More on Function Arguments
+  * Tuple Unpacking
+  * Ternary Operator
+  * More on else Statements
+  *  __main__
+  * Major 3rd Party Libraries
+  * Packages
+  * Packaging for Users
+  * MODULE 9 QUIZ
 
-  09.001. The Zen of Python
-  09.002. PEP
-  09.003. More on Function Arguments
-  09.004. Tuple Unpacking
-  09.005. Ternary Operator
-  09.006. More on else Statements
-  09.007. __main__
-  09.008. Major 3rd Party Libraries
-  09.009. Packages
-  09.010. Packaging for Users
-  ******. MODULE 9 QUIZ
 
-=============================================================================================================
+Basic Concepts
+------
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-01. BASIC CONCEPTS
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-01.001. What is Python?
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-################################################################
+#### What is Python?
 
 Welcome to Python!
 
@@ -137,17 +128,11 @@ It is very popular and used by organizations such as Google, NASA, the CIA, and 
 
 Python is processed at runtime by the interpreter. There is no need to compile your program before executing it.
 
-################################################################
-
-
+```
 Python is a:
 
->>>
 Programming language
->>>
-
-################################################################
-
+```
 
 Welcome to Python!
 
@@ -162,26 +147,13 @@ The version used in this course, CPython, is the most popular by far.
 
 An interpreter is a program that runs scripts written in an interpreted language such as Python.
 
-################################################################
-
-
+```
 Which of these statements is true?
 
->>>
 CPython is an implementation of Python
->>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-01.002. Your first program
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-################################################################
+#### Your first program
 
 Your First Program
 
