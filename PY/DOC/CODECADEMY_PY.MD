@@ -6,18 +6,18 @@
 
 ##### <a href='#1'>Python Syntax</a>
   * <a href="#2">Welcome!</a>
-  * Variables
-  * Booleans
-  * You've Been Reassigned
-  * Whitespace
-  * Whitespace Means Right Space
-  * A Matter of Interpretation
-  * Single Line Comments
-  * Multi-Line Comments
-  * Math
-  * Exponentiation
-  * Modulo
-  * Bringing It All Together
+  * <a href="#3">Variables</a>
+  * <a href="#4">Booleans</a>
+  * <a href="#5">You've Been Reassigned</a>
+  * <a href="#6">Whitespace</a>
+  * <a href="#7">Whitespace Means Right Space</a>
+  * <a href="#8">A Matter of Interpretation</a>
+  * <a href="#9">Single Line Comments</a>
+  * <a href="#10">Multi-Line Comments</a>
+  * <a href="#11">Math</a>
+  * <a href="#12">Exponentiation</a>
+  * <a href="#13">Modulo</a>
+  * <a href="#14">Bringing It All Together</a>
 
 ##### Tip Calculator
   * The Meal
