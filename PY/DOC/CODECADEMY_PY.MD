@@ -5,7 +5,7 @@
 ### Python Syntax
 
 ##### Python Syntax
-  * [Welcome!][1] 
+  * <a href="#1">Welcome!</a>
   * Variables
   * Booleans
   * You've Been Reassigned
@@ -162,7 +162,7 @@ Python Syntax
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
 you can use for countless standalone projects or scripting applications.
 
-##### [1]: Welcome!
+##### <h4 id='1'>Welcome!</h4>
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
