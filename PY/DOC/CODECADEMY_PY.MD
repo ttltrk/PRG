@@ -2,10 +2,9 @@
 CODECADEMY.COM - Learn Python
 ======
 
-#### 1. Python Syntax
+#### Section 1. Python Syntax
 
 1.1. Python Syntax
-
 1.1.1. Welcome!
 1.1.2. Variables
 1.1.3. Booleans
@@ -21,7 +20,6 @@ CODECADEMY.COM - Learn Python
 1.1.13. Bringing It All Together
 
 1.2. Tip Calculator
-
 1.2.1. The Meal
 1.2.2. The Tax
 1.2.3. The Tip
@@ -32,31 +30,31 @@ CODECADEMY.COM - Learn Python
 
 2.1. Strings & Console Output
 	
-02.001.0001. Strings
-02.001.0002. Practice
-02.001.0003. Escaping Characters
-02.001.0004. Access by Index
-02.001.0005. String Methods
-02.001.0006. lower()
-02.001.0007. upper()
-02.001.0008. str() 
-02.001.0009. Dot Notation
-02.001.0010. Printing Strings
-02.001.0011. Printing Variables
-02.001.0012. String Concatenation
-02.001.0013. Explicit String Conversion
-02.001.0014. String Formatting with %, Part1
-02.001.0015. String Formatting with %, Part2
-02.001.0016. And Now, For Something Completly Familiar
+2.1.1. Strings
+2.1.2. Practice
+2.1.3. Escaping Characters
+2.1.4. Access by Index
+2.1.5. String Methods
+2.1.6. lower()
+2.1.7. upper()
+2.1.8. str() 
+2.1.9. Dot Notation
+2.1.10. Printing Strings
+2.1.11. Printing Variables
+2.1.12. String Concatenation
+2.1.13. Explicit String Conversion
+2.1.14. String Formatting with %, Part1
+2.1.15. String Formatting with %, Part2
+2.1.16. And Now, For Something Completly Familiar
 
 2.2. Date and Time
 
-02.002.0001. The datetime Library
-02.002.0002. Getting the Current Date and Time
-02.002.0003. Extracting Information
-02.002.0004. Hot Date
-02.002.0005. Pretty Time
-02.002.0006. Grande Finale
+2.2.1. The datetime Library
+2.2.2. Getting the Current Date and Time
+2.2.3. Extracting Information
+2.2.4. Hot Date
+2.2.5. Pretty Time
+2.2.6. Grande Finale
 
 #### 03. Conditionals and Control Flow
 
