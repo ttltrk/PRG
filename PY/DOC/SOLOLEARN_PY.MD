@@ -2,7 +2,7 @@
 SOLOLEARN.COM - PYTHON 3 TUTORIAL
 ======
 
-#### 1. BASIC CONCEPTS
+#### 1. Basic Concepts
   * What is Python?
   * Your first program
   * Simple operations
@@ -17,74 +17,68 @@ SOLOLEARN.COM - PYTHON 3 TUTORIAL
   * Using an Editor
   * MODULE 1 QUIZ
 
-#### 2. CONTROL STRUCTURES
+#### 2. Control Structures
+  * Booleans & Comparisons
+  * if Statements
+  * else Statements
+  * Boolean Logic
+  * Operator Precedence
+  * while Loops
+  * Lists
+  * List Operations
+  * List Functions
+  * Range
+  * for Loops
+  * A Simple Calculator
+  * MODULE 2 QUIZ
 
-  02.001. Booleans & Comparisons
-  02.002. if Statements
-  02.003. else Statements
-  02.004. Boolean Logic
-  02.005. Operator Precedence
-  02.006. while Loops
-  02.007. Lists
-  02.008. List Operations
-  02.009. List Functions
-  02.010. Range
-  02.011. for Loops
-  02.012. A Simple Calculator
-  ******. MODULE 2 QUIZ
+#### 3. Functions & Modules
+  * Code Reuse
+  * Functions
+  * Function Arguments
+  * Returning from Functions
+  * Comments & Docstrings
+  * Functions as Objects
+  * Modules
+  * The Standard Library & pip
+  * MODULE 3 QUIZ
 
-03. FUNCTIONS  & MODULES
+#### 4. Exceptions & Files
+  * Exceptions
+  * Exception Handling
+  * finally
+  * Raising Exceptions
+  * Assertions
+  * Opening Files
+  * Reading Files
+  * Writing Files
+  * Working with Files
+  * MODULE 3 QUIZ
 
-  03.001. Code Reuse
-  03.002. Functions
-  03.003. Function Arguments
-  03.004. Returning from Functions
-  03.005. Comments & Docstrings
-  03.006. Functions as Objects
-  03.007. Modules
-  03.008. The Standard Library & pip
-  ******. MODULE 3 QUIZ
+#### 5. More Types
+  * None
+  * Dictionaries
+  * Dictionary Functions
+  * Tuples
+  * List Slices
+  * List Comprehensions
+  * String Formatting
+  * Useful Functions
+  * Text Analyzer
+  * MODULE 5 QUIZ
 
-04. EXCEPTIONS & FILES
+#### 6. Functional Programming
+  * Introduction
+  * Lambdas
+  * map & filter
+  * Generators
+  * Decorators
+  * Recursion
+  * Sets
+  * itertools
+  * MODULE 6 QUIZ
 
-  04.001. Exceptions
-  04.002. Exception Handling
-  04.003. finally
-  04.004. Raising Exceptions
-  04.005. Assertions
-  04.006. Opening Files
-  04.007. Reading Files
-  04.008. Writing Files
-  04.009. Working with Files
-  ******. MODULE 3 QUIZ
-
-05. MORE TYPES
-
-  05.001. None
-  05.002. Dictionaries
-  05.003. Dictionary Functions
-  05.004. Tuples
-  05.005. List Slices
-  05.006. List Comprehensions
-  05.007. String Formatting
-  05.008. Useful Functions
-  05.009. Text Analyzer
-  ******. MODULE 5 QUIZ
-
-06. FUNCTIONAL PROGRAMMING
-
-  06.001. Introduction
-  06.002. Lambdas
-  06.003. map & filter
-  06.004. Generators
-  06.005. Decorators
-  06.006. Recursion
-  06.007. Sets
-  06.008. itertools
-  ******. MODULE 6 QUIZ
-
-07. OBJECT-ORIENTED PROGRAMMING
-
+#### 7. OBJECT-ORIENTED PROGRAMMING
   07.001. Classes
   07.002. Inheritance
   07.003. Magic Methods & Operator Overloading
