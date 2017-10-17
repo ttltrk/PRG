@@ -4,137 +4,137 @@ CODECADEMY.COM - Learn Python
 
 #### 1. Python Syntax
 
-	1.1. Python Syntax
+1.1. Python Syntax
 
-		1.1.1. Welcome!
-		1.1.2. Variables
-		1.1.3. Booleans
-		1.1.4. You've Been Reassigned
-		1.1.5. Whitespace
-		1.1.6. Whitespace Means Right Space
-		1.1.7. A Matter of Interpretation
-		1.1.8. Single Line Comments
-		1.1.9. Multi-Line Comments
-		1.1.10. Math
-		1.1.11. Exponentiation
-		1.1.12. Modulo
-		1.1.13. Bringing It All Together
+1.1.1. Welcome!
+1.1.2. Variables
+1.1.3. Booleans
+1.1.4. You've Been Reassigned
+1.1.5. Whitespace
+1.1.6. Whitespace Means Right Space
+1.1.7. A Matter of Interpretation
+1.1.8. Single Line Comments
+1.1.9. Multi-Line Comments
+1.1.10. Math
+1.1.11. Exponentiation
+1.1.12. Modulo
+1.1.13. Bringing It All Together
 
-	1.2. Tip Calculator
+1.2. Tip Calculator
 
-		1.2.1. The Meal
-		1.2.2. The Tax
-		1.2.3. The Tip
-		1.2.4. Reassign in a Single Line
-		1.2.5. The Total
+1.2.1. The Meal
+1.2.2. The Tax
+1.2.3. The Tip
+1.2.4. Reassign in a Single Line
+1.2.5. The Total
 
 #### 02. Strings and Console Output
 
-	02.001. Strings & Console Output
+2.1. Strings & Console Output
 	
-		02.001.0001. Strings
-		02.001.0002. Practice
-		02.001.0003. Escaping Characters
-		02.001.0004. Access by Index
-		02.001.0005. String Methods
-		02.001.0006. lower()
-		02.001.0007. upper()
-		02.001.0008. str() 
-		02.001.0009. Dot Notation
-		02.001.0010. Printing Strings
-		02.001.0011. Printing Variables
-		02.001.0012. String Concatenation
-		02.001.0013. Explicit String Conversion
-		02.001.0014. String Formatting with %, Part1
-		02.001.0015. String Formatting with %, Part2
-		02.001.0016. And Now, For Something Completly Familiar
+02.001.0001. Strings
+02.001.0002. Practice
+02.001.0003. Escaping Characters
+02.001.0004. Access by Index
+02.001.0005. String Methods
+02.001.0006. lower()
+02.001.0007. upper()
+02.001.0008. str() 
+02.001.0009. Dot Notation
+02.001.0010. Printing Strings
+02.001.0011. Printing Variables
+02.001.0012. String Concatenation
+02.001.0013. Explicit String Conversion
+02.001.0014. String Formatting with %, Part1
+02.001.0015. String Formatting with %, Part2
+02.001.0016. And Now, For Something Completly Familiar
 
-	02.002. Date and Time
-	
-		02.002.0001. The datetime Library
-		02.002.0002. Getting the Current Date and Time
-		02.002.0003. Extracting Information
-		02.002.0004. Hot Date
-		02.002.0005. Pretty Time
-		02.002.0006. Grande Finale
+2.2. Date and Time
+
+02.002.0001. The datetime Library
+02.002.0002. Getting the Current Date and Time
+02.002.0003. Extracting Information
+02.002.0004. Hot Date
+02.002.0005. Pretty Time
+02.002.0006. Grande Finale
 
 #### 03. Conditionals and Control Flow
 
-	03.001. Conditionals & Control Flow
+3.1. Conditionals & Control Flow
 
-	03.002. PygLatin
+03.002. PygLatin
 
 #### 04. Functions
 
-	04.001. Functions
+04.001. Functions
 
-	04.002. Taking a Vacation
+04.002. Taking a Vacation
 
 #### 05. Lists & Dictionaries
 
-	05.001. Python Lists and Dictionaries
+05.001. Python Lists and Dictionaries
 
-	05.002. A Day at the Supermarket
+05.002. A Day at the Supermarket
 
 #### 06. Students Becomes the Teachers
 
-	06.001. Students Becomes the Teachers
+06.001. Students Becomes the Teachers
 
 #### 07. Lists and Functions
 
-	07.001. Lists and Functions
+7.1. Lists and Functions
 
-	07.002. Battleship!
+7.2. Battleship!
 
-		07.002.0001. Welcome to Battleship!
-		07.002.0002. Getting Our Feet Wet
-		07.002.0003. Make a List
-		07.002.0004. Check it Twice
-		07.002.0005. Custom Print
-		07.002.0006. Printing Pretty
-		07.002.0007. Hide...
-		07.002.0008. ...and Seek!
-		07.002.0009. It's Not Cheating -- It's Debugging!
-		07.002.0010. You win!
-		07.002.0011. Danger, Will Robinson!!
-		07.002.0012. Bad Aim
-		07.002.0013. Not Again!
-		07.002.0014. Test Run
-		07.002.0015. Play It, Sam
-		07.002.0016. Game Over
-		07.002.0017. A Real Win
-		07.002.0018. To Your Battle Stations!
-		07.002.0019. Extra Credit
+07.002.0001. Welcome to Battleship!
+07.002.0002. Getting Our Feet Wet
+07.002.0003. Make a List
+07.002.0004. Check it Twice
+07.002.0005. Custom Print
+07.002.0006. Printing Pretty
+07.002.0007. Hide...
+07.002.0008. ...and Seek!
+07.002.0009. It's Not Cheating -- It's Debugging!
+07.002.0010. You win!
+07.002.0011. Danger, Will Robinson!!
+07.002.0012. Bad Aim
+07.002.0013. Not Again!
+07.002.0014. Test Run
+07.002.0015. Play It, Sam
+07.002.0016. Game Over
+07.002.0017. A Real Win
+07.002.0018. To Your Battle Stations!
+07.002.0019. Extra Credit
 
 #### 08. Loops
 
-	08.001. Loops
+08.001. Loops
 
-	08.002. Practice Makes Perfect
+08.002. Practice Makes Perfect
 
 #### 09. Exam Statistics
 
-	09.001. Exam Statistics
+09.001. Exam Statistics
 
 #### 10. Advanced Topics in Python
 
-	10.001. Advanced Topics in Python
+10.001. Advanced Topics in Python
 
-	10.002. Introduction to Bitwise Operators
+10.002. Introduction to Bitwise Operators
 
 #### 11. Introduction to Classes
 
-	11.001. Introduction to Classes
+11.001. Introduction to Classes
 
-	11.002. Classes
+11.002. Classes
 
 #### 12. File Input and Output
 
-	12.001. File Input/Output
+12.001. File Input/Output
 
 #### 13. PYTHON FINAL PROJECT
 
-01. Python Syntax
+1. Python Syntax
 ------
 
 #### 1.1. Python Syntax
