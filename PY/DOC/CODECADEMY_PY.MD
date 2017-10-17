@@ -28,23 +28,22 @@
 
 #### Strings and Console Output
 
-##### Strings & Console Output	
+##### Strings and Console Output
   * Strings
   * Practice
   * Escaping Characters
   * Access by Index
-  * String Methods
+  * String methods
   * lower()
   * upper()
-  * str() 
+  * str()
   * Dot Notation
   * Printing Strings
-  * Printing Variables
   * String Concatenation
   * Explicit String Conversion
-  * String Formatting with %, Part1
-  * String Formatting with %, Part2
-  * And Now, For Something Completly Familiar
+  * String Formatting with %, Part 1
+  * String Formatting with %, Part 2
+  * And now, For Something Completely Familiar
 
 ##### Date and Time
   * The datetime Library
@@ -57,9 +56,35 @@
 #### Conditionals and Control Flow
 
 ##### Conditionals & Control Flow
+  * Go with the Flow
+  * Compare Closely!
+  * Compare...Closelier!
+  * How the Tables have Turned
+  * To be and/or not to Be
+  * And
+  * Or
+  * Not
+  * This and That
+  * Mix 'n' Match
+  * Conditional Statement Syntax
+  * If You're Having
+  * Else Problems, I feel bad for you son
+  * I got 99 Problems, but a switch ain't one
+  * The big if
 
-  * PygLatin
-
+##### PygLatin
+  * Break it down
+  * Ahoy!
+  * Input!
+  * Check Yourself!
+  * Check Yourself...some more.
+  * Pop Quiz!
+  * Ay B C
+  * Word Up
+  * Move it on back
+  * Ending Up
+  * Testing, testing, is this Thing On?
+  
 #### Functions
 
 ##### Functions
