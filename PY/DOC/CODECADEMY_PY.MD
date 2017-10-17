@@ -1,8 +1,8 @@
 
-# Learn Python
-##### CODECADEMY.COM
+CODECADEMY.COM - Learn Python
+======
 
-1. Python Syntax
+#### 1. Python Syntax
 
 	1.1. Python Syntax
 
@@ -28,7 +28,7 @@
 		1.2.4. Reassign in a Single Line
 		1.2.5. The Total
 
-02. Strings and Console Output
+#### 02. Strings and Console Output
 
 	02.001. Strings & Console Output
 	
@@ -58,29 +58,29 @@
 		02.002.0005. Pretty Time
 		02.002.0006. Grande Finale
 
-03. Conditionals and Control Flow
+#### 03. Conditionals and Control Flow
 
 	03.001. Conditionals & Control Flow
 
 	03.002. PygLatin
 
-04. Functions
+#### 04. Functions
 
 	04.001. Functions
 
 	04.002. Taking a Vacation
 
-05. Lists & Dictionaries
+#### 05. Lists & Dictionaries
 
 	05.001. Python Lists and Dictionaries
 
 	05.002. A Day at the Supermarket
 
-06. Students Becomes the Teachers
+#### 06. Students Becomes the Teachers
 
 	06.001. Students Becomes the Teachers
 
-07. Lists and Functions
+#### 07. Lists and Functions
 
 	07.001. Lists and Functions
 
@@ -106,42 +106,43 @@
 		07.002.0018. To Your Battle Stations!
 		07.002.0019. Extra Credit
 
-08. Loops
+#### 08. Loops
 
 	08.001. Loops
 
 	08.002. Practice Makes Perfect
 
-09. Exam Statistics
+#### 09. Exam Statistics
 
 	09.001. Exam Statistics
 
-10. Advanced Topics in Python
+#### 10. Advanced Topics in Python
 
 	10.001. Advanced Topics in Python
 
 	10.002. Introduction to Bitwise Operators
 
-11. Introduction to Classes
+#### 11. Introduction to Classes
 
 	11.001. Introduction to Classes
 
 	11.002. Classes
 
-12. File Input and Output
+#### 12. File Input and Output
 
 	12.001. File Input/Output
 
-13. PYTHON FINAL PROJECT
+#### 13. PYTHON FINAL PROJECT
 
-## 01. Python Syntax
+01. Python Syntax
+------
 
-### 1.1. Python Syntax
+#### 1.1. Python Syntax
 
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
 you can use for countless standalone projects or scripting applications.
 
-#### 1.1.1. Welcome!
+##### 1.1.1. Welcome!
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
@@ -153,7 +154,7 @@ print ("Welcome to Python!")
 Welcome to Python!
 ```
 
-01.001.0002. Variables
+##### 1.1.2. Variables
 
 Creating web apps, games, and search engines all involve storing and working with different types of data. 
 They do so using variables. A variable stores a piece of data, and gives it a specific name.
@@ -190,7 +191,7 @@ print(curry)
 30
 ```
 
-01.001.0003. Booleans
+#### 1.1.3. Booleans
 
 Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
 A second data type is called a boolean.
