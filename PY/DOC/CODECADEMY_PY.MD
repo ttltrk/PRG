@@ -1,23 +1,22 @@
 
-CODECADEMY.COM - Learn Python
+[Learn Python] (https://www.codecademy.com/learn/learn-python)
 ======
 
-#### Section 1. Python Syntax
-
-1.1. Python Syntax
-1.1.1. Welcome! 
-1.1.2. Variables
-1.1.3. Booleans
-1.1.4. You've Been Reassigned
-1.1.5. Whitespace
-1.1.6. Whitespace Means Right Space
-1.1.7. A Matter of Interpretation
-1.1.8. Single Line Comments
-1.1.9. Multi-Line Comments
-1.1.10. Math
-1.1.11. Exponentiation
-1.1.12. Modulo
-1.1.13. Bringing It All Together
+#### Python Syntax
+  * Python Syntax
+  * Welcome! 
+  * Variables
+  * Booleans
+  * You've Been Reassigned
+  * Whitespace
+  * Whitespace Means Right Space
+  * A Matter of Interpretation
+  * Single Line Comments
+  * Multi-Line Comments
+  * Math
+  * Exponentiation
+  * Modulo
+  * Bringing It All Together
 
 1.2. Tip Calculator
 1.2.1. The Meal
