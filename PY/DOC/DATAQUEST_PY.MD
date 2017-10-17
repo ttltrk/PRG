@@ -37,8 +37,8 @@ print(639)
 print(1288 + 639)
 ```
 
-```
->>>python
+```python
+>>>
 1288
 639
 1927
@@ -55,8 +55,10 @@ Arithmetic Operators
 (749+371+828+503+1379)/5
 ```
 
-```
+```python
+>>>
 766.0
+>>>
 ```
 
 Variables
@@ -72,8 +74,10 @@ atlanta = 1379
 print(anaheim)
 ```
 
-```
+```python
+>>>
 371
+>>>
 ```
 
 Data Types
