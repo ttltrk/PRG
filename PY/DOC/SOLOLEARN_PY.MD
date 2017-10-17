@@ -128,10 +128,10 @@ It is very popular and used by organizations such as Google, NASA, the CIA, and 
 
 Python is processed at runtime by the interpreter. There is no need to compile your program before executing it.
 
-```
+```python
 Python is a:
 
-Programming language
+>>>Programming language
 ```
 
 Welcome to Python!
@@ -147,10 +147,10 @@ The version used in this course, CPython, is the most popular by far.
 
 An interpreter is a program that runs scripts written in an interpreted language such as Python.
 
-```
+```python
 Which of these statements is true?
 
-CPython is an implementation of Python
+>>>CPython is an implementation of Python
 ```
 
 #### Your first program
@@ -160,8 +160,10 @@ Your First Program
 Let's start off by creating a short program that displays "Hello world!".
 In Python, we use the print statement to output text:
 
+```python
 >>> print('Hello world!')
 Hello world!
+```
 
 Congratulations! You have written your first program.
 
@@ -171,73 +173,64 @@ Note the >>> in the code above. They are the prompt symbol of the Python console
 which means that each line is executed as it is entered. Python also includes IDLE, the integrated development environment,
 which includes tools for writing and debugging entire programs.
 
-################################################################
-
+```python
 print('Hi!')
 
 >>>
 Hi!
 >>>
-
-################################################################
+```
 
 Printing Text
 
 The print statement can also be used to output multiple lines of text.
 For Example:
+
+```python
 >>> print('Hello world!')
 Hello world!
 >>> print('Hello world!')
 Hello world!
 >>> print('Spam and eggs...')
 Spam and eggs...
+```
 
 Python code often contains references to the comedy group Monty Python. This is why the words, 
 "spam" and "eggs" are often used as placeholder variables in Python where "foo" and "bar"
 would be used in other programming languages.
 
-################################################################
-
+```python
 print('ni ni ni')
 
 >>>
 ni ni ni
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-01.003. Simple operations
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-################################################################
+#### Simple operations
 
 Simple Operations
 
 Python has the capability of carrying out calculations.
 Enter a calculation directly into the Python console, and it will output the answer.
 
+```python
 >>> 2 + 2
 4
 >>> 5 + 4 - 3
 6
+```
 
 The spaces around the plus and minus signs here are optional (the code would work without them), 
 but they make it easier to read.
 
-################################################################
-
+```python
 1 + 2 + 3
 
 >>>
 6
 >>>
-
-################################################################
+```
 
 Simple Operations
 
@@ -246,60 +239,62 @@ a forward slash to indicate division.
 
 Use parentheses to determine which operations are performed first.
 
+```python
 >>> 2 * (3 + 4)
 14
 >>> 10 / 2
 5.0
+```
 
 Using a single slash to divide numbers produces a decimal (or float, as it is called in programming). 
 We'll have more about floats in a later lesson.
 
-################################################################
-
+```python
 (4 + 8) / 2
 
 >>>
 6.0
 >>>
-
-################################################################
+```
 
 Simple Operations
 
 The minus sign indicates a negative number. 
 Operations are performed on negative numbers, just as they are on positive ones.
+
+```pyton
 >>> -7
 -7
 >>> (-7 + 2) * (-4)
 20
+```
 
 The plus signs can also be put in front of numbers, but this has no effect, and is mostly used to emphasize 
 that a number is positive to increase readability of code.
 
-################################################################
-
+```python
 (-5 -1) * 3
 
 >>>
 -18
 >>>
-
-################################################################
+```
 
 Simple Operations
 
 Dividing by zero in Python produces an error, as no answer can be calculated.
 
+```python
 >>> 11 / 0
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ZeroDivisionError: division by zero
+```
 
 In Python, the last line of an error message indicates the error's type.
 Read error messages carefully, as they often tell you how to fix a program!
 
-################################################################
-
+```python
 (17 + 94) / (-5 + 5)
 
 >>>
@@ -309,18 +304,9 @@ ZeroDivisionError                         Traceback (most recent call last)
 
 ZeroDivisionError: division by zero
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-01.004. Floats
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-################################################################
+#### Floats
 
 Floats
 
