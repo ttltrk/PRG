@@ -174,7 +174,7 @@ print ("Welcome to Python!")
 Welcome to Python!
 ```
 
-##### 1.1.2. Variables
+#### <h4 id='3'>Variables</h4>
 
 Creating web apps, games, and search engines all involve storing and working with different types of data. 
 They do so using variables. A variable stores a piece of data, and gives it a specific name.
@@ -211,7 +211,7 @@ print(curry)
 30
 ```
 
-#### 1.1.3. Booleans
+#### <h4 id='4'>Booleans</h4>
 
 Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
 A second data type is called a boolean.
