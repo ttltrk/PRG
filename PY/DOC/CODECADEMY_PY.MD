@@ -4,8 +4,8 @@
 
 ### Python Syntax
 
-##### Python Syntax
-  * <a href="#1">Welcome!</a>
+##### <a href='#1'>Python Syntax</a>
+  * <a href="#2">Welcome!</a>
   * Variables
   * Booleans
   * You've Been Reassigned
@@ -157,12 +157,12 @@
 Python Syntax
 ------
 
-#### Python Syntax
+#### <h3 id='1'>Python Syntax</h3>
 
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
 you can use for countless standalone projects or scripting applications.
 
-##### <h4 id='1'>Welcome!</h4>
+##### <h4 id='2'>Welcome!</h4>
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
