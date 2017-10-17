@@ -31,41 +31,6 @@ PYTHON - dataquest.io
 Programming and Data Science 
 ------
 
-Data science involves processing, analyzing, and visualizing data. While some tools like Microsoft Excel allow us to 
-perform basic data science tasks, they're limited to the functionality built in to the user interface. 
-If you want to work with datasets that aren't structured like a spreadsheet or create entire new data visualizations from scratch,
-you'll need to become proficient in programming. Instead of using a program written by others that can solve a narrow set of tasks,
-you can create your own programs that can solve your specific problems.
-
-Programming involves organizing a collection of instructions into a program for a computer to carry out. To express these instructions,
-we use a programming language. In this track, we focus on a language called Python. Python is a popular choice for working with data
-because it has good support for:
-
-handling large datasets
-
-working with common mathematical functions
-creating powerful data visualizations
-In this course and the next, we'll explore some of the basic features of programming in Python and how to express that in code. 
-In later courses, we'll build on this programming knowledge to learn data visualization, statistics, machine learning, and more.
-
-Expressions
-
-To introduce the basic concepts in Python, we'll start by understanding how to evaluate basic expressions. 
-If you've ever used a calculator, you're familiar with the process of writing and running mathematical expressions like 4 + 5 or 
-(1 + 2 + 3) / 3. Your calculator evaluates what you entered and immediately returns the result.
-
-In Python, we can write multiple expressions that we want evaluated in order. We accomplish this by writing each expression on a
-separate line of text in a single file. We then ask the Python interpreter to evaluate the entire file, also known as a program, 
-and display any necessary output.
-
-In the first two lines of code, we passed two integer values (4 and 5) into a print() statement. 
-While an expression evaluates to a specific value, a statement represents a concrete action of some kind.
-
-In this case, the print() statement displays the result of the expression within the parentheses. 
-print() is known as a function. Similar to mathematical functions, a function in Python takes in an input and returns an output 
-or an action of some kind. We'll learn about some other functions in this mission and dive more into how functions work 
-later in this course.
-
 ```python
 #Use the console to run the following lines of code...
 
