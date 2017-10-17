@@ -1,26 +1,22 @@
 
-*************************************************************************************************************
-SOLOLEARN.COM
-PYTHON 3 TUTORIAL
-*************************************************************************************************************
+SOLOLEARN.COM - PYTHON 3 TUTORIAL
+======
 
-=============================================================================================================
+#### 1. BASIC CONCEPTS
 
-01. BASIC CONCEPTS
-
-  01.001. What is Python?
-  01.002. Your first program
-  01.003. Simple operations
-  01.004. Floats
-  01.005. Other Numerical Operations
-  01.006. Strings
-  01.007. Simple Input & Output
-  01.008. String Operations
-  01.009. Type Conversion
-  01.010. Variables
-  01.011. In-Place Operators
-  01.012. Using an Editor
-  ******. MODULE 1 QUIZ
+1.1. What is Python?
+1.2. Your first program
+1.3. Simple operations
+1.4. Floats
+1.5. Other Numerical Operations
+1.6. Strings
+1.7. Simple Input & Output
+1.8. String Operations
+1.9. Type Conversion
+1.10. Variables
+1.11. In-Place Operators
+1.12. Using an Editor
+1.13. MODULE 1 QUIZ
 
 02. CONTROL STRUCTURES
 
