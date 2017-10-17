@@ -5,7 +5,7 @@ CODECADEMY.COM - Learn Python
 #### Section 1. Python Syntax
 
 1.1. Python Syntax
-1.1.1. Welcome!
+1.1.1. Welcome! 
 1.1.2. Variables
 1.1.3. Booleans
 1.1.4. You've Been Reassigned
