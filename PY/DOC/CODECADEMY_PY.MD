@@ -1,9 +1,9 @@
 
-[Learn Python] (https://www.codecademy.com/learn/learn-python)
+[Learn Python](https://www.codecademy.com/learn/learn-python)
 ======
 
 #### Python Syntax
-  * Python Syntax
+##### Python Syntax
   * Welcome! 
   * Variables
   * Booleans
