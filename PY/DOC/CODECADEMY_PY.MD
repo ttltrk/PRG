@@ -3,6 +3,7 @@
 ======
 
 #### Python Syntax
+
 ##### Python Syntax
   * Welcome! 
   * Variables
@@ -18,128 +19,125 @@
   * Modulo
   * Bringing It All Together
 
-1.2. Tip Calculator
-1.2.1. The Meal
-1.2.2. The Tax
-1.2.3. The Tip
-1.2.4. Reassign in a Single Line
-1.2.5. The Total
+##### Tip Calculator
+  * The Meal
+  * The Tax
+  * The Tip
+  * Reassign in a Single Line
+  * The Total
 
-#### 02. Strings and Console Output
+#### Strings and Console Output
 
-2.1. Strings & Console Output
-	
-2.1.1. Strings
-2.1.2. Practice
-2.1.3. Escaping Characters
-2.1.4. Access by Index
-2.1.5. String Methods
-2.1.6. lower()
-2.1.7. upper()
-2.1.8. str() 
-2.1.9. Dot Notation
-2.1.10. Printing Strings
-2.1.11. Printing Variables
-2.1.12. String Concatenation
-2.1.13. Explicit String Conversion
-2.1.14. String Formatting with %, Part1
-2.1.15. String Formatting with %, Part2
-2.1.16. And Now, For Something Completly Familiar
+##### Strings & Console Output	
+  * Strings
+  * Practice
+  * Escaping Characters
+  * Access by Index
+  * String Methods
+  * lower()
+  * upper()
+  * str() 
+  * Dot Notation
+  * Printing Strings
+  * Printing Variables
+  * String Concatenation
+  * Explicit String Conversion
+  * String Formatting with %, Part1
+  * String Formatting with %, Part2
+  * And Now, For Something Completly Familiar
 
-2.2. Date and Time
+##### Date and Time
+  * The datetime Library
+  * Getting the Current Date and Time
+  * Extracting Information
+  * Hot Date
+  * Pretty Time
+  * Grande Finale
 
-2.2.1. The datetime Library
-2.2.2. Getting the Current Date and Time
-2.2.3. Extracting Information
-2.2.4. Hot Date
-2.2.5. Pretty Time
-2.2.6. Grande Finale
+#### Conditionals and Control Flow
 
-#### 03. Conditionals and Control Flow
+##### Conditionals & Control Flow
 
-3.1. Conditionals & Control Flow
+  * PygLatin
 
-03.002. PygLatin
+#### Functions
 
-#### 04. Functions
+##### Functions
 
-04.001. Functions
+##### Taking a Vacation
 
-04.002. Taking a Vacation
+####  Lists & Dictionaries
 
-#### 05. Lists & Dictionaries
+##### Python Lists and Dictionaries
 
-05.001. Python Lists and Dictionaries
+##### A Day at the Supermarket
 
-05.002. A Day at the Supermarket
+####  Students Becomes the Teachers
 
-#### 06. Students Becomes the Teachers
+##### Students Becomes the Teachers
 
-06.001. Students Becomes the Teachers
+####  Lists and Functions
 
-#### 07. Lists and Functions
+##### Lists and Functions
 
-7.1. Lists and Functions
+##### Battleship!
+  * Welcome to Battleship!
+  * Getting Our Feet Wet
+  * Make a List
+  * Check it Twice
+  * Custom Print
+  * Printing Pretty
+  * Hide...
+  * ...and Seek!
+  * It's Not Cheating -- It's Debugging!
+  * You win!
+  * Danger, Will Robinson!!
+  * Bad Aim
+  * Not Again!
+  * Test Run
+  * Play It, Sam
+  * Game Over
+  * A Real Win
+  * To Your Battle Stations!
+  * Extra Credit
 
-7.2. Battleship!
+#### Loops
 
-07.002.0001. Welcome to Battleship!
-07.002.0002. Getting Our Feet Wet
-07.002.0003. Make a List
-07.002.0004. Check it Twice
-07.002.0005. Custom Print
-07.002.0006. Printing Pretty
-07.002.0007. Hide...
-07.002.0008. ...and Seek!
-07.002.0009. It's Not Cheating -- It's Debugging!
-07.002.0010. You win!
-07.002.0011. Danger, Will Robinson!!
-07.002.0012. Bad Aim
-07.002.0013. Not Again!
-07.002.0014. Test Run
-07.002.0015. Play It, Sam
-07.002.0016. Game Over
-07.002.0017. A Real Win
-07.002.0018. To Your Battle Stations!
-07.002.0019. Extra Credit
+##### Loops
 
-#### 08. Loops
+##### Practice Makes Perfect
 
-08.001. Loops
+#### Exam Statistics
 
-08.002. Practice Makes Perfect
+##### Exam Statistics
 
-#### 09. Exam Statistics
+#### Advanced Topics in Python
 
-09.001. Exam Statistics
+##### Advanced Topics in Python
 
-#### 10. Advanced Topics in Python
+##### Introduction to Bitwise Operators
 
-10.001. Advanced Topics in Python
+#### Introduction to Classes
 
-10.002. Introduction to Bitwise Operators
+##### Introduction to Classes
 
-#### 11. Introduction to Classes
+##### Classes
 
-11.001. Introduction to Classes
+#### File Input and Output
 
-11.002. Classes
+##### File Input/Output
 
-#### 12. File Input and Output
+#### PYTHON FINAL PROJECT
 
-12.001. File Input/Output
-
-#### 13. PYTHON FINAL PROJECT
-
-1. Python Syntax
+Python Syntax
 ------
 
-#### 1.1. Python Syntax
+#### Python Syntax
 
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
 you can use for countless standalone projects or scripting applications.
 
-##### 1.1.1. Welcome!
+##### Welcome!
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
