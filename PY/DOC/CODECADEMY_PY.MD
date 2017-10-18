@@ -238,12 +238,12 @@ Python Syntax
 
 ### Python Syntax
 
->This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
->you can use for countless standalone projects or scripting applications.
+This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
+you can use for countless standalone projects or scripting applications.
 
 <h3 id='1'>Welcome!</h3>
 
->Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
+Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
 ```python
 print ("Welcome to Python!")
@@ -255,8 +255,8 @@ Welcome to Python!
 
 <h3 id='2'>Variables</h3>
 
->Creating web apps, games, and search engines all involve storing and working with different types of data. 
->They do so using variables. A variable stores a piece of data, and gives it a specific name.
+Creating web apps, games, and search engines all involve storing and working with different types of data. 
+They do so using variables. A variable stores a piece of data, and gives it a specific name.
 
 For example:
 
@@ -264,14 +264,12 @@ For example:
 spam = 5
 ```
 
->The variable spam now stores the number 5.
+The variable spam now stores the number 5.
+
+>Set the variable my_variable equal to the value 10.
+>Click the Run button to run your code.
 
 ```python
-"""
-Set the variable my_variable equal to the value 10.
-Click the Run button to run your code.
-"""
-
 my_variable = 10
 spam = 5
 age = 33
@@ -291,11 +289,11 @@ print(curry)
 ```
 <h3 id='3'>Booleans</h3>
 
->Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
->A second data type is called a boolean.
+Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
+A second data type is called a boolean.
 
->A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, 
->a boolean can only be True or False.
+A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, 
+a boolean can only be True or False.
 
 You can use variables to store booleans like this:
 
@@ -304,11 +302,9 @@ a = True
 b = False
 ```
 
-```python
-"""
-Set the following variables to the corresponding values:
-"""
+>Set the following variables to the corresponding values:
 
+```python
 my_int to the value 7
 my_float to the value 1.23
 my_bool to the value True
@@ -342,11 +338,9 @@ Say my_int = 7. You can change the value of a variable by "reassigning" it, like
 my_int = 3
 ```
 
-```python
-"""
-Try it and see! Change the value of my_int from 7 to 3 in the editor
-"""
+>Try it and see! Change the value of my_int from 7 to 3 in the editor
 
+```python
 my_int = 7
 my_int = 3
 
