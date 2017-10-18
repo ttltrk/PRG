@@ -266,10 +266,12 @@ spam = 5
 
 The variable spam now stores the number 5.
 
->Set the variable **my_variable** equal to the value ```10```.
->Click the Run button to run your code.
-
 ```python
+"""
+Set the variable my_variable equal to the value 10.
+Click the Run button to run your code.
+"""
+
 my_variable = 10
 spam = 5
 age = 33
@@ -302,9 +304,11 @@ a = True
 b = False
 ```
 
->Set the following variables to the corresponding values:
-
 ```python
+"""
+Set the following variables to the corresponding values:
+"""
+
 my_int to the value 7
 my_float to the value 1.23
 my_bool to the value True
@@ -338,9 +342,11 @@ Say my_int = 7. You can change the value of a variable by "reassigning" it, like
 my_int = 3
 ```
 
->Try it and see! Change the value of **my_int** from ```7``` to ```3``` in the editor
-
 ```python
+"""
+Try it and see! Change the value of my_int from 7 to 3 in the editor
+"""
+
 my_int = 7
 my_int = 3
 
@@ -355,11 +361,12 @@ print (my_int)
 
 In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
-
->The code on the right is badly formatted. Hit Run to see what happens.
->You should see an error message. We'll fix it in the next exercise!
-
 ```python
+"""
+The code on the right is badly formatted. Hit Run to see what happens.
+You should see an error message. We'll fix it in the next exercise!
+"""
+
 def spam():
 eggs = 12
 return eggs
