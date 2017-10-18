@@ -14,3 +14,13 @@
 ### Summarizing Your Data
 
 ### Aggregating and Describing
+
+### Importing Stock Listing Data
+------
+
+<h3>Reading, Inspecting and cleaning data from csv files</h3>
+
+**Import and clean data**
+
+Ensure that pd.DataFrame() is same as csv source file
+Stock Exchange listings: amex-listings.csv
