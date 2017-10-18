@@ -266,7 +266,7 @@ spam = 5
 
 The variable spam now stores the number 5.
 
->Set the variable my_variable equal to the value 10.
+>Set the variable **my_variable** equal to the value ```10```.
 >Click the Run button to run your code.
 
 ```python
@@ -338,7 +338,7 @@ Say my_int = 7. You can change the value of a variable by "reassigning" it, like
 my_int = 3
 ```
 
->Try it and see! Change the value of my_int from 7 to 3 in the editor
+>Try it and see! Change the value of **my_int** from ```7``` to ```3``` in the editor
 
 ```python
 my_int = 7
@@ -355,12 +355,11 @@ print (my_int)
 
 In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
-```python
-"""
-The code on the right is badly formatted. Hit Run to see what happens.
-You should see an error message. We'll fix it in the next exercise!
-"""
 
+>The code on the right is badly formatted. Hit Run to see what happens.
+>You should see an error message. We'll fix it in the next exercise!
+
+```python
 def spam():
 eggs = 12
 return eggs
