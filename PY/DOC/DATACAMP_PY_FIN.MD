@@ -23,3 +23,7 @@ Importing Stock Listing Data
 #### Import and clean data
   * Ensure that pd.DataFrame() is same as csv source file
   * Stock Exchange listings: amex-listings.csv
+  
+### How Panda stores data
+  * Each column has its own data format stored in dtype
+  * dtype affects calculation and visualization
