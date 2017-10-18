@@ -45,31 +45,31 @@
   * <a href="#33">And now, For Something Completely Familiar</a>
 
 ##### Date and Time
-  * The datetime Library
-  * Getting the Current Date and Time
-  * Extracting Information
-  * Hot Date
-  * Pretty Time
-  * Grande Finale
+  * <a href="#34">The datetime Library</a>
+  * <a href="#35">Getting the Current Date and Time</a>
+  * <a href="#36">Extracting Information</a>
+  * <a href="#37">Hot Date</a>
+  * <a href="#38">Pretty Time</a>
+  * <a href="#39">Grande Finale</a>
 
 ### Conditionals and Control Flow
 
 ##### Conditionals & Control Flow
-  * Go with the Flow
-  * Compare Closely!
-  * Compare...Closelier!
-  * How the Tables have Turned
-  * To be and/or not to Be
-  * And
-  * Or
-  * Not
-  * This and That
-  * Mix 'n' Match
-  * Conditional Statement Syntax
-  * If You're Having
-  * Else Problems, I feel bad for you son
-  * I got 99 Problems, but a switch ain't one
-  * The big if
+  * <a href="#40">Go with the Flow</a>
+  * <a href="#41">Compare Closely!</a>
+  * <a href="#42">Compare...Closelier!</a>
+  * <a href="#43">How the Tables have Turned</a>
+  * <a href="#44">To be and/or not to Be</a>
+  * <a href="#45">And</a>
+  * <a href="#46">Or</a>
+  * <a href="#47">Not</a>
+  * <a href="#48">This and That</a>
+  * <a href="#49">Mix 'n' Match</a>
+  * <a href="#50">Conditional Statement Syntax</a>
+  * <a href="#51">If You're Having</a>
+  * <a href="#52">Else Problems, I feel bad for you son</a>
+  * <a href="#53">I got 99 Problems, but a switch ain't one</a>
+  * <a href="#54">The big if</a>
 
 ##### PygLatin
   * Break it down
