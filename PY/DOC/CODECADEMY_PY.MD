@@ -330,17 +330,17 @@ True False
 >>>
 ```
 
-01.001.0004. You've Been Reassigned
+<h4 id='4'>You've Been Reassigned</h4>
 
 Now you know how to use variables to store values.
 
 Say my_int = 7. You can change the value of a variable by "reassigning" it, like this:
 
+```python
 my_int = 3
+```
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Try it and see! Change the value of my_int from 7 to 3 in the editor
 """
@@ -349,23 +349,17 @@ my_int = 7
 my_int = 3
 
 print (my_int)
-----------------------------------------------------------------
 
 >>>
 3
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0005. Whitespace
+<h4 id='5'>Whitespace</h4>
 
 In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 The code on the right is badly formatted. Hit Run to see what happens.
 
@@ -377,17 +371,13 @@ eggs = 12
 return eggs
         
 print spam()
-----------------------------------------------------------------
 
 >>>
 Syntax error
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0006. Whitespace Means Right Space
+<h4 id='6'>Whitespace Means Right Space</h4>
 
 Now let's examine the error from the last lesson:
 
@@ -399,9 +389,7 @@ to make sure you can easily read code with multiple indentations in your browser
 you will also see Python code that uses four-space indentation. Both are correct, 
 as long as you make sure to be consistent throughout your code.
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Properly indent the code with two spaces before eggs on line 2 and another two before return on line 3.
 You should indent your code with two spaces.
@@ -412,28 +400,24 @@ def spam():
     return eggs
         
 print (spam())
-----------------------------------------------------------------
 
 >>>
 12
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0007. A Matter of Interpretation
+<h4 id='7'>A Matter of Interpretation</h4>
 
 The window on the right side of the page is called the interpreter. 
 The interpreter runs your code line by line, and checks for any errors.
 
+```python
 cats = 3
+```
 
 In the above example, we create a variable cats and assign it the value of 3.
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Create a variable called spam and assign it the value of True.
 
@@ -445,29 +429,23 @@ eggs = False
 
 print(spam)
 print(eggs)
-----------------------------------------------------------------
 
 >>>
 True
 False
 >>>
+```
 
-################################################################
+<h4 id='8'>Single Line Comments</h4>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0008. Single Line Comments
-
-You probably saw us use the # sign a few times in earlier exercises. 
-The # sign is for comments. A comment is a line of text that Python won't try to run as code. 
+You probably saw us use the ```#``` sign a few times in earlier exercises. 
+The ```#``` sign is for comments. A comment is a line of text that Python won't try to run as code. 
 It's just for humans to read.
 
 Comments make your program easier to understand. When you look back at your code or others want to collaborate with you, 
 they can read your comments and easily figure out what your code does.
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Write a comment on line 1. Make sure it starts with #. It can say anything you like.
 """
@@ -476,30 +454,26 @@ Write a comment on line 1. Make sure it starts with #. It can say anything you l
 mysterious_variable = 42
 
 print(mysterious_variable)
-----------------------------------------------------------------
 
 >>>
 42
 >>>
+```
 
-################################################################
+<h4 id='9'>Multi-Line Comments</h4>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0009. Multi-Line Comments
-
-The # sign will only comment out a single line. While you could write a multi-line comment, 
-starting each line with #, that can be a pain.
+The ```#``` sign will only comment out a single line. While you could write a multi-line comment, 
+starting each line with ```#```, that can be a pain.
 
 Instead, for multi-line comments, you can include the whole block in a set of triple quotation marks:
 
+```python
 """Sipping from your cup 'til it runneth over,
 Holy Grail.
 """
+```
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Write a multi-line comment in the editor. It can be any text you'd like!
 """
@@ -512,28 +486,24 @@ ez egy sima
 mysterious_variable = 11
 
 print(mysterious_variable)
-----------------------------------------------------------------
 
 >>>
 11
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0010. Math
+<h4 id='10'>Math</h4>
 
 Great! Now let's do some math. You can add, subtract, multiply, divide numbers like this
 
+```python
 addition = 72 + 23
 subtraction = 108 - 204
 multiplication = 108 * 0.5
 division = 108 / 9
+```
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Set the variable count_to equal to the sum of two big numbers.
 """
@@ -541,31 +511,28 @@ Set the variable count_to equal to the sum of two big numbers.
 count_to = 72 + 23
  
 print (count_to)
-----------------------------------------------------------------
 
 >>>
 95
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0011. Exponentiation
+<h4 id='11'>Exponentiation</h4>
 
 All that math can be done on a calculator, so why use Python? Because you can combine math with other data types 
 (e.g. booleans) and commands to create useful programs. Calculators just stick to numbers.
 
 Now let's work with exponents.
 
+```python
 eight = 2 ** 3
+```
+
 In the above example, we create a new variable called eight and set it to 8, or the result of 2 to the power to 3 (2^3).
 
-Notice that we use ** instead of * or the multiplication operator.
+Notice that we use ```**``` instead of ```*``` or the multiplication operator.
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Create a new variable called eggs and use exponents to set eggs equal 100. Try raising 10 to the power of 2.
 
@@ -577,24 +544,18 @@ Create a new variable called eggs and use exponents to set eggs equal 100. Try r
 eggs = 10 ** 2
 
 print (eggs)
-----------------------------------------------------------------
 
 >>>
 100
 >>>
+```
 
-################################################################
+<h4 id='12'>Modulo</h4>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0012. Modulo
-
-Our final operator is modulo. Modulo returns the remainder from a division. So, if you type 3 % 2, it will return 1, 
+Our final operator is modulo. Modulo returns the remainder from a division. So, if you type ```3 % 2``` it will return 1, 
 because 2 goes into 3 evenly once, with 1 left over.
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Use modulo to set spam equal to 1. You can use any two numbers that will leave a remainder of 1 to do this.
 """
@@ -602,17 +563,13 @@ Use modulo to set spam equal to 1. You can use any two numbers that will leave a
 spam = 3 % 2
 
 print (spam)
-----------------------------------------------------------------
 
 >>>
 1
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-01.001.0013. Bringing It All Together
+<h4 id='13'>Bringing It All Together</h4>
 
 Nice work! So far, you've learned about:
 
@@ -620,11 +577,9 @@ Variables, which store values for later use
 Data types, such as numbers and booleans
 Whitespace, which separates statements
 Comments, which make your code easier to read
-Arithmetic operations, including +, -, *, /, **, and %
+Arithmetic operations, including ```+```, ```-```, ```*```, ```/```, ```**```, and ```%```
 
-################################################################
-
-----------------------------------------------------------------
+```python
 """
 Let's put our knowledge to work.
 
@@ -640,11 +595,11 @@ python = 1.234
 monty_python = python ** 2
 
 print(monty_python)
-----------------------------------------------------------------
 
 >>>
 1.522756
 >>>
+```
 
 ################################################################
 
