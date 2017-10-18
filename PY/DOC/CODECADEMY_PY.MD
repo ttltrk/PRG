@@ -253,7 +253,7 @@ Welcome to Python!
 >>>
 ```
 
-<h3 id='2'>Variables</h4>
+<h3 id='2'>Variables</h3>
 
 Creating web apps, games, and search engines all involve storing and working with different types of data. 
 They do so using variables. A variable stores a piece of data, and gives it a specific name.
@@ -305,7 +305,9 @@ b = False
 ```
 
 ```python
+"""
 Set the following variables to the corresponding values:
+"""
 
 my_int to the value 7
 my_float to the value 1.23
@@ -362,7 +364,6 @@ In Python, whitespace is used to structure code. Whitespace is important, so you
 ```python
 """
 The code on the right is badly formatted. Hit Run to see what happens.
-
 You should see an error message. We'll fix it in the next exercise!
 """
 
