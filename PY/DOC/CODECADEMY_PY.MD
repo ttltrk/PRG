@@ -108,16 +108,59 @@
   * Review: Built-In Functions
 
 ##### Taking a Vacation
+  * Before We Begin
+  * Planning Your Trip
+  * Getting There
+  * Transportation
+  * Pull it Together
+  * Hey, You Never Know!
+  * Plan Your Trip!
 
 ###  Lists & Dictionaries
 
 ##### Python Lists and Dictionaries
+  * Introduction to Lists
+  * Access by Index
+  * New Neighbors
+  * Late Arrivals & List Length
+  * List Slicing
+  * Slicing Lists and Strings
+  * Maintaining Order
+  * For One and All
+  * More with 'for'
+  * This Next Part is Key
+  * New Entries
+  * Changing Your Mind
+  * Remove a Few Things
+  * It's Dangerous to Go Alone! Take This  
 
 ##### A Day at the Supermarket
+  * BeFOR We Begin
+  * This is KEY!
+  * Control Flow and Looping
+  * Lists + Functions
+  * String Looping
+  * Your Own Store!
+  * Investing in Stock
+  * Keeping Track of the Produce
+  * Something of Value
+  * Shopping at the Market
+  * Making a Purchase
+  * Stocking Out
+  * Let's Check Out!  
 
 ###  Students Becomes the Teachers
 
 ##### Students Becomes the Teachers
+  * Lesson Number One
+  * What's the Score?
+  * Put It Together
+  * For the Record
+  * It's Okay to be Average
+  * Just Weight and See
+  * Sending a Letter
+  * Part of the Whole
+  * How is Everybody Doing?
 
 ###  Lists and Functions
 
