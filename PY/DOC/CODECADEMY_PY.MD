@@ -241,7 +241,7 @@ Python Syntax
 This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
 you can use for countless standalone projects or scripting applications.
 
-<h4 id='1'>Welcome!</h4>
+<h3 id='1'>Welcome!</h3>
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
@@ -253,7 +253,7 @@ Welcome to Python!
 >>>
 ```
 
-<h4 id='2'>Variables</h4>
+<h3 id='2'>Variables</h4>
 
 Creating web apps, games, and search engines all involve storing and working with different types of data. 
 They do so using variables. A variable stores a piece of data, and gives it a specific name.
@@ -289,7 +289,7 @@ print(curry)
 30
 >>>
 ```
-<h4 id='3'>Booleans</h4>
+<h3 id='3'>Booleans</h3>
 
 Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
 A second data type is called a boolean.
@@ -330,7 +330,7 @@ True False
 >>>
 ```
 
-<h4 id='4'>You've Been Reassigned</h4>
+<h3 id='4'>You've Been Reassigned</h3>
 
 Now you know how to use variables to store values.
 
@@ -355,7 +355,7 @@ print (my_int)
 >>>
 ```
 
-<h4 id='5'>Whitespace</h4>
+<h3 id='5'>Whitespace</h3>
 
 In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
@@ -377,7 +377,7 @@ Syntax error
 >>>
 ```
 
-<h4 id='6'>Whitespace Means Right Space</h4>
+<h3 id='6'>Whitespace Means Right Space</h3>
 
 Now let's examine the error from the last lesson:
 
@@ -406,7 +406,7 @@ print (spam())
 >>>
 ```
 
-<h4 id='7'>A Matter of Interpretation</h4>
+<h3 id='7'>A Matter of Interpretation</h3>
 
 The window on the right side of the page is called the interpreter. 
 The interpreter runs your code line by line, and checks for any errors.
@@ -436,7 +436,7 @@ False
 >>>
 ```
 
-<h4 id='8'>Single Line Comments</h4>
+<h3 id='8'>Single Line Comments</h3>
 
 You probably saw us use the ```#``` sign a few times in earlier exercises. 
 The ```#``` sign is for comments. A comment is a line of text that Python won't try to run as code. 
@@ -460,7 +460,7 @@ print(mysterious_variable)
 >>>
 ```
 
-<h4 id='9'>Multi-Line Comments</h4>
+<h3 id='9'>Multi-Line Comments</h3>
 
 The ```#``` sign will only comment out a single line. While you could write a multi-line comment, 
 starting each line with ```#```, that can be a pain.
@@ -492,7 +492,7 @@ print(mysterious_variable)
 >>>
 ```
 
-<h4 id='10'>Math</h4>
+<h3 id='10'>Math</h3>
 
 Great! Now let's do some math. You can add, subtract, multiply, divide numbers like this
 
@@ -517,7 +517,7 @@ print (count_to)
 >>>
 ```
 
-<h4 id='11'>Exponentiation</h4>
+<h3 id='11'>Exponentiation</h3>
 
 All that math can be done on a calculator, so why use Python? Because you can combine math with other data types 
 (e.g. booleans) and commands to create useful programs. Calculators just stick to numbers.
@@ -550,7 +550,7 @@ print (eggs)
 >>>
 ```
 
-<h4 id='12'>Modulo</h4>
+<h3 id='12'>Modulo</h3>
 
 Our final operator is modulo. Modulo returns the remainder from a division. So, if you type ```3 % 2``` it will return 1, 
 because 2 goes into 3 evenly once, with 1 left over.
@@ -569,7 +569,7 @@ print (spam)
 >>>
 ```
 
-<h4 id='13'>Bringing It All Together</h4>
+<h3 id='13'>Bringing It All Together</h3>
 
 Nice work! So far, you've learned about:
 
