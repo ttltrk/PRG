@@ -87,6 +87,25 @@
 ### Functions
 
 ##### Functions
+  * What Good are Functions?
+  * Function Junction
+  * Call and Response
+  * Parameters and Arguments
+  * Functions Calling Functions
+  * Practice Makes Perfect
+  * I know Kung Fu
+  * Generic Imports
+  * Function Imports
+  * Universal Imports
+  * Here Be Dragons
+  * On Beyond Strings
+  * max()
+  * min()
+  * abs()
+  * type()
+  * Review: Functions
+  * Review: Modules
+  * Review: Built-In Functions
 
 ##### Taking a Vacation
 
