@@ -47,7 +47,8 @@ with the imported data. You will fix these issues in the next exercise.
 """
 Load pandas as pd.
 Use pd.read_csv() to load the file nasdaq-listings.csv into the variable nasdaq.
-Use .head() to display the first 10 rows of the data. Which data type would you expect pandas to assign to each column? 
+Use .head() to display the first 10 rows of the data. Which data type would you expect pandas 
+to assign to each column? 
 What symbol is used to represent a missing value?
 Use .info() to identify dtype mismatches in the DataFrame summary. Specifically, 
 are there any columns that should have a more appropriate type?
