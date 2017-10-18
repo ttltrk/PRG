@@ -238,12 +238,12 @@ Python Syntax
 
 ### Python Syntax
 
-This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
-you can use for countless standalone projects or scripting applications.
+>This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
+>you can use for countless standalone projects or scripting applications.
 
 <h3 id='1'>Welcome!</h3>
 
-Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
+>Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
 
 ```python
 print ("Welcome to Python!")
@@ -255,8 +255,8 @@ Welcome to Python!
 
 <h3 id='2'>Variables</h3>
 
-Creating web apps, games, and search engines all involve storing and working with different types of data. 
-They do so using variables. A variable stores a piece of data, and gives it a specific name.
+>Creating web apps, games, and search engines all involve storing and working with different types of data. 
+>They do so using variables. A variable stores a piece of data, and gives it a specific name.
 
 For example:
 
@@ -264,7 +264,7 @@ For example:
 spam = 5
 ```
 
-The variable spam now stores the number 5.
+>The variable spam now stores the number 5.
 
 ```python
 """
@@ -291,11 +291,11 @@ print(curry)
 ```
 <h3 id='3'>Booleans</h3>
 
-Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
-A second data type is called a boolean.
+>Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
+>A second data type is called a boolean.
 
-A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, 
-a boolean can only be True or False.
+>A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, 
+>a boolean can only be True or False.
 
 You can use variables to store booleans like this:
 
