@@ -72,138 +72,138 @@
   * <a href="#54">The big if</a>
 
 ##### PygLatin
-  * Break it down
-  * Ahoy!
-  * Input!
-  * Check Yourself!
-  * Check Yourself...some more.
-  * Pop Quiz!
-  * Ay B C
-  * Word Up
-  * Move it on back
-  * Ending Up
-  * Testing, testing, is this Thing On?
+  * <a href="#">Break it down
+  * <a href="#">Ahoy!
+  * <a href="#">Input!
+  * <a href="#">Check Yourself!
+  * <a href="#">Check Yourself...some more.
+  * <a href="#">Pop Quiz!
+  * <a href="#">Ay B C
+  * <a href="#">Word Up
+  * <a href="#">Move it on back
+  * <a href="#">Ending Up
+  * <a href="#">Testing, testing, is this Thing On?
   
 ### Functions
 
 ##### Functions
-  * What Good are Functions?
-  * Function Junction
-  * Call and Response
-  * Parameters and Arguments
-  * Functions Calling Functions
-  * Practice Makes Perfect
-  * I know Kung Fu
-  * Generic Imports
-  * Function Imports
-  * Universal Imports
-  * Here Be Dragons
-  * On Beyond Strings
-  * max()
-  * min()
-  * abs()
-  * type()
-  * Review: Functions
-  * Review: Modules
-  * Review: Built-In Functions
+  * <a href="#">What Good are Functions?
+  * <a href="#">Function Junction
+  * <a href="#">Call and Response
+  * <a href="#">Parameters and Arguments
+  * <a href="#">Functions Calling Functions
+  * <a href="#">Practice Makes Perfect
+  * <a href="#">I know Kung Fu
+  * <a href="#">Generic Imports
+  * <a href="#">Function Imports
+  * <a href="#">Universal Imports
+  * <a href="#">Here Be Dragons
+  * <a href="#">On Beyond Strings
+  * <a href="#">max()
+  * <a href="#">min()
+  * <a href="#">abs()
+  * <a href="#">type()
+  * <a href="#">Review: Functions
+  * <a href="#">Review: Modules
+  * <a href="#">Review: Built-In Functions
 
 ##### Taking a Vacation
-  * Before We Begin
-  * Planning Your Trip
-  * Getting There
-  * Transportation
-  * Pull it Together
-  * Hey, You Never Know!
-  * Plan Your Trip!
+  * <a href="#">Before We Begin
+  * <a href="#">Planning Your Trip
+  * <a href="#">Getting There
+  * <a href="#">Transportation
+  * <a href="#">Pull it Together
+  * <a href="#">Hey, You Never Know!
+  * <a href="#">Plan Your Trip!
 
 ###  Lists & Dictionaries
 
 ##### Python Lists and Dictionaries
-  * Introduction to Lists
-  * Access by Index
-  * New Neighbors
-  * Late Arrivals & List Length
-  * List Slicing
-  * Slicing Lists and Strings
-  * Maintaining Order
-  * For One and All
-  * More with 'for'
-  * This Next Part is Key
-  * New Entries
-  * Changing Your Mind
-  * Remove a Few Things
-  * It's Dangerous to Go Alone! Take This  
+  * <a href="#">Introduction to Lists
+  * <a href="#">Access by Index
+  * <a href="#">New Neighbors
+  * <a href="#">Late Arrivals & List Length
+  * <a href="#">List Slicing
+  * <a href="#">Slicing Lists and Strings
+  * <a href="#">Maintaining Order
+  * <a href="#">For One and All
+  * <a href="#">More with 'for'
+  * <a href="#">This Next Part is Key
+  * <a href="#">New Entries
+  * <a href="#">Changing Your Mind
+  * <a href="#">Remove a Few Things
+  * <a href="#">It's Dangerous to Go Alone! Take This  
 
 ##### A Day at the Supermarket
-  * BeFOR We Begin
-  * This is KEY!
-  * Control Flow and Looping
-  * Lists + Functions
-  * String Looping
-  * Your Own Store!
-  * Investing in Stock
-  * Keeping Track of the Produce
-  * Something of Value
-  * Shopping at the Market
-  * Making a Purchase
-  * Stocking Out
-  * Let's Check Out!  
+  * <a href="#">BeFOR We Begin
+  * <a href="#">This is KEY!
+  * <a href="#">Control Flow and Looping
+  * <a href="#">Lists + Functions
+  * <a href="#">String Looping
+  * <a href="#">Your Own Store!
+  * <a href="#">Investing in Stock
+  * <a href="#">Keeping Track of the Produce
+  * <a href="#">Something of Value
+  * <a href="#">Shopping at the Market
+  * <a href="#">Making a Purchase
+  * <a href="#">Stocking Out
+  * <a href="#">Let's Check Out!  
 
 ###  Students Becomes the Teachers
 
 ##### Students Becomes the Teachers
-  * Lesson Number One
-  * What's the Score?
-  * Put It Together
-  * For the Record
-  * It's Okay to be Average
-  * Just Weight and See
-  * Sending a Letter
-  * Part of the Whole
-  * How is Everybody Doing?
+  * <a href="#">Lesson Number One
+  * <a href="#">What's the Score?
+  * <a href="#">Put It Together
+  * <a href="#">For the Record
+  * <a href="#">It's Okay to be Average
+  * <a href="#">Just Weight and See
+  * <a href="#">Sending a Letter
+  * <a href="#">Part of the Whole
+  * <a href="#">How is Everybody Doing?
 
 ###  Lists and Functions
 
 ##### Lists and Functions
-  * List accessing
-  * List element modification
-  * Appending to a list
-  * Removing elements from lists
-  * Changing the functionality of a function
-  * More than one argument
-  * Strings in functions
-  * Passing a list to a function
-  * Using an element from a list in a function
-  * Modifying an element of a list in a function
-  * List manipulation in functions
-  * Printing out a list item by item in a function
-  * Modifying each element in a list in a function
-  * Passing a range into a function
-  * Iterating over a list in a function
-  * Using strings in lists in functions
-  * Using two lists as two arguments in a function
-  * Using a list of lists in a function
+  * <a href="#">List accessing
+  * <a href="#">List element modification
+  * <a href="#">Appending to a list
+  * <a href="#">Removing elements from lists
+  * <a href="#">Changing the functionality of a function
+  * <a href="#">More than one argument
+  * <a href="#">Strings in functions
+  * <a href="#">Passing a list to a function
+  * <a href="#">Using an element from a list in a function
+  * <a href="#">Modifying an element of a list in a function
+  * <a href="#">List manipulation in functions
+  * <a href="#">Printing out a list item by item in a function
+  * <a href="#">Modifying each element in a list in a function
+  * <a href="#">Passing a range into a function
+  * <a href="#">Iterating over a list in a function
+  * <a href="#">Using strings in lists in functions
+  * <a href="#">Using two lists as two arguments in a function
+  * <a href="#">Using a list of lists in a function
 
 ##### Battleship!
-  * Welcome to Battleship!
-  * Getting Our Feet Wet
-  * Make a List
-  * Check it Twice
-  * Custom Print
-  * Printing Pretty
-  * Hide...
-  * ...and Seek!
-  * It's Not Cheating -- It's Debugging!
-  * You win!
-  * Danger, Will Robinson!!
-  * Bad Aim
-  * Not Again!
-  * Test Run
-  * Play It, Sam
-  * Game Over
-  * A Real Win
-  * To Your Battle Stations!
-  * Extra Credit
+  * <a href="#">Welcome to Battleship!
+  * <a href="#">Getting Our Feet Wet
+  * <a href="#">Make a List
+  * <a href="#">Check it Twice
+  * <a href="#">Custom Print
+  * <a href="#">Printing Pretty
+  * <a href="#">Hide...
+  * <a href="#">...and Seek!
+  * <a href="#">It's Not Cheating -- It's Debugging!
+  * <a href="#">You win!
+  * <a href="#">Danger, Will Robinson!!
+  * <a href="#">Bad Aim
+  * <a href="#">Not Again!
+  * <a href="#">Test Run
+  * <a href="#">Play It, Sam
+  * <a href="#">Game Over
+  * <a href="#">A Real Win
+  * <a href="#">To Your Battle Stations!
+  * <a href="#">Extra Credit
 
 ### Loops
 
