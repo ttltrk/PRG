@@ -15,7 +15,7 @@
 
 ### Aggregating and Describing
 
-### Importing Stock Listing Data
+Importing Stock Listing Data
 ------
 
 <h3>Reading, Inspecting and cleaning data from csv files</h3>
