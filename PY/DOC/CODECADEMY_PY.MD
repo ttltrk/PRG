@@ -165,6 +165,24 @@
 ###  Lists and Functions
 
 ##### Lists and Functions
+  * List accessing
+  * List element modification
+  * Appending to a list
+  * Removing elements from lists
+  * Changing the functionality of a function
+  * More than one argument
+  * Strings in functions
+  * Passing a list to a function
+  * Using an element from a list in a function
+  * Modifying an element of a list in a function
+  * List manipulation in functions
+  * Printing out a list item by item in a function
+  * Modifying each element in a list in a function
+  * Passing a range into a function
+  * Iterating over a list in a function
+  * Using strings in lists in functions
+  * Using two lists as two arguments in a function
+  * Using a list of lists in a function
 
 ##### Battleship!
   * Welcome to Battleship!
