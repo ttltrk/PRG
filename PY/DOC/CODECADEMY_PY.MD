@@ -3,46 +3,46 @@
 
 ### Python Syntax
 
-##### <a href='#1'>Python Syntax</a>
-  * <a href="#2">Welcome!</a>
-  * <a href="#3">Variables</a>
-  * <a href="#4">Booleans</a>
-  * <a href="#5">You've Been Reassigned</a>
-  * <a href="#6">Whitespace</a>
-  * <a href="#7">Whitespace Means Right Space</a>
-  * <a href="#8">A Matter of Interpretation</a>
-  * <a href="#9">Single Line Comments</a>
-  * <a href="#10">Multi-Line Comments</a>
-  * <a href="#11">Math</a>
-  * <a href="#12">Exponentiation</a>
-  * <a href="#13">Modulo</a>
-  * <a href="#14">Bringing It All Together</a>
+##### Python Syntax
+  * <a href="#1">Welcome!</a>
+  * <a href="#2">Variables</a>
+  * <a href="#3">Booleans</a>
+  * <a href="#4">You've Been Reassigned</a>
+  * <a href="#5">Whitespace</a>
+  * <a href="#6">Whitespace Means Right Space</a>
+  * <a href="#7">A Matter of Interpretation</a>
+  * <a href="#8">Single Line Comments</a>
+  * <a href="#9">Multi-Line Comments</a>
+  * <a href="#10">Math</a>
+  * <a href="#11">Exponentiation</a>
+  * <a href="#12">Modulo</a>
+  * <a href="#13">Bringing It All Together</a>
 
 ##### Tip Calculator
-  * The Meal
-  * The Tax
-  * The Tip
-  * Reassign in a Single Line
-  * The Total
+  * <a href="#14">The Meal</a>
+  * <a href="#15">The Tax</a>
+  * <a href="#16">The Tip</a>
+  * <a href="#17">Reassign in a Single Line</a>
+  * <a href="#18">The Total</a>
 
 ### Strings and Console Output
 
 ##### Strings and Console Output
-  * Strings
-  * Practice
-  * Escaping Characters
-  * Access by Index
-  * String methods
-  * lower()
-  * upper()
-  * str()
-  * Dot Notation
-  * Printing Strings
-  * String Concatenation
-  * Explicit String Conversion
-  * String Formatting with %, Part 1
-  * String Formatting with %, Part 2
-  * And now, For Something Completely Familiar
+  * <a href="#19">Strings</a>
+  * <a href="#20">Practice</a>
+  * <a href="#21">Escaping Characters</a>
+  * <a href="#22">Access by Index</a>
+  * <a href="#23">String methods</a>
+  * <a href="#24">lower()</a>
+  * <a href="#25">upper()</a>
+  * <a href="#26">str()</a>
+  * <a href="#27">Dot Notation</a>
+  * <a href="#28">Printing Strings</a>
+  * <a href="#29">String Concatenation</a>
+  * <a href="#30">Explicit String Conversion</a>
+  * <a href="#31">String Formatting with %, Part 1</a>
+  * <a href="#32">String Formatting with %, Part 2</a>
+  * <a href="#33">And now, For Something Completely Familiar</a>
 
 ##### Date and Time
   * The datetime Library
