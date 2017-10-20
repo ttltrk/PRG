@@ -11,9 +11,8 @@ Programming documents
   * [From Zero to Hero on Udemy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/udemy_from_zero_to_hero.txt)
 
 ### [Java]()
-  *
-  *
-  *
+  * [Learn Java on Codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CODECADEMY_JV.txt)
+  * [Learn Java on Learnjavaonline](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/LEARNJAVAONLINE_JV.txt)
 
 ### [C]()
   *
