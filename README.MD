@@ -23,4 +23,4 @@ Applications
 ======
 
 ### Python
-  * [Gauss table]()
+  * [Gauss table](https://github.com/ttltrk/PRG/tree/master/PY/APP/GT)
