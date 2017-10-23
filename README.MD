@@ -14,6 +14,7 @@ Programming documents
   
 ### [Django](https://github.com/ttltrk/PRG/tree/master/DJANGO)
   * [A Beginners Guide to Django!](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/UD_DJ_BEG.MD)
+  * [Python and Django Full Stack Web Developer Bootcamp](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/UD_DJ_FS.MD)
   
 ### [Java](https://github.com/ttltrk/PRG/tree/master/JAVA)
   * [Learn Java on Codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CODECADEMY_JV.txt)
