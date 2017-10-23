@@ -10,6 +10,7 @@ Programming documents
   * [Python 3 Tutorial on SoloLearn](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD)
   * [Teach Your Kids to Code on Udemy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/udemy_teach_your_kids_to_code.MD)
   * [From Zero to Hero on Udemy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/udemy_from_zero_to_hero.txt)
+  * [30 Days of Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/UD_30_PY.MD)
   
 ### [Java](https://github.com/ttltrk/PRG/tree/master/JAVA)
   * [Learn Java on Codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CODECADEMY_JV.txt)
