@@ -18,3 +18,9 @@ Programming documents
 ### [C](https://github.com/ttltrk/PRG/tree/master/C)
   * [C# Tutorial on SoloLearn](https://github.com/ttltrk/PRG/blob/master/C/DOC/SOLOLEARN_C%23.txt)
   * [C++ Tutorial on SoloLearn](https://github.com/ttltrk/PRG/blob/master/C/DOC/SOLOLEARN_C%2B%2B.MD)
+  
+Applications
+======
+
+### Python
+  * [Gauss table]()
