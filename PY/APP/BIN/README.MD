@@ -16,3 +16,5 @@ https://repl.it/languages/python3
 https://github.com/ttltrk/PRG/tree/master/PY/APP/BIN/bin_dec.py
 ```
 
+3. copy+paste and hit ```run```
+
