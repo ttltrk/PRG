@@ -10,9 +10,9 @@ open the link below in your browser:
 https://repl.it/languages/python3
 ```
 
-and run the script:
+and run the script from:
 
 ```
-bin_dec.py
+https://github.com/ttltrk/PRG/tree/master/PY/APP/BIN/bin_dec.py
 ```
 
