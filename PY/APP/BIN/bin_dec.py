@@ -20,14 +20,8 @@ lst2 = [int(i) for i in str(num)]
 
 def check():
   if lst2 == 1:
-    return f1()
+    print (lst1[0]*num)
   elif lst2 == 2:
-    return f2()
+    print ((lst1[0]*lst2[0])+(lst1[1]*lst2[1]))
   
-def f1():
-  print (lst1[0]*num)
-  
-def f2():
-  print ((lst1[0]*lst2[0])+(lst1[1]*lst2[1]))
-
 check()
