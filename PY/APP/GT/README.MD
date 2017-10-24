@@ -13,7 +13,7 @@ https://repl.it/languages/python3
 2. run the script from:
 
 ```
-https://github.com/ttltrk/PRG/tree/master/PY/APP/BIN/bin_dec.py
+https://github.com/ttltrk/PRG/blob/master/PY/APP/GT/gauss_table.py
 ```
 
 3. copy+paste and hit ```run```
