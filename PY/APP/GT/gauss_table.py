@@ -37,10 +37,15 @@ while i <= 6:
 i = 0
 xxx = []
 while i <= 6:
-    xxx.append(ran2())
+    xxx.append(ran3())
     if len(xxx) == 6:
         x3 = sum(xxx)
     i = i + 1
+    
+    
+print('1B:',x1)
+print('2B:',x2)
+print('3B:',x3)
     
 """ 
 --------------------------------------------------------------------------------------
@@ -164,6 +169,26 @@ def f1_1():
     elif x1 == 5 and x2 != 5 and x3 != 5:
         return 5
     elif x1 != 5 and x2 != 5 and x3 != 5:
+        return ' '
+    else:
+        return ' '
+        
+def g1_1():
+    if x1 == 6 and x2 == 6 and x3 == 6:
+        return 6
+    elif x1 != 6 and x2 == 6 and x3 == 6:
+        return 6
+    elif x1 == 6 and x2 != 6 and x3 == 6:
+        return 6
+    elif x1 == 6 and x2 == 6 and x3 != 6:
+        return 6
+    elif x1 != 6 and x2 != 6 and x3 == 6:
+        return 6
+    elif x1 != 6 and x2 == 6 and x3 != 6:
+        return 6
+    elif x1 == 6 and x2 != 6 and x3 != 6:
+        return 6
+    elif x1 != 6 and x2 != 6 and x3 != 6:
         return ' '
     else:
         return ' '
@@ -294,6 +319,26 @@ def f1_2():
         return ' '
     else:
         return ' '
+        
+def g1_2():
+    if x1 == 6 and x2 == 6 and x3 == 6:
+        return 6
+    elif x1 != 6 and x2 == 6 and x3 == 6:
+        return 6
+    elif x1 == 6 and x2 != 6 and x3 == 6:
+        return 6
+    elif x1 == 6 and x2 == 6 and x3 != 6:
+        return 6
+    elif x1 != 6 and x2 != 6 and x3 == 6:
+        return ' '
+    elif x1 != 6 and x2 == 6 and x3 != 6:
+        return ' '
+    elif x1 == 6 and x2 != 6 and x3 != 6:
+        return ' '
+    elif x1 != 6 and x2 != 6 and x3 != 6:
+        return ' '
+    else:
+        return ' '
     
 """ 
 --------------------------------------------------------------------------------------
@@ -420,12 +465,32 @@ def f1_3():
         return ' '
     else:
         return ' '
+        
+def g1_3():
+    if x1 == 6 and x2 == 6 and x3 == 6:
+        return 6
+    elif x1 != 6 and x2 == 6 and x3 == 6:
+        return ' '
+    elif x1 == 6 and x2 != 6 and x3 == 6:
+        return ' '
+    elif x1 == 6 and x2 == 6 and x3 != 6:
+        return ' '
+    elif x1 != 6 and x2 != 6 and x3 == 6:
+        return ' '
+    elif x1 != 6 and x2 == 6 and x3 != 6:
+        return ' '
+    elif x1 == 6 and x2 != 6 and x3 != 6:
+        return ' '
+    elif x1 != 6 and x2 != 6 and x3 != 6:
+        return ' '
+    else:
+        return ' '
 
-print('|''---''|''---''|''---''|''---''|''---''|''---''|')
-print('|',a1_3(),'|',b1_3(),'|',c1_3(),'|',d1_3(),'|',e1_3(),'|',f1_3(),'|')
-print('|''---''|''---''|''---''|''---''|''---''|''---''|')
-print('|',a1_2(),'|',b1_2(),'|',c1_2(),'|',d1_2(),'|',e1_2(),'|',f1_2(),'|')
-print('|''---''|''---''|''---''|''---''|''---''|''---''|')
-print('|',a1_1(),'|',b1_1(),'|',c1_1(),'|',d1_1(),'|',e1_1(),'|',f1_1(),'|')
-print('|''---''|''---''|''---''|''---''|''---''|''---''|')
-print('|'' 0 ''|'' 1 ''|'' 2 ''|'' 3 ''|'' 4 ''|'' 5 ''|')
+print('|''---''|''---''|''---''|''---''|''---''|''---''|''---''|')
+print('|',a1_3(),'|',b1_3(),'|',c1_3(),'|',d1_3(),'|',e1_3(),'|',f1_3(),'|',g1_3(),'|')
+print('|''---''|''---''|''---''|''---''|''---''|''---''|''---''|')
+print('|',a1_2(),'|',b1_2(),'|',c1_2(),'|',d1_2(),'|',e1_2(),'|',f1_2(),'|',g1_2(),'|')
+print('|''---''|''---''|''---''|''---''|''---''|''---''|''---''|')
+print('|',a1_1(),'|',b1_1(),'|',c1_1(),'|',d1_1(),'|',e1_1(),'|',f1_1(),'|',g1_1(),'|')
+print('|''---''|''---''|''---''|''---''|''---''|''---''|''---''|')
+print('|'' 0 ''|'' 1 ''|'' 2 ''|'' 3 ''|'' 4 ''|'' 5 ''|'' 6 ''|')
