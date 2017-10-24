@@ -1,8 +1,4 @@
 
-"""
-convert numbers from binary to decimal easly
-"""
-
 lst1 = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
 
 num = int(input("number?"))
@@ -21,6 +17,10 @@ def length():
     return 5
   elif len(lst2) == 6:
     return 6
+  elif len(lst2) == 7:
+    return 7
+  elif len(lst2) == 8:
+    return 8
     
 l = length()
 
@@ -37,5 +37,9 @@ def check():
     print((lst1[4]*lst2[0])+(lst1[3]*lst2[1])+(lst1[2]*lst2[2])+(lst1[1]*lst2[3])+(lst1[0]*lst2[4]))
   elif l == 6:
     print((lst1[5]*lst2[0])+(lst1[4]*lst2[1])+(lst1[3]*lst2[2])+(lst1[2]*lst2[3])+(lst1[1]*lst2[4])+(lst1[0]*lst2[5]))
+  elif l == 7:
+    print((lst1[6]*lst2[0])+(lst1[5]*lst2[1])+(lst1[4]*lst2[2])+(lst1[3]*lst2[3])+(lst1[2]*lst2[4])+(lst1[1]*lst2[5])+(lst1[0]*lst2[6]))
+  elif l == 8: 
+    print((lst1[7]*lst2[0])+(lst1[6]*lst2[1])+(lst1[5]*lst2[2])+(lst1[4]*lst2[3])+(lst1[3]*lst2[4])+(lst1[2]*lst2[5])+(lst1[1]*lst2[6])+(lst1[0]*lst2[7]))
     
 check()
