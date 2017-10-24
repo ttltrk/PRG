@@ -13,22 +13,9 @@
 1
 """
 
-a = int(input("number:"))
+num = int(input("number?"))
+lst = [int(i) for i in str(num)]
 
-def check_num():
-  return(len(str(abs(a))))
-
-b = check_num()
-  
-def main_check():
-  if b == 1:
-    return 1
-  elif b == 2:
-    return 2
-  else: 
-    return 3 
-  
-def check1():
-  return (a * 1)
-  
-print(check2())
+print(len(lst))
+print(lst[1])
+print(lst[1]*2)
