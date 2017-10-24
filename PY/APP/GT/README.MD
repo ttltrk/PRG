@@ -2,7 +2,7 @@
 Gauss table
 ======
 
-The app is randomly generate 3 numbers, you can find those numbers on the table.
+3 "balls" are randomly falling down, you can find the results on the table.
 
 1. open the link below in your browser:
 
