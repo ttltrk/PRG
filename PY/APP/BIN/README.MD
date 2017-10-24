@@ -2,7 +2,7 @@
 Binary - Decimal Converter
 ======
 
-You can easly convert binary numbers to decimal...until 255 yet :P
+You can easly convert binary numbers to decimal, between 0 and 11111111
 
 1. open the link below in your browser:
 
