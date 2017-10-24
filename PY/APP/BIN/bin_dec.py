@@ -32,7 +32,7 @@ def check():
   if l == 1:
     print(lst1[0]*num)
   elif l == 2:
-    print((lst1[0]*lst2[0])+(lst1[1]*lst2[1]))
+    print((lst1[1]*lst2[0])+(lst1[0]*lst2[1]))
   elif l == 3:
     print((lst1[2]*lst2[0])+(lst1[1]*lst2[1])+(lst1[0]*lst2[2]))
   
