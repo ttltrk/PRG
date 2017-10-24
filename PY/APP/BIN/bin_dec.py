@@ -15,17 +15,20 @@
 
 a = int(input("number:"))
 
-def check():
+def check_num():
   return(len(str(abs(a))))
 
-b = check()
+b = check_num()
   
-def check2():
+def main_check():
   if b == 1:
-    return (a * 1)
+    return 1
   elif b == 2:
-    print("2")
-  else:
-    print("3")
-
+    return 2
+  else: 
+    return 3 
+  
+def check1():
+  return (a * 1)
+  
 print(check2())
