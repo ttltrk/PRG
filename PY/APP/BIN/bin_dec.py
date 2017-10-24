@@ -1,7 +1,7 @@
 
 lst1 = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
 
-num = int(input("number?"))
+num = int(input("give me a number between 0 and 11111111, you can only use binary numbers: \n"))
 lst2 = [int(i) for i in str(num)]
 
 def length():
@@ -21,7 +21,7 @@ def length():
     return 7
   elif len(lst2) == 8:
     return 8
-    
+  
 l = length()
 
 def check():
@@ -41,5 +41,5 @@ def check():
     print((lst1[6]*lst2[0])+(lst1[5]*lst2[1])+(lst1[4]*lst2[2])+(lst1[3]*lst2[3])+(lst1[2]*lst2[4])+(lst1[1]*lst2[5])+(lst1[0]*lst2[6]))
   elif l == 8: 
     print((lst1[7]*lst2[0])+(lst1[6]*lst2[1])+(lst1[5]*lst2[2])+(lst1[4]*lst2[3])+(lst1[3]*lst2[4])+(lst1[2]*lst2[5])+(lst1[1]*lst2[6])+(lst1[0]*lst2[7]))
-    
+  
 check()
