@@ -22,10 +22,10 @@ b = check()
   
 def check2():
   if b == 1:
-    print("1")
+    return (a * 1)
   elif b == 2:
     print("2")
   else:
     print("3")
 
-check2()
+print(check2())
