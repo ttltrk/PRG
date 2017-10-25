@@ -255,7 +255,6 @@ hello world
 
 ### <h4 id='17'>Print Formatting</h4>
 
-
 ```python
 >>> print ("this is a string")
 this is a string
@@ -297,12 +296,6 @@ First inserted, Second inserted
 >>> print ("First {x}, Second {x}, Third {y}".format(x="inserted", y="szohi"))
 First inserted, Second inserted, Third szohi
 >>> 
-```
-
-BONUS SOURCE:
-
-```
-https://pyformat.info/
 ```
 
 ### <h4 id='19'>Lists</h4>
@@ -663,10 +656,9 @@ True
 >>> 
 ```
 
-026. RESOURCES FORM MORE BASIC PRACTICE
+### <h4 id='26'>Resources Form More Basic Practice</h4>
 
-----------------------------------
-
+```
 Basic Practice:
 
 http://codingbat.com/python
@@ -686,23 +678,14 @@ https://www.reddit.com/r/dailyprogrammer
 A very tricky website with very few hints and touch problems (Not for beginners but still interesting)
 
 http://www.pythonchallenge.com/
+```
 
-----------------------------------
+Python Comparison Operators
+------
 
---------------------------------------------------------------------------
+### <h4 id='29'>Comparison Operators</h4>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-029. COMPARISON OPERATORS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb
-
-----------------------------------
-
-#029.1.
-
+```python
 >>> 2 == 2
 True
 >>> 1 == 1
@@ -710,71 +693,49 @@ True
 >>> 1 == 0
 False
 >>> 
+```
 
-----------------------------------
-
-#029.2.
-
+```python
 >>> 2 != 1
 True
 >>> 2 != 2
 False
 >>> 
+```
 
-----------------------------------
-
-#029.3.
-
+```python
 >>> 2 > 1
 True
 >>> 2 > 4
 False
 >>> 
+```
 
-----------------------------------
-
-#029.4.
-
+```python
 >>> 2 < 4
 True
 >>> 2 < 1
 False
 >>> 
+```
 
-----------------------------------
-
-#029.5.
-
+```python
 >>> 2 >= 2
 True
 >>> 2 >= 1
 True
 >>> 
+```
 
-----------------------------------
-
-#029.6.
-
+```python
 >>> 2 <= 10
 True
 >>> 
+```
 
-----------------------------------
+### <h4 id='30'>Chained Comparison Operators</h4>
 
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-030. CHAINED COMPARISON OPERATORS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb
-
-----------------------------------
-
-#030.1.
-
+```python
 >>> 1 < 2
 True
 >>> 2 < 3
@@ -782,59 +743,37 @@ True
 >>> 1 < 2 < 3
 True
 >>> 
+```
 
-----------------------------------
-
-#030.2.
-
+```python
 >>> 1 < 2 and 2 < 3
 True
 >>> 1 < 2 and 2 < 1
 False
 >>>
+```
 
-----------------------------------
-
-#030.3.
-
+```python
 >>> 1 < 2 or 2 < 3
 True
 >>> 1 < 2 or 2 < 1
 True
 >>> 
+```
 
-----------------------------------
+Python Statements
+------
 
---------------------------------------------------------------------------
+### <h4 id='32'>IF, ELIF and ELSE Statements</h4>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-032. IF, ELIF AND ELSE STATEMENTS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb
-
-if case1:
-	perform action1
-elif case2:
-	perform action2
-else:
-	perform action3
-	
-----------------------------------
-
-#032.1.
-	
+```python	
 >>> if True:
 	print ("It was True")	
 It was True
 >>> 
+```
 
-----------------------------------
-
-#032.2.
-
+```python
 >>> x = False
 >>> if x:
 	print ("x was True")
@@ -842,11 +781,9 @@ else:
 	print ("I will print when x is anything not True")	
 I will print when x is anything not True
 >>> 
+```
 
-----------------------------------
-
-#032.3.
-
+```python
 >>> x = True
 >>> if x:
 	print ("x was True")
@@ -854,11 +791,9 @@ else:
 	print ("I will print when x is anything not True")	
 x was True
 >>> 
+```
 
-----------------------------------
-
-#032.4.
-
+```python
 loc = "Bank"
 if loc == "Auto Shop":
     print ("Welcome to the Auto Shop!")
@@ -870,11 +805,9 @@ else:
 >>>
 Welcome to the Bank!
 >>>
+```
 
-----------------------------------
-
-#032.5.
-
+```python
 loc = "Mall"
 
 if loc == "Auto Shop":
@@ -887,11 +820,9 @@ else:
 >>>
 Where are you?!
 >>> 
-	
-----------------------------------
+```
 
-#032.6.
-
+```python
 loc = "Mall"
 
 if loc == "Auto Shop":
@@ -906,26 +837,11 @@ else:
 >>>
 Welcome to the Mall!
 >>> 
+```
 
-----------------------------------
+### <h4 id='33'>FOR Loops
 
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-033. FOR LOOPS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/For%20Loops.ipynb
-
-for item in object:
-	statements to do stuff
-
-----------------------------------
-
-#033.1.
-
+```python
 l = [1, 2, 3, 4, 5]
 
 for element in l:
@@ -938,11 +854,9 @@ for element in l:
 4
 5
 >>>
+```
 
-----------------------------------
-
-#033.2.
-
+```python
 l = [1, 2, 3, 4, 5]
 
 for element in l:
@@ -955,11 +869,9 @@ something
 something
 something
 >>> 
+```
 
-----------------------------------
-
-#033.3.
-
+```python
 l = [1, 2, 3, 4, 5]
 
 for num in l:
@@ -970,11 +882,9 @@ for num in l:
 2
 4
 >>> 
+```
 
-----------------------------------
-
-#033.4.
-
+```python
 l = [1, 2, 3, 4, 5]
 
 for num in l:
@@ -986,11 +896,9 @@ for num in l:
 3
 5
 >>> 
+```
 
-----------------------------------
-
-#033.5.
-
+```python
 l = [1, 2, 3, 4, 5]
 
 for num in l:
@@ -1006,11 +914,9 @@ Odd number!
 here is an even
 Odd number!
 >>> 
+```
 
-----------------------------------
-
-#033.6.
-
+```python
 l = [1, 2, 3, 4, 5]
 list_sum = 0
 
@@ -1022,11 +928,9 @@ print (list_sum)
 >>>
 15
 >>>
+```
 
-----------------------------------
-
-#033.7.
-
+```python
 l = ("a", "b", "c")
 lst = ""
 
@@ -1038,11 +942,9 @@ print (lst)
 >>>
 abc
 >>>
+```
 
-----------------------------------
-
-#033.8.
-
+```python
 l = [1, 2, 3, 4, 5]
 list_sum = 0
 
@@ -1054,11 +956,9 @@ print (list_sum)
 >>>
 15
 >>>
+```
 
-----------------------------------
-
-#033.9.
-
+```python
 s = "this is a string!"
 
 for item in s:
@@ -1083,11 +983,9 @@ n
 g
 !
 >>> 
+```
 
-----------------------------------
-
-#033.10.
-
+```python
 tup = (1, 2, 3, 4, 5)
 
 for t in tup:
@@ -1100,11 +998,9 @@ for t in tup:
 4
 5
 >>> 
+```
 
-----------------------------------
-
-#033.11.
-
+```python
 l = [(2,4),(6,8),(10,12)]
 
 for tup in l:
@@ -1115,11 +1011,9 @@ for tup in l:
 (6, 8)
 (10, 12)
 >>> 
+```
 
-----------------------------------
-
-#033.12.
-
+```python
 l = [(2,4),(6,8),(10,12)]
 
 for (t1, t2) in l:
@@ -1130,11 +1024,9 @@ for (t1, t2) in l:
 6
 10
 >>> 
+```
 
-----------------------------------
-
-#033.13.
-
+```python
 l = [(2,4),(6,8),(10,12)]
 
 for (t1, t2) in l:
@@ -1145,11 +1037,9 @@ for (t1, t2) in l:
 8
 12
 >>> 
+```
 
-----------------------------------
-
-#033.14.
-
+```python
 l = [(2,4),(6,8),(10,12)]
 
 for (t1, t2) in l:
@@ -1160,11 +1050,9 @@ for (t1, t2) in l:
 -2
 -2
 >>> 
+```
 
-----------------------------------
-
-#033.15.
-
+```python
 d = {"k1" : 1, "k2" : 2, "k3" : 3}
 
 for item in d:
@@ -1175,11 +1063,9 @@ k3
 k1
 k2
 >>>
+```
 
-----------------------------------
-
-#033.16.
-
+```python
 d = {"k1" : 1, "k2" : 2, "k3" : 3}
 
 for k, v in d.items():
@@ -1194,28 +1080,11 @@ k1
 k3
 3
 >>> 
+```
 
-----------------------------------
+### <h4 id='34'>WHILE Loops</h4>
 
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-034. WHILE LOOPS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb
-
-while test:
-	code statement
-else:
-	final code statements
-	
-----------------------------------
-
-#035.1.
-
+```python
 x = 0
 
 while x < 10:
@@ -1234,11 +1103,9 @@ X is currently:  7
 X is currently:  8
 X is currently:  9
 >>> 
+```
 
-----------------------------------
-
-#035.2.
-
+```python
 x = 0
 
 while x < 10:
@@ -1260,11 +1127,9 @@ X is currently:  8
 X is currently:  9
 All done!
 >>> 
+```
 
-----------------------------------
-
-#035.3.
-
+```python
 while test:
 	code statement
 	if test:
@@ -1273,11 +1138,9 @@ while test:
 		continue
 else:
 	final code statements
+```
 
-----------------------------------
-
-#035.4.
-
+```python
 x = 0
 
 while x < 10:
@@ -1323,11 +1186,9 @@ X is currently:  9
 X is still less than 10, adding 1 to x
 continuing
 >>> 
+```
 
-----------------------------------
-
-#035.5.
-
+```python
 x = 0
 
 while x < 10:
@@ -1353,6 +1214,7 @@ X is currently:  2
 X is still less than 10, adding 1 to x
 Hey x equals 3!
 >>>
+```
 
 ----------------------------------
 
