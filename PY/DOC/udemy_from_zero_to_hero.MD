@@ -59,79 +59,29 @@
   * <a href='#44'>Functions and Methods Homework Hints and Tips</a>
   * <a href='#45'>Functions and Methods Homework Solutions</a>
   
-SECTION 7. MILESTONE PROJECT 1.
+### Milestone Project 1
+  * <a href='#46'>Milestone Project 1 Session</a>
+  * <a href='#47'>Milestone Project 1 Assignment Overview</a>
+  * <a href='#48'>Milestone Project 1 Help</a>
+  * <a href='#49'>Milestone Project 1 Solution PT 1</a>
+  * <a href='#50'>Milestone Project 1 Solution PT 2</a>
+  * <a href='#51'>Milestone Project 1 Solution PT 3</a>
 
-(15)
+### Object Oriented Programming
+  * <a href='#52'>OOP PT1 - Objects</a>
+  * <a href='#53'>OOP PT2 - Classes</a>
+  * <a href='#54'>OOP PT3 - Methods</a>
+  * <a href='#55'>OOP PT4 - Inheritance</a>
+  * <a href='#56'>OOP PT5 - Special Methods</a>
+  * <a href='#57'>OOP - Homework Assignment</a>
+  * <a href='#58'>OOP - Homework Solution</a>
+  
+### Errors And Exceptions Handling
+  * <a href='#59'>Errors and Exceptions</a>
+  * <a href='#60'>Exception Handling: Try, Except, Finally</a>
+  * <a href='#61'>Errors and Exceptions HO</a>
+  * <a href='#62'>Errors and Exceptions HO Solution</a>
 
-046. (xx) - MILESTONE PROJECT 1 SESSION
-047. (xx) - MILESTONE PROJECT 1 ASSIGNMENT OVERVIEW
-048. (xx) - MILESTONE PROJECT 1 HELP
-049. (09) - MILESTONE PROJECT 1 SOLUTION PT 1
-050. (05) - MILESTONE PROJECT 1 SOLUTION PT 2
-051. (01) - MILESTONE PROJECT 1 SOLUTION PT 3
-
-----------------------------------------------------------------------
-
-SECTION 8. OBJECT ORIENTED PROGRAMMING
-
-(23)
-
-053. (03) - OOP - PT1 - OBJECTS
-054. (06) - OOP - PT2 - CLASSES
-055. (08) - OOP - PT3 - METHODS
-056. (02) - OOP - PT4 - INHERITANCE
-057. (04) - OOP - PT5 - SPECIAL METHODS
-058. (xx) - OOP - HOMEWORK ASSIGNMENT
-059. (xx) - OOP - HOMEWORK SOLUTION
-
-----------------------------------------------------------------------
-
-SECTION 9. ERRORS AND EXCEPTIONS HANDLING
-
-060. (xx) - ERRORS AND EXCEPTIONS
-061. (xx) - EXCEPTION HANDLIG: TRY, EXCEPT, FINALLY 
-062. (xx) - ERRORS AND EXCEPTION HOMEWORK 
-063. (xx) - ERRORS AND EXCEPTION HO SOLUTION
-
-----------------------------------------------------------------------
-
-SECTION 10. 
-
-----------------------------------------------------------------------
-
-SECTION 11.
-
-----------------------------------------------------------------------
-
-SECTION 12.
-
-----------------------------------------------------------------------
-
-SECTION 13. 
-
-----------------------------------------------------------------------
-
-SECTION 14. 
-
-----------------------------------------------------------------------
-
-SECTION 15.
-
-----------------------------------------------------------------------
-
-SECTION 16.
-
-----------------------------------------------------------------------
-
-SECTION 17.
-
-----------------------------------------------------------------------
-
-SECTION 18.
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 --------------------------------------------------------------------------
 
