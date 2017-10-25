@@ -1,39 +1,24 @@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[Complete Python Bootcamp: Go from zero to hero in Python](https://www.udemy.com/complete-python-bootcamp/learn/v4/content)
+======
 
-udemy.com
+### Course Overview
+  * Course Introduction
+  * Course Curriculum Overview
+  * Python 2 vs Python 3
+  * Have to Approach this Course
+  * Course Faq
 
-PYTHON - FROM ZERO TO HERO
+### Python Setup
+  * Installation Notes
+  * Jupyter Notebook Installation
+  * IDE Selection
+  * Jupyther (iPython) Notebooks
+  * Faq - Notebooks
+  * Additional Resources
+  * Git and Github Overview
+  
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-SECTION 1. COURSE OVERVIEW
-
-(xx)
-
-001. (xx) - COURSE INTRODUCTION
-002. (xx) - COURSE CURRICULUM OVERVIEW
-003. (xx) - PYTHON 2 vs PYTHON 3
-004. (xx) - HAVE TO APPROACH THIS COURSE
-005. (xx) - COURSE FAQ
-
-----------------------------------------------------------------------
-
-SECTION 2. PYTHON SETUP
-
-(xx)
-
-006. (xx) - INSTALLATION NOTES
-007. (xx) - JUPYTER NOTEBOOK INSTALLATION
-008. (xx) - IDE SELECTION
-009. (xx) - JUPYTER (iPYTHON) NOTEBOOKS
-010. (xx) - FAQ - NOTEBOOKS
-011. (xx) - ADDITIONAL RESOURCES
-012. (xx) - GIT AND GITHUB OVERVIEW (OPTIONAL)
-
-----------------------------------------------------------------------
 
 SECTION 3. PYTHON OBJECTS AND DATA STRUCTURE BASICS
 
