@@ -41,29 +41,24 @@
   * <a href='#30'>Chained Comparison Operators</a>
  
 ### Python Statements
-  * Introduction to Python Statements
-  * IF, ELIF and ELSE Statements
-  * FOR Loops
-  * WHILE Loops
-  * RANGE()
-  * List Comprehensions
-  * Statements Assessments Test
-  * Statements Assessments Solutions
+  * <a href='#31'>Introduction to Python Statements</a>
+  * <a href='#32'>IF, ELIF and ELSE Statements</a>
+  * <a href='#33'>FOR Loops</a>
+  * <a href='#34'>WHILE Loops</a>
+  * <a href='#35'>RANGE()</a>
+  * <a href='#36'>List Comprehensions</a>
+  * <a href='#37'>Statements Assessments Test</a>
+  * <a href='#38'>Statements Assessments Solutions</a>
   
-SECTION 6. METHODS AND FUNCTIONS
-
-(33)
-
-039. (03) - METHODS
-040. (09) - FUNCTIONS
-041. (12) - LAMBDA EXPRESSIONS
-042. (09) - NESTED STATEMENTS AND SCOPE
-043. (xx) - FUNCTIONS AND METHODS HOMEWORK
-044. (xx) - FUNCTIONS AND METHODS HOMEWORK HINTS AND TIPS 
-045. (xx) - FUNCTIONS AND METHODS HOMEWORK SOLUTIONS 
-
-----------------------------------------------------------------------
-
+### Methods and Functions
+  * <a href='#39'>Methods</a>
+  * <a href='#40'>Functions</a>
+  * <a href='#41'>Lambda Expressions</a>
+  * <a href='#42'>Nested Statements and Scope</a>
+  * <a href='#43'>Functions and Methods Homework</a>
+  * <a href='#44'>Functions and Methods Homework Hints and Tips</a>
+  * <a href='#45'>Functions and Methods Homework Solutions</a>
+  
 SECTION 7. MILESTONE PROJECT 1.
 
 (15)
