@@ -36,32 +36,20 @@
   * <a href='#27'>Objects and Data Structures Assessment Test</a> 
   * <a href='#28'>Objects and Data Structures Assessment Solutions</a> 
   
-
-
-SECTION 4. PYTHON COMPARISON OPERATORS
-
-(09)
-
-029. (06) - COMPARISON OPERATORS
-030. (03) - CHAINED COMPARISON OPERATORS
-
-----------------------------------------------------------------------
-
-SECTION 5. PYTHON STATEMENTS
-
-(51)
-
-031. (xx) - INTRODUCTION TO PYTHON STATEMENTS
-032. (06) - IF, ELIF AND ELSE STATEMENTS
-033. (16) - FOR LOOPS
-034. (05) - WHILE LOOPS
-035. (07) - RANGE()
-036. (09) - LIST COMPREHENSIONS
-037. (xx) - STATEMENTS ASSESSMENTS TEST
-038. (06) - STATEMENTS ASSESSMENTS SOLUTIONS
-
-----------------------------------------------------------------------
-
+### Python Comparison Operators
+  * <a href='#29'>Comparison Operators</a>
+  * <a href='#30'>Chained Comparison Operators</a>
+ 
+### Python Statements
+  * Introduction to Python Statements
+  * IF, ELIF and ELSE Statements
+  * FOR Loops
+  * WHILE Loops
+  * RANGE()
+  * List Comprehensions
+  * Statements Assessments Test
+  * Statements Assessments Solutions
+  
 SECTION 6. METHODS AND FUNCTIONS
 
 (33)
