@@ -82,8 +82,8 @@
   * <a href='#61'>Errors and Exceptions HO</a>
   * <a href='#62'>Errors and Exceptions HO Solution</a>
 
-
---------------------------------------------------------------------------
+Python Objects and Data Structure Basics
+------
 
 ### <h4 id='13'>Numbers</h4>
 
