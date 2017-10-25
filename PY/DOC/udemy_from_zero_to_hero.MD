@@ -253,30 +253,22 @@ hello world
 >>> 
 ```
 
-017. PRINT FORMATTING
+### <h4 id='17'>Print Formatting</h4>
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb
 
-----------------------------------
-
-#016.1.
-
+```python
 >>> print ("this is a string")
 this is a string
+```
 
-----------------------------------
-
-#016.2.
-
+```python
 >>> s = "string"
 >>> print ("Place my variable here: %s" % (s))
 Place my variable here: string
 >>> 
+```
 
-----------------------------------
-
-#016.3.
-
+```python
 >>> x = 13.13
 >>> print ("Floating point number: %1.2f" % (x))
 Floating point number: 13.13
@@ -287,73 +279,51 @@ Floating point number: 13.145
 >>> print ("Floating point number: %25.3f" % (13.145))
 Floating point number:                    13.145
 >>> 
+```
 
-----------------------------------
-
-#016.4.
-
+```python
 >>> print ("First %s, Second %s, Third %s" % ("hi", "two", 3))
 First hi, Second two, Third 3
 >>> 
+```
 
-----------------------------------
-
-#016.5.
-
+```python
 >>> print ("First {x}, Second {x}".format(x="inserted"))
 First inserted, Second inserted
 >>> 
+```
 
-----------------------------------
-
-#016.6.
-
+```python
 >>> print ("First {x}, Second {x}, Third {y}".format(x="inserted", y="szohi"))
 First inserted, Second inserted, Third szohi
 >>> 
+```
 
-----------------------------------
+BONUS SOURCE:
 
-BONUS SOURCE: https://pyformat.info/
+```
+https://pyformat.info/
+```
 
-----------------------------------
+### <h4 id='19'>Lists</h4>
 
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-019. LISTS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb
-
-temp_list = [1, 2.5, "string"]
-
-----------------------------------
-
-#019.1.
-
+```python
 >>> my_list = [1, 2, 3]
 >>> my_list
 [1, 2, 3]
 >>> 
+```
 
-----------------------------------
-
-#019.2.
-
+```python
 >>> my_list = ["string", 23, 1.2, "o"]
 >>> my_list
 ['string', 23, 1.2, 'o']
 >>> len(my_list)
 4
 >>> 
+```python
 
-----------------------------------
-
-#019.3.
-
+```python
 >>> my_list = ["one", "two", "three", 4, 5]
 >>> my_list[0]
 'one'
@@ -362,11 +332,9 @@ temp_list = [1, 2.5, "string"]
 >>> my_list[:3]
 ['one', 'two', 'three']
 >>> 
+```
 
-----------------------------------
-
-#019.4.
-
+```python
 >>> my_list
 ['one', 'two', 'three', 4, 5]
 >>> my_list + ["new item"]
@@ -377,21 +345,17 @@ temp_list = [1, 2.5, "string"]
 >>> my_list
 ['one', 'two', 'three', 4, 5, 'permanent add']
 >>>
+```
 
-----------------------------------
-
-#019.5.
-
+```python
 >>> my_list
 ['one', 'two', 'three', 4, 5, 'permanent add']
 >>> my_list * 2
 ['one', 'two', 'three', 4, 5, 'permanent add', 'one', 'two', 'three', 4, 5, 'permanent add']
 >>> 
+```
 
-----------------------------------
-
-#019.6.
-
+```python
 >>> l = [1, 2, 3]
 >>> l
 [1, 2, 3]
@@ -413,11 +377,9 @@ Traceback (most recent call last):
     l[99]
 IndexError: list index out of range
 >>> 
+```
 
-----------------------------------
-
-#019.7.
-
+```python
 >>> new_list = ["a", "e", "x", "b", "c"]
 >>> new_list
 ['a', 'e', 'x', 'b', 'c']
@@ -428,11 +390,9 @@ IndexError: list index out of range
 >>> new_list
 ['a', 'b', 'c', 'e', 'x']
 >>> 
+```
 
-----------------------------------
-
-#019.8.
-
+```python
 >>> l_1 = [1, 2, 3]
 >>> l_2 = [4, 5, 6]
 >>> l_3 = [7, 8, 9]
@@ -448,14 +408,7 @@ IndexError: list index out of range
 >>> matrix[2][0]
 7
 >>> 
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 21. DICTIONARIES
 
