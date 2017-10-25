@@ -3,45 +3,40 @@
 ======
 
 ### Course Overview
-  * Course Introduction
-  * Course Curriculum Overview
-  * Python 2 vs Python 3
-  * Have to Approach this Course
-  * Course Faq
+  * <a href='#1'>Course Introduction</a>
+  * <a href='#2'>Course Curriculum Overview</a>
+  * <a href='#3'>Python 2 vs Python 3</a>
+  * <a href='#4'>Have to Approach this Course</a>
+  * <a href='#5'>Course Faq</a>
 
 ### Python Setup
-  * Installation Notes
-  * Jupyter Notebook Installation
-  * IDE Selection
-  * Jupyther (iPython) Notebooks
-  * Faq - Notebooks
-  * Additional Resources
-  * Git and Github Overview
+  * <a href='#6'>Installation Notes</a>
+  * <a href='#7'>Jupyter Notebook Installation</a>
+  * <a href='#8'>IDE Selection</a>
+  * <a href='#9'>Jupyther (iPython) Notebooks</a>
+  * <a href='#10'>Faq - Notebooks</a>
+  * <a href='#11'>Additional Resources</a>
+  * <a href='#12'>Git and Github Overview</a> 
+
+### Python Objects and Data Structure Basics
+  * <a href='#13'>Numbers</a> 
+  * <a href='#14'>Numbers Faq</a> 
+  * <a href='#15'>Strings</a> 
+  * <a href='#16'>Strings Faq</a> 
+  * <a href='#17'>Print Formatting</a> 
+  * <a href='#18'>Print Formatting Faq</a> 
+  * <a href='#19'>Lists</a> 
+  * <a href='#20'>Lists Faq</a> 
+  * <a href='#21'>Dictionaries</a> 
+  * <a href='#22'>Dictionaries Faq</a> 
+  * <a href='#23'>Tuples</a> 
+  * <a href='#24'>Files</a> 
+  * <a href='#25'>Sets and Booleans</a> 
+  * <a href='#26'>Resources Form More Basic Practice</a> 
+  * <a href='#27'>Objects and Data Structures Assessment Test</a> 
+  * <a href='#28'>Objects and Data Structures Assessment Solutions</a> 
   
 
-
-SECTION 3. PYTHON OBJECTS AND DATA STRUCTURE BASICS
-
-(57)
-
-013. (03) - NUMBERS
-014. (xx) - NUMBERS - FAQ
-015. (18) - STRINGS
-016. (xx) - STRINGS - FAQ
-017. (06) - PRINT FORMATTING
-018. (xx) - PRINT FORMATTING - FAQ
-019. (08) - LISTS
-020. (xx) - LISTS FAQ
-021. (09) - DICTIONARIES
-022. (xx) - DICTIONARIES FAQ
-023. (05) - TUPLES
-024. (02) - FILES
-025. (06) - SETS AND BOOLEANS
-026. (xx) - RESOURCES FORM MORE BASIC PRACTICE
-027. (xx) - OBJECTS AND DATA STRUCTURES ASSESSMENT TEST
-028. (xx) - OBJECTS AND DATA STRUCTURES ASSESSMENT SOLUTIONS
-
-----------------------------------------------------------------------
 
 SECTION 4. PYTHON COMPARISON OPERATORS
 
@@ -157,14 +152,11 @@ SECTION 18.
 
 --------------------------------------------------------------------------
 
-013. NUMBERS
+### <h4 id='13'>Numbers</h4>
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb
 
-----------------------------------
-
-#013.1.
-
+```python
 >>> 3/2
 1.5
 >>> 3.0/2
@@ -174,11 +166,6 @@ http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/mast
 >>> float(3)
 3.0
 >>> 
-
-----------------------------------
-
-#013.2.
-
 >>> a = 5
 >>> a
 5
@@ -193,25 +180,13 @@ http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/mast
 >>> a
 20
 >>> 
-
-----------------------------------
-
-#013.3.
-
 >>> my_income = 100
 >>> tax_rate = 0.1
 >>> my_taxes = my_income*tax_rate
 >>> my_taxes
 10.0
 >>> 
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 015. STRINGS 
 
