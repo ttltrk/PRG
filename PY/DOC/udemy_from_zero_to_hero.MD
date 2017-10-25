@@ -154,8 +154,6 @@ SECTION 18.
 
 ### <h4 id='13'>Numbers</h4>
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb
-
 ```python
 >>> 3/2
 1.5
@@ -188,122 +186,91 @@ http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/mast
 >>> 
 ```
 
-015. STRINGS 
+### <h4 id='15'>Strings</h4> 
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb
-
-----------------------------------
-
-#015.1.
-
+```python
 >>> 'hello'
 'hello'
 >>>
+```
 
-----------------------------------
-
-#015.2.
-
+```python
 >>> 'this is also a string'
 'this is also a string'
 >>>
+```
 
-----------------------------------
-
-#015.3.
-
+```python
 >>> "this is a string too"
 'this is a string too'
 >>>
+```
 
-----------------------------------
-
-#015.4.
-
+```python
 >>> "I'm a string"
 "I'm a string"
 >>>
+```
 
-----------------------------------
-
-#015.5.
-
+```python
 >>> ' "this is a quote" '
 ' "this is a quote" '
 >>>
+```
 
-----------------------------------
-
-#015.6.
-
+```python
 >>> print ("hello world 1")
 hello world 1
 >>>
+```
 
-----------------------------------
-
-#015.7.
-
+```python
 >>> print ("here is a new line \n and here is the second line")
 here is a new line 
  and here is the second line
 >>>
+```
 
-----------------------------------
-
-#015.8.
-
+```python
 >>> print ("here is a new line \t and here is the second line")
 here is a new line 	 and here is the second line
 >>> 
+```
 
-----------------------------------
-
-#015.9.
-
+```python
 >>> len("hello world")
 11
 >>> 
+```
 
-----------------------------------
-
-#015.10.
-
+```python
 >>> s = "hello world"
 >>> print (s)
 hello world
 >>> s
 'hello world'
 >>>
+```
 
-----------------------------------
-
-#015.11.
-
+```python
 >>> s[0] #indexing
 'h'
 >>>
+```
 
-----------------------------------
-
-#015.12.
-
+```python
 >>> s[1:]
 'ello world'
 >>>
+```
 
-----------------------------------
-
-#015.13.
-
+```python
 >>> s[:3]
 'hel'
 >>> 
+```
 
-----------------------------------
-
-#015.14.
-
+```python
 >>> s[:]
 'hello world'
 >>> s[-1]
@@ -311,11 +278,9 @@ hello world
 >>> s[:-1]
 'hello worl'
 >>> 
+```
 
-----------------------------------
-
-#015.15.
-
+```python
 >>> s[::1]
 'hello world'
 >>> s[::2]
@@ -323,32 +288,26 @@ hello world
 >>> s[::-1]
 'dlrow olleh'
 >>> 
+```
 
-----------------------------------
-
-#015.16.
-
+```python
 >>> s
 'hello world'
 >>> s + ' concatenate me!'
 'hello world concatenate me!'
 >>> 
+```
 
-----------------------------------
-
-#015.17.
-
+```python
 >>> letter = 'z'
 >>> letter
 'z'
 >>> letter*10
 'zzzzzzzzzz'
 >>> 
+```
 
-----------------------------------
-
-#015.18.
-
+```python
 >>> s = 'hello'
 >>> s.upper()
 'HELLO'
@@ -359,14 +318,7 @@ hello world
 >>> s.split('e')
 ['h', 'llo']
 >>> 
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 017. PRINT FORMATTING
 
