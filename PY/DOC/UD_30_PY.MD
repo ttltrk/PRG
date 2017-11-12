@@ -38,7 +38,7 @@
 Welcome
 ------
 
-#### <h4 id='1'>Welcome<</h4>
+#### <h4 id='1'>Welcome</h4>
 
 #### <h4 id='2'>Getting help</h4>
 
