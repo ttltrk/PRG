@@ -38,8 +38,8 @@
 Welcome
 ------
 
-#### <h4 id='1'></h4>
+#### <h4 id='1'>Welcome<</h4>
 
-#### <h4 id='2'></h4>
+#### <h4 id='2'>Getting help</h4>
 
-#### <h4 id='3'></h4>
+#### <h4 id='3'>Youtube and Suggestions</h4>
