@@ -50,62 +50,55 @@ Days 1: Basics
 
 #### <h4 id='4'>Setup, String, Variables and Integers</h4>
 
-```python
-"""
+STRINGS
 
-"""
+```python
+print("this is a word")
 
 >>>
-
+this is a word
 >>>
 ```
 
 ```python
-"""
-
-"""
+print("this is a" + " another string")
 
 >>>
+this is a another string
+>>>
+```
 
+VARIABLES
+
+```python
+abc = "some string"
+print(abc)
+
+>>>
+some string
 >>>
 ```
 
 ```python
-"""
-
-"""
-
->>>
+abc = "some string"
+print(abc + abc)
 
 >>>
-```
-
-```python
-"""
-
-"""
-
->>>
-
+some stringsome string
 >>>
 ```
 
-```python
-"""
-
-"""
-
->>>
-
->>>
-```
+NUMBERS
 
 ```python
-"""
+a = 2 * 2
+print(a)
 
-"""
+b = 2 * "2"
+print(b)
 
 >>>
-
+4
+22
 >>>
 ```
