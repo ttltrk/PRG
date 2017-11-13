@@ -7,7 +7,8 @@
   * <a href='#2'>Getting help</a>
   * <a href='#3'>Youtube and Suggestions</a>
 
-### Section 2
+### Days 1: Basics
+  * <a href='#4'>Setup, String, Variables and Integers</a>
 
 ### Section 3
 
@@ -43,3 +44,8 @@ Welcome
 #### <h4 id='2'>Getting help</h4>
 
 #### <h4 id='3'>Youtube and Suggestions</h4>
+
+Days 1: Basics
+------
+
+#### <h4 id='4'>Setup, String, Variables and Integers</h4>
