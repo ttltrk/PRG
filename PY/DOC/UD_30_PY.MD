@@ -111,6 +111,63 @@ Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
 
 #### <h4 id='5'>Lists</h4>
 
+```python
+l = ['some string', 123, 'another string']
+print(l)
+
+>>>
+['some string', 123, 'another string']
+>>>
+```
+
+```python
+l = ['some string', 123, 'another string']
+l.append(456)
+print(l)
+
+>>>
+['some string', 123, 'another string', 456]
+>>>
+```
+
+```python
+l = ['some string', 123, 'another string', 456]
+l.pop()
+print(l)
+
+>>>
+['some string', 123, 'another string']
+>>>
+```
+
+```python
+l = ['some string', 123, 'another string', 456]
+print(len(l))
+
+>>>
+4
+>>>
+```
+
+```python
+l = ['some string', 123, 'another string', 456]
+print(l[0])
+
+>>>
+some string
+>>>
+```
+
+```python
+another_list = ['John', 'Jack', 'James']
+james_name = another_list[2]
+print(james_name)
+
+>>>
+James
+>>>
+```
+
 #### <h4 id='6'>Dictionaries and Tuples</h4>
 
 #### <h4 id='7'>Loops: For Loops and While Loops</h4>
