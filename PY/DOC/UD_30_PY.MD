@@ -10,7 +10,10 @@
 ### Days 1: Basics
   * <a href='#4'>Setup, String, Variables and Integers</a>
 
-### Section 3
+### Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
+  * <a href='#5'>Lists</a>
+  * <a href='#6'>Dictionaries and Tuples</a>
+  * <a href='#7'>Loops: For Loops and While Loops</a>
 
 ### Section 4
 
@@ -102,3 +105,12 @@ print(b)
 22
 >>>
 ```
+
+Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
+------
+
+#### <h4 id='5'>Lists</h4>
+
+#### <h4 id='6'>Dictionaries and Tuples</h4>
+
+#### <h4 id='7'>Loops: For Loops and While Loops</h4>
