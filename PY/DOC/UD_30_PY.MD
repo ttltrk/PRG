@@ -242,11 +242,4 @@ yetanother
 >>>
 ```
 
-```python
-
->>>
-
->>>
-```
-
 #### <h4 id='7'>Loops: For Loops and While Loops</h4>
