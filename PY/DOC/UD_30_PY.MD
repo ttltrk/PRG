@@ -170,4 +170,57 @@ James
 
 #### <h4 id='6'>Dictionaries and Tuples</h4>
 
+Dictionaries
+
+```python
+a_dict = {"abc":"A string"}
+print(a_dict)
+
+>>>
+{'abc': 'A string'}
+>>>
+```
+
+```python
+a_dict = {"abc":"A string"}
+a_dict["abc"] = "another new string"
+a_dict["def"] = "string too"
+
+print(a_dict)
+print(a_dict["abc"])
+
+>>>
+{'abc': 'another new string', 'def': 'string too'}
+another new string
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
 #### <h4 id='7'>Loops: For Loops and While Loops</h4>
