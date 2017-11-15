@@ -196,23 +196,49 @@ another new string
 ```
 
 ```python
+new_abc = {"0":"another string", "yetanother":"another"}
+sss = {"f":"123"}
+new_abc["yetanother"] = sss
+print(new_abc)
 
 >>>
+{'0': 'another string', 'yetanother': {'f': '123'}}
+>>>
+```
 
+Tuples
+
+```python
+tup = ("abc", "123")
+print(tup)
+
+>>>
+('abc', '123')tup = (("abc", "123"), ("def"))
 >>>
 ```
 
 ```python
+tup = (("abc", "123"), ("def"))
+print(tup)
+print(tup[0])
+print(tup[0][1])
 
 >>>
-
+(('abc', '123'), 'def')
+('abc', '123')
+123
 >>>
 ```
 
 ```python
+tup = (("abc", "123"), ("def"))
+tup += ("yetanother", 298)
+print(tup)
+print(tup[2])
 
 >>>
-
+(('abc', '123'), 'def', 'yetanother', 298)
+yetanother
 >>>
 ```
 
