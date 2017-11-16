@@ -243,3 +243,85 @@ yetanother
 ```
 
 #### <h4 id='7'>Loops: For Loops and While Loops</h4>
+
+FOR LOOP
+
+```python
+bag = [112, 3472, 34538, 10, 3827]
+
+for items in bag:
+  print(items)
+  
+>>>
+112
+3472
+34538
+10
+3827
+>>>
+```
+
+```python
+bag = [1, 2, 3, 4, 5, 6, 7]
+
+i = 0
+for item in bag:
+  i = i + 1
+  print(i)
+  
+>>>
+1
+2
+3
+4
+5
+6
+7
+>>>
+```
+
+```python
+bag = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for item in bag:
+  if item == 10:
+    print('yeahhhh')
+    
+>>>
+yeahhhh
+>>>
+```
+
+WHILE LOOP
+
+```python
+i = 10
+while i < 11:
+  print("yup")
+  i = i + 1
+  
+>>>
+yup
+>>>
+```
+
+```python
+i = 0
+while i < 11:
+  print(i)
+  i = i + 1
+
+>>>
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+>>>
+```
