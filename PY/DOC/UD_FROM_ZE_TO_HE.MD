@@ -2,6 +2,8 @@
 [Complete Python Bootcamp: Go from zero to hero in Python](https://www.udemy.com/complete-python-bootcamp/learn/v4/content)
 ======
 
+[docu on jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+
 ### Course Overview
   * <a href='#1'>Course Introduction</a>
   * <a href='#2'>Course Curriculum Overview</a>
