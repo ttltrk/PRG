@@ -125,6 +125,8 @@ Python Objects and Data Structure Basics
 
 ### <h3 id='15'>Strings</h3> 
 
+[Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)
+
 ```python
 >>> 'hello'
 'hello'
@@ -259,6 +261,8 @@ hello world
 
 ### <h3 id='17'>Print Formatting</h3>
 
+[Print Formatting.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb)
+
 ```python
 >>> print ("this is a string")
 this is a string
@@ -303,6 +307,8 @@ First inserted, Second inserted, Third szohi
 ```
 
 ### <h3 id='19'>Lists</h3>
+
+[Lists.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)
 
 ```python
 >>> my_list = [1, 2, 3]
