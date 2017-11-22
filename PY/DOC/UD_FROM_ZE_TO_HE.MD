@@ -89,6 +89,8 @@ Python Objects and Data Structure Basics
 
 ### <h3 id='13'>Numbers</h3>
 
+[Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)
+
 ```python
 >>> 3/2
 1.5
