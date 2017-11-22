@@ -85,7 +85,7 @@
 Python Objects and Data Structure Basics
 ------
 
-### <h4 id='13'>Numbers</h4>
+### <h3 id='13'>Numbers</h3>
 
 ```python
 >>> 3/2
@@ -119,7 +119,7 @@ Python Objects and Data Structure Basics
 >>> 
 ```
 
-### <h4 id='15'>Strings</h4> 
+### <h3 id='15'>Strings</h3> 
 
 ```python
 >>> 'hello'
@@ -253,7 +253,7 @@ hello world
 >>> 
 ```
 
-### <h4 id='17'>Print Formatting</h4>
+### <h3 id='17'>Print Formatting</h3>
 
 ```python
 >>> print ("this is a string")
@@ -298,7 +298,7 @@ First inserted, Second inserted, Third szohi
 >>> 
 ```
 
-### <h4 id='19'>Lists</h4>
+### <h3 id='19'>Lists</h3>
 
 ```python
 >>> my_list = [1, 2, 3]
@@ -403,7 +403,7 @@ IndexError: list index out of range
 >>> 
 ```
 
-### <h4 id='21'>Dictionaries</h4>
+### <h3 id='21'>Dictionaries</h3>
 
 ```python
 >>> my_dict = {"key1" : "value1", "key2" : "value2"}
@@ -509,7 +509,7 @@ dict_items([('k1', 1), ('k3', 3), ('k2', 2)])
 >>> 
 ```
 
-### <h4 id='23'>Tuples</h4>
+### <h3 id='23'>Tuples</h3>
 
 ```python
 >>> t = (1, 2, 3)
@@ -569,7 +569,7 @@ TypeError: 'tuple' object does not support item assignment
 >>> 
 ```
 
-### <h4 id='23'>Files</h4>
+### <h3 id='23'>Files</h3>
 
 ```python
 >>> f = open("test.txt")
@@ -604,7 +604,7 @@ Second line
 >>> 
 ```
 
-### <h4 id='25'>Sets and Booleans</h4>
+### <h3 id='25'>Sets and Booleans</h3>
 
 ```python
 >>> x = set()
@@ -656,7 +656,7 @@ True
 >>> 
 ```
 
-### <h4 id='26'>Resources Form More Basic Practice</h4>
+### <h3 id='26'>Resources Form More Basic Practice</h3>
 
 ```
 Basic Practice:
@@ -683,7 +683,7 @@ http://www.pythonchallenge.com/
 Python Comparison Operators
 ------
 
-### <h4 id='29'>Comparison Operators</h4>
+### <h3 id='29'>Comparison Operators</h3>
 
 ```python
 >>> 2 == 2
@@ -733,7 +733,7 @@ True
 >>> 
 ```
 
-### <h4 id='30'>Chained Comparison Operators</h4>
+### <h3 id='30'>Chained Comparison Operators</h3>
 
 ```python
 >>> 1 < 2
@@ -764,7 +764,7 @@ True
 Python Statements
 ------
 
-### <h4 id='32'>IF, ELIF and ELSE Statements</h4>
+### <h3 id='32'>IF, ELIF and ELSE Statements</h3>
 
 ```python	
 >>> if True:
@@ -839,7 +839,7 @@ Welcome to the Mall!
 >>> 
 ```
 
-### <h4 id='33'>FOR Loops
+### <h3 id='33'>FOR Loops</h3>
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -1082,7 +1082,7 @@ k3
 >>> 
 ```
 
-### <h4 id='34'>WHILE Loops</h4>
+### <h3 id='34'>WHILE Loops</h3>
 
 ```python
 x = 0
