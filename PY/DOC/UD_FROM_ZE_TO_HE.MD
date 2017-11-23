@@ -112,13 +112,25 @@ Section 1 - Course Overview
 
 ### <h3 id='1'>1 - Course Introduction</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421822?start=0)
+
 ### <h3 id='2'>2 - Course Curriculum Overview</h3>
+
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421834?start=0)
 
 ### <h3 id='3'>3 - Python 2 vs Python 3</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)
+
+[key differences](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+
 ### <h3 id='4'>4 - Have to Approach this Course</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3779296?start=0)
+
 ### <h3 id='5'>5 - Course Faq</h3>
+
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3789748?start=0)
 
 Section 2 - Python Setup
 ------
