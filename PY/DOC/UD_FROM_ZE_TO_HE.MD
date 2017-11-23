@@ -415,6 +415,8 @@ IndexError: list index out of range
 
 ### <h3 id='21'>Dictionaries</h3>
 
+[Dictionaries.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)
+
 ```python
 >>> my_dict = {"key1" : "value1", "key2" : "value2"}
 >>> my_dict
@@ -521,6 +523,8 @@ dict_items([('k1', 1), ('k3', 3), ('k2', 2)])
 
 ### <h3 id='23'>Tuples</h3>
 
+[Tuples.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)
+
 ```python
 >>> t = (1, 2, 3)
 >>> t
@@ -581,6 +585,8 @@ TypeError: 'tuple' object does not support item assignment
 
 ### <h3 id='23'>Files</h3>
 
+[Files.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Files.ipynb)
+
 ```python
 >>> f = open("test.txt")
 >>> f.read()
@@ -615,6 +621,8 @@ Second line
 ```
 
 ### <h3 id='25'>Sets and Booleans</h3>
+
+[Sets and Booleans.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)
 
 ```python
 >>> x = set()
@@ -695,6 +703,8 @@ Python Comparison Operators
 
 ### <h3 id='29'>Comparison Operators</h3>
 
+[Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)
+
 ```python
 >>> 2 == 2
 True
@@ -745,6 +755,8 @@ True
 
 ### <h3 id='30'>Chained Comparison Operators</h3>
 
+[Chained Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)
+
 ```python
 >>> 1 < 2
 True
@@ -775,6 +787,8 @@ Python Statements
 ------
 
 ### <h3 id='32'>IF, ELIF and ELSE Statements</h3>
+
+[If, elif, and else Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)
 
 ```python	
 >>> if True:
@@ -850,6 +864,8 @@ Welcome to the Mall!
 ```
 
 ### <h3 id='33'>FOR Loops</h3>
+
+[For Loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/For%20Loops.ipynb)
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -1093,6 +1109,8 @@ k3
 ```
 
 ### <h3 id='34'>WHILE Loops</h3>
+
+[While loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
 
 ```python
 x = 0
@@ -1392,14 +1410,11 @@ print (lst)
 >>> 
 ```
 
-038. STATEMENT ASSESSMENT SOLUTIONS
+### <h3 id="38">STATEMENT ASSESSMENT SOLUTIONS</h3>
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Statements%20Assessment%20Test%20-%20Solutions.ipynb
+[Statements Assessment Test - Solutions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Statements%20Assessment%20Test%20-%20Solutions.ipynb)
 
-----------------------------------
-
-#038.1.
-
+```python
 st = 'Print only the words that start with s in this sentence'
 
 for word in st.split():
@@ -1411,34 +1426,34 @@ start
 s
 sentence
 >>> 
+```
 
-----------------------------------
-
-#038.2.
-
-# print all the even numbers from 0 to 10
+```python
+"""
+print all the even numbers from 0 to 10
+"""
 
 >>> range(0,11,2)
 range(0, 11, 2)
 >>> list(range(0,11,2))
 [0, 2, 4, 6, 8, 10]
 >>> 
+```
 
-----------------------------------
-
-#038.3.
-
-# create a list of all numbers between 1 and 50 that are divisible by 3
+```python
+"""
+create a list of all numbers between 1 and 50 that are divisible by 3
+"""
 
 >>> [x for x in range(1,50) if x%3 == 0]
 [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48]
 >>> 
+```
 
-----------------------------------
-
-#038.4.
-
-# if the length of a word is even print "even!"
+```python
+"""
+if the length of a word is even print "even!"
+"""
 
 st = 'Print every word in this sentence that has an even number of letters'
 
@@ -1457,11 +1472,9 @@ even <-- has an even length!
 number <-- has an even length!
 of <-- has an even length!
 >>> 
+```
 
-----------------------------------
-
-#038.5.
-
+```python
 """
 Write a program that prints the integers from 1 to 20. But for multiples of three print "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 """
@@ -1498,42 +1511,28 @@ Fizz
 19
 Buzz
 >>> 
+```
 
-----------------------------------
-
-#038.6.
-
+```python
 >>> st = 'Create a list of the first letters of every word in this string'
 >>> [word[0] for word in st.split()]
 ['C', 'a', 'l', 'o', 't', 'f', 'l', 'o', 'e', 'w', 'i', 't', 's']
 >>> 
+```
 
-----------------------------------
+### <h3 id="39">METHODS</h3>
 
---------------------------------------------------------------------------
+[Methods.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Methods.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-0.39 METHODS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Methods.ipynb
-
-----------------------------------
-
-#039.1.
-
+```python
 >>> l = [1,2,3,4,5]
 >>> l.append(6)
 >>> l
 [1, 2, 3, 4, 5, 6]
 >>> 
+```
 
-----------------------------------
-
-#039.2.
-
+```python
 >>> l
 [1, 2, 3, 4, 5, 6]
 >>> l.count(3)
@@ -1544,11 +1543,9 @@ http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/mast
 >>> l.count(3)
 2
 >>> 
+```
 
-----------------------------------
-
-#039.3.
-
+```python
 >>> help(l.count)
 Help on built-in function count:
 
@@ -1556,35 +1553,24 @@ count(...) method of builtins.list instance
     L.count(value) -> integer -- return number of occurrences of value
 
 >>> 
+```
 
-----------------------------------
+### <h3 id="40">FUNCTIONS</h3>
 
---------------------------------------------------------------------------
+[Functions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-040. FUNCTIONS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions.ipynb
-
-----------------------------------
-
-#040.1.
-
+```python
 def name_of_function():
 	pass
 
 name_of_function()
 
 >>> 
+
 >>>
+```
 
-----------------------------------
-
-#040.2.
-
+```python
 def name_of_function(arg1, arg2):    
     pass
 
@@ -1596,11 +1582,9 @@ Traceback (most recent call last):
     print (name_of_functions())
 NameError: name 'name_of_functions' is not defined
 >>> 
+```
 
-----------------------------------
-
-#040.3.
-
+```python
 def my_add_func(arg1, arg2):    
     print (arg1 + arg2)
 
@@ -1609,11 +1593,9 @@ my_add_func(1, 2)
 >>>
 3
 >>>
+```
 
-----------------------------------
-
-#040.4.
-
+```python
 def say_hello():
     print ("hello!")
 
@@ -1622,11 +1604,9 @@ say_hello()
 >>>
 hello!
 >>>
+```
 
-----------------------------------
-
-#040.5.
-
+```python
 def greeting(name):
     print ("hello "+ name)
 
@@ -1635,11 +1615,10 @@ greeting("trk")
 >>>
 hello trk
 >>>
+```
 
-----------------------------------
 
-#040.6.
-
+```python
 def add_num(num1, num2):
     return (num1 + num2)
 
@@ -1650,11 +1629,9 @@ print(x)
 >>>
 5
 >>>
+```
 
-----------------------------------
-
-#040.7.
-
+```python
 def add_num(num1, num2):
     return (num1 + num2)
 
@@ -1665,11 +1642,9 @@ print(x)
 >>>
 onetwo
 >>>
+```
 
-----------------------------------
-
-#040.8.
-
+```python
 def is_prime(num):
     """
     IN: A number
@@ -1688,11 +1663,9 @@ is_prime(12)
 >>>
 not prime
 >>>
+```
 
-----------------------------------
-
-#040.9.
-
+```python
 def is_prime(num):
     """
     IN: A number
@@ -1719,23 +1692,13 @@ the number is prime!
 the number is prime!
 the number is prime!
 >>> 
+```
 
-----------------------------------
+### <h3 id="41">LAMBDA EXPRESSIONS</h3>
 
---------------------------------------------------------------------------
+[Lambda expressions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lambda%20expressions.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-041. LAMBDA EXPRESSIONS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lambda%20expressions.ipynb
-
-----------------------------------
-
-#041.1.
-
+```python
 def square(num):
     result = num**2
     return result
@@ -1745,11 +1708,9 @@ print (square(2))
 >>>
 4
 >>>
+```
 
-----------------------------------
-
-#041.2.
-
+```python
 def square(num):
     return num**2
 
@@ -1758,11 +1719,9 @@ print (square(3))
 >>>
 9
 >>>
+```
 
-----------------------------------
-
-#041.3.
-
+```python
 def square(num): return num**2
 
 print (square(4))
@@ -1770,11 +1729,9 @@ print (square(4))
 >>>
 16
 >>>
+```
 
-----------------------------------
-
-#041.4.
-
+```python
 square = lambda num: num**2
 
 print (square(5))
@@ -1782,11 +1739,9 @@ print (square(5))
 >>>
 25
 >>>
+```
 
-----------------------------------
-
-#041.5.
-
+```python
 even = lambda num: num %2 == 0
 
 print (even(4))
@@ -1794,11 +1749,9 @@ print (even(4))
 >>>
 True
 >>>
+```
 
-----------------------------------
-
-#041.6.
-
+```python
 def even(num):
     return num %2 == 0
 
@@ -1807,11 +1760,9 @@ print (even(10))
 >>>
 True
 >>>
+```
 
-----------------------------------
-
-#041.7.
-
+```python
 first = lambda s: s[0]
 
 print (first("hello"))
@@ -1819,11 +1770,9 @@ print (first("hello"))
 >>>
 h
 >>>
+```
 
-----------------------------------
-
-#041.8.
-
+```python
 rev = lambda s: s[::-1]
 
 print (rev("hello"))
@@ -1831,11 +1780,9 @@ print (rev("hello"))
 >>>
 olleh
 >>> 
+```
 
-----------------------------------
-
-#041.9.
-
+```python
 def adder(x, y):
     return x + y
 
@@ -1844,11 +1791,9 @@ print (adder(10, 12))
 >>>
 22
 >>>
+```
 
-----------------------------------
-
-#041.10.
-
+```python
 adder = lambda x, y: x + y
 
 print (adder(15, 2))
@@ -1856,27 +1801,20 @@ print (adder(15, 2))
 >>>
 17
 >>>
+```
 
-----------------------------------
-
-#041.11.
-
+```
 check this out!!!
 
 map()
 filter()
 reduce()
+```
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[pythonconquerstheuniverse](https://pythonconquerstheuniverse.wordpress.com/)
 
-https://pythonconquerstheuniverse.wordpress.com/
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-----------------------------------
-
-#041.12.
-
+```python
 len_check = lambda item: len(item)
 
 print (len_check("blabla"))
@@ -1884,23 +1822,13 @@ print (len_check("blabla"))
 >>>
 6
 >>>
+```
 
-----------------------------------
+### <h3 id="42">NESTED STATEMENTS AND SCOPE</h3>
 
---------------------------------------------------------------------------
+[Nested Statements and Scope.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Nested%20Statements%20and%20Scope.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-042. NESTED STATEMENTS AND SCOPE
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Nested%20Statements%20and%20Scope.ipynb
-
-----------------------------------
-
-#042.1.
-
+```python
 x = 25
 
 def printer():
@@ -1914,12 +1842,12 @@ print (printer())
 25
 50
 >>>
+```
 
-----------------------------------
-
-#042.2.
-
-# LOCAL
+```python
+"""
+LOCAL
+"""
 
 f = lambda x: x**2
 
@@ -1928,12 +1856,12 @@ print (f(2))
 >>>
 4
 >>>
+```
 
-----------------------------------
-
-#042.3.
-
-# ENCLOSING FUNCTION LOCAL
+```python
+"""
+ENCLOSING FUNCTION LOCAL
+"""
 
 name = "glob name"
 
@@ -1951,12 +1879,12 @@ greet()
 >>>
 Hello Sammy
 >>>
+```
 
-----------------------------------
-
-#042.4.
-
-# ENCLOSING FUNCTION LOCAL
+```python
+"""
+ENCLOSING FUNCTION LOCAL
+"""
 
 name = "glob name"
 
@@ -1975,12 +1903,12 @@ greet()
 >>>
 Hello Steve and Hello Sammy 
 >>>
+```
 
-----------------------------------
-
-#042.5.
-
-# GLOBAL
+```python
+"""
+GLOBAL
+"""
 
 name = "Annie"
 
@@ -1989,20 +1917,20 @@ print (name)
 >>>
 Annie
 >>>
+```
 
-----------------------------------
-
-#042.6.
-
-# BUILT-IN
+```python
+"""
+BUILT-IN
+"""
 
 len
+```
 
-----------------------------------
-
-#042.7.
-
-# LOCAL VARIABLES
+```python
+"""
+LOCAL VARIABLES
+"""
 
 x = 50
 
@@ -2019,12 +1947,12 @@ x is 50
 Changed local x to 2
 but x is still 50
 >>>
+```
 
-----------------------------------
-
-#042.8.
-
-# LOCAL VARIABLES
+```python
+"""
+LOCAL VARIABLES
+"""
 
 x = 50
 
@@ -2041,12 +1969,12 @@ x is 50
 Changed local x to 50
 but x is still 50
 >>> 
+```
 
-----------------------------------
-
-#042.9.
-
-# GLOBAL STATEMENT
+```python
+"""
+GLOBAL STATEMENT
+"""
 
 x = 50
 
@@ -2068,14 +1996,7 @@ Because of global x is:  50
 Ran func(), changed global x to 2
 Value of x (outside of func()) is:  2
 >>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 049. MILESTONE PROJECT 1 SOLUTION PT 1
 
