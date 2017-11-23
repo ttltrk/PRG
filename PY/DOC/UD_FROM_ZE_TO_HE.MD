@@ -107,10 +107,40 @@
 
 ### Section 19 - Bonus Special Offers
 
-Python Objects and Data Structure Basics
+Section 1 - Course Overview
 ------
 
-### <h3 id='13'>Numbers</h3>
+### <h3 id='1'>1 - Course Introduction</h3>
+
+### <h3 id='2'>2 - Course Curriculum Overview</h3>
+
+### <h3 id='3'>3 - Python 2 vs Python 3</h3>
+
+### <h3 id='4'>4 - Have to Approach this Course</h3>
+
+### <h3 id='5'>5 - Course Faq</h3>
+
+Section 2 - Python Setup
+------
+
+### <h3 id='6'>6 - Installation Notes</h3>
+
+### <h3 id='7'>7 - Jupyter Notebook Installation</h3>
+
+### <h3 id='8'>8 - IDE Selection</h3>
+
+### <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
+
+### <h3 id='10'>10 - Faq - Notebooks</h3>
+
+### <h3 id='11'>11 - Additional Resources</h3>
+
+### <h3 id='12'>12 - Git and Github Overview</h3>
+
+Section 3 - Python Objects and Data Structure Basics
+------
+
+### <h3 id='13'>13 - Numbers</h3>
 
 [Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)
 
@@ -146,7 +176,9 @@ Python Objects and Data Structure Basics
 >>> 
 ```
 
-### <h3 id='15'>Strings</h3> 
+### <h3 id='14'>14 - Numbers Faq</h3>
+
+### <h3 id='15'>15 - Strings</h3> 
 
 [Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)
 
@@ -2535,7 +2567,7 @@ print("Welcome to TicTacToe!")
     if not replay():
         break
 		
-### <h3 id="52">OOP - PT1 - OBJECTS</h3>
+### <h3 id="53">OOP - PT1 - OBJECTS</h3>
 
 [Object Oriented Programming.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb)
 
@@ -2582,7 +2614,7 @@ print(type(square))
 
 
 
-053. OOP - PT2 - CLASSES
+054. OOP - PT2 - CLASSES
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -2706,7 +2738,7 @@ True
 
 --------------------------------------------------------------------------
 
-054. OOP - PT3 - METHODS
+055. OOP - PT3 - METHODS
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -2903,7 +2935,7 @@ print(c.get_radius())
 
 --------------------------------------------------------------------------
 
-055. OOP - PT4 - INHERITANCE
+056. OOP - PT4 - INHERITANCE
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -2974,7 +3006,7 @@ woof!
 
 --------------------------------------------------------------------------
 
-056. OOP - PT5 - SPECIAL METHODS
+057. OOP - PT5 - SPECIAL METHODS
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -3085,7 +3117,9 @@ A book is gone!
 
 --------------------------------------------------------------------------
 
-058. OOP - HOMEWORK SOLUTION
+058. OOP - HOMEWORK ASSIGNMENT
+
+059. OOP - HOMEWORK SOLUTION
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming%20Homework%20-Solution.ipynb
 
@@ -3161,7 +3195,9 @@ print(c.surface_area())
 >>> 
 
 
-### <h3 id="61">EXCEPTIONS HANDLING: TRY, EXCEPT, FINALLY</h3>
+### <h3 id="60">60 - Errors and Exceptions</h3>
+
+### <h3 id="61">61 - Exception Handling: Try, Except, Finally</h3>
 
 [Errors and Exceptions Handling.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Errors%20and%20Exceptions%20Handling.ipynb)
 
