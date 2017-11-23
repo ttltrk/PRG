@@ -2514,7 +2514,7 @@ print("Welcome to TicTacToe!")
     if not replay():
         break
 		
-### <h3 id="53">OOP - PT1 - OBJECTS</h3>
+### <h3 id="52">OOP - PT1 - OBJECTS</h3>
 
 [Object Oriented Programming.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb)
 
@@ -2561,7 +2561,7 @@ print(type(square))
 
 
 
-054. OOP - PT2 - CLASSES
+053. OOP - PT2 - CLASSES
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -2685,7 +2685,7 @@ True
 
 --------------------------------------------------------------------------
 
-055. OOP - PT3 - METHODS
+054. OOP - PT3 - METHODS
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -2882,7 +2882,7 @@ print(c.get_radius())
 
 --------------------------------------------------------------------------
 
-056. OOP - PT4 - INHERITANCE
+055. OOP - PT4 - INHERITANCE
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -2953,7 +2953,7 @@ woof!
 
 --------------------------------------------------------------------------
 
-057. OOP - PT5 - SPECIAL METHODS
+056. OOP - PT5 - SPECIAL METHODS
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
 
@@ -3064,7 +3064,7 @@ A book is gone!
 
 --------------------------------------------------------------------------
 
-059. OOP - HOMEWORK SOLUTION
+058. OOP - HOMEWORK SOLUTION
 
 http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming%20Homework%20-Solution.ipynb
 
