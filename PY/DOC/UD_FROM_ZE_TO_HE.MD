@@ -358,9 +358,15 @@ hello world
 >>> 
 ```
 
-### <h3 id='17'>Print Formatting</h3>
+### <h3 id='16'>16 - Strings Faq</h3>
+
+[Strings Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729810?start=0)
+
+### <h3 id='17'>17 - Print Formatting</h3>
 
 [Print Formatting.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb)
+
+[Print Formatting.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3759600?start=0)
 
 ```python
 >>> print ("this is a string")
@@ -405,9 +411,15 @@ First inserted, Second inserted, Third szohi
 >>> 
 ```
 
-### <h3 id='19'>Lists</h3>
+### <h3 id='18'>18 - Print Formatting Faq</h3>
+
+[Print Formatting Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3810438?start=0)
+
+### <h3 id='19'>19 - Lists</h3>
 
 [Lists.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)
+
+[Lists.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422060?start=0)
 
 ```python
 >>> my_list = [1, 2, 3]
@@ -512,9 +524,15 @@ IndexError: list index out of range
 >>> 
 ```
 
-### <h3 id='21'>Dictionaries</h3>
+### <h3 id='20'>20 - Lists Faq</h3>
+
+[Lists Faq](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729818?start=0)
+
+### <h3 id='21'>21 - Dictionaries</h3>
 
 [Dictionaries.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)
+
+[Dictionaries.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422062?start=0)
 
 ```python
 >>> my_dict = {"key1" : "value1", "key2" : "value2"}
