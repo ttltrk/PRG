@@ -15,7 +15,9 @@
   * <a href='#6'>Dictionaries and Tuples</a>
   * <a href='#7'>Loops: For Loops and While Loops</a>
 
-### Section 4
+### Day 4: Conditionals
+  * <a href='#8'>Conditionals</a>
+  * <a href='#9'></a>
 
 ### Section 5
 
@@ -323,5 +325,92 @@ while i < 11:
 8
 9
 10
+>>>
+```
+
+#### <h4 id='8'>Conditionals</h4>
+
+```python
+True
+
+>>>
+True
+>>>
+```
+
+```python
+False
+
+>>>
+False
+>>>
+```
+
+```python
+obj_a = True
+print(obj_a == "d")
+
+>>>
+False
+>>>
+```
+
+```python
+list_a = [1,2,3]
+list_b = [1,2,3]
+list_c = [4,5,6]
+
+print(list_a == list_b)
+print(list_b == list_c)
+print(list_c != list_a)
+
+>>>
+True
+False
+True
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+True
+False
+True
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
 >>>
 ```
