@@ -13,78 +13,99 @@
   * <a href='#4'>4 - Have to Approach this Course</a>
   * <a href='#5'>5 - Course Faq</a>
 
-### Python Setup
-  * <a href='#6'>Installation Notes</a>
-  * <a href='#7'>Jupyter Notebook Installation</a>
-  * <a href='#8'>IDE Selection</a>
-  * <a href='#9'>Jupyther (iPython) Notebooks</a>
-  * <a href='#10'>Faq - Notebooks</a>
-  * <a href='#11'>Additional Resources</a>
-  * <a href='#12'>Git and Github Overview</a> 
+### Section 2 - Python Setup
+  * <a href='#6'>6 - Installation Notes</a>
+  * <a href='#7'>7 - Jupyter Notebook Installation</a>
+  * <a href='#8'>8 - IDE Selection</a>
+  * <a href='#9'>9 - Jupyther (iPython) Notebooks</a>
+  * <a href='#10'>10 - Faq - Notebooks</a>
+  * <a href='#11'>11 - Additional Resources</a>
+  * <a href='#12'>12 - Git and Github Overview</a> 
 
-### Python Objects and Data Structure Basics
-  * <a href='#13'>Numbers</a> 
-  * <a href='#14'>Numbers Faq</a> 
-  * <a href='#15'>Strings</a> 
-  * <a href='#16'>Strings Faq</a> 
-  * <a href='#17'>Print Formatting</a> 
-  * <a href='#18'>Print Formatting Faq</a> 
-  * <a href='#19'>Lists</a> 
-  * <a href='#20'>Lists Faq</a> 
-  * <a href='#21'>Dictionaries</a> 
-  * <a href='#22'>Dictionaries Faq</a> 
-  * <a href='#23'>Tuples</a> 
-  * <a href='#24'>Files</a> 
-  * <a href='#25'>Sets and Booleans</a> 
-  * <a href='#26'>Resources Form More Basic Practice</a> 
-  * <a href='#27'>Objects and Data Structures Assessment Test</a> 
-  * <a href='#28'>Objects and Data Structures Assessment Solutions</a> 
+### Section 3 - Python Objects and Data Structure Basics
+  * <a href='#13'>13 - Numbers</a> 
+  * <a href='#14'>14 - Numbers Faq</a> 
+  * <a href='#15'>15 - Strings</a> 
+  * <a href='#16'>16 - Strings Faq</a> 
+  * <a href='#17'>17 - Print Formatting</a> 
+  * <a href='#18'>18 - Print Formatting Faq</a> 
+  * <a href='#19'>19 - Lists</a> 
+  * <a href='#20'>20 - Lists Faq</a> 
+  * <a href='#21'>21 - Dictionaries</a> 
+  * <a href='#22'>22 - Dictionaries Faq</a> 
+  * <a href='#23'>23 - Tuples</a> 
+  * <a href='#24'>24 - Files</a> 
+  * <a href='#25'>25 - Sets and Booleans</a> 
+  * <a href='#26'>26 - Resources Form More Basic Practice</a> 
+  * <a href='#27'>27 - Objects and Data Structures Assessment Test</a> 
+  * <a href='#28'>28 - Objects and Data Structures Assessment Solutions</a> 
   
-### Python Comparison Operators
-  * <a href='#29'>Comparison Operators</a>
-  * <a href='#30'>Chained Comparison Operators</a>
+### Section 4 - Python Comparison Operators
+  * <a href='#29'>29 - Comparison Operators</a>
+  * <a href='#30'>30 - Chained Comparison Operators</a>
  
-### Python Statements
-  * <a href='#31'>Introduction to Python Statements</a>
-  * <a href='#32'>IF, ELIF and ELSE Statements</a>
-  * <a href='#33'>FOR Loops</a>
-  * <a href='#34'>WHILE Loops</a>
-  * <a href='#35'>RANGE()</a>
-  * <a href='#36'>List Comprehensions</a>
-  * <a href='#37'>Statements Assessments Test</a>
-  * <a href='#38'>Statements Assessments Solutions</a>
+### Section 5 - Python Statements
+  * <a href='#31'>31 - Introduction to Python Statements</a>
+  * <a href='#32'>32 - IF, ELIF and ELSE Statements</a>
+  * <a href='#33'>33 - FOR Loops</a>
+  * <a href='#34'>34 - WHILE Loops</a>
+  * <a href='#35'>35 - RANGE()</a>
+  * <a href='#36'>36 - List Comprehensions</a>
+  * <a href='#37'>37 - Statements Assessments Test</a>
+  * <a href='#38'>38 - Statements Assessments Solutions</a>
   
-### Methods and Functions
-  * <a href='#39'>Methods</a>
-  * <a href='#40'>Functions</a>
-  * <a href='#41'>Lambda Expressions</a>
-  * <a href='#42'>Nested Statements and Scope</a>
-  * <a href='#43'>Functions and Methods Homework</a>
-  * <a href='#44'>Functions and Methods Homework Hints and Tips</a>
-  * <a href='#45'>Functions and Methods Homework Solutions</a>
+### Section 6 - Methods and Functions
+  * <a href='#39'>39 - Methods</a>
+  * <a href='#40'>40 - Functions</a>
+  * <a href='#41'>41 - Lambda Expressions</a>
+  * <a href='#42'>42 - Nested Statements and Scope</a>
+  * <a href='#43'>43 - Functions and Methods Homework</a>
+  * <a href='#44'>44 - Functions and Methods Homework Hints and Tips</a>
+  * <a href='#45'>45 - Functions and Methods Homework Solutions</a>
   
-### Milestone Project 1
-  * <a href='#46'>Milestone Project 1 Session</a>
-  * <a href='#47'>Milestone Project 1 Assignment Overview</a>
-  * <a href='#48'>Milestone Project 1 Help</a>
-  * <a href='#49'>Milestone Project 1 Solution PT 1</a>
-  * <a href='#50'>Milestone Project 1 Solution PT 2</a>
-  * <a href='#51'>Milestone Project 1 Solution PT 3</a>
+### Section 7 - Milestone Project 1
+  * <a href='#46'>46 - Milestone Project 1 Session</a>
+  * <a href='#47'>47 - Milestone Project 1 Assignment Overview</a>
+  * <a href='#48'>48 - Milestone Project 1 Help</a>
+  * <a href='#49'>49 - Milestone Project 1 Solution PT 1</a>
+  * <a href='#50'>50 - Milestone Project 1 Solution PT 2</a>
+  * <a href='#51'>51 - Milestone Project 1 Solution PT 3</a>
+  * <a href='#52'>52 - Advanced Project Solution Overview</a>
 
-### Object Oriented Programming
-  * <a href='#52'>OOP PT1 - Objects</a>
-  * <a href='#53'>OOP PT2 - Classes</a>
-  * <a href='#54'>OOP PT3 - Methods</a>
-  * <a href='#55'>OOP PT4 - Inheritance</a>
-  * <a href='#56'>OOP PT5 - Special Methods</a>
-  * <a href='#57'>OOP - Homework Assignment</a>
-  * <a href='#58'>OOP - Homework Solution</a>
+### Section 8 - Object Oriented Programming
+  * <a href='#53'>53 - OOP PT1 - Objects</a>
+  * <a href='#54'>54 - OOP PT2 - Classes</a>
+  * <a href='#55'>55 - OOP PT3 - Methods</a>
+  * <a href='#56'>56 - OOP PT4 - Inheritance</a>
+  * <a href='#57'>57 - OOP PT5 - Special Methods</a>
+  * <a href='#58'>58 - OOP - Homework Assignment</a>
+  * <a href='#59'>59 - OOP - Homework Solution</a>
   
-### Errors And Exceptions Handling
-  * <a href='#59'>Errors and Exceptions</a>
-  * <a href='#60'>Exception Handling: Try, Except, Finally</a>
-  * <a href='#61'>Errors and Exceptions HO</a>
-  * <a href='#62'>Errors and Exceptions HO Solution</a>
+### Section 9 - Errors And Exceptions Handling
+  * <a href='#60'>60 - Errors and Exceptions</a>
+  * <a href='#61'>61 - Exception Handling: Try, Except, Finally</a>
+  * <a href='#62'>62 - Errors and Exceptions HO</a>
+  * <a href='#63'>63 - Errors and Exceptions HO Solution</a>
+  
+### Section 10 - Milestone Project 2
+
+### Section 11 - Modules and Packages
+
+### Section 12 - Built-in Functions
+
+### Section 13 - Python Decorators
+
+### Section 14 - Python Generators
+
+### Section 15 - Final Capstone Python Project
+
+### Section 16 - Advanced Python Modules
+
+### Section 17 - Advanced Python Objects and Data Structures
+
+### Section 18 - Introduction to GUIs
+
+### Section 19 - Bonus Special Offers
 
 Python Objects and Data Structure Basics
 ------
