@@ -182,6 +182,8 @@ Section 3 - Python Objects and Data Structure Basics
 
 [Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422056?start=0)
+
 ```python
 >>> 3/2
 1.5
@@ -216,9 +218,13 @@ Section 3 - Python Objects and Data Structure Basics
 
 ### <h3 id='14'>14 - Numbers Faq</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729814?start=0)
+
 ### <h3 id='15'>15 - Strings</h3> 
 
 [Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)
+
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)
 
 ```python
 >>> 'hello'
