@@ -6,12 +6,12 @@
 
 [on github](https://github.com/jmportilla/Complete-Python-Bootcamp)
 
-### Course Overview
-  * <a href='#1'>Course Introduction</a>
-  * <a href='#2'>Course Curriculum Overview</a>
-  * <a href='#3'>Python 2 vs Python 3</a>
-  * <a href='#4'>Have to Approach this Course</a>
-  * <a href='#5'>Course Faq</a>
+### Section 1 - Course Overview
+  * <a href='#1'>1 - Course Introduction</a>
+  * <a href='#2'>2 - Course Curriculum Overview</a>
+  * <a href='#3'>3 - Python 2 vs Python 3</a>
+  * <a href='#4'>4 - Have to Approach this Course</a>
+  * <a href='#5'>5 - Course Faq</a>
 
 ### Python Setup
   * <a href='#6'>Installation Notes</a>
