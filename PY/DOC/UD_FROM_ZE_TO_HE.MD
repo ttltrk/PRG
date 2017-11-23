@@ -88,25 +88,75 @@
   * <a href='#63'>63 - Errors and Exceptions HO Solution</a>
   
 ### Section 10 - Milestone Project 2
+  * <a href='#64'>64 - Project Overview</a>
+  * <a href='#65'>65 - Project 2 Solution</a>
 
 ### Section 11 - Modules and Packages
+  * <a href='#66'>66 - Modules, Packages and Imports</a>
+  * <a href='#67'>67 - Modules and Packages Assignment</a>
+  * <a href='#68'>68 - Create your own Python Modules</a>
 
 ### Section 12 - Built-in Functions
+  * <a href='#69'>69 - Python 3 Notes for Map, Reduce and Filter</a>
+  * <a href='#70'>70 - Map</a>
+  * <a href='#71'>71 - Reduce</a>
+  * <a href='#72'>72 - Filter</a>
+  * <a href='#73'>73 - Zip</a>
+  * <a href='#74'>74 - Enumerate</a>
+  * <a href='#75'>75 - all() and any()</a>
+  * <a href='#76'>76 - Complex</a>
+  * <a href='#77'>77 - Built-in Functions Assessment Test</a>
+  * <a href='#78'>78 - Built-in Functions Assessment Test Solution</a>
 
 ### Section 13 - Python Decorators
+  * <a href='#79'>79 - Decorators - Part 1</a>
+  * <a href='#80'>80 - Decorators - Part 2</a>
+  * <a href='#81'>81 - Decorators - Part 3</a>
+  * <a href='#82'>82 - Decorators Homework</a>
 
 ### Section 14 - Python Generators
-
+  * <a href='#83'>83 - Iteration vs Generation</a>
+  * <a href='#84'>84 - Creating Generators</a>
+  * <a href='#85'>85 - Iterators and Generators Homework</a>
+  * <a href='#86'>86 - Iterators and Generators Homework Solution</a>
+  
 ### Section 15 - Final Capstone Python Project
-
+  * <a href='#87'>87 - Final Capstone Python Project</a>
+  
 ### Section 16 - Advanced Python Modules
+  * <a href='#88'>88 - Collections Module - counter</a>
+  * <a href='#89'>89 - Collections Module - defaultdict</a>
+  * <a href='#90'>90 - Collections Module - OrderedDict</a>
+  * <a href='#91'>91 - Collections Module - namedtuple</a>
+  * <a href='#92'>92 - Datetime</a>
+  * <a href='#93'>93 - Python Debugger - pdb</a>
+  * <a href='#94'>94 - Timing your code - timeit</a>
+  * <a href='#95'>95 - Regular Expressions - re</a>
+  * <a href='#96'>96 - StringIO</a>
+  * <a href='#97'>97 - Advanced Python Modules FAQ</a>
 
 ### Section 17 - Advanced Python Objects and Data Structures
-
+  * <a href='#98'>98 - Advanced Numbers</a>
+  * <a href='#99'>99 - Advanced Strings</a>
+  * <a href='#100'>100 - Advanced Sets</a>
+  * <a href='#101'>101 - Advanced Dictionaries</a>
+  * <a href='#102'>102 - Advanced Lists</a>
+  * <a href='#103'>103 - Advanced Python Objects Assessment Test</a>
+  * <a href='#104'>104 - Advanced Python Objects Assessment Test Solutions</a>
+  
 ### Section 18 - Introduction to GUIs
+  * <a href='#105'>105 - Introduction to GUIs</a>
+  * <a href='#106'>106 - Quick note about ipywidgets</a>
+  * <a href='#107'>107 - Interact</a>
+  * <a href='#108'>108 - Widget Basics</a>
+  * <a href='#109'>109 - Widget Events</a>
+  * <a href='#110'>110 - Widget List</a>
+  * <a href='#111'>111 - Widget Styling</a>
+  * <a href='#112'>112 - Custom Widget Example</a>
 
 ### Section 19 - Bonus Special Offers
-
+  * <a href='#113'>113 - Bonus Offers</a>
+  
 Section 1 - Course Overview
 ------
 
