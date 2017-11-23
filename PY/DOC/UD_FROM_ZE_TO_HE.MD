@@ -112,62 +112,62 @@ Section 1 - Course Overview
 
 ### <h3 id='1'>1 - Course Introduction</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421822?start=0)
+[Course Introduction.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421822?start=0)
 
 ### <h3 id='2'>2 - Course Curriculum Overview</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421834?start=0)
+[Course Curriculum Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421834?start=0)
 
 ### <h3 id='3'>3 - Python 2 vs Python 3</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)
+[Python 2 vs Python 3.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)
 
 [key differences](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
 
 ### <h3 id='4'>4 - Have to Approach this Course</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3779296?start=0)
+[Have to Approach this Course.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3779296?start=0)
 
 ### <h3 id='5'>5 - Course Faq</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3789748?start=0)
+[Course Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3789748?start=0)
 
 Section 2 - Python Setup
 ------
 
 ### <h3 id='6'>6 - Installation Notes</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4492658?start=0)
+[Installation Notes.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4492658?start=0)
 
 ### <h3 id='7'>7 - Jupyter Notebook Installation</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)
+[Jupyter Notebook Installation.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)
 
 [jupyter](https://jupyter.org/)
 
 ### <h3 id='8'>8 - IDE Selection</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422020?start=0)
+[IDE Selection.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422020?start=0)
 
 ### <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)
+[Jupyther (iPython) Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)
 
 [jupyter User Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb)
 
 ### <h3 id='10'>10 - Faq - Notebooks</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)
+[Faq - Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)
 
 [jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
 
 ### <h3 id='11'>11 - Additional Resources</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422034?start=0)
+[Additional Resources.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422034?start=0)
 
 ### <h3 id='12'>12 - Git and Github Overview</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0)
+[Git and Github Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0)
 
 [Git Hello World](https://guides.github.com/activities/hello-world/)
 
@@ -182,7 +182,7 @@ Section 3 - Python Objects and Data Structure Basics
 
 [Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422056?start=0)
+[Numbers.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422056?start=0)
 
 ```python
 >>> 3/2
@@ -218,13 +218,13 @@ Section 3 - Python Objects and Data Structure Basics
 
 ### <h3 id='14'>14 - Numbers Faq</h3>
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729814?start=0)
+[Numbers Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729814?start=0)
 
 ### <h3 id='15'>15 - Strings</h3> 
 
 [Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)
 
-[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)
+[Strings.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)
 
 ```python
 >>> 'hello'
