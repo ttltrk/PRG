@@ -137,17 +137,43 @@ Section 2 - Python Setup
 
 ### <h3 id='6'>6 - Installation Notes</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4492658?start=0)
+
 ### <h3 id='7'>7 - Jupyter Notebook Installation</h3>
+
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)
+
+[jupyter](https://jupyter.org/)
 
 ### <h3 id='8'>8 - IDE Selection</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422020?start=0)
+
 ### <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
+
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)
+
+[jupyter User Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb)
 
 ### <h3 id='10'>10 - Faq - Notebooks</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)
+
+[jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+
 ### <h3 id='11'>11 - Additional Resources</h3>
 
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422034?start=0)
+
 ### <h3 id='12'>12 - Git and Github Overview</h3>
+
+[udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0)
+
+[Git Hello World](https://guides.github.com/activities/hello-world/)
+
+[GitHub Resources](https://help.github.com/articles/git-and-github-learning-resources/)
+
+[GitHub CodeSchool](https://try.github.io/levels/1/challenges/1)
 
 Section 3 - Python Objects and Data Structure Basics
 ------
