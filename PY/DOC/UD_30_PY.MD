@@ -17,7 +17,7 @@
 
 ### Day 4: Conditionals
   * <a href='#8'>Conditionals</a>
-  * <a href='#9'></a>
+  * <a href='#9'>Using Conditionals Expressions</a>
 
 ### Section 5
 
@@ -384,6 +384,60 @@ True
 True
 False
 True
+>>>
+```
+
+### <h3 id='9'>Using Conditionals Expressions</h3>
+
+```python
+list_a = [1,2,3,4]
+
+for nums in list_a:
+    print(nums)
+    
+>>>
+1
+2
+3
+4
+>>>
+```
+
+```python
+list_a = [1,2,3,4]
+
+for nums in list_a:
+    print(nums**2)
+    
+>>>
+1
+4
+9
+16
+>>>
+```
+
+isinstance()
+
+```python
+list_d = ["jean", 12, "joerg", 34]
+list_e = []
+
+for i in list_d:
+    if isinstance(i, int):
+        list_e.append(i)
+    
+print(list_e)
+
+>>>
+[12, 34]
+>>>
+```
+
+```python
+
+>>>
+
 >>>
 ```
 
