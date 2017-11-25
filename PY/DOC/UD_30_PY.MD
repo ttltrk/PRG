@@ -435,16 +435,36 @@ print(list_e)
 ```
 
 ```python
+list_d = ["jean", 12, "joerg", 34]
+list_e = []
+
+x = 0
+
+print(list_d[x])
+print(list_d[x+1])
 
 >>>
-
+jean
+12
 >>>
 ```
 
 ```python
+list_d = ["jean", 12, "joerg", 34]
+list_e = []
+
+for i in list_d:
+    if isinstance(i, int):
+        list_e.append(i)
+        list_d.pop(x)
+    x += 1
+    
+print(list_e)
+print(list_d)
 
 >>>
-
+[12, 34]
+['jean', 'joerg']
 >>>
 ```
 
