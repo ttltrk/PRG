@@ -169,9 +169,8 @@ Section 1 - Course Overview
 
 ### <h3 id='3'>3 - Python 2 vs Python 3</h3>
 
-[Python 2 vs Python 3.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)
-
-[key differences](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+[[Python 2 vs Python 3.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)] - 
+[[key differences](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)]
 
 ### <h3 id='4'>4 - Have to Approach this Course</h3>
 
@@ -190,9 +189,8 @@ Section 2 - Python Setup
 
 ### <h3 id='7'>7 - Jupyter Notebook Installation</h3>
 
-[Jupyter Notebook Installation.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)
-
-[jupyter](https://jupyter.org/)
+[[Jupyter Notebook Installation.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)] - 
+[[jupyter](https://jupyter.org/)]
 
 ### <h3 id='8'>8 - IDE Selection</h3>
 
@@ -200,15 +198,13 @@ Section 2 - Python Setup
 
 ### <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
 
-[Jupyther (iPython) Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)
-
-[jupyter User Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb)
+[[Jupyther (iPython) Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)] - 
+[[jupyter User Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb)]
 
 ### <h3 id='10'>10 - Faq - Notebooks</h3>
 
-[Faq - Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)
-
-[jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+[[Faq - Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)] - 
+[[jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
 
 ### <h3 id='11'>11 - Additional Resources</h3>
 
@@ -216,22 +212,18 @@ Section 2 - Python Setup
 
 ### <h3 id='12'>12 - Git and Github Overview</h3>
 
-[Git and Github Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0)
-
-[Git Hello World](https://guides.github.com/activities/hello-world/)
-
-[GitHub Resources](https://help.github.com/articles/git-and-github-learning-resources/)
-
-[GitHub CodeSchool](https://try.github.io/levels/1/challenges/1)
+[[Git and Github Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0)] - 
+[[Git Hello World](https://guides.github.com/activities/hello-world/)] - 
+[[GitHub Resources](https://help.github.com/articles/git-and-github-learning-resources/)] - 
+[[GitHub CodeSchool](https://try.github.io/levels/1/challenges/1)]
 
 Section 3 - Python Objects and Data Structure Basics
 ------
 
 ### <h3 id='13'>13 - Numbers</h3>
 
-[Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)
-
-[Numbers.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422056?start=0)
+[[Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)] - 
+[[Numbers.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422056?start=0)]
 
 ```python
 >>> 3/2
@@ -271,9 +263,8 @@ Section 3 - Python Objects and Data Structure Basics
 
 ### <h3 id='15'>15 - Strings</h3> 
 
-[Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)
-
-[Strings.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)
+[[Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)] - 
+[[Strings.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)]
 
 ```python
 >>> 'hello'
@@ -413,9 +404,8 @@ hello world
 
 ### <h3 id='17'>17 - Print Formatting</h3>
 
-[Print Formatting.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb)
-
-[Print Formatting.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3759600?start=0)
+[[Print Formatting.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb)] - 
+[[Print Formatting.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3759600?start=0)]
 
 ```python
 >>> print ("this is a string")
@@ -466,9 +456,8 @@ First inserted, Second inserted, Third szohi
 
 ### <h3 id='19'>19 - Lists</h3>
 
-[Lists.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)
-
-[Lists.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422060?start=0)
+[[Lists.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)] - 
+[[Lists.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422060?start=0)]
 
 ```python
 >>> my_list = [1, 2, 3]
@@ -579,9 +568,8 @@ IndexError: list index out of range
 
 ### <h3 id='21'>21 - Dictionaries</h3>
 
-[Dictionaries.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)
-
-[Dictionaries.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422062?start=0)
+[[Dictionaries.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)] - 
+[[Dictionaries.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422062?start=0)]
 
 ```python
 >>> my_dict = {"key1" : "value1", "key2" : "value2"}
@@ -693,9 +681,8 @@ dict_items([('k1', 1), ('k3', 3), ('k2', 2)])
 
 ### <h3 id='23'>23 - Tuples</h3>
 
-[Tuples.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)
-
-[Tuples.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422066?start=0)
+[[Tuples.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)] - 
+[[Tuples.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422066?start=0)]
 
 ```python
 >>> t = (1, 2, 3)
@@ -757,9 +744,8 @@ TypeError: 'tuple' object does not support item assignment
 
 ### <h3 id='24'>24 - Files</h3>
 
-[Files.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Files.ipynb)
-
-[Files.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422068?start=0)
+[[Files.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Files.ipynb)] - 
+[[Files.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422068?start=0)]
 
 ```python
 >>> f = open("test.txt")
@@ -796,9 +782,8 @@ Second line
 
 ### <h3 id='25'>25 - Sets and Booleans</h3>
 
-[Sets and Booleans.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)
-
-[Sets and Booleans.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512862?start=0)
+[[Sets and Booleans.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)] - 
+[[Sets and Booleans.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512862?start=0)]
 
 ```python
 >>> x = set()
@@ -854,27 +839,11 @@ True
 
 [Resources Form More Basic Practice.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4450394?start=0)
 
-```
-Basic Practice:
-
-http://codingbat.com/python
-
-More Mathematical (and Harder) Practice:
-
-https://projecteuler.net/archives
-
-List of Practice Problems:
-
-http://www.codeabbey.com/index/task_list
-
-A SubReddit Devoted to Daily Practice Problems:
-
-https://www.reddit.com/r/dailyprogrammer
-
-A very tricky website with very few hints and touch problems (Not for beginners but still interesting)
-
-http://www.pythonchallenge.com/
-```
+[[Basic Practice](http://codingbat.com/python)] - 
+[[More Mathematical (and Harder) Practice](https://projecteuler.net/archives)] - 
+[[List of Practice Problem](http://www.codeabbey.com/index/task_list)] - 
+[[A SubReddit Devoted to Daily Practice Problems](https://www.reddit.com/r/dailyprogrammer)] - 
+[[A very tricky website with very few hints and touch problems (Not for beginners but still interesting)](http://www.pythonchallenge.com/)]
 
 ### <h3 id="27">27 - Objects and Data Structures Assessment Test</h3>
 
