@@ -576,7 +576,7 @@ IndexError: list index out of range
 
 ### <h3 id='20'>20 - Lists Faq</h3>
 
-[Lists Faq](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729818?start=0)
+[Lists Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729818?start=0)
 
 ### <h3 id='21'>21 - Dictionaries</h3>
 
@@ -688,9 +688,15 @@ dict_items([('k1', 1), ('k3', 3), ('k2', 2)])
 >>> 
 ```
 
-### <h3 id='23'>Tuples</h3>
+### <h3 id='22'>22 - Dictionaries FAQ</h3>
+
+[Dictionaries FAQ.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729816?start=0)
+
+### <h3 id='23'>23 - Tuples</h3>
 
 [Tuples.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)
+
+[Tuples.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422066?start=0)
 
 ```python
 >>> t = (1, 2, 3)
@@ -750,9 +756,11 @@ TypeError: 'tuple' object does not support item assignment
 >>> 
 ```
 
-### <h3 id='23'>Files</h3>
+### <h3 id='24'>24 - Files</h3>
 
 [Files.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Files.ipynb)
+
+[Files.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422068?start=0)
 
 ```python
 >>> f = open("test.txt")
@@ -787,9 +795,11 @@ Second line
 >>> 
 ```
 
-### <h3 id='25'>Sets and Booleans</h3>
+### <h3 id='25'>25 - Sets and Booleans</h3>
 
 [Sets and Booleans.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)
+
+[Sets and Booleans.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512862?start=0)
 
 ```python
 >>> x = set()
@@ -841,7 +851,9 @@ True
 >>> 
 ```
 
-### <h3 id='26'>Resources Form More Basic Practice</h3>
+### <h3 id='26'>26 - Resources Form More Basic Practice</h3>
+
+[Resources Form More Basic Practice.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4450394?start=0)
 
 ```
 Basic Practice:
@@ -864,6 +876,14 @@ A very tricky website with very few hints and touch problems (Not for beginners 
 
 http://www.pythonchallenge.com/
 ```
+
+### <h3 id="27">27 - Objects and Data Structures Assessment Test</h3>
+
+[Objects and Data Structures Assessment Test.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422070?start=0)
+
+### <h3 id="28">28 - Objects and Data Structures Assessment Test Solutions</h3>
+
+[Objects and Data Structures Assessment Test Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547934?start=0)
 
 Python Comparison Operators
 ------
