@@ -2,22 +2,22 @@
 [30 Days of Python](https://www.udemy.com/30-days-of-python/learn/v4/content)
 ======
 
-### Welcome
-  * <a href='#1'>Welcome</a>
-  * <a href='#2'>Getting help</a>
-  * <a href='#3'>Youtube and Suggestions</a>
+### Section 1 - Welcome
+  * <a href='#1'>1 - Welcome</a>
+  * <a href='#2'>2 - Getting help</a>
+  * <a href='#3'>3 - Youtube and Suggestions</a>
 
-### Days 1: Basics
-  * <a href='#4'>Setup, String, Variables and Integers</a>
+### Section 2 - Days 1: Basics
+  * <a href='#4'>4 - Setup, String, Variables and Integers</a>
 
-### Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
-  * <a href='#5'>Lists</a>
-  * <a href='#6'>Dictionaries and Tuples</a>
-  * <a href='#7'>Loops: For Loops and While Loops</a>
+### Section 3 - Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
+  * <a href='#5'>5 - Lists</a>
+  * <a href='#6'>6 - Dictionaries and Tuples</a>
+  * <a href='#7'>7 - Loops: For Loops and While Loops</a>
 
-### Day 4: Conditionals
-  * <a href='#8'>Conditionals</a>
-  * <a href='#9'>Using Conditionals Expressions</a>
+### Section 4 - Day 4: Conditionals
+  * <a href='#8'>8 - Conditionals</a>
+  * <a href='#9'>9 - Using Conditionals Expressions</a>
 
 ### Section 5
 
@@ -44,16 +44,16 @@
 Welcome
 ------
 
-#### <h4 id='1'>Welcome</h4>
+### <h3 id='1'>1 - Welcome</h3>
 
-#### <h4 id='2'>Getting help</h4>
+### <h3 id='2'>2 - Getting help</h3>
 
-#### <h4 id='3'>Youtube and Suggestions</h4>
+### <h3 id='3'>3 - Youtube and Suggestions</h3>
 
 Days 1: Basics
 ------
 
-#### <h4 id='4'>Setup, String, Variables and Integers</h4>
+### <h3 id='4'>4 - Setup, String, Variables and Integers</h3>
 
 STRINGS
 
@@ -111,7 +111,7 @@ print(b)
 Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
 ------
 
-#### <h4 id='5'>Lists</h4>
+### <h3 id='5'>5 - Lists</h3>
 
 ```python
 l = ['some string', 123, 'another string']
@@ -170,7 +170,7 @@ James
 >>>
 ```
 
-#### <h4 id='6'>Dictionaries and Tuples</h4>
+### <h3 id='6'>6 - Dictionaries and Tuples</h3>
 
 Dictionaries
 
@@ -244,7 +244,7 @@ yetanother
 >>>
 ```
 
-#### <h4 id='7'>Loops: For Loops and While Loops</h4>
+### <h3 id='7'>7 - Loops: For Loops and While Loops</h3>
 
 FOR LOOP
 
@@ -328,7 +328,7 @@ while i < 11:
 >>>
 ```
 
-#### <h4 id='8'>Conditionals</h4>
+### <h3 id='8'>8 - Conditionals</h3>
 
 ```python
 True
@@ -387,7 +387,7 @@ True
 >>>
 ```
 
-### <h3 id='9'>Using Conditionals Expressions</h3>
+### <h3 id='9'>9 - Using Conditionals Expressions</h3>
 
 ```python
 list_a = [1,2,3,4]
