@@ -888,9 +888,11 @@ http://www.pythonchallenge.com/
 Python Comparison Operators
 ------
 
-### <h3 id='29'>Comparison Operators</h3>
+### <h3 id='29'>29 - Comparison Operators</h3>
 
 [Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)
+
+[Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512348?start=0)
 
 ```python
 >>> 2 == 2
@@ -940,9 +942,11 @@ True
 >>> 
 ```
 
-### <h3 id='30'>Chained Comparison Operators</h3>
+### <h3 id='30'>30 - Chained Comparison Operators</h3>
 
 [Chained Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)
+
+[Chained Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3620216?start=0)
 
 ```python
 >>> 1 < 2
@@ -973,9 +977,15 @@ True
 Python Statements
 ------
 
-### <h3 id='32'>IF, ELIF and ELSE Statements</h3>
+### <h3 id="31">31 - Introduction to Python Statements</h3>
 
-[If, elif, and else Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)
+[Introduction to Python Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3767812?start=0)
+
+### <h3 id='32'>32 - if, elif and else Statements</h3>
+
+[if, elif, and else Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)
+
+[if, elif, and else Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512298?start=0)
 
 ```python	
 >>> if True:
@@ -1050,9 +1060,11 @@ Welcome to the Mall!
 >>> 
 ```
 
-### <h3 id='33'>FOR Loops</h3>
+### <h3 id='33'>33 - for Loops</h3>
 
-[For Loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/For%20Loops.ipynb)
+[for Loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/For%20Loops.ipynb)
+
+[for Loops.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512314?start=0)
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -1295,9 +1307,11 @@ k3
 >>> 
 ```
 
-### <h3 id='34'>WHILE Loops</h3>
+### <h3 id='34'>34 - while Loops</h3>
 
-[While loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
+[while loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
+
+[while loops.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512318?start=0)
 
 ```python
 x = 0
@@ -1431,9 +1445,11 @@ Hey x equals 3!
 >>>
 ```
 
-### <h3 id="35">RANGE()</h3> 
+### <h3 id="35">35 - range()</h3> 
 
-[link](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Range%28%29.ipynb)
+[range().ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Range%28%29.ipynb)
+
+[range().ipynb](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547574?start=0)
 
 ```python
 >>> x = range(1,5)
@@ -1500,9 +1516,11 @@ for num in range(1,11):
 >>> 
 ```
 
-### <h3 id="36">LIST COMPREHENSIONS</h3>
+### <h3 id="36">36 - List Comprehensions</h3>
 
-[link](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb)
+[List Comprehensions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb)
+
+[List Comprehensions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3632380?start=0)
 
 ```python
 l = []
@@ -1597,9 +1615,17 @@ print (lst)
 >>> 
 ```
 
-### <h3 id="38">STATEMENT ASSESSMENT SOLUTIONS</h3>
+### <h3 id="37">37 - Statement Assessment Test</h3>
+
+[Statement Assessment Test.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Statements%20Assessment%20Test.ipynb)
+
+[Statement Assessment Test.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512326?start=0)
+
+### <h3 id="38">38 - Statement Assessment Solutions</h3>
 
 [Statements Assessment Test - Solutions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Statements%20Assessment%20Test%20-%20Solutions.ipynb)
+
+[Statement Assessment Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547946?start=0)
 
 ```python
 st = 'Print only the words that start with s in this sentence'
@@ -1707,9 +1733,14 @@ Buzz
 >>> 
 ```
 
-### <h3 id="39">METHODS</h3>
+Methods and Functions
+------
+
+### <h3 id="39">39 - Methods</h3>
 
 [Methods.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Methods.ipynb)
+
+[Methods.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512208?start=0)
 
 ```python
 >>> l = [1,2,3,4,5]
