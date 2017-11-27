@@ -979,6 +979,8 @@ Python Statements
 
 ### <h3 id="31">31 - Introduction to Python Statements</h3>
 
+[Introduction to Python Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Introduction%20to%20Python%20Statements.ipynb)
+
 [Introduction to Python Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3767812?start=0)
 
 ### <h3 id='32'>32 - if, elif and else Statements</h3>
