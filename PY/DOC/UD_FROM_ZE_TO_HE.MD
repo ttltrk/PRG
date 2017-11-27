@@ -46,10 +46,10 @@
  
 ### Section 5 - Python Statements
   * <a href='#31'>31 - Introduction to Python Statements</a>
-  * <a href='#32'>32 - IF, ELIF and ELSE Statements</a>
-  * <a href='#33'>33 - FOR Loops</a>
-  * <a href='#34'>34 - WHILE Loops</a>
-  * <a href='#35'>35 - RANGE()</a>
+  * <a href='#32'>32 - if, elif and else Statements</a>
+  * <a href='#33'>33 - for Loops</a>
+  * <a href='#34'>34 - while Loops</a>
+  * <a href='#35'>35 - range()</a>
   * <a href='#36'>36 - List Comprehensions</a>
   * <a href='#37'>37 - Statements Assessments Test</a>
   * <a href='#38'>38 - Statements Assessments Solutions</a>
