@@ -169,7 +169,8 @@ Section 1 - Course Overview
 
 ### <h3 id='3'>3 - Python 2 vs Python 3</h3>
 
-[[Python 2 vs Python 3.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)] - 
+[[Python 2 vs Python 3.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)]
+
 [[key differences](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)]
 
 ### <h3 id='4'>4 - Have to Approach this Course</h3>
@@ -189,7 +190,8 @@ Section 2 - Python Setup
 
 ### <h3 id='7'>7 - Jupyter Notebook Installation</h3>
 
-[[Jupyter Notebook Installation.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)] - 
+[[Jupyter Notebook Installation.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)]
+
 [[jupyter](https://jupyter.org/)]
 
 ### <h3 id='8'>8 - IDE Selection</h3>
@@ -198,12 +200,14 @@ Section 2 - Python Setup
 
 ### <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
 
-[[Jupyther (iPython) Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)] - 
+[[Jupyther (iPython) Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)]
+
 [[jupyter User Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb)]
 
 ### <h3 id='10'>10 - Faq - Notebooks</h3>
 
-[[Faq - Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)] - 
+[[Faq - Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)]
+
 [[jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
 
 ### <h3 id='11'>11 - Additional Resources</h3>
@@ -262,7 +266,7 @@ Section 3 - Python Objects and Data Structure Basics
 
 ### <h3 id='14'>14 - Numbers Faq</h3>
 
-[Numbers Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729814?start=0)
+[[Numbers Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729814?start=0)]
 
 ### <h3 id='15'>15 - Strings</h3> 
 
@@ -403,7 +407,7 @@ hello world
 
 ### <h3 id='16'>16 - Strings Faq</h3>
 
-[Strings Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729810?start=0)
+[[Strings Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729810?start=0)]
 
 ### <h3 id='17'>17 - Print Formatting</h3>
 
@@ -455,7 +459,7 @@ First inserted, Second inserted, Third szohi
 
 ### <h3 id='18'>18 - Print Formatting Faq</h3>
 
-[Print Formatting Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3810438?start=0)
+[[Print Formatting Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3810438?start=0)]
 
 ### <h3 id='19'>19 - Lists</h3>
 
@@ -567,7 +571,7 @@ IndexError: list index out of range
 
 ### <h3 id='20'>20 - Lists Faq</h3>
 
-[Lists Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729818?start=0)
+[[Lists Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729818?start=0)]
 
 ### <h3 id='21'>21 - Dictionaries</h3>
 
@@ -680,7 +684,7 @@ dict_items([('k1', 1), ('k3', 3), ('k2', 2)])
 
 ### <h3 id='22'>22 - Dictionaries FAQ</h3>
 
-[Dictionaries FAQ.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729816?start=0)
+[[Dictionaries FAQ.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729816?start=0)]
 
 ### <h3 id='23'>23 - Tuples</h3>
 
@@ -840,30 +844,33 @@ True
 
 ### <h3 id='26'>26 - Resources Form More Basic Practice</h3>
 
-[Resources Form More Basic Practice.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4450394?start=0)
+[[Resources Form More Basic Practice.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4450394?start=0)]
 
 [[Basic Practice](http://codingbat.com/python)] - 
+
 [[More Mathematical (and Harder) Practice](https://projecteuler.net/archives)] - 
+
 [[List of Practice Problem](http://www.codeabbey.com/index/task_list)] - 
+
 [[A SubReddit Devoted to Daily Practice Problems](https://www.reddit.com/r/dailyprogrammer)] - 
+
 [[A very tricky website with very few hints and touch problems (Not for beginners but still interesting)](http://www.pythonchallenge.com/)]
 
 ### <h3 id="27">27 - Objects and Data Structures Assessment Test</h3>
 
-[Objects and Data Structures Assessment Test.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422070?start=0)
+[[Objects and Data Structures Assessment Test.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422070?start=0)]
 
 ### <h3 id="28">28 - Objects and Data Structures Assessment Test Solutions</h3>
 
-[Objects and Data Structures Assessment Test Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547934?start=0)
+[[Objects and Data Structures Assessment Test Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547934?start=0)]
 
 Python Comparison Operators
 ------
 
 ### <h3 id='29'>29 - Comparison Operators</h3>
 
-[Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)
-
-[Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512348?start=0)
+[[Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)] - 
+[[Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512348?start=0)]
 
 ```python
 >>> 2 == 2
@@ -915,9 +922,8 @@ True
 
 ### <h3 id='30'>30 - Chained Comparison Operators</h3>
 
-[Chained Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)
-
-[Chained Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3620216?start=0)
+[[Chained Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)] - 
+[[Chained Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3620216?start=0)]
 
 ```python
 >>> 1 < 2
@@ -950,15 +956,13 @@ Python Statements
 
 ### <h3 id="31">31 - Introduction to Python Statements</h3>
 
-[Introduction to Python Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Introduction%20to%20Python%20Statements.ipynb)
-
-[Introduction to Python Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3767812?start=0)
+[[Introduction to Python Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Introduction%20to%20Python%20Statements.ipynb)] - 
+[[Introduction to Python Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3767812?start=0)]
 
 ### <h3 id='32'>32 - if, elif and else Statements</h3>
 
-[if, elif, and else Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)
-
-[if, elif, and else Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512298?start=0)
+[[if, elif, and else Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)] -
+[[if, elif, and else Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512298?start=0)]
 
 ```python	
 >>> if True:
