@@ -19,7 +19,9 @@
   * <a href='#8'>8 - Conditionals</a>
   * <a href='#9'>9 - Using Conditionals Expressions</a>
 
-### Section 5
+### Section 5 - Day 5: Functions
+  * <a href='#10'>10 - Functions P1</a>
+  * <a href='#11'>11 - Functions P2</a>
 
 ### Section 6
 
@@ -465,6 +467,31 @@ print(list_d)
 >>>
 [12, 34]
 ['jean', 'joerg']
+>>>
+```
+
+### <h3 id='10'>10 - Functions P1</h3>
+
+[[Functions P1.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872380?start=0)]
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
 >>>
 ```
 
