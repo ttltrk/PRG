@@ -2193,15 +2193,14 @@ Value of x (outside of func()) is:  2
 >>>
 ```
 
-049. MILESTONE PROJECT 1 SOLUTION PT 1
+<h3 id='49'>49 - MILESTONE PROJECT 1 SOLUTION PT 1</h3>
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Walkthrough%20Steps%20Workbook.ipynb
+[MILESTONE PROJECT 1 SOLUTION PT 1.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Walkthrough%20Steps%20Workbook.ipynb)
 
-----------------------------------
+Step 1 (1)
 
-#049.1.
-
-#STEP 1 - Write a function that can print out a board.
+```python
+#Write a function that can print out a board.
 
 def display_board(board):
 
@@ -2216,12 +2215,12 @@ print(display_board([]))
 --|--|--
   |  |
 >>>
+```
 
-----------------------------------
+Step 1 (2)
 
-#049.2.
-
-#STEP 1 - Write a function that can print out a board.
+```python
+#Write a function that can print out a board.
 
 def display_board(board):
 
@@ -2253,12 +2252,12 @@ print(display_board(board))
  X | X | X
    |   |
 >>>
+```
 
-----------------------------------
+Step 1 (3)
 
-#049.3.
-
-#STEP 1 - Write a function that can print out a board.
+```python
+#Write a function that can print out a board.
 
 def display_board(board):
 
@@ -2290,12 +2289,12 @@ print(display_board(board))
  O | X | O
    |   |
 >>>
+```
 
-----------------------------------
+Step 1 (4)
 
-#49.4.
-
-#STEP 1 - Write a function that can print out a board.
+```python
+#Write a function that can print out a board.
 
 def display_board(board):
 
@@ -2390,12 +2389,11 @@ print(display_board(board))
     |   |   |   |   |   |   |   |   |   |   |
     -----------------------------------------
 >>> 
+```
+Step 2 (1)
 
-----------------------------------
-
-#49.5.
-
-#STEP 2 - Write a function that can take in a player input and assign their marker as "X" or "O".
+```python
+#Write a function that can take in a player input and assign their marker as "X" or "O".
 
 def player_input():
 
@@ -2415,12 +2413,12 @@ Player 1 do you want to be X or O?
  O
 ('O', 'X')
 >>>
+```
 
-----------------------------------
+Step 2 (2)
 
-#49.6.
-
-#STEP 2 - Write a function that can take in a player input and assign their marker as "X" or "O".
+```python
+#Write a function that can take in a player input and assign their marker as "X" or "O".
 
 def player_input():
 
@@ -2440,12 +2438,12 @@ Player 1 do you want to be X or O?
  X
 ('X', 'O')
 >>>
+```
 
-----------------------------------
+Step 2 (3)
 
-#49.7.
-
-#STEP 2 - Write a function that can take in a player input and assign their marker as "X" or "O".
+```python
+#Write a function that can take in a player input and assign their marker as "X" or "O".
 
 def player_input():
 
@@ -2469,11 +2467,11 @@ Player 1 do you want to be X or O?
  o
 ('O', 'X')
 >>>
+```
 
-----------------------------------
+Step 3 (1)
 
-#49.8.
-
+```python
 """
 STEP 3 - Write a function that takes, in the board list object, a marker ("X", "O"), and
 a desired position (number 1-9) and assigns it to the board.
@@ -2485,11 +2483,11 @@ def place_marker(board, marker, position):
 >>>
 None
 >>>
+```
 
-----------------------------------
+Step 4 (1)
 
-#49.9.
-
+```python
 """
 STEP 4 - Write a function that takes, in a board and a mark (X or O) and then checks to see if that mark
 has won.
@@ -2509,14 +2507,7 @@ def win_check(board, mark):
 >>>
 None
 >>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 050. MILESTONE PROJECT 1 SOLUTION PT 2
 
