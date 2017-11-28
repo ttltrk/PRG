@@ -48,14 +48,22 @@ Welcome
 
 ### <h3 id='1'>1 - Welcome</h3>
 
+[[Welcome.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800476?start=0)]
+
 ### <h3 id='2'>2 - Getting help</h3>
 
+[[Getting help.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800738?start=0)]
+
 ### <h3 id='3'>3 - Youtube and Suggestions</h3>
+
+[[Youtube and Suggestions.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800742?start=0)]
 
 Days 1: Basics
 ------
 
 ### <h3 id='4'>4 - Setup, String, Variables and Integers</h3>
+
+[[Setup, String, Variables and Integers.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800734?start=0)]
 
 STRINGS
 
@@ -115,6 +123,8 @@ Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
 
 ### <h3 id='5'>5 - Lists</h3>
 
+[[Lists.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872358?start=0)]
+
 ```python
 l = ['some string', 123, 'another string']
 print(l)
@@ -173,6 +183,8 @@ James
 ```
 
 ### <h3 id='6'>6 - Dictionaries and Tuples</h3>
+
+[[Dictionaries and Tuples.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872366?start=0)]
 
 Dictionaries
 
@@ -247,6 +259,8 @@ yetanother
 ```
 
 ### <h3 id='7'>7 - Loops: For Loops and While Loops</h3>
+
+[[Loops: For Loops and While Loops.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872370?start=0)]
 
 FOR LOOP
 
@@ -332,6 +346,8 @@ while i < 11:
 
 ### <h3 id='8'>8 - Conditionals</h3>
 
+[[Conditionals.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872374?start=0)]
+
 ```python
 True
 
@@ -390,6 +406,8 @@ True
 ```
 
 ### <h3 id='9'>9 - Using Conditionals Expressions</h3>
+
+[[Using Conditionals Expressions.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872376?start=0)]
 
 ```python
 list_a = [1,2,3,4]
