@@ -2006,8 +2006,7 @@ filter()
 reduce()
 ```
 
-[pythonconquerstheuniverse](https://pythonconquerstheuniverse.wordpress.com/)
-
+[[pythonconquerstheuniverse](https://pythonconquerstheuniverse.wordpress.com/)]
 
 ```python
 len_check = lambda item: len(item)
@@ -2193,9 +2192,40 @@ Value of x (outside of func()) is:  2
 >>>
 ```
 
-<h3 id='49'>49 - MILESTONE PROJECT 1 SOLUTION PT 1</h3>
+### <h3 id='43'>43 - Functions and Methods Homework</a>
 
-[MILESTONE PROJECT 1 SOLUTION PT 1.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Walkthrough%20Steps%20Workbook.ipynb)
+[[Functions and Methods Homework.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions%20and%20Methods%20Homework.ipynb)] -
+[[Functions and Methods Homework.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512240?start=0)]
+
+### <h3 id='44'>44 - Functions and Methods Homework Hints and Tips</a>
+
+[[Functions and Methods Homework Hints and Tips.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4411912?start=0)]
+
+### <h3 id='45'>45 - Functions and Methods Homework Solutions</a>
+
+[[Functions and Methods Homework Solutions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions%20and%20Methods%20Homework%20-%20Solutions.ipynb)] -
+[[Functions and Methods Homework Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547938?start=0)]
+  
+Section 7 - Milestone Project 1
+------
+
+### <h3 id='46'>46 - Milestone Project 1 Session</a>
+
+[[Milestone Project 1 Session.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4481550?start=0)]
+
+### <h3 id='47'>47 - Milestone Project 1 Assignment Overview</a>
+
+[[Milestone Project 1 Assignment Overview.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Assignment.ipynb)] -
+[[Milestone Project 1 Assignment Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4487484?start=0)]
+
+### <h3 id='48'>48 - Milestone Project 1 Help</a>
+
+[[Milestone Project 1 Help.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4249558?start=0)]
+
+### <h3 id='49'>49 - Milestone Project 1 Solution PT 1</h3>
+
+[[Milestone Project 1 Solution PT 1.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Walkthrough%20Steps%20Workbook.ipynb)] - 
+[[Milestone Project 1 Solution PT 1.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4487490?start=0)]
 
 Step 1 (1)
 
