@@ -474,10 +474,16 @@ print(list_d)
 
 [[Functions P1.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872380?start=0)]
 
+```sort()```
+
 ```python
+str_items = ["phd", "abc", "nba", "BBB", "ABB", "AAA"]
+str_items.sort()
+
+print(str_items)
 
 >>>
-
+['AAA', 'ABB', 'BBB', 'abc', 'nba', 'phd']
 >>>
 ```
 
