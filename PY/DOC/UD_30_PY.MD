@@ -506,11 +506,91 @@ print(str_items)
 ```
 
 ```python
+int_items = [123, 456, 999, 10]
+int_items.sort()
+print(int_items)
 
 >>>
-
+[10, 123, 456, 999]
 >>>
 ```
+
+Reverse ```sort()```
+
+```python
+int_items = [123, 456, 999, 10]
+int_items.sort(reverse=True)
+print(int_items)
+
+>>>
+[999, 456, 123, 10]
+>>>
+```
+
+```sorted()```
+
+```python
+int_items = [123, 456, 999, 10]
+int_items.sort(reverse=True)
+new_items = sorted(int_items, reverse=False)
+print(new_items)
+
+>>>
+[10, 123, 456, 999]
+>>>
+```
+
+```sorted()```
+
+```python
+int_items = [123, 456, 999, 10]
+int_items.sort(reverse=True)
+new_items = sorted(int_items, reverse=True)
+print(new_items)
+
+>>>
+[999, 456, 123, 10]
+>>>
+```
+
+```sum()```
+
+```python
+int_items = [123, 456, 999, 10]
+print(sum(int_items))
+
+>>>
+1588
+>>>
+```
+
+```len()```
+
+```python
+int_items = [123, 456, 999, 10]
+print(len(int_items))
+
+>>>
+4
+>>>
+```
+
+average
+
+```python
+int_items = [123, 456, 999, 10]
+total = sum(int_items)
+average = total/len(int_items)
+print(average)
+
+>>>
+397.0
+>>>
+```
+
+### <h3 id='11'>11 - </h3> 
+
+[[]()]
 
 ```python
 
