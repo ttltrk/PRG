@@ -43,7 +43,7 @@
 
 ### Section 15
 
-Welcome
+Section 1 - Welcome
 ------
 
 ### <h3 id='1'>1 - Welcome</h3>
@@ -58,7 +58,7 @@ Welcome
 
 [[Youtube and Suggestions.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800742?start=0)]
 
-Days 1: Basics
+Section 2 - Days 1: Basics
 ------
 
 ### <h3 id='4'>4 - Setup, String, Variables and Integers</h3>
@@ -118,7 +118,7 @@ print(b)
 >>>
 ```
 
-Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
+Section 3 - Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
 ------
 
 ### <h3 id='5'>5 - Lists</h3>
@@ -344,6 +344,9 @@ while i < 11:
 >>>
 ```
 
+Section 4 - Day 4: Conditionals
+------
+
 ### <h3 id='8'>8 - Conditionals</h3>
 
 [[Conditionals.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872374?start=0)]
@@ -488,6 +491,9 @@ print(list_d)
 >>>
 ```
 
+Section 5 - Day 5: Functions
+------
+
 ### <h3 id='10'>10 - Functions P1</h3>
 
 [[Functions P1.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872380?start=0)]
@@ -588,7 +594,7 @@ print(average)
 >>>
 ```
 
-### <h3 id='11'>11 - </h3> 
+### <h3 id='11'>11 - Functions P2</h3> 
 
 [[]()]
 
