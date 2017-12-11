@@ -2,24 +2,24 @@
 Own Python Manual
 ======
 
-### Objects and Data Structure Basics
-  * <a href="#1">Numbers</a>
-  * <a href="#2">Strings</a>
-  * <a href="#3">Lists</a>
-  * <a href="#4">Dictionaries</a>
-  * <a href="#5">Tuples</a>
-  * <a href="#6">Sets</a>
+### Section 1 - Objects and Data Structure Basics
+  * <a href="#1">1 - Numbers</a>
+  * <a href="#2">2 - Strings</a>
+  * <a href="#3">3 - Lists</a>
+  * <a href="#4">4 - Dictionaries</a>
+  * <a href="#5">5 - Tuples</a>
+  * <a href="#6">6 - Sets</a>
   
-Objects and Data Structure Basics
+Section 1 - Objects and Data Structure Basics
 ------
 
-### <h3 id='1'>Numbers</h3>
+### <h3 id='1'>1 - Numbers</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#numbers)]
 * [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators)]
 
-### <h3 id='2'>Strings</h3>
+### <h3 id='2'>2 - Strings</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#strings)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)]
@@ -29,21 +29,21 @@ Objects and Data Structure Basics
 * [[digitalocean pt4](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
 
-### <h3 id='3'>Lists</h3>
+### <h3 id='3'>3 - Lists</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#lists)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/lists.html)]
 
-### <h3 id='4'>Dictionaries</h3>
+### <h3 id='4'>4 - Dictionaries</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)]
 
-### <h3 id='5'>Tuples</h3>
+### <h3 id='5'>5 - Tuples</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
@@ -57,7 +57,7 @@ In Python tuples are very similar to lists, however, unlike lists they are immut
 A tuple is a data structure that is an immutable, or unchangeable, ordered sequence of elements. Because tuples are immutable, their values cannot be modified.
 Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
 
-### <h3 id='6'>Sets</h3>
+### <h3 id='6'>6 - Sets</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#sets)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)]
