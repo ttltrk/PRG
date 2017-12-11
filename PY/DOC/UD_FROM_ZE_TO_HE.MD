@@ -273,6 +273,8 @@ Section 3 - Python Objects and Data Structure Basics
 [[Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)] - 
 [[Strings.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)]
 
+[[Usefull link - digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3)]
+
 ```python
 >>> 'hello'
 'hello'
