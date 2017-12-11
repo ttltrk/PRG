@@ -29,6 +29,119 @@ Section 1 - Objects and Data Structure Basics
 * [[digitalocean pt4](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
 
+```python
+ss = "Sammy Shark!"
+
+print(ss[0])
+print(ss[1])
+print(ss[2])
+print(ss[3])
+print(ss[4])
+print(ss[5])
+print(ss[6])
+print(ss[7])
+print(ss[8])
+print(ss[9])
+print(ss[10])
+print(ss[11])
+print(ss[12])
+
+>>>
+S
+a
+m
+m
+y
+ 
+S
+h
+a
+r
+k
+!
+>>>
+```
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[-1])
+print(ss[-2])
+print(ss[-3])
+print(ss[-4])
+print(ss[-5])
+print(ss[-6])
+print(ss[-7])
+print(ss[-8])
+print(ss[-9])
+print(ss[-10])
+print(ss[-11])
+print(ss[-12])
+
+>>>
+!
+k
+r
+a
+h
+S
+ 
+y
+m
+m
+a
+S
+>>>
+```
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[:5])
+print(ss[6:11])
+print(ss[7:])
+
+>>>
+Sammy
+Shark
+hark!
+>>>
+```
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[0:12:1])
+print(ss[0:12:2])
+print(ss[0:12:3])
+print(ss[::1])
+print(ss[::2])
+print(ss[::3])
+
+>>>
+Sammy Shark!
+SmySak
+SmSr
+Sammy Shark!
+SmySak
+SmSr
+>>>
+```
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[::-1])
+print(ss[::-2])
+print(ss[::-3])
+
+>>>
+!krahS ymmaS
+!rh ma
+!a m
+>>>
+```
+
 ### <h3 id='3'>3 - Lists</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#lists)]
