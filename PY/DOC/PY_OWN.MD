@@ -42,5 +42,11 @@ Objects and Data Structure Basics
 
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-tuples-in-python-3)]
-* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)}
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)]
 
+In Python, tuples are part of the standard language. This is a data structure very similar to the list data structure. The main difference being that tuple manipulation are faster than list because tuples are immutable.
+
+In Python tuples are very similar to lists, however, unlike lists they are immutable meaning they can not be changed. You would use tuples to present things that shouldn't be changed, such as days of the week, or dates on a calendar.
+
+A tuple is a data structure that is an immutable, or unchangeable, ordered sequence of elements. Because tuples are immutable, their values cannot be modified.
+Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
