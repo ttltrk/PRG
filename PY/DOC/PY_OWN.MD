@@ -27,15 +27,15 @@ float = (e.g. 5.0, 1.6)
 
 |Operation|	What it returns|
 |---------|----------------|
-|x + y	|Sum of x and y |
-|x - y	|Difference of x and y|
-|-x	|Changed sign of x|
-|+x	|Identity of x|
-|x * y	|Product of x and y|
-|x / y	|Quotient of x and y|
-|x // y	|Quotient from floor division of x and y|
-|x % y	|Remainder of x / y|
-|x ** y	|x to the y power|
+|x + y	|Sum of x and y | 1 + 1 = 2 |
+|x - y	|Difference of x and y| 2 - 1 = 1 |
+|-x	|Changed sign of x| -5|
+|+x	|Identity of x| +5|
+|x * y	|Product of x and y| 3 * 3 = 9|
+|x / y	|Quotient of x and y| 9 / 3 = 3|
+|x // y	|Quotient from floor division of x and y| 9 // 3 = |
+|x % y	|Remainder of x / y| 16 % 5 = 1|
+|x ** y	|x to the y power| 2 ** 2 = 8 |
 
 ### <h3 id='2'>2 - Strings</h3>
 
