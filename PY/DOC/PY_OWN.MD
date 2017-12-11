@@ -57,6 +57,12 @@ In Python tuples are very similar to lists, however, unlike lists they are immut
 A tuple is a data structure that is an immutable, or unchangeable, ordered sequence of elements. Because tuples are immutable, their values cannot be modified.
 Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
 
+Basic form
+
+```python
+t = (1,2,3)
+```
+
 ### <h3 id='6'>6 - Sets</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#sets)]
