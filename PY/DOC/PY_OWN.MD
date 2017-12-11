@@ -19,6 +19,11 @@ Section 1 - Objects and Data Structure Basics
 * [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators)]
 
+The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators ```+```, ```-```, ```*``` and ```/``` work just like in most other languages.
+
+int = (e.g. 2, 4, 20) 
+float = (e.g. 5.0, 1.6)
+
 ### <h3 id='2'>2 - Strings</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#strings)]
