@@ -273,8 +273,6 @@ Section 3 - Python Objects and Data Structure Basics
 [[Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)] - 
 [[Strings.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)]
 
-[[Usefull link - digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3)]
-
 ```python
 >>> 'hello'
 'hello'
@@ -407,126 +405,11 @@ hello world
 >>> 
 ```
 
-```python
-ss = "Sammy Shark!"
-
-print(ss[0])
-print(ss[1])
-print(ss[2])
-print(ss[3])
-print(ss[4])
-print(ss[5])
-print(ss[6])
-print(ss[7])
-print(ss[8])
-print(ss[9])
-print(ss[10])
-print(ss[11])
-print(ss[12])
-
->>>
-S
-a
-m
-m
-y
- 
-S
-h
-a
-r
-k
-!
->>>
-```
-
-```python
-ss = "Sammy Shark!"
-
-print(ss[-1])
-print(ss[-2])
-print(ss[-3])
-print(ss[-4])
-print(ss[-5])
-print(ss[-6])
-print(ss[-7])
-print(ss[-8])
-print(ss[-9])
-print(ss[-10])
-print(ss[-11])
-print(ss[-12])
-
->>>
-!
-k
-r
-a
-h
-S
- 
-y
-m
-m
-a
-S
->>>
-```
-
-```python
-ss = "Sammy Shark!"
-
-print(ss[:5])
-print(ss[6:11])
-print(ss[7:])
-
->>>
-Sammy
-Shark
-hark!
->>>
-```
-
-```python
-ss = "Sammy Shark!"
-
-print(ss[0:12:1])
-print(ss[0:12:2])
-print(ss[0:12:3])
-print(ss[::1])
-print(ss[::2])
-print(ss[::3])
-
->>>
-Sammy Shark!
-SmySak
-SmSr
-Sammy Shark!
-SmySak
-SmSr
->>>
-```
-
-```python
-ss = "Sammy Shark!"
-
-print(ss[::-1])
-print(ss[::-2])
-print(ss[::-3])
-
->>>
-!krahS ymmaS
-!rh ma
-!a m
->>>
-```
-
 ### <h3 id='16'>16 - Strings Faq</h3>
 
 [[Strings Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729810?start=0)]
 
-!krahS ymmaS
-!rh ma
-!a m### <h3 id='17'>17 - Print Formatting</h3>
+### <h3 id='17'>17 - Print Formatting</h3>
 
 [[Print Formatting.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb)] - 
 [[Print Formatting.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3759600?start=0)]
