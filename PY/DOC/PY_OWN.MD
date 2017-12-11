@@ -22,7 +22,20 @@ Section 1 - Objects and Data Structure Basics
 The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators ```+```, ```-```, ```*``` and ```/``` work just like in most other languages.
 
 int = (e.g. 2, 4, 20) 
+
 float = (e.g. 5.0, 1.6)
+
+|Operation|	What it returns|
+|---------|----------------|
+|x + y	|Sum of x and y |
+|x - y	|Difference of x and y|
+|-x	|Changed sign of x|
+|+x	|Identity of x|
+|x * y	|Product of x and y|
+|x / y	|Quotient of x and y|
+|x // y	|Quotient from floor division of x and y|
+|x % y	|Remainder of x / y|
+|x ** y	|x to the y power|
 
 ### <h3 id='2'>2 - Strings</h3>
 
