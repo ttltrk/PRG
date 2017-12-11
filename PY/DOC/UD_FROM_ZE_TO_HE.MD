@@ -583,6 +583,8 @@ First inserted, Second inserted, Third szohi
 [[Lists.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)] - 
 [[Lists.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422060?start=0)]
 
+[[usefull links - DO](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)]
+
 ```python
 >>> my_list = [1, 2, 3]
 >>> my_list
@@ -684,6 +686,29 @@ IndexError: list index out of range
 >>> matrix[2][0]
 7
 >>> 
+```
+
+```python
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+print(numbers[0:13:1])
+print(numbers[0:13:2])
+print(numbers[0:13:3])
+
+print(numbers[::1])
+print(numbers[::2])
+print(numbers[::3])
+
+>>>
+
+>>>
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[0, 2, 4, 6, 8, 10, 12]
+[0, 3, 6, 9, 12]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+[0, 2, 4, 6, 8, 10, 12]
+[0, 3, 6, 9, 12]
+>>>
 ```
 
 ### <h3 id='20'>20 - Lists Faq</h3>
