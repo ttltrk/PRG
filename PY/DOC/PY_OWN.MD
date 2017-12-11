@@ -19,6 +19,9 @@ Strings
 
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)]
 * [[digitalocean pt1](https://www.digitalocean.com/community/tutorials/an-introduction-to-working-with-strings-in-python-3)]
+* [[digitalocean pt2](https://www.digitalocean.com/community/tutorials/how-to-format-text-in-python-3)]
+* [[digitalocean pt3](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3)]
+* [[digitalocean pt4](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)]
 
 Lists
 ------
