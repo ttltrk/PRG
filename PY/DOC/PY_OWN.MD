@@ -36,12 +36,22 @@ Section 1 - Objects and Data Structure Basics
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/lists.html)]
 
+```python
+l = [1,2,3]
+```
+
 ### <h3 id='4'>4 - Dictionaries</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)]
+
+Basic form
+
+```python
+d = {'k1':'v1','k2':'v2'}
+```
 
 ### <h3 id='5'>5 - Tuples</h3>
 
