@@ -24,10 +24,20 @@ Objects and Data Structure Basics
 * [[digitalocean pt2](https://www.digitalocean.com/community/tutorials/how-to-format-text-in-python-3)]
 * [[digitalocean pt3](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3)]
 * [[digitalocean pt4](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
 
 ### <h3 id='3'>Lists</h3>
 
+* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/lists.html)]
+
 ### <h3 id='4'>Dictionaries</h3>
 
+[[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
+[[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)]
+
 ### <h3 id='5'>Tuples</h3>
+
+[[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
+[[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)}
 
