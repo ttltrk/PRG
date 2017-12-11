@@ -720,6 +720,8 @@ print(numbers[::3])
 [[Dictionaries.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)] - 
 [[Dictionaries.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422062?start=0)]
 
+[[DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
+
 ```python
 >>> my_dict = {"key1" : "value1", "key2" : "value2"}
 >>> my_dict
