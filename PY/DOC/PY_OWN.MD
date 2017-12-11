@@ -4,10 +4,11 @@ Own Python Manual
 
 ### Objects and Data Structure Basics
   * <a href="#1">Numbers</a>
-  * <a href="#2">Strings
-  * <a href="#3">Lists
-  * <a href="#4">Dictionaries
-  * <a href="#5">Tuples
+  * <a href="#2">Strings</a>
+  * <a href="#3">Lists</a>
+  * <a href="#4">Dictionaries</a>
+  * <a href="#5">Tuples</a>
+  * <a href="#6">Sets</a>
   
 Objects and Data Structure Basics
 ------
@@ -55,3 +56,9 @@ In Python tuples are very similar to lists, however, unlike lists they are immut
 
 A tuple is a data structure that is an immutable, or unchangeable, ordered sequence of elements. Because tuples are immutable, their values cannot be modified.
 Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
+
+### <h3 id='6'>Sets</h3>
+
+* [[python.org](https://docs.python.org/3/tutorial/datastructures.html#sets)]
+* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/sets.html?highlight=sets)]
