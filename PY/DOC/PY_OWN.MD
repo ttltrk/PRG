@@ -29,15 +29,18 @@ Objects and Data Structure Basics
 ### <h3 id='3'>Lists</h3>
 
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)]
+* [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/lists.html)]
 
 ### <h3 id='4'>Dictionaries</h3>
 
-[[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
-[[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)]
+* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
+* [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)]
 
 ### <h3 id='5'>Tuples</h3>
 
-[[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
-[[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)}
+* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
+* [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-tuples-in-python-3)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)}
 
