@@ -147,6 +147,147 @@ PEMDAS
 * [[digitalocean pt4](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
 
+Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ```('...')``` or double quotes ```("...")``` with the same result.
+
+```python
+>>> 'spam eggs'  # single quotes
+'spam eggs'
+>>> 'doesn\'t'  # use \' to escape the single quote...
+"doesn't"
+>>> "doesn't"  # ...or use double quotes instead
+"doesn't"
+>>> '"Yes," he said.'
+'"Yes," he said.'
+>>> "\"Yes,\" he said."
+'"Yes," he said.'
+>>> '"Isn\'t," she said.'
+'"Isn\'t," she said.'
+```
+
+```python
+>>> '"Isn\'t," she said.'
+'"Isn\'t," she said.'
+>>> print('"Isn\'t," she said.')
+"Isn't," she said.
+>>> s = 'First line.\nSecond line.'  # \n means newline
+>>> s  # without print(), \n is included in the output
+'First line.\nSecond line.'
+>>> print(s)  # with print(), \n produces a new line
+First line.
+Second line.
+```
+
+```python
+>>> print('C:\some\name')  # here \n means newline!
+C:\some
+ame
+>>> print(r'C:\some\name')  # note the r before the quote
+C:\some\name
+```
+
+```python
+>>> # 3 times 'un', followed by 'ium'
+>>> 3 * 'un' + 'ium'
+'unununium'
+```
+
+```python
+>>> 'Py' 'thon'
+'Python'
+```
+
+```python
+>>> text = ('Put several strings within parentheses '
+...         'to have them joined together.')
+>>> text
+'Put several strings within parentheses to have them joined together.'
+```
+
+```python
+>>> prefix = 'Py'
+>>> prefix 'thon'  # can't concatenate a variable and a string literal
+  ...
+SyntaxError: invalid syntax
+>>> ('un' * 3) 'ium'
+  ...
+SyntaxError: invalid syntax
+>>> prefix + 'thon'
+'Python'
+```
+
+```python
+>>> word = 'Python'
+>>> word[0]  # character in position 0
+'P'
+>>> word[5]  # character in position 5
+'n'
+>>>
+>>> word[-1]  # last character
+'n'
+>>> word[-2]  # second-last character
+'o'
+>>> word[-6]
+'P'
+>>> word[0:2]  # characters from position 0 (included) to 2 (excluded)
+'Py'
+>>> word[2:5]  # characters from position 2 (included) to 5 (excluded)
+'tho'
+>>> word[:2] + word[2:]
+'Python'
+>>> word[:4] + word[4:]
+'Python'
+>>> word[:2]   # character from the beginning to position 2 (excluded)
+'Py'
+>>> word[4:]   # characters from position 4 (included) to the end
+'on'
+>>> word[-2:]  # characters from the second-last (included) to the end
+'on'
+```
+
+```python
+ +---+---+---+---+---+---+
+ | P | y | t | h | o | n |
+ +---+---+---+---+---+---+
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+```
+
+```python
+>>> word[42]  # the word only has 6 characters
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+```
+
+```python
+>>> word[4:42]
+'on'
+>>> word[42:]
+''
+```
+
+```python
+>>> word[0] = 'J'
+  ...
+TypeError: 'str' object does not support item assignment
+>>> word[2:] = 'py'
+  ...
+TypeError: 'str' object does not support item assignment
+```
+
+```python
+>>> 'J' + word[1:]
+'Jython'
+>>> word[:2] + 'py'
+'Pypy'
+```
+
+```python
+>>> s = 'supercalifragilisticexpialidocious'
+>>> len(s)
+34
+```
+
 ```python
 ss = "Sammy Shark!"
 
