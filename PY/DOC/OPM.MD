@@ -1,5 +1,5 @@
 
-OPM 1.0
+OPyM 1.0
 ======
 
 ### Section 1.1 - Objects and Data Structure Basics
