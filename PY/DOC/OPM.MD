@@ -2,7 +2,17 @@
 OPyM 1.0
 ======
 
+Own APPS: 
+
 [APPS](https://github.com/ttltrk/PRG/tree/master/PY/APP)
+
+Used sources:
+
+* [[python.org](https://docs.python.org/3/tutorial/introduction.html#numbers)]
+* [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)]
+* [[digitalocean](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
+* [[Google's Python Class](https://developers.google.com/edu/python/)]
 
 ### Section 1.1 - Objects and Data Structure Basics
   * <a href="#1">Numbers</a>
