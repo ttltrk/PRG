@@ -48,9 +48,9 @@ float = (e.g. 5.0, 1.6)
 |-x	|Changed sign of x| -5|
 |+x	|Identity of x| +5|
 |x * y	|Product of x and y| 3 * 3 = 9|
-|x / y	|Quotient of x and y| 9 / 3 = 3|
-|x // y	|Quotient from floor division of x and y| 9 // 3 = |
-|x % y	|Remainder of x / y| 16 % 5 = 1|
+|x / y	|Quotient of x and y| 17 / 3 = 5.666666666666667|
+|x // y	|Quotient from floor division of x and y| 17 // 3 = 5|
+|x % y	|Remainder of x / y| 17 % 3 = 2|
 |x ** y	|x to the y power| 2 ** 2 = 8 |
 
 ### <h3 id='2'>Strings</h3>
