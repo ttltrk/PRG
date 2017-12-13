@@ -73,6 +73,16 @@ PEMDAS
 |14|	=   +=   -=   *=   /=   %=   &=   |=   ^=   <<=   >>=	|Assignment operators (right to left)|
 |15| ,	|Comma operator|
 
+|Assignment Operator|Stands For|
+|-------------------|----------|
+|y += 1          |# add then assign value|
+|y -= 1          |# subtract then assign value|
+|y *= 2          |# multiply then assign value|
+|y /= 3          |# divide then assign value|
+|y // = 5        |# floor divide then assign value|
+|y **= 2         |# increase to the power of then assign value|
+|y %= 3          |# return remainder then assign value|
+
 
 ```python
 >>> 2 + 2
