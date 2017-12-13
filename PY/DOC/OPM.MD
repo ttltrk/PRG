@@ -239,6 +239,8 @@ Section 1.3 - Python Statements
 
 ### <h3 id="8">if, elif and else</h3>
 
+* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)]
+
 ### <h3 id="9">for loops</h3>
 
 ### <h3 id="10">while loops</h3>
