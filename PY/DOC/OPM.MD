@@ -55,7 +55,7 @@ float = (e.g. 5.0, 1.6)
 
 PEMDAS
 
-|Rank|to do | Stands For|
+|Rank|Operators| Stands For|
 |---|-----|----|
 |1| ()   []   ->   .   ::	|Function call, scope, array/member access|
 |2| !   ~   -   +   *   &   sizeof   type cast   ++   --  	|(most) unary operators, sizeof and type casts (right to left)|
