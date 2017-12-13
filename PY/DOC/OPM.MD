@@ -66,9 +66,9 @@ PEMDAS
 |7| ==   !=	|Comparisons: equal and not equal|
 |8|	&	|Bitwise AND|
 |9|	^	|Bitwise exclusive OR (XOR)|
-|10|	|	|Bitwise inclusive (normal) OR|
+|10|	```|```	|Bitwise inclusive (normal) OR|
 |11|	&&	|Logical AND|
-|12|	||	|Logical OR|
+|12|	```||```	|Logical OR|
 |13|	 ? :	|Conditional expression (ternary)|
 |14|	=   +=   -=   *=   /=   %=   &=   |=   ^=   <<=   >>=	|Assignment operators (right to left)|
 |15| ,	|Comma operator|
