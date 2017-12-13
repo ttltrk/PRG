@@ -2,7 +2,7 @@
 OPM 1.0
 ======
 
-### Section 1 - Objects and Data Structure Basics
+### Section 1.1 - Objects and Data Structure Basics
   * <a href="#1">Numbers</a>
   * <a href="#2">Strings</a>
   * <a href="#3">Lists</a>
@@ -10,17 +10,23 @@ OPM 1.0
   * <a href="#5">Tuples</a>
   * <a href="#6">Sets</a>
   
-### Section 2 - Comparison Operators
+### Section 1.2 - Comparison Operators
   * <a href="#7">Comparison Operators</a>
   
-### Section 3 - Python Statements
+### Section 1.3 - Python Statements
   * <a href="#8">if, elif and else</a>
   * <a href="#9">for loops</a>
   * <a href="#10">while loops</a>
   * <a href="#11">range()</a>
   * <a href="#12">List Comprehensions</a>
   
-Section 1 - Objects and Data Structure Basics
+### Section 1.4 - Methods and Functions
+  * <a href="#13">Methods</a>
+  * <a href="#14">Functions</a>
+  * <a href="#15">lambda expressions</a>
+  * <a href="#16">Nested Statements and Scope</a>
+
+Section 1.1 - Objects and Data Structure Basics
 ------
 
 ### <h3 id='1'>Numbers</h3>
@@ -220,7 +226,7 @@ t = (1,2,3)
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/sets.html?highlight=sets)]
 
-Section 2 - Comparison Operators
+Section 1.2 - Comparison Operators
 ------
 
 ### <h3 id="7">Comparison Operators</h3>
@@ -228,7 +234,7 @@ Section 2 - Comparison Operators
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)]
 * [[jupyter_2](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)]
 
-Section 3 - Python Statements
+Section 1.3 - Python Statements
 ------
 
 ### <h3 id="8">if, elif and else</h3>
@@ -240,3 +246,14 @@ Section 3 - Python Statements
 ### <h3 id="11">range()</h3>
 
 ### <h3 id="12">List Comprehensions</h3>
+
+Section 1.4 - Methods and Functions
+------
+
+### <h3 id="13">Methods</h3>
+
+### <h3 id="14">Functions</h3>
+
+### <h3 id="15">lambda expressions</h3>
+
+### <h3 id="16">Nested Statements and Scope</h3>
