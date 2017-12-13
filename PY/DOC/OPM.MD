@@ -3,15 +3,15 @@ OPM 1.0
 ======
 
 ### Section 1 - Objects and Data Structure Basics
-  * <a href="#1">1 - Numbers</a>
-  * <a href="#2">2 - Strings</a>
-  * <a href="#3">3 - Lists</a>
-  * <a href="#4">4 - Dictionaries</a>
-  * <a href="#5">5 - Tuples</a>
-  * <a href="#6">6 - Sets</a>
+  * <a href="#1">Numbers</a>
+  * <a href="#2">Strings</a>
+  * <a href="#3">Lists</a>
+  * <a href="#4">Dictionaries</a>
+  * <a href="#5">Tuples</a>
+  * <a href="#6">Sets</a>
   
 ### Section 2 - Comparison Operators
-  * <a href="#7">7 - Comparison Operators</a>
+  * <a href="#7">Comparison Operators</a>
   
 ### Section 3 - Python Statements
   * <a href="#8">if, elif and else</a>
@@ -23,7 +23,7 @@ OPM 1.0
 Section 1 - Objects and Data Structure Basics
 ------
 
-### <h3 id='1'>1 - Numbers</h3>
+### <h3 id='1'>Numbers</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#numbers)]
 * [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)]
@@ -47,7 +47,7 @@ float = (e.g. 5.0, 1.6)
 |x % y	|Remainder of x / y| 16 % 5 = 1|
 |x ** y	|x to the y power| 2 ** 2 = 8 |
 
-### <h3 id='2'>2 - Strings</h3>
+### <h3 id='2'>Strings</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#strings)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)]
@@ -170,7 +170,7 @@ print(ss[::-3])
 >>>
 ```
 
-### <h3 id='3'>3 - Lists</h3>
+### <h3 id='3'>Lists</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#lists)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)]
@@ -181,7 +181,7 @@ print(ss[::-3])
 l = [1,2,3]
 ```
 
-### <h3 id='4'>4 - Dictionaries</h3>
+### <h3 id='4'>Dictionaries</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
@@ -194,7 +194,7 @@ Basic form
 d = {'k1':'v1','k2':'v2'}
 ```
 
-### <h3 id='5'>5 - Tuples</h3>
+### <h3 id='5'>Tuples</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
@@ -214,7 +214,7 @@ Basic form
 t = (1,2,3)
 ```
 
-### <h3 id='6'>6 - Sets</h3>
+### <h3 id='6'>Sets</h3>
 
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#sets)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)]
@@ -223,7 +223,7 @@ t = (1,2,3)
 Section 2 - Comparison Operators
 ------
 
-### <h3 id="7">7 - Comparison Operators</h3>
+### <h3 id="7">Comparison Operators</h3>
 
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)]
 * [[jupyter_2](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)]
