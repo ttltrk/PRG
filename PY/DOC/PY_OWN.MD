@@ -10,6 +10,16 @@ Own Python Manual
   * <a href="#5">5 - Tuples</a>
   * <a href="#6">6 - Sets</a>
   
+### Section 2 - Comparison Operators
+  * <a href="#7">7 - Comparison Operators</a>
+  
+### Section 3 - Python Statements
+  * <a href="#8">if, elif and else</a>
+  * <a href="#9"></a>
+  * <a href="#10"></a>
+  * <a href="#11"></a>
+  * <a href="#12"></a>
+  
 Section 1 - Objects and Data Structure Basics
 ------
 
@@ -209,3 +219,24 @@ t = (1,2,3)
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#sets)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/sets.html?highlight=sets)]
+
+Section 2 - Comparison Operators
+------
+
+### <h3 id="7">7 - Comparison Operators</h3>
+
+* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)]
+* [[jupyter_2](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)]
+
+Section 3 - Python Statements
+------
+
+### <h3 id="8">if, elif and else</h3>
+
+### <h3 id="9">for loops</h3>
+
+### <h3 id="10">while loops</h3>
+
+### <h3 id="11">range()</h3>
+
+### <h3 id="12">List Comprehensions</h3>
