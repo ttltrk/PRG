@@ -8,10 +8,10 @@ Own APPS:
 
 Used sources:
 
-* [[python.org](https://docs.python.org/3/tutorial/introduction.html#numbers)]
-* [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)]
-* [[digitalocean](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators)]
-* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
+* [[python.org](https://docs.python.org/3/tutorial/index.html)]
+* [[jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
+* [[digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)]
+* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)]
 * [[Google's Python Class](https://developers.google.com/edu/python/)]
 
 ### Section 1.1 - Objects and Data Structure Basics
