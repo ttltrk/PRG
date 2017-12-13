@@ -158,6 +158,7 @@ PEMDAS
 * [[digitalocean pt3](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3)]
 * [[digitalocean pt4](https://www.digitalocean.com/community/tutorials/how-to-use-variables-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/strings.html)]
+* [[dev.google](https://developers.google.com/edu/python/strings)]
 
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ```('...')``` or double quotes ```("...")``` with the same result.
 
