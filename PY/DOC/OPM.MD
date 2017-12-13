@@ -1,5 +1,5 @@
 
-Own Python Manual
+OPM 1.0
 ======
 
 ### Section 1 - Objects and Data Structure Basics
