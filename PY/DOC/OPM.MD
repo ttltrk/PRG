@@ -15,10 +15,10 @@ OPM 1.0
   
 ### Section 3 - Python Statements
   * <a href="#8">if, elif and else</a>
-  * <a href="#9"></a>
-  * <a href="#10"></a>
-  * <a href="#11"></a>
-  * <a href="#12"></a>
+  * <a href="#9">for loops</a>
+  * <a href="#10">while loops</a>
+  * <a href="#11">range()</a>
+  * <a href="#12">List Comprehensions</a>
   
 Section 1 - Objects and Data Structure Basics
 ------
