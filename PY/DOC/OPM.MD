@@ -41,8 +41,8 @@ int = (e.g. 2, 4, 20)
 
 float = (e.g. 5.0, 1.6)
 
-|Operation|	What it returns|
-|---------|----------------|
+|Operation|	What it returns| Examples |
+|---------|----------------|----------|
 |x + y	|Sum of x and y | 1 + 1 = 2 |
 |x - y	|Difference of x and y| 2 - 1 = 1 |
 |-x	|Changed sign of x| -5|
