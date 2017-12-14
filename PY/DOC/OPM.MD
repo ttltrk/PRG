@@ -872,6 +872,24 @@ Section 1.3 - Python Statements
 
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)]
 
+Perhaps the most well-known statement type is the if statement.
+
+```python
+>>> x = int(input("Please enter an integer: "))
+Please enter an integer: 42
+>>> if x < 0:
+...     x = 0
+...     print('Negative changed to zero')
+... elif x == 0:
+...     print('Zero')
+... elif x == 1:
+...     print('Single')
+... else:
+...     print('More')
+...
+More
+```
+
 ```python	
 >>> if True:
 	print ("It was True")	
