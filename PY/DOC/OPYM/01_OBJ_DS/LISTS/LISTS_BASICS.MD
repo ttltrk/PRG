@@ -2,6 +2,8 @@
 Lists Basics
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+
 ```python
 >>> squares = [1, 4, 9, 16, 25]
 >>> squares
