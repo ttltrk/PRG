@@ -14,6 +14,145 @@ Lists Methods
 * <a href="#8">Reverse</a>
 * <a href="#9">Count</a>
 
+append()	
+
+extend()	
+
+insert()	
+
+remove()	
+
+index()
+
+count()	
+
+pop()	
+
+reverse()	
+
+sort()	
+
+copy()	
+
+clear()	
+
+any()	
+
+all()	
+
+ascii()	
+
+bool()
+
+enumerate()	
+
+filter()
+
+iter()	
+
+list() 
+
+len()	
+
+max()	
+
+min()	
+
+map()	
+
+reversed()	
+
+slice()	
+
+sorted()	
+
+sum()	
+
+zip()
+
+append()	
+Add Single Element to The List
+
+extend()	
+Add Elements of a List to Another List
+
+insert()	
+Inserts Element to The List
+
+remove()	
+Removes Element from the List
+
+index()	
+returns smallest index of element in list
+
+count()	
+returns occurrences of element in a list
+
+pop()	
+Removes Element at Given Index
+
+reverse()	
+Reverses a List
+
+sort()	
+sorts elements of a list
+
+copy()	
+Returns Shallow Copy of a List
+
+clear()	
+Removes all Items from the List
+
+any()	
+Checks if any Element of an Iterable is True
+
+all()	
+returns true when all elements in iterable is true
+
+ascii()	
+Returns String Containing Printable Representation
+
+bool()	
+Coverts a Value to Boolean
+
+enumerate()	
+Returns an Enumerate Object
+
+filter()	
+constructs iterator from elements which are true
+
+iter()	
+returns iterator for an object
+
+list() 
+Function	creates list in Python
+
+len()	
+Returns Length of an Object
+
+max()	
+returns largest element
+
+min()	
+returns smallest element
+
+map()	
+Applies Function and Returns a List
+
+reversed()	
+returns reversed iterator of a sequence
+
+slice()	
+creates a slice object specified by range()
+
+sorted()	
+returns sorted list from a given iterable
+
+sum()	
+Add items of an Iterable
+
+zip()
+Returns an Iterator of Tuples
 <h4 id="1">Append</h4>
 
 In order append() an element onto an array, call the method with the element in the parenthesis.
