@@ -2,6 +2,8 @@
 Dictionaries
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
