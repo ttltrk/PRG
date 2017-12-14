@@ -1,3 +1,9 @@
+
+Lists
+======
+
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#lists)]
 * [[linuxconfig](https://linuxconfig.org/python-list-methods)]
 * [[dev.google](https://developers.google.com/edu/python/lists)]
