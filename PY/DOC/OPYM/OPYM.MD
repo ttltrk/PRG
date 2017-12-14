@@ -14,12 +14,12 @@ Used sources:
 * [[Google's Python Class](https://developers.google.com/edu/python/)]
 
 ### Section 1.1 - Objects and Data Structure Basics
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD">Numbers</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD">Strings</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD">Lists</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD">Dictionaries</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD">Tuples</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD">Sets</a>
+  * [Numbers]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD")
+  * [Strings]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD")
+  * [Lists]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD")
+  * [Dictionaries]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD")
+  * [Tuples]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD")
+  * [Sets]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD")
   
 ### Section 1.2 - Comparison Operators
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD">Comparison Operators</a>
