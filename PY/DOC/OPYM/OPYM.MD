@@ -15,27 +15,27 @@ Used sources:
 
 ### Section 1.1 - Objects and Data Structure Basics
   * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
-  * [Strings]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD")
-  * [Lists]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD")
-  * [Dictionaries]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD")
-  * [Tuples]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD")
-  * [Sets]("https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD")
+  * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
+  * [Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+  * [Dictionaries](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD)
+  * [Tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD)
+  * [Sets](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD)
   
 ### Section 1.2 - Comparison Operators
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD">Comparison Operators</a>
+  * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
   
 ### Section 1.3 - Python Statements
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD">if, elif and else</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD">for loops</a>
-  * <a href="#10">while loops</a>
-  * <a href="#11">range()</a>
-  * <a href="#12">List Comprehensions</a>
+  * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
+  * [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
+  * [while loops]()
+  * [range()]()
+  * [List Comprehensions]()
   
 ### Section 1.4 - Methods and Functions
-  * <a href="#13">Methods</a>
-  * <a href="#14">Functions</a>
-  * <a href="#15">lambda expressions</a>
-  * <a href="#16">Nested Statements and Scope</a>
+  * [Methods]()
+  * [Functions]()
+  * [lambda expressions]()
+  * [Nested Statements and Scope]()
 
 
 
