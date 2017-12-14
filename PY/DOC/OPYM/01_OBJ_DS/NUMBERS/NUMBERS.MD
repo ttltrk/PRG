@@ -2,7 +2,7 @@
 Numbers
 ======
 
-[<--](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+[<-](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#numbers)]
 * [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)]
