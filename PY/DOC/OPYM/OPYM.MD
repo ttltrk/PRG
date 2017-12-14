@@ -22,11 +22,11 @@ Used sources:
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD">Sets</a>
   
 ### Section 1.2 - Comparison Operators
-  * <a href="#7">Comparison Operators</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD">Comparison Operators</a>
   
 ### Section 1.3 - Python Statements
-  * <a href="#8">if, elif and else</a>
-  * <a href="#9">for loops</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD">if, elif and else</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD">for loops</a>
   * <a href="#10">while loops</a>
   * <a href="#11">range()</a>
   * <a href="#12">List Comprehensions</a>
