@@ -13,7 +13,7 @@ Lists Methods
 * <a href="#7">Sort</a>
 * <a href="#8">Reverse</a>
 
-Append
+<h4 id="1">Append</h4>
 
 In order append() an element onto an array, call the method with the element in the parenthesis.
 
