@@ -2,6 +2,8 @@
 Strings
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 * [[python.org](https://docs.python.org/3/tutorial/introduction.html#strings)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)]
 * [[digitalocean pt1](https://www.digitalocean.com/community/tutorials/an-introduction-to-working-with-strings-in-python-3)]
