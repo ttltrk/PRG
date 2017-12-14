@@ -27,7 +27,7 @@ print(linux_distros)
 >>>
 ```
 
-Pop
+<h4 id="2">Pop</h4>
 
 The pop() method can work in two different ways. If you leave the parenthesis empty, it works as the opposite of append().
 
@@ -57,7 +57,7 @@ print(linux_distros)
 >>>
 ```
 
-Insert
+<h4 id="3">Insert</h4>
 
 In order to use insert() to place a new element into a list, you have to specify the index where you want to insert your new element and the element that you want to insert.
 
@@ -77,7 +77,7 @@ CentOS
 >>>
 ```
 
-Remove
+<h4 id="4">Remove</h4>
 
 remove() works sort of like giving pop an index to remove, but instead of giving remove() an index you give it the actual value of the element. It will find and remove the first occurrence of that value in the list. So, be sure that the first occurrence is the one that you want to remove. Otherwise, it's probably best to figure out the index of the element that you do want to remove and use pop().
 
@@ -91,7 +91,7 @@ print(linux_distros)
 >>>
 ```
 
-Extend
+<h4 id="5">Extend</h4>
 
 extend() adds two lists together. It adds the list in parenthesis to the list that it is being called on.
 
@@ -106,7 +106,7 @@ print(linux_distros)
 >>>
 ```
 
-Index
+<h4 id="6">Index</h4>
 
 There is a way to find out the index of an element, and that's the index() method. Like with the others, index() finds the first occurrence of an element, not every occurrence.
 
@@ -119,7 +119,7 @@ print(linux_distros.index("Arch"))
 >>>
 ```
 
-Sort
+<h4 id="7">Sort</h4>
 
 If you need to sort a list, either alphabetically or numerically, Python has you covered there as well. Just call the sort() method on the list, and it will be saved in the new order. This will overwrite the previous list, so create a copy to sort, if you need to preserve the original.
 
@@ -143,7 +143,7 @@ print(numbers_to_sort)
 >>>
 ```
 
-Reverse
+<h4 id="8">Reverse</h4>
 
 reverse() is a bit of an odd method. It reverses the order of elements in a list in place and saves it. It doesn't put them in any kind of special order, it just flips the list around.
 
