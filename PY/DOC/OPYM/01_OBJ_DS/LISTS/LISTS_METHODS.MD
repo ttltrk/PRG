@@ -12,6 +12,7 @@ Lists Methods
 * <a href="#6">Index</a>
 * <a href="#7">Sort</a>
 * <a href="#8">Reverse</a>
+* <a href="#9">Count</a>
 
 <h4 id="1">Append</h4>
 
@@ -165,6 +166,27 @@ print(linux_distros)
 
 >>>
 ['Ubuntu', 'OpenSUSE', 'Gentoo', 'Fedora', 'Debian', 'CentOS', 'Arch']
+>>>
+```
+
+<h4 id="9">Count</h4>
+
+You can count the number of element of a kind:
+
+```python
+ln = [1, 2, 3, 4, 5, 1, 1, 2, 3, 1]
+lw = ['a', 'a', 'b', 'c', 'a', 'd']
+
+print(ln.count(1))
+print(ln.count(4))
+print(lw.count('a'))
+print(lw.count('b'))
+
+>>>
+4
+1
+3
+1
 >>>
 ```
 
