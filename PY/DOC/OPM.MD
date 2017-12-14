@@ -791,6 +791,80 @@ Section 1.2 - Comparison Operators
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)]
 * [[jupyter_2](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)]
 
+```python
+>>> 2 == 2
+True
+>>> 1 == 1
+True
+>>> 1 == 0
+False
+>>> 
+```
+
+```python
+>>> 2 != 1
+True
+>>> 2 != 2
+False
+>>> 
+```
+
+```python
+>>> 2 > 1
+True
+>>> 2 > 4
+False
+>>> 
+```
+
+```python
+>>> 2 < 4
+True
+>>> 2 < 1
+False
+>>> 
+```
+
+```python
+>>> 2 >= 2
+True
+>>> 2 >= 1
+True
+>>> 
+```
+
+```python
+>>> 2 <= 10
+True
+>>> 
+```
+
+```python
+>>> 1 < 2
+True
+>>> 2 < 3
+True
+>>> 1 < 2 < 3
+True
+>>> 
+```
+
+```python
+>>> 1 < 2 and 2 < 3
+True
+>>> 1 < 2 and 2 < 1
+False
+>>>
+```
+
+```python
+>>> 1 < 2 or 2 < 3
+True
+>>> 1 < 2 or 2 < 1
+True
+>>> 
+```
+
 Section 1.3 - Python Statements
 ------
 
@@ -798,7 +872,321 @@ Section 1.3 - Python Statements
 
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)]
 
+```python	
+>>> if True:
+	print ("It was True")	
+It was True
+>>> 
+```
+
+```python
+>>> x = False
+>>> if x:
+	print ("x was True")
+else:
+	print ("I will print when x is anything not True")	
+I will print when x is anything not True
+>>> 
+```
+
+```python
+>>> x = True
+>>> if x:
+	print ("x was True")
+else:
+	print ("I will print when x is anything not True")	
+x was True
+>>> 
+```
+
+```python
+loc = "Bank"
+if loc == "Auto Shop":
+    print ("Welcome to the Auto Shop!")
+elif loc == "Bank":
+    print ("Welcome to the Bank!")
+else:
+    print ("Where are you?!")
+
+>>>
+Welcome to the Bank!
+>>>
+```
+
+```python
+loc = "Mall"
+
+if loc == "Auto Shop":
+    print ("Welcome to the Auto Shop!")
+elif loc == "Bank":
+    print ("Welcome to the Bank!")
+else:
+    print ("Where are you?!")
+	
+>>>
+Where are you?!
+>>> 
+```
+
+```python
+loc = "Mall"
+
+if loc == "Auto Shop":
+    print ("Welcome to the Auto Shop!")
+elif loc == "Bank":
+    print ("Welcome to the Bank!")
+elif loc == "Mall":
+    print ("Welcome to the Mall!")
+else:
+    print ("Where are you?!")
+	
+>>>
+Welcome to the Mall!
+>>> 
+```
+
 ### <h3 id="9">for loops</h3>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for element in l:
+    print (element)
+	
+>>>
+1
+2
+3
+4
+5
+>>>
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for element in l:
+    print ("something")
+	
+>>>
+something
+something
+something
+something
+something
+>>> 
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in l:
+    if num % 2 == 0:
+        print (num)
+
+>>>
+2
+4
+>>> 
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in l:
+    if num % 2 == 1:
+        print (num)
+
+>>>
+1
+3
+5
+>>> 
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in l:
+    if num % 2 == 0:
+        print ("here is an even")
+    else:
+        print ("Odd number!")
+		
+>>>
+Odd number!
+here is an even
+Odd number!
+here is an even
+Odd number!
+>>> 
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+list_sum = 0
+
+for num in l:
+    list_sum = list_sum + num
+
+print (list_sum)
+
+>>>
+15
+>>>
+```
+
+```python
+l = ("a", "b", "c")
+lst = ""
+
+for abc in l:
+    lst = lst + abc
+
+print (lst)
+
+>>>
+abc
+>>>
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+list_sum = 0
+
+for num in l:
+    list_sum += num
+
+print (list_sum)
+
+>>>
+15
+>>>
+```
+
+```python
+s = "this is a string!"
+
+for item in s:
+    print (item)
+	
+>>>
+t
+h
+i
+s
+ 
+i
+s
+ 
+a
+ 
+s
+t
+r
+i
+n
+g
+!
+>>> 
+```
+
+```python
+tup = (1, 2, 3, 4, 5)
+
+for t in tup:
+    print (t)
+	
+>>>
+1
+2
+3
+4
+5
+>>> 
+```
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for tup in l:
+    print (tup)
+	
+>>>
+(2, 4)
+(6, 8)
+(10, 12)
+>>> 
+```
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for (t1, t2) in l:
+    print (t1)
+	
+>>>
+2
+6
+10
+>>> 
+```
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for (t1, t2) in l:
+    print (t2)
+	
+>>>
+4
+8
+12
+>>> 
+```
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for (t1, t2) in l:
+    print (t1 - t2)
+	
+>>>
+-2
+-2
+-2
+>>> 
+```
+
+```python
+d = {"k1" : 1, "k2" : 2, "k3" : 3}
+
+for item in d:
+    print (item)
+	
+>>>
+k3
+k1
+k2
+>>>
+```
+
+```python
+d = {"k1" : 1, "k2" : 2, "k3" : 3}
+
+for k, v in d.items():
+    print (k)
+    print (v)
+	
+>>>
+k2
+2
+k1
+1
+k3
+3
+>>> 
+```
 
 ### <h3 id="10">while loops</h3>
 
