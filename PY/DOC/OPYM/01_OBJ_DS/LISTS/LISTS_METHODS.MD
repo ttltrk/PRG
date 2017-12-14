@@ -1,5 +1,5 @@
 
-List Methods
+Lists Methods
 ======
 
 Append
