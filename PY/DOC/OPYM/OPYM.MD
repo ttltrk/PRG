@@ -14,12 +14,12 @@ Used sources:
 * [[Google's Python Class](https://developers.google.com/edu/python/)]
 
 ### Section 1.1 - Objects and Data Structure Basics
-  * <a href="#1">Numbers</a>
-  * <a href="#2">Strings</a>
-  * <a href="#3">Lists</a>
-  * <a href="#4">Dictionaries</a>
-  * <a href="#5">Tuples</a>
-  * <a href="#6">Sets</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD">Numbers</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD">Strings</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD">Lists</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD">Dictionaries</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD">Tuples</a>
+  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD">Sets</a>
   
 ### Section 1.2 - Comparison Operators
   * <a href="#7">Comparison Operators</a>
