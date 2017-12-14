@@ -2,6 +2,17 @@
 Lists Methods
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+
+* <a href="#1">Append</a>
+* <a href="#2">Pop</a>
+* <a href="#3">Insert</a>
+* <a href="#4">Remove</a>
+* <a href="#5">Extend</a>
+* <a href="#6">Index</a>
+* <a href="#7">Sort</a>
+* <a href="#8">Reverse</a>
+
 Append
 
 In order append() an element onto an array, call the method with the element in the parenthesis.
