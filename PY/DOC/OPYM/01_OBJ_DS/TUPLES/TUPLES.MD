@@ -2,6 +2,8 @@
 Tuples
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 * [[python.org](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)]
 * [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)]
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-tuples-in-python-3)]
