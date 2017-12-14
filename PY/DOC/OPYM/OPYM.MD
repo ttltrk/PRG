@@ -1,12 +1,6 @@
 OPyM 1.0
 ======
 
-Own APPS: 
-
-[APPS](https://github.com/ttltrk/PRG/tree/master/PY/APP)
-
-Used sources:
-
 * [[python.org](https://docs.python.org/3/tutorial/index.html)]
 * [[jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
 * [[digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)]
