@@ -7,7 +7,8 @@ Lists
 [[dev.google](https://developers.google.com/edu/python/lists)] -
 [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)] -
 [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)] -
-[[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/lists.html)]
+[[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/lists.html)] - 
+[[effbot.org](http://effbot.org/zone/python-list.htm)]
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
