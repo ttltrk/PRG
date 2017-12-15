@@ -12,7 +12,7 @@ Strings Methods
 * <a href="#4">isupper()</a>
 * <a href="#5">istitle()</a>
 * <a href="#6">isspace()</a>
-* str.isalnum()
+* <a href="#7">isalnum()</a>
 * count()
 * len()
 * title()
@@ -194,7 +194,35 @@ True
 >>>
 ```
 
-* str.isalnum()
+### <h3 id="7">isalnum()</h3>
+
+The method isalnum() checks whether the string consists of alphanumeric characters.
+
+```python
+str = "this is string example....wow!!!";
+print(str.isalnum())
+
+str = "this";
+print(str.isalnum())
+
+str = "THISisIT";
+print(str.isalnum())
+
+str = "THIS IS IT";
+print(str.isalnum())
+
+str = " ";
+print(str.isalnum())
+
+>>>
+False
+True
+True
+False
+False
+>>>
+```
+
 * count()
 * len()
 * title()
