@@ -50,6 +50,13 @@ print(str.isdigit())
 
 str = "this";
 print(str.isdigit())
+
+>>>
+True
+False
+False
+False
+>>>   
 ```
 
 * isalpha()
