@@ -2,9 +2,9 @@
 while Loops
 ======
 
-[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb) -
-[tutorialspoint.com](https://www.tutorialspoint.com/python/python_while_loop.htm) - 
-[wiki.python.org](https://wiki.python.org/moin/WhileLoop)
+[[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)] -
+[[tutorialspoint.com](https://www.tutorialspoint.com/python/python_while_loop.htm)] - 
+[[wiki.python.org](https://wiki.python.org/moin/WhileLoop)]
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
