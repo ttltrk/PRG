@@ -9,7 +9,7 @@ Strings Methods
 * <a href="#3">islower()</a>
 * <a href="#4">isupper()</a>
 * <a href="#5">istitle()</a>
-* isspace()
+* <a href="#6">isspace()</a>
 * str.isalnum()
 * count()
 * len()
@@ -163,7 +163,35 @@ False
 >>>
 ```
 
-* isspace()
+### <h3 id="6">isspace()</h3>
+
+The method isspace() checks whether the string consists of whitespace.
+
+```python
+str = "this is string example....wow!!!";
+print(str.isspace())
+
+str = "this";
+print(str.isspace())
+
+str = "THIS";
+print(str.isspace())
+
+str = "THIS IS IT";
+print(str.isspace())
+
+str = " ";
+print(str.isspace())
+
+>>>
+False
+False
+False
+False
+True
+>>>
+```
+
 * str.isalnum()
 * count()
 * len()
