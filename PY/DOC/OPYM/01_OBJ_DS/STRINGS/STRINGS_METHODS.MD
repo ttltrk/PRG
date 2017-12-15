@@ -125,6 +125,13 @@ print(str.isupper())
 
 str = "THIS IS IT";
 print(str.isupper())
+
+>>>
+False
+False
+True
+True
+>>>
 ```
 
 ### <h3 id="5">istitle()</h3>
