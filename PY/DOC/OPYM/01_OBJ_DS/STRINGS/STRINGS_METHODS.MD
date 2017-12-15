@@ -14,8 +14,8 @@ Strings Methods
 * <a href="#6">isspace()</a>
 * <a href="#7">isalnum()</a>
 * <a href="#8">count()</a>
-* len()
-* title()
+* <a href="#9">len()</a>
+* <a href="#10">title()</a>
 * capitalize()
 * lower()
 * upper()
@@ -258,8 +258,56 @@ The count is: 3
 >>>
 ```
 
-* len()
-* title()
+### <h3 id="9">len()</h3>
+
+The method len() returns the length of the string.
+
+```python
+str = "this is string example....wow!!!";
+print("Length of the string: ", len(str))
+
+str = "this is it";
+print("Length of the string: ", len(str))
+
+str = "yo";
+print("Length of the string: ", len(str))
+
+str = " ";
+print("Length of the string: ", len(str))
+
+str = "";
+print("Length of the string: ", len(str))
+
+>>>
+Length of the string:  32
+Length of the string:  10
+Length of the string:  2
+Length of the string:  1
+Length of the string:  0
+>>>
+```
+
+### <h3 id="10">title()</h3>
+
+The method title() returns a copy of the string in which first characters of all the words are capitalized.
+
+```python
+str = "this is string example....wow!!!";
+print(str.title())
+
+str = "this is it";
+print(str.title())
+
+str = "yo";
+print(str.title())
+
+>>>
+This Is String Example....Wow!!!
+This Is It
+Yo
+>>>
+```
+
 * capitalize()
 * lower()
 * upper()
