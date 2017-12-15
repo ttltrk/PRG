@@ -2,6 +2,8 @@
 while Loops
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 [while loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
 
 [while loops.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512318?start=0)
