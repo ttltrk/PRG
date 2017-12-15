@@ -4,9 +4,14 @@ if, elif and else
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)]
+[[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)] -
+[[python.org](https://docs.python.org/3/tutorial/controlflow.html)]
 
 Perhaps the most well-known statement type is the if statement.
+
+The if statement is used for conditional execution:
+
+It selects exactly one of the suites by evaluating the expressions one by one until one is found to be true (see section Boolean operations for the definition of true and false); then that suite is executed (and no other part of the if statement is executed or evaluated). If all expressions are false, the suite of the else clause, if present, is executed.
 
 ```python
 >>> x = int(input("Please enter an integer: "))
