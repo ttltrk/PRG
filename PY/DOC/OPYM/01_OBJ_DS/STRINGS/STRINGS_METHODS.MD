@@ -13,7 +13,7 @@ Strings Methods
 * <a href="#5">istitle()</a>
 * <a href="#6">isspace()</a>
 * <a href="#7">isalnum()</a>
-* count()
+* <a href="#8">count()</a>
 * len()
 * title()
 * capitalize()
