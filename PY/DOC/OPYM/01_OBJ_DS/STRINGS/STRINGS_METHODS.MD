@@ -7,7 +7,7 @@ Strings Methods
 * <a href="#1">isdigit()</a>
 * <a href="#2">isalpha()</a>
 * <a href="#3">islower()</a>
-* isupper()
+* <a href="#4">isupper()</a>
 * istitle()
 * isspace()
 * str.isalnum()
@@ -109,7 +109,24 @@ False
 >>>
 ```
 
-* isupper()
+### <h3 id="4">isupper()</h3>
+
+The method isupper() checks whether all the case-based characters (letters) of the string are uppercase.
+
+```python
+str = "this is string example....wow!!!";
+print(str.isupper())
+
+str = "this";
+print(str.isupper())
+
+str = "THIS";
+print(str.isupper())
+
+str = "THIS IS IT";
+print(str.isupper())
+```
+
 * istitle()
 * isspace()
 * str.isalnum()
