@@ -33,3 +33,50 @@ Strings Methods
 * rsplit()
 * join()
 * splitlines()
+
+* isdigit()
+
+This method returns true if all characters in the string are digits and there is at least one character, false otherwise.
+
+```python
+str = "123456";  # Only digit in this string
+print(str.isdigit())
+
+str = "123 456";  # Only digit in this string
+print(str.isdigit())
+
+str = "this is string example....wow!!!";
+print(str.isdigit())
+
+str = "this";
+print(str.isdigit())
+```
+
+* isalpha()
+* islower()
+* isupper()
+* istitle()
+* isspace()
+* str.isalnum()
+* count()
+* len()
+* title()
+* capitalize()
+* lower()
+* upper()
+* swapcase()
+* center()
+* zfill()
+* strip()
+* expandtabs()
+* translate()
+* replace()
+* partition()
+* endswith()
+* startswith()
+* find()
+* index()
+* split()
+* rsplit()
+* join()
+* splitlines()
