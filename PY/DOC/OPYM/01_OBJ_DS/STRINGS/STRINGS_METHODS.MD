@@ -8,7 +8,7 @@ Strings Methods
 * <a href="#2">isalpha()</a>
 * <a href="#3">islower()</a>
 * <a href="#4">isupper()</a>
-* istitle()
+* <a href="#5">istitle()</a>
 * isspace()
 * str.isalnum()
 * count()
@@ -127,7 +127,35 @@ str = "THIS IS IT";
 print(str.isupper())
 ```
 
-* istitle()
+### <h3 id="5">istitle()</h3>
+
+The method istitle() checks whether all the case-based characters in the string following non-casebased letters are uppercase and all other case-based characters are lowercase.
+
+```python
+str = "This Is String Example....Wow!!!";
+print(str.istitle())
+
+str = "This is string example....wow!!!";
+print(str.istitle())
+
+str = "This";
+print(str.istitle())
+
+str = "this";
+print(str.istitle())
+
+str = "THIS";
+print(str.istitle())
+
+>>>
+True
+False
+True
+False
+False
+>>>
+```
+
 * isspace()
 * str.isalnum()
 * count()
