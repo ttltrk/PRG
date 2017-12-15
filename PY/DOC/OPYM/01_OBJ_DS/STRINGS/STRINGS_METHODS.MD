@@ -2,6 +2,8 @@
 Strings Methods
 ======
 
+[[tutorialspoint.com](https://www.tutorialspoint.com/python/)]
+
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
 
 * <a href="#1">isdigit()</a>
