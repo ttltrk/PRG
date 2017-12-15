@@ -5,8 +5,8 @@ Strings Methods
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
 
 * <a href="#1">isdigit()</a>
-* isalpha()
-* islower()
+* <a href="#2">isalpha()</a>
+* <a href="#3">islower()</a>
 * isupper()
 * istitle()
 * isspace()
@@ -59,8 +59,56 @@ False
 >>>   
 ```
 
-* isalpha()
-* islower()
+### <h3 id="2">isalpha()</h3>
+
+The method isalpha() checks whether the string consists of alphabetic characters only.
+
+```python
+str = "123456";  
+print(str.isalpha())
+
+str = "123 456";  
+print(str.isalpha())
+
+str = "this is string example....wow!!!";
+print(str.isalpha())
+
+str = "this";
+print(str.isalpha())
+
+>>>
+False
+False
+False
+True
+>>>
+```
+
+### <h3 id="3">islower()</h3>
+
+The method islower() checks whether all the case-based characters (letters) of the string are lowercase.
+
+```python
+str = "this is string example....wow!!!";
+print(str.islower())
+
+str = "this";
+print(str.islower())
+
+str = "THIS";
+print(str.islower())
+
+str = "THIS IS IT";
+print(str.islower())
+
+>>>
+True
+True
+False
+False
+>>>
+```
+
 * isupper()
 * istitle()
 * isspace()
