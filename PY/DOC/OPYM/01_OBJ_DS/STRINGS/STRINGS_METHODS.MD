@@ -4,7 +4,7 @@ Strings Methods
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
 
-* isdigit()
+* <a href="#1">isdigit()</a>
 * isalpha()
 * islower()
 * isupper()
@@ -34,7 +34,7 @@ Strings Methods
 * join()
 * splitlines()
 
-* isdigit()
+### <h3 id="1">isdigit()</h3>
 
 This method returns true if all characters in the string are digits and there is at least one character, false otherwise.
 
