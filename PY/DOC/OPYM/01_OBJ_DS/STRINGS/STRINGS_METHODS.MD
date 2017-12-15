@@ -223,7 +223,41 @@ False
 >>>
 ```
 
-* count()
+### <h3 id="8">count()</h3>
+
+The method count() returns the number of occurrences of substring sub in the range [start, end]. Optional arguments start and end are interpreted as in slice notation.
+
+count() parameters
+  * sub − This is the substring to be searched.
+  * start − Search starts from this index. First character starts from 0 index. By default search starts from 0 index.
+  * end − Search ends from this index. First character starts from 0 index. By default search ends at the last index.
+  
+```python
+string = "Python is awesome, isn't it?"
+substring = "is"
+
+count = string.count(substring)
+
+print("The count is:", count)
+
+>>>
+The count is: 2
+>>>
+```
+
+```python
+string = "it is it and just it"
+substring = "it"
+
+count = string.count(substring)
+
+print("The count is:", count)
+
+>>>
+The count is: 3
+>>>
+```
+
 * len()
 * title()
 * capitalize()
