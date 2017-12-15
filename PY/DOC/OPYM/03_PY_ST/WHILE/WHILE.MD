@@ -2,11 +2,15 @@
 while Loops
 ======
 
+[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb) -
+[tutorialspoint.com](https://www.tutorialspoint.com/python/python_while_loop.htm) - 
+[wiki.python.org](https://wiki.python.org/moin/WhileLoop)
+
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-[while loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
+A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.
 
-[while loops.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512318?start=0)
+While loops, like the ForLoop, are used for repeating sections of code - but unlike a for loop, the while loop will not run n times, but until a defined condition is no longer met. If the condition is initially false, the loop body will not be executed at all.
 
 ```python
 x = 0
