@@ -39,10 +39,10 @@ Strings Methods
 This method returns true if all characters in the string are digits and there is at least one character, false otherwise.
 
 ```python
-str = "123456";  # Only digit in this string
+str = "123456"; 
 print(str.isdigit())
 
-str = "123 456";  # Only digit in this string
+str = "123 456"; 
 print(str.isdigit())
 
 str = "this is string example....wow!!!";
