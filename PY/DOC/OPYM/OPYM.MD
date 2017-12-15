@@ -23,7 +23,7 @@ OPyM 1.0
 ### Section 1.3 - Python Statements
   * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
   * [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
-  * [while loops]()
+  * [while loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/WHILE/WHILE.MD)
   * [range()]()
   * [List Comprehensions]()
   
