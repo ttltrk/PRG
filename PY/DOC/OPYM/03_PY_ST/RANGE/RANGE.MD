@@ -4,6 +4,8 @@ range()
 
 [jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Range%28%29.ipynb)
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 ```python
 >>> x = range(1,5)
 >>> type (x)
