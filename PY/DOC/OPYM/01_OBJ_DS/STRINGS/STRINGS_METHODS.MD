@@ -16,7 +16,7 @@ Strings Methods
 * <a href="#8">count()</a>
 * <a href="#9">len()</a>
 * <a href="#10">title()</a>
-* capitalize()
+* <a href="#11">capitalize()</a>
 * lower()
 * upper()
 * swapcase()
@@ -308,7 +308,23 @@ Yo
 >>>
 ```
 
-* capitalize()
+### <h3 id="11">capitalize()</h3>
+
+It returns a copy of the string with only its first character capitalized.
+
+```python
+str = "This";
+print("str.capitalize() : ", str.capitalize())
+
+str = "this";
+print("str.capitalize() : ", str.capitalize())
+
+>>>
+str.capitalize() :  This
+str.capitalize() :  This
+>>>
+```
+
 * lower()
 * upper()
 * swapcase()
