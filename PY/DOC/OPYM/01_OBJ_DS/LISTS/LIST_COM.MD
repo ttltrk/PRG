@@ -4,6 +4,8 @@ List Comprehensions
 
 [jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb)
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+
 ```python
 l = []
 
