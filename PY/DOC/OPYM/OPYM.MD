@@ -24,9 +24,8 @@ OPyM 1.0
   * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
   * [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
   * [while loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/WHILE/WHILE.MD)
-  * [range()]()
-  * [List Comprehensions]()
-  
+  * [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
+    
 ### Section 1.4 - Methods and Functions
   * [Methods]()
   * [Functions]()
