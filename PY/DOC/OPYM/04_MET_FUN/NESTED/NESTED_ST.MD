@@ -19,10 +19,11 @@ print (printer())
 >>>
 ```
 
-```python
-"""
 LOCAL
-"""
+
+```python
+
+
 
 f = lambda x: x**2
 
@@ -33,10 +34,9 @@ print (f(2))
 >>>
 ```
 
-```python
-"""
 ENCLOSING FUNCTION LOCAL
-"""
+
+```python
 
 name = "glob name"
 
@@ -56,10 +56,9 @@ Hello Sammy
 >>>
 ```
 
-```python
-"""
 ENCLOSING FUNCTION LOCAL
-"""
+
+```python
 
 name = "glob name"
 
@@ -102,10 +101,9 @@ BUILT-IN
 len
 ```
 
-```python
-"""
 LOCAL VARIABLES
-"""
+
+```python
 
 x = 50
 
@@ -124,10 +122,9 @@ but x is still 50
 >>>
 ```
 
-```python
-"""
 LOCAL VARIABLES
-"""
+
+```python
 
 x = 50
 
@@ -146,11 +143,9 @@ but x is still 50
 >>> 
 ```
 
-```python
-"""
 GLOBAL STATEMENT
-"""
 
+```python
 x = 50
 
 def func():
