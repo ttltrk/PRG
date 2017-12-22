@@ -4,6 +4,8 @@ Lambda Expressions
 
 [jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lambda%20expressions.ipynb)
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 ```python
 def square(num):
     result = num**2
