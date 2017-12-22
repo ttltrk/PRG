@@ -4,6 +4,8 @@ Functions
 
 [jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions.ipynb)
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
 ```python
 def name_of_function():
 	pass
