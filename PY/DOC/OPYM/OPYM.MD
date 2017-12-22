@@ -23,13 +23,14 @@ OPyM 1.0
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
   * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
   * [Nested Statements and Scope]()
-  
-* [[python.org](https://docs.python.org/3/tutorial/index.html)] 
-* [[jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
-* [[digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)]
-* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)]
-* [[Google's Python Class](https://developers.google.com/edu/python/)]
-* [[effbot.org](http://effbot.org/zone/librarybook-index.htm)]
+ 
+### Links
+  * [[python.org](https://docs.python.org/3/tutorial/index.html)] 
+  * [[jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
+  * [[digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)]
+  * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)]
+  * [[Google's Python Class](https://developers.google.com/edu/python/)]
+  * [[effbot.org](http://effbot.org/zone/librarybook-index.htm)]
 
 
 
