@@ -25,12 +25,12 @@ OPyM 1.0
   * [Nested Statements and Scope]()
  
 ### Links
-  * [[python.org](https://docs.python.org/3/tutorial/index.html)] 
-  * [[jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
-  * [[digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)]
-  * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)]
-  * [[Google's Python Class](https://developers.google.com/edu/python/)]
-  * [[effbot.org](http://effbot.org/zone/librarybook-index.htm)]
+  * [python.org](https://docs.python.org/3/tutorial/index.html)
+  * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+  * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)
+  * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)
+  * [Google's Python Class](https://developers.google.com/edu/python/)
+  * [effbot.org](http://effbot.org/zone/librarybook-index.htm)
 
 
 
