@@ -56,8 +56,6 @@ Hello Sammy
 >>>
 ```
 
-ENCLOSING FUNCTION LOCAL
-
 ```python
 
 name = "glob name"
@@ -79,11 +77,9 @@ Hello Steve and Hello Sammy
 >>>
 ```
 
-```python
-"""
 GLOBAL
-"""
 
+```python
 name = "Annie"
 
 print (name)
@@ -121,8 +117,6 @@ Changed local x to 2
 but x is still 50
 >>>
 ```
-
-LOCAL VARIABLES
 
 ```python
 
