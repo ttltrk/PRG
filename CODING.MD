@@ -8,5 +8,5 @@ Coding
 
   * JAN
     * 03-WED : Learning about Python [Objects](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OBJECTS/OBJECTS.MD). 
-Checked some old udemy tutorials, and updated [OPYM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD).
+Checked some old udemy tutorials, and updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD).
 
