@@ -23,6 +23,13 @@ OPyM 1.0
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
   * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
   * [Nested Statements and Scope]()
+  
+### Section 2.1 - Object Oriented Programming
+  * [Objects]()
+  * [Classes]()
+  * [Methods]()
+  * [Inheritance]()
+  * [Special Methods]()
  
 ### Links
   * [python.org](https://docs.python.org/3/tutorial/index.html)
