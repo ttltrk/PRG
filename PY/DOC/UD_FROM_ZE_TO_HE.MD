@@ -2820,14 +2820,11 @@ print(type(square))
 
 
 
-054. OOP - PT2 - CLASSES
+### <h3 id="54">054. OOP - PT2 - CLASSES</h3>
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
+[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb)
 
-----------------------------------
-
-#054.1.
-
+```python
 class Sample(object):
     pass
 
@@ -2838,11 +2835,9 @@ print(x)
 >>>
 <__main__.Sample object at 0x02D77E50>
 >>>
+```
 
-----------------------------------
-
-#054.2.
-
+```python
 class Dog(object):
 
     def __init__(self, breed):
@@ -2855,11 +2850,9 @@ print(sam)
 >>>
 <__main__.Dog object at 0x02D27E50>
 >>>
+```
 
-----------------------------------
-
-#054.3.
-
+```python
 class Dog(object):
 
     def __init__(self, breed):
@@ -2872,11 +2865,9 @@ print(sam.breed)
 >>>
 Lab
 >>>
+```
 
-----------------------------------
-
-#054.4.
-
+```python
 class Dog(object):
 
     #Class Object Attribute
@@ -2892,11 +2883,9 @@ print(sam.species)
 >>>
 mammal
 >>>
+```
 
-----------------------------------
-
-#054.5.
-
+```python
 class Dog(object):
 
     #Class Object Attribute
@@ -2913,11 +2902,9 @@ print(sam.name)
 >>>
 Sammy
 >>>
+```
 
-----------------------------------
-
-#054.6.
-
+```python
 class Dog(object):
 
     #Class Object Attribute
@@ -2935,34 +2922,22 @@ print(sam.fur)
 >>>
 True
 >>>
+```
 
-----------------------------------
+### <h3 id="55">055. OOP - PT3 - METHODS</h3>
 
---------------------------------------------------------------------------
+[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-055. OOP - PT3 - METHODS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
-
-----------------------------------
-
-#055.1.
-
+```python
 class Circle(object):
     pass
 	
 >>>
 None
 >>>
+```
 
-----------------------------------
-
-#055.2.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -2978,11 +2953,9 @@ print(c)
 >>>
 <__main__.Circle object at 0x02D47E50>
 >>>
+```
 
-----------------------------------
-
-#055.3.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -3000,11 +2973,9 @@ print(c.radius)
 3.14
 1
 >>>
+```
 
-----------------------------------
-
-#055.4.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -3022,11 +2993,9 @@ print(c.radius)
 3.14
 100
 >>>
+```
 
-----------------------------------
-
-#055.5.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -3046,11 +3015,9 @@ print(c.area)
 >>>
 <bound method Circle.area of <__main__.Circle object at 0x02D87E50>>
 >>>
+```
 
-----------------------------------
-
-#055.6.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -3070,11 +3037,9 @@ print(c.area())
 >>>
 31400.0
 >>>
+```
 
-----------------------------------
-
-#055.7.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -3100,11 +3065,9 @@ print(c.radius)
 >>>
 20
 >>>
+```
 
-----------------------------------
-
-#055.8.
-
+```python
 class Circle(object):
 
     #Class object attributes
@@ -3132,23 +3095,13 @@ print(c.get_radius())
 >>>
 10
 >>>
+```
 
-----------------------------------
+### <h3 id="56">056. OOP - PT4 - INHERITANCE</h3>
 
---------------------------------------------------------------------------
+[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
-
-056. OOP - PT4 - INHERITANCE
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
-
-----------------------------------
-
-#056.1.
-
+```python
 class Animal(object):
 
     def __init__(self):
@@ -3161,11 +3114,9 @@ print(a)
 >>>
 Animal created
 >>>
+```
 
-----------------------------------
-
-#056.2.
-
+```python
 class Animal(object):
 
     def __init__(self):
@@ -3203,23 +3154,14 @@ Dog
 Eating
 woof!
 >>>
+```
 
-----------------------------------
+### <h3 id="57">057. OOP - PT5 - SPECIAL METHODS</h3>
 
---------------------------------------------------------------------------
+[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
---------------------------------------------------------------------------
-
-057. OOP - PT5 - SPECIAL METHODS
-
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Object%20Oriented%20Programming.ipynb
-
-----------------------------------
-
-#057.1.
-
+```python
 class Book(object):
 
     def __init__(self, title, author, pages):
@@ -3236,11 +3178,9 @@ print(b)
 >>>
 A book has been created!
 >>>
+```
 
-----------------------------------
-
-#057.2.
-
+```python
 class Book(object):
 
     def __init__(self, title, author, pages):
@@ -3262,11 +3202,9 @@ print(b)
 A book has been created!
 Title: Python, Author: Jose, pages: 100
 >>>
+```
 
-----------------------------------
-
-#057.3.
-
+```python
 class Book(object):
 
     def __init__(self, title, author, pages):
@@ -3288,11 +3226,9 @@ print(len(b))
 A book has been created!
 100
 >>>
+```
 
-----------------------------------
-
-#057.4.
-
+```python
 class Book(object):
 
     def __init__(self, title, author, pages):
@@ -3314,14 +3250,7 @@ del b
 A book has been created!
 A book is gone!
 >>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 058. OOP - HOMEWORK ASSIGNMENT
 
