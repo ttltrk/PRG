@@ -4,11 +4,7 @@ Coding
 
 [<<<](https://github.com/ttltrk/0con/blob/master/README.MD)
 
-[accomplished courses](https://github.com/ttltrk/Courses/blob/master/README.MD)
-
-goal for 2018: 1 py course per month from udemy
-
-actual status: 1st in progress
+[completed courses](https://github.com/ttltrk/Courses/blob/master/README.MD)
 
 ### 2018
 
