@@ -6,6 +6,10 @@ Coding
 
 [accomplished courses](https://github.com/ttltrk/Courses/blob/master/README.MD)
 
+goal for 2018: 1 py course from udemy
+
+actual status: 1st in progress
+
 ### 2018
 
   * JAN
