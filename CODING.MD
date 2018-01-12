@@ -10,6 +10,8 @@ Coding
 
   * JAN
   
+    * 12 : (Fri) - Errors and Exceptions for Python
+    * 11 : (Thu) - checking udemy courses
     * 10 : (Wed) - [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) was updated with [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
     * 09 : (Tue) - Updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) with [Inheritance](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/INHERITANCE/INHERITANCE.MD).
     * 08 : (Mon) - Learned about the OOP Methods from [udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512388?start=615). Updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD).
