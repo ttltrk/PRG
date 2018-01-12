@@ -10,7 +10,7 @@ Coding
 
   * JAN
   
-    * 12 : (Fri) - Error and Exception examples for Python
+    * 12 : (Fri) - Updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) with [Errors and Exceptions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/06_ERR_EXE/ERR_EXE.MD) topic. 
     * 11 : (Thu) - checking udemy courses
     * 10 : (Wed) - [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) was updated with [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
     * 09 : (Tue) - Updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) with [Inheritance](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/INHERITANCE/INHERITANCE.MD).
