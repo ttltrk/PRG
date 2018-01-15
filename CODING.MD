@@ -9,6 +9,9 @@ Coding
 ### 2018
 
   * JAN
+   
+    * 15 : (Mon) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547624?start=0)(try, except, finally - Finished this section.)
+    * 14 : (Sun) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547624?start=0)(try, except, finally Part2)
     * 13 : (Sat) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547624?start=0)(try, except, finally Part1) | [codecademy]()(1-2) | [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
     * 12 : (Fri) - Updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) with [Errors and Exceptions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/06_ERR_EXE/ERR_EXE.MD) topic. 
     * 11 : (Thu) - checking udemy courses
