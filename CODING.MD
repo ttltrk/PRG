@@ -8,6 +8,8 @@ Coding
 
 ### 2018
 
+DIR - 8
+
   * JAN
    
     * 15 : (Mon) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547624?start=0) (try, except, finally - Finished this section.)
