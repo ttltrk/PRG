@@ -2,6 +2,8 @@
 Modules and Packages
 ======
 
+[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Modules%20and%20Packages.ipynb)
+
 ```python
 import math
 
