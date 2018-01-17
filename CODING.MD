@@ -12,6 +12,7 @@ DIR - 8
 
   * JAN
    
+    * 17 : (Wed) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512566?start=0) (Finished the Modules and Packages Section). 61% - Complete Python Bootcamp: Go from zero to hero in Python
     * 16 : (Tue) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512566?start=0) (Modules and Packages Pt1) 
     * 15 : (Mon) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547624?start=0) (try, except, finally - Finished this section.)
     * 14 : (Sun) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547624?start=0) (try, except, finally Part2)
