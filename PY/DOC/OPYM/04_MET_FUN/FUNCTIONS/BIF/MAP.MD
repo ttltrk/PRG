@@ -29,3 +29,25 @@ print(map(fahrenheit, temp))
 <map object at 0x7f0c4701afd0>
 >>>
 ```
+
+```python
+temp = [2, 10, 15]
+
+print(map(lambda T: (9.0/5)*T + 32, temp))
+
+>>>
+<map object at 0x7f5616253b00>
+>>>
+```
+
+```python
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = [7, 8, 9]
+
+print(map(lambda x, y: x+y, a, b))
+
+>>>
+<map object at 0x7f954b6c7ac8>
+>>>
+```
