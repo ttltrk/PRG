@@ -31,7 +31,11 @@ OPyM 1.0
   * [Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/METHODS/METHODS.MD)
   * [Inheritance](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/INHERITANCE/INHERITANCE.MD)
   * [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
- 
+  
+### Section 1.6 - Modules and Packages
+  * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
+  * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
+   
 ### Links
   * [python.org](https://docs.python.org/3/tutorial/index.html)
   * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
