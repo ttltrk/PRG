@@ -34,22 +34,12 @@ print(map(fahrenheit, temp))
 ```python
 temp = [2, 10, 15]
 
-print(map(lambda T: (9.0/5)*T + 32, temp))
+x = list(map(lambda T: (9.0/5)*T + 32, temp))
+
+print(x)
 
 >>>
-<map object at 0x7f5616253b00>
->>>
-```
-
-```python
-a = [1, 2, 3]
-b = [4, 5, 6]
-c = [7, 8, 9]
-
-print(map(lambda x, y: x+y, a, b))
-
->>>
-<map object at 0x7f954b6c7ac8>
+[35.6, 50.0, 59.0]
 >>>
 ```
 
@@ -58,14 +48,30 @@ a = [1, 2, 3]
 b = [4, 5, 6]
 c = [7, 8, 9]
 
-print(map(lambda x, y, z: x+y+z, a, b, c))
+x = list(map(lambda x, y: x+y, a, b))
+
+print(x)
 
 >>>
-<map object at 0x7f25e67fe080>
+[5, 7, 9]
 >>>
 ```
 
+```python
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = [7, 8, 9]
+
+x = list(map(lambda x, y, z: x+y+z, a, b, c))
+
+print(x)
+
+>>>
+[12, 15, 18]
+>>>
 ```
+
+```python
 items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
 
