@@ -51,3 +51,15 @@ print(map(lambda x, y: x+y, a, b))
 <map object at 0x7f954b6c7ac8>
 >>>
 ```
+
+```python
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = [7, 8, 9]
+
+print(map(lambda x, y, z: x+y+z, a, b, c))
+
+>>>
+<map object at 0x7f25e67fe080>
+>>>
+```
