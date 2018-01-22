@@ -63,3 +63,14 @@ print(map(lambda x, y, z: x+y+z, a, b, c))
 <map object at 0x7f25e67fe080>
 >>>
 ```
+
+```
+items = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x**2, items))
+
+print(squared)
+
+>>>
+[1, 4, 9, 16, 25]
+>>>
+```
