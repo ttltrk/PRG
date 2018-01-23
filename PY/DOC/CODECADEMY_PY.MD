@@ -309,6 +309,8 @@ True False
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='4'>You've Been Reassigned</h3>
 
 ```python
@@ -325,6 +327,8 @@ print (my_int)
 3
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='5'>Whitespace</h3>
 
@@ -345,6 +349,8 @@ Syntax error
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='6'>Whitespace Means Right Space</h3>
 
 ```python
@@ -363,6 +369,8 @@ print (spam())
 12
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='7'>A Matter of Interpretation</h3>
 
@@ -384,6 +392,8 @@ False
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='8'>Single Line Comments</h3>
 
 ```python
@@ -400,6 +410,8 @@ print(mysterious_variable)
 42
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='9'>Multi-Line Comments</h3>
 
@@ -421,6 +433,8 @@ print(mysterious_variable)
 11
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='10'>Math</h3>
 
@@ -445,6 +459,8 @@ print (count_to)
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='11'>Exponentiation</h3>
 
 ```python
@@ -465,6 +481,8 @@ print (eggs)
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='12'>Modulo</h3>
 
 ```python
@@ -480,6 +498,8 @@ print (spam)
 1
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='13'>Bringing It All Together</h3>
 
@@ -505,6 +525,8 @@ print(monty_python)
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='14'>The Meal</h3>
 
 ```python
@@ -521,6 +543,8 @@ print(meal)
 44.5
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='15'>The Tax</h3>
 
@@ -540,6 +564,8 @@ print(tax)
 0.0675
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='16'>The Tip</h3>
 
@@ -564,6 +590,8 @@ print(tip)
 0.15
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='17'>Reassign in a Single Line</h3>
 
@@ -594,6 +622,8 @@ print(meal_total)
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='18'>The Total</h3>
 
 ```python
@@ -615,6 +645,7 @@ print("%.2f" % total)
 >>>
 ```
 
+<a href='#home'>↑</a3>
 
 <h3 id='19'>Strings</h3>
 
@@ -631,6 +662,8 @@ print(brian)
 Hello life!
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='20'>Practice</h3>
 
@@ -653,6 +686,8 @@ print(caesar, praline, viking)
 Graham John Teresa
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 ################################################################
 
