@@ -1,3 +1,4 @@
+
 [Learn Python](https://www.codecademy.com/learn/learn-python)
 ======
 
@@ -236,8 +237,6 @@
 
 <h3 id='1'>Welcome!</h3>
 
-Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
-
 ```python
 print ("Welcome to Python!")
 
@@ -247,17 +246,6 @@ Welcome to Python!
 ```
 
 <h3 id='2'>Variables</h3>
-
-Creating web apps, games, and search engines all involve storing and working with different types of data. 
-They do so using variables. A variable stores a piece of data, and gives it a specific name.
-
-For example:
-
-```python
-spam = 5
-```
-
-The variable spam now stores the number 5.
 
 ```python
 """
@@ -283,19 +271,6 @@ print(curry)
 >>>
 ```
 <h3 id='3'>Booleans</h3>
-
-Great! You just stored a number in a variable. Numbers are one data type we use in programming. 
-A second data type is called a boolean.
-
-A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, 
-a boolean can only be True or False.
-
-You can use variables to store booleans like this:
-
-```python
-a = True
-b = False
-```
 
 ```python
 """
@@ -327,14 +302,6 @@ True False
 
 <h3 id='4'>You've Been Reassigned</h3>
 
-Now you know how to use variables to store values.
-
-Say my_int = 7. You can change the value of a variable by "reassigning" it, like this:
-
-```python
-my_int = 3
-```
-
 ```python
 """
 Try it and see! Change the value of my_int from 7 to 3 in the editor
@@ -351,8 +318,6 @@ print (my_int)
 ```
 
 <h3 id='5'>Whitespace</h3>
-
-In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it.
 
 ```python
 """
@@ -373,16 +338,6 @@ Syntax error
 
 <h3 id='6'>Whitespace Means Right Space</h3>
 
-Now let's examine the error from the last lesson:
-
-IndentationError: expected an indented block
-You'll get this error whenever your whitespace is off.
-
-On Codecademy, we will use two-space indentation (two blank spaces for each indentation) 
-to make sure you can easily read code with multiple indentations in your browser. Beyond Codecademy, 
-you will also see Python code that uses four-space indentation. Both are correct, 
-as long as you make sure to be consistent throughout your code.
-
 ```python
 """
 Properly indent the code with two spaces before eggs on line 2 and another two before return on line 3.
@@ -402,19 +357,9 @@ print (spam())
 
 <h3 id='7'>A Matter of Interpretation</h3>
 
-The window on the right side of the page is called the interpreter. 
-The interpreter runs your code line by line, and checks for any errors.
-
-```python
-cats = 3
-```
-
-In the above example, we create a variable cats and assign it the value of 3.
-
 ```python
 """
 Create a variable called spam and assign it the value of True.
-
 Create a variable called eggs and assign it the value of False.
 """
 
@@ -432,13 +377,6 @@ False
 
 <h3 id='8'>Single Line Comments</h3>
 
-You probably saw us use the ```#``` sign a few times in earlier exercises. 
-The ```#``` sign is for comments. A comment is a line of text that Python won't try to run as code. 
-It's just for humans to read.
-
-Comments make your program easier to understand. When you look back at your code or others want to collaborate with you, 
-they can read your comments and easily figure out what your code does.
-
 ```python
 """
 Write a comment on line 1. Make sure it starts with #. It can say anything you like.
@@ -455,17 +393,6 @@ print(mysterious_variable)
 ```
 
 <h3 id='9'>Multi-Line Comments</h3>
-
-The ```#``` sign will only comment out a single line. While you could write a multi-line comment, 
-starting each line with ```#```, that can be a pain.
-
-Instead, for multi-line comments, you can include the whole block in a set of triple quotation marks:
-
-```python
-"""Sipping from your cup 'til it runneth over,
-Holy Grail.
-"""
-```
 
 ```python
 """
@@ -487,8 +414,6 @@ print(mysterious_variable)
 ```
 
 <h3 id='10'>Math</h3>
-
-Great! Now let's do some math. You can add, subtract, multiply, divide numbers like this
 
 ```python
 addition = 72 + 23
@@ -513,19 +438,6 @@ print (count_to)
 
 <h3 id='11'>Exponentiation</h3>
 
-All that math can be done on a calculator, so why use Python? Because you can combine math with other data types 
-(e.g. booleans) and commands to create useful programs. Calculators just stick to numbers.
-
-Now let's work with exponents.
-
-```python
-eight = 2 ** 3
-```
-
-In the above example, we create a new variable called eight and set it to 8, or the result of 2 to the power to 3 (2^3).
-
-Notice that we use ```**``` instead of ```*``` or the multiplication operator.
-
 ```python
 """
 Create a new variable called eggs and use exponents to set eggs equal 100. Try raising 10 to the power of 2.
@@ -546,9 +458,6 @@ print (eggs)
 
 <h3 id='12'>Modulo</h3>
 
-Our final operator is modulo. Modulo returns the remainder from a division. So, if you type ```3 % 2``` it will return 1, 
-because 2 goes into 3 evenly once, with 1 left over.
-
 ```python
 """
 Use modulo to set spam equal to 1. You can use any two numbers that will leave a remainder of 1 to do this.
@@ -564,14 +473,6 @@ print (spam)
 ```
 
 <h3 id='13'>Bringing It All Together</h3>
-
-Nice work! So far, you've learned about:
-
-Variables, which store values for later use
-Data types, such as numbers and booleans
-Whitespace, which separates statements
-Comments, which make your code easier to read
-Arithmetic operations, including ```+```, ```-```, ```*```, ```/```, ```**```, and ```%```
 
 ```python
 """
@@ -597,16 +498,6 @@ print(monty_python)
 
 <h3 id='14'>The Meal</h3>
 
-Now let's apply the concepts from the previous section to a real world example.
-
-You've finished eating at a restaurant, and received this bill:
-
-Cost of meal: $44.50
-Restaurant tax: 6.75%
-Tip: 15%
-
-You'll apply the tip to the overall cost of the meal (including tax).
-
 ```python
 """
 First, let's declare the variable meal and assign it the value 44.50.
@@ -623,11 +514,6 @@ print(meal)
 ```
 
 <h3 id='15'>The Tax</h3>
-
-Good! Now let's create a variable for the tax percentage.
-
-The tax on your receipt is 6.75%. You'll have to divide 6.75 by 100 in order to get the decimal form of the percentage. 
-(See the Hint if you would like further explanation.)
 
 ```python
 """
@@ -647,11 +533,6 @@ print(tax)
 ```
 
 <h3 id='16'>The Tip</h3>
-
-Nice work! You received good service, so you'd like to leave a 15% tip on top of the cost of the meal, including tax.
-
-Before we compute the tip for your bill, let's set a variable for the tip. Again, we need to get the decimal form of the tip, 
-so we divide 15.0 by 100. Note we have to use 15.0 instead of 15 to ensure our program keeps the decimal points when dividing.
 
 ```python
 """
@@ -676,11 +557,6 @@ print(tip)
 ```
 
 <h3 id='17'>Reassign in a Single Line</h3>
-
-Okay! We've got the three variables we need to perform our calculation, and we know some arithmetic operators that can help us out.
-
-We saw in Lesson 1 that we can reassign variables. For example, we could say ```spam = 7```, then later change our minds and say 
-```spam = 3```.
 
 ```python
 """
@@ -711,11 +587,6 @@ print(meal_total)
 
 <h3 id='18'>The Total</h3>
 
-Now that meal has the cost of the food plus tax, let's introduce on line 8 a new variable, total, equal to the new meal + meal * tip.
-
-The code on line 10 formats and prints to the console the value of total with exactly two numbers after the decimal. 
-(We'll learn about string formatting, the console, and print in Unit 2!)
-
 ```python
 """
 Assign the variable total to the sum of meal + meal * tip on line 8. Now you have the total cost of your meal!
@@ -738,18 +609,6 @@ print("%.2f" % total)
 
 <h3 id='19'>Strings</h3>
 
-Another useful data type is the string. A string can contain letters, numbers, and symbols.
-
-```python
-name = "Ryan"
-age = "19"
-food = "cheese"
-```
-
-In the above example, we create a variable name and set it to the string value "Ryan".
-We also set age to "19" and food to "cheese".
-Strings need to be within quotes.
-
 ```python
 """
 Create a new variable brian and assign it the string "Hello life!".
@@ -765,8 +624,6 @@ Hello life!
 ```
 
 <h3 id='20'>Practice</h3>
-
-Excellent! Let's get a little practice in with strings.
 
 ```python
 """
