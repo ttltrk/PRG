@@ -7,7 +7,7 @@ Coding
 | [completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
 [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) |
 [codecademy - Learn Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) |
-[PY apps]()
+[PY apps](https://github.com/ttltrk/PRG/tree/master/PY/APP)
 
 ### 2018
 
