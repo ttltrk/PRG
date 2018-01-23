@@ -239,8 +239,6 @@
 
 <h3 id='1'>Welcome!</h3>
 
-<a href='#home'>↑</a3>
-
 ```python
 print ("Welcome to Python!")
 
@@ -248,6 +246,8 @@ print ("Welcome to Python!")
 Welcome to Python!
 >>>
 ```
+
+<a href='#home'>↑</a3>
 
 <h3 id='2'>Variables</h3>
 
@@ -274,6 +274,9 @@ print(curry)
 30
 >>>
 ```
+
+<a href='#home'>↑</a3>
+
 <h3 id='3'>Booleans</h3>
 
 ```python
