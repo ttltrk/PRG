@@ -689,23 +689,9 @@ Graham John Teresa
 
 <a href='#home'>↑</a3>
 
-################################################################
+<h3 id='21'>Escaping Characters</h3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-02.001.0003. Escaping Characters
-
-################################################################
-
-There are some characters that cause problems. For example:
-
-'There's a snake in my boot!'
-This code breaks because Python thinks the apostrophe in 'There's' ends the string. 
-We can use the backslash to fix the problem, like this:
-
-'There\'s a snake in my boot!'
-
-----------------------------------------------------------------
+```python
 """
 Fix the string in the editor!
 """
@@ -713,32 +699,17 @@ Fix the string in the editor!
 var = 'This isn\'t flying, this is falling with style!'
 
 print(var)
-----------------------------------------------------------------
 
 >>>
 This isn't flying, this is falling with style!
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='22'>Access by Index</h3>
 
-02.001.0004. Access by Index
-
-################################################################
-
-Great work!
-
-Each character in a string is assigned a number. This number is called the index. Check out the diagram in the editor.
-
-c = "cats"[0]
-n = "Ryan"[3]
-
-In the above example, we create a new variable called c and set it to "c", the character at index zero of the string "cats".
-Next, we create a new variable called n and set it to "n", the character at index three of the string "Ryan".
-In Python, we start counting the index from zero instead of one.
-
-----------------------------------------------------------------
+```python
 """
 On line 13, assign the variable fifth_letter equal to the fifth letter of the string "MONTY".
 Remember that the fifth letter is not at index 5. Start counting your indices from zero.
@@ -746,34 +717,17 @@ Remember that the fifth letter is not at index 5. Start counting your indices fr
 
 fifth_letter = "MONTY"[4]
 print(fifth_letter)
-----------------------------------------------------------------
 
 >>>
 Y
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='23'>String Methods</h3>
 
-02.001.0005. String Methods
-
-################################################################
-
-Great work! Now that we know how to store strings, let's see how we can change them using string methods.
-
-String methods let you perform specific tasks for strings.
-
-We'll focus on four string methods:
-
-len()
-lower()
-upper()
-str()
-
-Let's start with len(), which gets the length (the number of characters) of a string!
-
-----------------------------------------------------------------
+```python
 """
 On line 1, create a variable named parrot and set it to the string "Norwegian Blue".
 On line 2, type len(parrot) after the word print, like so: print len(parrot).
@@ -787,6 +741,7 @@ print (len(parrot))
 >>>
 14
 >>>
+```
 
 ################################################################
 
