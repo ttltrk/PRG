@@ -12,7 +12,8 @@ DIR - 1
 
   * JAN
     
-    * 22 : (Mon) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512786?start=15) (Finished the part of the Map() Section). Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/MAP.MD). 61% - Complete Python Bootcamp: Go from zero to hero in Python
+    * 23 : (Tue) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512788?start=0) Finished the reduce() section. Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/REDUCE.MD)
+    * 22 : (Mon) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512786?start=15) (Finished the part of the map() Section). Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/MAP.MD). 61% - Complete Python Bootcamp: Go from zero to hero in Python
     * 21 : (Sun) - Rest day.
     * 20 : (Sat) - First 2 section from [Jekyll: make fast, secure static sites and blogs with Jekyll](https://www.udemy.com/static-website-generator-fast-secure-sites-blogs-with-jekyll/learn/v4/content)
     * 19 : (Fri) - Rest day.
