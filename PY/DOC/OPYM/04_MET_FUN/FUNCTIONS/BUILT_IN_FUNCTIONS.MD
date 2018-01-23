@@ -49,4 +49,37 @@ The Python interpreter has a number of functions and types built into it that ar
 * locals
 * [map()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/MAP.MD)
 * max
-* [reduce()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/REDUCE.MD)
+* memoryview
+* min
+* next
+* object
+* oct
+* open
+* ord
+* pow
+* print
+* property
+* range
+* repr
+* [P2 - reduce()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/REDUCE.MD)
+* round
+* set
+* setattr
+* slice
+* sorted
+* staticmethod
+* str
+* sum
+* super
+* tuple
+* type
+* vars
+* zip
+* __import__
+
+
+
+
+
+
+
