@@ -2,6 +2,8 @@
 [Learn Python](https://www.codecademy.com/learn/learn-python)
 ======
 
+<N id='100000001'>
+
 ### Python Syntax
 
 ##### Python Syntax
@@ -235,7 +237,7 @@
 
 #### PYTHON FINAL PROJECT
 
-<h3 id='1'>Welcome!</h3>
+<h3 id='1'>Welcome!</h3><a href='#100000001'>↑</a>
 
 ```python
 print ("Welcome to Python!")
