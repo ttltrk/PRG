@@ -4,7 +4,9 @@ Coding
 
 [<<<](https://github.com/ttltrk/0con/blob/master/README.MD)
 
-[completed courses](https://github.com/ttltrk/Courses/blob/master/README.MD)
+[completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
+[OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/REDUCE.MD) |
+[]()
 
 ### 2018
 
