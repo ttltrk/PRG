@@ -2,7 +2,7 @@
 [Learn Python](https://www.codecademy.com/learn/learn-python)
 ======
 
-<nav id='100000001'>H</nav>
+<h3 id='home'>H</h3>
 
 ### Python Syntax
 
@@ -239,7 +239,7 @@
 
 <h3 id='1'>Welcome!</h3>
 
-<a href='#100000001'>↑</a3>
+<a href='#home'>↑</a3>
 
 ```python
 print ("Welcome to Python!")
