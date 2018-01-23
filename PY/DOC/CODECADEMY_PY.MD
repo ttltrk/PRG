@@ -2,7 +2,7 @@
 [Learn Python](https://www.codecademy.com/learn/learn-python)
 ======
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/CODING.MD)
 
 <h3 id='home'>[H]</h3>
 
