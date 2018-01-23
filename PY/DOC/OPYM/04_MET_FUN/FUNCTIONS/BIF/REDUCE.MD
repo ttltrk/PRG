@@ -6,3 +6,25 @@ reduce()
 
 [jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Reduce.ipynb)
 
+```python
+lst = [1, 2, 3, 4, 5]
+
+print(max(lst))
+
+>>>
+5
+>>>
+```
+
+```
+import functools
+
+lst = [1, 2, 3, 4, 5]
+max_find = lambda a,b: a if (a>b) else b
+
+print(functools.reduce(max_find,lst))
+
+>>>
+5
+>>>
+```
