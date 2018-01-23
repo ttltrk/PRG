@@ -234,14 +234,6 @@
 
 #### PYTHON FINAL PROJECT
 
-Python Syntax
-------
-
-### Python Syntax
-
-This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language 
-you can use for countless standalone projects or scripting applications.
-
 <h3 id='1'>Welcome!</h3>
 
 Python is an easy to learn programming language. You can use it to create web apps, games, even a search engine!
@@ -603,11 +595,6 @@ print(monty_python)
 >>>
 ```
 
-### Tip Calculator
-
-Now that you've completed the lesson on Python syntax, let's see if you can put your newfound skills to use. 
-In this lesson, you'll create a simple calculator that determines the price of a meal after tax and tip.
-
 <h3 id='14'>The Meal</h3>
 
 Now let's apply the concepts from the previous section to a real world example.
@@ -748,36 +735,22 @@ print("%.2f" % total)
 >>>
 ```
 
-################################################################
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-02. Strings and Console Output
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-02.001. Strings & Console Output
-=============================================================================================================
-
-This lesson will introduce you to strings and console output in Python, including creating string literals, 
-calling a variety of string methods, and using the "print" keyword.
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-02.001.0001. Strings
-
-################################################################
+<h3 id='19'>Strings</h3>
 
 Another useful data type is the string. A string can contain letters, numbers, and symbols.
 
+```python
 name = "Ryan"
 age = "19"
 food = "cheese"
+```
 
 In the above example, we create a variable name and set it to the string value "Ryan".
 We also set age to "19" and food to "cheese".
 Strings need to be within quotes.
 
-----------------------------------------------------------------
+```python
 """
 Create a new variable brian and assign it the string "Hello life!".
 """
@@ -785,23 +758,17 @@ Create a new variable brian and assign it the string "Hello life!".
 brian = "Hello life!"
 
 print(brian)
-----------------------------------------------------------------
 
 >>>
 Hello life!
 >>>
+```
 
-################################################################
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-02.001.0002. Practice
-
-################################################################
+<h3 id='20'>Practice</h3>
 
 Excellent! Let's get a little practice in with strings.
 
-----------------------------------------------------------------
+```python
 """
 Set the following variables to their respective phrases:
 
@@ -815,11 +782,11 @@ praline = "John"
 viking = "Teresa"
 
 print(caesar, praline, viking)
-----------------------------------------------------------------
 
 >>>
 Graham John Teresa
 >>>
+```
 
 ################################################################
 
