@@ -239,7 +239,7 @@
 
 <h3 id='1'>Welcome!</h3>
 
-<a href='#100000001'>↑</a>
+<a href='#100000001'>↑</a3>
 
 ```python
 print ("Welcome to Python!")
