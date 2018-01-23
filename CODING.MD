@@ -4,10 +4,10 @@ Coding
 
 [<<<](https://github.com/ttltrk/0con/blob/master/README.MD)
 
-| [completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
-[OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) |
-[codecademy - Learn Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) |
+| [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) |
 [PY apps](https://github.com/ttltrk/PRG/tree/master/PY/APP) |
+[completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
+[codecademy - Learn Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) |
 
 ### 2018
 
