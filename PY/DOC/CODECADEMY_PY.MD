@@ -736,7 +736,6 @@ The output will be the number of letters in "Norwegian Blue"!
 
 parrot = "Norwegian Blue"
 print (len(parrot))
-----------------------------------------------------------------
 
 >>>
 14
