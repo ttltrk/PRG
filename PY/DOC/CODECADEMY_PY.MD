@@ -742,6 +742,8 @@ print (len(parrot))
 >>>
 ```
 
+<a href='#home'>↑</a3>
+
 <h3 id='24'>lower()</h3>
 
 
@@ -829,17 +831,11 @@ Monty Python
 >>>
 ```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='29'>Printing Variables</h3>
 
-02.001.0011. Printing Variables
-
-################################################################
-
-Great! Now that we've printed strings, let's print variables
-
-----------------------------------------------------------------
+```python
 """
 Declare a variable called the_machine_goes and assign it the string value "Ping!" on line 5.
 Go ahead and print the_machine_goes in line 6.
@@ -847,92 +843,51 @@ Go ahead and print the_machine_goes in line 6.
 
 the_machine_goes = "Ping!"
 print (the_machine_goes)
-----------------------------------------------------------------
 
 >>>
 Ping!
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='29'>String Concatenation</h3>
 
-02.001.0012. String Concatenation
-
-################################################################
-
-You know about strings, and you know about arithmetic operators. Now let's combine the two!
-
-print "Life " + "of " + "Brian"
-This will print out the phrase Life of Brian.
-
-The + operator between strings will 'add' them together, one after the other. 
-Notice that there are spaces inside the quotation marks after Life and of so that we can make the combined string look like 3 words.
-
-Combining strings together like this is called concatenation. Let's try concatenating a few strings together now!
-
-----------------------------------------------------------------
+```python
 """
 Let's give it a try. Print the concatenated strings "Spam ", "and ", "eggs" on line 3, just like the example above.
 Make sure you include the spaces at the end of "Spam " and "and ".
 """
 
 print ("Spam" + " " + "and" + " " + "eggs")
-----------------------------------------------------------------
 
 >>>
 Spam and eggs
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='30'>Explicit String Conversion</h3>
 
-02.001.0013. Explicit String Conversion
-
-################################################################
-
-Sometimes you need to combine a string with something that isn't a string. 
-In order to do that, you have to convert the non-string into a string.
-
-print "I have " + str(2) + " coconuts!"
-This will print I have 2 coconuts!.
-
-The str() method converts non-strings into strings. In the above example, you convert the number 2 
-into a string and then you concatenate the strings together just like in the previous exercise.
-
-Now try it yourself!
-
-----------------------------------------------------------------
+```python
 """
 Run the code as-is. You get an error!
 Use str() to turn 3.14 into a string. Then run the code again.
 """
 
 print ("The value of pi is around " + str(3.14))
-----------------------------------------------------------------
 
 >>>
 The value of pi is around 3.14
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='31'>String Formatting with %, Part1</h3>
 
-02.001.0014. String Formatting with %, Part1
-
-################################################################
-
-When you want to print a variable with a string, there is a better method than concatenating strings together.
-
-name = "Mike"
-print "Hello %s" % (name)
-
-The % operator after a string is used to combine a string with variables. 
-The % operator will replace a %s in the string with the string variable that comes after it.
-
-----------------------------------------------------------------
+```python
 """
 Take a look at the code in the editor. What do you think it'll do? Click Run when you think you know.
 """
@@ -941,31 +896,17 @@ string_1 = "Camelot"
 string_2 = "place"
 
 print ("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
-----------------------------------------------------------------
 
 >>>
 Let's not go to Camelot. 'Tis a silly place.
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='32'>String Formatting with %, Part2</h3>
 
-02.001.0015. String Formatting with %, Part2
-
-################################################################
-
-Remember, we used the % operator to replace the %s placeholders with the variables in parentheses.
-
-name = "Mike"
-print "Hello %s" % (name)
-
-You need the same number of %s terms in a string as the number of variables in parentheses:
-
-print "The %s who %s %s!" % ("Knights", "say", "Ni")
-# This will print "The Knights who say Ni!"
-
-----------------------------------------------------------------
+```python
 """
 Now it's your turn! We have ___ in the code to show you what you need to change!
 Inside the string, replace the three ___ with %s.
@@ -980,7 +921,6 @@ color = input("What is your favorite color?")
 
 print ("Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color))
-----------------------------------------------------------------
 
 >>>
 What is your name? trk
@@ -988,37 +928,13 @@ What is your quest? code
 What is your favorite color? green
 Ah, so your name is trk, your quest is code, and your favorite color is green.
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='33'>And Now, For Something Completly Familiar</h3>
 
-02.001.0016. And Now, For Something Completly Familiar
-
-################################################################
-
-Great job! You've learned a lot in this unit, including:
-
-Three ways to create strings
-
-'Alpha'
-"Bravo"
-str(3)
-String methods
-
-len("Charlie")
-"Delta".upper()
-"Echo".lower()
-Printing a string
-
-print "Foxtrot"
-Advanced printing techniques
-
-g = "Golf"
-h = "Hotel"
-print "%s, %s" % (g, h)
-
-----------------------------------------------------------------
+```python
 """
 Let's wrap it all up!
 
@@ -1031,12 +947,12 @@ my_string = "egy"
 
 print (len(my_string))
 print (my_string.upper())
-----------------------------------------------------------------
 
 >>>
 3
 EGY
 >>>
+```
 
 ################################################################
 
