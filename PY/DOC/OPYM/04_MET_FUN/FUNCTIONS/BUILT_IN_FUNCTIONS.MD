@@ -74,7 +74,7 @@ The Python interpreter has a number of functions and types built into it that ar
 * tuple
 * type
 * vars
-* zip
+* [zip()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/ZIP.MD)
 * __import__
 
 
