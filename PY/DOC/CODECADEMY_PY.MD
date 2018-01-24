@@ -742,72 +742,43 @@ print (len(parrot))
 >>>
 ```
 
-################################################################
+<h3 id='24'>lower()</h3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-02.001.0006. lower()
-
-################################################################
-
-Well done!
-
-You can use the lower() method to get rid of all the capitalization in your strings. You call lower() like so:
-
-"Ryan".lower()
-which will return "ryan".
-
-----------------------------------------------------------------
+```python
 """
 Call lower() on parrot (after print) on line 3 in the editor.
 """
 
 parrot = "Norwegian Blue"
 print (parrot.lower())
-----------------------------------------------------------------
 
 >>>
 norwegian blue
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='25'>upper()</h3>
 
-02.001.0007. upper()
-
-################################################################
-
-Now your string is 100% lower case! A similar method exists to make a string completely upper case.
-
-----------------------------------------------------------------
+```python
 """
 Call upper() on parrot (after print on line 3) in order to capitalize all the characters in the string!
 """
 
 parrot = "norwegian blue"
 print (parrot.upper())
-----------------------------------------------------------------
 
 >>>
 NORWEGIAN BLUE
 >>>
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='26'>str()</h3>
 
-02.001.0008. str()
-
-################################################################
-
-Now let's look at str(), which is a little less straightforward. The str() method turns non-strings into strings! For example:
-
-str(2)
-
-would turn 2 into "2".
-
-----------------------------------------------------------------
+```python
 """
 Create a variable pi and set it to 3.14 on line 4.
 Call str(pi) on line 5, after print.
@@ -815,31 +786,17 @@ Call str(pi) on line 5, after print.
 
 pi = 3.14
 print (str(pi))
-----------------------------------------------------------------
 
 >>>
 3.14
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='27'>Dot Notation/The Ministry of Silly Walks</h3>
 
-02.001.0009. Dot Notation/The Ministry of Silly Walks
-
-################################################################
-
-Let's take a closer look at why you use len(string) and str(object), but dot notation (such as "String".upper()) for the rest.
-
-lion = "roar"
-len(lion)
-lion.upper()
-
-Methods that use dot notation only work with strings.
-
-On the other hand, len() and str() can work on other data types.
-
-----------------------------------------------------------------
+```python
 """
 On line 3, call the len() function with the argument ministry.
 On line 4, invoke the ministry's .upper() function.
@@ -849,37 +806,28 @@ ministry = "The Ministry of Silly Walks"
 
 print (len(ministry))
 print (ministry.upper())
-----------------------------------------------------------------
 
 >>>
 27
 THE MINISTRY OF SILLY WALKS
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='28'>Printing Strings</h3>
 
-02.001.0010. Printing Strings
-
-################################################################
-
-The area where we've been writing our code is called the editor.
-
-The console (the window to the right of the editor) is where the results of your code is shown.
-
-print simply displays your code in the console.Print "Monty Python" to the console.
-
-----------------------------------------------------------------
+```python
 """
 Print "Monty Python" to the console.
 """
 
 print ("Monty Python") 
-----------------------------------------------------------------
+
 >>>
 Monty Python 
 >>>
+```
 
 ################################################################
 
