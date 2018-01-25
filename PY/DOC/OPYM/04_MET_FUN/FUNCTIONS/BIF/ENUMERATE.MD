@@ -75,32 +75,14 @@ b
 
 
 ```python
+l = ['a', 'b', 'c']
 
+for (i, item) in enumerate(l):
+  print((i, item))
+  
 >>>
-
->>>
-```
-
-
-```python
-
->>>
-
->>>
-```
-
-
-```python
-
->>>
-
->>>
-```
-
-
-```python
-
->>>
-
+(0, 'a')
+(1, 'b')
+(2, 'c')
 >>>
 ```
