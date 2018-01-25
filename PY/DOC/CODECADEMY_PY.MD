@@ -1127,28 +1127,11 @@ Of course this is the Argument Room, I've told you that already!
 >>>
 ```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='41'>Compare Closely!</h3>
 
-03.001.0002. Compare Closely!
-
-################################################################
-
-Let's start with the simplest aspect of control flow: comparators. There are six:
-
-Equal to (==)
-Not equal to (!=)
-Less than (<)
-Less than or equal to (<=)
-Greater than (>)
-Greater than or equal to (>=)
-
-Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
-
-Note that == compares whether two things are equal, and = assigns a value to a variable.
-
-----------------------------------------------------------------
+```python
 """
 Set each variable to True or False depending on what you think the result will be. For example, 
 1 < 2 will be True, because one is less than two.
@@ -1176,25 +1159,17 @@ bool_four = False
 
 # Set this to True if 99 != (98 + 1) or to False otherwise.
 bool_five = False
-----------------------------------------------------------------
 
 >>>
 None
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='42'>Compare... Closelier!</h3>
 
-03.001.0003. Compare... Closelier!
-
-################################################################
-
-Excellent! It looks like you're comfortable with basic expressions and comparators.
-
-But what about extreme expressions and comparators?
-
-----------------------------------------------------------------
+```python
 """
 Let's run through the comparators again with more complex expressions. 
 Set each variable to True or False depending on what you think the result will be.
@@ -1223,27 +1198,17 @@ bool_four = True
 
 # 100 != 10**2
 bool_five = False
-----------------------------------------------------------------
 
 >>>
 None
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='43'>How the Tables Have Turned</h3>
 
-03.001.0004. How the Tables Have Turned
-
-################################################################
-
-Comparisons result in either True or False, which are booleans as we learned before in this exercise.
-
-# Make me true!
-bool_one = 3 < 5
-Let's switch it up: we'll give the boolean, and you'll write the expression, just like the example above.
-
-----------------------------------------------------------------
+```python
 """
 For each boolean value in the editor, write an expression that evaluates to that value. 
 Remember, comparators are: ==, !=, >, >=, <, and <=.
@@ -1269,11 +1234,11 @@ bool_four = 200 > 200
 
 # Make me true!
 bool_five = 1 >= 1
-----------------------------------------------------------------
 
 >>>
 None
 >>>
+```
 
 ################################################################
 
