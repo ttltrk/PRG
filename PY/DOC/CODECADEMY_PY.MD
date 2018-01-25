@@ -954,57 +954,27 @@ EGY
 >>>
 ```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='34'>The datetime Library</h3>
 
-=============================================================================================================
-02.002. Date and Time
-=============================================================================================================
-
-This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts 
-introduced in that lesson.
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-02.002.0001. The datetime Library
-
-################################################################
-
-A lot of times you want to keep track of when something happened. We can do so in Python using datetime.
-
-Here we'll use datetime to print the date and time in a nice format.
-
-----------------------------------------------------------------
+```python
 """
 Click Run to continue.
 """
 
 from datetime import datetime
-----------------------------------------------------------------
 
 >>>
 None
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='35'>Getting the Current Date and Time</h3>
 
-02.002.0002. Getting the Current Date and Time
-
-################################################################
-
-We can use a function called datetime.now() to retrieve the current date and time.
-
-from datetime import datetime
-
-print datetime.now()
-The first line imports the datetime library so that we can use it.
-
-The second line will print out the current date and time.
-
-----------------------------------------------------------------
+```python
 """
 Create a variable called now and store the result of datetime.now() in it.
 Then, print the value of now.
@@ -1014,11 +984,11 @@ from datetime import datetime
 
 now = datetime.now()
 print (now)
-----------------------------------------------------------------
 
 >>>
 2016-12-14 05:10:19.892864
 >>>
+```
 
 ################################################################
 
