@@ -15,7 +15,7 @@ Coding
     
     * 25 : (Thu) 
     
-      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512850?start=15) : Finished enumerate() section. 66% - Complete Python Bootcamp: Go from zero to hero in Python. 
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512850?start=15) : Complete Python Bootcamp: Go from zero to hero in Python - 66%. Finished enumerate() section.
       + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/ENUMERATE.MD) : Updated. 
       + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 50.
       + DIR : 4
