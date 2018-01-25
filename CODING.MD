@@ -15,7 +15,7 @@ DIR - 2
 
   * JAN
     
-    * 25 : (Thu) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512850?start=15) Finished enumerate() section. Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/ENUMERATE.MD).
+    * 25 : (Thu) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512850?start=15) Finished enumerate() section. Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/ENUMERATE.MD). 66% - Complete Python Bootcamp: Go from zero to hero in Python.
     * 24 : (Wed) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512800?start=45) Finished zip() section. Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/ZIP.MD). 65% - Complete Python Bootcamp: Go from zero to hero in Python
     * 23 : (Tue) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512788?start=0) Finished the reduce() section. Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/REDUCE.MD). 65% - Complete Python Bootcamp: Go from zero to hero in Python
     * 22 : (Mon) - [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512786?start=15) (Finished the part of the map() Section). Updated [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/MAP.MD). 61% - Complete Python Bootcamp: Go from zero to hero in Python
