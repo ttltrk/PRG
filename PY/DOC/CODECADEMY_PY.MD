@@ -1242,44 +1242,10 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='44'>How the Tables have turned</h3>
+<h3 id='44'>To be and/or not to Be</h3>
 
 ```python
-# Create comparative statements as appropriate on the lines below!
-
-# Make me true!
-bool_one = 3 < 5  # We already did this one for you!
-
-# Make me false!
-bool_two = 3 == 2
-
-# Make me true!
-bool_three = 1 != 10
-
-# Make me false!
-bool_four = 200 > 200
-
-# Make me true!
-bool_five = 1 >= 1
-
->>>
-None
->>>
-```
-
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
-
-045. TO BE OR NOT TO BE
-
------------------------------------
-
 """
-     Boolean Operators
-------------------------      
 True and True is True
 True and False is False
 False and True is False
@@ -1292,23 +1258,18 @@ False or False is False
 
 Not True is False
 Not False is True
-
 """
 
 >>>
 None
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='45'>And</h3>
 
-----------------------------------------------------------------------
-
-046. AND
-
------------------------------------
-
+```python
 bool_one = False
 
 bool_two = False
@@ -1322,17 +1283,13 @@ bool_five = True
 >>>
 None
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='46'>Or</h3>
 
-----------------------------------------------------------------------
-
-047. OR
-
------------------------------------
-
+```python
 Set bool_one equal to the result of 2**3 == 108 % 100 or 'Cleese' == 'King Arthur'
 Set bool_two equal to the result of True or False
 Set bool_three equal to the result of 100**0.5 >= 50 or False
@@ -1352,17 +1309,13 @@ bool_five = False
 >>>
 None
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='47'>Not</h3>
 
-----------------------------------------------------------------------
-
-048. NOT
-
------------------------------------
-
+```python
 Set bool_one equal to the result of not True
 Set bool_two equal to the result of not 3**4 < 4**3
 Set bool_three equal to the result of not 10 % 3 <= 10 % 2
@@ -1382,17 +1335,13 @@ bool_five = False
 >>>
 None
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='48'>This and that</h3>
 
-----------------------------------------------------------------------
-
-049. THIS AND THAT
-
------------------------------------
-
+```python
 Set bool_one equal to the result of False or not True and True
 Set bool_two equal to the result of False and not True or True
 Set bool_three equal to the result of True and not (False or False)
@@ -1412,17 +1361,13 @@ bool_five = False
 >>>
 None
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='49'>Mix 'n' Match</h3>
 
-----------------------------------------------------------------------
-
-050. MIX 'N' MATCH
-
------------------------------------
-
+```python
 # Make me false!
 bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
 
@@ -1441,17 +1386,13 @@ bool_five = 1 == 1 and 10 > 9
 >>>
 None
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='50'>Conditional Statement Syntax</h3>
 
-----------------------------------------------------------------------
-
-051. CONDITIONAL STATEMENT SYNTAX
-
------------------------------------
-
+```python
 response = 'Y'
 
 answer = "Left"
@@ -1464,12 +1405,8 @@ if answer == "Left":
 >>>
 This is the Verbal Abuse Room, you heap of parrot droppings!
 >>>
+```
 
-----------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-----------------------------------------------------------------------
 
 052. IF YOU'RE HAVING
 
