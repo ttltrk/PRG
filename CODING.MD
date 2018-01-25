@@ -11,7 +11,7 @@ Coding
 
 ### 2018
 
-  * JAN
+  * JAN (WD: 22, RD: 3, LDIR: 11)
     
     * 25 : (Thu) 
     
