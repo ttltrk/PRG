@@ -25,7 +25,7 @@ The Python interpreter has a number of functions and types built into it that ar
 * dict
 * dir
 * divmod
-* enumerate
+* [enumerate()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/ENUMERATE.MD)
 * eval
 * exec
 * [filter()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/FILTER.MD)
