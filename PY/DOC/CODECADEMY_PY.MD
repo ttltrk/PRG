@@ -990,29 +990,11 @@ print (now)
 >>>
 ```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='36'>Extracting Information</h3>
 
-02.002.0003. Extracting Information
-
-################################################################
-
-Notice how the output looks like 2013-11-25 23:45:14.317454. What if you don't want the entire date and time?
-
-from datetime import datetime
-now = datetime.now()
-
-current_year = now.year
-current_month = now.month
-current_day = now.day
-You already have the first two lines.
-
-In the third line, we take the year (and only the year) from the variable now and store it in current_year.
-
-In the fourth and fifth lines, we store the month and day from now.
-
-----------------------------------------------------------------
+```python
 """
 On a new line, print now.year. Make sure you do it after setting the now variable!
 Then, print out now.month.
@@ -1030,34 +1012,19 @@ current_day = now.day
 print (now.year)
 print (now.month)
 print (now.day)
-----------------------------------------------------------------
 
 >>>
 2016
 12
 14
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='37'>Hot Date</h3>
 
-02.002.0004. Hot Date
-
-################################################################
-
-What if we want to print today's date in the following format? mm/dd/yyyy. Let's use string substitution again!
-
-from datetime import datetime
-now = datetime.now()
-
-print '%s-%s-%s' % (now.year, now.month, now.day)
-# will print: 2014-02-19
-Remember that the % operator will fill the %s placeholders in the string on the left with the strings in the parentheses on the right.
-
-In the above example, we print 2014-02-19 (if today is February 19th, 2014), but you are going to print out 02/19/2014.
-
-----------------------------------------------------------------
+```python
 """
 Print the current date in the form of mm/dd/yyyy.
 
@@ -1069,33 +1036,17 @@ from datetime import datetime
 now = datetime.now()
 
 print ('%s/%s/%s' % (now.year, now.month, now.day))
-----------------------------------------------------------------
 
 >>>
 2016/12/14
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='38'>Pretty Time</h3>
 
-02.002.0005. Pretty Time
-
-################################################################
-
-Nice work! Let's do the same for the hour, minute, and second.
-
-from datetime import datetime
-now = datetime.now()
-
-print now.hour
-print now.minute
-print now.second
-In the above example, we just printed the current hour, then the current minute, then the current second.
-
-We can again use the variable now to print the time.
-
-----------------------------------------------------------------
+```python
 """
 Similar to the last exercise, print the current time in the pretty form of hh:mm:ss.
 
@@ -1107,32 +1058,17 @@ from datetime import datetime
 now = datetime.now()
 
 print ('%s:%s:%s' % (now.hour, now.minute, now.second))
-----------------------------------------------------------------
 
 >>>
 7:24:38
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='39'>Grande Finale</h3>
 
-02.002.0006. Grande Finale
-
-################################################################
-
-We've managed to print the date and time separately in a very pretty fashion. Let's combine the two!
-
-from datetime import datetime
-now = datetime.now()
-
-print '%s/%s/%s' % (now.month, now.day, now.year)
-print '%s:%s:%s' % (now.hour, now.minute, now.second)
-The example above will print out the date, then on a separate line it will print the time.
-
-Let's print them all on the same line in a single print statement!
-
-----------------------------------------------------------------
+```python
 """
 Print the date and time together in the form: mm/dd/yyyy hh:mm:ss.
 
@@ -1149,38 +1085,17 @@ from datetime import datetime
 now = datetime.now()
 
 print ('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second))
-----------------------------------------------------------------
 
 >>>
 12/14/2016 7:31:39
 >>>
+```
 
-################################################################
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='40'>Go with the Flow</h3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-03. Conditionals and Control Flow
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-=============================================================================================================
-03.001. Conditionals & Control Flow
-=============================================================================================================
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-03.001.0001. Go With the Flow
-
-################################################################
-
-Just like in real life, sometimes we'd like our code to be able to make decisions.
-
-The Python programs we've written so far have had one-track minds: they can add two numbers or print something, 
-but they don't have the ability to pick one of these outcomes over the other.
-
-Control flow gives us this ability to choose among outcomes based off what else is happening in the program.
-
-----------------------------------------------------------------
+```python
 """
 Check out the code in the editor. You'll see the type of program you'll be able to write once you've mastered control flow. 
 
@@ -1203,7 +1118,6 @@ def clinic():
         clinic()
 
 clinic()
-----------------------------------------------------------------
 
 >>>
 You've just entered the clinic!
@@ -1211,6 +1125,7 @@ Do you take the door on the left or the right?
 Type left or right and hit 'Enter'. right
 Of course this is the Argument Room, I've told you that already!
 >>>
+```
 
 ################################################################
 
