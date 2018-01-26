@@ -20,7 +20,7 @@ The Python interpreter has a number of functions and types built into it that ar
 * chr
 * classmethod
 * compile
-* complex
+* [complex()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BIF/COMPLEX.MD)
 * delattr
 * dict
 * dir
