@@ -7,36 +7,12 @@ any()
 [jupyter]()
 
 ```python
+l = [True, True, True, False]
+
+print(any(l))
 
 >>>
-
->>>
-```
-
-```python
-
->>>
-
+True
 >>>
 ```
 
-```python
-
->>>
-
->>>
-```
-
-```python
-
->>>
-
->>>
-```
-
-```python
-
->>>
-
->>>
-```
