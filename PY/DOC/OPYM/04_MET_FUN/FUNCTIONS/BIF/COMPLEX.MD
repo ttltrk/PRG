@@ -4,7 +4,7 @@ complex()
 
 [<<<]()
 
-[jupyter]()
+[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Complex.ipynb)
 
 ```python
 print(complex(2,3))
