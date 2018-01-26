@@ -11,7 +11,13 @@ Coding
 
 ### 2018
 
-  * **JAN** (WD: 22, RD: 3, LDIR: 11)
+  * **JAN** (WD: 23, RD: 3, LDIR: 11)
+    
+    * 26 : (Fri)
+    
+      + [Udemy - all() + any()](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547924?start=0) + [Udemy - complex()](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547928?start=0) : Complete Python Bootcamp: Go from zero to hero in Python - 70%. Finished Built-in Functions section.
+      + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD) : Updated.
+      + DIR : 5
     
     * 25 : (Thu) 
     
