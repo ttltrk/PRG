@@ -12,6 +12,11 @@ Coding
 ### 2018
 
   * **JAN** (WD: 23, RD: 3, LDIR: 11)
+  
+    * 27 : (Sat)
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512806?start=15) : Decorators Pt1
+      + DIR : 6
     
     * 26 : (Fri)
     
