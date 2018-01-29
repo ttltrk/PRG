@@ -15,7 +15,9 @@ Coding
   
     * 29 : (Mon) 
     
-      + [Udemy]()
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512808?start=0) : Decorators Pt2
+      + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD) : Updated
+      + DIR : 1
   
     * 28 : (Sun)
     
