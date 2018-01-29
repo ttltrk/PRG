@@ -11,7 +11,15 @@ Coding
 
 ### 2018
 
-  * **JAN** (WD: 23, RD: 3, LDIR: 11)
+  * **JAN** (WD: 23, RD: 4, LDIR: 11)
+  
+    * 29 : (Mon) 
+    
+      + [Udemy]()
+  
+    * 28 : (Sun)
+    
+      + Rest day
   
     * 27 : (Sat)
     
