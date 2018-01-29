@@ -11,7 +11,7 @@ Coding
 
 ### 2018
 
-  * **JAN** (WD: 23, RD: 4, LDIR: 11)
+  * **JAN** (WD: , RD: , LDIR: )
   
     * 29 : (Mon) 
     
