@@ -13,6 +13,11 @@ Coding
 
   * **JAN** (WD: , RD: , LDIR: )
   
+    * 30 : (Tue) 
+    
+      + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 60.
+      + DIR : 2
+  
     * 29 : (Mon) 
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512808?start=0) : Decorators Pt2
