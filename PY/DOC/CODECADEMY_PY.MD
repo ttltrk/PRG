@@ -1516,26 +1516,23 @@ None
 ```
 
 
-057. AHOY
+<a href='#home'>↑</a3>
 
------------------------------------
+<h3 id='56'>Ahoy!</h3>
 
+```python
 print ("Pig Latin")
 
 >>>
 Pig Latin
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='57'>Input</h3>
 
-----------------------------------------------------------------------
-
-058. INPUT
-
------------------------------------
-
+```python
 print ('Welcome to the Pig Latin Translator!')
 
 original = input("Enter a word:")
@@ -1544,17 +1541,13 @@ original = input("Enter a word:")
 Welcome to the Pig Latin Translator!
 Enter a word: hello
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='58'>Check yourself</h3>
 
-----------------------------------------------------------------------
-
-059. CHECK YOURSELF
-
------------------------------------
-
+```python
 """
 a len erzekeli hogy irtunk e karaktert vagy se
 """
@@ -1575,17 +1568,13 @@ Welcome to the Pig Latin Translator!
 Enter a word: hello
 hello
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='59'>Check yourself some more</h3>
 
-----------------------------------------------------------------------
-
-060. CHECK YOURSELF SOME MORE
-
------------------------------------
-
+```python
 """
 The method isalpha() checks whether the string consists of alphabetic characters only.
 you should also use .isalpha() to make sure that it only contains letters. 
@@ -1607,7 +1596,9 @@ Welcome to the Pig Latin Translator!
 Prompt hello
 hello
 >>>
+```
 
+```python
 -----------------------------------
 #example
 -----------------------------------
@@ -1622,17 +1613,13 @@ print(b.isalpha())
 True
 False
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='60'>Pop Quiz</h3>
 
-----------------------------------------------------------------------
-
-061. POP QUIZ
-
------------------------------------
-
+```python
 print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
@@ -1649,6 +1636,7 @@ Welcome to the Pig Latin Translator!
 Prompt hello
 hello
 >>>
+```
 
 ----------------------------------------------------------------------
 
