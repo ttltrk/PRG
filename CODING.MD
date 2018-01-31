@@ -15,6 +15,11 @@ Coding
   
     * 30 : (Tue) 
     
+      + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 65.
+      + DIR : 3
+  
+    * 30 : (Tue) 
+    
       + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 60.
       + DIR : 2
   
