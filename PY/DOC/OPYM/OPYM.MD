@@ -23,6 +23,7 @@ OPyM 1.0
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
   * [Built-in Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD)
   * [Functions within functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD)
+  * [Functions as Arguments](https://github.com/ttltrk/PRG/tree/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS)
   * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
   * [Nested Statements and Scope]()
   
