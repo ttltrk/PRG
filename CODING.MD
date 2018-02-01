@@ -11,9 +11,17 @@ Coding
 
 ### 2018
 
+  * **FEB** (WD: , RD: , LDIR: )
+  
+    * 01 : (Thu) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512812?start=0) : 73%. Decorators Pt3. Finished Decorators section.
+      + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_ARG.MD) : Updated
+      + DIR : 4
+
   * **JAN** (WD: , RD: , LDIR: )
   
-    * 30 : (Tue) 
+    * 31 : (Wed) 
     
       + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 65.
       + DIR : 3
