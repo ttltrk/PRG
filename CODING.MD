@@ -9,15 +9,16 @@ Coding
 [completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
 [codecademy - Learn Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) |
 
-### 2018
+### 2018 - FEB
 
-|M|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-|-|-|-|-|-|-|-|-|-|-|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|F|x|x| | | | | | | |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|J|x|x|x|x|x|x|0|x|x|x |x |x |x |x |x |x |x |x | 0|x | 0|x |x |x |x |x |x |0 |x |x |x |
+|F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|  | x| x| x|x |x |x |x |x |x |x |x |x |x |x |x | 
+|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
+|x |x |x |RD|x |RD|x |x |x |x |x |x |x |x |x |x |
 
-  * **FEB** (WD: , RD: , LDIR: )
-  
+* FEB
+   
     * 02 : (Fri) 
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547972?start=0) : 77%. Generators. 
@@ -30,10 +31,18 @@ Coding
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512812?start=0) : 73%. Decorators Pt3. Finished Decorators section.
       + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_ARG.MD) : Updated
       + DIR : 4
+      
+### 2018 - JAN
 
-  * **JAN** (WD: , RD: , LDIR: )
-  
-    * 31 : (Wed) 
+|J | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|  | x| x| x|x |x |x |x |x |x |x |x |x |x |x |x | 
+|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
+|x |x |x |RD|x |RD|x |x |x |x |x |x |x |x |x |x |
+
+* Jan
+
+   * 31 : (Wed) 
     
       + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 65.
       + DIR : 3
