@@ -17,6 +17,7 @@ Coding
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547972?start=0) : 77%. Generators. 
       + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/GENERATORS/GENERATORS.MD) : Updated
+      + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 70.
       + DIR : 5
   
     * 01 : (Thu) 
