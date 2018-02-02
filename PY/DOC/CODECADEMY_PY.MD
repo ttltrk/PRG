@@ -851,7 +851,7 @@ Ping!
 
 <a href='#home'>↑</a3>
 
-<h3 id='29'>String Concatenation</h3>
+<h3 id='29'>29 - String Concatenation</h3>
 
 ```python
 """
@@ -868,7 +868,7 @@ Spam and eggs
 
 <a href='#home'>↑</a3>
 
-<h3 id='30'>Explicit String Conversion</h3>
+<h3 id='30'>30 - Explicit String Conversion</h3>
 
 ```python
 """
@@ -885,7 +885,7 @@ The value of pi is around 3.14
 
 <a href='#home'>↑</a3>
 
-<h3 id='31'>String Formatting with %, Part1</h3>
+<h3 id='31'>31 - String Formatting with %, Part1</h3>
 
 ```python
 """
@@ -904,7 +904,7 @@ Let's not go to Camelot. 'Tis a silly place.
 
 <a href='#home'>↑</a3>
 
-<h3 id='32'>String Formatting with %, Part2</h3>
+<h3 id='32'>32 - String Formatting with %, Part2</h3>
 
 ```python
 """
@@ -932,7 +932,7 @@ Ah, so your name is trk, your quest is code, and your favorite color is green.
 
 <a href='#home'>↑</a3>
 
-<h3 id='33'>And Now, For Something Completly Familiar</h3>
+<h3 id='33'>33 - And Now, For Something Completly Familiar</h3>
 
 ```python
 """
@@ -956,7 +956,7 @@ EGY
 
 <a href='#home'>↑</a3>
 
-<h3 id='34'>The datetime Library</h3>
+<h3 id='34'>34 - The datetime Library</h3>
 
 ```python
 """
@@ -972,7 +972,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='35'>Getting the Current Date and Time</h3>
+<h3 id='35'>35 - Getting the Current Date and Time</h3>
 
 ```python
 """
@@ -992,7 +992,7 @@ print (now)
 
 <a href='#home'>↑</a3>
 
-<h3 id='36'>Extracting Information</h3>
+<h3 id='36'>36 - Extracting Information</h3>
 
 ```python
 """
@@ -1022,7 +1022,7 @@ print (now.day)
 
 <a href='#home'>↑</a3>
 
-<h3 id='37'>Hot Date</h3>
+<h3 id='37'>37 - Hot Date</h3>
 
 ```python
 """
@@ -1044,7 +1044,7 @@ print ('%s/%s/%s' % (now.year, now.month, now.day))
 
 <a href='#home'>↑</a3>
 
-<h3 id='38'>Pretty Time</h3>
+<h3 id='38'>38 - Pretty Time</h3>
 
 ```python
 """
@@ -1066,7 +1066,7 @@ print ('%s:%s:%s' % (now.hour, now.minute, now.second))
 
 <a href='#home'>↑</a3>
 
-<h3 id='39'>Grande Finale</h3>
+<h3 id='39'>39 - Grande Finale</h3>
 
 ```python
 """
@@ -1093,7 +1093,7 @@ print ('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute
 
 <a href='#home'>↑</a3>
 
-<h3 id='40'>Go with the Flow</h3>
+<h3 id='40'>40 - Go with the Flow</h3>
 
 ```python
 """
@@ -1129,7 +1129,7 @@ Of course this is the Argument Room, I've told you that already!
 
 <a href='#home'>↑</a3>
 
-<h3 id='41'>Compare Closely!</h3>
+<h3 id='41'>41 - Compare Closely!</h3>
 
 ```python
 """
@@ -1167,7 +1167,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='42'>Compare... Closelier!</h3>
+<h3 id='42'>42 - Compare... Closelier!</h3>
 
 ```python
 """
@@ -1206,7 +1206,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='43'>How the Tables Have Turned</h3>
+<h3 id='43'>43 - How the Tables Have Turned</h3>
 
 ```python
 """
@@ -1242,7 +1242,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='44'>To be and/or not to Be</h3>
+<h3 id='44'>44 - To be and/or not to Be</h3>
 
 ```python
 """
@@ -1267,7 +1267,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='45'>And</h3>
+<h3 id='45'>45 - And</h3>
 
 ```python
 bool_one = False
@@ -1287,7 +1287,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='46'>Or</h3>
+<h3 id='46'>46 - Or</h3>
 
 ```python
 Set bool_one equal to the result of 2**3 == 108 % 100 or 'Cleese' == 'King Arthur'
@@ -1313,7 +1313,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='47'>Not</h3>
+<h3 id='47'>47 - Not</h3>
 
 ```python
 Set bool_one equal to the result of not True
@@ -1339,7 +1339,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='48'>This and that</h3>
+<h3 id='48'>48 - This and that</h3>
 
 ```python
 Set bool_one equal to the result of False or not True and True
@@ -1365,7 +1365,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='49'>Mix 'n' Match</h3>
+<h3 id='49'>49 - Mix 'n' Match</h3>
 
 ```python
 # Make me false!
@@ -1390,7 +1390,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='50'>Conditional Statement Syntax</h3>
+<h3 id='50'>50 - Conditional Statement Syntax</h3>
 
 ```python
 response = 'Y'
@@ -1409,7 +1409,7 @@ This is the Verbal Abuse Room, you heap of parrot droppings!
 
 <a href='#home'>↑</a3>
 
-<h3 id='51'>If you're having</h3>
+<h3 id='51'>51 - If you're having</h3>
 
 ```python
 def using_control_once():
@@ -1431,7 +1431,7 @@ Success #2
 
 <a href='#home'>↑</a3>
 
-<h3 id='52'>Else problems, I feel bad for you, son</h3>
+<h3 id='52'>52 - Else problems, I feel bad for you, son</h3>
 
 ```python
 answer = "'Tis but a scratch!"
@@ -1459,7 +1459,7 @@ False
 
 <a href='#home'>↑</a3>
 
-<h3 id='53'>I got 99 problems, but a switch ain't one</h3>
+<h3 id='53'>53 - I got 99 problems, but a switch ain't one</h3>
 
 ```python
 def greater_less_equal_5(answer):
@@ -1482,7 +1482,7 @@ print (greater_less_equal_5(6))
 ```
 <a href='#home'>↑</a3>
 
-<h3 id='54'>The big if</h3>
+<h3 id='54'>54 - The big if</h3>
 
 ```python
 # Make sure that the_flying_circus() returns True
@@ -1505,7 +1505,7 @@ True
 
 <a href='#home'>↑</a3>
 
-<h3 id='55'>Break it down</h3>
+<h3 id='55'>55 - Break it down</h3>
 
 ```python
 xxx
@@ -1518,7 +1518,7 @@ None
 
 <a href='#home'>↑</a3>
 
-<h3 id='56'>Ahoy!</h3>
+<h3 id='56'>56 - Ahoy!</h3>
 
 ```python
 print ("Pig Latin")
@@ -1530,7 +1530,7 @@ Pig Latin
 
 <a href='#home'>↑</a3>
 
-<h3 id='57'>Input</h3>
+<h3 id='57'>57 - Input</h3>
 
 ```python
 print ('Welcome to the Pig Latin Translator!')
@@ -1545,7 +1545,7 @@ Enter a word: hello
 
 <a href='#home'>↑</a3>
 
-<h3 id='58'>Check yourself</h3>
+<h3 id='58'>58 - Check yourself</h3>
 
 ```python
 """
@@ -1572,7 +1572,7 @@ hello
 
 <a href='#home'>↑</a3>
 
-<h3 id='59'>Check yourself some more</h3>
+<h3 id='59'>59 - Check yourself some more</h3>
 
 ```python
 """
@@ -1615,7 +1615,7 @@ False
 
 <a href='#home'>↑</a3>
 
-<h3 id='60'>Pop Quiz</h3>
+<h3 id='60'>60 - Pop Quiz</h3>
 
 ```python
 print ('Welcome to the Pig Latin Translator!')
@@ -1638,7 +1638,7 @@ hello
 
 <a href='#home'>↑</a3>
 
-<h3 id='61'>Ay B C</h3>
+<h3 id='61'>61 - Ay B C</h3>
 
 ```python
 pyg = "ay"
@@ -1652,7 +1652,7 @@ ay
 
 <a href='#home'>↑</a3>
 
-<h3 id='62'>Ay B C (2)</h3>
+<h3 id='62'>62 - Ay B C (2)</h3>
 
 ```python
 pyg = 'ay'
@@ -1679,7 +1679,7 @@ empty
 
 <a href='#home'>↑</a3>
 
-<h3 id='63'>Move it on back</h3>
+<h3 id='63'>63 - Move it on back</h3>
 
 ```python
 pyg = 'ay'
@@ -1709,7 +1709,7 @@ empty
 
 <a href='#home'>↑</a3>
 
-<h3 id='64'>Ending Up</h3>
+<h3 id='64'>64 - Ending Up</h3>
 
 ```python
 pyg = 'ay'
@@ -1735,7 +1735,7 @@ zohisay
 
 <a href='#home'>↑</a3>
 
-<h3 id='65'>Testing</h3>
+<h3 id='65'>65 - Testing</h3>
 
 ```python
 pyg = 'ay'
