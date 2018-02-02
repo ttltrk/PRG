@@ -9,15 +9,15 @@
 ### Python Syntax
 
 ##### Python Syntax
-  * <a href="#1">01 - Welcome!</a>
-  * <a href="#2">02 - Variables</a>
-  * <a href="#3">03 - Booleans</a>
-  * <a href="#4">04 - You've Been Reassigned</a>
-  * <a href="#5">05 - Whitespace</a>
-  * <a href="#6">06 - Whitespace Means Right Space</a>
-  * <a href="#7">07 - A Matter of Interpretation</a>
-  * <a href="#8">08 - Single Line Comments</a>
-  * <a href="#9">09 - Multi-Line Comments</a>
+  * <a href="#01">01 - Welcome!</a>
+  * <a href="#02">02 - Variables</a>
+  * <a href="#03">03 - Booleans</a>
+  * <a href="#04">04 - You've Been Reassigned</a>
+  * <a href="#05">05 - Whitespace</a>
+  * <a href="#06">06 - Whitespace Means Right Space</a>
+  * <a href="#07">07 - A Matter of Interpretation</a>
+  * <a href="#08">08 - Single Line Comments</a>
+  * <a href="#09">09 - Multi-Line Comments</a>
   * <a href="#10">10 - Math</a>
   * <a href="#11">11 - Exponentiation</a>
   * <a href="#12">12 - Modulo</a>
@@ -42,7 +42,7 @@
   * <a href="#25">25 - upper()</a>
   * <a href="#26">26 - str()</a>
   * <a href="#27">27 - Dot Notation</a>
-  * <a href="#28">28 - Printing Strings</a>
+  * <a href="#28">28 - Printing Strings + Printing Variables</a>
   * <a href="#29">29 - String Concatenation</a>
   * <a href="#30">30 - Explicit String Conversion</a>
   * <a href="#31">31 - String Formatting with %, Part 1</a>
@@ -239,7 +239,7 @@
 
 #### PYTHON FINAL PROJECT
 
-<h3 id='1'>Welcome!</h3>
+<h3 id='01'>01 - Welcome!</h3>
 
 ```python
 print ("Welcome to Python!")
@@ -251,7 +251,7 @@ Welcome to Python!
 
 <a href='#home'>↑</a3>
 
-<h3 id='2'>Variables</h3>
+<h3 id='02'>02 - Variables</h3>
 
 ```python
 """
@@ -279,7 +279,7 @@ print(curry)
 
 <a href='#home'>↑</a3>
 
-<h3 id='3'>Booleans</h3>
+<h3 id='03'>03 - Booleans</h3>
 
 ```python
 """
@@ -311,7 +311,7 @@ True False
 
 <a href='#home'>↑</a3>
 
-<h3 id='4'>You've Been Reassigned</h3>
+<h3 id='04'>04 - You've Been Reassigned</h3>
 
 ```python
 """
@@ -330,7 +330,7 @@ print (my_int)
 
 <a href='#home'>↑</a3>
 
-<h3 id='5'>Whitespace</h3>
+<h3 id='05'>05 - Whitespace</h3>
 
 ```python
 """
@@ -351,7 +351,7 @@ Syntax error
 
 <a href='#home'>↑</a3>
 
-<h3 id='6'>Whitespace Means Right Space</h3>
+<h3 id='06'>06 - Whitespace Means Right Space</h3>
 
 ```python
 """
@@ -372,7 +372,7 @@ print (spam())
 
 <a href='#home'>↑</a3>
 
-<h3 id='7'>A Matter of Interpretation</h3>
+<h3 id='07'>07 - A Matter of Interpretation</h3>
 
 ```python
 """
@@ -394,7 +394,7 @@ False
 
 <a href='#home'>↑</a3>
 
-<h3 id='8'>Single Line Comments</h3>
+<h3 id='08'>08 - Single Line Comments</h3>
 
 ```python
 """
@@ -413,7 +413,7 @@ print(mysterious_variable)
 
 <a href='#home'>↑</a3>
 
-<h3 id='9'>Multi-Line Comments</h3>
+<h3 id='09'>09 - Multi-Line Comments</h3>
 
 ```python
 """
@@ -436,7 +436,7 @@ print(mysterious_variable)
 
 <a href='#home'>↑</a3>
 
-<h3 id='10'>Math</h3>
+<h3 id='10'>10 - Math</h3>
 
 ```python
 addition = 72 + 23
@@ -461,7 +461,7 @@ print (count_to)
 
 <a href='#home'>↑</a3>
 
-<h3 id='11'>Exponentiation</h3>
+<h3 id='11'>11 - Exponentiation</h3>
 
 ```python
 """
@@ -483,7 +483,7 @@ print (eggs)
 
 <a href='#home'>↑</a3>
 
-<h3 id='12'>Modulo</h3>
+<h3 id='12'>12 - Modulo</h3>
 
 ```python
 """
@@ -501,7 +501,7 @@ print (spam)
 
 <a href='#home'>↑</a3>
 
-<h3 id='13'>Bringing It All Together</h3>
+<h3 id='13'>13 - Bringing It All Together</h3>
 
 ```python
 """
@@ -527,7 +527,7 @@ print(monty_python)
 
 <a href='#home'>↑</a3>
 
-<h3 id='14'>The Meal</h3>
+<h3 id='14'>14 - The Meal</h3>
 
 ```python
 """
@@ -546,7 +546,7 @@ print(meal)
 
 <a href='#home'>↑</a3>
 
-<h3 id='15'>The Tax</h3>
+<h3 id='15'>15 - The Tax</h3>
 
 ```python
 """
@@ -567,7 +567,7 @@ print(tax)
 
 <a href='#home'>↑</a3>
 
-<h3 id='16'>The Tip</h3>
+<h3 id='16'>16 - The Tip</h3>
 
 ```python
 """
@@ -593,7 +593,7 @@ print(tip)
 
 <a href='#home'>↑</a3>
 
-<h3 id='17'>Reassign in a Single Line</h3>
+<h3 id='17'>17 - Reassign in a Single Line</h3>
 
 ```python
 """
@@ -624,7 +624,7 @@ print(meal_total)
 
 <a href='#home'>↑</a3>
 
-<h3 id='18'>The Total</h3>
+<h3 id='18'>18 - The Total</h3>
 
 ```python
 """
@@ -647,7 +647,7 @@ print("%.2f" % total)
 
 <a href='#home'>↑</a3>
 
-<h3 id='19'>Strings</h3>
+<h3 id='19'>19 - Strings</h3>
 
 ```python
 """
@@ -665,7 +665,7 @@ Hello life!
 
 <a href='#home'>↑</a3>
 
-<h3 id='20'>Practice</h3>
+<h3 id='20'>20 - Practice</h3>
 
 ```python
 """
@@ -689,7 +689,7 @@ Graham John Teresa
 
 <a href='#home'>↑</a3>
 
-<h3 id='21'>Escaping Characters</h3>
+<h3 id='21'>21 - Escaping Characters</h3>
 
 ```python
 """
@@ -707,7 +707,7 @@ This isn't flying, this is falling with style!
 
 <a href='#home'>↑</a3>
 
-<h3 id='22'>Access by Index</h3>
+<h3 id='22'>22 - Access by Index</h3>
 
 ```python
 """
@@ -725,7 +725,7 @@ Y
 
 <a href='#home'>↑</a3>
 
-<h3 id='23'>String Methods</h3>
+<h3 id='23'>23 - String Methods</h3>
 
 ```python
 """
@@ -744,7 +744,7 @@ print (len(parrot))
 
 <a href='#home'>↑</a3>
 
-<h3 id='24'>lower()</h3>
+<h3 id='24'>24 - lower()</h3>
 
 
 ```python
@@ -762,7 +762,7 @@ norwegian blue
 
 <a href='#home'>↑</a3>
 
-<h3 id='25'>upper()</h3>
+<h3 id='25'>25 - upper()</h3>
 
 ```python
 """
@@ -778,7 +778,7 @@ NORWEGIAN BLUE
 
 <a href='#home'>↑</a3>
 
-<h3 id='26'>str()</h3>
+<h3 id='26'>26 - str()</h3>
 
 ```python
 """
@@ -796,7 +796,7 @@ print (str(pi))
 
 <a href='#home'>↑</a3>
 
-<h3 id='27'>Dot Notation/The Ministry of Silly Walks</h3>
+<h3 id='27'>27 - Dot Notation/The Ministry of Silly Walks</h3>
 
 ```python
 """
@@ -817,7 +817,7 @@ THE MINISTRY OF SILLY WALKS
 
 <a href='#home'>↑</a3>
 
-<h3 id='28'>Printing Strings</h3>
+<h3 id='28'>28 - Printing Strings, Printing Variables</h3>
 
 ```python
 """
@@ -830,10 +830,6 @@ print ("Monty Python")
 Monty Python 
 >>>
 ```
-
-<a href='#home'>↑</a3>
-
-<h3 id='29'>Printing Variables</h3>
 
 ```python
 """
