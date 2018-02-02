@@ -13,6 +13,12 @@ Coding
 
   * **FEB** (WD: , RD: , LDIR: )
   
+    * 02 : (Fri) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547972?start=0) : 77%. Generators. 
+      + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/GENERATORS/GENERATORS.MD) : Updated
+      + DIR : 5
+  
     * 01 : (Thu) 
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512812?start=0) : 73%. Decorators Pt3. Finished Decorators section.
