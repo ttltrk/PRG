@@ -19,11 +19,12 @@ OPyM 1.0
   * [while loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/WHILE/WHILE.MD)
   * [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
     
-### Section 1.4 - Methods and Functions
+### Section 1.4 - Methods and Functions and Generators
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
   * [Built-in Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD)
   * [Functions within functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD)
   * [Functions as Arguments](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_ARG.MD)
+  * [Generators]()
   * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
   * [Nested Statements and Scope]()
   
