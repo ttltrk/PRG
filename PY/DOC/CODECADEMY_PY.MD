@@ -9,85 +9,85 @@
 ### Python Syntax
 
 ##### Python Syntax
-  * <a href="#1">Welcome!</a>
-  * <a href="#2">Variables</a>
-  * <a href="#3">Booleans</a>
-  * <a href="#4">You've Been Reassigned</a>
-  * <a href="#5">Whitespace</a>
-  * <a href="#6">Whitespace Means Right Space</a>
-  * <a href="#7">A Matter of Interpretation</a>
-  * <a href="#8">Single Line Comments</a>
-  * <a href="#9">Multi-Line Comments</a>
-  * <a href="#10">Math</a>
-  * <a href="#11">Exponentiation</a>
-  * <a href="#12">Modulo</a>
-  * <a href="#13">Bringing It All Together</a>
+  * <a href="#1">01 - Welcome!</a>
+  * <a href="#2">02 - Variables</a>
+  * <a href="#3">03 - Booleans</a>
+  * <a href="#4">04 - You've Been Reassigned</a>
+  * <a href="#5">05 - Whitespace</a>
+  * <a href="#6">06 - Whitespace Means Right Space</a>
+  * <a href="#7">07 - A Matter of Interpretation</a>
+  * <a href="#8">08 - Single Line Comments</a>
+  * <a href="#9">09 - Multi-Line Comments</a>
+  * <a href="#10">10 - Math</a>
+  * <a href="#11">11 - Exponentiation</a>
+  * <a href="#12">12 - Modulo</a>
+  * <a href="#13">13 - Bringing It All Together</a>
 
 ##### Tip Calculator
-  * <a href="#14">The Meal</a>
-  * <a href="#15">The Tax</a>
-  * <a href="#16">The Tip</a>
-  * <a href="#17">Reassign in a Single Line</a>
-  * <a href="#18">The Total</a>
+  * <a href="#14">14 - The Meal</a>
+  * <a href="#15">15 - The Tax</a>
+  * <a href="#16">16 - The Tip</a>
+  * <a href="#17">17 - Reassign in a Single Line</a>
+  * <a href="#18">18 - The Total</a>
 
 ### Strings and Console Output
 
 ##### Strings and Console Output
-  * <a href="#19">Strings</a>
-  * <a href="#20">Practice</a>
-  * <a href="#21">Escaping Characters</a>
-  * <a href="#22">Access by Index</a>
-  * <a href="#23">String methods</a>
-  * <a href="#24">lower()</a>
-  * <a href="#25">upper()</a>
-  * <a href="#26">str()</a>
-  * <a href="#27">Dot Notation</a>
-  * <a href="#28">Printing Strings</a>
-  * <a href="#29">String Concatenation</a>
-  * <a href="#30">Explicit String Conversion</a>
-  * <a href="#31">String Formatting with %, Part 1</a>
-  * <a href="#32">String Formatting with %, Part 2</a>
-  * <a href="#33">And now, For Something Completely Familiar</a>
+  * <a href="#19">19 - Strings</a>
+  * <a href="#20">20 - Practice</a>
+  * <a href="#21">21 - Escaping Characters</a>
+  * <a href="#22">22 - Access by Index</a>
+  * <a href="#23">23 - String methods</a>
+  * <a href="#24">24 - lower()</a>
+  * <a href="#25">25 - upper()</a>
+  * <a href="#26">26 - str()</a>
+  * <a href="#27">27 - Dot Notation</a>
+  * <a href="#28">28 - Printing Strings</a>
+  * <a href="#29">29 - String Concatenation</a>
+  * <a href="#30">30 - Explicit String Conversion</a>
+  * <a href="#31">31 - String Formatting with %, Part 1</a>
+  * <a href="#32">32 - String Formatting with %, Part 2</a>
+  * <a href="#33">33 - And now, For Something Completely Familiar</a>
 
 ##### Date and Time
-  * <a href="#34">The datetime Library</a>
-  * <a href="#35">Getting the Current Date and Time</a>
-  * <a href="#36">Extracting Information</a>
-  * <a href="#37">Hot Date</a>
-  * <a href="#38">Pretty Time</a>
-  * <a href="#39">Grande Finale</a>
+  * <a href="#34">34 - The datetime Library</a>
+  * <a href="#35">35 - Getting the Current Date and Time</a>
+  * <a href="#36">36 - Extracting Information</a>
+  * <a href="#37">37 - Hot Date</a>
+  * <a href="#38">38 - Pretty Time</a>
+  * <a href="#39">39 - Grande Finale</a>
 
 ### Conditionals and Control Flow
 
 ##### Conditionals & Control Flow
-  * <a href="#40">Go with the Flow</a>
-  * <a href="#41">Compare Closely!</a>
-  * <a href="#42">Compare...Closelier!</a>
-  * <a href="#43">How the Tables have Turned</a>
-  * <a href="#44">To be and/or not to Be</a>
-  * <a href="#45">And</a>
-  * <a href="#46">Or</a>
-  * <a href="#47">Not</a>
-  * <a href="#48">This and That</a>
-  * <a href="#49">Mix 'n' Match</a>
-  * <a href="#50">Conditional Statement Syntax</a>
-  * <a href="#51">If You're Having</a>
-  * <a href="#52">Else Problems, I feel bad for you son</a>
-  * <a href="#53">I got 99 Problems, but a switch ain't one</a>
-  * <a href="#54">The big if</a>
+  * <a href="#40">40 - Go with the Flow</a>
+  * <a href="#41">41 - Compare Closely!</a>
+  * <a href="#42">42 - Compare...Closelier!</a>
+  * <a href="#43">43 - How the Tables have Turned</a>
+  * <a href="#44">44 - To be and/or not to Be</a>
+  * <a href="#45">45 - And</a>
+  * <a href="#46">46 - Or</a>
+  * <a href="#47">47 - Not</a>
+  * <a href="#48">48 - This and That</a>
+  * <a href="#49">49 - Mix 'n' Match</a>
+  * <a href="#50">50 - Conditional Statement Syntax</a>
+  * <a href="#51">51 - If You're Having</a>
+  * <a href="#52">52 - Else Problems, I feel bad for you son</a>
+  * <a href="#53">53 - I got 99 Problems, but a switch ain't one</a>
+  * <a href="#54">54 - The big if</a>
 
 ##### PygLatin
-  * <a href="#55">Break it down</a>
-  * <a href="#56">Ahoy!</a>
-  * <a href="#57">Input!</a>
-  * <a href="#58">Check Yourself!</a>
-  * <a href="#59">Check Yourself...some more.</a>
-  * <a href="#60">Pop Quiz!</a>
-  * <a href="#61">Ay B C</a>
-  * <a href="#62">Word Up</a>
-  * <a href="#63">Move it on back</a>
-  * <a href="#64">Ending Up</a>
-  * <a href="#65">Testing, testing, is this Thing On?</a>
+  * <a href="#55">55 - Break it down</a>
+  * <a href="#56">56 - Ahoy!</a>
+  * <a href="#57">57 - Input!</a>
+  * <a href="#58">58 - Check Yourself!</a>
+  * <a href="#59">59 - Check Yourself...some more.</a>
+  * <a href="#60">60 - Pop Quiz!</a>
+  * <a href="#61">61 - Ay B C</a>
+  * <a href="#62">62 - Word Up</a>
+  * <a href="#63">63 - Move it on back</a>
+  * <a href="#64">64 - Ending Up</a>
+  * <a href="#65">65 - Testing, testing, is this Thing On?</a>
   
 ### Functions
 
