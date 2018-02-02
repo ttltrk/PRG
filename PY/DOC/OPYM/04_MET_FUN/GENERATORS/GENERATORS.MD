@@ -2,9 +2,9 @@
 Generators
 ======
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-[jupyter]()
+[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Iterators%20and%20Generators.ipynb)
 
 ```python
 def gencubes(n):
