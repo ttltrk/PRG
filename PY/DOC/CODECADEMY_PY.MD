@@ -92,25 +92,25 @@
 ### Functions
 
 ##### Functions
-  * <a href="#66">What Good are Functions?</a>
-  * <a href="#67">Function Junction</a>
-  * <a href="#68">Call and Response</a>
-  * <a href="#69">Parameters and Arguments</a>
-  * <a href="#70">Functions Calling Functions</a>
-  * <a href="#71">Practice Makes Perfect</a>
-  * <a href="#72">I know Kung Fu</a>
-  * <a href="#73">Generic Imports</a>
-  * <a href="#74">Function Imports</a>
-  * <a href="#75">Universal Imports</a>
-  * <a href="#76">Here Be Dragons</a>
-  * <a href="#77">On Beyond Strings</a>
-  * <a href="#78">max()</a>
-  * <a href="#79">min()</a>
-  * <a href="#80">abs()</a>
-  * <a href="#81">type()</a>
-  * <a href="#82">Review: Functions</a>
-  * <a href="#83">Review: Modules</a>
-  * <a href="#84">Review: Built-In Functions</a>
+  * <a href="#66">66 - What Good are Functions?</a>
+  * <a href="#67">67 - Function Junction</a>
+  * <a href="#68">68 - Call and Response</a>
+  * <a href="#69">69 - Parameters and Arguments</a>
+  * <a href="#70">70 - Functions Calling Functions</a>
+  * <a href="#71">71 - Practice Makes Perfect</a>
+  * <a href="#72">72 - I know Kung Fu</a>
+  * <a href="#73">73 - Generic Imports</a>
+  * <a href="#74">74 - Function Imports</a>
+  * <a href="#75">75 - Universal Imports</a>
+  * <a href="#76">76 - Here Be Dragons</a>
+  * <a href="#77">77 - On Beyond Strings</a>
+  * <a href="#78">78 - max()</a>
+  * <a href="#79">79 - min()</a>
+  * <a href="#80">80 - abs()</a>
+  * <a href="#81">81 - type()</a>
+  * <a href="#82">82 - Review: Functions</a>
+  * <a href="#83">83 - Review: Modules</a>
+  * <a href="#84">84 - Review: Built-In Functions</a>
 
 ##### Taking a Vacation
   * <a href="#85">Before We Begin</a>
