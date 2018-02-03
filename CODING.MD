@@ -13,11 +13,17 @@ Coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x|x |x |x |x |x |x |x |x |x |x |x |x | 
+|  | x| x| x|  |  |  |  |  |  |  |  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-|x |x |x |RD|x |RD|x |x |x |x |x |x |x |x |x |x |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 * FEB
+
+    * 03 : (Sat) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512826?start=15) : 78%. Collections Module - Counter 
+      + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/COL_MOD.MD) : Updated
+      + DIR : 6
    
     * 02 : (Fri) 
     
