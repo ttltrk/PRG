@@ -21,7 +21,7 @@ Coding
 
     * 05 : (Mon) 
     
-      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512824?start=0) : 78%. Collections Module - defaultdict 
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512824?start=0) : 79%. Collections Module - defaultdict 
       + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/MOD_DD.MD) : Updated
       + DIR : 8
 
