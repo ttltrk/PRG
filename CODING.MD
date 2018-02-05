@@ -13,11 +13,17 @@ Coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x|  |  |  |  |  |  |  |  |  |  |  | 
+|  | x| x| x| x| x|  |  |  |  |  |  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 * FEB
+
+    * 05 : (Mon) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512824?start=0) : 78%. Collections Module - defaultdict 
+      + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/MOD_DD.MD) : Updated
+      + DIR : 8
 
     * 04 : (Sun) 
     
