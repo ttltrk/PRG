@@ -1,4 +1,4 @@
-BPyM 1.0
+Basic Python Manual (BPyM) 
 ======
 
 ### Section 1.1 - Objects and Data Structure Basics
