@@ -23,6 +23,7 @@ Coding
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512824?start=0) : 79%. Collections Module - defaultdict 
       + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/MOD_DD.MD) : Updated
+      + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 90.
       + DIR : 8
 
     * 04 : (Sun) 
