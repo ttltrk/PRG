@@ -1,7 +1,7 @@
 Basic Python Manual (BPyM) 
 ======
 
-### Section 1.1 - Objects and Data Structure Basics
+### Section 1 - Objects and Data Structure Basics
   * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
   * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
   * [Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
@@ -10,16 +10,16 @@ Basic Python Manual (BPyM)
   * [Sets](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD)
   * [Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/FILES/FILES.MD)
   
-### Section 1.2 - Comparison Operators
+### Section 2 - Comparison Operators
   * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
   
-### Section 1.3 - Python Statements
+### Section 3 - Python Statements
   * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
   * [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
   * [while loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/WHILE/WHILE.MD)
   * [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
     
-### Section 1.4 - Methods and Functions and Generators
+### Section 4 - Methods and Functions and Generators
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
   * [Built-in Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD)
   * [Functions within functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD)
@@ -28,14 +28,14 @@ Basic Python Manual (BPyM)
   * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
   * [Nested Statements and Scope]()
   
-### Section 1.5 - Object Oriented Programming
+### Section 5 - Object Oriented Programming
   * [Objects](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OBJECTS/OBJECTS.MD)
   * [Classes](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/CLASSES/CLASSES.MD)
   * [Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/METHODS/METHODS.MD)
   * [Inheritance](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/INHERITANCE/INHERITANCE.MD)
   * [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
   
-### Section 1.6 - Modules and Packages
+### Section 6 - Modules and Packages
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
   * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
    
