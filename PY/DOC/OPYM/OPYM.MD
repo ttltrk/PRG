@@ -47,6 +47,7 @@ Basic Python Manual (BPyM)
   * [Google's Python Class](https://developers.google.com/edu/python/)
   * [effbot.org](http://effbot.org/zone/librarybook-index.htm)
   * [likegeeks.com](https://likegeeks.com/python-programming-basics/)
+  * [teachyourkidstocode.com](http://teachyourkidstocode.com/)
 
 
 
