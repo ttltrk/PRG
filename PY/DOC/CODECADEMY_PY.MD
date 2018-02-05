@@ -113,31 +113,31 @@
   * <a href="#84">84 - Review: Built-In Functions</a>
 
 ##### Taking a Vacation
-  * <a href="#85">Before We Begin</a>
-  * <a href="#86">Planning Your Trip</a>
-  * <a href="#87">Getting There</a>
-  * <a href="#88">Transportation</a>
-  * <a href="#89">Pull it Together</a>
-  * <a href="#90">Hey, You Never Know!</a>
-  * <a href="#91">Plan Your Trip!</a>
+  * <a href="#85">85 - Before We Begin</a>
+  * <a href="#86">86 - Planning Your Trip</a>
+  * <a href="#87">87 - Getting There</a>
+  * <a href="#88">88 - Transportation</a>
+  * <a href="#89">89 - Pull it Together</a>
+  * <a href="#90">90 - Hey, You Never Know!</a>
+  * <a href="#91">91 - Plan Your Trip!</a>
 
 ###  Lists & Dictionaries
 
 ##### Python Lists and Dictionaries
-  * <a href="#92">Introduction to Lists</a>
-  * <a href="#93">Access by Index</a>
-  * <a href="#94">New Neighbors</a>
-  * <a href="#95">Late Arrivals & List Length</a>
-  * <a href="#96">List Slicing</a>
-  * <a href="#97">Slicing Lists and Strings</a>
-  * <a href="#98">Maintaining Order</a>
-  * <a href="#99">For One and All</a>
-  * <a href="#100">More with 'for'</a>
-  * <a href="#101">This Next Part is Key</a>
-  * <a href="#102">New Entries</a>
-  * <a href="#103">Changing Your Mind</a>
-  * <a href="#104">Remove a Few Things</a>
-  * <a href="#105">It's Dangerous to Go Alone! Take This</a>  
+  * <a href="#92">92 - Introduction to Lists</a>
+  * <a href="#93">93 - Access by Index</a>
+  * <a href="#94">94 - New Neighbors</a>
+  * <a href="#95">95 - Late Arrivals & List Length</a>
+  * <a href="#96">96 - List Slicing</a>
+  * <a href="#97">97 - Slicing Lists and Strings</a>
+  * <a href="#98">98 - Maintaining Order</a>
+  * <a href="#99">99 - For One and All</a>
+  * <a href="#100">100 - More with 'for'</a>
+  * <a href="#101">101 - This Next Part is Key</a>
+  * <a href="#102">102 - New Entries</a>
+  * <a href="#103">103 - Changing Your Mind</a>
+  * <a href="#104">104 - Remove a Few Things</a>
+  * <a href="#105">105 - It's Dangerous to Go Alone! Take This</a>  
 
 ##### A Day at the Supermarket
   * <a href="#106">BeFOR We Begin</a>
