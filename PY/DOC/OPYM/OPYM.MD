@@ -46,6 +46,7 @@ OPyM 1.0
   * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)
   * [Google's Python Class](https://developers.google.com/edu/python/)
   * [effbot.org](http://effbot.org/zone/librarybook-index.htm)
+  * [likegeeks.com](https://likegeeks.com/python-programming-basics/)
 
 
 
