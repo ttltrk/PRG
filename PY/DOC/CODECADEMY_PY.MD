@@ -170,45 +170,45 @@
 ###  Lists and Functions
 
 ##### Lists and Functions
-  * <a href="#128">List accessing</a>
-  * <a href="#129">List element modification</a>
-  * <a href="#130">Appending to a list</a>
-  * <a href="#131">Removing elements from lists</a>
-  * <a href="#132">Changing the functionality of a function</a>
-  * <a href="#133">More than one argument</a>
-  * <a href="#134">Strings in functions</a>
-  * <a href="#135">Passing a list to a function</a>
-  * <a href="#136">Using an element from a list in a function</a>
-  * <a href="#137">Modifying an element of a list in a function</a>
-  * <a href="#138">List manipulation in functions</a>
-  * <a href="#139">Printing out a list item by item in a function</a>
-  * <a href="#140">Modifying each element in a list in a function</a>
-  * <a href="#141">Passing a range into a function</a>
-  * <a href="#142">Iterating over a list in a function</a>
-  * <a href="#143">Using strings in lists in functions</a>
-  * <a href="#144">Using two lists as two arguments in a function</a>
-  * <a href="#145">Using a list of lists in a function</a>
+  * <a href="#128">128 - List accessing</a>
+  * <a href="#129">129 - List element modification</a>
+  * <a href="#130">130 - Appending to a list</a>
+  * <a href="#131">131 - Removing elements from lists</a>
+  * <a href="#132">132 - Changing the functionality of a function</a>
+  * <a href="#133">133 - More than one argument</a>
+  * <a href="#134">134 - Strings in functions</a>
+  * <a href="#135">135 - Passing a list to a function</a>
+  * <a href="#136">136 - Using an element from a list in a function</a>
+  * <a href="#137">137 - Modifying an element of a list in a function</a>
+  * <a href="#138">138 - List manipulation in functions</a>
+  * <a href="#139">139 - Printing out a list item by item in a function</a>
+  * <a href="#140">140 - Modifying each element in a list in a function</a>
+  * <a href="#141">141 - Passing a range into a function</a>
+  * <a href="#142">142 - Iterating over a list in a function</a>
+  * <a href="#143">143 - Using strings in lists in functions</a>
+  * <a href="#144">144 - Using two lists as two arguments in a function</a>
+  * <a href="#145">145 - Using a list of lists in a function</a>
 
 ##### Battleship!
-  * <a href="#146">Welcome to Battleship!</a>
-  * <a href="#147">Getting Our Feet Wet</a>
-  * <a href="#148">Make a List</a>
-  * <a href="#149">Check it Twice</a>
-  * <a href="#150">Custom Print</a>
-  * <a href="#151">Printing Pretty</a>
-  * <a href="#152">Hide...</a>
-  * <a href="#153">...and Seek!</a>
-  * <a href="#154">It's Not Cheating -- It's Debugging!</a>
-  * <a href="#155">You win!</a>
-  * <a href="#156">Danger, Will Robinson!!</a>
-  * <a href="#157">Bad Aim</a>
-  * <a href="#158">Not Again!</a>
-  * <a href="#159">Test Run</a>
-  * <a href="#160">Play It, Sam</a>
-  * <a href="#161">Game Over</a>
-  * <a href="#162">A Real Win</a>
-  * <a href="#163">To Your Battle Stations!</a>
-  * <a href="#164">Extra Credit</a>
+  * <a href="#146">146 - Welcome to Battleship!</a>
+  * <a href="#147">147 - Getting Our Feet Wet</a>
+  * <a href="#148">148 - Make a List</a>
+  * <a href="#149">149 - Check it Twice</a>
+  * <a href="#150">150 - Custom Print</a>
+  * <a href="#151">151 - Printing Pretty</a>
+  * <a href="#152">152 - Hide...</a>
+  * <a href="#153">153 - ...and Seek!</a>
+  * <a href="#154">154 - It's Not Cheating -- It's Debugging!</a>
+  * <a href="#155">155 - You win!</a>
+  * <a href="#156">156 - Danger, Will Robinson!!</a>
+  * <a href="#157">157 - Bad Aim</a>
+  * <a href="#158">158 - Not Again!</a>
+  * <a href="#159">159 - Test Run</a>
+  * <a href="#160">160 - Play It, Sam</a>
+  * <a href="#161">161 - Game Over</a>
+  * <a href="#162">162 - A Real Win</a>
+  * <a href="#163">163 - To Your Battle Stations!</a>
+  * <a href="#164">164 - Extra Credit</a>
 
 
 ### Loops
