@@ -140,32 +140,32 @@
   * <a href="#105">105 - It's Dangerous to Go Alone! Take This</a>  
 
 ##### A Day at the Supermarket
-  * <a href="#106">BeFOR We Begin</a>
-  * <a href="#107">This is KEY!</a>
-  * <a href="#108">Control Flow and Looping</a>
-  * <a href="#109">Lists + Functions</a>
-  * <a href="#110">String Looping</a>
-  * <a href="#111">Your Own Store!</a>
-  * <a href="#112">Investing in Stock</a>
-  * <a href="#113">Keeping Track of the Produce</a>
-  * <a href="#114">Something of Value</a>
-  * <a href="#115">Shopping at the Market</a>
-  * <a href="#116">Making a Purchase</a>
-  * <a href="#117">Stocking Out</a>
-  * <a href="#118">Let's Check Out!</a>  
+  * <a href="#106">106 - BeFOR We Begin</a>
+  * <a href="#107">107 - This is KEY!</a>
+  * <a href="#108">108 - Control Flow and Looping</a>
+  * <a href="#109">109 - Lists + Functions</a>
+  * <a href="#110">110 - String Looping</a>
+  * <a href="#111">111 - Your Own Store!</a>
+  * <a href="#112">112 - Investing in Stock</a>
+  * <a href="#113">113 - Keeping Track of the Produce</a>
+  * <a href="#114">114 - Something of Value</a>
+  * <a href="#115">115 - Shopping at the Market</a>
+  * <a href="#116">116 - Making a Purchase</a>
+  * <a href="#117">117 - Stocking Out</a>
+  * <a href="#118">118 - Let's Check Out!</a>  
 
 ###  Students Becomes the Teachers
 
 ##### Students Becomes the Teachers
-  * <a href="#119">Lesson Number One</a>
-  * <a href="#120">What's the Score?</a>
-  * <a href="#121">Put It Together</a>
-  * <a href="#122">For the Record</a>
-  * <a href="#123">It's Okay to be Average</a>
-  * <a href="#124">Just Weight and See</a>
-  * <a href="#125">Sending a Letter</a>
-  * <a href="#126">Part of the Whole</a>
-  * <a href="#127">How is Everybody Doing?</a>
+  * <a href="#119">119 - Lesson Number One</a>
+  * <a href="#120">120 - What's the Score?</a>
+  * <a href="#121">121 - Put It Together</a>
+  * <a href="#122">122 - For the Record</a>
+  * <a href="#123">123 - It's Okay to be Average</a>
+  * <a href="#124">124 - Just Weight and See</a>
+  * <a href="#125">125 - Sending a Letter</a>
+  * <a href="#126">126 - Part of the Whole</a>
+  * <a href="#127">127 - How is Everybody Doing?</a>
 
 ###  Lists and Functions
 
