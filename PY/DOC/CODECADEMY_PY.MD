@@ -2253,18 +2253,11 @@ None
 >>>
 ```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='91'>91 - Plan your trip</h3>
 
-----------------------------------------------------------------------
-
-1.92.
-
-- PLAN YOUR TRIP
-
------------------------------------
-
+```python
 def hotel_cost(days):
     return 140 * days
     
@@ -2297,19 +2290,13 @@ print(trip_cost("Los Angeles" , 5 , 600))
 >>>
 1955
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='92'>92 - Introduction to lists</h3>
 
-----------------------------------------------------------------------
-
-1.93.
-
-- INTRODUCTION TO LISTS
-
------------------------------------
-
+```python
 zoo_animals = ["pangolin", "cassowary", "sloth", "turtle" ];
 # One animal is missing!
 
@@ -2325,19 +2312,13 @@ The second animal at the zoo is the cassowary
 The third animal at the zoo is the sloth
 The fourth animal at the zoo is the turtle
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='93'>93 - Access by index</h3>
 
-----------------------------------------------------------------------
-
-1.94.
-
-- ACCESS BY INDEX
-
------------------------------------
-
+```python
 numbers = [5, 6, 7, 8]
 
 print(numbers)
@@ -2353,19 +2334,13 @@ Adding the numbers at indices 0 and 2...
 Adding the numbers at indices 1 and 3...
 14
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='94'>94 - New neighbours</h3>
 
-----------------------------------------------------------------------
-
-1.95.
-
-- NEW NEIGHBORS
-
------------------------------------
-
+```python
 zoo_animals = ["pangolin", "cassowary", "sloth", "tiger"]
 # Last night our zoo's sloth brutally attacked 
 #the poor tiger and ate it whole.
@@ -2385,19 +2360,13 @@ print(zoo_animals)
 ['pangolin', 'cassowary', 'sloth', 'tiger']
 ['pangolin', 'cassowary', 'hyena', 'turtle']
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='95'>95 - Late arrivals & list length</h3>
 
-----------------------------------------------------------------------
-
-1.96.
-
-- LATE ARRIVALS & LIST LENGTH
-
------------------------------------
-
+```python
 suitcase = [] 
 suitcase.append("sunglasses")
 
@@ -2418,6 +2387,7 @@ print (suitcase)
 ..and now there are 4 items in the suitcase.
 ['sunglasses', 'knife', 'mt', 'g9']
 >>>
+```
 
 ----------------------------------------------------------------------
 
