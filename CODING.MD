@@ -29,6 +29,7 @@ Coding
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3779906?start=0) : 80%. Collections Module - OrderedDict 
       + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/ORD_DIC.MD) : Updated
+       + [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) : Learn Python docu was updated to 95
       + DIR : 9
 
     * 05 : (Mon) 
