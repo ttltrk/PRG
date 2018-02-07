@@ -2489,18 +2489,11 @@ print (square_list)
 >>>
 ```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='101'>101 - This next part is key</h3>
 
-----------------------------------------------------------------------
-
-1.102.
-
-- THIS NEXT PART IS KEY
-
------------------------------------
-
+```python
 # Assigning a dictionary with three key-value pairs to residents:
 residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
 
@@ -2516,19 +2509,13 @@ print (residents['Burmese Python'])
 105
 106
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='102'>102 - New entries</h3>
 
-----------------------------------------------------------------------
-
-1.103.
-
-- NEW ENTRIES
-
------------------------------------
-
+```python
 menu = {} # Empty dictionary
 menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
 print (menu['Chicken Alfredo'])
@@ -2546,19 +2533,13 @@ print (menu)
 There are 4 items on the menu.
 {'Chicken Alfredo': 14.5, 'Behind': 6.3, 'Spin': 420, 'Reverse': 55}
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='103'>103 - More with for</h3>
 
-----------------------------------------------------------------------
-
-1.104.
-
-- CHANGING YOUR MIND
-
------------------------------------
-
+```python
 # key - animal_name : value - location 
 zoo_animals = { 'Unicorn' : 'Cotton Candy House',
 'Sloth' : 'Rainforest Exhibit',
@@ -2581,19 +2562,13 @@ print (zoo_animals)
 >>>
 {'Atlantic Puffin': 'Arctic Exhibit', 'Rockhopper Penguin': 'Rainforest Exhibit'}
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='104'>104 - Remove a few things</h3>
 
-----------------------------------------------------------------------
-
-1.105.
-
-- REMOVE A FEW THINGS
-
------------------------------------
-
+```python
 backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
 backpack.remove('dagger')
 
@@ -2602,19 +2577,13 @@ print(backpack)
 >>>
 ['xylophone', 'tent', 'bread loaf']
 >>>
+```
 
-----------------------------------------------------------------------
+<a href='#home'>↑</a3>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<h3 id='105'>105 - It's dangerous to go alone! Take this</h3>
 
-----------------------------------------------------------------------
-
-1.106.
-
-- IT'S DANGEROUS TO GO ALONE! TAKE THIS
-
------------------------------------
-
+```python
 inventory = {
     'gold' : 500,
     'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
@@ -2642,6 +2611,7 @@ inventory['gold'] += 50
  'pocket': ['seashell', 'strange berry', 'lint']
  }
 >>>
+```
 
 ----------------------------------------------------------------------
 
