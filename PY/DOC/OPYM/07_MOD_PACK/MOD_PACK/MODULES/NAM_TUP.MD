@@ -2,9 +2,9 @@
 namedtuple
 ======
 
-[]()
+[<<<]()
 
-[]()
+[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Collections%20Module.ipynb)
 
 ```python
 t = (1, 2, 3)
