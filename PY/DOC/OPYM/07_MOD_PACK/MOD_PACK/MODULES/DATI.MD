@@ -2,7 +2,7 @@
 Datetime
 ======
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
 
 [jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Datetime.ipynb)
 
