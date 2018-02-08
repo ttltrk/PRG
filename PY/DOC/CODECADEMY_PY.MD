@@ -279,6 +279,8 @@ print(curry)
 >>>
 ```
 
+[repl.it](https://repl.it/@ttltrknet/CA02-Variables)
+
 <a href='#home'>↑</a3>
 
 <h3 id='03'>03 - Booleans</h3>
