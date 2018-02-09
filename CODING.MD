@@ -27,7 +27,7 @@ Coding
 
     * 08 : (Thu) 
     
-      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547912?start=0) : 81%. Python Debugger - pdb
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547912?start=0) : 82%. Python Debugger - pdb
       + DIR : 12
 
     * 08 : (Thu) 
