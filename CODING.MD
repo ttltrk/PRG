@@ -13,7 +13,7 @@ Coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x|  |  |  |  |  | 
+|  | x| x| x| x| x| x| x| x| x| x|RD| x|  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -24,6 +24,16 @@ Coding
 |LDIR|13|
 
 * FEB
+
+    * 12 : (Mon) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547914?start=0) : 82%. Timing 1st part
+      + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/DATI.MD) : Updated      
+      + DIR : 1
+      
+    * 11 : (Sun) 
+    
+      + Rest day.
 
     * 10 : (Sat) 
     
