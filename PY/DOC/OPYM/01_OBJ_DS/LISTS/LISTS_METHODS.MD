@@ -2,9 +2,14 @@
 Lists Methods
 ======
 
-[tutorialspoint.com](https://www.tutorialspoint.com/python)
+[tutorialspoint.com](https://www.tutorialspoint.com/python) |
+[programiz.com](https://www.programiz.com/python-programming/methods/list)
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+
+* Python has some list methods that you can use to perform frequency occurring task (related to list) with ease. 
+
+---
 
 * <a href="#3">append</a>
 * <a href="#6">copy()</a>
@@ -30,6 +35,8 @@ Lists Methods
 * <a href="#244">sorted</a>
 * <a href="#25">sum()</a>	
 * <a href="#26">zip()</a>
+
+---
 
 <h4 id="3">append</h4>
 
