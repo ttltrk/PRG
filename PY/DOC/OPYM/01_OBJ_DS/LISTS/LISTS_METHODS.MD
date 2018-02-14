@@ -6,134 +6,141 @@ Lists Methods
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
-all()
-any()
+* <a href="#1">all()</a>
+* <a href="#2">any()</a>
+* <a href="#3">append</a>
+* <a href="#4">ascii()</a>
+* <a href="#5">bool()</a>
+* <a href="#6">copy()</a>
+* <a href="#7">count</a>
+* <a href="#8">clear()</a>
+* <a href="#9">enumerate()</a>	
+* <a href="#10">extend</a>
+* <a href="#11">filter()</a>
+* <a href="#12">pop</a>
+* <a href="#13">index</a>
+* <a href="#14">insert</a>
+* <a href="#15">iter()</a>
+* <a href="#16">len()</a>	
+* <a href="#17">list()</a>
+* <a href="#18">map()</a>
+* <a href="#19">max()</a>	
+* <a href="#20">min()</a>	
+* <a href="#21">remove</a>
+* <a href="#22">reverse</a>
+* <a href="#23">slice()</a>
+* <a href="#24">sort</a>
+* <a href="#25">sum()</a>	
+* <a href="#26">zip()</a>
 
-* <a href="#1">Append</a>
+<h4 id="1">all</h4>
 
-ascii()
-
-bool()
-
-copy()	
-* <a href="#9">Count</a>
-clear()
-
-enumerate()	
-* <a href="#5">Extend</a>
-
-filter()
-
-* <a href="#2">Pop</a>
-
-* <a href="#6">Index</a>
-* <a href="#3">Insert</a>
-iter()
-
-len()	
-list()
-
-map()
-max()	
-min()	
-
-* <a href="#4">Remove</a>
-
-* <a href="#8">Reverse</a>
-reversed()	
-
-slice()
-* <a href="#7">Sort</a>
-sorted()
-sum()	
-
-zip()
-
-
-
-append()	
-Add Single Element to The List
-
-extend()	
-Add Elements of a List to Another List
-
-insert()	
-Inserts Element to The List
-
-remove()	
-Removes Element from the List
-
-index()	
-returns smallest index of element in list
-
-count()	
-returns occurrences of element in a list
-
-pop()	
-Removes Element at Given Index
-
-reverse()	
-Reverses a List
-
-sort()	
-sorts elements of a list
-
-copy()	
-Returns Shallow Copy of a List
-
-clear()	
-Removes all Items from the List
-
-any()	
-Checks if any Element of an Iterable is True
-
-all()	
 returns true when all elements in iterable is true
 
-ascii()	
+<h4 id="2">any</h4>
+
+Checks if any Element of an Iterable is True
+
+<h4 id="3">append</h4>
+
+Add Single Element to The List
+
+<h4 id="4">ascii</h4>
+
 Returns String Containing Printable Representation
 
-bool()	
+<h4 id="5">bool</h4>
+
 Coverts a Value to Boolean
 
-enumerate()	
+<h4 id="6">copy</h4>
+
+Returns Shallow Copy of a List
+
+<h4 id="7">count</h4>
+
+returns occurrences of element in a list
+
+<h4 id="8">clear</h4>
+
+Removes all Items from the List
+
+<h4 id="9">enumerate</h4>
+
 Returns an Enumerate Object
 
-filter()	
+<h4 id="10">extend</h4>
+
+Add Elements of a List to Another List
+
+<h4 id="11">filter</h4>
+
 constructs iterator from elements which are true
 
-iter()	
+<h4 id="12">pop</h4>
+
+Removes Element at Given Index
+
+<h4 id="13">index</h4>
+
+returns smallest index of element in list
+
+<h4 id="14">insert</h4>
+
+Inserts Element to The List
+
+<h4 id="15">iter</h4>
+
 returns iterator for an object
 
-list() 
-Function	creates list in Python
+<h4 id="16">len</h4>
 
-len()	
 Returns Length of an Object
 
-max()	
-returns largest element
+<h4 id="17">list</h4>
 
-min()	
-returns smallest element
+Function	creates list in Python
 
-map()	
+<h4 id="18">map</h4>
+
 Applies Function and Returns a List
 
-reversed()	
+<h4 id="19">max</h4>
+
+returns largest element
+
+<h4 id="20">min</h4>
+
+returns smallest element
+
+<h4 id="21">remove</h4>
+
+Removes Element from the List
+
+<h4 id="22">reverse</h4>
+
 returns reversed iterator of a sequence
 
-slice()	
+Reverses a List
+
+<h4 id="23">slice</h4>
+
 creates a slice object specified by range()
 
-sorted()	
+<h4 id="24">sort</h4>
+
 returns sorted list from a given iterable
 
-sum()	
+sorts elements of a list
+
+<h4 id="25">sum</h4>
+
 Add items of an Iterable
 
-zip()
+<h4 id="26">zip</h4>
+
 Returns an Iterator of Tuples
+
 <h4 id="1">Append</h4>
 
 In order append() an element onto an array, call the method with the element in the parenthesis.
