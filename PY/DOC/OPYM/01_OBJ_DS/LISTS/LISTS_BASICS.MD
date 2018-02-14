@@ -2,7 +2,48 @@
 Lists Basics
 ======
 
+[programiz.com](https://www.programiz.com/python-programming/list)
+
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+
+---
+
+Create a list
+
+```python
+# empty list
+my_list = []
+print(my_list)
+
+# list of integers
+my_list = [1, 2, 3]
+print(my_list)
+
+# list with mixed datatypes
+my_list = [1, "Hello", 3.4]
+print(my_list)
+
+>>>
+[]
+[1, 2, 3]
+[1, 'Hello', 3.4]
+>>>
+```
+
+Nested list
+
+```python
+# nested list
+my_list = ["mouse", [8, 4, 6], ['a']]
+
+print(my_list)
+
+>>>
+['mouse', [8, 4, 6], ['a']]
+>>>
+```
+
+---
 
 ```python
 >>> squares = [1, 4, 9, 16, 25]
