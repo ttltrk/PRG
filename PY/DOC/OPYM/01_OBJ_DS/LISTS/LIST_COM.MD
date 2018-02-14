@@ -7,6 +7,8 @@ List Comprehensions
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
+---
+
 ```python
 l = []
 
@@ -35,6 +37,7 @@ print (l)
 >>> 
 ```
 
+---
 
 ```python
 >>> lst = [x**2 for x in range(0,11)]
