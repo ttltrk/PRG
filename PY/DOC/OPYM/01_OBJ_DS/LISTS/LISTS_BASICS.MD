@@ -45,6 +45,71 @@ print(my_list)
 
 ---
 
+List index
+
+```python
+my_list = ['p','r','o','b','e']
+
+print(my_list[0])
+print(my_list[2])
+print(my_list[4])
+
+>>>
+p
+o
+e
+>>>
+```
+
+Nested indexing
+
+```python
+n_list = ["Happy", [2,0,1,5]]
+
+print(n_list[0][1])    
+print(n_list[1][3])
+
+>>>
+a
+5
+>>>
+```
+
+Negative indexing
+
+```python
+my_list = ['p','r','o','b','e']
+
+print(my_list[-1])
+print(my_list[-5])
+
+>>>
+e
+p
+>>>
+```
+---
+
+Slice lists
+
+```python
+my_list = [1, 2, 3, 4, 5, 6, 7]
+
+print(my_list[2:5])
+print(my_list[:-5])
+print(my_list[5:])
+print(my_list[:])
+
+>>>
+[3, 4, 5]
+[1, 2]
+[6, 7]
+[1, 2, 3, 4, 5, 6, 7]
+>>>
+```
+
+---
+
 ```python
 >>> squares = [1, 4, 9, 16, 25]
 >>> squares
