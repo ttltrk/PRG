@@ -2,6 +2,8 @@
 Lists Methods
 ======
 
+[tutorialspoint.com](https://www.tutorialspoint.com/python)
+
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
 * <a href="#1">Append</a>
@@ -158,12 +160,14 @@ Returns an Iterator of Tuples
 In order append() an element onto an array, call the method with the element in the parenthesis.
 
 ```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.append("Mint")
-print(linux_distros)
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.append(7)
+print(l)
 
 >>>
-['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo', 'Mint']
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7]
 >>>
 ```
 
