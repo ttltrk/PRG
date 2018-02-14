@@ -2,6 +2,7 @@
 Python List
 ======
 
+[[programiz.com](https://www.programiz.com/python-programming/list)] - 
 [[python.org](https://docs.python.org/3/tutorial/introduction.html#lists)] -
 [[linuxconfig](https://linuxconfig.org/python-list-methods)] -
 [[dev.google](https://developers.google.com/edu/python/lists)] -
