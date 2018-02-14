@@ -54,6 +54,8 @@ print(l)
 >>>
 ```
 
+---
+
 <h4 id="6">copy</h4>
 
 Returns Shallow Copy of a List
@@ -70,6 +72,8 @@ print(l2)
 [1, 2, 3, 4, 5, 6, 7]
 >>>
 ```
+
+---
 
 <h4 id="7">count</h4>
 
@@ -90,6 +94,8 @@ print(l.count(3))
 >>>
 ```
 
+---
+
 <h4 id="8">clear</h4>
 
 Removes all Items from the List
@@ -106,9 +112,13 @@ print(l)
 >>>
 ```
 
+---
+
 <h4 id="9">enumerate</h4>
 
 Returns an Enumerate Object
+
+---
 
 <h4 id="10">extend</h4>
 
@@ -129,9 +139,13 @@ print(l1)
 >>>
 ```
 
+---
+
 <h4 id="11">filter</h4>
 
 constructs iterator from elements which are true
+
+---
 
 <h4 id="13">index</h4>
 
@@ -152,6 +166,8 @@ print(l.index(3))
 >>>
 ```
 
+---
+
 <h4 id="14">insert</h4>
 
 Inserts Element to The List
@@ -168,29 +184,43 @@ print(l)
 >>>
 ```
 
+---
+
 <h4 id="15">iter</h4>
 
 returns iterator for an object
+
+---
 
 <h4 id="16">len</h4>
 
 Returns Length of an Object
 
+---
+
 <h4 id="17">list</h4>
 
 Function	creates list in Python
+
+---
 
 <h4 id="18">map</h4>
 
 Applies Function and Returns a List
 
+---
+
 <h4 id="19">max</h4>
 
 returns largest element
 
+---
+
 <h4 id="20">min</h4>
 
 returns smallest element
+
+---
 
 <h4 id="12">pop</h4>
 
@@ -208,6 +238,8 @@ print(l)
 >>>
 ```
 
+---
+
 <h4 id="21">remove</h4>
 
 Removes Element from the List
@@ -223,6 +255,8 @@ print(l)
 [1, 2, 4, 5, 6]
 >>>
 ```
+
+---
 
 <h4 id="22">reverse</h4>
 
@@ -240,13 +274,19 @@ print(l)
 >>>
 ```
 
+---
+
 <h4 id="222">reversed</h4>
 
 returns reversed iterator of a sequence
 
+---
+
 <h4 id="23">slice</h4>
 
 creates a slice object specified by range()
+
+---
 
 <h4 id="24">sort</h4>
 
@@ -270,15 +310,22 @@ print(l2)
 >>>
 ```
 
+---
+
 <h4 id="24">sorted</h4>
 
 returns sorted list from a given iterable
+
+---
 
 <h4 id="25">sum</h4>
 
 Add items of an Iterable
 
+---
+
 <h4 id="26">zip</h4>
 
 Returns an Iterator of Tuples
 
+---
