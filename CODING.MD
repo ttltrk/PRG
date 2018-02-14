@@ -28,6 +28,7 @@ Coding
     * 14 : (Wed) 
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Regulra expressions 1st part 
+      + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS_METHODS.MD) : Updated (List methods)
       + DIR : 3
 
     * 13 : (Tue) 
