@@ -47,6 +47,18 @@ Checks if any Element of an Iterable is True
 
 Add Single Element to The List
 
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.append(7)
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7]
+>>>
+```
+
 <h4 id="4">ascii</h4>
 
 Returns String Containing Printable Representation
@@ -75,6 +87,21 @@ Returns an Enumerate Object
 
 Add Elements of a List to Another List
 
+```python
+l1 = [1, 2, 3, 4, 5, 6]
+l2 = [11, 22, 33, 44, 55, 66]
+print(l1)
+print(l2)
+l1.extend(l2)
+print(l1)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[11, 22, 33, 44, 55, 66]
+[1, 2, 3, 4, 5, 6, 11, 22, 33, 44, 55, 66]
+>>>
+```
+
 <h4 id="11">filter</h4>
 
 constructs iterator from elements which are true
@@ -83,6 +110,16 @@ constructs iterator from elements which are true
 
 Removes Element at Given Index
 
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.pop(3)
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 5, 6]
+>>>
+
 <h4 id="13">index</h4>
 
 returns smallest index of element in list
@@ -90,6 +127,18 @@ returns smallest index of element in list
 <h4 id="14">insert</h4>
 
 Inserts Element to The List
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.insert(3, "X")
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 'X', 4, 5, 6]
+>>>
+```
 
 <h4 id="15">iter</h4>
 
@@ -119,6 +168,18 @@ returns smallest element
 
 Removes Element from the List
 
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.remove(3)
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 4, 5, 6]
+>>>
+```
+
 <h4 id="22">reverse</h4>
 
 Reverses a List
@@ -146,101 +207,6 @@ Add items of an Iterable
 <h4 id="26">zip</h4>
 
 Returns an Iterator of Tuples
-
-<h4 id="1">Append</h4>
-
-In order append() an element onto an array, call the method with the element in the parenthesis.
-
-```python
-l = [1, 2, 3, 4, 5, 6]
-print(l)
-l.append(7)
-print(l)
-
->>>
-[1, 2, 3, 4, 5, 6]
-[1, 2, 3, 4, 5, 6, 7]
->>>
-```
-
-<h4 id="2">Pop</h4>
-
-The pop() method can work in two different ways. If you leave the parenthesis empty, it works as the opposite of append().
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.pop()
-print(linux_distros)
-
->>>
-['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch']
->>>
-
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch']
-linux_distros.pop()
-print(linux_distros)
-
->>>
-['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE']
->>>
-
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch']
-linux_distros.pop(1)
-print(linux_distros)
-
->>>
-['Debian', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch']
->>>
-```
-
-<h4 id="3">Insert</h4>
-
-In order to use insert() to place a new element into a list, you have to specify the index where you want to insert your new element and the element that you want to insert.
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.insert(2, "Mint")
-print(linux_distros)
-
->>>
-['Debian', 'Ubuntu', 'Mint', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
->>>
-
-print(linux_distros[4])
-
->>>
-CentOS
->>>
-```
-
-<h4 id="4">Remove</h4>
-
-remove() works sort of like giving pop an index to remove, but instead of giving remove() an index you give it the actual value of the element. It will find and remove the first occurrence of that value in the list. So, be sure that the first occurrence is the one that you want to remove. Otherwise, it's probably best to figure out the index of the element that you do want to remove and use pop().
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.remove("Arch")
-print(linux_distros)
-
->>>
-['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Gentoo']
->>>
-```
-
-<h4 id="5">Extend</h4>
-
-extend() adds two lists together. It adds the list in parenthesis to the list that it is being called on.
-
-```python
-linux_distros = ['Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-debian_distros = ['Debian', 'Ubuntu', 'Mint']
-linux_distros.extend(debian_distros)
-print(linux_distros)
-
->>>
-['Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo', 'Debian', 'Ubuntu', 'Mint']
->>>
-```
 
 <h4 id="6">Index</h4>
 
