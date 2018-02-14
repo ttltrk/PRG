@@ -22,9 +22,64 @@ Built-in Functions with List
 
 <h4 id="1">all()</h4>
 
+The all() method returns True when all elements in the given iterable are true. If not, it returns False.
+
+```python
+# all values true
+l = [1, 3, 4, 5]
+print(all(l))
+
+# all values false
+l = [0, False]
+print(all(l))
+
+# one false value
+l = [1, 3, 4, 0]
+print(all(l))
+
+# one true value
+l = [0, False, 5]
+print(all(l))
+
+# empty iterable
+l = []
+print(all(l))
+
+>>>
+True
+False
+False
+False
+True
+>>>
+```
+
 ---
 
 <h4 id="2">any()</h4>
+
+The any() method returns True if any element of an iterable is true. If not, this method returns False.
+
+```python
+l = [1, 3, 4, 0]
+print(any(l))
+
+l = [0, False]
+print(any(l))
+
+l = [0, False, 5]
+print(any(l))
+
+l = []
+print(any(l))
+
+>>>
+True
+False
+True
+False
+>>>
+```
 
 ---
 
