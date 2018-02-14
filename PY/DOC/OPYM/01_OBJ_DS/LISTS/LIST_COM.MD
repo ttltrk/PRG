@@ -9,6 +9,8 @@ List Comprehensions
 
 ---
 
+WORD
+
 ```python
 l = []
 
@@ -35,6 +37,30 @@ print (l)
 >>> lst
 ['w', 'o', 'r', 'd']
 >>> 
+```
+
+HUMAN
+
+```python
+h_letters = []
+
+for letter in 'human':
+    h_letters.append(letter)
+
+print(h_letters)
+
+>>>
+['h', 'u', 'm', 'a', 'n']
+>>>
+```
+
+```python
+h_letters = [ letter for letter in 'human' ]
+print( h_letters)
+
+>>>
+['h', 'u', 'm', 'a', 'n']
+>>>
 ```
 
 ---
