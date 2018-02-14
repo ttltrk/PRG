@@ -53,7 +53,7 @@ Basic Python Manual (BPyM)
   * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
   * [Nested Statements and Scope]()
   
-<h3 id="4">Section 5 - Object Oriented Programming</h3>
+<h3 id="5">Section 5 - Object Oriented Programming</h3>
 
   * [Objects](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OBJECTS/OBJECTS.MD)
   * [Classes](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/CLASSES/CLASSES.MD)
@@ -61,7 +61,7 @@ Basic Python Manual (BPyM)
   * [Inheritance](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/INHERITANCE/INHERITANCE.MD)
   * [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
   
-<h3 id="5">Section 6 - Modules and Packages</h3>
+<h3 id="6">Section 6 - Modules and Packages</h3>
 
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
   * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
