@@ -6,8 +6,6 @@ Lists Methods
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
-* <a href="#1">all()</a>
-* <a href="#2">any()</a>
 * <a href="#3">append</a>
 * <a href="#4">ascii()</a>
 * <a href="#5">bool()</a>
@@ -17,7 +15,6 @@ Lists Methods
 * <a href="#9">enumerate()</a>	
 * <a href="#10">extend</a>
 * <a href="#11">filter()</a>
-* <a href="#12">pop</a>
 * <a href="#13">index</a>
 * <a href="#14">insert</a>
 * <a href="#15">iter()</a>
@@ -26,6 +23,7 @@ Lists Methods
 * <a href="#18">map()</a>
 * <a href="#19">max()</a>	
 * <a href="#20">min()</a>	
+* <a href="#12">pop</a>
 * <a href="#21">remove</a>
 * <a href="#22">reverse</a>
 * <a href="#222">reversed</a>
@@ -34,14 +32,6 @@ Lists Methods
 * <a href="#244">sorted</a>
 * <a href="#25">sum()</a>	
 * <a href="#26">zip()</a>
-
-<h4 id="1">all</h4>
-
-returns true when all elements in iterable is true
-
-<h4 id="2">any</h4>
-
-Checks if any Element of an Iterable is True
 
 <h4 id="3">append</h4>
 
@@ -121,22 +111,6 @@ print(l1)
 
 constructs iterator from elements which are true
 
-<h4 id="12">pop</h4>
-
-Removes Element at Given Index
-
-```python
-l = [1, 2, 3, 4, 5, 6]
-print(l)
-l.pop(3)
-print(l)
-
->>>
-[1, 2, 3, 4, 5, 6]
-[1, 2, 3, 5, 6]
->>>
-```
-
 <h4 id="13">index</h4>
 
 returns smallest index of element in list
@@ -195,6 +169,22 @@ returns largest element
 <h4 id="20">min</h4>
 
 returns smallest element
+
+<h4 id="12">pop</h4>
+
+Removes Element at Given Index
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.pop(3)
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 5, 6]
+>>>
+```
 
 <h4 id="21">remove</h4>
 
