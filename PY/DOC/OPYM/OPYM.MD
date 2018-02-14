@@ -23,6 +23,7 @@ Basic Python Manual (BPyM)
 ---
 
 <h3 id="1">Section 1 - Objects and Data Structure Basics</h3>
+
   * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
   * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
   * [Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
@@ -32,15 +33,18 @@ Basic Python Manual (BPyM)
   * [Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/FILES/FILES.MD)
   
 <h3 id="2">Section 2 - Comparison Operators</h3>
+
   * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
   
 <h3 id="3">Section 3 - Python Statements</h3>
+
   * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
   * [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
   * [while loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/WHILE/WHILE.MD)
   * [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
     
 <h3 id="4">Section 4 - Methods and Functions and Generators</h3>
+
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
   * [Built-in Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD)
   * [Functions within functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD)
@@ -50,6 +54,7 @@ Basic Python Manual (BPyM)
   * [Nested Statements and Scope]()
   
 <h3 id="4">Section 5 - Object Oriented Programming</h3>
+
   * [Objects](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OBJECTS/OBJECTS.MD)
   * [Classes](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/CLASSES/CLASSES.MD)
   * [Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/METHODS/METHODS.MD)
@@ -57,6 +62,7 @@ Basic Python Manual (BPyM)
   * [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
   
 <h3 id="5">Section 6 - Modules and Packages</h3>
+
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
   * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
    
