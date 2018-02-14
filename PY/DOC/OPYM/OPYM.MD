@@ -1,6 +1,27 @@
 Basic Python Manual (BPyM) 
 ======
 
+  [python.org](https://docs.python.org/3/tutorial/index.html) |
+  [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/) |
+  [programiz.com](https://www.programiz.com/python-programming#tutorial) |
+  [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) |
+  [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) |
+  [Google's Python Class](https://developers.google.com/edu/python/) |
+  [effbot.org](http://effbot.org/zone/librarybook-index.htm) |
+  [likegeeks.com](https://likegeeks.com/python-programming-basics/) |
+  [teachyourkidstocode.com](http://teachyourkidstocode.com/) |
+
+---
+
+* Section 1 - Objects and Data Structure Basics
+* Section 2 - Comparison Operators
+* Section 3 - Python Statements
+* Section 4 - Methods and Functions and Generators
+* Section 5 - Object Oriented Programming
+* Section 6 - Modules and Packages
+
+---
+
 ### Section 1 - Objects and Data Structure Basics
   * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
   * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
@@ -39,16 +60,6 @@ Basic Python Manual (BPyM)
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
   * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
    
-### Links
-  * [python.org](https://docs.python.org/3/tutorial/index.html)
-  * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
-  * [programiz.com](https://www.programiz.com/python-programming#tutorial)
-  * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)
-  * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)
-  * [Google's Python Class](https://developers.google.com/edu/python/)
-  * [effbot.org](http://effbot.org/zone/librarybook-index.htm)
-  * [likegeeks.com](https://likegeeks.com/python-programming-basics/)
-  * [teachyourkidstocode.com](http://teachyourkidstocode.com/)
 
 
 
