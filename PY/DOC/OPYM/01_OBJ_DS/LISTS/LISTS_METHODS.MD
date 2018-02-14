@@ -7,8 +7,6 @@ Lists Methods
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
 * <a href="#3">append</a>
-* <a href="#4">ascii()</a>
-* <a href="#5">bool()</a>
 * <a href="#6">copy()</a>
 * <a href="#7">count</a>
 * <a href="#8">clear()</a>
@@ -49,17 +47,22 @@ print(l)
 >>>
 ```
 
-<h4 id="4">ascii</h4>
-
-Returns String Containing Printable Representation
-
-<h4 id="5">bool</h4>
-
-Coverts a Value to Boolean
-
 <h4 id="6">copy</h4>
 
 Returns Shallow Copy of a List
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l2 = l.copy()
+l2.append(7)
+print(l2)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7]
+>>>
+```
 
 <h4 id="7">count</h4>
 
