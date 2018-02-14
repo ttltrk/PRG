@@ -75,6 +75,21 @@ Returns Shallow Copy of a List
 
 returns occurrences of element in a list
 
+```python
+l = [1, 2, 3, 3, 4, 5, 6]
+print(l)
+print(l.count(1))
+print(l.count(2))
+print(l.count(3))
+
+>>>
+[1, 2, 3, 3, 4, 5, 6]
+1
+1
+2
+>>>
+```
+
 <h4 id="8">clear</h4>
 
 Removes all Items from the List
@@ -201,6 +216,18 @@ print(l)
 
 Reverses a List
 
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.reverse()
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[6, 5, 4, 3, 2, 1]
+>>>
+```
+
 <h4 id="222">reversed</h4>
 
 returns reversed iterator of a sequence
@@ -212,6 +239,24 @@ creates a slice object specified by range()
 <h4 id="24">sort</h4>
 
 sorts elements of a list
+
+```python
+l1 = [1, 3, 6, 5, 2, 4]
+l2 = ["c", "b", "g", "e", "f", "a", "d"]
+print(l1)
+print(l2)
+l1.sort()
+l2.sort()
+print(l1)
+print(l2)
+
+>>>
+[1, 3, 6, 5, 2, 4]
+['c', 'b', 'g', 'e', 'f', 'a', 'd']
+[1, 2, 3, 4, 5, 6]
+['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>>
+```
 
 <h4 id="24">sorted</h4>
 
@@ -225,74 +270,3 @@ Add items of an Iterable
 
 Returns an Iterator of Tuples
 
-<h4 id="7">Sort</h4>
-
-If you need to sort a list, either alphabetically or numerically, Python has you covered there as well. Just call the sort() method on the list, and it will be saved in the new order. This will overwrite the previous list, so create a copy to sort, if you need to preserve the original.
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.sort()
-print(linux_distros)
-
->>>
-['Arch', 'CentOS', 'Debian', 'Fedora', 'Gentoo', 'OpenSUSE', 'Ubuntu']
->>>
-```
-
-```python
-numbers_to_sort = [1, 5, 8, 16, 3, 75, 4, 23, 9, 15, 8, 32]
-numbers_to_sort.sort()
-print(numbers_to_sort)
-
->>>
-[1, 3, 4, 5, 8, 8, 9, 15, 16, 23, 32, 75]
->>>
-```
-
-<h4 id="8">Reverse</h4>
-
-reverse() is a bit of an odd method. It reverses the order of elements in a list in place and saves it. It doesn't put them in any kind of special order, it just flips the list around.
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.reverse()
-print(linux_distros)
-
->>>
-['Gentoo', 'Arch', 'OpenSUSE', 'CentOS', 'Fedora', 'Ubuntu', 'Debian']
->>>
-```
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-linux_distros.sort()
-linux_distros.reverse()
-print(linux_distros)
-
->>>
-['Ubuntu', 'OpenSUSE', 'Gentoo', 'Fedora', 'Debian', 'CentOS', 'Arch']
->>>
-```
-
-<h4 id="9">Count</h4>
-
-You can count the number of element of a kind:
-
-[01](https://repl.it/repls/TragicUnsightlyMarabou)
-
-```python
-ln = [1, 2, 3, 4, 5, 1, 1, 2, 3, 1]
-lw = ['a', 'a', 'b', 'c', 'a', 'd']
-
-print(ln.count(1))
-print(ln.count(4))
-print(lw.count('a'))
-print(lw.count('b'))
-
->>>
-4
-1
-3
-1
->>>
-```
