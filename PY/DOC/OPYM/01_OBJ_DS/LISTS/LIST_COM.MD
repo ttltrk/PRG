@@ -7,6 +7,11 @@ List Comprehensions
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
+* List comprehension is an elegant way to define and create lists based on existing lists.
+* List comprehension is generally more compact and faster than normal functions and loops for creating list.
+* However, we should avoid writing very long list comprehensions in one line to ensure that code is user-friendly.
+* Remember, every list comprehension can be rewritten in for loop, but every for loop can’t be rewritten in the form of list comprehension.
+
 ---
 
 WORD
