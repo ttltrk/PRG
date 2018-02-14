@@ -28,8 +28,10 @@ Lists Methods
 * <a href="#20">min()</a>	
 * <a href="#21">remove</a>
 * <a href="#22">reverse</a>
+* <a href="#222">reversed</a>
 * <a href="#23">slice()</a>
 * <a href="#24">sort</a>
+* <a href="#244">sorted</a>
 * <a href="#25">sum()</a>	
 * <a href="#26">zip()</a>
 
@@ -119,9 +121,11 @@ Removes Element from the List
 
 <h4 id="22">reverse</h4>
 
-returns reversed iterator of a sequence
-
 Reverses a List
+
+<h4 id="222">reversed</h4>
+
+returns reversed iterator of a sequence
 
 <h4 id="23">slice</h4>
 
@@ -129,9 +133,11 @@ creates a slice object specified by range()
 
 <h4 id="24">sort</h4>
 
-returns sorted list from a given iterable
-
 sorts elements of a list
+
+<h4 id="24">sorted</h4>
+
+returns sorted list from a given iterable
 
 <h4 id="25">sum</h4>
 
