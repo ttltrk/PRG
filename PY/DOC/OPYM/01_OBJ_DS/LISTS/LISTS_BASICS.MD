@@ -8,9 +8,16 @@ Lists Basics
 
 ---
 
+* <a href="#1">Create a list</a>
+* <a href="#2">Nested list</a>
+* <a href="#3">List index</a>
+* <a href="#4">Nested indexing</a>
+* <a href="#5">Negative indexing</a>
+* <a href="#6">Slice lists</a>
+
 ---
 
-Create a list
+<h4 id="1">Create a list</h4>
 
 ```python
 # empty list
@@ -32,7 +39,7 @@ print(my_list)
 >>>
 ```
 
-Nested list
+<h4 id="2">Nested list</h4>
 
 ```python
 # nested list
@@ -47,7 +54,7 @@ print(my_list)
 
 ---
 
-List index
+<h4 id="3">List index</h4>
 
 ```python
 my_list = ['p','r','o','b','e']
@@ -63,7 +70,7 @@ e
 >>>
 ```
 
-Nested indexing
+<h4 id="4">Nested indexing</h4>
 
 ```python
 n_list = ["Happy", [2,0,1,5]]
@@ -77,7 +84,7 @@ a
 >>>
 ```
 
-Negative indexing
+<h4 id="5">Negative indexing</h4>
 
 ```python
 my_list = ['p','r','o','b','e']
@@ -92,7 +99,7 @@ p
 ```
 ---
 
-Slice lists
+<h4 id="6">Slice lists</h4>
 
 ```python
 my_list = [1, 2, 3, 4, 5, 6, 7]
