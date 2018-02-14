@@ -1,5 +1,5 @@
 
-Lists Basics
+Python List Basics
 ======
 
 [programiz.com](https://www.programiz.com/python-programming/list)
