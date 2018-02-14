@@ -30,16 +30,10 @@ print (l)
 ```
 
 ```python
->>> l = [letter for letter in "word"]
->>> l
-['w', 'o', 'r', 'd']
->>> 
-```
+l = [letter for letter in "word"]
+print(l)
 
-
-```python
->>> lst = [letter for letter in "word"]
->>> lst
+>>>
 ['w', 'o', 'r', 'd']
 >>> 
 ```
