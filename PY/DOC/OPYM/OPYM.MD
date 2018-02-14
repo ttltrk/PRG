@@ -42,6 +42,7 @@ Basic Python Manual (BPyM)
 ### Links
   * [python.org](https://docs.python.org/3/tutorial/index.html)
   * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+  * [programiz.com](https://www.programiz.com/python-programming#tutorial)
   * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri)
   * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html)
   * [Google's Python Class](https://developers.google.com/edu/python/)
