@@ -1,5 +1,5 @@
 
-Lists Methods
+Python List Methods
 ======
 
 [tutorialspoint.com](https://www.tutorialspoint.com/python) |
