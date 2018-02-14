@@ -2,9 +2,9 @@
 Built-in Functions with List
 ======
 
-[programiz.com]()
+[programiz.com](https://www.programiz.com/python-programming/list#method)
 
-[<<<](https://www.programiz.com/python-programming/list#method)
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
 ---
 
