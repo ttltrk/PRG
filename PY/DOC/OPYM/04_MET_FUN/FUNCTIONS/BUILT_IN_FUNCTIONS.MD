@@ -4,7 +4,7 @@ Built-in Functions
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-[python.org](https://docs.python.org/3/library/functions.html)
+[python.org](https://docs.python.org/3/library/functions.html) | 
 [programiz.com](https://www.programiz.com/python-programming/methods/built-in)
 
 The Python interpreter has a number of functions and types built into it that are always available. They are listed here in alphabetical order.
