@@ -110,6 +110,7 @@ constructs iterator from elements which are true
 
 Removes Element at Given Index
 
+```python
 l = [1, 2, 3, 4, 5, 6]
 print(l)
 l.pop(3)
@@ -119,10 +120,26 @@ print(l)
 [1, 2, 3, 4, 5, 6]
 [1, 2, 3, 5, 6]
 >>>
+```
 
 <h4 id="13">index</h4>
 
 returns smallest index of element in list
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+print(l.index(1))
+print(l.index(2))
+print(l.index(3))
+
+>>>
+[1, 2, 3, 4, 5, 6]
+0
+1
+2
+>>>
+```
 
 <h4 id="14">insert</h4>
 
@@ -207,19 +224,6 @@ Add items of an Iterable
 <h4 id="26">zip</h4>
 
 Returns an Iterator of Tuples
-
-<h4 id="6">Index</h4>
-
-There is a way to find out the index of an element, and that's the index() method. Like with the others, index() finds the first occurrence of an element, not every occurrence.
-
-```python
-linux_distros = ['Debian', 'Ubuntu', 'Fedora', 'CentOS', 'OpenSUSE', 'Arch', 'Gentoo']
-print(linux_distros.index("Arch"))
-
->>>
-5
->>>
-```
 
 <h4 id="7">Sort</h4>
 
