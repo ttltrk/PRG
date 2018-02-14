@@ -87,6 +87,18 @@ print(l.count(3))
 
 Removes all Items from the List
 
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.clear()
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[]
+>>>
+```
+
 <h4 id="9">enumerate</h4>
 
 Returns an Enumerate Object
