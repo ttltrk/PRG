@@ -66,12 +66,34 @@ print( h_letters)
 ---
 
 ```python
+lst = []
+
+for x in range(0,11):
+  print(x**2)
+
+>>>
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+>>>
+```
+
+```python
 >>> lst = [x**2 for x in range(0,11)]
 >>> lst
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 >>> 
 ```
 
+---
 
 ```python
 >>> lst = [number for number in range(11) if number % 2 ==0]
