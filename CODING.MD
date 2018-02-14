@@ -13,17 +13,22 @@ Coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x|RD| x| x|  |  | 
+|  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x|  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|12|
-|RD|0 |
-|LDIR|13|
+|WD|13|
+|RD|1 |
+|LDIR|10|
 
 * FEB
+
+    * 14 : (Wed) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Regulra expressions 1st part 
+      + DIR : 3
 
     * 13 : (Tue) 
     
