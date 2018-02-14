@@ -6,71 +6,50 @@ Lists Methods
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
+all()
+any()
+
 * <a href="#1">Append</a>
-* <a href="#2">Pop</a>
-* <a href="#3">Insert</a>
-* <a href="#4">Remove</a>
-* <a href="#5">Extend</a>
-* <a href="#6">Index</a>
-* <a href="#7">Sort</a>
-* <a href="#8">Reverse</a>
-* <a href="#9">Count</a>
 
-append()	
-
-extend()	
-
-insert()	
-
-remove()	
-
-index()
-
-count()	
-
-pop()	
-
-reverse()	
-
-sort()	
-
-copy()	
-
-clear()	
-
-any()	
-
-all()	
-
-ascii()	
+ascii()
 
 bool()
 
+copy()	
+* <a href="#9">Count</a>
+clear()
+
 enumerate()	
+* <a href="#5">Extend</a>
 
 filter()
 
-iter()	
+* <a href="#2">Pop</a>
 
-list() 
+* <a href="#6">Index</a>
+* <a href="#3">Insert</a>
+iter()
 
 len()	
+list()
 
+map()
 max()	
-
 min()	
 
-map()	
+* <a href="#4">Remove</a>
 
+* <a href="#8">Reverse</a>
 reversed()	
 
-slice()	
-
-sorted()	
-
+slice()
+* <a href="#7">Sort</a>
+sorted()
 sum()	
 
 zip()
+
+
 
 append()	
 Add Single Element to The List
