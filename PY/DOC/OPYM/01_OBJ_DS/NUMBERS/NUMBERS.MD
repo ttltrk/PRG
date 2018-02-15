@@ -8,11 +8,34 @@ Numbers
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
+---
+
 The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators ```+```, ```-```, ```*``` and ```/``` work just like in most other languages.
 
 int = (e.g. 2, 4, 20) 
 
 float = (e.g. 5.0, 1.6)
+
+complex
+
+```python
+a = 5
+print(a, "is of type", type(a))
+
+a = 2.0
+print(a, "is of type", type(a))
+
+a = 1+2j
+print(a, "is complex number?", isinstance(1+2j,complex))
+
+>>>
+5 is of type <class 'int'>
+2.0 is of type <class 'float'>
+(1+2j) is complex number? True
+>>>
+```
+
+---
 
 |Operation|	What it returns| Examples |
 |---------|----------------|----------|
