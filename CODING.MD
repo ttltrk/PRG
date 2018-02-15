@@ -13,17 +13,22 @@ Coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x|  | 
+|  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|13|
+|WD|14|
 |RD|1 |
 |LDIR|10|
 
 * FEB
+
+    * 15 : (Thu) 
+    
+      + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS_BIF.MD) : Updated (List methods - BIF)
+      + DIR : 4
 
     * 14 : (Wed) 
     
