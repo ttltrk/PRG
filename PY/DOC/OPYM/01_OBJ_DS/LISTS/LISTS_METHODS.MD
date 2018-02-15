@@ -18,10 +18,10 @@ Python List Methods
 * <a href="#10">extend()</a>
 * <a href="#13">index()</a>
 * <a href="#14">insert()</a>
-* <a href="#12">pop</a>
-* <a href="#21">remove</a>
-* <a href="#22">reverse</a>
-* <a href="#24">sort</a>
+* <a href="#12">pop()</a>
+* <a href="#21">remove()</a>
+* <a href="#22">reverse()</a>
+* <a href="#24">sort()</a>
 
 ---
 
