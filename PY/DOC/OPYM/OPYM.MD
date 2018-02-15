@@ -70,6 +70,7 @@ Basic Python Manual (BPyM)
 <h3 id="x">Examples</h3>
 
   * [hello world](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/01_HW/helloworld.MD)
+  * [add two numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/02_ADD2N/ADD2N.MD)
    
 
 
