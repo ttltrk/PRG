@@ -19,6 +19,7 @@ Basic Python Manual (BPyM)
 * <a href="#4">Section 4 - Methods and Functions and Generators</a>
 * <a href="#5">Section 5 - Object Oriented Programming</a>
 * <a href="#6">Section 6 - Modules and Packages</a>
+* <a href="#x">Examples</a>
 
 ---
 
@@ -65,6 +66,10 @@ Basic Python Manual (BPyM)
 
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
   * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
+  
+<h3 id="x">Examples</h3>
+
+  * [hello world]()
    
 
 
