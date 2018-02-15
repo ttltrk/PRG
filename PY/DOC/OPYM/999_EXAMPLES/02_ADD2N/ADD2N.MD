@@ -2,7 +2,7 @@
 Add two numbers
 ======
 
-[<<<]()
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
 In this program, you will learn to add two numbers and display it using print() function.
 
