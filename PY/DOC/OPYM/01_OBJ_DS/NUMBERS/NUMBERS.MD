@@ -11,15 +11,38 @@ Numbers
 
 ---
 
-The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators ```+```, ```-```, ```*``` and ```/``` work just like in most other languages.
+Python supports integers, floating point numbers and complex numbers. They are defined as int, float and complex class in Python.
+Integers and floating points are separated by the presence or absence of a decimal point. 5 is integer whereas 5.0 is a floating point 
+number. 
+Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part.
 
 ---
 
-int = (e.g. 2, 4, 20) 
+Number Data Type in Python
 
-float = (e.g. 5.0, 1.6)
+```python
+a = 5
 
-complex
+# Output: <class 'int'>
+print(type(a))
+
+# Output: <class 'float'>
+print(type(5.0))
+
+# Output: (8+3j)
+c = 5 + 3j
+print(c + 3)
+
+# Output: True
+print(isinstance(c, complex))
+
+>>>
+<class 'int'>
+<class 'float'>
+(8+3j)
+True
+>>>
+```
 
 ```python
 a = 5
