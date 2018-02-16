@@ -9,6 +9,8 @@ Tuples
 * [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-tuples-in-python-3)]
 * [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)]
 
+---
+
 In Python, tuples are part of the standard language. This is a data structure very similar to the list data structure. The main difference being that tuple manipulation are faster than list because tuples are immutable.
 
 In Python tuples are very similar to lists, however, unlike lists they are immutable meaning they can not be changed. You would use tuples to present things that shouldn't be changed, such as days of the week, or dates on a calendar.
@@ -17,6 +19,45 @@ A tuple is a data structure that is an immutable, or unchangeable, ordered seque
 Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
 
 A tuple consists of a number of values separated by commas, for instance:
+
+---
+
+CREATING A TUPLE
+
+```python
+t = ()
+print(t)
+
+t = (1, 2, 3)
+print(t)
+
+t = (1, "Hello", 3.4)
+print(t)
+
+t = ("mouse", [8, 4, 6], (1, 2, 3))
+print(t)
+
+t = 3, 4.6, "dog"
+print(t)
+
+a, b, c = t
+print(a)
+print(b)
+print(c)
+
+>>>
+()
+(1, 2, 3)
+(1, 'Hello', 3.4)
+('mouse', [8, 4, 6], (1, 2, 3))
+(3, 4.6, 'dog')
+3
+4.6
+dog
+>>>
+```
+
+---
 
 ```python
 >>> t = 12345, 54321, 'hello!'
