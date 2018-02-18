@@ -15,15 +15,25 @@ Coding
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x| x|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|14|
+|WD|16|
 |RD|1 |
 |LDIR|10|
 
 * FEB
+
+    * 16 : (Sat) 
+    
+      + Reading
+      + DIR : 6
+
+    * 15 : (Fri) 
+    
+      + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD) : Updated (Tuples)
+      + DIR : 5
 
     * 15 : (Thu) 
     
