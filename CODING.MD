@@ -15,16 +15,21 @@ Coding
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x| x|  |  |  |  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x|  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|11|
+|WD|20|
 |RD|1 |
 |LDIR|10|
 
 * FEB
 
+    * 20 : (Tue) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Regular expressions 2nd part 
+      + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/REG_EXP.MD) : Updated (Reg Exp 2nd p)
+      + DIR: 10
     * 20 : (Tue) 
     
       + Reading
@@ -57,7 +62,7 @@ Coding
 
     * 14 : (Wed) 
     
-      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Regulra expressions 1st part 
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Regular expressions 1st part 
       + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS_METHODS.MD) : Updated (List methods)
       + DIR : 3
 
