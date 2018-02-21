@@ -11,6 +11,6 @@ Collections modules
   * [Defaultdict](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/MOD_DD.MD)
   * [namedtuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/NAM_TUP.MD)
   * [OrderedDict](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/ORD_DIC.MD)
-  * [Regular Expressions]()
+  * [Regular Expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/REG_EXP.MD)
   * [Timing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/TIM.MD)
   
