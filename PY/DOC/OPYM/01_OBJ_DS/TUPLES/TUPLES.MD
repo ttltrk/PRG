@@ -21,8 +21,6 @@ Tuples are used for grouping data. Each element or value that is inside of a tup
 
 ---
 
-<h4 id="1">Create a list</h4>
-
 * <a href="#1">CREATING A TUPLE</a>
 * <a href="#2">CREATING TUPLE WITH ONE ELEMENT</a>
 * <a href="#3">INDEXING</a>
