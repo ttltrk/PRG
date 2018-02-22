@@ -184,3 +184,22 @@ NameError: name 't' is not defined
 ```
 
 ---
+
+TUPLE METHODS
+
+* count(x)
+* index(x)
+
+```python
+t = ('a','p','p','l','e',)
+
+print(t.count('p'))
+print(t.index('l'))
+
+>>>
+2
+3
+>>>
+```
+
+---
