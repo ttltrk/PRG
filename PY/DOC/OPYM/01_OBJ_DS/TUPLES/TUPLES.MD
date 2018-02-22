@@ -4,11 +4,11 @@ Tuples
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-* [programiz.com](https://www.programiz.com/python-programming/tuple)
-* [python.org](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
-* [jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)
-* [digitalocean](https://www.digitalocean.com/community/tutorials/understanding-tuples-in-python-3)
-* [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html)
+| [programiz.com](https://www.programiz.com/python-programming/tuple) |
+[python.org](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) |
+[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb) |
+[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-tuples-in-python-3) |
+[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/tuples.html) |
 
 ---
 
@@ -18,6 +18,17 @@ In Python tuples are very similar to lists, however, unlike lists they are immut
 
 A tuple is a data structure that is an immutable, or unchangeable, ordered sequence of elements. Because tuples are immutable, their values cannot be modified.
 Tuples are used for grouping data. Each element or value that is inside of a tuple is called an item.
+
+---
+
+* CREATING A TUPLE
+* CREATING TUPLE WITH ONE ELEMENT
+* INDEXING
+* NEGATIVE INDEXING
+* SLICING
+* CHANGING A TUPLE
+* DELETING A TUPLE
+* TUPLE METHODS
 
 ---
 
