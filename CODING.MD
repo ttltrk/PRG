@@ -15,15 +15,20 @@ Coding
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x| x| x|  |  |  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x| x|  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|20|
+|WD|21|
 |RD|1 |
-|LDIR|10|
+|LDIR|11|
 
 * FEB
+
+    * 22 : (Thu) 
+    
+      + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Finished - Regular expressions 
+      + DIR: 10
 
     * 21 : (Wed) 
     
