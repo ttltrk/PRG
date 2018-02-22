@@ -25,11 +25,12 @@ Coding
 
 * FEB
 
-    * 20 : (Tue) 
+    * 21 : (Wed) 
     
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547904?start=0) : 83%. Regular expressions 2nd part 
       + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MODULES/REG_EXP.MD) : Updated (Reg Exp 2nd p)
       + DIR: 10
+      
     * 20 : (Tue) 
     
       + Reading
