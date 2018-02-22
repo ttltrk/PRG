@@ -21,18 +21,20 @@ Tuples are used for grouping data. Each element or value that is inside of a tup
 
 ---
 
-* CREATING A TUPLE
-* CREATING TUPLE WITH ONE ELEMENT
-* INDEXING
-* NEGATIVE INDEXING
-* SLICING
-* CHANGING A TUPLE
-* DELETING A TUPLE
-* TUPLE METHODS
+<h4 id="1">Create a list</h4>
+
+* <a href="#1">CREATING A TUPLE</a>
+* <a href="#2">CREATING TUPLE WITH ONE ELEMENT</a>
+* <a href="#3">INDEXING</a>
+* <a href="#4">NEGATIVE INDEXING</a>
+* <a href="#5">SLICING</a>
+* <a href="#6">CHANGING A TUPLE</a>
+* <a href="#7">DELETING A TUPLE</a>
+* <a href="#8">TUPLE METHODS</a>
 
 ---
 
-CREATING A TUPLE
+<h4 id="1">CREATING A TUPLE</h4>
 
 ```python
 t = ()
@@ -67,7 +69,7 @@ dog
 >>>
 ```
 
-CREATING TUPLE WITH ONE ELEMENT
+<h4 id="2">CREATING TUPLE WITH ONE ELEMENT</h4>
 
 ```python
 t1 = ("hello")
@@ -88,7 +90,7 @@ print(type(t3))
 
 ---
 
-INDEXING
+<h4 id="3">INDEXING</h4>
 
 ```python
 t = ('p','e','r','m','i','t')
@@ -111,7 +113,7 @@ s
 >>>
 ```
 
-NEGATIVE INDEXING
+<h4 id="4">NEGATIVE INDEXING</h4>
 
 ```python
 t = ('p','e','r','m','i','t')
@@ -127,7 +129,7 @@ p
 
 ---
 
-SLICING
+<h4 id="5">SLICING</h4>
 
 ```python
 t = ('p','r','o','g','r','a','m','i','z')
@@ -147,7 +149,7 @@ print(t[:])
 
 ---
 
-CHANGING A TUPLE
+<h4 id="6">CHANGING A TUPLE</h4>
 
 ```python
 t = (4, 2, 3, [6, 5])
@@ -177,7 +179,7 @@ print(("Repeat",) * 3)
 
 ---
 
-DELETING A TUPLE
+<h4 id="7">DELETING A TUPLE</h4>
 
 ```python
 t = ('p','r','o','g','r','a','m','i','z')
@@ -196,7 +198,7 @@ NameError: name 't' is not defined
 
 ---
 
-TUPLE METHODS
+<h4 id="8">TUPLE METHODS</h4>
 
 * count(x)
 * index(x)
