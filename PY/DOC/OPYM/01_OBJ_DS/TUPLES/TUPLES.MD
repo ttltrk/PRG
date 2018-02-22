@@ -56,6 +56,84 @@ dog
 >>>
 ```
 
+Creating with one element
+
+```python
+t1 = ("hello")
+print(type(t1))
+
+t2 = ("hello",)  
+print(type(t2))
+
+t3 = "hello",
+print(type(t3))
+
+>>>
+<class 'str'>
+<class 'tuple'>
+<class 'tuple'>
+>>>
+```
+
+---
+
+INDEXING
+
+```python
+t = ('p','e','r','m','i','t')
+
+print(t[0])
+print(t[5])
+
+n_t = ("mouse", [8, 4, 6], (1, 2, 3))
+
+print(n_t[0][3])
+print(n_t[1][1])
+print(n_t[2][2])
+
+>>>
+p
+t
+s
+4
+3
+>>>
+```
+
+Negative INDEXING
+
+```python
+t = ('p','e','r','m','i','t')
+
+print(t[-1])
+print(t[-6])
+
+>>>
+t
+p
+>>>
+```
+
+---
+
+SLICING
+
+```python
+t = ('p','r','o','g','r','a','m','i','z')
+
+print(t[1:4])
+print(t[:-7])
+print(t[7:])
+print(t[:])
+
+>>>
+('r', 'o', 'g')
+('p', 'r')
+('i', 'z')
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+>>>
+```
+
 ---
 
 ```python
