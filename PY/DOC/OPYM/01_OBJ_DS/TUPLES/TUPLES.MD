@@ -56,7 +56,7 @@ dog
 >>>
 ```
 
-Creating with one element
+CREATING TUPLE WITH ONE ELEMENT
 
 ```python
 t1 = ("hello")
@@ -100,7 +100,7 @@ s
 >>>
 ```
 
-Negative INDEXING
+NEGATIVE INDEXING
 
 ```python
 t = ('p','e','r','m','i','t')
@@ -136,23 +136,51 @@ print(t[:])
 
 ---
 
+CHANGING A TUPLE
+
 ```python
->>> t = 12345, 54321, 'hello!'
->>> t[0]
-12345
->>> t
-(12345, 54321, 'hello!')
->>> # Tuples may be nested:
-... u = t, (1, 2, 3, 4, 5)
->>> u
-((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
->>> # Tuples are immutable:
-... t[0] = 88888
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: 'tuple' object does not support item assignment
->>> # but they can contain mutable objects:
-... v = ([1, 2, 3], [3, 2, 1])
->>> v
-([1, 2, 3], [3, 2, 1])
+t = (4, 2, 3, [6, 5])
+t[3][0] = 9
+
+print(t)
+
+t = ('p','r','o','g','r','a','m','i','z')
+
+print(t)
+
+>>>
+(4, 2, 3, [9, 5])
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+>>>
 ```
+
+```python
+print((1, 2, 3) + (4, 5, 6))
+print(("Repeat",) * 3)
+
+>>>
+(1, 2, 3, 4, 5, 6)
+('Repeat', 'Repeat', 'Repeat')
+>>>
+```
+
+---
+
+DELETING A TUPLE
+
+```python
+t = ('p','r','o','g','r','a','m','i','z')
+print(t)
+
+del t
+print(t)
+
+>>>
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+Traceback (most recent call last):
+  File "python", line 5, in <module>
+NameError: name 't' is not defined
+>>>
+```
+
+---
