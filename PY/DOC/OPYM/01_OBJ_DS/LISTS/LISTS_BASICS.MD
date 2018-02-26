@@ -8,12 +8,12 @@ Python List Basics
 
 ---
 
-* <a href="#1">Create a list</a>
-* <a href="#2">Nested list</a>
-* <a href="#3">List index</a>
-* <a href="#4">Nested indexing</a>
-* <a href="#5">Negative indexing</a>
-* <a href="#6">Slice lists</a>
+* <a href="#1">CREATE A LIST</a>
+* <a href="#2">NESTED LIST</a>
+* <a href="#3">LIST INDEX</a>
+* <a href="#4">NESTED INDEXING</a>
+* <a href="#5">NEGATIVE INDEXING</a>
+* <a href="#6">SLICE LISTS</a>
 
 ---
 
