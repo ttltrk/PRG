@@ -60,6 +60,32 @@ str[5:-2] =  am
 
 ---
 
+CHANGE OR DELETE STRING
+
+Strings are immutable. This means that elements of a string cannot be changed once it has been assigned. We can simply reassign 
+different strings to the same name. We cannot delete or remove characters from a string. But deleting the string entirely is possible 
+using the keyword ```del```.
+
+---
+
+CONCATENATION
+
+```python
+str1 = 'Hello'
+str2 ='World!'
+
+print('str1 + str2 = ', str1 + str2)
+
+print('str1 * 3 =', str1 * 3)
+
+>>>
+str1 + str2 =  HelloWorld!
+str1 * 3 = HelloHelloHello
+>>>
+```
+
+---
+
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ```('...')``` or double quotes ```("...")``` with the same result.
 
 ```python
