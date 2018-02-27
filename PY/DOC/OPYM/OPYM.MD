@@ -10,6 +10,7 @@ Basic Python Manual (BPyM)
   [effbot.org](http://effbot.org/zone/librarybook-index.htm) |
   [likegeeks.com](https://likegeeks.com/python-programming-basics/) |
   [teachyourkidstocode.com](http://teachyourkidstocode.com/) |
+  [python.input.sk](http://python.input.sk) |
 
 ---
 
