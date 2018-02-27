@@ -33,6 +33,8 @@ Basic Python Manual (BPyM)
   * [Tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD)
   * [Sets](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD)
   * [Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/FILES/FILES.MD)
+  * [Arrays]()
+  * [Matrix]()
   
 <h3 id="2">Section 2 - Comparison Operators</h3>
 
