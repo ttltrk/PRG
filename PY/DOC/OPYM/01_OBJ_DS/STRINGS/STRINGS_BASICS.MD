@@ -86,6 +86,26 @@ str1 * 3 = HelloHelloHello
 
 ---
 
+ITERATING THROUGH STRING
+
+```python
+count = 0
+for letter in 'Hello World':
+    if(letter == 'l'):
+        count += 1
+print(count,'letters found')
+
+>>>
+3 letters found
+>>>
+```
+
+---
+
+BUILT-IN FUNCTIONS 
+
+---
+
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ```('...')``` or double quotes ```("...")``` with the same result.
 
 ```python
