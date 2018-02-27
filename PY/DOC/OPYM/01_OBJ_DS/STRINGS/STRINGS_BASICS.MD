@@ -2,7 +2,63 @@
 Strings Basics
 ======
 
+[programiz.com](https://www.programiz.com/python-programming/string)
+
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
+
+---
+
+CREATE A STRING
+
+```python
+ms1 = 'Hello'
+print(ms1)
+
+ms2 = "Hello"
+print(ms2)
+
+ms3 = '''Hello'''
+print(ms3)
+
+ms4 = """Hello, welcome to
+           the world of Python"""
+print(ms4)
+
+>>>
+Hello
+Hello
+Hello
+Hello, welcome to
+           the world of Python
+>>>
+```
+
+---
+
+ACCESS CHARACTERS
+
+```python
+str = 'programiz'
+print('str = ', str)
+
+print('str[0] = ', str[0])
+
+print('str[-1] = ', str[-1])
+
+print('str[1:5] = ', str[1:5])
+
+print('str[5:-2] = ', str[5:-2])
+
+>>>
+str =  programiz
+str[0] =  p
+str[-1] =  z
+str[1:5] =  rogr
+str[5:-2] =  am
+>>>
+```
+
+---
 
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ```('...')``` or double quotes ```("...")``` with the same result.
 
