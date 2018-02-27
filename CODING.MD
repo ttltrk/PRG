@@ -15,7 +15,7 @@ Coding
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x| x| x| x| x| x|RD|RD|  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x|RD|RD| x|  |  |  |  |
 
 |ST|NU|
 |--|--|
@@ -24,6 +24,11 @@ Coding
 |LDIR|11|
 
 * FEB
+
+    * 27 : (Mon) 
+    
+      + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS_BASICS.MD) : Updated (String Basics)
+      + DIR: 1
 
     * 26 : (Mon) 
     
