@@ -104,6 +104,36 @@ print(count,'letters found')
 
 BUILT-IN FUNCTIONS 
 
+```python
+str = 'cold'
+
+list_enumerate = list(enumerate(str))
+
+print('list(enumerate(str) = ', list_enumerate)
+print('len(str) = ', len(str))
+
+>>>
+list(enumerate(str) =  [(0, 'c'), (1, 'o'), (2, 'l'), (3, 'd')]
+len(str) =  4
+>>>
+```
+
+---
+
+STRING FORMATTING
+
+```python
+print('''He said, "What's there?"''')
+print('He said, "What\'s there?"')
+print("He said, \"What's there?\"")
+
+>>>
+He said, "What's there?"
+He said, "What's there?"
+He said, "What's there?"
+>>>
+```
+
 ---
 
 Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ```('...')``` or double quotes ```("...")``` with the same result.
