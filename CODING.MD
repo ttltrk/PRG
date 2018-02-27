@@ -25,7 +25,7 @@ Coding
 
 * FEB
 
-    * 27 : (Mon) 
+    * 27 : (Tue) 
     
       + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS_BASICS.MD) : Updated (String Basics)
       + DIR: 1
