@@ -8,12 +8,15 @@ Numbers
 
 ---
 
-Python supports integers, floating point numbers and complex numbers. They are defined as int, float and complex class in Python.
-Integers and floating points are separated by the presence or absence of a decimal point. 5 is integer whereas 5.0 is a floating point 
-number. 
-Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part.
+* NUMBER DATA TYPE IN PYTHON
+* SYSTEM PREFIX
+* TYPE CONVERSION
+* PYTHON DECIMAL
+* PYTHON FRACTIONS
 
 ---
+
+NUMBER DATA TYPE IN PYTHON
 
 ```python
 a = 5
@@ -53,6 +56,8 @@ print(a, "is complex number?", isinstance(1+2j,complex))
 
 ---
 
+SYSTEM PREFIX
+
 |Number|System Prefix|
 |-----|------|
 |Binary|'0b' or '0B'|
@@ -89,6 +94,51 @@ print(complex('3+5j'))
 -2
 5.0
 (3+5j)
+>>>
+```
+
+---
+
+PYTHON DECIMAL
+
+```python
+n1 = 1.1 + 2.2
+print(n1 == 3.3)
+print(n1)
+
+>>>
+False
+3.3000000000000003
+>>>
+```
+
+```python
+import decimal
+
+print(0.1)
+print(decimal.Decimal(0.1))
+
+>>>
+0.1
+0.1000000000000000055511151231257827021181583404541015625
+>>>
+```
+
+---
+
+PYTHON FRACTIONS
+
+```python
+import fractions
+
+print(fractions.Fraction(1.5))
+print(fractions.Fraction(5))
+print(fractions.Fraction(1,3))
+
+>>>
+3/2
+5
+1/3
 >>>
 ```
 
