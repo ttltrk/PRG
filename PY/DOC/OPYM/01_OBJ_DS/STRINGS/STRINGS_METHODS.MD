@@ -6,6 +6,8 @@ Strings Methods
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
 
+---
+
 * <a href="#1">isdigit()</a>
 * <a href="#2">isalpha()</a>
 * <a href="#3">islower()</a>
@@ -35,6 +37,8 @@ Strings Methods
 * rsplit()
 * join()
 * splitlines()
+
+---
 
 ### <h3 id="1">isdigit()</h3>
 
