@@ -7,8 +7,8 @@ Basic Manuals
 ---
 
 * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
-* [PL/SQL]()
-* [SQL]()
-* [UX]()
+* [PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/BPSM.MD)
+* [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/BSqlM.MD)
+* [UX](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/BUM.MD)
 
 ---
