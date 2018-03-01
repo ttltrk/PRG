@@ -5,9 +5,7 @@ Coding
 [<<<](https://github.com/ttltrk/0con/blob/master/README.MD)
 
 | [MANUALS](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) |
-[PY apps](https://github.com/ttltrk/PRG/tree/master/PY/APP) |
-[completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
-[codecademy - Learn Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) |
+[COURSES](https://github.com/ttltrk/Courses/blob/master/README.MD) |
 
 ### 2018 - MRC
 
