@@ -1,6 +1,10 @@
 Basic Python Manual (BPyM) 
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
+
+---
+
 * <a href="#1">Section 1 - Objects and Data Structure Basics</a>
 * <a href="#2">Section 2 - Comparison Operators</a>
 * <a href="#3">Section 3 - Python Statements</a>
