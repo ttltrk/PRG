@@ -13,6 +13,7 @@ sc: [programiz.com](https://www.programiz.com/python-programming/variables-datat
 * <a href="#3">TYPE CONVERSION</a>
 * <a href="#4">PYTHON DECIMAL</a>
 * <a href="#5">PYTHON FRACTIONS</a>
+* <a href="#6">PYTHON MATHEMATICS</a>
 
 ---
 
