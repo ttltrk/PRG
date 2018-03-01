@@ -1,19 +1,6 @@
 Basic Python Manual (BPyM) 
 ======
 
-  | [python.org](https://docs.python.org/3/tutorial/index.html) |
-  [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/) |
-  [programiz.com](https://www.programiz.com/python-programming#tutorial) |
-  [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) |
-  [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) |
-  [Google's Python Class](https://developers.google.com/edu/python/) |
-  [effbot.org](http://effbot.org/zone/librarybook-index.htm) |
-  [likegeeks.com](https://likegeeks.com/python-programming-basics/) |
-  [teachyourkidstocode.com](http://teachyourkidstocode.com/) |
-  [python.input.sk](http://python.input.sk) |
-
----
-
 * <a href="#1">Section 1 - Objects and Data Structure Basics</a>
 * <a href="#2">Section 2 - Comparison Operators</a>
 * <a href="#3">Section 3 - Python Statements</a>
@@ -74,6 +61,19 @@ Basic Python Manual (BPyM)
 
   * [hello world](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/01_HW/helloworld.MD)
   * [add two numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/02_ADD2N/ADD2N.MD)
+  
+  ---
+  
+| [python.org](https://docs.python.org/3/tutorial/index.html) |
+  [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/) |
+  [programiz.com](https://www.programiz.com/python-programming#tutorial) |
+  [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) |
+  [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) |
+  [Google's Python Class](https://developers.google.com/edu/python/) |
+  [effbot.org](http://effbot.org/zone/librarybook-index.htm) |
+  [likegeeks.com](https://likegeeks.com/python-programming-basics/) |
+  [teachyourkidstocode.com](http://teachyourkidstocode.com/) |
+  [python.input.sk](http://python.input.sk) |
    
 
 
