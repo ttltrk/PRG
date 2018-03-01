@@ -53,6 +53,41 @@ print(a, "is complex number?", isinstance(1+2j,complex))
 
 ---
 
+```python
+print(0b1101011)
+print(0xFB + 0b10)
+print(0o15)
+
+>>>
+107
+253
+13
+>>>
+```
+---
+
+TYPE CONVERSION
+
+```python
+n1 = 1 + 2.0
+
+print(n1)
+print(int(2.3))
+print(int(-2.8))
+print(float(5))
+print(complex('3+5j'))
+
+>>>
+3.0
+2
+-2
+5.0
+(3+5j)
+>>>
+```
+
+---
+
 |Operation|	What it returns| Examples |
 |---------|----------------|----------|
 |x + y	|Sum of x and y | 1 + 1 = 2 |
