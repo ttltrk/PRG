@@ -4,7 +4,17 @@ Sets
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-* [programiz.com](https://www.programiz.com/python-programming/set)
+[programiz.com](https://www.programiz.com/python-programming/set)
+
+---
+
+* CREATE A SET
+* CHANGE SET IN PY
+* REMOVE ELEMENTS FROM A SET
+* SET UNION
+* SET INTERSECTION
+* SET DIFFERENCE
+* SET SIMMETRIC DIFFERENCE
 
 ---
 
