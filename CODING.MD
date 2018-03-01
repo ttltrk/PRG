@@ -7,6 +7,8 @@ Coding
 | [MANUALS](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) |
 [COURSES](https://github.com/ttltrk/Courses/blob/master/README.MD) |
 
+---
+
 ### 2018 - MRC
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
@@ -27,6 +29,8 @@ Coding
     + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD) : Updated (Numbers)
     + [BPSM](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/BPSM.MD) : Updated (01-03)
     + DIR: 1
+    
+---
 
 ### 2018 - FEB
 
@@ -193,7 +197,9 @@ Coding
       + [Udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512812?start=0) : 73%. Decorators Pt3. Finished Decorators section.
       + [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_ARG.MD) : Updated
       + DIR : 4
-      
+
+---
+
 ### 2018 - JAN
 
 |J | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
@@ -347,3 +353,4 @@ Coding
       + Learning about Python [Objects](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OBJECTS/OBJECTS.MD). 
       + Checked some old udemy tutorials, and updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD).
 
+---
