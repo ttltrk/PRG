@@ -2,10 +2,7 @@
 Numbers
 ======
 
-[programiz.com](https://www.programiz.com/python-programming/variables-datatypes) - 
-[python.org](https://docs.python.org/3/tutorial/introduction.html#numbers) - 
-[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb) -
-[digitalocean](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators)
+[programiz.com](https://www.programiz.com/python-programming/variables-datatypes)
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
@@ -17,8 +14,6 @@ number.
 Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part.
 
 ---
-
-Number Data Type in Python
 
 ```python
 a = 5
