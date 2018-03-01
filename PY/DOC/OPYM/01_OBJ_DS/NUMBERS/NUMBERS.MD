@@ -2,9 +2,9 @@
 Numbers
 ======
 
-[programiz.com](https://www.programiz.com/python-programming/variables-datatypes)
-
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+
+[programiz.com](https://www.programiz.com/python-programming/variables-datatypes)
 
 ---
 
