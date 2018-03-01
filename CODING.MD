@@ -9,6 +9,26 @@ Coding
 [completed python courses](https://github.com/ttltrk/Courses/blob/master/README.MD) |
 [codecademy - Learn Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD) |
 
+### 2018 - MRC
+
+* MRC
+
+|F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|  | x|  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+|ST|NU|
+|--|--|
+|WD| 1|
+|RD| 0|
+
+  * 01 : (Thu)
+  
+    + [BPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD) : Updated (Numbers)
+    + DIR: 1
+
 ### 2018 - FEB
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
