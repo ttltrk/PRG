@@ -142,5 +142,78 @@ print(fractions.Fraction(1,3))
 >>>
 ```
 
+```python
+import fractions
+
+print(fractions.Fraction(1.1))
+print(fractions.Fraction('1.1'))
+
+>>>
+2476979795053773/2251799813685248
+11/10
+>>>
+```
+
+```python
+from fractions import Fraction as F
+
+print(F(1,3) + F(1,3))
+print(1 / F(5,6))
+print(F(-3,10) > 0)
+print(F(-3,10) < 0)
+
+>>>
+2/3
+6/5
+False
+True
+>>>
+```
+
 ---
 
+<h4 id="6">PYTHON MATHEMATICS</h4>
+
+```python
+import math
+
+print(math.pi)
+print(math.cos(math.pi))
+print(math.exp(10))
+print(math.log10(1000))
+print(math.sinh(1))
+print(math.factorial(6))
+
+>>>
+3.141592653589793
+-1.0
+22026.465794806718
+3.0
+1.1752011936438014
+720
+>>>
+```
+
+```python
+import random
+
+print(random.randrange(10,20))
+
+x = ['a', 'b', 'c', 'd', 'e']
+
+print(random.choice(x))
+
+random.shuffle(x)
+
+print(x)
+print(random.random())
+
+>>>
+14
+e
+['b', 'd', 'a', 'e', 'c']
+0.14933393166286335
+>>>
+```
+
+---
