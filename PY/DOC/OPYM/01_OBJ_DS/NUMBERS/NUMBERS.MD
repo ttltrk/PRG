@@ -4,7 +4,7 @@ Numbers
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
-[programiz.com](https://www.programiz.com/python-programming/variables-datatypes)
+sc: [programiz.com](https://www.programiz.com/python-programming/variables-datatypes)
 
 ---
 
