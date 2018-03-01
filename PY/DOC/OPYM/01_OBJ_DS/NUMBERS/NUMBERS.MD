@@ -8,15 +8,15 @@ Numbers
 
 ---
 
-* NUMBER DATA TYPE IN PYTHON
-* SYSTEM PREFIX
-* TYPE CONVERSION
-* PYTHON DECIMAL
-* PYTHON FRACTIONS
+* <a href="#1">NUMBER DATA TYPE IN PYTHON</a>
+* <a href="#2">SYSTEM PREFIX</a>
+* <a href="#3">TYPE CONVERSION</a>
+* <a href="#4">PYTHON DECIMAL</a>
+* <a href="#5">PYTHON FRACTIONS</a>
 
 ---
 
-NUMBER DATA TYPE IN PYTHON
+<h4 id="1">NUMBER DATA TYPE IN PYTHON</h4>
 
 ```python
 a = 5
@@ -56,7 +56,7 @@ print(a, "is complex number?", isinstance(1+2j,complex))
 
 ---
 
-SYSTEM PREFIX
+<h4 id="2">SYSTEM PREFIX</h4>
 
 |Number|System Prefix|
 |-----|------|
@@ -77,7 +77,7 @@ print(0o15)
 ```
 ---
 
-TYPE CONVERSION
+<h4 id="3">TYPE CONVERSION</h4>
 
 ```python
 n1 = 1 + 2.0
@@ -99,7 +99,7 @@ print(complex('3+5j'))
 
 ---
 
-PYTHON DECIMAL
+<h4 id="4">PYTHON DECIMAL</h4>
 
 ```python
 n1 = 1.1 + 2.2
@@ -126,7 +126,7 @@ print(decimal.Decimal(0.1))
 
 ---
 
-PYTHON FRACTIONS
+<h4 id="5">PYTHON FRACTIONS</h4>
 
 ```python
 import fractions
