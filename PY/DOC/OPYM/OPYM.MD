@@ -78,6 +78,8 @@ Basic Python Manual (BPyM)
   [likegeeks.com](https://likegeeks.com/python-programming-basics/) |
   [teachyourkidstocode.com](http://teachyourkidstocode.com/) |
   [python.input.sk](http://python.input.sk) |
+  
+  ---
    
 
 
