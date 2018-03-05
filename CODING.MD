@@ -31,6 +31,7 @@ Coding
   * 05 : (Mon)
   
     + [BSqlM](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/01/SELECT.MD) : Updated (SELECT) 
+    + [BSqlM](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/02/SELECT_DISTINCT.MD) : Updated (SELECT DISTINCT)
     + DIR: 2
 
   * 04 : (Sun)
