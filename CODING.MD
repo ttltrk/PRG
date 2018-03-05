@@ -30,7 +30,8 @@ Coding
 
   * 05 : (Mon)
   
-    + []() : Updated (SELECT) 
+    + [BSqlM](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/01/SELECT.MD) : Updated (SELECT) 
+    + DIR: 2
 
   * 04 : (Sun)
   
