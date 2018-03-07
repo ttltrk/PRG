@@ -1,5 +1,5 @@
 
-Course Manuals
+course manuals
 ======
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/MAN.MD)
