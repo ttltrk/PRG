@@ -14,7 +14,7 @@ course manuals
 * <a href="">Pi</a>
 * <a href="">SQL</a>
 * <a href="">PL/SQL</a>
-* <a href="">PY</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD">PY</a>
 * <a href="">GIT</a>
 
 ---
