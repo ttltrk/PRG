@@ -2,6 +2,10 @@
 [Complete Python Bootcamp: Go from zero to hero in Python](https://www.udemy.com/complete-python-bootcamp/learn/v4/content)
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+
+---
+
 [[on jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)] - 
 [[on github](https://github.com/jmportilla/Complete-Python-Bootcamp)]
 
