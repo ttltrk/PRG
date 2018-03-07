@@ -1,5 +1,5 @@
 
-learnpython.org
+[Python](learnpython.org)
 ======
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
