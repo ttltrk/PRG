@@ -6,4 +6,15 @@ Course Manuals
 
 ---
 
+* <a href="">HTML/CSS</a>
+* <a href="">JS</a>
+* <a href="">BS</a>
+* <a href="">PHP</a>
+* <a href="">UX</a>
+* <a href="">Pi</a>
+* <a href="">SQL</a>
+* <a href="">PL/SQL</a>
+* <a href="">PY</a>
+* <a href="">GIT</a>
+
 ---
