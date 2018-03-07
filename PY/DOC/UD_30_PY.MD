@@ -2,6 +2,10 @@
 [30 Days of Python](https://www.udemy.com/30-days-of-python/learn/v4/content)
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+
+---
+
 ### Section 1 - Welcome
   * <a href='#1'>1 - Welcome</a>
   * <a href='#2'>2 - Getting help</a>
