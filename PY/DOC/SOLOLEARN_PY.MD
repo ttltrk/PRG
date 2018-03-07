@@ -2,6 +2,10 @@
 [PYTHON 3 TUTORIAL](https://www.sololearn.com/Play/Python)
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+
+---
+
 #### Basic Concepts
   * What is Python?
   * Your first program
