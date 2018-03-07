@@ -2,6 +2,10 @@
 Gauss table
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/APP/APPS_PY.MD)
+
+---
+
 3 "balls" are randomly falling down, you can find the results on the table.
 
 1. click on the [link](https://repl.it/NL5o/0)
