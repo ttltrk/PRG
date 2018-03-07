@@ -4,7 +4,7 @@ Coding
 
 [<<<](https://github.com/ttltrk/0con/blob/master/README.MD)
 
-| [MANUALS](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) |
+| [MANUALS](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) | [APPS]()
 [COURSES](https://github.com/ttltrk/Courses/blob/master/README.MD) |
 
 ---
