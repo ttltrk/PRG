@@ -7,8 +7,7 @@ Python Manuals
 ---
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD">Codecademy</a>
-* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD">Importing & Managing Financial Data in Python
- - Datacamp</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD">Importing & Managing Financial Data in Python - Datacamp</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATAQUEST_PY.MD">Dataquest</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/LEARNPYTHON_PY.txt">learnpython.org</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD">sololearn</a>
