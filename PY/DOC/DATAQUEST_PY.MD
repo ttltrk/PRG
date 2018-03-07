@@ -2,6 +2,10 @@
 PYTHON - dataquest.io
 ======
 
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+
+---
+
 #### Section 1 - Python Basics
 
 1. Programming and data science
