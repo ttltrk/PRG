@@ -2,7 +2,9 @@
 
 ### PYTHON - Teach your kids to code
 
-----------------------------------------------------------------------
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+
+---
 
 SECTION 1 - Getting your programming environment
 
