@@ -1,5 +1,6 @@
-Basic Python Manual (BPyM) 
-======
+### Python
+
+---
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
 
