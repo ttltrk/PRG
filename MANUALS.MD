@@ -9,6 +9,7 @@ basic manuals
 SCRIPTS
 
 * [PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+* [JS]()
 
 ---
 
@@ -35,10 +36,10 @@ DEVOPS
 WEB
 
 * [HTTP]()
+* [Django]()
 * [MD](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD)
 * [HTML](https://github.com/ttltrk/WEB/blob/master/BHM/BHM.MD)
 * [CSS]()
-* [JS]()
 * [BS]()
 
 ---
