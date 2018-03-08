@@ -6,7 +6,7 @@ basic manuals
 
 ---
 
-CODING
+SCRIPTS
 
 * [PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
@@ -14,8 +14,9 @@ CODING
 
 DB
 
-* [PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/BPSM.MD)
 * [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/BSqlM.MD)
+* [PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/BPSM.MD)
+* [PostgreSQL](#)
 
 ---
 
@@ -27,7 +28,7 @@ PL
 
 ---
 
-FM
+DEVOPS
 
 * [GIT](https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BGM/BGM.MD)
 
