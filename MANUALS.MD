@@ -8,7 +8,7 @@ basic manuals
 
 JAVA TECH
 
-* [Java]()
+* [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/BJM.MD)
 
 ---
 
