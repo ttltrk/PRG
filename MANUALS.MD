@@ -15,7 +15,7 @@ JAVA TECH
 COMP PROGRAMMING
 
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/BCM.MD)
-* [R]()
+* [R](https://github.com/ttltrk/PRG/blob/master/R/BRM/BRM.MD)
 
 ---
 
