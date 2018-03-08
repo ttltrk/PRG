@@ -6,10 +6,24 @@ basic manuals
 
 ---
 
+JAVA TECH
+
+* [Java]()
+
+---
+
+COMP PROGRAMMING
+
+* [C]()
+* [R]()
+
+---
+
 SCRIPTS
 
 * [PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 * [JS]()
+* [Perl]()
 
 ---
 
