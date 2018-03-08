@@ -21,8 +21,8 @@ COMP PROGRAMMING
 
 SCRIPTS
 
-* [PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
-* [JS]()
+* [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+* [JavaScript]()
 * [Perl]()
 
 ---
@@ -37,13 +37,13 @@ DB
 
 PL
 
-* [UX](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/BUM.MD)
+* [Unix](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/BUM.MD)
 
 ---
 
 DEVOPS
 
-* [GIT](https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BGM/BGM.MD)
+* [Git](https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BGM/BGM.MD)
 
 ---
 
@@ -51,10 +51,10 @@ WEB
 
 * [HTTP]()
 * [Django]()
-* [MD](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD)
+* [Markdown](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD)
 * [HTML](https://github.com/ttltrk/WEB/blob/master/BHM/BHM.MD)
 * [CSS]()
-* [BS]()
+* [Bootstrap]()
 
 ---
 
@@ -66,6 +66,6 @@ ACADEMIC
 
 ART
 
-* [PRC](https://github.com/ttltrk/ELSE/blob/master/PRF/BPRCM/BPRCM.MD)
+* [Processing](https://github.com/ttltrk/ELSE/blob/master/PRF/BPRCM/BPRCM.MD)
 
 ---
