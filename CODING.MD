@@ -36,6 +36,7 @@ coding
     + [BHM](https://github.com/ttltrk/WEB/blob/master/BHM/03/HEADINGS.MD) : Updated (HEADINGS)
     + [BUM](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/01/BASICS.MD) : Updated (UX Basics)
     + [BMM](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD) : Updated (HEADERS)
+    + [BGM](https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BGM/BGM.MD) : Updated (BASIC GIT WORKFLOW)
     + DIR: 5
 
   * 07 : (Wed)
