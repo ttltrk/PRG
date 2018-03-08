@@ -17,23 +17,21 @@ Basics
 * <a href="">Variables</a>
 * <a href="">Scalars</a>
 * <a href="">Arrays</a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
-* <a href=""></a>
+* <a href="">Hashes</a>
+* <a href="">IF...ELSE</a>
+* <a href="">Loops</a>
+* <a href="">Operators</a>
+* <a href="">Date & Time</a>
+* <a href="">Subroutines</a>
+* <a href="">References</a>
+* <a href="">Formats</a>
+* <a href="">File I/O</a>
+* <a href="">Directories</a>
+* <a href="">Error Handling</a>
+* <a href="">Special Variables</a>
+* <a href="">Coding Standard</a>
+* <a href="">Regular Expressions</a>
+* <a href="">Sending Email</a>
 
 ---
 
