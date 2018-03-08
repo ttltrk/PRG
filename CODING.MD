@@ -33,7 +33,8 @@ coding
 
   * 08 : (Thu)
   
-    + [BHM](https://github.com/ttltrk/WEB/blob/master/BHM/03/HEADINGS.MD) : Updated (HEADINGS) 
+    + [BHM](https://github.com/ttltrk/WEB/blob/master/BHM/03/HEADINGS.MD) : Updated (HEADINGS)
+    + [BUM](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/01/BASICS.MD) : Updated (UX Basics)
     + DIR: 5
 
   * 07 : (Wed)
