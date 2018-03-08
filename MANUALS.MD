@@ -44,6 +44,12 @@ WEB
 
 ---
 
+ACADEMIC
+
+* [UML]()
+
+---
+
 ART
 
 * [PRC](https://github.com/ttltrk/ELSE/blob/master/PRF/BPRCM/BPRCM.MD)
