@@ -31,6 +31,18 @@ coding
 
 * MRC
 
+  * 11 : (Sun)
+  
+    + RD
+
+  * 10 : (Sat)
+  
+    + RD
+
+  * 09 : (Fri)
+  
+    + RD
+
   * 08 : (Thu)
   
     + [BHM](https://github.com/ttltrk/WEB/blob/master/BHM/03/HEADINGS.MD) : Updated (HEADINGS)
