@@ -18,7 +18,7 @@ coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x|RD| x| x| x| x| x|RD|RD|RD|  |  |  |  | 
+|  | x| x|RD| x| x| x| x| x|RD|RD|RD| x|  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -30,6 +30,10 @@ coding
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 12 : (Mon)
+  
+    + [What is shell?](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_01/SHELL.MD)
 
   * 11 : (Sun)
   
