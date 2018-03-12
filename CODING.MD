@@ -34,6 +34,7 @@ coding
   * 12 : (Mon)
   
     + [What is shell?](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_01/SHELL.MD)
+    + [Shell Variables](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_02/VARIABLES.MD)
 
   * 11 : (Sun)
   
