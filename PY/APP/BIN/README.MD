@@ -1,6 +1,9 @@
 
-Binary ~ Decimal Converter
-======
+---
+
+### Binary ~ Decimal Converter
+
+---
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/APP/APPS_PY.MD)
 
