@@ -18,18 +18,22 @@ coding
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x|RD| x| x| x| x| x|RD|RD|RD| x|  |  |  | 
+|  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x|  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD| 7|
-|RD| 1|
+|WD| 9|
+|RD| 4|
 
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 13 : (Tue)
+ 
+    + [Special Shell Variables](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_02/SPEC_VAR.MD)
 
   * 12 : (Mon)
   
