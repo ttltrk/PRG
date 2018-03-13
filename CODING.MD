@@ -33,7 +33,7 @@ coding
 
   * 13 : (Tue)
  
-    + [Special Shell Variables](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_02/SPEC_VAR.MD)
+    + SS: [Special Shell Variables](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_02/SPEC_VAR.MD)
 
   * 12 : (Mon)
   
