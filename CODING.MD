@@ -37,7 +37,7 @@ coding
     + HTML: [HTML Home](https://github.com/ttltrk/WEB/blob/master/BHM/01/HOME.MD)
     + HTML: [HTML Overview](https://github.com/ttltrk/WEB/blob/master/BHM/02/OVERVIEW.MD)
     + HTML: [HTML Basic Tags](https://github.com/ttltrk/WEB/blob/master/BHM/03/BASIC_TAGS.MD)
-    + CSS: [CSS HOME](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/01/HOME.MD)
+    + CSS: [CSS Home](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/01/HOME.MD)
     
   * 12 : (Mon)
   
