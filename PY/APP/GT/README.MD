@@ -1,6 +1,9 @@
 
+---
+
 Gauss table
-======
+
+---
 
 [<<<](https://github.com/ttltrk/PRG/blob/master/PY/APP/APPS_PY.MD)
 
