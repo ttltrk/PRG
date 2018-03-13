@@ -6,7 +6,8 @@ coding
 
 | [MANUALS](https://github.com/ttltrk/PRG/blob/master/MAN.MD) 
 | [APPS](https://github.com/ttltrk/PRG/blob/master/APPS.MD)
-| [COURSES](https://github.com/ttltrk/Courses/blob/master/README.MD) |
+| [COURSES](https://github.com/ttltrk/Courses/blob/master/README.MD)
+| [CV](https://github.com/ttltrk/ELSE/blob/master/CV/ttltrk.MD) |
 
 ---
 
