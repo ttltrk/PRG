@@ -1,7 +1,7 @@
 
 ---
 
-Gauss table
+### Gauss table
 
 ---
 
