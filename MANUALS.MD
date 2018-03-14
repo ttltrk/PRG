@@ -21,14 +21,6 @@
 
 ---
 
-DB
-
-* [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/BSqlM.MD)
-* [PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/BPSM/BPSM.MD)
-* [PostgreSQL](https://github.com/ttltrk/DB/blob/master/POSTGRESQL/BPOSM/BPOSM.MD)
-
----
-
 OS
 
 * [Unix](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/BUM.MD)
