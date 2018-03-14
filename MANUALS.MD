@@ -21,13 +21,6 @@
 
 ---
 
-OS
-
-* [Unix](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/BUM.MD)
-* [RPI]()
-
----
-
 DEVOPS
 
 * [Git](https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BGM/BGM.MD)
