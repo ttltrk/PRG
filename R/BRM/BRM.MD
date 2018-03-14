@@ -3,7 +3,7 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
+[<<<](https://github.com/ttltrk/PRG/blob/master/C/DOC/CP/CP.MD)
 
 ---
 
