@@ -11,7 +11,7 @@
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/JT/JT.MD">Java Tech</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/C/DOC/CP/CP.MD">Computer Programming</a>
-* <a href="">Scripts</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD">Scripts</a>
 * <a href="">Database</a>
 * <a href="">OS</a>
 * <a href="">DEVOPS</a>
