@@ -1,9 +1,11 @@
 
+---
+
 ### Perl
 
 ---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD)
+[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD)
 
 ---
 
