@@ -21,12 +21,6 @@
 
 ---
 
-JAVA TECH
-
-* [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/BJM.MD)
-
----
-
 COMP PROGRAMMING
 
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/BCM.MD)
