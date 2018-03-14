@@ -10,7 +10,7 @@
 ---
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/JT/JT.MD">Java Tech</a>
-* <a href="">Computer Programming</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/C/DOC/CP/CP.MD">Computer Programming</a>
 * <a href="">Scripts</a>
 * <a href="">Database</a>
 * <a href="">OS</a>
@@ -18,13 +18,6 @@
 * <a href="">WEB</a>
 * <a href="">Academic</a>
 * <a href="">Art</a>
-
----
-
-COMP PROGRAMMING
-
-* [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/BCM.MD)
-* [R](https://github.com/ttltrk/PRG/blob/master/R/BRM/BRM.MD)
 
 ---
 
