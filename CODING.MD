@@ -30,7 +30,7 @@
 
 |ST|NU|
 |--|--|
-|WD| 9|
+|WD|11|
 |RD| 4|
 
 <a href='#NAV'>NAV</a>
