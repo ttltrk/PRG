@@ -24,7 +24,7 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x|  | 
+|  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -41,13 +41,15 @@
   
     + CSS: Codecademy [Inline Styles](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/LCSSM/02/01.MD)
     + HTML: [HTML Attributes](https://github.com/ttltrk/WEB/blob/master/BHM/05/ATTRIBUTES.MD)
-
+    + DIR: 4
+    
   * 14 : (Wed) 
   
     + FS: freeCodeCamp [HTML Elements](https://github.com/ttltrk/WEB/blob/master/FS/DOC/FCCM/01/01.MD)
     + CSS: Codecademy [Intro to CSS](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/LCSSM/01/01.MD)
     + HTML: [HTML Elements](https://github.com/ttltrk/WEB/blob/master/BHM/04/ELEMENTS.MD)
-
+    + DIR: 3
+    
   * 13 : (Tue)
  
     + SS: [Special Shell Variables](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_02/SPEC_VAR.MD)
@@ -55,11 +57,13 @@
     + HTML: [HTML Overview](https://github.com/ttltrk/WEB/blob/master/BHM/02/OVERVIEW.MD)
     + HTML: [HTML Basic Tags](https://github.com/ttltrk/WEB/blob/master/BHM/03/BASIC_TAGS.MD)
     + CSS: [CSS Home](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/01/HOME.MD)
+    + DIR: 2
     
   * 12 : (Mon)
   
     + [What is shell?](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_01/SHELL.MD)
     + [Shell Variables](https://github.com/ttltrk/ELSE/blob/master/SHELL/BUM/SH_02/VARIABLES.MD)
+    + DIR: 1
 
   * 11 : (Sun)
   
