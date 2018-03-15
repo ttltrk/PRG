@@ -15,22 +15,9 @@
 * <a href="https://github.com/ttltrk/DB/blob/master/DBM/DBM.MD">Database</a>
 * <a href="https://github.com/ttltrk/ELSE/blob/master/BMOS/BMOS.MD">OS</a>
 * <a href="https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BMDO/BMDO.MD">DEVOPS</a>
-* <a href="">WEB</a>
+* <a href="https://github.com/ttltrk/WEB/blob/master/BMW/BMW.MD">WEB</a>
 * <a href="">Academic</a>
 * <a href="">Art</a>
-
----
-
-WEB
-
-* [HTTP](https://github.com/ttltrk/WEB/blob/master/HTTP/BHM/BHM.MD)
-* [Markdown](https://github.com/ttltrk/ELSE/blob/master/MD/BMDM.MD)
-* [HTML](https://github.com/ttltrk/WEB/blob/master/BHM/BHM.MD)
-* [CSS](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/BCSSM/BCSSM.MD)
-* [SASS]()
-* [Bootstrap](https://github.com/ttltrk/WEB/blob/master/BS/DOC/BBM/BBM.MD)
-* [Angular]()
-* [TypeScript]()
 
 ---
 
