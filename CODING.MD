@@ -46,6 +46,22 @@
 
 * MRC
 
+  * 16 : (Fri)
+  
+    + WEB
+      - BM:
+      - CM:
+    
+    + DB
+      - BM:
+      - CM:
+    
+    + OS
+      - BM:
+      - CM:
+    
+      
+
   * 15 : (Thu) 
   
     + CSS: Codecademy [Inline Styles](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/LCSSM/02/01.MD)
