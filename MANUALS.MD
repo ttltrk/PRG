@@ -14,16 +14,10 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD">Scripts</a>
 * <a href="https://github.com/ttltrk/DB/blob/master/DBM/DBM.MD">Database</a>
 * <a href="https://github.com/ttltrk/ELSE/blob/master/BMOS/BMOS.MD">OS</a>
-* <a href="">DEVOPS</a>
+* <a href="https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BMDO/BMDO.MD">DEVOPS</a>
 * <a href="">WEB</a>
 * <a href="">Academic</a>
 * <a href="">Art</a>
-
----
-
-DEVOPS
-
-* [Git](https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BGM/BGM.MD)
 
 ---
 
