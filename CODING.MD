@@ -19,7 +19,10 @@
 |M|T|W|T|F|S|S|
 |-|-|-|-|-|-|-|
 |WEB|WEB|WEB|WEB|WEB|WEB|WEB|
-
+|DB|DB|DB|DB|DB|DB|DB|
+|OS|OS|OS|OS|OS|OS|OS
+|PY|PY|PY|PY|PY|PY|PY|
+|JT|CP|SC|DO|AC|AR|
 ---
 
 ### <h4 id='NAV'>2018 - <a href='#2018_01'>JAN</a> | <a href='#2018_02'>FEB</a> | <a href='#2018_03'>MRC</a></h4>
