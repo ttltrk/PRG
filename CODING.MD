@@ -73,6 +73,7 @@
     + CSS: Codecademy [Inline Styles](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/LCSSM/02/01.MD)
     + HTML: [HTML Attributes](https://github.com/ttltrk/WEB/blob/master/BHM/05/ATTRIBUTES.MD)
     + SQL: [Intro](https://github.com/ttltrk/DB/blob/master/SQL/DOC/BSqlM/01/HOME.MD)
+    + SQL: [Intro](https://github.com/ttltrk/DB/blob/master/DCM/DCMS/01/01/INTRO_MAN.MD)
     + DIR: 4
     
   * 14 : (Wed) 
