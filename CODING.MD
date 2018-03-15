@@ -37,6 +37,11 @@
 
 * MRC
 
+  * 15 : (Thu) 
+  
+    + CSS: Codecademy [Inline Styles](https://github.com/ttltrk/WEB/blob/master/CSS/DOC/LCSSM/02/01.MD)
+    + HTML: [HTML Elements](https://github.com/ttltrk/WEB/blob/master/BHM/04/ELEMENTS.MD)
+
   * 14 : (Wed) 
   
     + FS: freeCodeCamp [HTML Elements](https://github.com/ttltrk/WEB/blob/master/FS/DOC/FCCM/01/01.MD)
