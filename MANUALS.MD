@@ -16,14 +16,8 @@
 * <a href="https://github.com/ttltrk/ELSE/blob/master/BMOS/BMOS.MD">OS</a>
 * <a href="https://github.com/ttltrk/ELSE/blob/master/GIT/DOC/BMDO/BMDO.MD">DEVOPS</a>
 * <a href="https://github.com/ttltrk/WEB/blob/master/BMW/BMW.MD">WEB</a>
-* <a href="">Academic</a>
+* <a href="https://github.com/ttltrk/ELSE/blob/master/UML/BUMM/BMU/BMU.MD">Academic</a>
 * <a href="">Art</a>
-
----
-
-ACADEMIC
-
-* [UML](https://github.com/ttltrk/ELSE/blob/master/UML/BUMM/BUMM.MD)
 
 ---
 
