@@ -9,15 +9,10 @@
 
 ---
 
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD">Scripts</a>
+* <a href="">Database</a>
+* <a href="">OS</a>
+* <a href="">DEVOPS</a>
 * <a href="https://github.com/ttltrk/WEB/blob/master/CWM/CWM.MD">WEB</a>
-* <a href="">JS</a>
-* <a href="">BS</a>
-* <a href="">PHP</a>
-* <a href="">UX</a>
-* <a href="">Pi</a>
-* <a href="">SQL</a>
-* <a href="">PL/SQL</a>
-* <a href="https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD">PY</a>
-* <a href="">GIT</a>
 
 ---
