@@ -46,6 +46,28 @@
 
 * MRC
 
+  * 17 : (Sat)
+  
+    + WEB
+      - BM: 
+      - CM:
+    
+    + DB
+      - BM:
+      - CM:
+    
+    + OS
+      - BM:
+      - CM:
+      
+    + PY
+      - BM:
+      - CM:
+      
+    + AC
+      - BM:
+      - CM: 
+
   * 16 : (Fri)
   
     + WEB
