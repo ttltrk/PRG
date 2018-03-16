@@ -35,7 +35,7 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
@@ -49,7 +49,7 @@
   * 16 : (Fri)
   
     + WEB
-      - BM:
+      - BM: [HTML Formatting](https://github.com/ttltrk/WEB/blob/master/BHM/06/FORMATTING.MD)
       - CM:
     
     + DB
