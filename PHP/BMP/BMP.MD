@@ -11,7 +11,7 @@
 
 PHP Basics
 
-* <a href="">Home</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PHP/BMP/P_01/HOME.MD">Home</a>
 * <a href="">Introduction</a>
 * <a href="">Environment Setup</a>
 * <a href="">Syntax Overview</a>
