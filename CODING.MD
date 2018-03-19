@@ -30,8 +30,8 @@
 
 |ST|NU|
 |--|--|
-|WD|11|
-|RD| 4|
+|WD|14|
+|RD| 5|
 
 <a href='#NAV'>NAV</a>
 
@@ -39,12 +39,14 @@
 
   * 19 : (Mon)
   
-    + HTML Flashcard
-
+    + [HTML Flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
+    + DIR: 2
+    
   * 18 : (Sun)
   
-    + HTML Flashcards
-
+    + [HTML Flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
+    + DIR: 1
+    
   * 17 : (Sat)
   
     + RD
