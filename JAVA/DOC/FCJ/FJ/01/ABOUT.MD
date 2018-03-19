@@ -1,11 +1,7 @@
 
 ---
 
-### flashcards - Java Tech - Java
-
----
-
-### About
+### flashcards - Java Tech - Java - About
 
 ---
 
