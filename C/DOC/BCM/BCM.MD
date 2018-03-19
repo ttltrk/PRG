@@ -5,10 +5,6 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/C/DOC/CP/CP.MD)
-
----
-
 Basics
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/01/HOME.MD">Home</a>
