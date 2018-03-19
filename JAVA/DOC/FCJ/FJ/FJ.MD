@@ -9,6 +9,6 @@
 
 ---
 
-* <a href="">About</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/FCJ/FJ/01/ABOUT.MD">About</a>
 
 ---
