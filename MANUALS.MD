@@ -1,11 +1,7 @@
 
 ---
 
-### basic manuals
-
----
-
-[<<<](https://github.com/ttltrk/PRG/blob/master/MAN.MD)
+### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals]() - basic manuals
 
 ---
 
