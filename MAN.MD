@@ -1,7 +1,7 @@
 
 ---
 
-### manuals
+### [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - manuals
 
 ---
 
