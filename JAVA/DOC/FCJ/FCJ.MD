@@ -1,11 +1,10 @@
 
 ---
 
-### flashcards Java Technology 
-
+### flashcards Java Tech
 ---
 
-[<<<]()
+[<<<](https://github.com/ttltrk/ELSE/blob/master/FLCA/FLCA.MD)
 
 ---
 
