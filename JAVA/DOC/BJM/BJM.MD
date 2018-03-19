@@ -5,10 +5,6 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/JT/JT.MD)
-
----
-
 Basics
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/01/HOME.MD">Home</a>
