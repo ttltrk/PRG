@@ -39,12 +39,13 @@
 
   * 19 : (Mon)
   
-    + [HTML Flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
+    + [HTML flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
+    + [Python flashcards](https://github.com/ttltrk/PRG/blob/master/PY/DOC/FLPY/01/CRST.MD)
     + DIR: 2
     
   * 18 : (Sun)
   
-    + [HTML Flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
+    + [HTML flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
     + DIR: 1
     
   * 17 : (Sat)
