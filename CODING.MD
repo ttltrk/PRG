@@ -22,17 +22,23 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x|RD| x| x|  |  |  |  |  |  |  |  |  |  |  |  |
+| x|RD| x| x| x|  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|14|
+|WD|15|
 |RD| 5|
 
 <a href='#NAV'>NAV</a>
 
 * MRC
 
+  * 20 - Tue : DIR: 3
+  
+    + [Java Overview](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/02/OVERVIEW.MD)
+    + [C Overview](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/02/OVERVIEW.MD)
+    + [R Overview](https://github.com/ttltrk/PRG/blob/master/R/BRM/02/OVERVIEW.MD)
+    
   * 19 : (Mon)
   
     + [HTML flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
