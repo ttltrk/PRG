@@ -33,7 +33,7 @@
 
 * MRC
 
-  * 20 - Tue : DIR: 3
+  * 20 - Tue (DIR: 3)
   
     + [Java Overview](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/02/OVERVIEW.MD)
     + [C Overview](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/02/OVERVIEW.MD)
