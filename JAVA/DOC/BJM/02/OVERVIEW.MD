@@ -9,6 +9,18 @@ Java
 
   * Object Oriented
   * Platform Independent
+  * Simple
+  * Secure
+  * Architecture-neutral
+  * Portable
+  * Robust
+  * Multithreaded
+  * Interpreted
+  * High Perfomance
+  * Distributed
+  * Dynamic
+  
+  Write Once, Run Anywhere
 
 ---
 
