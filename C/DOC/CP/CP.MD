@@ -7,6 +7,6 @@
 
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/BCM.MD)
 * [R](https://github.com/ttltrk/PRG/blob/master/R/BRM/BRM.MD)
-* [Go]()
+* [Go](https://github.com/ttltrk/PRG/blob/master/GO/BMGO/BMGO.MD)
 
 ---
