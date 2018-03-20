@@ -5,6 +5,8 @@
 
 ---
 
+R is world’s most widely used statistics programming language. It's the # 1 choice of data scientists and supported by a vibrant and talented community of contributors. R is taught in universities and deployed in mission critical business applications.
+
 ---
 
 [src](https://www.tutorialspoint.com/r/r_overview.htm)
