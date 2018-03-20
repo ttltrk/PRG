@@ -5,6 +5,11 @@
 
 ---
 
+Java 
+
+  * Object Oriented
+  * Platform Independent
+
 ---
 
 [src](https://www.tutorialspoint.com/java/java_overview.htm)
