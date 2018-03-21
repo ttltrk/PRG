@@ -5,7 +5,7 @@
 
 ---
 
-* <a href="#1">Number Data Type in Python</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/01/NDT.MD">Number Data Type in Python</a>
 * <a href="#2">System Prefix</a>
 * <a href="#3">Type Conversion</a>
 * <a href="#4">Python Decimal</a>
@@ -15,46 +15,6 @@
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/variables-datatypes)
-
----
-
-<h4 id="1">NUMBER DATA TYPE IN PYTHON</h4>
-
-```python
-a = 5
-
-print(type(a))
-print(type(5.0))
-
-c = 5 + 3j
-
-print(c + 3)
-print(isinstance(c, complex))
-
->>>
-<class 'int'>
-<class 'float'>
-(8+3j)
-True
->>>
-```
-
-```python
-a = 5
-print(a, "is of type", type(a))
-
-a = 2.0
-print(a, "is of type", type(a))
-
-a = 1+2j
-print(a, "is complex number?", isinstance(1+2j,complex))
-
->>>
-5 is of type <class 'int'>
-2.0 is of type <class 'float'>
-(1+2j) is complex number? True
->>>
-```
 
 ---
 
