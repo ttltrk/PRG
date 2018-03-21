@@ -14,7 +14,7 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD">Python Statements</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD">Methods and Functions and Generators</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD">Object Oriented Programming</a>
-* <a href="#6">Modules and Packages</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD">Modules and Packages</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD">Examples</a>
 * <a href="#z">Frameworks</a>
 * <a href="#zz">Databases</a>
@@ -23,13 +23,6 @@
 
 ---  
   
-<h3 id="6">Modules and Packages</h3>
-
-  * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
-  * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
-
----
-
 <h3 id="z">Frameworks</h3>
 
   * [Django](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/BDJM.MD)
