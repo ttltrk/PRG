@@ -37,7 +37,8 @@ Resources
 
 ---
 
-* [src1](https://www.tutorialspoint.com/django/index.htm)
-* [src2](https://github.com/django/django)
+* [src - tutorialspoint](https://www.tutorialspoint.com/django/index.htm)
+* [src - github](https://github.com/django/django)
+* [src - django.hu](http://django.hu/)
 
 ---
