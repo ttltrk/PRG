@@ -106,6 +106,7 @@ Web
   
     * [programiz](https://www.programiz.com/python-programming#tutorial)
     * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
+    
     * [fullstackpython](https://www.fullstackpython.com/)
       - [csforall](https://www.cs.hmc.edu/csforall/)
       - [learntocodewithme](https://learntocodewith.me/)
@@ -119,8 +120,19 @@ Web
       - [pymbook](http://pymbook.readthedocs.io/en/latest/)
     
     * [pfb](http://www.pythonforbeginners.com/)
-    * [10 min](https://www.stavros.io/tutorials/python/)
-    * [dive in to the p3](http://www.diveintopython3.net/)
+      - [10 min](https://www.stavros.io/tutorials/python/)
+      - [dive in to the p3](http://www.diveintopython3.net/)
+      - [hyperpolyglot](http://hyperpolyglot.org/scripting)
+      - [afterhoursprogramming](https://www.afterhoursprogramming.com/tutorial/python/python-overview/)
+      - [interactivepython](http://interactivepython.org/courselib/static/thinkcspy/toc.html)
+      - [pythontips](https://pythontips.com/)
+      - [dotnetperls](https://www.dotnetperls.com/python)
+      - [python-guide](http://docs.python-guide.org/en/latest/)
+      - [circles](https://cscircles.cemc.uwaterloo.ca/)
+      - [learn python the hard way](https://learnpythonthehardway.org/book/)
+      - [think python](https://en.wikibooks.org/wiki/Think_Python)
+      - [realpython](https://realpython.com/)
+      
     * [python.org](https://python.org)
     * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
     * [learnpython.org](https://www.learnpython.org/)
