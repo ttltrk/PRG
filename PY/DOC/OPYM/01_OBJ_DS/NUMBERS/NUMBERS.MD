@@ -8,40 +8,13 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/01/NDT.MD">Number Data Type in Python</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/02/SYS_PRE.MD">System Prefix</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/03/TYP_CON.MD">Type Conversion</a>
-* <a href="#4">Python Decimal</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/04/PYT_DEC.MD">Python Decimal</a>
 * <a href="#5">Python Fractions</a>
 * <a href="#6">Python Mathematics</a>
 
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/variables-datatypes)
-
----
-
-<h4 id="4">PYTHON DECIMAL</h4>
-
-```python
-n1 = 1.1 + 2.2
-print(n1 == 3.3)
-print(n1)
-
->>>
-False
-3.3000000000000003
->>>
-```
-
-```python
-import decimal
-
-print(0.1)
-print(decimal.Decimal(0.1))
-
->>>
-0.1
-0.1000000000000000055511151231257827021181583404541015625
->>>
-```
 
 ---
 
