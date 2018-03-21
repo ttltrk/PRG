@@ -92,6 +92,8 @@ Web
   
   + ENG
   
+    * [ULTIMATE](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#python)
+  
     * [programiz](https://www.programiz.com/python-programming#tutorial)
     * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
     
@@ -120,6 +122,8 @@ Web
       - [learn python the hard way](https://learnpythonthehardway.org/book/)
       - [think python](https://en.wikibooks.org/wiki/Think_Python)
       - [realpython](https://realpython.com/)
+      
+    * [pythontutorial.hu](http://pythontutorial.pergamen.hu/)
       
     * [python.org](https://python.org)
     * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
