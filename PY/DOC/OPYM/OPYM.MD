@@ -5,7 +5,7 @@
 
 ---
 
-* <a href="#1">Objects and Data Structure Basics</a>
+* <a href="#1">Objects and Data Structures</a>
 * <a href="#2">Comparison Operators</a>
 * <a href="#3">Python Statements</a>
 * <a href="#4">Methods and Functions and Generators</a>
@@ -17,7 +17,7 @@
 
 ---
 
-<h3 id="1">Objects and Data Structure Basics</h3>
+<h3 id="1">Objects and Data Structures</h3>
 
   * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
   * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
