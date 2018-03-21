@@ -7,7 +7,7 @@
 
 ### Menu
 
-* <a href="#1">Objects and Data Structures</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD">Objects and Data Structures</a>
 * <a href="#2">Comparison Operators</a>
 * <a href="#3">Python Statements</a>
 * <a href="#4">Methods and Functions and Generators</a>
@@ -20,20 +20,6 @@
 
 ---
 
-<h3 id="1">Objects and Data Structures</h3>
-
-  * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
-  * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
-  * [Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
-  * [Dictionaries](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD)
-  * [Tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD)
-  * [Sets](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD)
-  * [Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/FILES/FILES.MD)
-  * [Arrays]()
-  * [Matrix]()
-  
----
-  
 <h3 id="2">Comparison Operators</h3>
 
   * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
