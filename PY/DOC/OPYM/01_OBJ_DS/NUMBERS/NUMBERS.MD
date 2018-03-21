@@ -14,6 +14,10 @@
 
 ---
 
+[src - programiz](https://www.programiz.com/python-programming/variables-datatypes)
+
+---
+
 <h4 id="1">NUMBER DATA TYPE IN PYTHON</h4>
 
 ```python
