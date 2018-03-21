@@ -12,7 +12,7 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD">Objects and Data Structures</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD">Comparison Operators</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD">Python Statements</a>
-* <a href="#4">Methods and Functions and Generators</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD">Methods and Functions and Generators</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD">Object Oriented Programming</a>
 * <a href="#6">Modules and Packages</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD">Examples</a>
