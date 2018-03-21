@@ -118,6 +118,7 @@ Web
       - [learning python](http://www.mattmakai.com/learning-python-for-non-developers.html)
       - [pymbook](http://pymbook.readthedocs.io/en/latest/)
     
+    * [pfb](http://www.pythonforbeginners.com/)
     * [python.org](https://python.org)
     * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
     * [learnpython.org](https://www.learnpython.org/)
