@@ -8,8 +8,6 @@
 
 ### Number Data Type in Python
 
----
-
 ```python
 a = 5
 
