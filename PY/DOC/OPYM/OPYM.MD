@@ -84,20 +84,26 @@
 <h3 id="y">Sources</h3>
 
 Web
-   
-  * [programiz](https://www.programiz.com/python-programming#tutorial)
-  * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
-  * [python.org](https://python.org)
-  * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
-  * [learnpython.org](https://www.learnpython.org/)
-  * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
-  * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) 
-  * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) 
-  * [Google's Python Class](https://developers.google.com/edu/python/) 
-  * [effbot.org](http://effbot.org/zone/librarybook-index.htm) 
-  * [likegeeks.com](https://likegeeks.com/python-programming-basics/) 
-  * [teachyourkidstocode.com](http://teachyourkidstocode.com/) 
-  * [python.input.sk](http://python.input.sk) 
+  
+  + ENG
+  
+    * [programiz](https://www.programiz.com/python-programming#tutorial)
+    * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
+    * [python.org](https://python.org)
+    * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
+    * [learnpython.org](https://www.learnpython.org/)
+    * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+    * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) 
+    * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) 
+    * [Google's Python Class](https://developers.google.com/edu/python/) 
+    * [effbot.org](http://effbot.org/zone/librarybook-index.htm) 
+    * [likegeeks.com](https://likegeeks.com/python-programming-basics/) 
+    * [teachyourkidstocode.com](http://teachyourkidstocode.com/) 
+  
+  + HU/SK
+  
+    * [pythonidomar](https://pythonidomar.wordpress.com/)
+    * [python.input.sk](http://python.input.sk) 
   
 Books
 
