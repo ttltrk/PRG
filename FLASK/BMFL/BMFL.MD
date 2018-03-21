@@ -5,6 +5,12 @@
 
 ---
 
+* <a href="">Basics</a>
+* <a href="">Resources</a>
+* <a href="">Sources</a>
+
+---
+
 Basics
 
 * <a href="">Home</a>
@@ -38,6 +44,8 @@ Basics
 Resources
 
 ---
+
+Sources
 
 * [src - tutorialspoint](https://www.tutorialspoint.com/flask/index.htm)
 * [src - flask](http://flask.pocoo.org/)
