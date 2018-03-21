@@ -8,7 +8,7 @@
 ### Python
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD">Objects and Data Structures</a>
-* <a href="#2">Comparison Operators</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD">Comparison Operators</a>
 * <a href="#3">Python Statements</a>
 * <a href="#4">Methods and Functions and Generators</a>
 * <a href="#5">Object Oriented Programming</a>
@@ -20,12 +20,6 @@
 
 ---
 
-<h3 id="2">Comparison Operators</h3>
-
-  * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
-  
----
-  
 <h3 id="3">Python Statements</h3>
 
   * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
