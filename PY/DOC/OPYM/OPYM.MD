@@ -13,6 +13,7 @@
 * <a href="#6">Modules and Packages</a>
 * <a href="#x">Examples</a>
 * <a href="#z">Frameworks</a>
+* <a href="#zz">Databases</a>
 * <a href="#y">Sources</a>
 
 ---
@@ -88,6 +89,14 @@
   * [Flask](https://github.com/ttltrk/PRG/blob/master/FLASK/BMFL/BMFL.MD)
 
 ---
+
+<h3 id="zz">Databases</h3>
+
+  * [PostgreSQL]()
+  * [SQLite]()
+  * [MySQL]()
+
+---
   
 <h3 id="y">Sources</h3>
 
@@ -97,6 +106,7 @@ Web
   
     * [programiz](https://www.programiz.com/python-programming#tutorial)
     * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
+    * [fullstackpython](https://www.fullstackpython.com/)
     * [python.org](https://python.org)
     * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
     * [learnpython.org](https://www.learnpython.org/)
