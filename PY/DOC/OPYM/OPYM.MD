@@ -115,7 +115,8 @@ Web
 Books
 
   * [Learning Python](https://books.google.sk/books/about/Learning_Python.html?id=ftA0yk1Z92wC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
-  * [2]()
+  * [Learn Python 3 the hard way](https://books.google.sk/books/about/Learn_Python_3_the_Hard_Way.html?id=93YpDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
+  * [Automate the Boring Stuff with Python: Practical Programming for Total Beginners](https://books.google.sk/books/about/Automate_the_Boring_Stuff_with_Python.html?id=UEu0CAAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
   
 Courses
 
