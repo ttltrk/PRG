@@ -11,7 +11,7 @@
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD">Objects and Data Structures</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD">Comparison Operators</a>
-* <a href="#3">Python Statements</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD">Python Statements</a>
 * <a href="#4">Methods and Functions and Generators</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD">Object Oriented Programming</a>
 * <a href="#6">Modules and Packages</a>
@@ -23,15 +23,6 @@
 
 ---
 
-<h3 id="3">Python Statements</h3>
-
-  * [if, elif and else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/IF_ELIF_ELSE.MD)
-  * [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
-  * [while loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/WHILE/WHILE.MD)
-  * [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
-
----
-  
 <h3 id="4">Methods and Functions and Generators</h3>
 
   * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
