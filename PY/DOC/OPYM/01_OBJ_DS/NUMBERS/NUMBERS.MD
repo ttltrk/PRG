@@ -10,7 +10,7 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/03/TYP_CON.MD">Type Conversion</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/04/PYT_DEC.MD">Python Decimal</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/05/PYT_FRA.MD">Python Fractions</a>
-* <a href="#6">Python Mathematics</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/06/PYT_MAT.MD">Python Mathematics</a>
 
 ---
 
@@ -18,54 +18,4 @@
 
 ---
 
-<h4 id="6">PYTHON MATHEMATICS</h4>
 
-```python
-import math
-
-print(math.pi)
-print(math.cos(math.pi))
-print(math.exp(10))
-print(math.log10(1000))
-print(math.sinh(1))
-print(math.factorial(6))
-
->>>
-3.141592653589793
--1.0
-22026.465794806718
-3.0
-1.1752011936438014
-720
->>>
-```
-
-```python
-import random
-
-print(random.randrange(10,20))
-
-x = ['a', 'b', 'c', 'd', 'e']
-
-print(random.choice(x))
-
-random.shuffle(x)
-
-print(x)
-print(random.random())
-
->>>
-14
-e
-['b', 'd', 'a', 'e', 'c']
-0.14933393166286335
->>>
-```
-
----
-
-Src
-
-[programiz](https://www.programiz.com/python-programming/variables-datatypes)
-
----
