@@ -108,7 +108,16 @@ Web
     * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
     * [fullstackpython](https://www.fullstackpython.com/)
       - [csforall](https://www.cs.hmc.edu/csforall/)
-      
+      - [learntocodewithme](https://learntocodewith.me/)
+      - [twilio](https://www.twilio.com/blog/tag/python)
+      - [a byte of python](https://python.swaroopch.com/)
+      - [Python for beginners](http://opentechschool.github.io/python-beginners/en/index.html)
+      - [google dev](https://techdevguide.withgoogle.com/)
+      - [think python](http://greenteapress.com/thinkpython/html/index.html)
+      - [Python Practice Book](https://anandology.com/python-practice-book/index.html)
+      - [learning python](http://www.mattmakai.com/learning-python-for-non-developers.html)
+      - [pymbook](http://pymbook.readthedocs.io/en/latest/)
+    
     * [python.org](https://python.org)
     * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
     * [learnpython.org](https://www.learnpython.org/)
@@ -136,6 +145,7 @@ Courses
   * [Codecademy](https://www.codecademy.com/learn/learn-python)
   * [Dataquest](https://www.dataquest.io/dashboard)
   * [Datacamp](https://www.datacamp.com/home)
+  * [Udacity](https://classroom.udacity.com)
   * Udemy
     - [1]()
     - [2]()
