@@ -88,6 +88,7 @@ Web
   * [programiz](https://www.programiz.com/python-programming#tutorial)
   * [python.org](https://python.org)
   * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
+  * [learnpython.org](https://www.learnpython.org/)
   * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
   * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) 
   * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) 
