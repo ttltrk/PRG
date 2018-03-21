@@ -21,18 +21,6 @@
 * <a href="#yy">IDE</a>
 * <a href="#y">Sources</a>
 
----
-
-<h3 id="4">Methods and Functions and Generators</h3>
-
-  * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
-  * [Built-in Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD)
-  * [Functions within functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD)
-  * [Functions as Arguments](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_ARG.MD)
-  * [Generators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/GENERATORS/GENERATORS.MD)
-  * [lambda expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/LAMBDA/LAMBDA.MD)
-  * [Nested Statements and Scope]()
-  
 ---  
   
 <h3 id="6">Modules and Packages</h3>
