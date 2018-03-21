@@ -6,7 +6,7 @@
 ---
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/01/NDT.MD">Number Data Type in Python</a>
-* <a href="#2">System Prefix</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/02/SYS_PRE.MD">System Prefix</a>
 * <a href="#3">Type Conversion</a>
 * <a href="#4">Python Decimal</a>
 * <a href="#5">Python Fractions</a>
@@ -16,27 +16,6 @@
 
 [src - programiz](https://www.programiz.com/python-programming/variables-datatypes)
 
----
-
-<h4 id="2">SYSTEM PREFIX</h4>
-
-|Number|System Prefix|
-|-----|------|
-|Binary|'0b' or '0B'|
-|Octal|'0o' or '0O'|
-|Hexadecimal|'0x' or '0X'|
-
-```python
-print(0b1101011)
-print(0xFB + 0b10)
-print(0o15)
-
->>>
-107
-253
-13
->>>
-```
 ---
 
 <h4 id="3">TYPE CONVERSION</h4>
