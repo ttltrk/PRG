@@ -13,7 +13,7 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD">Comparison Operators</a>
 * <a href="#3">Python Statements</a>
 * <a href="#4">Methods and Functions and Generators</a>
-* <a href="#5">Object Oriented Programming</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD">Object Oriented Programming</a>
 * <a href="#6">Modules and Packages</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD">Examples</a>
 * <a href="#z">Frameworks</a>
@@ -44,16 +44,6 @@
   
 ---  
   
-<h3 id="5">Object Oriented Programming</h3>
-
-  * [Objects](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OBJECTS/OBJECTS.MD)
-  * [Classes](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/CLASSES/CLASSES.MD)
-  * [Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/METHODS/METHODS.MD)
-  * [Inheritance](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/INHERITANCE/INHERITANCE.MD)
-  * [Special Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/SPE_MET/SPE_MET.MD)
-
----
-
 <h3 id="6">Modules and Packages</h3>
 
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
