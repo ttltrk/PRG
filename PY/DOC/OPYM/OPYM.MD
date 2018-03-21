@@ -86,6 +86,7 @@
 Web
    
   * [programiz](https://www.programiz.com/python-programming#tutorial)
+  * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
   * [python.org](https://python.org)
   * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
   * [learnpython.org](https://www.learnpython.org/)
