@@ -5,19 +5,19 @@
 
 ---
 
-Description
+#### Description
 
 ```
 A simple program that displays “Hello, World!”. It's often used to illustrate the syntax of the language.
 ```
 
-Code
+#### Code
 
 ```python
 print("hello world")
 ```
 
-Output
+#### Output
 
 ```python
 >>>
