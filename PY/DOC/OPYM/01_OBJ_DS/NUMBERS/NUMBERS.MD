@@ -1,10 +1,7 @@
 
-Numbers
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
-
-sc: [programiz.com](https://www.programiz.com/python-programming/variables-datatypes)
+### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python]() - Numbers
 
 ---
 
@@ -216,5 +213,11 @@ e
 0.14933393166286335
 >>>
 ```
+
+---
+
+Src
+
+[programiz](https://www.programiz.com/python-programming/variables-datatypes)
 
 ---
