@@ -5,12 +5,12 @@
 
 ---
 
-* <a href="#1">NUMBER DATA TYPE IN PYTHON</a>
-* <a href="#2">SYSTEM PREFIX</a>
-* <a href="#3">TYPE CONVERSION</a>
-* <a href="#4">PYTHON DECIMAL</a>
-* <a href="#5">PYTHON FRACTIONS</a>
-* <a href="#6">PYTHON MATHEMATICS</a>
+* <a href="#1">Number Data Type in Python</a>
+* <a href="#2">System Prefix</a>
+* <a href="#3">Type Conversion</a>
+* <a href="#4">Python Decimal</a>
+* <a href="#5">Python Fractions</a>
+* <a href="#6">Python Mathematics</a>
 
 ---
 
