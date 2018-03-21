@@ -7,7 +7,7 @@
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/01/NDT.MD">Number Data Type in Python</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/02/SYS_PRE.MD">System Prefix</a>
-* <a href="#3">Type Conversion</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/03/TYP_CON.MD">Type Conversion</a>
 * <a href="#4">Python Decimal</a>
 * <a href="#5">Python Fractions</a>
 * <a href="#6">Python Mathematics</a>
@@ -15,28 +15,6 @@
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/variables-datatypes)
-
----
-
-<h4 id="3">TYPE CONVERSION</h4>
-
-```python
-n1 = 1 + 2.0
-
-print(n1)
-print(int(2.3))
-print(int(-2.8))
-print(float(5))
-print(complex('3+5j'))
-
->>>
-3.0
-2
--2
-5.0
-(3+5j)
->>>
-```
 
 ---
 
