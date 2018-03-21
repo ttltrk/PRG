@@ -112,9 +112,14 @@ Books
   
 Courses
 
-  * [Codecademy]()
-  * [Datacamp]()
- 
+  * [Codecademy](https://www.codecademy.com/learn/learn-python)
+  * [Dataquest](https://www.dataquest.io/dashboard)
+  * [Datacamp](https://www.datacamp.com/home)
+  * [Udemy]()
+    - [1]()
+    - [2]()
+    - [3]()
+    
 ---
    
 
