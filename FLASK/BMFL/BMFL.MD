@@ -39,7 +39,7 @@ Resources
 
 ---
 
-[src - tutorialspoint](https://www.tutorialspoint.com/flask/index.htm)
-[src - flask](http://flask.pocoo.org/)
+* [src - tutorialspoint](https://www.tutorialspoint.com/flask/index.htm)
+* [src - flask](http://flask.pocoo.org/)
 
 ---
