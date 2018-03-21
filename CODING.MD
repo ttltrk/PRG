@@ -33,6 +33,12 @@
 
 * MRC
 
+  * 21 - Wed (DIR: 4)
+  
+    + [Python man update](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+    + [Django man update](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/BDJM.MD)
+    + [Flask man update](https://github.com/ttltrk/PRG/blob/master/FLASK/BMFL/BMFL.MD)
+    
   * 20 - Tue (DIR: 3)
   
     + [Java Overview](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/02/OVERVIEW.MD)
