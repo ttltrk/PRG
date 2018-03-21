@@ -114,7 +114,7 @@ Web
   
 Books
 
-  * [1]()
+  * [Learning Python](https://books.google.sk/books/about/Learning_Python.html?id=ftA0yk1Z92wC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
   * [2]()
   
 Courses
