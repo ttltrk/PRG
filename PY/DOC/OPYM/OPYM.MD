@@ -5,13 +5,14 @@
 
 ---
 
-* <a href="#1">Section 1 - Objects and Data Structure Basics</a>
-* <a href="#2">Section 2 - Comparison Operators</a>
-* <a href="#3">Section 3 - Python Statements</a>
-* <a href="#4">Section 4 - Methods and Functions and Generators</a>
-* <a href="#5">Section 5 - Object Oriented Programming</a>
-* <a href="#6">Section 6 - Modules and Packages</a>
+* <a href="#1">Objects and Data Structure Basics</a>
+* <a href="#2">Comparison Operators</a>
+* <a href="#3">Python Statements</a>
+* <a href="#4">Methods and Functions and Generators</a>
+* <a href="#5">Object Oriented Programming</a>
+* <a href="#6">Modules and Packages</a>
 * <a href="#x">Examples</a>
+* <a href="#y">Sources</a>
 
 ---
 
@@ -68,16 +69,18 @@
   
   ---
   
-| [python.org](https://docs.python.org/3/tutorial/index.html) |
-  [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/) |
-  [programiz.com](https://www.programiz.com/python-programming#tutorial) |
-  [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) |
-  [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) |
-  [Google's Python Class](https://developers.google.com/edu/python/) |
-  [effbot.org](http://effbot.org/zone/librarybook-index.htm) |
-  [likegeeks.com](https://likegeeks.com/python-programming-basics/) |
-  [teachyourkidstocode.com](http://teachyourkidstocode.com/) |
-  [python.input.sk](http://python.input.sk) |
+  <h3 id="y">Sources</h3>
+   
+  * [programiz](https://www.programiz.com/python-programming#tutorial)
+  * [python.org](https://docs.python.org/3/tutorial/index.html)
+  * [jupyter/Jose Portilla](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)
+  * [digitalocean/Lisa Tagliaferri](https://www.digitalocean.com/community/users/ltagliaferri) 
+  * [thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/index.html) 
+  * [Google's Python Class](https://developers.google.com/edu/python/) 
+  * [effbot.org](http://effbot.org/zone/librarybook-index.htm) 
+  * [likegeeks.com](https://likegeeks.com/python-programming-basics/) 
+  * [teachyourkidstocode.com](http://teachyourkidstocode.com/) 
+  * [python.input.sk](http://python.input.sk) 
   
   ---
    
