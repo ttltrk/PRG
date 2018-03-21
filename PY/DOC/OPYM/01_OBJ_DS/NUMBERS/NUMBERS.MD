@@ -9,58 +9,12 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/02/SYS_PRE.MD">System Prefix</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/03/TYP_CON.MD">Type Conversion</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/04/PYT_DEC.MD">Python Decimal</a>
-* <a href="#5">Python Fractions</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/05/PYT_FRA.MD">Python Fractions</a>
 * <a href="#6">Python Mathematics</a>
 
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/variables-datatypes)
-
----
-
-<h4 id="5">PYTHON FRACTIONS</h4>
-
-```python
-import fractions
-
-print(fractions.Fraction(1.5))
-print(fractions.Fraction(5))
-print(fractions.Fraction(1,3))
-
->>>
-3/2
-5
-1/3
->>>
-```
-
-```python
-import fractions
-
-print(fractions.Fraction(1.1))
-print(fractions.Fraction('1.1'))
-
->>>
-2476979795053773/2251799813685248
-11/10
->>>
-```
-
-```python
-from fractions import Fraction as F
-
-print(F(1,3) + F(1,3))
-print(1 / F(5,6))
-print(F(-3,10) > 0)
-print(F(-3,10) < 0)
-
->>>
-2/3
-6/5
-False
-True
->>>
-```
 
 ---
 
