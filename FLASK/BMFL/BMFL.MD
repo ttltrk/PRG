@@ -7,7 +7,8 @@
 
 * <a href="#01">Basics</a>
 * <a href="#02">Resources</a>
-* <a href="#03">Sources</a>
+* <a href="#03">Core</a>
+* <a href="#04">Sources</a>
 
 ---
 
@@ -45,7 +46,13 @@
 
 ---
 
-### <h3 id="03">Sources</h3>
+### <h3 id="03">Core</h3>
+
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD">Python</a>
+
+---
+
+### <h3 id="04">Sources</h3>
 
 * [src - tutorialspoint](https://www.tutorialspoint.com/flask/index.htm)
 * [src - flask](http://flask.pocoo.org/)
