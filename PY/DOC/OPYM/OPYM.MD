@@ -13,7 +13,7 @@
 * <a href="#4">Methods and Functions and Generators</a>
 * <a href="#5">Object Oriented Programming</a>
 * <a href="#6">Modules and Packages</a>
-* <a href="#x">Examples</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD">Examples</a>
 * <a href="#z">Frameworks</a>
 * <a href="#zz">Databases</a>
 * <a href="#yy">IDE</a>
@@ -56,14 +56,7 @@
 
   * [Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
   * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
-  
----
-  
-<h3 id="x">Examples</h3>
 
-  * [hello world](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/01_HW/helloworld.MD)
-  * [add two numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/02_ADD2N/ADD2N.MD)
-  
 ---
 
 <h3 id="z">Frameworks</h3>
