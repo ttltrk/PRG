@@ -119,6 +119,8 @@ Web
       - [pymbook](http://pymbook.readthedocs.io/en/latest/)
     
     * [pfb](http://www.pythonforbeginners.com/)
+    * [10 min](https://www.stavros.io/tutorials/python/)
+    * [dive in to the p3](http://www.diveintopython3.net/)
     * [python.org](https://python.org)
     * [python.org](https://docs.python.org/3/tutorial/index.html) <--- TUTORIAL
     * [learnpython.org](https://www.learnpython.org/)
