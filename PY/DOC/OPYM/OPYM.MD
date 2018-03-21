@@ -82,6 +82,8 @@
 ---
   
 <h3 id="y">Sources</h3>
+
+Web
    
   * [programiz](https://www.programiz.com/python-programming#tutorial)
   * [python.org](https://python.org)
@@ -95,6 +97,16 @@
   * [teachyourkidstocode.com](http://teachyourkidstocode.com/) 
   * [python.input.sk](http://python.input.sk) 
   
+Books
+
+  * [1]()
+  * [2]()
+  
+Courses
+
+  * [Codecademy]()
+  * [Datacamp]()
+ 
 ---
    
 
