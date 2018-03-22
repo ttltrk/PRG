@@ -13,28 +13,13 @@
 * [Nested List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/02_LB/NEST.MD)
 * [List Index](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/03_LB/LIIN.MD)
 * [Nested Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/04_LB/NES_IND.MD)
-* [Negative Indexing]()
+* [Negative Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/05_LB/NEG_IND.MD)
 * [Slice Lists]()
 
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/list)
 
----
-
-<h4 id="5">Negative indexing</h4>
-
-```python
-my_list = ['p','r','o','b','e']
-
-print(my_list[-1])
-print(my_list[-5])
-
->>>
-e
-p
->>>
-```
 ---
 
 <h4 id="6">Slice lists</h4>
