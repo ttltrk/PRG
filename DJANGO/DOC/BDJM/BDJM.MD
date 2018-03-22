@@ -13,7 +13,7 @@
 
 * [Basics](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/01/BASICS.MD)
 * [Resources](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/02/RESOURCES.MD)
-* [Sources]()
+* [Sources](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/03/SOURCES.MD)
 
 ---
 
