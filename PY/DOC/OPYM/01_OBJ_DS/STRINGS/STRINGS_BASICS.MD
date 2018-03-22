@@ -14,7 +14,7 @@
 * [Change or Delete String](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/03_SB/CH_DEL.MD)
 * [Concatenation](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/04_SB/CONCA.MD)
 * [Iterating Through String](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/05_SB/ITER.MD)
-* [Built-in Function]()
+* [Built-in Function](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/06_SB/BIF.MD)
 * [String Formatting]()
 
 ---
