@@ -14,7 +14,7 @@
 * [List Index](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/03_LB/LIIN.MD)
 * [Nested Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/04_LB/NES_IND.MD)
 * [Negative Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/05_LB/NEG_IND.MD)
-* [Slice Lists]()
+* [Slice Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/06_LB/SLICE.MD)
 
 ---
 
@@ -22,23 +22,5 @@
 
 ---
 
-<h4 id="6">Slice lists</h4>
 
-```python
-my_list = [1, 2, 3, 4, 5, 6, 7]
-
-print(my_list[2:5])
-print(my_list[:-5])
-print(my_list[5:])
-print(my_list[:])
-
->>>
-[3, 4, 5]
-[1, 2]
-[6, 7]
-[1, 2, 3, 4, 5, 6, 7]
->>>
-```
-
----
 
