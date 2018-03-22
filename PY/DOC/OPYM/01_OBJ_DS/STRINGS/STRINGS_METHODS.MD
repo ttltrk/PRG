@@ -5,7 +5,7 @@
 
 ---
 
-### Strings Methods
+### String Methods
 
 ---
 
