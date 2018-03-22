@@ -5,7 +5,7 @@
 
 ---
 
-### Python List
+### Lists
 
 ---
 
