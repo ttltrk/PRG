@@ -13,25 +13,9 @@
 * [Access Characters](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/02_SB/ACC_CHAR.MD)
 * [Change or Delete String](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/03_SB/CH_DEL.MD)
 * [Concatenation](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/04_SB/CONCA.MD)
-* [Iterating through String]()
+* [Iterating Through String]()
 * [Built-in Function]()
 * [String Formatting]()
-
----
-
-ITERATING THROUGH STRING
-
-```python
-count = 0
-for letter in 'Hello World':
-    if(letter == 'l'):
-        count += 1
-print(count,'letters found')
-
->>>
-3 letters found
->>>
-```
 
 ---
 
