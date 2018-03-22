@@ -10,14 +10,18 @@
 ---
 
 ```python
-s = "python"
+m = "monthy"
+p = "python"
 
-print(s)
-print(s.capitalize())
+
+print(m)
+print(m.capitalize())
+print(m.capitalize(), p.capitalize())
 
 >>>
-python
-Python
+monthy
+Monthy
+Monthy Python
 >>>
 ```
 
