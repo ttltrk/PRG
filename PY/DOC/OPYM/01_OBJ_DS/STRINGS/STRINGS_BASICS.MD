@@ -19,14 +19,6 @@
 
 ---
 
-CHANGE OR DELETE STRING
-
-Strings are immutable. This means that elements of a string cannot be changed once it has been assigned. We can simply reassign 
-different strings to the same name. We cannot delete or remove characters from a string. But deleting the string entirely is possible 
-using the keyword ```del```.
-
----
-
 CONCATENATION
 
 ```python
