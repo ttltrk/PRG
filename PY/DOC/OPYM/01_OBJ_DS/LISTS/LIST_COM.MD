@@ -1,11 +1,9 @@
 
-List Comprehensions
-======
+---
 
-[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb) |
-[programiz.com](https://www.programiz.com/python-programming/list-comprehension)
+### List Comprehensions
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+---
 
 * List comprehension is an elegant way to define and create lists based on existing lists.
 * List comprehension is generally more compact and faster than normal functions and loops for creating list.
@@ -143,3 +141,10 @@ print (lst)
 [0, 1, 16, 81, 256, 625, 1296, 2401, 4096, 6561, 10000]
 >>> 
 ```
+
+---
+
+[src - jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb) |
+[src - programiz](https://www.programiz.com/python-programming/list-comprehension)
+
+---
