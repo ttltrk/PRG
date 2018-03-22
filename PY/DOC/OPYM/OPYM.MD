@@ -23,16 +23,6 @@
 
 ---  
   
-<h3 id="yy">IDE</h3>
-
-Online
-
-  * <a href="https://repl.it/repls">repl.it</a>
-
-Offline
-
----
-  
 <h3 id="y">Sources</h3>
 
 Web
