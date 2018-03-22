@@ -11,7 +11,7 @@
 
 * [Create a List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/01_LB/CRE_LIS.MD)
 * [Nested List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/02_LB/NEST.MD)
-* [List Index]()
+* [List Index](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/03_LB/LIIN.MD)
 * [Nested Indexing]()
 * [Negative Indexing]()
 * [Slice Lists]()
@@ -21,22 +21,6 @@
 [src - programiz](https://www.programiz.com/python-programming/list)
 
 ---
-
-<h4 id="3">List index</h4>
-
-```python
-my_list = ['p','r','o','b','e']
-
-print(my_list[0])
-print(my_list[2])
-print(my_list[4])
-
->>>
-p
-o
-e
->>>
-```
 
 <h4 id="4">Nested indexing</h4>
 
