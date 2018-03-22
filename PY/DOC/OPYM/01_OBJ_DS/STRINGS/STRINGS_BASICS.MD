@@ -19,24 +19,6 @@
 
 ---
 
-CONCATENATION
-
-```python
-str1 = 'Hello'
-str2 ='World!'
-
-print('str1 + str2 = ', str1 + str2)
-
-print('str1 * 3 =', str1 * 3)
-
->>>
-str1 + str2 =  HelloWorld!
-str1 * 3 = HelloHelloHello
->>>
-```
-
----
-
 ITERATING THROUGH STRING
 
 ```python
