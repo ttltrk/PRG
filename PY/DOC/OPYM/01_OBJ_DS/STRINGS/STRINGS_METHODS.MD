@@ -11,7 +11,7 @@
 
 |Methods|Description|
 |----|----|
-|Python String capitalize()	|Converts first character to Capital Letter|
+|Python [String capitalize()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/01_SM/STR_CAP.MD)	|Converts first character to Capital Letter|
 |Python String center()	|Pads string with specified character|
 |Python String casefold()|	converts to casefolded strings|
 |Python String count()	|returns occurrences of substring in string|
