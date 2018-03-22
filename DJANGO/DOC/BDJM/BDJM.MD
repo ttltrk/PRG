@@ -11,9 +11,9 @@
 
 ---
 
-* <a href="">Basics</a>
-* <a href="">Resources</a>
-* <a href="">Sources</a>
+* [Basics](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/01/BASICS.MD)
+* [Resources]()
+* [Sources]()
 
 ---
 
