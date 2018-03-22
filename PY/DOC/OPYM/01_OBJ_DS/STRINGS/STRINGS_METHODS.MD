@@ -9,346 +9,81 @@
 
 ---
 
-* <a href="#1">isdigit()</a>
-* <a href="#2">isalpha()</a>
-* <a href="#3">islower()</a>
-* <a href="#4">isupper()</a>
-* <a href="#5">istitle()</a>
-* <a href="#6">isspace()</a>
-* <a href="#7">isalnum()</a>
-* <a href="#8">count()</a>
-* <a href="#9">len()</a>
-* <a href="#10">title()</a>
-* <a href="#11">capitalize()</a>
-* lower()
-* upper()
-* swapcase()
-* center()
-* zfill()
-* strip()
-* expandtabs()
-* translate()
-* replace()
-* partition()
-* endswith()
-* startswith()
-* find()
-* index()
-* split()
-* rsplit()
-* join()
-* splitlines()
+|Methods|Description|
+|----|----|
+|Python String capitalize()	|Converts first character to Capital Letter|
+|Python String center()	|Pads string with specified character|
+|Python String casefold()|	converts to casefolded strings|
+|Python String count()	|returns occurrences of substring in string|
+|Python String endswith()|	Checks if String Ends with the Specified Suffix|
+|Python String expandtabs()|	Replaces Tab character With Spaces|
+|Python String encode()	|returns encoded string of given string|
+|Python String find()	|Returns the Highest Index of Substring|
+|Python String format()|	formats string into nicer output|
+|Python String index()	|Returns Index of Substring|
+|Python String isalnum()|	Checks Alphanumeric Character|
+|Python String isalpha()	|Checks if All Characters are Alphabets|
+|Python String isdecimal()|	Checks Decimal Characters|
+|Python String isdigit()	|Checks Digit Characters|
+|Python String isidentifier()|	Checks for Valid Identifier|
+|Python String islower()	|Checks if all Alphabets in a String are Lowercase|
+|Python String isnumeric()|	Checks Numeric Characters|
+|Python String isprintable()|	Checks Printable Character|
+|Python String isspace()	|Checks Whitespace Characters|
+|Python String istitle()	|Checks for Titlecased String|
+|Python String isupper()	|returns if all characters are uppercase characters|
+|Python String join()	|Returns a Concatenated String|
+|Python String ljust()	|returns left-justified string of given width|
+|Python String rjust()	|returns right-justified string of given width|
+|Python String lower()	|returns lowercased string|
+|Python String upper()	|returns uppercased string|
+|Python String swapcase()|	swap uppercase characters to lowercase; vice versa|
+|Python String lstrip()	|Removes Leading Characters|
+|Python String rstrip()	|Removes Trailing Characters|
+|Python String strip()	|Removes Both Leading and Trailing Characters|
+|Python String partition()|	Returns a Tuple|
+|Python String maketrans()|	returns a translation table|
+|Python String rpartition()|	Returns a Tuple|
+|Python String translate()	|returns mapped charactered string|
+|Python String replace()	|Replaces Substring Inside|
+|Python String rfind()	|Returns the Highest Index of Substring|
+|Python String rindex()	|Returns Highest Index of Substring|
+|Python String split()	|Splits String from Left|
+|Python String rsplit()	|Splits String From Right|
+|Python String splitlines()	|Splits String at Line Boundaries|
+|Python String startswith()|	Checks if String Starts with the Specified String|
+|Python String title()	|Returns a Title Cased String|
+|Python String zfill()	|Returns a Copy of The String Padded With Zeros|
+|Python String format_map()|	Formats the String Using Dictionary|
+|Python any()	|Checks if any Element of an Iterable is True|
+|Python all()	|returns true when all elements in iterable is true|
+|Python ascii()	|Returns String Containing Printable Representation|
+|Python bool()	|Coverts a Value to Boolean|
+|Python bytearray()	|returns array of given byte size|
+|Python bytes()	|returns immutable bytes object|
+|Python compile()	|Returns a Python code object|
+|Python complex()	|Creates a Complex Number|
+|Python enumerate()|	Returns an Enumerate Object|
+|Python filter()	|constructs iterator from elements which are true|
+|Python float()	|returns floating point number from number, string|
+|Python input()|	reads and returns a line of string|
+|Python int()	|returns integer from a number or string|
+|Python iter()	|returns iterator for an object|
+|Python len()	|Returns Length of an Object|
+|Python max()	|returns largest element|
+|Python min()	|returns smallest element|
+|Python map()	|Applies Function and Returns a List|
+|Python ord()	|returns Unicode code point for Unicode character|
+|Python reversed()|	returns reversed iterator of a sequence|
+|Python slice()	|creates a slice object specified by range()|
+|Python sorted()|	returns sorted list from a given iterable|
+|Python sum()	|Add items of an Iterable|
+|Python zip()|	Returns an Iterator of Tuples|
 
 ---
 
-[src - tutorialspoint](https://www.tutorialspoint.com/python/)
+[src - programiz](https://www.programiz.com/python-programming/methods/string)
 
 ---
 
-### <h3 id="1">isdigit()</h3>
 
-This method returns true if all characters in the string are digits and there is at least one character, false otherwise.
-
-```python
-str = "123456"; 
-print(str.isdigit())
-
-str = "123 456"; 
-print(str.isdigit())
-
-str = "this is string example....wow!!!";
-print(str.isdigit())
-
-str = "this";
-print(str.isdigit())
-
->>>
-True
-False
-False
-False
->>>   
-```
-
-### <h3 id="2">isalpha()</h3>
-
-The method isalpha() checks whether the string consists of alphabetic characters only.
-
-```python
-str = "123456";  
-print(str.isalpha())
-
-str = "123 456";  
-print(str.isalpha())
-
-str = "this is string example....wow!!!";
-print(str.isalpha())
-
-str = "this";
-print(str.isalpha())
-
->>>
-False
-False
-False
-True
->>>
-```
-
-### <h3 id="3">islower()</h3>
-
-The method islower() checks whether all the case-based characters (letters) of the string are lowercase.
-
-```python
-str = "this is string example....wow!!!";
-print(str.islower())
-
-str = "this";
-print(str.islower())
-
-str = "THIS";
-print(str.islower())
-
-str = "THIS IS IT";
-print(str.islower())
-
->>>
-True
-True
-False
-False
->>>
-```
-
-### <h3 id="4">isupper()</h3>
-
-The method isupper() checks whether all the case-based characters (letters) of the string are uppercase.
-
-```python
-str = "this is string example....wow!!!";
-print(str.isupper())
-
-str = "this";
-print(str.isupper())
-
-str = "THIS";
-print(str.isupper())
-
-str = "THIS IS IT";
-print(str.isupper())
-
->>>
-False
-False
-True
-True
->>>
-```
-
-### <h3 id="5">istitle()</h3>
-
-The method istitle() checks whether all the case-based characters in the string following non-casebased letters are uppercase and all other case-based characters are lowercase.
-
-```python
-str = "This Is String Example....Wow!!!";
-print(str.istitle())
-
-str = "This is string example....wow!!!";
-print(str.istitle())
-
-str = "This";
-print(str.istitle())
-
-str = "this";
-print(str.istitle())
-
-str = "THIS";
-print(str.istitle())
-
->>>
-True
-False
-True
-False
-False
->>>
-```
-
-### <h3 id="6">isspace()</h3>
-
-The method isspace() checks whether the string consists of whitespace.
-
-```python
-str = "this is string example....wow!!!";
-print(str.isspace())
-
-str = "this";
-print(str.isspace())
-
-str = "THIS";
-print(str.isspace())
-
-str = "THIS IS IT";
-print(str.isspace())
-
-str = " ";
-print(str.isspace())
-
->>>
-False
-False
-False
-False
-True
->>>
-```
-
-### <h3 id="7">isalnum()</h3>
-
-The method isalnum() checks whether the string consists of alphanumeric characters.
-
-```python
-str = "this is string example....wow!!!";
-print(str.isalnum())
-
-str = "this";
-print(str.isalnum())
-
-str = "THISisIT";
-print(str.isalnum())
-
-str = "THIS IS IT";
-print(str.isalnum())
-
-str = " ";
-print(str.isalnum())
-
->>>
-False
-True
-True
-False
-False
->>>
-```
-
-### <h3 id="8">count()</h3>
-
-The method count() returns the number of occurrences of substring sub in the range [start, end]. Optional arguments start and end are interpreted as in slice notation.
-
-count() parameters
-  * sub − This is the substring to be searched.
-  * start − Search starts from this index. First character starts from 0 index. By default search starts from 0 index.
-  * end − Search ends from this index. First character starts from 0 index. By default search ends at the last index.
-  
-```python
-string = "Python is awesome, isn't it?"
-substring = "is"
-
-count = string.count(substring)
-
-print("The count is:", count)
-
->>>
-The count is: 2
->>>
-```
-
-```python
-string = "it is it and just it"
-substring = "it"
-
-count = string.count(substring)
-
-print("The count is:", count)
-
->>>
-The count is: 3
->>>
-```
-
-### <h3 id="9">len()</h3>
-
-The method len() returns the length of the string.
-
-```python
-str = "this is string example....wow!!!";
-print("Length of the string: ", len(str))
-
-str = "this is it";
-print("Length of the string: ", len(str))
-
-str = "yo";
-print("Length of the string: ", len(str))
-
-str = " ";
-print("Length of the string: ", len(str))
-
-str = "";
-print("Length of the string: ", len(str))
-
->>>
-Length of the string:  32
-Length of the string:  10
-Length of the string:  2
-Length of the string:  1
-Length of the string:  0
->>>
-```
-
-### <h3 id="10">title()</h3>
-
-The method title() returns a copy of the string in which first characters of all the words are capitalized.
-
-```python
-str = "this is string example....wow!!!";
-print(str.title())
-
-str = "this is it";
-print(str.title())
-
-str = "yo";
-print(str.title())
-
->>>
-This Is String Example....Wow!!!
-This Is It
-Yo
->>>
-```
-
-### <h3 id="11">capitalize()</h3>
-
-It returns a copy of the string with only its first character capitalized.
-
-```python
-str = "This";
-print("str.capitalize() : ", str.capitalize())
-
-str = "this";
-print("str.capitalize() : ", str.capitalize())
-
->>>
-str.capitalize() :  This
-str.capitalize() :  This
->>>
-```
-
-* lower()
-* upper()
-* swapcase()
-* center()
-* zfill()
-* strip()
-* expandtabs()
-* translate()
-* replace()
-* partition()
-* endswith()
-* startswith()
-* find()
-* index()
-* split()
-* rsplit()
-* join()
-* splitlines()
