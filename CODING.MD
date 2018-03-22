@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x|RD| x| x| x|  |  |  |  |  |  |  |  |  |  |  |
+| x|RD| x| x| x| x|  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|15|
+|WD|16|
 |RD| 5|
 
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 22 - Thu (DIR: 5)
+  
+    + [Python man update - string section ](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
 
   * 21 - Wed (DIR: 4)
   
