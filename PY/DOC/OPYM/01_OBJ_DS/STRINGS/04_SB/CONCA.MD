@@ -23,4 +23,20 @@ str1 * 3 = HelloHelloHello
 >>>
 ```
 
+```python
+s = 'Hello World concatenate me!'
+
+print(s.upper())
+print(s.lower())
+print(s.split())
+print(s.split('W'))
+
+>>>
+HELLO WORLD CONCATENATE ME!
+hello world concatenate me!
+['Hello', 'World', 'concatenate', 'me!']
+['Hello ', 'orld concatenate me!']
+>>>
+```
+
 ---
