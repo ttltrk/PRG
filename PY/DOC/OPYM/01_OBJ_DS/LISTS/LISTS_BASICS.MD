@@ -1,10 +1,11 @@
 
-Python List Basics
-======
+---
 
-[programiz.com](https://www.programiz.com/python-programming/list)
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) - [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD) - [Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
+---
+
+### Python List Basics
 
 ---
 
@@ -14,6 +15,10 @@ Python List Basics
 * <a href="#4">NESTED INDEXING</a>
 * <a href="#5">NEGATIVE INDEXING</a>
 * <a href="#6">SLICE LISTS</a>
+
+---
+
+[src - programiz](https://www.programiz.com/python-programming/list)
 
 ---
 
