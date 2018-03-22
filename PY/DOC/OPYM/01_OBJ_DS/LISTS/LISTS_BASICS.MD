@@ -9,7 +9,7 @@
 
 ---
 
-* [Create a List]()
+* [Create a List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/01_LB/CRE_LIS.MD)
 * [Nested List]()
 * [List Index]()
 * [Nested Indexing]()
@@ -21,28 +21,6 @@
 [src - programiz](https://www.programiz.com/python-programming/list)
 
 ---
-
-<h4 id="1">Create a list</h4>
-
-```python
-# empty list
-my_list = []
-print(my_list)
-
-# list of integers
-my_list = [1, 2, 3]
-print(my_list)
-
-# list with mixed datatypes
-my_list = [1, "Hello", 3.4]
-print(my_list)
-
->>>
-[]
-[1, 2, 3]
-[1, 'Hello', 3.4]
->>>
-```
 
 <h4 id="2">Nested list</h4>
 
