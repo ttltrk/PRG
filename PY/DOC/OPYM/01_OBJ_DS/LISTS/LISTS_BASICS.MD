@@ -12,7 +12,7 @@
 * [Create a List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/01_LB/CRE_LIS.MD)
 * [Nested List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/02_LB/NEST.MD)
 * [List Index](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/03_LB/LIIN.MD)
-* [Nested Indexing]()
+* [Nested Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/04_LB/NES_IND.MD)
 * [Negative Indexing]()
 * [Slice Lists]()
 
@@ -21,20 +21,6 @@
 [src - programiz](https://www.programiz.com/python-programming/list)
 
 ---
-
-<h4 id="4">Nested indexing</h4>
-
-```python
-n_list = ["Happy", [2,0,1,5]]
-
-print(n_list[0][1])    
-print(n_list[1][3])
-
->>>
-a
-5
->>>
-```
 
 <h4 id="5">Negative indexing</h4>
 
