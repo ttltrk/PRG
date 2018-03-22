@@ -23,14 +23,6 @@
 
 ---  
   
-<h3 id="zz">Databases</h3>
-
-  * [PostgreSQL]()
-  * [SQLite]()
-  * [MySQL]()
-
----
-
 <h3 id="yy">IDE</h3>
 
 Online
