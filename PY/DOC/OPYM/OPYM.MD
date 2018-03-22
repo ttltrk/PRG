@@ -16,20 +16,13 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD">Object Oriented Programming</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD">Modules and Packages</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD">Examples</a>
-* <a href="#z">Frameworks</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/08/FRAME.MD">Frameworks</a>
 * <a href="#zz">Databases</a>
 * <a href="#yy">IDE</a>
 * <a href="#y">Sources</a>
 
 ---  
   
-<h3 id="z">Frameworks</h3>
-
-  * [Django](https://github.com/ttltrk/PRG/blob/master/DJANGO/DOC/BDJM/BDJM.MD)
-  * [Flask](https://github.com/ttltrk/PRG/blob/master/FLASK/BMFL/BMFL.MD)
-
----
-
 <h3 id="zz">Databases</h3>
 
   * [PostgreSQL]()
