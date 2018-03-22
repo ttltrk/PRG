@@ -10,7 +10,7 @@
 ---
 
 * [Create a List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/01_LB/CRE_LIS.MD)
-* [Nested List]()
+* [Nested List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/02_LB/NEST.MD)
 * [List Index]()
 * [Nested Indexing]()
 * [Negative Indexing]()
@@ -19,21 +19,6 @@
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/list)
-
----
-
-<h4 id="2">Nested list</h4>
-
-```python
-# nested list
-my_list = ["mouse", [8, 4, 6], ['a']]
-
-print(my_list)
-
->>>
-['mouse', [8, 4, 6], ['a']]
->>>
-```
 
 ---
 
