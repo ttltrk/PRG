@@ -10,7 +10,7 @@
 ---
 
 * [Create a String](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/01_SB/CRE_STR.MD)
-* [Access Characters]()
+* [Access Characters](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/02_SB/ACC_CHAR.MD)
 * [Change or Delete String]()
 * [Concatenation]()
 * [Iterating through String]()
