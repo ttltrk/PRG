@@ -18,7 +18,7 @@
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD">Examples</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/08/FRAME.MD">Frameworks</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/09/DB.MD">Databases</a>
-* <a href="#yy">IDE</a>
+* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/10/IDE.MD">IDE</a>
 * <a href="#y">Sources</a>
 
 ---  
