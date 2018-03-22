@@ -9,12 +9,12 @@
 
 ---
 
-* <a href="#1">CREATE A LIST</a>
-* <a href="#2">NESTED LIST</a>
-* <a href="#3">LIST INDEX</a>
-* <a href="#4">NESTED INDEXING</a>
-* <a href="#5">NEGATIVE INDEXING</a>
-* <a href="#6">SLICE LISTS</a>
+* [Create a List]()
+* [Nested List]()
+* [List Index]()
+* [Nested Indexing]()
+* [Negative Indexing]()
+* [Slice Lists]()
 
 ---
 
