@@ -13,7 +13,6 @@
 
 * <a href="#01">Basics</a>
 * <a href="#02">Resources</a>
-* <a href="#03">Core</a>
 * <a href="#04">Sources</a>
 
 ---
@@ -49,12 +48,6 @@
 ---
 
 ### <h3 id="02">Resources</h3>
-
----
-
-### <h3 id="03">Core</h3>
-
-* <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD">Python</a>
 
 ---
 
