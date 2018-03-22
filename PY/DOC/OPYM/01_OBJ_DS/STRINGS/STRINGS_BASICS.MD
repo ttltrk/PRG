@@ -1,20 +1,19 @@
 
-Strings Basics
-======
-
-[programiz.com](https://www.programiz.com/python-programming/string)
-
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
+---
 
 ---
 
-* CREATE A STRING
-* ACCESS CHARACTERS
-* CHANGE OR DELETE STRING
-* CONCATENATION
-* ITERATING THROUGH STRING
-* BUILT-IN FUNCTIONS
-* STRING FORMATTING
+### String Basics
+
+---
+
+* [Create a String]()
+* [Access Characters]()
+* [Change or Delete String]()
+* [Concatenation]()
+* [Iterating through String]()
+* [Built-in Function]()
+* [String Formatting]()
 
 ---
 
@@ -414,3 +413,9 @@ print(ss[::-3])
 !a m
 >>>
 ```
+
+---
+
+[src - programiz](https://www.programiz.com/python-programming/string)
+
+---
