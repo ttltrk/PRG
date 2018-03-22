@@ -12,7 +12,7 @@
 |Methods|Description|
 |----|----|
 |Python [String capitalize()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/01_SM/STR_CAP.MD)	|Converts first character to Capital Letter|
-|Python String center()	|Pads string with specified character|
+|Python [String center()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/02_SM/STR_CEN.MD)	|Pads string with specified character|
 |Python String casefold()|	converts to casefolded strings|
 |Python String count()	|returns occurrences of substring in string|
 |Python String endswith()|	Checks if String Ends with the Specified Suffix|
