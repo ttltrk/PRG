@@ -9,6 +9,10 @@
 
 ---
 
+Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand.
+
+---
+
 * [Arithmetic Operators]()
 * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
 * [Logical Operators]() 
