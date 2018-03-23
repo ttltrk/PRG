@@ -61,6 +61,7 @@ Web
   
     * [pythonidomar](https://pythonidomar.wordpress.com/)
     * [python.input.sk](http://python.input.sk) 
+    * [pycon](https://spy.pycon.sk)
     
 ---
   
