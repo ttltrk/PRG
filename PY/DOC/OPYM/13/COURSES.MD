@@ -5,7 +5,7 @@
 
 ---
 
-### Courses
+### Course manuals
 
 ---
 
