@@ -67,6 +67,7 @@ Web
 Books
 
   * [free books](https://pythonbooks.revolunet.com/)
+  * [packtpub](https://www.packtpub.com/)
   * [Biopython](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
   * [Learning Python](https://books.google.sk/books/about/Learning_Python.html?id=ftA0yk1Z92wC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
   * [Learn Python 3 the hard way](https://books.google.sk/books/about/Learn_Python_3_the_Hard_Way.html?id=93YpDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
