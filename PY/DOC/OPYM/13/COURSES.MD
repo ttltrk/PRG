@@ -9,6 +9,15 @@
 
 ---
 
+* [Codecademy]()
+* [Datacamp]()
+* [Dataquest]()
+* [Learnpython.org]()
+* [Sololearn]()
+* [Udemy]()
+
+---
+
 * Codecademy 
   
   + Python tutorial
@@ -18,9 +27,12 @@
 
 ---
 
-Datacamp
+* Datacamp
 
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD">Importing & Managing Financial Data in Python</a>
+  + Importing & Managing Financial Data in Python
+  
+    - [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD)
+    - [course]()
 
 ---
 
