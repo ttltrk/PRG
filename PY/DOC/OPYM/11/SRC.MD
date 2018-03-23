@@ -61,6 +61,8 @@ Web
   
     * [pythonidomar](https://pythonidomar.wordpress.com/)
     * [python.input.sk](http://python.input.sk) 
+    
+---
   
 Books
 
@@ -70,15 +72,4 @@ Books
   * [Learn Python 3 the hard way](https://books.google.sk/books/about/Learn_Python_3_the_Hard_Way.html?id=93YpDwAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
   * [Automate the Boring Stuff with Python: Practical Programming for Total Beginners](https://books.google.sk/books/about/Automate_the_Boring_Stuff_with_Python.html?id=UEu0CAAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
   
-Courses
-
-  * [Codecademy](https://www.codecademy.com/learn/learn-python)
-  * [Dataquest](https://www.dataquest.io/dashboard)
-  * [Datacamp](https://www.datacamp.com/home)
-  * [Udacity](https://classroom.udacity.com)
-  * Udemy
-    - [1]()
-    - [2]()
-    - [3]()
-
 ---
