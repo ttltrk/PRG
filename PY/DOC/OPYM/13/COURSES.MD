@@ -9,27 +9,37 @@
 
 ---
 
-[codecademy.com]()
+Codecademy 
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD">Python tutorial</a>
+  
+---
 
-DATACAMP
+Datacamp
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD">Importing & Managing Financial Data in Python</a>
 
-DATAQUEST
+---
+
+Dataquest
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATAQUEST_PY.MD">Python tutorial</a>
 
-LEARNPYTHON.ORG
+---
+
+Learnpython.org
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/LEARNPYTHON_PY.MD">Python tutorial</a>
 
-SOLOLEARN
+---
+
+Sololearn
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD">Python tutorial</a>
 
-UDEMY
+---
+
+Udemy
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/UD_30_PY.MD">30 Days of Python, Unlock your Python Potential</a>
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/UD_FROM_ZE_TO_HE.MD">Complete Python Bootcamp: Go from zero to hero in Python</a>
