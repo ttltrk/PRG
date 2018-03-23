@@ -19,6 +19,7 @@
 
 ---
 
-[src](https://docs.python.org/3/py-modindex.html)
+* [src - 1](https://docs.python.org/3/py-modindex.html)
+* [src - 2](https://pymotw.com/2/contents.html)
 
 ---
