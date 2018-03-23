@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x|RD| x| x| x| x|  |  |  |  |  |  |  |  |  |  |
+| x|RD| x| x| x| x| x|  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|16|
+|WD|17|
 |RD| 5|
 
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 23 - Fri (DIR: 6) 
+  
+    + [Python man update - db, framework, course section](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
   * 22 - Thu (DIR: 5)
   
