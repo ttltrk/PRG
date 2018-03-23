@@ -67,6 +67,7 @@ Web
   
 Books
 
+  * [drive](https://drive.google.com/open?id=1C_yWV7kgGuNMmserO-RknAfoWOLeGZzf)
   * [it cookbooks](http://it-ebooks.info/)
   * [all it cookbooks](http://www.allitebooks.com/)
   * [free books](https://pythonbooks.revolunet.com/)
