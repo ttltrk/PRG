@@ -9,7 +9,20 @@
 
 ---
 
-### Python Syntax
+* [Python Syntax]()
+* [Strings and Console Output]()
+* [Conditionals and Control Flow]()
+* [Functions]()
+* [Lists & Dictionaries]()
+* [Students Becomes the Teachers]()
+* [Lists and Functions]()
+* [Loops]()
+* [Exam Statistics]()
+* [Advanced Topics in Python]()
+* [Introduction to Classes]()
+* [File Input and Output]()
+
+---
 
 ##### Python Syntax
   * <a href="#01">01 - Welcome!</a>
