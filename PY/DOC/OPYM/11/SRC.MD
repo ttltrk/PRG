@@ -67,6 +67,8 @@ Web
   
 Books
 
+  * [it cookbooks](http://it-ebooks.info/)
+  * [all it cookbooks](http://www.allitebooks.com/)
   * [free books](https://pythonbooks.revolunet.com/)
   * [github](https://github.com/revolunet/PythonBooks)
   * [packtpub](https://www.packtpub.com/)
