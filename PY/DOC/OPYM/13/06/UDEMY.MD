@@ -71,24 +71,3 @@
   + [course](https://www.udemy.com/automate/learn/v4/overview)
 
 ---
-
-* Python and Django Full Stack Web Developer Bootcamp
-
-  + [man]()
-  + [course](https://www.udemy.com/python-and-django-full-stack-web-developer-bootcamp/learn/v4/overview)
-  
----  
-
-* Django Core, A Reference Guide to Core Django Concepts
-
-  + [man]()
-  + [course](https://www.udemy.com/django-core/learn/v4/overview)
-    
----
-
-* A Beginners Guide to Django!
-
-  + [man]()
-  + [course](https://www.udemy.com/introdjango/learn/v4/overview)
-
----
