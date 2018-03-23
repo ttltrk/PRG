@@ -12,13 +12,13 @@
 * Intro to Python for Data Science
 
   + [man]()
-  + [course](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics?ex=11)
+  + [course](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
 ---
 
 * Importing & Managing Financial Data in Python
   
   + [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD)
-  + [course]()
+  + [course](https://www.datacamp.com/courses/importing-managing-financial-data-in-python)
 
 ---
