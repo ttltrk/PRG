@@ -13,6 +13,7 @@ Web
   
   + ENG
   
+    * [reddit](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started)
     * [ULTIMATE](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#python)
   
     * [programiz](https://www.programiz.com/python-programming#tutorial)
