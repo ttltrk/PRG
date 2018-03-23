@@ -10,20 +10,11 @@
 ---
 
 * [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/01/CODECADEMY.MD)
-* [Datacamp]()
+* [Datacamp](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/02/DATACAMP.MD)
 * [Dataquest]()
 * [Learnpython.org]()
 * [Sololearn]()
 * [Udemy]()
-
----
-
-* Datacamp
-
-  + Importing & Managing Financial Data in Python
-  
-    - [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATACAMP_PY_FIN.MD)
-    - [course]()
 
 ---
 
