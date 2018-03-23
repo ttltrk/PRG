@@ -9,10 +9,13 @@
 
 ---
 
-Codecademy 
-
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD">Python tutorial</a>
+* Codecademy 
   
+  + Python tutorial
+  
+    - [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD)
+    - [course]()
+
 ---
 
 Datacamp
