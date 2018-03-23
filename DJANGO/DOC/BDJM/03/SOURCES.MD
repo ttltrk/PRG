@@ -15,5 +15,6 @@
 * [src - tutorialspoint](https://www.tutorialspoint.com/django/index.htm)
 * [src - github](https://github.com/django/django)
 * [src - django.hu](http://django.hu/)
+* [src - elweb](https://elweb.co/want-to-learn-django-start-here/)
 
 ---
