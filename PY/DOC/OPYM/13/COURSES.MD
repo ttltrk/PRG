@@ -18,12 +18,6 @@
 
 ---
 
-Dataquest
-
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/DATAQUEST_PY.MD">Python tutorial</a>
-
----
-
 Learnpython.org
 
   * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/LEARNPYTHON_PY.MD">Python tutorial</a>
