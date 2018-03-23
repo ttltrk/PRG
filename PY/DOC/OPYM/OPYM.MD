@@ -9,12 +9,15 @@
 
 ---
 
-* [xx_Keywords & Identifiers]()
-* [xx_Statements & Comments]()
+* [Keywords & Identifiers]()
+* [Statements & Comments]()
+* [Variables]()
+* [Type Conversion]()
 * [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
 * [Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD)</a>
 * [Python Statements](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD)
 * [Methods and Functions and Generators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD)
+* [File Handling]()
 * [Object Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD)
 * [Modules and Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
 
