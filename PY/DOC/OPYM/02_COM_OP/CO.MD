@@ -5,7 +5,7 @@
 
 ---
 
-### Comparison Operators
+### Operators
 
 ---
 
