@@ -13,27 +13,7 @@
 * [Datacamp](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/02/DATACAMP.MD)
 * [Dataquest](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/03/DATAQUEST.MD)
 * [Learnpython](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/04/LEARNPY.MD)
-* [Sololearn]()
-* [Udemy]()
-
----
-
-Sololearn
-
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD">Python tutorial</a>
-
----
-
-Udemy
-
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/UD_30_PY.MD">30 Days of Python, Unlock your Python Potential</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/UD_FROM_ZE_TO_HE.MD">Complete Python Bootcamp: Go from zero to hero in Python</a>
-  * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/udemy_teach_your_kids_to_code.MD">Teach Your Kids to Code: Learn Python Programming at Any Age</a>
-  * <a href="#">The Python Mega Course: Build 10 Real World Applications</a>
-  * <a href="#">Complete Python Masterclass</a>
-  * <a href="#">Complete Python Programming Course: Beginner to Advanced</a>
-  * <a href="#">Python and Django Full Stack Web Developer Bootcamp</a>
-  * <a href="#">Django Core, A Reference Guide to Core Django Concepts</a>
-  * <a href="#">A Beginners Guide to Django!</a>
+* [Sololearn](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/05/SOLO.MD)
+* [Udemy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/06/UDEMY.MD)
 
 ---
