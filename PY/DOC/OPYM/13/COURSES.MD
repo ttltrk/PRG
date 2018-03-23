@@ -9,21 +9,12 @@
 
 ---
 
-* [Codecademy]()
+* [Codecademy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/01/CODECADEMY.MD)
 * [Datacamp]()
 * [Dataquest]()
 * [Learnpython.org]()
 * [Sololearn]()
 * [Udemy]()
-
----
-
-* Codecademy 
-  
-  + Python tutorial
-  
-    - [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/CODECADEMY_PY.MD)
-    - [course]()
 
 ---
 
