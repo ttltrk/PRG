@@ -37,6 +37,10 @@
 
 * MRC
 
+  * 24 - Sat (DIR: 7)
+  
+    + [Crosschecking Python List Bsics](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS_BASICS.MD)
+
   * 23 - Fri (DIR: 6) 
   
     + [Python man update - db, framework, course section](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
