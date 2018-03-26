@@ -9,7 +9,7 @@
 
 ---
 
-* [Keywords & Identifiers]()
+* [Keywords & Identifiers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/KEYW/KEY_IDE.MD)
 * [Statements & Comments]()
 * [Variables]()
 * [Type Conversion]()
