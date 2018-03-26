@@ -26,7 +26,7 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x|RD| x| x| x| x| x|  |  |  |  |  |  |  |  |  |
+| x|RD| x| x| x| x| x| x| x| x|  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
@@ -36,6 +36,10 @@
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 25 - Sun (DIR: 8)
+  
+    + Crosschecking Python Operators
 
   * 24 - Sat (DIR: 7)
   
