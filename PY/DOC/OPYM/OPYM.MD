@@ -28,7 +28,7 @@
 
 ---
 
-* [Frameworks](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/08/FRAME.MD)
+* [Frame/web](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/08/FRAME.MD)
 * [Database](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/09/DB.MD)
 * [Operating System](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/12/OS.MD)
 * [IDE](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/10/IDE.MD)
