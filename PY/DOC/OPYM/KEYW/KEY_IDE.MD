@@ -53,5 +53,6 @@ We cannot use a keyword as variable name, function name or any other identifier.
 ---
 
 [src](https://www.programiz.com/python-programming/keywords-identifier)
+[src - keyword list](https://www.programiz.com/python-programming/keyword-list)
 
 ---
