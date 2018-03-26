@@ -20,7 +20,7 @@
 * [File Handling]()
 * [Object Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD)
 * [Modules and Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
-* [Standard library]()
+* [Standard library](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/14/ST_LIB.MD)
 
 ---
 
