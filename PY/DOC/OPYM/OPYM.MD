@@ -10,7 +10,7 @@
 ---
 
 * [Keywords](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/KEYW/KEY_IDE.MD)
-* [Statements & Comments]()
+* [Comments]()
 * [Variables]()
 * [Type Conversion]()
 * [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
