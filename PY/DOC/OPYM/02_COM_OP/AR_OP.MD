@@ -25,6 +25,6 @@ Arithmetic operators are used to perform mathematical operations like addition, 
 
 ---
 
-[src]()
+[src](https://www.programiz.com/python-programming/operators#arithmetic)
 
 ---
