@@ -25,6 +25,34 @@ Arithmetic operators are used to perform mathematical operations like addition, 
 
 ---
 
+```python
+x = 15
+y = 4
+
+print('x + y =',x+y)
+
+print('x - y =',x-y)
+
+print('x * y =',x*y)
+
+print('x / y =',x/y)
+
+print('x // y =',x//y)
+
+print('x ** y =',x**y)
+
+>>>
+x + y = 19
+x - y = 11
+x * y = 60
+x / y = 3.75
+x // y = 3
+x ** y = 50625
+>>>
+```
+
+---
+
 [src](https://www.programiz.com/python-programming/operators#arithmetic)
 
 ---
