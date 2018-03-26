@@ -13,7 +13,7 @@ Operators are special symbols in Python that carry out arithmetic or logical com
 
 ---
 
-* [Arithmetic Operators]()
+* [Arithmetic Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/AR_OP.MD)
 * [Comparison Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/COMP_OP.MD)
 * [Logical Operators]() 
 * [Bitwise Operators]()
