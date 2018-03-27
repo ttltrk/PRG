@@ -5,7 +5,7 @@
 
 ---
 
-### Dictionaries
+### Dictionary
 
 ---
 
