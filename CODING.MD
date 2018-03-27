@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x|RD| x| x| x| x| x| x| x| x| x|  |  |  |  |  |
+| x|RD| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|21|
+|WD|22|
 |RD| 5|
 
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 27 - Tue (DIR: 10)
+  
+    + [Python Datat Types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
 
   * 26 - Mon (DIR: 9)
   
