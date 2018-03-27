@@ -1,6 +1,10 @@
 
 ---
 
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) - [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
+
+---
+
 ### Set
 
 ---
@@ -9,13 +13,13 @@ Set is an unordered collection of unique items. Set is defined by values separat
 
 ---
 
-* CREATE A SET
-* CHANGE SET IN PY
-* REMOVE ELEMENTS FROM A SET
-* SET UNION
-* SET INTERSECTION
-* SET DIFFERENCE
-* SET SIMMETRIC DIFFERENCE
+* [Create a Set]()
+* [Change Set in Python]()
+* [Remove Elements from a Set]()
+* [Set Union]()
+* [Set Intesection]()
+* [Set Difference]()
+* [Set Simmetric Difference]()
 
 ---
 
