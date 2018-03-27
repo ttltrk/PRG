@@ -40,6 +40,7 @@
   * 27 - Tue (DIR: 10)
   
     + [Python Datat Types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
+    + [Updated the section about Tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD)
 
   * 26 - Mon (DIR: 9)
   
