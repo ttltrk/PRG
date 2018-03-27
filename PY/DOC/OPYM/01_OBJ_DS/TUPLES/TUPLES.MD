@@ -13,7 +13,7 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 
 ---
 
-* [Creating a Tuple]()
+* [Creating a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/01/CREATE.MD)
 * [Creating Tuple with one element]()
 * [Indexing]()
 * [Negative Indexing]()
@@ -23,41 +23,6 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 * [Tuple Methods]()
 
 ---
-
-<h4 id="1">CREATING A TUPLE</h4>
-
-```python
-t = ()
-print(t)
-
-t = (1, 2, 3)
-print(t)
-
-t = (1, "Hello", 3.4)
-print(t)
-
-t = ("mouse", [8, 4, 6], (1, 2, 3))
-print(t)
-
-t = 3, 4.6, "dog"
-print(t)
-
-a, b, c = t
-print(a)
-print(b)
-print(c)
-
->>>
-()
-(1, 2, 3)
-(1, 'Hello', 3.4)
-('mouse', [8, 4, 6], (1, 2, 3))
-(3, 4.6, 'dog')
-3
-4.6
-dog
->>>
-```
 
 <h4 id="2">CREATING TUPLE WITH ONE ELEMENT</h4>
 
