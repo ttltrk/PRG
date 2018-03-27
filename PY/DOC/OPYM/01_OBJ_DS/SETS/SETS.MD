@@ -14,37 +14,12 @@ Set is an unordered collection of unique items. Set is defined by values separat
 ---
 
 * [Create a Set](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/01/CREATE.MD)
-* [Change Set in Python]()
+* [Change Set in Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/02/CHANGE.MD)
 * [Remove Elements from a Set]()
 * [Set Union]()
 * [Set Intesection]()
 * [Set Difference]()
 * [Set Simmetric Difference]()
-
----
-
-CHANGE SET IN PY
-
-```python
-st = {1,3}
-print(st)
-
-st.add(2)
-print(st)
-
-st.update([2,3,4])
-print(st)
-
-st.update([4,5], {1,6,8})
-print(st)
-
->>>
-{1, 3}
-{1, 2, 3}
-{1, 2, 3, 4}
-{1, 2, 3, 4, 5, 6, 8}
->>>
-```
 
 ---
 
