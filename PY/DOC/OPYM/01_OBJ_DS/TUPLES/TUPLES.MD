@@ -16,27 +16,11 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 * [Creating a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/01/CREATE.MD)
 * [Creating Tuple with one element](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/02/CRE_ONE.MD)
 * [Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/03/INDEXING.MD)
-* [Negative Indexing]()
+* [Negative Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/04/NEG_IND.MD)
 * [Slicing]()
 * [Changing a Tuple]()
 * [Deleting a Tuple]()
 * [Tuple Methods]()
-
----
-
-<h4 id="4">NEGATIVE INDEXING</h4>
-
-```python
-t = ('p','e','r','m','i','t')
-
-print(t[-1])
-print(t[-6])
-
->>>
-t
-p
->>>
-```
 
 ---
 
