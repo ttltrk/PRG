@@ -1,10 +1,11 @@
 
-Sets
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+### Set
 
-[programiz.com](https://www.programiz.com/python-programming/set)
+---
+
+Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. Items in a set are not ordered.
 
 ---
 
@@ -190,5 +191,9 @@ print(A ^ B)
 {1, 2, 3, 6, 7, 8}
 >>>
 ```
+
+---
+
+[src - programiz.com](https://www.programiz.com/python-programming/set)
 
 ---
