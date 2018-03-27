@@ -15,56 +15,11 @@ Set is an unordered collection of unique items. Set is defined by values separat
 
 * [Create a Set](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/01/CREATE.MD)
 * [Change Set in Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/02/CHANGE.MD)
-* [Remove Elements from a Set]()
+* [Remove Elements from a Set](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/03/REM_ELE.MD)
 * [Set Union]()
 * [Set Intesection]()
 * [Set Difference]()
 * [Set Simmetric Difference]()
-
----
-
-REMOVE ELEMENTS FROM A SET
-
-```python
-st = {1, 3, 4, 5, 6}
-print(st)
-
-st.discard(4)
-print(st)
-
-st.remove(6)
-print(st)
-
-st.discard(2)
-print(st)
-
->>>
-{1, 3, 4, 5, 6}
-{1, 3, 5, 6}
-{1, 3, 5}
-{1, 3, 5}
->>>
-```
-
-```python
-st = set("HelloWorld")
-print(st)
-
-print(st.pop())
-
-st.pop()
-print(st)
-
-st.clear()
-print(st)
-
->>>
-{'r', 'e', 'H', 'l', 'o', 'W', 'd'}
-r
-{'H', 'l', 'o', 'W', 'd'}
-set()
->>>
-```
 
 ---
 
