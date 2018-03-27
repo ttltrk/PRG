@@ -20,26 +20,7 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 * [Slicing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/05/SLICING.MD)
 * [Changing a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/06/CHANGE.MD)
 * [Deleting a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/07/DELETE.MD)
-* [Tuple Methods]()
-
----
-
-<h4 id="8">TUPLE METHODS</h4>
-
-* count(x)
-* index(x)
-
-```python
-t = ('a','p','p','l','e',)
-
-print(t.count('p'))
-print(t.index('l'))
-
->>>
-2
-3
->>>
-```
+* [Tuple Methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/08/METH.MD)
 
 ---
 
