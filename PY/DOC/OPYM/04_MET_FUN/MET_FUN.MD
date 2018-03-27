@@ -5,7 +5,7 @@
 
 ---
 
-### Methods and Functions and Generators
+### Functions
 
 ---
 
