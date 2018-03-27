@@ -1,15 +1,15 @@
 
-Dictionaries
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+### Dictionaries
 
-* [[python.org](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)]
-* [[jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)]
-* [[digitalocean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
-* [[thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)]
+---
 
-Dictionaries are sometimes found in other languages as “associative memories” or “associative arrays”. Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by keys, which can be any immutable type; strings and numbers can always be keys. 
+Dictionary is an unordered collection of key-value pairs.
+
+It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
+
+---
 
 ```python
 >>> tel = {'jack': 4098, 'sape': 4139}
@@ -46,3 +46,12 @@ False
 >>> dict(sape=4139, guido=4127, jack=4098)
 {'sape': 4139, 'jack': 4098, 'guido': 4127}
 ```
+
+---
+
+* [src - python.org](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+* [src - jupyter](https://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)
+* [src - digitalocean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)
+* [src - thomas-cokelaer](http://thomas-cokelaer.info/tutorials/python/dicts.html)
+
+---
