@@ -1,10 +1,7 @@
 
-Tuples
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
-
-[programiz.com](https://www.programiz.com/python-programming/tuple)
+### Tuples
 
 ---
 
@@ -199,5 +196,9 @@ print(t.index('l'))
 3
 >>>
 ```
+
+---
+
+[src - programiz](https://www.programiz.com/python-programming/tuple)
 
 ---
