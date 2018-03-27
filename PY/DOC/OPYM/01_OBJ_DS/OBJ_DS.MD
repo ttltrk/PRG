@@ -17,7 +17,7 @@ Every value in Python has a datatype. Since everything is an object in Python pr
 * [Numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/NUMBERS.MD)
 * [Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/STRINGS/STRINGS.MD)
 * [Lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/LISTS.MD)
-* [Dictionaries](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD)
+* [Dictionary](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD)
 * [Tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD)
 * [Set](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD)
 * [Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/FILES/FILES.MD)
