@@ -25,11 +25,9 @@ Datatypes
 
 * [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
 
-Methods, Functions, Packages, Libs
+Functions
 
-* [Methods and Functions and Generators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD)
-* [Modules and Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
-* [Standard library](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/14/ST_LIB.MD)
+* [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD)
 
 File Handling
 
@@ -38,6 +36,15 @@ File Handling
 Object and Class
 
 * [Object Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD)
+
+Modules
+
+* [Modules and Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
+
+Libs
+
+* [Standard library](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/14/ST_LIB.MD)
+
 
 ---
 
