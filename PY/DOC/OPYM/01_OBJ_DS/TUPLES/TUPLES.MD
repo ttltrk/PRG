@@ -18,39 +18,9 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 * [Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/03/INDEXING.MD)
 * [Negative Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/04/NEG_IND.MD)
 * [Slicing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/05/SLICING.MD)
-* [Changing a Tuple]()
+* [Changing a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/06/CHANGE.MD)
 * [Deleting a Tuple]()
 * [Tuple Methods]()
-
----
-
-<h4 id="6">CHANGING A TUPLE</h4>
-
-```python
-t = (4, 2, 3, [6, 5])
-t[3][0] = 9
-
-print(t)
-
-t = ('p','r','o','g','r','a','m','i','z')
-
-print(t)
-
->>>
-(4, 2, 3, [9, 5])
-('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
->>>
-```
-
-```python
-print((1, 2, 3) + (4, 5, 6))
-print(("Repeat",) * 3)
-
->>>
-(1, 2, 3, 4, 5, 6)
-('Repeat', 'Repeat', 'Repeat')
->>>
-```
 
 ---
 
