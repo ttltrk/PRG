@@ -9,14 +9,18 @@
 
 ---
 
-* <a href="#1">CREATING A TUPLE</a>
-* <a href="#2">CREATING TUPLE WITH ONE ELEMENT</a>
-* <a href="#3">INDEXING</a>
-* <a href="#4">NEGATIVE INDEXING</a>
-* <a href="#5">SLICING</a>
-* <a href="#6">CHANGING A TUPLE</a>
-* <a href="#7">DELETING A TUPLE</a>
-* <a href="#8">TUPLE METHODS</a>
+Tuple is an ordered sequence of items same as list.The only difference is that tuples are immutable. Tuples once created cannot be modified.
+
+---
+
+* [Creating a Tuple]()
+* [Creating Tuple with one element]()
+* [Indexing]()
+* [Negative Indexing]()
+* [Slicing]()
+* [Changing a Tuple]()
+* [Deleting a Tuple]()
+* [Tuple Methods]()
 
 ---
 
