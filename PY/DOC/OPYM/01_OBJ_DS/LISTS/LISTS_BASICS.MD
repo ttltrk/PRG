@@ -9,6 +9,23 @@
 
 ---
 
+Lists are mutable, meaning, value of elements of a list can be altered.
+
+```python
+a = [1,2,3]
+print(a)
+
+a[2]=4
+print(a)
+
+>>>
+[1, 2, 3]
+[1, 2, 4]
+>>>
+```
+
+---
+
 * [Create a List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/01_LB/CRE_LIS.MD)
 * [Nested List](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/02_LB/NEST.MD)
 * [List Index](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/LISTS/03_LB/LIIN.MD)
