@@ -19,27 +19,8 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 * [Negative Indexing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/04/NEG_IND.MD)
 * [Slicing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/05/SLICING.MD)
 * [Changing a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/06/CHANGE.MD)
-* [Deleting a Tuple]()
+* [Deleting a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/07/DELETE.MD)
 * [Tuple Methods]()
-
----
-
-<h4 id="7">DELETING A TUPLE</h4>
-
-```python
-t = ('p','r','o','g','r','a','m','i','z')
-print(t)
-
-del t
-print(t)
-
->>>
-('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
-Traceback (most recent call last):
-  File "python", line 5, in <module>
-NameError: name 't' is not defined
->>>
-```
 
 ---
 
