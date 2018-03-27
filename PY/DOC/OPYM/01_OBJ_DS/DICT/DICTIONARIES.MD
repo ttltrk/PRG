@@ -15,7 +15,7 @@ It is generally used when we have a huge amount of data. Dictionaries are optimi
 
 ---
 
-* [Create a Dictionary]()
+* [Create a Dictionary](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/01/CREATE.MD)
 
 ---
 
