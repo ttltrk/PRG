@@ -14,34 +14,13 @@ Tuple is an ordered sequence of items same as list.The only difference is that t
 ---
 
 * [Creating a Tuple](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/01/CREATE.MD)
-* [Creating Tuple with one element]()
+* [Creating Tuple with one element](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/02/CRE_ONE.MD)
 * [Indexing]()
 * [Negative Indexing]()
 * [Slicing]()
 * [Changing a Tuple]()
 * [Deleting a Tuple]()
 * [Tuple Methods]()
-
----
-
-<h4 id="2">CREATING TUPLE WITH ONE ELEMENT</h4>
-
-```python
-t1 = ("hello")
-print(type(t1))
-
-t2 = ("hello",)  
-print(type(t2))
-
-t3 = "hello",
-print(type(t3))
-
->>>
-<class 'str'>
-<class 'tuple'>
-<class 'tuple'>
->>>
-```
 
 ---
 
