@@ -9,18 +9,35 @@
 
 ---
 
+Intro
+
 * [Keywords](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/KEYW/KEY_IDE.MD)
 * [Comments](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/COMM/COMM.MD)
 * [Variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/VAR/VAR.MD)
 * [Type Conversion](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/15/TYCON.MD)
-* [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
 * [Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD)</a>
+
+Flow Control
+
 * [Python Statements](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD)
+
+Datatypes
+
+* [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
+
+Methods, Functions, Packages, Libs
+
 * [Methods and Functions and Generators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD)
-* [File Handling](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/16/FILE_HAN.MD)
-* [Object Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD)
 * [Modules and Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/07_MOD_PACK/MOD_PACK/MOD_PACK.MD)
 * [Standard library](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/14/ST_LIB.MD)
+
+File Handling
+
+* [File Handling](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/16/FILE_HAN.MD)
+
+Object and Class
+
+* [Object Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD)
 
 ---
 
