@@ -9,6 +9,10 @@
 
 ---
 
+Integers, floating point numbers and complex numbers falls under Python numbers category. They are defined as int, float and complex class in Python.
+
+---
+
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/01/NDT.MD">Number Data Type in Python</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/02/SYS_PRE.MD">System Prefix</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/NUMBERS/03/TYP_CON.MD">Type Conversion</a>
