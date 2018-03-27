@@ -12,7 +12,7 @@
 * [Keywords](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/KEYW/KEY_IDE.MD)
 * [Comments](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/COMM/COMM.MD)
 * [Variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/VAR/VAR.MD)
-* [Type Conversion]()
+* [Type Conversion](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/15/TYCON.MD)
 * [Objects and Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
 * [Operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/02_COM_OP/CO.MD)</a>
 * [Python Statements](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD)
