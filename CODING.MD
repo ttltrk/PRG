@@ -41,6 +41,8 @@
   
     + [Python Datat Types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/OBJ_DS.MD)
     + [Updated the section about Tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/TUPLES/TUPLES.MD)
+    + [Updated the section about Sets](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/SETS.MD)
+    + [Updated the section about Dictionaries](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/DICT/DICTIONARIES.MD)
 
   * 26 - Mon (DIR: 9)
   
