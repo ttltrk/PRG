@@ -18,25 +18,8 @@ Set is an unordered collection of unique items. Set is defined by values separat
 * [Remove Elements from a Set](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/03/REM_ELE.MD)
 * [Set Union](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/04/UNION.MD)
 * [Set Intersection](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/05/INTERSEC.MD)
-* [Set Difference]()
+* [Set Difference](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/01_OBJ_DS/SETS/06/DIFF.MD)
 * [Set Simmetric Difference]()
-
----
-
-SET DIFFERENCE
-
-```python
-A = {1, 2, 3, 4, 5}
-B = {4, 5, 6, 7, 8}
-
-print(A - B)
-print(B - A)
-
->>>
-{1, 2, 3}
-{8, 6, 7}
->>>
-```
 
 ---
 
