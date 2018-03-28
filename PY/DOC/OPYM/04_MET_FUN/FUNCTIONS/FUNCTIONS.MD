@@ -1,10 +1,10 @@
 
-Functions
-======
 
-[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions.ipynb)
+------
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+### Functions
+
+------
 
 ```python
 def name_of_function():
@@ -140,3 +140,6 @@ the number is prime!
 the number is prime!
 >>> 
 ```
+
+[src - jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions.ipynb)
+
