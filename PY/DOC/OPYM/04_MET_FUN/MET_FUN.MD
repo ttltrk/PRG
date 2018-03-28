@@ -17,7 +17,7 @@ Furthermore, it avoids repetition and makes code reusable.
 
 ---
 
-* [Syntax of Function]()
+* [Syntax of Function](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/SYNTAX/SYNTAX.MD)
 * [Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNCTIONS.MD)
 * [Built-in Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/BUILT_IN_FUNCTIONS.MD)
 * [Functions within functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/FUNCTIONS/FUNC_IN_FUNC.MD)
