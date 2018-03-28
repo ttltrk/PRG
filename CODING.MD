@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x|RD| x| x| x| x| x|RD|RD|RD| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x|RD| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
+| x|RD| x| x| x| x| x| x| x| x| x| x| x|  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|22|
+|WD|23|
 |RD| 5|
 
 <a href='#NAV'>NAV</a>
 
 * MRC
+
+  * 28 - Wed (DIR: 11) 
+  
+    + [Syntax of Function](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/SYNTAX/SYNTAX.MD)
 
   * 27 - Tue (DIR: 10)
   
