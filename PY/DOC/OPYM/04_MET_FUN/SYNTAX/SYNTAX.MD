@@ -27,3 +27,9 @@ print(greet('ttltrk'))
 Hello, ttltrk. Good morning!
 >>>
 ```
+
+---
+
+[src](https://www.programiz.com/python-programming/function)
+
+---
