@@ -1,0 +1,8 @@
+
+---
+
+### Syntax of Function
+
+---
+
+---
