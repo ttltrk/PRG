@@ -19,6 +19,19 @@ def function_name(parameters):
 
 ```python
 def greet(name):
+	print("Hello, " + name + ". Good morning!")
+	
+greet('ttltrk')
+
+>>>
+Hello, ttltrk. Good morning!
+>>>
+```
+
+Or
+
+```python
+def greet(name):
 	return("Hello, " + name + ". Good morning!")
 	
 print(greet('ttltrk'))
