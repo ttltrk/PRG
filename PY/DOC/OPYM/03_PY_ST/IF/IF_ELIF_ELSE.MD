@@ -9,7 +9,7 @@
 
 ---
 
-* [if Statement Synatx]()
+* [if Statement Synatx](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/01/IF.MD)
 
 ---
 
