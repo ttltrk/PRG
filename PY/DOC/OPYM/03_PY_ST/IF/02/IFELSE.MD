@@ -9,4 +9,11 @@
 
 ---
 
+```python
+if test expression:
+    Body of if
+else:
+    Body of else
+```
+
 ---
