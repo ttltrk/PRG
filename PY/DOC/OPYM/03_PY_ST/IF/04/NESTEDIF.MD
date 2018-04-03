@@ -9,4 +9,32 @@
 
 ---
 
+```python
+num = float(input("Enter a number: "))
+
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+    
+>>>
+Enter a number:  10
+Positive number
+>>>
+
+>>>
+Enter a number:  0
+Zero
+>>>
+
+>>>
+Enter a number:  -2
+Negative number
+>>>
+
+```
+
 ---
