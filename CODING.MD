@@ -39,7 +39,7 @@
 
   * 03 - Tue (DIR: 17)
   
-    + []()
+    + [Nested if Statements](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/IF/04/NESTEDIF.MD)
 
   * 02 - Mon (DIR: 16)
   
