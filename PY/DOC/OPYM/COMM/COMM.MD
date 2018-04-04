@@ -9,6 +9,11 @@
 
 ---
 
+* [Python Comments]()
+* [Multi-line Comments]()
+
+---
+
 Python Comments
 
 ```python
@@ -23,7 +28,7 @@ Hello
 
 ---
 
-Multi-line comments
+Multi-line Comments
 
 ```python
 """This is also a
