@@ -9,6 +9,9 @@
 
 ---
 
+* [Syntax]()
+* [other examples]()
+
 ---
 
 [src - programiz](https://www.programiz.com/python-programming/for-loop)
