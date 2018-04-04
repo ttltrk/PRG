@@ -14,22 +14,6 @@
 
 ---
 
-Python Comments
-
-```python
-#This is a comment
-#print out Hello
-print('Hello')
-
->>>
-Hello
->>>
-```
-
----
-
-Multi-line Comments
-
 ```python
 """This is also a
 perfect example of
