@@ -10,6 +10,8 @@
 ---
 
 * [Syntax]()
+* [range]()
+* [for loop with else]()
 * [other examples]()
 
 ---
