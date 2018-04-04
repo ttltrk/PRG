@@ -26,7 +26,7 @@ We cannot use a keyword as variable name, function name or any other identifier.
 * elif
 * else
 * except
-* False		
+* [False](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/KEYW/01/TRUE_FALSE.MD)		
 * finally	
 * for
 * from
@@ -44,7 +44,7 @@ We cannot use a keyword as variable name, function name or any other identifier.
 * raise
 * return
 * try
-* True
+* [True](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/KEYW/01/TRUE_FALSE.MD)
 * while	
 * with
 * yield
