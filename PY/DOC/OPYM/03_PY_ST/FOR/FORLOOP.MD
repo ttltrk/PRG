@@ -9,7 +9,7 @@
 
 ---
 
-* [Syntax]()
+* [syntax]()
 * [range]()
 * [for loop with else]()
 * [other examples]()
