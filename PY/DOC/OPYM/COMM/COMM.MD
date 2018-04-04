@@ -9,7 +9,7 @@
 
 ---
 
-* [Python Comments]()
+* [Python Comments](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/COMM/01/PYCOM.MD)
 * [Multi-line Comments]()
 
 ---
