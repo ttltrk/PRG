@@ -9,7 +9,7 @@
 
 ---
 
-* [syntax]()
+* [syntax](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/01/SYNTAX.MD)
 * [range]()
 * [for loop with else]()
 * [other examples]()
