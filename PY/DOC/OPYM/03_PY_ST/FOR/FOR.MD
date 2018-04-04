@@ -1,8 +1,13 @@
 
-for loops
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) - [Python Statements](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD) - [for loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FORLOOP.MD)
+
+---
+
+### for loops (other examples)
+
+---
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -19,6 +24,8 @@ for element in l:
 >>>
 ```
 
+---
+
 ```python
 l = [1, 2, 3, 4, 5]
 
@@ -34,6 +41,8 @@ something
 >>> 
 ```
 
+---
+
 ```python
 l = [1, 2, 3, 4, 5]
 
@@ -46,6 +55,8 @@ for num in l:
 4
 >>> 
 ```
+
+---
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -60,6 +71,8 @@ for num in l:
 5
 >>> 
 ```
+
+---
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -79,6 +92,8 @@ Odd number!
 >>> 
 ```
 
+---
+
 ```python
 l = [1, 2, 3, 4, 5]
 list_sum = 0
@@ -92,6 +107,8 @@ print (list_sum)
 15
 >>>
 ```
+
+---
 
 ```python
 l = ("a", "b", "c")
@@ -107,6 +124,8 @@ abc
 >>>
 ```
 
+---
+
 ```python
 l = [1, 2, 3, 4, 5]
 list_sum = 0
@@ -120,6 +139,8 @@ print (list_sum)
 15
 >>>
 ```
+
+---
 
 ```python
 s = "this is a string!"
@@ -148,6 +169,8 @@ g
 >>> 
 ```
 
+---
+
 ```python
 tup = (1, 2, 3, 4, 5)
 
@@ -163,6 +186,8 @@ for t in tup:
 >>> 
 ```
 
+---
+
 ```python
 l = [(2,4),(6,8),(10,12)]
 
@@ -175,6 +200,8 @@ for tup in l:
 (10, 12)
 >>> 
 ```
+
+---
 
 ```python
 l = [(2,4),(6,8),(10,12)]
@@ -189,6 +216,8 @@ for (t1, t2) in l:
 >>> 
 ```
 
+---
+
 ```python
 l = [(2,4),(6,8),(10,12)]
 
@@ -201,6 +230,8 @@ for (t1, t2) in l:
 12
 >>> 
 ```
+
+---
 
 ```python
 l = [(2,4),(6,8),(10,12)]
@@ -215,6 +246,8 @@ for (t1, t2) in l:
 >>> 
 ```
 
+---
+
 ```python
 d = {"k1" : 1, "k2" : 2, "k3" : 3}
 
@@ -227,6 +260,8 @@ k1
 k2
 >>>
 ```
+
+---
 
 ```python
 d = {"k1" : 1, "k2" : 2, "k3" : 3}
@@ -244,3 +279,5 @@ k3
 3
 >>> 
 ```
+
+---
