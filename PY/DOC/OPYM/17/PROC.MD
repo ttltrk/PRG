@@ -9,7 +9,7 @@
 
 ---
 
-* [processing basics (course document)](https://github.com/ttltrk/ELSE/blob/master/PRF/CREATIVECODING.MD)
+* [processing basics - (course document)](https://github.com/ttltrk/ELSE/blob/master/PRF/CREATIVECODING.MD)
 
 ---
 
