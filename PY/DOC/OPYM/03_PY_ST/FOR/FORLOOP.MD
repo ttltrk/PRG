@@ -13,7 +13,7 @@
 * [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/02/RANGE.MD)
 * [range() - other examples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
 * [for loop - other examples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
-* [for loop with else]()
+* [for loop with else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/03/FORELSE.MD)
 
 ---
 
