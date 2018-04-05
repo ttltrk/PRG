@@ -10,7 +10,7 @@
 ---
 
 * [syntax](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/01/SYNTAX.MD)
-* [range()]()
+* [range()](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/02/RANGE.MD)
 * [range() - other examples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/RANGE/RANGE.MD)
 * [for loop with else]()
 * [other examples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/FOR/FOR.MD)
