@@ -46,6 +46,8 @@ Web
       - [realpython](https://realpython.com/)
       
     * [dev](https://dev.to/jessicagarson/resources-for-learning-python-hd6)
+    
+    * [medium](https://medium.freecodecamp.org/how-i-went-from-newbie-to-software-engineer-in-9-months-while-working-full-time-460bd8485847)  
       
     * [pythontutorial.hu](http://pythontutorial.pergamen.hu/)
       
