@@ -45,6 +45,8 @@ Web
       - [think python](https://en.wikibooks.org/wiki/Think_Python)
       - [realpython](https://realpython.com/)
       
+    * [dev](https://dev.to/jessicagarson/resources-for-learning-python-hd6)
+      
     * [pythontutorial.hu](http://pythontutorial.pergamen.hu/)
       
     * [python.org](https://python.org)
