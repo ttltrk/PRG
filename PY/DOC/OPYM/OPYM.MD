@@ -53,7 +53,10 @@ Libs
 
 ---
 
+Graphics solutions
+
 * [py.processing](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/17/PROC.MD)
+* [Teach your kids to code](https://github.com/ttltrk/PRG/blob/master/PY/DOC/udemy_teach_your_kids_to_code.MD)
 
 ---
 
