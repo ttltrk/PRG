@@ -1,8 +1,8 @@
 
 
-### PYTHON - Teach your kids to code
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+### Teach your kids to code
 
 ---
 
