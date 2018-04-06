@@ -12,10 +12,14 @@
 * [Getting your programming environment](https://github.com/ttltrk/PRG/blob/master/PY/DOC/TYKTC/01/ENV.MD)
 * [Turtle graphics in Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/TYKTC/02/TURTLE.MD)
 * [Numbers and variables in Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/TYKTC/03/NUMVAR.MD)
+* [Loops]()
+* [Conditions]()
+* [Random Fun and Games]()
+* [Functions]()
 
 ---
 
-[src]()
+[src](https://www.udemy.com/teach-your-kids-to-code/learn/v4/content)
 
 ---
 
