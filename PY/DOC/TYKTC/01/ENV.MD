@@ -20,7 +20,7 @@
 
 ---
 
-### 4. Writing your first program in Python 
+Writing your first program in Python 
 
 ```python
 # YourName.py
