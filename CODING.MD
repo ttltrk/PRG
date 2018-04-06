@@ -24,18 +24,22 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x|  |  |  |  |  |  |  |  |  |  | 
+|  | x| x| x| x| x| x|  |  |  |  |  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD| 5|
+|WD| 6|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * APR
+
+  * 06 - Fri (DIR: 20)
+  
+    + [Updated the py.processing man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/17/PROC.MD)
 
   * 05 - Thu (DIR: 19)
   
