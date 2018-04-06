@@ -49,7 +49,7 @@ SECTION 3 - Numbers and variables in Python
 030. The real characters in Python
 031. Improving our color spiral with strings
 
-----------------------------------------------------------------------
+---
 
 ### 4. Writing your first program in Python 
 
