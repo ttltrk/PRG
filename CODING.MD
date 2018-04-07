@@ -39,7 +39,7 @@
 
   * 07 - Sat (DIR: 21)
   
-    + [Sololearn Python examples](https://www.sololearn.com/Profile/3771981/Python)
+    + [Sololearn Python examples](https://www.sololearn.com/Profile/3771981/Python) 1/12 - 4/12
 
   * 06 - Fri (DIR: 20)
   
