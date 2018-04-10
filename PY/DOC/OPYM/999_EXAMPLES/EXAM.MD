@@ -11,8 +11,8 @@
 
 Last
 
-* <a href="https://github.com/ttltrk/PRG/blob/master/PY/APP/BIN/README.MD">Binary ~ Decimal Converter</a>
-* <a href="https://github.com/ttltrk/PRG/blob/master/PY/APP/GT/README.MD">Gauss table</a>
+* [Binary ~ Decimal Converter](https://github.com/ttltrk/PRG/blob/master/PY/APP/BIN/README.MD)
+* [Gauss table](https://github.com/ttltrk/PRG/blob/master/PY/APP/GT/README.MD)
 
 ---
 
