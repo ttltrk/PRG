@@ -113,38 +113,36 @@ Planned
   + [Vending Machine]() 
   
 * [Threading]()
-
-Bulk Thumbnail Creator .................................................................................... 47
-Chat Application (remoting style) ...................................................................... 47
-Create Progress Bar of Download .................................................................... 48
-Download Manager .......................................................................................... 48
-News Aggregator .............................................................................................. 48
-XML sitemap generator .................................................................................... 49
-
+  + [Bulk Thumbnail Creator]() 
+  + [Chat Application (remoting style)]() 
+  + [Create Progress Bar of Download]() 
+  + [Download Manager]() 
+  + [News Aggregator]() 
+  + [XML sitemap generator]() 
+  
 * [Web]()
-
-Bandwidth Monitor ............................................................................................ 49
-Bookmark Collector and Sorter ......................................................................... 50
-CAPTCHA Maker ............................................................................................. 50
-Content Management System .......................................................................... 51
-Countdown Screen ........................................................................................... 51
-E-Card Generator ............................................................................................. 52
-File Downloader ............................................................................................... 52
-Media Player Widget for iGoogle ...................................................................... 52
-Music player or manager .................................................................................. 53
-Online IDE ........................................................................................................ 53
-Online Whiteboard ............................................................................................ 54
-Page Scraper ................................................................................................... 54
-Password Safe ................................................................................................. 55
-Scheduled Auto Login and Action ..................................................................... 55
-SEO optimizer (scan page, recommend keywords etc) .................................... 56
-Shopping App ................................................................................................... 56
-Telnet Application ............................................................................................. 56
-Template Maker ............................................................................................... 57
-Text Based Game Like Utopia .......................................................................... 57
-Web Browser with Tabs .................................................................................... 58
-WYSIWG (What you see is what you get) Editor .............................................. 58
-
+  + [Bandwidth Monitor]() 
+  + [Bookmark Collector and Sorter]() 
+  + [CAPTCHA Maker]() 
+  + [Content Management System]()  
+  + [Countdown Screen]() 
+  + [E-Card Generator]() 
+  + [File Downloader]() 
+  + [Media Player Widget for iGoogle]() 
+  + [Music player or manager]() 
+  + [Online IDE]()  
+  + [Online Whiteboard]() 
+  + [Page Scraper]() 
+  + [Password Safe]() 
+  + [Scheduled Auto Login and Action]() 
+  + [SEO optimizer (scan page, recommend keywords etc)]() 
+  + [Shopping App]() 
+  + [Telnet Application]() 
+  + [Template Maker]() 
+  + [Text Based Game Like Utopia]() 
+  + [Web Browser with Tabs]() 
+  + [WYSIWG (What you see is what you get) Editor]() 
+  
 * [Files]()
 
 Add Transactions In File and Find Averages .................................................... 59
