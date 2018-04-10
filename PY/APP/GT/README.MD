@@ -17,7 +17,7 @@
 
 ---
 
-[source code]()
+[source code](https://github.com/ttltrk/PRG/blob/master/PY/APP/GT/gauss_table.py)
 
 ---
 
