@@ -5,10 +5,6 @@
 
 ---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/APPS.MD)
-
----
-
 Last
 
 * <a href="https://github.com/ttltrk/PRG/blob/master/PY/APP/BIN/README.MD">Binary ~ Decimal Converter</a>
@@ -42,30 +38,29 @@ Planned
   + [Unit Converter (Temp, Currency, Volume, Mass and More)]()  
 
 * [Text]()
-
-CD Key Generator ............................................................................................ 19
-Check if Palindrome ......................................................................................... 20
-Code Skeleton Creator ..................................................................................... 20
-Count Vowels ................................................................................................... 20
-Count Words in a String ................................................................................... 21
-Font Viewer and Tester (Online or Not) ............................................................ 21
-Fortune Teller (Horoscope) ............................................................................... 21
-Guestbook / Journal ......................................................................................... 22
-Morse Code Maker ........................................................................................... 22
-News Ticker and Game Scores ........................................................................ 23
-Pig Latin ........................................................................................................... 23
-Post it Notes Program ...................................................................................... 24
-Quote Tracker (Market Symbols etc) ................................................................ 24
-Random Gift Suggestions ................................................................................. 25
-RSS Feed Creator ............................................................................................ 25
-Recreate Grep (Pattern Matching) .................................................................... 25
-Regex Query Tool ............................................................................................ 26
-Reverse a String ............................................................................................... 26
-Text Editor ........................................................................................................ 26
-Text to HTML Generator ................................................................................... 27
-Vigenere / Vernam / Caesar Ciphers ................................................................ 27
-Write Out Number ............................................................................................. 28
-
+  + [CD Key Generator]()  
+  + [Check if Palindrome]()  
+  + [Code Skeleton Creator]()  
+  + [Count Vowels]()  
+  + [Count Words in a String]()  
+  + [Font Viewer and Tester (Online or Not)]()  
+  + [Fortune Teller (Horoscope)]()  
+  + [Guestbook / Journal]()  
+  + [Morse Code Maker]()  
+  + [News Ticker and Game Scores]()  
+  + [Pig Latin]()  
+  + [Post it Notes Program]()  
+  + [Quote Tracker (Market Symbols etc)]()  
+  + [Random Gift Suggestions]()  
+  + [RSS Feed Creator]()  
+  + [Recreate Grep (Pattern Matching)]()  
+  + [Regex Query Tool]()  
+  + [Reverse a String]()  
+  + [Text Editor]()  
+  + [Text to HTML Generator]()  
+  + [Vigenere / Vernam / Caesar Ciphers]()  
+  + [Write Out Number]()  
+  
 * [Networking]()
 
 Chat Application (IRC or MSN Style) ................................................................ 28
