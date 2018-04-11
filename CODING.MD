@@ -24,22 +24,28 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x|  |  |  |  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x|  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|10|
+|WD|11|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * APR
 
+  * 11 - Wed (DIR: 24)
+  
+    + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 5/12 - 8/12
+    + [Datacamp mobile version]()
+    
   * 10 - Tue (DIR: 23)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 1/12 - 4/12
+    + [Datacamp mobile version]()
 
   * 09 - Mon (DIR: 22)
   
