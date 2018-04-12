@@ -9,12 +9,12 @@
 
 ---
 
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Codecademy]()
+* [Datacamp]()
+* [Dataquest]()
+* [Learnpython.org]()
+* [Sololearn]()
+* [Udemy]()
 
 ---
 
