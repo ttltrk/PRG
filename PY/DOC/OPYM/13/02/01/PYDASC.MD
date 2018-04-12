@@ -1,7 +1,7 @@
 
 ---
 
-### Intro Python Data Science
+### Intro to Python for Data Science
 
 ---
 
