@@ -21,21 +21,6 @@
 
 ---
 
-#### Basic Concepts
-  * What is Python?
-  * Your first program
-  * Simple operations
-  * Floats
-  * Other Numerical Operations
-  * Strings
-  * Simple Input & Output
-  * String Operations
-  * Type Conversion
-  * Variables
-  * In-Place Operators
-  * Using an Editor
-  * MODULE 1 QUIZ
-
 #### Control Structures
   * Booleans & Comparisons
   * if Statements
