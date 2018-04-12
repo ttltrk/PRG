@@ -1,40 +1,48 @@
 
 ---
 
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) - [Courses](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/COURSES.MD) - [Datacamp](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/02/DATACAMP.MD)
+
+---
+
 ### Importing & Managing Financial Data in Python
 
 ---
 
-### Importing Stock Listing Data
-  * Reading, Inspecting and cleaning data from csv files
-  * Import Stock Listing info from the NASDAQ
-  * How to fix the Data Import?
-  * Read data using .read_csv() with adequate parsing arguments
-  * Read data from Excel worksheets
+* [Importing Stock Listing Data]()
+  + Reading, Inspecting and cleaning data from csv files
+  + Import Stock Listing info from the NASDAQ
+  + How to fix the Data Import?
+  + Read data using .read_csv() with adequate parsing arguments
+  + Read data from Excel worksheets
   
 
-### Importing Financial Data
+* [Importing Financial Data]()
 
-### Summarizing Your Data
+* [Summarizing Your Data]()
 
-### Aggregating and Describing
+* [Aggregating and Describing]()
+
+---
 
 Importing Stock Listing Data
-------
 
-### Reading, Inspecting and cleaning data from csv files
 
-#### Import and clean data
+Reading, Inspecting and cleaning data from csv files
+
+Import and clean data
   * Ensure that pd.DataFrame() is same as csv source file
   * Stock Exchange listings: amex-listings.csv
   
-#### How Panda stores data
+How Panda stores data
   * Each column has its own data format stored in dtype
   * dtype affects calculation and visualization
   
   pandas dtype: object, int64, float64, datetime64
-  
-### Import stock listing info from the NASDAQ
+
+---
+
+Import stock listing info from the NASDAQ
 
 In this video, you learned how to use the pd.read_csv() function to import data from a csv file 
 containing companies listed on the AmEx Stock Exchange into a pandas DataFrame. You can apply this same knowledge 
@@ -64,6 +72,6 @@ are there any columns that should have a more appropriate type?
 >>>
 ```
 
-
+---
 
 
