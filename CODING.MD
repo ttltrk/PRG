@@ -39,7 +39,8 @@
 
   * 12 - Thu (DIR: 25)
   
-    + Datacamp mobile version]()
+    + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 9/12 - 12/12
+    + [Datacamp mobile version]()
 
   * 11 - Wed (DIR: 24)
   
