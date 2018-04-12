@@ -9,7 +9,7 @@
 
 ---
 
-* [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+* [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/COURSES.MD)
 * [Database](https://github.com/ttltrk/DB/blob/master/DCM/DCM.MD)
 * [OS](https://github.com/ttltrk/ELSE/blob/master/SHELL/CMOS/CMOS.MD)
 * [DEVOPS]()
