@@ -1,7 +1,7 @@
-[Importing & Managing Financial Data in Python](https://www.datacamp.com/courses/importing-managing-financial-data-in-python)
-======
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+---
+
+### Importing & Managing Financial Data in Python
 
 ---
 
