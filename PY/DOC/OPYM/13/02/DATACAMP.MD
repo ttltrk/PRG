@@ -11,7 +11,7 @@
 
 * Intro to Python for Data Science
 
-  + [man]()
+  + [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/02/01/PYDASC.MD)
   + [course](https://www.datacamp.com/courses/intro-to-python-for-data-science)
 
 ---
