@@ -9,7 +9,6 @@
 
 ---
 
-| [progress]()
 | [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) 
 | [apps](https://github.com/ttltrk/PRG/blob/master/APPS.MD)
 | [courses](https://github.com/ttltrk/Courses/blob/master/README.MD)
