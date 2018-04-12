@@ -40,19 +40,19 @@
   * 12 - Thu (DIR: 25)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 9/12 - 12/12
-    + [Datacamp mobile version]()
-    + [Datacamp desk version]()
+    + Datacamp mobile version
+    + [Datacamp desk version](https://www.datacamp.com/home)
 
   * 11 - Wed (DIR: 24)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 5/12 - 8/12
-    + [Datacamp mobile version]()
-    + [Datacamp desk version]()
+    + Datacamp mobile version
+    + [Datacamp desk version](https://www.datacamp.com/home)
     
   * 10 - Tue (DIR: 23)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 1/12 - 4/12
-    + [Datacamp mobile version]()
+    + Datacamp mobile version
 
   * 09 - Mon (DIR: 22)
   
