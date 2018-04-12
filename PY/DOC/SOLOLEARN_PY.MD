@@ -9,7 +9,7 @@
 
 ---
 
-* [Basic Concepts]()
+* [Basic Concepts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/BASIC.MD)
 * [Control Structures]()
 * [Functions & Modules]()
 * [Exceptions & Files]()
