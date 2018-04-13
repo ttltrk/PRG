@@ -13,7 +13,7 @@ Last
 
 * [Binary ~ Decimal Converter](https://github.com/ttltrk/PRG/blob/master/PY/APP/BIN/README.MD)
 * [Gauss table](https://github.com/ttltrk/PRG/blob/master/PY/APP/GT/README.MD)
-* [Pyg Latin]()
+* [Pyg Latin](https://github.com/ttltrk/PRG/blob/master/PY/APP/PYG.MD)
 
 ---
 
