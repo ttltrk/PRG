@@ -40,6 +40,7 @@
   * 13 - Fri (DIR: 26)
   
     + [Sololearn Python Functions and Modules](https://www.sololearn.com/Profile/3771981/Python) 1/8 - 4/8
+    + [Pyg Latin](https://github.com/ttltrk/PRG/blob/master/PY/APP/PYG.MD)
 
   * 12 - Thu (DIR: 25)
   
