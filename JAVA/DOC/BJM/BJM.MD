@@ -43,6 +43,7 @@ Resources
 
 ---
 
-[src](https://www.tutorialspoint.com/java/index.htm)
+* [src](https://www.tutorialspoint.com/java/index.htm)
+* [src - programozzteis](http://programozzteis.hu)
 
 ---
