@@ -41,6 +41,7 @@
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 3/9 
     + [Datacamp desk version](https://www.datacamp.com/home)
+    + [Dataquest desk version](https://www.dataquest.io/)
 
   * 19 - Thu (DIR: 33)
   
