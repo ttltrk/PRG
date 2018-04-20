@@ -40,6 +40,7 @@
   * 20 - Thu (DIR: 34)
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 3/9 
+    + [Datacamp desk version](https://www.datacamp.com/home)
 
   * 19 - Thu (DIR: 33)
   
