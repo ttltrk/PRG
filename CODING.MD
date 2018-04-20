@@ -26,65 +26,69 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x|  |  |  |  |  |  |  |  |  |  |  |  |
+| x| x| x| x| x|  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|19|
+|WD|20|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * APR
 
-  * 19 - Thu (DIR: 32)
+  * 20 - Thu (DIR: 34)
+  
+    + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 3/9 
+
+  * 19 - Thu (DIR: 33)
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 2/9 
     + [Datacamp desk version](https://www.datacamp.com/home)
 
-  * 18 - Wed (DIR: 31)
+  * 18 - Wed (DIR: 32)
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 1/9 
 
-  * 17 - Tue (DIR: 30)
+  * 17 - Tue (DIR: 31)
   
     + [Sololearn Python Functions and Modules](https://www.sololearn.com/Profile/3771981/Python) 8/8 
 
-  * 16 - Mon (DIR: 29)
+  * 16 - Mon (DIR: 30)
   
     + [Sololearn Python Functions and Modules](https://www.sololearn.com/Profile/3771981/Python) 7/8 
 
-  * 15 - Sun (DIR: 28)
+  * 15 - Sun (DIR: 29)
   
     + [Sololearn Python Functions and Modules](https://www.sololearn.com/Profile/3771981/Python) 6/8 
 
-  * 14 - Sat (DIR: 27)
+  * 14 - Sat (DIR: 28)
   
     + [Sololearn Python Functions and Modules](https://www.sololearn.com/Profile/3771981/Python) 5/8 
 
-  * 13 - Fri (DIR: 26)
+  * 13 - Fri (DIR: 27)
   
     + [Sololearn Python Functions and Modules](https://www.sololearn.com/Profile/3771981/Python) 1/8 - 4/8
     + [Pyg Latin](https://github.com/ttltrk/PRG/blob/master/PY/APP/PYG.MD)
 
-  * 12 - Thu (DIR: 25)
+  * 12 - Thu (DIR: 26)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 9/12 - 12/12
     + Datacamp mobile version
     + [Datacamp desk version](https://www.datacamp.com/home)
 
-  * 11 - Wed (DIR: 24)
+  * 11 - Wed (DIR: 25)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 5/12 - 8/12
     + Datacamp mobile version
     + [Datacamp desk version](https://www.datacamp.com/home)
     
-  * 10 - Tue (DIR: 23)
+  * 10 - Tue (DIR: 24)
   
     + [Sololearn Python Control Structures](https://www.sololearn.com/Profile/3771981/Python) 1/12 - 4/12
     + Datacamp mobile version
 
-  * 09 - Mon (DIR: 22)
+  * 09 - Mon (DIR: 23)
   
     + [Sololearn Python Basic Examples](https://www.sololearn.com/Profile/3771981/Python) 9/12 - 12/12
 
@@ -195,13 +199,13 @@
     + [R Overview](https://github.com/ttltrk/PRG/blob/master/R/BRM/02/OVERVIEW.MD)
     + [Go Overview](https://github.com/ttltrk/PRG/blob/master/GO/BMGO/02/OVERVIEW.MD)
     
-  * 19 : (Mon)
+  * 19 : (Mon) (DIR: 2)
   
     + [HTML flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
     + [Python flashcards](https://github.com/ttltrk/PRG/blob/master/PY/DOC/FLPY/01/CRST.MD)
     + DIR: 2
     
-  * 18 : (Sun)
+  * 18 : (Sun) (DIR: 1)
   
     + [HTML flashcards](https://github.com/ttltrk/WEB/blob/master/FLW/FLWH/FLWH.MD)
     + DIR: 1
