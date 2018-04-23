@@ -14,15 +14,15 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 * 2. Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?
 * 3. Jelenítse meg hexadecimálisan a 255-t egy beépített függvény segítségével
 * 4. Adjon meg logikai relációt számok között és írassa ki annak eredményét:
-		5 > 3
-		3 > 3
-		3 >= 3
-		1 < 2
-		8 <= 4
-		0 != 15
-		9 == 9
-		5 == 7
-	Mikor mi az eredmény?
+ - 5 > 3
+ - 3 > 3
+ - 3 >= 3
+ - 1 < 2
+ - 8 <= 4
+ - 0 != 15
+ - 9 == 9
+ - 5 == 7
+ - Mikor mi az eredmény?
 * 5. Minek a rövidítése a JRE és mit jelent? Mi az a JVM?
 * 6. Melyik JRE Package-ben van benne a System println függvénye?
 * 7. Írjon az "err" console-ra ha a hexadecimálisan megjelnített 255 nem egyenlő 0xDE-vel
