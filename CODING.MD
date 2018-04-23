@@ -39,7 +39,8 @@
 
   * 23 - Mon (DIR: 37)
   
-    + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 6/9 
+    + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 6/9
+    + [Datacamp desk version](https://www.datacamp.com/home)
 
   * 22 - Sun (DIR: 36)
   
