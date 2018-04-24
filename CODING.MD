@@ -41,7 +41,7 @@
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 6/9
     + [Datacamp desk version](https://www.datacamp.com/home)
-    + [Java Junior 1st meet](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/hw.md)
+    + [Java Junior 1st meet](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/1st.md)
 
   * 22 - Sun (DIR: 36)
   
