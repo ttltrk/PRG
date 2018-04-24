@@ -9,11 +9,8 @@
 
 ---
 
-Az egyes feladatokhoz tartozó változókat a main függvényben hozza létre!
-
----
-
-Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban hozza létre STATIC kulcsszóval!
+* Az egyes feladatokhoz tartozó változókat a main függvényben hozza létre!
+* Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban hozza létre STATIC kulcsszóval!
 
 ---
 
@@ -23,6 +20,17 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 * [04](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/04/04.MD)
 * [05](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/05/05.MD)
 * [06](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/06/06.MD)
+* [07](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/07/07.MD)
+* [08](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/08/08.MD)
+* [09](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/09/09.MD)
+* [10](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/10/10.MD)
+* [11](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/11/11.MD)
+* [12](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/12/12.MD)
+* [13](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/13/13.MD)
+* [14](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/14/14.MD)
+* [15](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/15/15.MD)
+* [16](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/16/16.MD)
+
 * [7. Írjon az "err" console-ra ha a hexadecimálisan megjelnített 255 nem egyenlő 0xDE-vel]()
 * [8. Definiáljuk a pi-t egy változóba a main függvényben]()
 * [9. Definiáljunk egy szöveges változót ami a következőt tárolja: "Value of the "pi" approximately: [valueOfPI]" a main függvényben]()
