@@ -1,4 +1,7 @@
 
+---
+
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [C](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [courses](https://github.com/ttltrk/Courses/blob/master/README.MD) - [f2f](https://github.com/ttltrk/Courses/blob/master/F2F/F2F.MD) - [Java Junior](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/JJ.MD) - [1st meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/1st.md)
 
 ---
 
@@ -35,3 +38,5 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 * 14 Hozzunk létre egy függvényt ami visszaadja a pi értékét
 * 15 Hozzunk létre egy függvényt ami kiírja dátum formátumba a paraméterként megkapott [year], [month], [day] változókat.
 * 16 Hozzunk létre 3 függvényt, paraméter és visszatérési érték nélkül. Mindegyik függvény tartalmazzon egy kiírató utasítást az első és az utolsó utasításaként, hogy a futása elkezdődött illetve a futása befejeződött. Hívják meg a függvények egymást. Mi lesz a kimenete a programnak?
+
+---
