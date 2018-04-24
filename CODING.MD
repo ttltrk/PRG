@@ -26,11 +26,11 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|23|
+|WD|24|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
@@ -41,6 +41,7 @@
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 6/9
     + [Datacamp desk version](https://www.datacamp.com/home)
+    + [Java Junior 1st meet](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/hw.md)
 
   * 22 - Sun (DIR: 36)
   
