@@ -22,7 +22,7 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 * [03](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/03/03.MD)
 * [04](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/04/04.MD)
 * [05](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/05/05.MD)
-* [6. Melyik JRE Package-ben van benne a System println függvénye?]()
+* [06](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/06/06.MD)
 * [7. Írjon az "err" console-ra ha a hexadecimálisan megjelnített 255 nem egyenlő 0xDE-vel]()
 * [8. Definiáljuk a pi-t egy változóba a main függvényben]()
 * [9. Definiáljunk egy szöveges változót ami a következőt tárolja: "Value of the "pi" approximately: [valueOfPI]" a main függvényben]()
