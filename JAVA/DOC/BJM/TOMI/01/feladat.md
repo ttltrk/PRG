@@ -5,7 +5,7 @@
 
 ---
 
-### Home Work Examples
+### home work examples
 
 ---
 
