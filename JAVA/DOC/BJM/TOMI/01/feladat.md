@@ -19,7 +19,7 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 
 * [01](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/01/01.MD)
 * [02](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/02/02.MD)
-* [3. Jelenítse meg hexadecimálisan a 255-t egy beépített függvény segítségével]()
+* [03](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/03/03.MD)
 * [4. Adjon meg logikai relációt számok között és írassa ki annak eredményét:]()
  - 5 > 3
  - 3 > 3
