@@ -37,6 +37,10 @@
 
 * APR
 
+  * 24 - Tue (DIR: 38)
+  
+    + [Java Junior HW examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/feladat.md)
+
   * 23 - Mon (DIR: 37)
   
     + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 6/9
