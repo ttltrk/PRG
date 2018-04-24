@@ -21,7 +21,7 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 * [02](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/02/02.MD)
 * [03](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/03/03.MD)
 * [04](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/04/04.MD)
-* [5. Minek a rövidítése a JRE és mit jelent? Mi az a JVM?]()
+* [05](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/05/05.MD)
 * [6. Melyik JRE Package-ben van benne a System println függvénye?]()
 * [7. Írjon az "err" console-ra ha a hexadecimálisan megjelnített 255 nem egyenlő 0xDE-vel]()
 * [8. Definiáljuk a pi-t egy változóba a main függvényben]()
