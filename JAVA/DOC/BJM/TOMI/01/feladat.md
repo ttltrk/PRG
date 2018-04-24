@@ -20,16 +20,7 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 * [01](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/01/01.MD)
 * [02](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/02/02.MD)
 * [03](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/03/03.MD)
-* [4. Adjon meg logikai relációt számok között és írassa ki annak eredményét:]()
- - 5 > 3
- - 3 > 3
- - 3 >= 3
- - 1 < 2
- - 8 <= 4
- - 0 != 15
- - 9 == 9
- - 5 == 7
- - Mikor mi az eredmény?
+* [04](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/04/04.MD)
 * [5. Minek a rövidítése a JRE és mit jelent? Mi az a JVM?]()
 * [6. Melyik JRE Package-ben van benne a System println függvénye?]()
 * [7. Írjon az "err" console-ra ha a hexadecimálisan megjelnített 255 nem egyenlő 0xDE-vel]()
