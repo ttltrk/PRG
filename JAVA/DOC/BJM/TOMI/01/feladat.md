@@ -5,6 +5,10 @@
 
 ---
 
+### Home Work Examples
+
+---
+
 Az egyes feladatokhoz tartozó változókat a main függvényben hozza létre!
 
 ---
