@@ -17,7 +17,7 @@ Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban 
 
 ---
 
-* [1. Szabja testre az Eclipse nézetét: Csak a "Console" és az "Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t]()
+* [1. Szabja testre az Eclipse nézetét: Csak a "Console" és az "Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/01/01.MD)
 * [2. Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?]()
 * [3. Jelenítse meg hexadecimálisan a 255-t egy beépített függvény segítségével]()
 * [4. Adjon meg logikai relációt számok között és írassa ki annak eredményét:]()
