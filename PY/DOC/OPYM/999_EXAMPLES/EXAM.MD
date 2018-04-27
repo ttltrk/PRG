@@ -17,7 +17,7 @@ Last
 
 ---
 
-* [Krumpli 1]()
+* [Krumpli 1](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/KRUMPLI/KRUMPLI_01.MD)
 * [Krumpli 2]()
 
 ---
