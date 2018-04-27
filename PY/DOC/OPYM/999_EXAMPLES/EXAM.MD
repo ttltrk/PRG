@@ -17,6 +17,11 @@ Last
 
 ---
 
+* [Krumpli 1]()
+* [Krumpli 2]()
+
+---
+
 Planned
 
 * [Numbers]() 
