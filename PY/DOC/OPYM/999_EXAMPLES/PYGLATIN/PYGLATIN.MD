@@ -22,7 +22,8 @@ else:
     print ('empty')
 
 >>>
-
+Enter a word: def
+efday
 >>>
 ```
 
