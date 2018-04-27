@@ -39,6 +39,12 @@ Advanced
 
 ---
 
+Examples
+
+* [krumpli]()
+
+---
+
 Resources
 
 ---
