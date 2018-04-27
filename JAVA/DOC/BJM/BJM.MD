@@ -41,7 +41,7 @@ Advanced
 
 Examples
 
-* [OOP tervezes es programozas]()
+* [OOP tervezes es programozas](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/EXAMP/OOPT.MD)
 
 ---
 
