@@ -18,7 +18,8 @@ osszesen = letszam * fejadag
 print("A szukseges mennyiseg: ",osszesen, "kg")
 
 >>>
-
+add meg a letszamot:  10
+A szukseges mennyiseg:  4.0 kg
 >>>
 ```
 
