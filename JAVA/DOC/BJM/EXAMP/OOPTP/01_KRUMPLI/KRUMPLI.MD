@@ -5,14 +5,25 @@
 
 ---
 
-### Krumpli
+### Krumpli 1
 
 ---
 
 ```java
+public class Krumpli{
+
+     public static void main(String []args){
+        int letszam = 10;
+        double fejadag = 0.4, osszesen;
+        
+        osszesen = fejadag * letszam;
+        System.out.print("A szukseges mennyiseg: ");
+        System.out.println(letszam+" * "+fejadag+" kg = " +osszesen+ " kg");
+     }
+}
 
 >>>
-
+A szukseges mennyiseg: 10 * 0.4 kg = 4.0 kg
 >>>
 ```
 
