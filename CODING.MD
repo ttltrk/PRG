@@ -40,6 +40,8 @@
   * 27 - Fri (DIR: 41)
   
     + [Java Krumpli 1](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/EXAMP/OOPTP/01_KRUMPLI/KRUMPLI.MD)
+    + [Python Krumpli 1](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/KRUMPLI/KRUMPLI_01.MD)
+    + [Python Krumpli 2](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/KRUMPLI/KRUMPLI_02.MD)
 
   * 26 - Thu (DIR: 40)
   
