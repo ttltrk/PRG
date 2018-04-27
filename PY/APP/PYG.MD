@@ -12,7 +12,10 @@
 Ask the user to enter in a string which will then be printed back to screen in Pig Latin. 
 
     ```word + first letter + pyg```    
-    
-[code](https://repl.it/@ttltrknet/Pyg-Latin)
+
+---
+
+* [code - repl.it](https://repl.it/@ttltrknet/Pyg-Latin)
+* [code - gh](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/PYGLATIN/PYGLATIN.MD)
 
 ---
