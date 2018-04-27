@@ -41,7 +41,7 @@ Advanced
 
 Examples
 
-* [krumpli]()
+* [OOP tervezes es programozas]()
 
 ---
 
