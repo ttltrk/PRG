@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|25|
+|WD|26|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * APR
+
+  * 26 - Thu (DIR: 40)
+  
+    + [Java Junior HW examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/feladat.md)
 
   * 25 - Wed (DIR: 39) 
   
