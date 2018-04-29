@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|
-| x| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x| x|  |  |
 
 |ST|NU|
 |--|--|
-|WD|28|
+|WD|29|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * APR
+
+  * 29 - Wed (DIR: 43) 
+  
+    + [Sololearn Python Exceptions & Files](https://www.sololearn.com/Profile/3771981/Python) 8/9
 
   * 28 - Sat (DIR: 42)
   
