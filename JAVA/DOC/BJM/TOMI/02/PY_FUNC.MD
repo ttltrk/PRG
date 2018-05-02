@@ -10,12 +10,14 @@
 ---
 
 ```python
+#function
 def func(num1, num2):
   if num1 > num2:
     return num1
   else:
     return num2
-    
+
+#print    
 print(func(4, 8))
 
 >>>
@@ -24,15 +26,18 @@ print(func(4, 8))
 ```
 
 ```python
+#variables
 a = 5
 b = 10
 
+#function
 def func(num1, num2):
   if num1 > num2:
     return num1
   else:
     return num2
-    
+
+#print
 print(func(a, b))
 
 >>>
@@ -41,15 +46,18 @@ print(func(a, b))
 ```
 
 ```python
+#variables
 a = 5
 b = 10
 
+#function
 def func(num1, num2):
   if num1 > num2:
     return num1
   else:
     return num2
-    
+
+#print
 print(func(a, 4))
 
 >>>
