@@ -16,13 +16,10 @@ def func(num1, num2):
   else:
     return num2
     
-num1 = 5 
-num2 = 3
-
-print(func(num1, num2))
+print(func(4, 8))
 
 >>>
-5
+8
 >>>
 ```
 
