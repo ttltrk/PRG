@@ -10,7 +10,7 @@
 ---
 
 * [1st meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/1st.md)
-* [2nd meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/FUNC.MD)
+* [2nd meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 
 ---
 
