@@ -9,7 +9,7 @@
 
 ---
 
-* [meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/MEET.MD)
+* [Hello World](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/MEET.MD)
 * [home work examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/feladat.md)
 
 ---
