@@ -24,22 +24,26 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x|  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|  | x| x|  |  |  |  |  |  |  |  |  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD| 1|
+|WD| 2|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
 
+  * 02 - Wed (DIR: 46)
+  
+    + [Java Junior ff meeting 2nd - UPDATE](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
+
   * 01 - Tue (DIR: 45)
   
-    + [Java Junior ff meeting 2nd]()
+    + [Java Junior ff meeting 2nd](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 
 ---
 
