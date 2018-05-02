@@ -9,7 +9,7 @@
 
 ---
 
-* [meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/FUNCTION.MD)
+* [meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/FUNC.MD)
 * [home work examples]()
 
 ---
