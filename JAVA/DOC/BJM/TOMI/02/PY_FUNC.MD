@@ -23,4 +23,38 @@ print(func(4, 8))
 >>>
 ```
 
+```python
+a = 5
+b = 10
+
+def func(num1, num2):
+  if num1 > num2:
+    return num1
+  else:
+    return num2
+    
+print(func(a, b))
+
+>>>
+10
+>>>
+```
+
+```python
+a = 5
+b = 10
+
+def func(num1, num2):
+  if num1 > num2:
+    return num1
+  else:
+    return num2
+    
+print(func(a, 4))
+
+>>>
+5
+>>>
+```
+
 ---
