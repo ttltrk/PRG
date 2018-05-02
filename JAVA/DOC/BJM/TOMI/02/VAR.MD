@@ -11,8 +11,8 @@
 
 ```java
 int a = 1
-Double b = 2.2
-Sgtring c = "abc"
+double b = 2.2
+String c = "abc"
 boolean d = true
 ```
 
