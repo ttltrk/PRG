@@ -39,7 +39,8 @@
 
   * 03 - Thu (DIR: 47)
   
-    + [Java KisOkos]() Access Modifiers
+    + [JV]() Java KisOkosAccess Modifiers
+    + [DB]() PL/SQL basics (hello world, variables)
 
   * 02 - Wed (DIR: 46)
   
