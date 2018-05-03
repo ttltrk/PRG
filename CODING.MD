@@ -41,6 +41,7 @@
   
     + [JV]() Java KisOkosAccess Modifiers
     + [DB]() PL/SQL basics (hello world, variables)
+    + [OS]() UX - man, advanced man commands
 
   * 02 - Wed (DIR: 46)
   
