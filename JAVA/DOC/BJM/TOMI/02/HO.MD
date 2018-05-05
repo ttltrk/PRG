@@ -5,8 +5,25 @@
 
 ---
 
-```
+```java
 1. Definiáljunk egy-egy String változót a vezetéknévnek és a keresztnévnek. Fűzzük össze a két változót egy harmadikba.
+
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        
+		String n1 = "ttl ";
+		String n2 = "trk";
+		String n3 = n1+n2;
+		
+		System.out.println(n3);
+         		  
+  }
+
+}
+```
+
+```
 2. Definiáljunk egy egész típust és adjunk neki értékül egy nem egész számot (pl.: 5,5). Mi történik?
 3. Definiáljunk egy double és egy int típust. A double típus legyen egyenlő az int típusú változó kétszeresével.
 4. A 3. feladatban létrehozott változókat most fordítva használjuk: Az int típusú változó legyen egyenlő a double típus 3,14-szeresével. Mi történik?
