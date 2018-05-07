@@ -10,7 +10,7 @@
 ---
 
 * [Krumpli.java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/EXAMP/OOPTP/01_KRUMPLI/KRUMPLI.MD)
-* [LongToFloat.java]()
+* [LongToFloat.java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/EXAMP/OOPTP/02_LTF/LTF.MD)
 * [Char.java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/EXAMP/OOPTP/03_CHAR/03_CHAR.MD)
 
 ---
