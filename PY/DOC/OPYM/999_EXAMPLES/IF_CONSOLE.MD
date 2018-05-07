@@ -14,17 +14,21 @@
 def dec(var1):
   if (var1  == 100):
     return vd1()
+  elif (var1 == 0):
+    return trailer()
   else: 
     return vd2()
 
-#2nd function  
+#2nd function
 def jan(var2):
   if (var2  == 100):
     return vj1()
+  elif (var2 == 0):
+    return trailer()
   else: 
     return vj2()
-
-#1st called function by function
+    
+#1st called function by function    
 def vd1():
   print("VD1")
 
@@ -39,20 +43,24 @@ def vj1():
 #4th called function by function
 def vj2():
   print("VJ2")
+  
+#function trailer  
+def trailer():
+  print("ZZZZZERO!")
 
 #Console input
 dec(int(input("num?")))
 jan(int(input("num?")))
 
 >>>
-num? 100
-VD1
-num? 22
-VJ2
+num? 0
+ZZZZZERO!
+num? 0
+ZZZZZERO!
 >>>
 
 >>>
-num? 1
+num? 10
 VD2
 num? 100
 VJ1
