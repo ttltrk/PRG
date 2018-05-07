@@ -10,42 +10,51 @@
 ---
 
 ```python
-#function variant 1st
+#1st function
 def dec(var1):
   if (var1  == 100):
-    return vd1
+    return vd1()
   else: 
-    return vd2
-
-#function variant 2nd
+    return vd2()
+#2nd function  
 def jan(var2):
   if (var2  == 100):
-    return vj1
+    return vj1()
   else: 
-    return vj2
+    return vj2()
 
-#variables
-vd1 = "vd1"
-vd2 = "vd2"
-vj1 = "vj1"
-vj2 = "vj2"
+#1st called function by function
+def vd1():
+  print("VD1")
+
+#2nd called function by function
+def vd2():
+  print("VD2")
+
+#3rd called function by function
+def vj1():
+  print("VJ1")
+
+#4th called function by function
+def vj2():
+  print("VJ2")
 
 #Console input
-print(dec(int(input("num?"))))
-print(jan(int(input("num?"))))
+dec(int(input("num?")))
+jan(int(input("num?")))
 
 >>>
 num? 100
-vd1
-num? 100
-vj1
+VD1
+num? 22
+VJ2
 >>>
 
 >>>
-num? 10
-vd2
 num? 1
-vj2
+VD2
+num? 100
+VJ1
 >>>
 ```
 
