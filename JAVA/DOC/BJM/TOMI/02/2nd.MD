@@ -12,6 +12,6 @@
 * [Basic variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/VAR.MD)
 * [JV Function example](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/FUNC.MD)
 * [PY Function example](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/PY_FUNC.MD)
-* [home work examples]()
+* [2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
 
 ---
