@@ -16,6 +16,7 @@ def dec(var1):
     return vd1()
   else: 
     return vd2()
+
 #2nd function  
 def jan(var2):
   if (var2  == 100):
