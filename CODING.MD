@@ -40,6 +40,7 @@
   * 07 - Mon (DIR: 51)
   
     + [Java Basic Syntax](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/03/03_BASICS.MD)
+    + [Python IF_CONSOLE](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/IF_CONSOLE.MD)
     
   * 06 - Sun (DIR: 50)
   
