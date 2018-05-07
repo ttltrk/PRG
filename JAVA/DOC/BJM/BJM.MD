@@ -14,7 +14,7 @@ Basics
 * <a href="https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/01/HOME.MD">Home</a>
 * <a href="https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/02/OVERVIEW.MD">Overview</a>
 * <a href="">Environment Setup</a>
-* <a href="">Basic Syntax</a>
+* [Basic Syntax](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/03/03_BASICS.MD)
 * <a href="">Object & Classes</a>
 * <a href="">Basic Datatypes</a>
 * <a href="">Variable Types</a>
