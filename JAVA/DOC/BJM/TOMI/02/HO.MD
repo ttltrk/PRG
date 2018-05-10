@@ -10,7 +10,8 @@
 ---
 
 ```java
-1. Definiáljunk egy-egy String változót a vezetéknévnek és a keresztnévnek. Fűzzük össze a két változót egy harmadikba.
+1. Definiáljunk egy-egy String változót a vezetéknévnek és a keresztnévnek. 
+Fűzzük össze a két változót egy harmadikba.
 
 package pogrammingPackage;
 public class Programming {
@@ -31,8 +32,32 @@ ttl trk
 >>>
 ```
 
+---
+
+```java
+2. Definiáljunk egy egész típust és adjunk neki értékül egy nem egész számot 
+(pl.: 5,5). Mi történik?
+
+public class HelloWorld{
+     public static void main(String []args){
+         
+         int i = 5.5;
+         
+        System.out.println(i);
+     }
+}
+
+>>>
+HelloWorld.java:5: error: incompatible types: possible lossy conversion from double to int
+         int i = 5.5;
+                 ^
+1 error
+>>>
 ```
-2. Definiáljunk egy egész típust és adjunk neki értékül egy nem egész számot (pl.: 5,5). Mi történik?
+
+---
+
+```
 3. Definiáljunk egy double és egy int típust. A double típus legyen egyenlő az int típusú változó kétszeresével.
 4. A 3. feladatban létrehozott változókat most fordítva használjuk: Az int típusú változó legyen egyenlő a double típus 3,14-szeresével. Mi történik?
 5. Definiáljunk egy függvényt visszatérési érték és bemeneti paraméter nélkül. Írassuk ki vele, hogy "Hello World"
