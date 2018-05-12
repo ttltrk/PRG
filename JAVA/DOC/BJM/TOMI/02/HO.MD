@@ -108,7 +108,26 @@ HelloWorld.java:6: error: incompatible types: possible lossy conversion from dou
 5. Definiáljunk egy függvényt visszatérési érték és bemeneti paraméter nélkül. Írassuk ki vele, hogy "Hello World"
 
 ```java
+package pogrammingPackage;
 
+public class Programming {
+  public static void main(String []args){
+        
+	    String a = "hello world";
+		
+		System.out.println(func_null(a));
+         
+    }
+	
+    private static String func_null(String a) {
+    	return a;	  
+  }
+
+}
+
+>>>
+hello world
+>>>
 ```
 
 ---
