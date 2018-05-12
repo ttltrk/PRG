@@ -174,7 +174,30 @@ public class Programming {
 8. Definiáljon egy átalakító függvényt, ami int típusból String típust csinál. Hogyan néz ki a függvény definíciója (visszatérési érték - függvény név - paraméterek)?
 
 ```java
+package pogrammingPackage;
 
+public class Programming {
+  public static void main(String []args){
+        
+	String number = "10";
+	int result = Integer.parseInt(number);		
+	
+	System.out.println(result);
+	
+  }
+	
+  private static int func(int result) {
+	  return result;
+	  
+	  
+  
+  }
+
+}
+
+>>>
+10
+>>>
 ```
 
 ---
