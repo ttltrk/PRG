@@ -442,23 +442,36 @@ public class Programming {
 11. Definiáljunk egy függvényt ami kiírja a paramétereként kapott számot majd megnöveli azt egyel. Mielőtt a függvény végrehajtása befejeződik, hívja meg saját magát a megnövelt paraméter értékkel. Mi lesz a futás eredménye?
 
 ```java
-public class HelloWorld{
-	public static void main(String []args){
+package pogrammingPackage;
+public class Programming {
+public static void main(String []args){
         
-		int param1 = 10;
+		int p1 = 10;
 		
-		System.out.println(func(param1));
+		func(p1);
          
     }
 	
-    private static int func(int param1) {
-	  return ++param1;
+    private static void func(int param1) {
 	  
+    	System.out.println(++param1);
+    	func(param1);
+    	
         }
-}
+
+	  
+  }
 
 >>>
-6
+10827
+10828
+10829
+10830
+Exception in thread "main" java.lang.StackOverflowError
+	at sun.nio.cs.UTF_8$Encoder.encodeLoop(UTF_8.java:691)
+	at java.nio.charset.CharsetEncoder.encode(CharsetEncoder.java:579)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:271)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
 >>>
 ```
 
