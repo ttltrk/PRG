@@ -233,19 +233,21 @@ hello world
 package pogrammingPackage;
 
 public class Programming {
-  public static void main(String []args){
+public static void main(String []args){
         
 	    String a = "hello world";
 		
-		System.out.println(func_null(a));
+		func_null(a);
          
     }
 	
-    private static String func_null(String a) {
-    	return a;	  
+    private static void func_null(String a) {
+    	System.out.println(a);
+	  
   }
 
 }
+
 
 >>>
 hello world
