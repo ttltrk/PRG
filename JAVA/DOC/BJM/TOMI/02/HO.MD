@@ -385,25 +385,23 @@ no()
 
 ```java
 package pogrammingPackage;
-
 public class Programming {
-  public static void main(String []args){
+	public static void main(String []args){
         
-	String number = "10";
-	int result = Integer.parseInt(number);		
-	
-	System.out.println(result);
-	
-  }
-	
-  private static int func(int result) {
-	  return result;
+		String number = "10";
+		int res = Integer.parseInt(number);		
+		
+		System.out.println(func(res));
+		
+	  }
+		
+	  private static int func(int result) {
+		  return result;
 	  
-	  
-  
   }
 
 }
+
 
 >>>
 10
