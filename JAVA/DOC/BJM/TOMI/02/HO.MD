@@ -287,6 +287,40 @@ public class HelloWorld{
 
 13. Definiáljuk az osztás függvényt, ami 0-val való osztás esetén hibaértéket ad vissza
 
+```python
+p1 = 10
+p2 = 5
+
+def div():
+  if (p1/p2 == 2):
+    print("gut")
+  else:
+    print("err")
+    
+div()
+
+>>>
+gut
+>>>
+```
+
+```python
+p1 = 10
+p2 = 6
+
+def div():
+  if (p1/p2 == 2):
+    print("gut")
+  else:
+    print("err")
+    
+div()
+
+>>>
+err
+>>>
+```
+
 ```java
 
 ```
