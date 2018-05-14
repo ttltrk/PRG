@@ -189,6 +189,28 @@ hello world
 >>>
 ```
 
+```java
+package pogrammingPackage;
+
+public class Programming {
+  public static void main(String []args){
+        
+	  System.out.println(func_null().length());
+	  
+    }
+	
+    private static String func_null() {
+    	return ("hello world");
+	  
+  }
+
+}
+
+>>>
+11
+>>>
+```
+
 ```python 
 #Python result
 
