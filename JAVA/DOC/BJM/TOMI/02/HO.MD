@@ -151,20 +151,20 @@ package pogrammingPackage;
 public class Programming {
   public static void main(String []args){
         
+	  func_null();
 	    
     }
 	
-    private static String func_null() {
-    	System.out.println("hello world");	  
+    private static void func_null() {
+    	System.out.println("hello world");
+	  
   }
 
 }
 
 >>>
-pogrammingPackage/Programming.java:11: error: missing return statement
-  }
-  ^
-1 error>>>
+hello world
+>>>
 ```
 
 ```python 
