@@ -22,6 +22,7 @@ Last Easy
 * [Krumpli 2](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/KRUMPLI/KRUMPLI_02.MD)
 * [Pyg Latin](https://github.com/ttltrk/PRG/blob/master/PY/APP/PYG.MD)
 * [IF_CONSOLE](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/IF_CONSOLE.MD)
+* [FIBO](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/FIBO/FIBO.MD)
 
 ---
 
