@@ -281,6 +281,39 @@ xyz
 >>>
 ```
 
+```java
+package pogrammingPackage;
+
+public class Programming {
+public static void main(String []args){
+        
+	    String a = "hello world";
+	    String b = "xyz";
+		String c = a+b;
+		a = a+b;
+		
+	    System.out.println(a);
+	    func_null(b);
+	    func_null("abc");
+	    func_null(c);
+         
+    }
+	
+    private static void func_null(String param1) {
+    	System.out.println(param1);
+	  
+  }
+
+}
+
+>>>
+hello worldxyz
+xyz
+abc
+hello worldxyz
+>>>
+```
+
 ```python
 #Python result
 a = "hello world"
