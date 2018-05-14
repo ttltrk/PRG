@@ -13,7 +13,7 @@
 Fűzzük össze a két változót egy harmadikba.
 
 ```java
-#Java result
+//Java result
 package pogrammingPackage;
 public class Programming {
 	public static void main(String []args){
@@ -50,7 +50,7 @@ ttl trk
 (pl.: 5,5). Mi történik?
 
 ```java
-#Java result
+//Java result
 public class HelloWorld{
      public static void main(String []args){
          
@@ -73,7 +73,7 @@ HelloWorld.java:5: error: incompatible types: possible lossy conversion from dou
 3. Definiáljunk egy double és egy int típust. A double típus legyen egyenlő az int típusú változó kétszeresével.
 
 ```java
-#Java result
+//Java result
 public class HelloWorld{
 
      public static void main(String []args){
@@ -108,7 +108,7 @@ print(a*b)
 4. A 3. feladatban létrehozott változókat most fordítva használjuk: Az int típusú változó legyen egyenlő a double típus 3,14-szeresével. Mi történik?
 
 ```java
-#Java result
+//Java result
 public class HelloWorld{
 
      public static void main(String []args){
@@ -130,6 +130,7 @@ HelloWorld.java:6: error: incompatible types: possible lossy conversion from dou
 ```
 
 ```python
+#Python result
 a = 10.0
 b = 3.14
 print(a*b)
@@ -144,7 +145,7 @@ print(a*b)
 5. Definiáljunk egy függvényt visszatérési érték és bemeneti paraméter nélkül. Írassuk ki vele, hogy "Hello World"
 
 ```java
-#Java result
+//Java result
 package pogrammingPackage;
 
 public class Programming {
@@ -184,6 +185,7 @@ hello world
 6. Definiáljunk egy kiírató függvényt, aminek nincs visszatérési értéke de egy bemenő String-et vár amit a Println() függvénnyel ki tudunk iratni.
 
 ```java
+//Java result
 package pogrammingPackage;
 
 public class Programming {
@@ -200,6 +202,24 @@ public class Programming {
   }
 
 }
+
+>>>
+hello world
+>>>
+```
+
+```python
+#Python result
+a = "hello world"
+
+def no():
+  print(a)
+  
+no()
+
+>>>
+hello world
+>>>
 ```
 
 ---
@@ -207,6 +227,7 @@ public class Programming {
 7. Legyen egy függvény ami bemenetként 2 számot és egy boolean értéket vár. Ha a boolean igaz, akkor a két számot össszeadni, ha hamis akkor pedig kivonni kell. Hogyan nevezné el a paramétereket, hogy jól olvasható legyen a függvény?
 
 ```java
+//Java result
 package pogrammingPackage;
 
 public class Programming {
@@ -223,7 +244,7 @@ public class Programming {
 	  if (param3 == true)
 	    return param1+param2;
 	  else
-		return param1-param2;	  
+	    return param1-param2;	  
   }
 
 }
@@ -232,6 +253,24 @@ public class Programming {
 1
 >>>
 ```
+
+```python
+#Python result
+a = 20
+b = 4
+c = True
+
+def no():
+  if (c == True):
+    print(a+b)
+  else:
+    print(a-b)
+  
+no()
+
+>>>
+24
+>>>
 
 ---
 
