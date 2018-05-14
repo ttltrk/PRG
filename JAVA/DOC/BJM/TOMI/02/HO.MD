@@ -13,6 +13,7 @@
 Fűzzük össze a két változót egy harmadikba.
 
 ```java
+#Java result
 package pogrammingPackage;
 public class Programming {
 	public static void main(String []args){
@@ -32,12 +33,24 @@ ttl trk
 >>>
 ```
 
+```python
+#Python result
+a = "ttl "
+b = "trk"
+print(a+b)
+
+>>>
+ttl trk
+>>>
+```
+
 ---
 
 2. Definiáljunk egy egész típust és adjunk neki értékül egy nem egész számot 
 (pl.: 5,5). Mi történik?
 
 ```java
+#Java result
 public class HelloWorld{
      public static void main(String []args){
          
@@ -60,6 +73,7 @@ HelloWorld.java:5: error: incompatible types: possible lossy conversion from dou
 3. Definiáljunk egy double és egy int típust. A double típus legyen egyenlő az int típusú változó kétszeresével.
 
 ```java
+#Java result
 public class HelloWorld{
 
      public static void main(String []args){
@@ -78,11 +92,23 @@ public class HelloWorld{
 >>>
 ```
 
+```python
+#Python result
+a = 5
+b = 2.0
+print(a*b)
+
+>>>
+10.0
+>>>
+```
+
 ---
 
 4. A 3. feladatban létrehozott változókat most fordítva használjuk: Az int típusú változó legyen egyenlő a double típus 3,14-szeresével. Mi történik?
 
 ```java
+#Java result
 public class HelloWorld{
 
      public static void main(String []args){
@@ -103,9 +129,59 @@ HelloWorld.java:6: error: incompatible types: possible lossy conversion from dou
 >>>
 ```
 
+```python
+a = 10.0
+b = 3.14
+print(a*b)
+
+>>>
+31.400000000000002
+>>>
+```
+
 ---
 
 5. Definiáljunk egy függvényt visszatérési érték és bemeneti paraméter nélkül. Írassuk ki vele, hogy "Hello World"
+
+```java
+#Java result
+package pogrammingPackage;
+
+public class Programming {
+  public static void main(String []args){
+        
+	    
+    }
+	
+    private static String func_null() {
+    	System.out.println("hello world");	  
+  }
+
+}
+
+>>>
+pogrammingPackage/Programming.java:11: error: missing return statement
+  }
+  ^
+1 error>>>
+```
+
+```python 
+#Python result
+
+def no():
+  print("hello world")
+  
+no()
+
+>>>
+hello world
+>>>
+```
+
+---
+
+6. Definiáljunk egy kiírató függvényt, aminek nincs visszatérési értéke de egy bemenő String-et vár amit a Println() függvénnyel ki tudunk iratni.
 
 ```java
 package pogrammingPackage;
@@ -124,18 +200,6 @@ public class Programming {
   }
 
 }
-
->>>
-hello world
->>>
-```
-
----
-
-6. Definiáljunk egy kiírató függvényt, aminek nincs visszatérési értéke de egy bemenő String-et vár amit a Println() függvénnyel ki tudunk iratni.
-
-```java
-
 ```
 
 ---
