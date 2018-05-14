@@ -234,7 +234,25 @@ public class Programming {
 11. Definiáljunk egy függvényt ami kiírja a paramétereként kapott számot majd megnöveli azt egyel. Mielőtt a függvény végrehajtása befejeződik, hívja meg saját magát a megnövelt paraméter értékkel. Mi lesz a futás eredménye?
 
 ```java
+public class HelloWorld{
+	public static void main(String []args){
+        
+		int param1 = 5;
+		
+		System.out.println(func(param1));
+         
+    }
+	
+    private static int func(int param1) {
+	  return param1+1;
+	  
+        }
 
+}
+
+>>>
+6
+>>>
 ```
 
 ---
