@@ -40,7 +40,8 @@
   * 14 - Mon (DIR: 58)
   
     + [PY: FIBO](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/FIBO/FIBO.MD)
-
+    + [JV: 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
+ 
   * 13 - Sun (DIR: 57)
   
     + [Python flashchecks]()
