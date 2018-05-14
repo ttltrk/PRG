@@ -237,17 +237,16 @@ public class Programming {
 public class HelloWorld{
 	public static void main(String []args){
         
-		int param1 = 5;
+		int param1 = 10;
 		
 		System.out.println(func(param1));
          
     }
 	
     private static int func(int param1) {
-	  return param1+1;
+	  return ++param1;
 	  
         }
-
 }
 
 >>>
