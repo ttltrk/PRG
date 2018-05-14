@@ -322,7 +322,55 @@ err
 ```
 
 ```java
+public class HelloWorld{
+	public static void main(String []args){
+        
+		int param1 = 10;
+		int param2 = param1/0;
+		String param3 = "err";
+		
+		System.out.println(func(param1, param2, param3));
+         
+    }
+	
+    private static int func(int param1, int param2, String param3) {
+	  if (param2 == 0)
+	    return param3;
+	  
+        }
 
+}
+
+>>>
+HelloWorld.java:14: error: incompatible types: String cannot be converted to int
+	    return param3;
+	           ^
+1 error
+>>>
+```
+
+```java
+public class HelloWorld{
+	public static void main(String []args){
+        
+		int param1 = 10;
+		
+		System.out.println(func(param1));
+         
+    }
+	
+    private static int func(int param1) {
+	  return param1/0;
+	  
+        }
+
+}
+
+>>>
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at HelloWorld.func(HelloWorld.java:11)
+	at HelloWorld.main(HelloWorld.java:6)
+>>>
 ```
 
 ---
