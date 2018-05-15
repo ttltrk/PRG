@@ -409,17 +409,20 @@ public class Programming {
 a = 20
 b = 4
 c = True
+d = False
 
-def no():
-  if (c == True):
-    print(a+b)
+def no(p1,p2,p3):
+  if (p3 == True):
+    print(p1+p2)
   else:
-    print(a-b)
+    print(p1-p2)
   
-no()
+no(a,b,c)
+no(a,b,d)
 
 >>>
 24
+16
 >>>
 ```
 
