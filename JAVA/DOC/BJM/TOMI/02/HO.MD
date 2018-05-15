@@ -326,17 +326,17 @@ d = 7
 def pr(par1):
   print(par1)
   
-def pl(par1, par2):
+def ps(par1, par2):
   return (par1+par2)
 
-def min(par1,par2):
+def ms(par1,par2):
   return (par1-par2)
 
 #STDIN
 pr(a)
 pr(b)
-print(pl(c,d))
-print(min(c,d))
+print(ps(c,d))
+print(ms(c,d))
 
 >>>
 hello world
