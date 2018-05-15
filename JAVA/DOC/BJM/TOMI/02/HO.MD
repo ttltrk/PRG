@@ -168,6 +168,32 @@ hello world
 ```
 
 ```java
+public class HelloWorld{
+
+    public static void main(String []args){
+        
+	  func_null();
+	  System.out.println(func_pull());
+	    
+      }
+	
+        private static void func_null() {
+    	  System.out.println("hello world");
+      }
+     
+        private static String func_pull() {
+    	  return ("hw");
+      }
+     
+}
+
+>>>
+hello world
+hw
+>>>
+```
+
+```java
 package pogrammingPackage;
 
 public class Programming {
