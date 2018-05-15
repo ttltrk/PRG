@@ -317,14 +317,29 @@ hello worldxyz
 ```python
 #Python result
 a = "hello world"
+b = "xyz"
+c = 5
+d = 7
 
-def no():
-  print(a)
+def pr(par1):
+  print(par1)
   
-no()
+def pl(par1, par2):
+  return (par1+par2)
+
+def min(par1,par2):
+  return (par1-par2)
+  
+pr(a)
+pr(b)
+print(pl(c,d))
+print(min(c,d))
 
 >>>
 hello world
+xyz
+12
+-2
 >>>
 ```
 
