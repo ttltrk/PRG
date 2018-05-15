@@ -15,7 +15,7 @@ Web
   
     * [reddit](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started)
     * [ULTIMATE](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#python)
-  
+    * [dev](https://dev.to/methodx/the-best-way-to-learn-how-to-code-14lk)
     * [programiz](https://www.programiz.com/python-programming#tutorial)
     * [tutorialspoint.com](https://www.tutorialspoint.com/python3/index.htm)
     
