@@ -39,7 +39,7 @@
 
   * 15 - Tue (DIR: 59)
   
-    + [Udemy courses PY, JV]()
+    + [watching Udemy courses PY, JV, UML]()
 
   * 14 - Mon (DIR: 58)
   
