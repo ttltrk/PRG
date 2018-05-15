@@ -528,11 +528,13 @@ Exception in thread "main" java.lang.StackOverflowError
 
 ```java
 public class HelloWorld{
-	public static void main(String []args){
+
+    public static void main(String []args){
         
-		int param1 = 2, param2 = 3;
+		int a = 2, b = 3, c = 4, d = 5;
 		
-		System.out.println(func(param1, param2));
+		System.out.println(func(a, b));
+		System.out.println(func(d, c));
          
     }
 	
@@ -541,13 +543,13 @@ public class HelloWorld{
 	    return param1;
 	  else
 		return param2;
-		  
     }
-
+     
 }
 
 >>>
 3
+5
 >>>
 ```
 
