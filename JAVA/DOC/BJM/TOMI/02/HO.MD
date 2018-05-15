@@ -358,7 +358,7 @@ def ps(par1, par2):
 def ms(par1,par2):
   return (par1-par2)
 
-#STDIN
+#STDOUT
 pr(a)
 pr(b)
 print(ps(c,d))
