@@ -9,6 +9,6 @@
 
 ---
 
-* [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/BJM.MD)
+* [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/OJM.MD)
 
 ---
