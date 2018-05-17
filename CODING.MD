@@ -46,14 +46,12 @@
   * 16 - Wed (DIR: 60)
   
     + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
-    
       - PY
 
   * 15 - Tue (DIR: 59)
   
     + [JV 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
     + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
-    
       - PY
       - JV 
       - UML 
