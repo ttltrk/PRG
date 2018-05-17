@@ -12,7 +12,7 @@
 * [01 - Intro]()
 * [02 - Setup]()
 * [03 - First Steps]()
-* [04 - Variables, Datatypes and Operators]()
+* [04 - Variables, Datatypes and Operators](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/UDEMY/JVMASTERCL/SEC4/04.MD)
 * []()
 * []()
 * []()
