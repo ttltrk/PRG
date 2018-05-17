@@ -22,6 +22,7 @@
 ---
 
 * [Unix](https://github.com/ttltrk/ELSE/blob/master/SHELL/OUM/OUM.MD)
+* [RPI](https://github.com/ttltrk/ELSE/blob/master/RPI/BMRPI/BMRPI.MD)
 * [Shell Scripts]()
 
 ---
