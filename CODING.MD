@@ -26,18 +26,22 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x| x|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|16|
+|WD|17|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
 
-  * 16 _ Wed (DIR: 60)
+  * 17 - Thu (DIR: 61)
+  
+    + [Java Variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/UDEMY/JVMASTERCL/SEC4/L16.MD)
+
+  * 16 - Wed (DIR: 60)
   
     + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
     
