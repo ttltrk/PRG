@@ -11,8 +11,10 @@
 
 ---
 
-* [1st meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/1st.md)
-* [2nd meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
+Meetings
+
+* [1st](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/1st.md)
+* [2nd-3rd](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 
 ---
 
