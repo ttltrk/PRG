@@ -9,6 +9,6 @@
 
 ---
 
-* [Udemy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/BJM.MD)
+* [Udemy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/UDEMY.MD)
 
 ---
