@@ -40,6 +40,8 @@
   * 17 - Thu (DIR: 61)
   
     + [Java Variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/UDEMY/JVMASTERCL/SEC4/L16.MD)
+    + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+      - UML
 
   * 16 - Wed (DIR: 60)
   
