@@ -39,7 +39,7 @@
 
 * Complete Python Masterclass
 
-  + [man]()
+  + [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/PYMASCL.MD)
   + [course](https://www.udemy.com/python-the-complete-python-developer-course/learn/v4/overview)
   
 ---  
