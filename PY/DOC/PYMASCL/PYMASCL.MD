@@ -13,9 +13,9 @@
 
 * [01 - Intro]()
 * [02 - Setup]()
-* [03 - First Steps]()
-* [04 - Variables, Datatypes and Operators](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/UDEMY/JVMASTERCL/SEC4/04.MD)
-* []()
+* [03 - Setup]()
+* [04 - Setup]()
+* [05 - The Basics of Python]()
 * []()
 * []()
 * []()
