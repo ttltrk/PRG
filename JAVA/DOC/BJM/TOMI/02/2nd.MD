@@ -5,7 +5,7 @@
 
 ---
 
-### 2nd meeting
+### 2nd and 3rd meeting
 
 ---
 
