@@ -16,7 +16,7 @@
 
 * [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSM.MD)
 * [PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/OPSM/OPSM.MD)
-* [PostgreSQL]()
+* [PostgreSQL](https://github.com/ttltrk/DB/blob/master/POSTGRESQL/OPSM/OPSM.MD)
 * [Oracle]()
 
 ---
