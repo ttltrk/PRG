@@ -26,7 +26,7 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x| x| x| x|  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
@@ -36,6 +36,11 @@
 <a href='#NAV'>NAV</a>
 
 * MAY
+
+  * 19 - Sat (DIR: 63)
+  
+    + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+      - Java
 
   * 18 - Fri (DIR: 62)
   
