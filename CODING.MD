@@ -39,8 +39,9 @@
 
   * 22 - Tue (DIR: 66)
   
-    + [Python quiz](https://www.udemy.com/python-the-complete-python-developer-course/learn/v4/t/quiz/4428208)
-
+    + [Python quiz - print 1](https://www.udemy.com/python-the-complete-python-developer-course/learn/v4/t/quiz/4428208)
+    + [Python quiz - print 2](https://www.udemy.com/python-the-complete-python-developer-course/learn/v4/t/quiz/4428210)
+    
   * 21 - Mon (DIR: 65)
   
     + [Getting to know Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/23/23.MD)
