@@ -9,7 +9,7 @@
 
 ---
 
-* [Python](https://github.com/ttltrk/PRG/blob/master/PY/APP/APPS_PY.MD)
+* [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/999_EXAMPLES/EXAM.MD)
 * [PL/SQL](#)
 * [SQL](#)
 * [UX](#)
