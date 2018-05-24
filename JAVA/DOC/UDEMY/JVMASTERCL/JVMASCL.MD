@@ -22,7 +22,7 @@
 * [09 - Arrays, Java Inbuilt Lists, Autoboxing and Unboxing]()
 * [10 - Inner and Abstract Classes & Interfaces]()
 * [11 - Java Generics]()
-* [12]()
+* [12 - Naming Conventions and Packages. static and final keywords]()
 * [13]()
 * [14]()
 * [15]()
