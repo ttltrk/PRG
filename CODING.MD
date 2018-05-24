@@ -40,6 +40,7 @@
   * 24 - Thu (DIR: 68)
   
     + [Understanding more about Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/24/24.MD)
+    + [Python quiz - print tab](https://www.udemy.com/python-the-complete-python-developer-course/learn/v4/t/quiz/4428222)
 
   * 23 - Wed (DIR: 67)
   
