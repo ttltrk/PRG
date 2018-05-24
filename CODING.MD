@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|23|
+|WD|24|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
+
+  * 24 - Thu (DIR: 68)
+  
+    + [Understanding more about Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/24/24.MD)
 
   * 23 - Wed (DIR: 67)
   
