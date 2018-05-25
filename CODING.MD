@@ -26,16 +26,21 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|24|
+|WD|25|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
+
+  * 25 - Fri (DIR: 69)
+  
+    + [Storing items in variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/25/25.MD)
+    + [Python quiz - integer division](https://www.udemy.com/python-the-complete-python-developer-course/learn/v4/t/quiz/4428350)
 
   * 24 - Thu (DIR: 68)
   
