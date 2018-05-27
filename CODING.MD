@@ -26,16 +26,21 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|26|
+|WD|27|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
+
+  * 27 - Sun (DIR: 71)
+  
+    + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+      - Python
 
   * 26 - Sat (DIR: 70)
   
