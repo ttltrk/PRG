@@ -903,6 +903,15 @@ NR
 
 ```
 
+```python
+lst = range(1,101)
+print(sum(lst))
+
+>>>
+5050
+>>>
+```
+
 ---
 
 22. Számolja ki a Fibonacci-számsorozat első X elemét egyetlen függvény segítségével. A számsorozat első két eleme ismert: 0 és 1 
