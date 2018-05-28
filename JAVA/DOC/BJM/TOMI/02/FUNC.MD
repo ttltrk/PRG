@@ -16,9 +16,9 @@ package pogrammingPackage;
 public class Programming {
 	public static void main(String []args){
         
-		int param1 = 2, param2 = 3;
+		int a = 2, b = 3;
 		
-		System.out.println(func(param1, param2));
+		System.out.println(func(a, b));
          
      }
 	
