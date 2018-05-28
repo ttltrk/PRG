@@ -681,10 +681,32 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 		- NOT: boolean getNotLogicResult(boolean a);
 ```
 
-NR
+NR !!!
 
 ```java
+public class Programming {
+  public static void main(String []args){
+      
+      int elso = 1;
+      int masodik = 2;
+      int harmadik = 3;
+      int negyedik = 4;
+      
+	  getAndLogicResult(elso, masodik, harmadik);
 
+    }
+	
+    private static boolean getAndLogicResult(boolean a, boolean b, boolean c) {
+    	if ((b > a) AND (a<c)) == true;
+    	  System.out.println("true");
+    	else
+    	  System.out.println("false");
+    	
+	  
+  }
+  
+    
+}
 ```
 
 ---
