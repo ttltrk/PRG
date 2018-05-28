@@ -885,6 +885,10 @@ NR
 		}
 	Milyen visszajelzést ad az Eclipse? Miért?
 
+>>>
+The literal 4294967299 of type int is out of range 
+>>>
+
 ```
 
 ---
