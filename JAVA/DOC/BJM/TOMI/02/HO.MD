@@ -745,33 +745,35 @@ public class Programming {
 NR !!
 
 ```java
+package pogrammingPackage;
 public class Programming {
-  public static void main(String []args){
-      
-      char test = "test";
-      int limit_1 = 3;
-      int limit_2 = 5;
+	  public static void main(String []args){
+	      
+	      String test = "test";
+	      int limit_1 = 3;
+	      int limit_2 = 5;
 
-      
-	  countLetters(test, limit_1);
-	  countLetters(test, limit_2);
+	      
+		  countLetters(test, limit_1);
+		  countLetters(test, limit_2);
 
-    }
-	
-    private static boolean countLetters(char param1, int param2) {
-    	if (param1 > param2)
-    	  System.out.println("ok");
-    	else
-    	  System.out.println("not ok");
-    	
+	    }
+		
+	    private static void countLetters(String param1, int param2) {
+	    	
+	    	if (param1.length() > param2)
+	    	  System.out.println("ok");
+	    	else
+	    	  System.out.println("not ok");
+	    	
+		  
+	  }
 	  
-  }
-  
-    
-}
-
+	    
+	}
 >>>
-
+ok
+not ok
 >>>
 ```
 
