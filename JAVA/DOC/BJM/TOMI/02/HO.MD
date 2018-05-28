@@ -697,7 +697,12 @@ NR
 ---
 
 16. Implementáljuk le az osztályozó függvényt, ami bemenetként 4 paramétert vár az alábbi szintaxissal:
-		/**
+
+NR
+
+```java
+
+/**
 		 * 
 		 * @param lowerPointOfHighLevel
 		 * 		If this point has achieved, then the Skill Level is High
@@ -715,13 +720,13 @@ NR
 		 */
 		static int getSkillLevel(int minPointOfHighLevel, int minPointOfMidLevel, int minPointOfLowLevel, int actualPoint); 
 
-```java
-
 ```
 
 ---
 
 17. Implementáljon egy függvényt ami a bemeneti paraméterről eldönti, hogy páros-e vagy páratlan és az eredményt írja ki a képernyőre.
+
+NR
 
 ```java
 
@@ -730,6 +735,10 @@ NR
 ---
 
 18. Mi lesz a program futásának eredménye?
+
+NR
+
+```java
 		public static void main(String[] args)
 		{	
 			String s1 = "Computer Science";
@@ -746,26 +755,35 @@ NR
 			System.out.println("s5: " + s5);
 		}
 
-```java
-
+>>>
+s1: Computer Science
+s2: Computer Science 307
+s3: cience 
+s4: is fun
+s5: Computer Science 307is fun
+>>>
 ```
 
 ---
 
 19. Hozzuk létre az alábbi függvényt:
+
+NR
+
+```java
 		static int getResult()
 		{
 			return (4294967300);
 		}
 	Milyen visszajelzést ad az Eclipse? Miért?
 
-```java
-
 ```
 
 ---
 
 20. Készítsük el a void swap(int number1, int number2) függvényt ami megcseréli a két paraméter értékét. Írassa ki az eredeti és az új értékeit is a paramétereknek.
+
+NR
 
 ```java
 
@@ -774,6 +792,10 @@ NR
 ---
 
 21. Számoljuk ki a számok összegét 1-től 100-ig, úgy, hogy csupán egyetlen függvényt használjunk fel az összegzéshez, ami az alábbi szintaxissal rendelkezik:
+
+NR
+
+```java
 		/**
 		 * @param number1
 		 * 		First number in the summary
@@ -783,7 +805,6 @@ NR
 		public int summary(int number1);
 	Ne adja össze a számokat egyesével!
 
-```java
 
 ```
 
@@ -819,6 +840,8 @@ package pogrammingPackage;
 
 23. Ha egy falu népessége jelenleg X és minden évben Y%-al csökken a népesség, akkor mikorra fog teljesen elnéptelenedni a falu? Implmenetáljon erre egy algoritmust.
 
+NR
+
 ```java
 
 ```
@@ -826,6 +849,8 @@ package pogrammingPackage;
 ---
 
 24. Definiáljuk a swap() függvényt. Hozzunk létre két változót a main()-ben, majd hívjuk meg a swap() függvényt majd a swap() függvény lefutása után a main() függvényben ellenőrizzük le a két változó értékét. Mit látunk? Magyarázza meg az eredményt!
+
+NR
 
 ```java
 
