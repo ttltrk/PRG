@@ -674,9 +674,12 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 ---
 
 14. Implementáljuk az alábbi függvények tartalmát, hogy minden változó kombinációra helyes értéket adjon vissza:
+
+```
 		- AND: boolean getAndLogicResult(boolean a, boolean b, boolean c);
 		- OR: boolean getOrLogicResult(boolean a, boolean b, boolean c, boolean d);
 		- NOT: boolean getNotLogicResult(boolean a);
+```
 
 NR
 
@@ -729,7 +732,32 @@ NR
 NR
 
 ```java
+public class Programming {
+  public static void main(String []args){
+      
+      int a = 1;
+      int b = 2;
+        
+	  func_par_par(a);
+	  func_par_par(b);
+	    
+    }
+	
+    private static void func_par_par(int num) {
+    	if ((num%2)==0)
+    	  System.out.println("paros");
+    	else
+    	  System.out.println("paratlan");
+    	
+	  
+  }
 
+}
+
+>>>
+paratlan
+paros
+>>>
 ```
 
 ---
