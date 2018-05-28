@@ -860,10 +860,28 @@ NR
 
 20. Készítsük el a void swap(int number1, int number2) függvényt ami megcseréli a két paraméter értékét. Írassa ki az eredeti és az új értékeit is a paramétereknek.
 
-NR
+NR !!
 
 ```java
+public class Programming {
+  public static void main(String []args){
+      
+      int a = 1;
+      int b = 2;
 
+      
+	  countLetters(a);
+	  
+    }
+	
+    private static void swap(int number1, int number2) {
+      return number1;
+      
+	  
+  }
+  
+    
+}
 ```
 
 ---
