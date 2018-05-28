@@ -475,22 +475,30 @@ NR
 	Javítsa ki!
 
 ```java
+package pogrammingPackage;
 public class Programming {
+	
 	public static void main(String []args){
+		
+		String a = "a";
         
-	  getLengthOfString(int whatIsLength)
+	  System.out.println(getLengthOfString(a));
 		
 	  }
 		
-	  private static void getLengthOfString(int whatIsLength)
+	  private static int getLengthOfString(String WhatIsLength)
 	
 	{
 		int whatIsLength = 0;
-		WhatIsLength = WhatIsLength.length();
+		whatIsLength = WhatIsLength.length();
 		return whatIsLength;
 	}
 
 }
+
+>>>
+1
+>>>
 ```
 
 ---
