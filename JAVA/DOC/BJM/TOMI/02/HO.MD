@@ -898,25 +898,37 @@ The literal 4294967299 of type int is out of range
 NR !!
 
 ```java
+package pogrammingPackage;
 public class Programming {
-  public static void main(String []args){
-      
-      int a = 1;
-      int b = 2;
+	  public static void main(String []args){
+	      
+	      int a = 1;
+	      int b = 2;
+	      
 
-      
-	  countLetters(a);
+	      
+		  swap(a, b);
+		  
+	    }
+		
+	    private static void swap(int number1, int number2) {
+	      int number3 = 0;
+	      System.out.println(number1 + " " + number2);
+	      number3 = number1;
+	      number1 = number2;
+	      number2 = number3;
+	      System.out.println(number1 + " " + number2);
+	      
+		  
+	  }
 	  
-    }
+	    
+	}
 	
-    private static void swap(int number1, int number2) {
-      return number1;
-      
-	  
-  }
-  
-    
-}
+>>>
+1 2
+2 1
+>>>
 ```
 
 ---
