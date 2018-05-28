@@ -517,7 +517,28 @@ NR
 ```
 
 ```java
+package pogrammingPackage;
+public class Programming {
+	
+	public static void main(String []args){
+		
+        
+		System.out.println(whatIsTheRetVal());
+		
+	  }
+		
+	static int whatIsTheRetVal()
+	{
+		int calculatedIntResult = 2;
+		++calculatedIntResult;
+		return calculatedIntResult++;
+	}
+	
+}
 
+>>>
+3
+>>>
 ```
 
 ---
