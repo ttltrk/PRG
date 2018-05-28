@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|27|
+|WD|28|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
+
+  * 28 - Mon (DIR: 72)
+  
+    + [Java 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
 
   * 27 - Sun (DIR: 71)
   
