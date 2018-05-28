@@ -460,27 +460,53 @@ public class Programming {
 ---
 
 9. Mi a baj a következő függvénnyel?
+
+NR
+!!
+
+```java
 	private static void getLengthOfString(String whatIsLength)
 	{
 		int whatIsLength = 0;
 		WhatIsLength = WhatIsLength.length();
 		return whatIsLength;
 	}
+```
 	Javítsa ki!
 
 ```java
+public class Programming {
+	public static void main(String []args){
+        
+	  getLengthOfString(int whatIsLength)
+		
+	  }
+		
+	  private static void getLengthOfString(int whatIsLength)
+	
+	{
+		int whatIsLength = 0;
+		WhatIsLength = WhatIsLength.length();
+		return whatIsLength;
+	}
 
+}
 ```
 
 ---
 
 10. Mi lesz a kimenete a következő függvénynek:
+
+NR
+
+```java
 		static int whatIsTheRetVal()
 		{
 			calculatedIntResult = 2;
 			++calculatedIntResult;
 			return calculatedIntResult++;
 		}
+```
 
 ```java
 
@@ -652,6 +678,8 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 		- OR: boolean getOrLogicResult(boolean a, boolean b, boolean c, boolean d);
 		- NOT: boolean getNotLogicResult(boolean a);
 
+NR
+
 ```java
 
 ```
@@ -659,6 +687,8 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 ---
 
 15. Hozzunk létre egy függvényt, ami meghatározza, hogy a paraméterként kapott szöveg, hosszabb-e mint a második paraméterként megkapott limit.
+
+NR
 
 ```java
 
