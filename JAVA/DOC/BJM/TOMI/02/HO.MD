@@ -11,12 +11,12 @@
 
 ---
 
-* [01](2 String osszefuzese)
-* [02]()
-* [03]()
-* [04]()
-* [05]()
-* [06]()
+* [01 - 2 String osszefuzese]()
+* [02 - int es double osszefuzese]()
+* [03 - double int muveletek 1]()
+* [04 - double int muveletek 2]()
+* [05 - fuggveny hello world]()
+* [06 - fuggveny kiiratasa]()
 * [07]()
 * [08]()
 * [09]()
