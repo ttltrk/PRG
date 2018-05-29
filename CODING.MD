@@ -51,6 +51,7 @@
   
     + [Java 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
     + [More About Variables and Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/26/26.MD)
+    + [shell scripting](https://github.com/ttltrk/ELSE/blob/master/M/FILE/FILE.MD)
     
   * 28 - Mon (DIR: 72)
   
