@@ -50,7 +50,8 @@
   * 29 - Mon (DIR: 73)
   
     + [Java 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
-
+    + [More About Variables and Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/26/26.MD)
+    
   * 28 - Mon (DIR: 72)
   
     + [Java 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
