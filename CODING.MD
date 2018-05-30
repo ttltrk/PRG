@@ -36,18 +36,22 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x| x| x| x|  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x|  |
 
 |ST|NU|
 |--|--|
-|WD|29|
+|WD|30|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
 
-  * 29 - Mon (DIR: 73)
+  * 30 - Wed (DIR: 74)
+  
+    + [String formatting](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/27/27.MD)
+
+  * 29 - Tue (DIR: 73)
   
     + [Java 2nd HO](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/HO.MD)
     + [More About Variables and Strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/26/26.MD)
