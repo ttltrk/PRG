@@ -36,16 +36,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x|  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x|
 
 |ST|NU|
 |--|--|
-|WD|30|
+|WD|31|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * MAY
+
+  * 31 - Thu (DIR: 75)
+  
+    + [String formatting](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/27/27.MD)
 
   * 30 - Wed (DIR: 74)
   
