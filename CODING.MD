@@ -50,6 +50,7 @@
   * 31 - Thu (DIR: 75)
   
     + [String formatting](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYMASCL/05/27/27.MD)
+    + [shell overview](https://github.com/ttltrk/ELSE/blob/master/SHELL/UDEMY_SH_SCR.MD)
 
   * 30 - Wed (DIR: 74)
   
