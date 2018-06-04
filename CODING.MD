@@ -50,7 +50,7 @@
 
   * 04 - Mon (DIR: 79)
   
-    + []()
+    + [ss - functions](https://github.com/ttltrk/ELSE/blob/master/SHELL/SH_SCR/04/10/01.MD)
   
   * 03 - Sun (DIR: 78)
   
