@@ -30,6 +30,42 @@
 
 ---
 
+
+### <h4 id='2018_06'>2018 - JUN</h4>
+
+|F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|  | x| x| x| x|  |  |  |  |  |  |  |  |  |  |  | 
+|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+|ST|NU|
+|--|--|
+|WD| 4|
+|RD| 0|
+
+<a href='#NAV'>NAV</a>
+
+* JUN
+
+  * 04 - Mon (DIR: 79)
+  
+    + []()
+  
+  * 03 - Sun (DIR: 78)
+  
+    + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+  
+  * 02 - Sat (DIR: 77)
+  
+    + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+  
+  * 01 - Fri (DIR: 76)
+    
+    + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+  
+---
+
 ### <h4 id='2018_05'>2018 - MAY</h4>
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
