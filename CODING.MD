@@ -48,6 +48,10 @@
 
 * JUN
 
+  * 05 - Tue (DIR: 80)
+
+     + [watching Udemy courses](https://www.udemy.com/home/my-courses/learning/)
+
   * 04 - Mon (DIR: 79)
   
     + [ss - functions](https://github.com/ttltrk/ELSE/blob/master/SHELL/SH_SCR/04/10/01.MD)
