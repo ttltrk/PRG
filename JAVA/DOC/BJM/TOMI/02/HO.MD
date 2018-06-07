@@ -39,30 +39,6 @@
 
 ---
 
-2. Definiáljunk egy egész típust és adjunk neki értékül egy nem egész számot 
-(pl.: 5,5). Mi történik?
-
-```java
-//Java result
-public class HelloWorld{
-     public static void main(String []args){
-         
-         int i = 5.5;
-         
-        System.out.println(i);
-     }
-}
-
->>>
-HelloWorld.java:5: error: incompatible types: possible lossy conversion from double to int
-         int i = 5.5;
-                 ^
-1 error
->>>
-```
-
----
-
 3. Definiáljunk egy double és egy int típust. A double típus legyen egyenlő az int típusú változó kétszeresével.
 
 ```java
