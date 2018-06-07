@@ -39,43 +39,6 @@
 
 ---
 
-4. A 3. feladatban létrehozott változókat most fordítva használjuk: Az int típusú változó legyen egyenlő a double típus 3,14-szeresével. Mi történik?
-
-```java
-//Java result
-public class HelloWorld{
-
-     public static void main(String []args){
-         
-        double d = 10.0;
-        int i = 3.14*d;
-        
-        System.out.println(i);
-        System.out.println(d);
-     }
-}
-
->>>
-HelloWorld.java:6: error: incompatible types: possible lossy conversion from double to int
-        int i = 3.14*d;
-                    ^
-1 error
->>>
-```
-
-```python
-#Python result
-a = 10.0
-b = 3.14
-print(a*b)
-
->>>
-31.400000000000002
->>>
-```
-
----
-
 5. Definiáljunk egy függvényt visszatérési érték és bemeneti paraméter nélkül. Írassuk ki vele, hogy "Hello World"
 
 ```java
