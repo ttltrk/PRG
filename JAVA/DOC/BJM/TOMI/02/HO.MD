@@ -39,46 +39,6 @@
 
 ---
 
-10. Mi lesz a kimenete a következő függvénynek:
-
-NR
-
-```java
-		static int whatIsTheRetVal()
-		{
-			calculatedIntResult = 2;
-			++calculatedIntResult;
-			return calculatedIntResult++;
-		}
-```
-
-```java
-package pogrammingPackage;
-public class Programming {
-	
-	public static void main(String []args){
-		
-        
-		System.out.println(whatIsTheRetVal());
-		
-	  }
-		
-	static int whatIsTheRetVal()
-	{
-		int calculatedIntResult = 2;
-		++calculatedIntResult;
-		return calculatedIntResult++;
-	}
-	
-}
-
->>>
-3
->>>
-```
-
----
-
 11. Definiáljunk egy függvényt ami kiírja a paramétereként kapott számot majd megnöveli azt egyel. Mielőtt a függvény végrehajtása befejeződik, hívja meg saját magát a megnövelt paraméter értékkel. Mi lesz a futás eredménye?
 
 ```java
