@@ -39,37 +39,6 @@
 
 ---
 
-12. Definiáljunk egy függvényt ami visszaadja a 2 paramétere közül a nagyobbat.
-
-```java
-public class HelloWorld{
-
-    public static void main(String []args){
-        
-		int a = 2, b = 3, c = 4, d = 5;
-		
-		System.out.println(func(a, b));
-		System.out.println(func(d, c));
-         
-    }
-	
-    private static int func(int param1, int param2) {
-	  if (param1 > param2)
-	    return param1;
-	  else
-		return param2;
-    }
-     
-}
-
->>>
-3
-5
->>>
-```
-
----
-
 13. Definiáljuk az osztás függvényt, ami 0-val való osztás esetén hibaértéket ad vissza
 
 ```python
