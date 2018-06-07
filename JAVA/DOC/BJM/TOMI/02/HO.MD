@@ -39,50 +39,6 @@
 
 ---
 
-9. Mi a baj a következő függvénnyel?
-
-NR
-!!
-
-```java
-	private static void getLengthOfString(String whatIsLength)
-	{
-		int whatIsLength = 0;
-		WhatIsLength = WhatIsLength.length();
-		return whatIsLength;
-	}
-```
-	Javítsa ki!
-
-```java
-package pogrammingPackage;
-public class Programming {
-	
-	public static void main(String []args){
-		
-		String a = "a";
-        
-	  System.out.println(getLengthOfString(a));
-		
-	  }
-		
-	  private static int getLengthOfString(String WhatIsLength)
-	
-	{
-		int whatIsLength = 0;
-		whatIsLength = WhatIsLength.length();
-		return whatIsLength;
-	}
-
-}
-
->>>
-1
->>>
-```
-
----
-
 10. Mi lesz a kimenete a következő függvénynek:
 
 NR
