@@ -39,44 +39,6 @@
 
 ---
 
-11. Definiáljunk egy függvényt ami kiírja a paramétereként kapott számot majd megnöveli azt egyel. Mielőtt a függvény végrehajtása befejeződik, hívja meg saját magát a megnövelt paraméter értékkel. Mi lesz a futás eredménye?
-
-```java
-package pogrammingPackage;
-public class Programming {
-public static void main(String []args){
-        
-		int p1 = 10;
-		
-		func(p1);
-         
-    }
-	
-    private static void func(int param1) {
-	  
-    	System.out.println(++param1);
-    	func(param1);
-    	
-        }
-
-	  
-  }
-
->>>
-10827
-10828
-10829
-10830
-Exception in thread "main" java.lang.StackOverflowError
-	at sun.nio.cs.UTF_8$Encoder.encodeLoop(UTF_8.java:691)
-	at java.nio.charset.CharsetEncoder.encode(CharsetEncoder.java:579)
-	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:271)
-	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
->>>
-```
-
----
-
 12. Definiáljunk egy függvényt ami visszaadja a 2 paramétere közül a nagyobbat.
 
 ```java
