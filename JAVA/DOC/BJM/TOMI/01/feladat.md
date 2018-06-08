@@ -11,11 +11,6 @@
 
 ---
 
-* Az egyes feladatokhoz tartozó változókat a main függvényben hozza létre!
-* Az egyes feladatokhoz tartozó függvényeket a main függvénnyel egy fájlban hozza létre STATIC kulcsszóval!
-
----
-
 * [01](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/01/01.MD)
 * [02](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/02/02.MD)
 * [03](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/EX/03/03.MD)
