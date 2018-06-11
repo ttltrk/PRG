@@ -24,7 +24,7 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x|  |  |  |  |  |  |  | 
+|  | x| x| x| x| x| x| x| x| x| x|  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -36,6 +36,14 @@
 <a href='#NAV'>NAV</a>
 
 * JUN
+
+  * 10 - Sun (DIR: 85)
+  
+    + [watching Udemy courses about ss](https://www.udemy.com/home/my-courses/learning/)
+
+  * 09 - Sat (DIR: 84)
+  
+    + [watching Udemy courses about ss](https://www.udemy.com/home/my-courses/learning/)
 
   * 08 - Fri (DIR: 83)
   
