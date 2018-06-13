@@ -24,18 +24,30 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x|  |  |  |  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x|  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD| 8|
+|WD|13|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUN
+
+  * 13 - Wed (DIR: 88)
+
+    + [Java examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/05/05.MD)
+
+  * 12 - Tue (DIR: 87)
+  
+    + [watching Udemy courses about ss](https://www.udemy.com/home/my-courses/learning/)
+
+  * 11 - Mon (DIR: 86)
+
+    + [watching Udemy courses about ss](https://www.udemy.com/home/my-courses/learning/)
 
   * 10 - Sun (DIR: 85)
   
