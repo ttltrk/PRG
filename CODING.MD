@@ -24,18 +24,26 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x| x| x| x|  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|13|
+|WD|15|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUN
+
+  * 15 - Fri (DIR: 90)
+
+    + [Java examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/05/05.MD)
+
+  * 14 - Thu (DIR: 89)
+
+    + [Java examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/05/05.MD)
 
   * 13 - Wed (DIR: 88)
 
