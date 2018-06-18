@@ -39,7 +39,7 @@
 
   * 18 - Mon (DIR: 93)
   
-    + [Java examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
+    + [Java examples 6th meeting](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
 
   * 17 - Sun (DIR: 92)
   
