@@ -40,13 +40,13 @@ amíg a ciklusnak megadott feltétel IGAZ! értéket ad vissza.
 Két fajta ciklus létezik és azon belül összesen három:
 
 ```
-a) Elől tesztelő ciklus ```-->``` A feltétel ellenőrzése a lefutás előtt megtörténik.
+a) Elől tesztelő ciklus - A feltétel ellenőrzése a lefutás előtt megtörténik.
 I. FOR Ciklus
 II. WHILE Ciklus
 ```
 
 ```
-b) Hátul tesztelő ciklus ```-->``` A feltétel ellenőrzése csak a lefutás után történik meg, tehát egyszer biztosan lefut!
+b) Hátul tesztelő ciklus - A feltétel ellenőrzése csak a lefutás után történik meg, tehát egyszer biztosan lefut!
 III. DO_WHILE Ciklus
 ```
 
@@ -55,9 +55,9 @@ III. DO_WHILE Ciklus
 A FOR Ciklus áll a legközelebb a fenti példához, a számokkal való Ciklusokhoz. Ehhez nyelvi segítséget is kapunk, három részből áll:
 
 ```
-a) INICIALIZÁCIÓ  Ciklusváltozó kezdőértékének beállítása. Csak egyszer fut le!
-b) FELTÉTEL  A Feltételvizsgálat. A ciklus addig tart, amíg a feltétel IGAZ!
-c) FRISSÍTÉS  Megadott változók értékének változtatása, minden újabb ciklus előtt.
+a) INICIALIZÁCIÓ - Ciklusváltozó kezdőértékének beállítása. Csak egyszer fut le!
+b) FELTÉTEL - A Feltételvizsgálat. A ciklus addig tart, amíg a feltétel IGAZ!
+c) FRISSÍTÉS - Megadott változók értékének változtatása, minden újabb ciklus előtt.
 ```
 
 ```java
