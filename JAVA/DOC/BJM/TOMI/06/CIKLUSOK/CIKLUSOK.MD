@@ -32,39 +32,71 @@ b) Utolsó szám: 10000
 c) Lépésköz: 2
 ```
 
-A jó hír, hogy már mások is észrevették ezt a nehézséget, ezért létre is hoztak erre egy nyelvi elemet. Sőt rögtön létrehoztak még kettőt, hogy több esetet tudjanak lefedni.
-A fenti formulát kicsit azonban átalakították, hogy ne csak számokra működjön a dolog. Az új megközelítésben egy ciklus addig működik, amíg a ciklusnak megadott feltétel IGAZ! értéket ad vissza.
+A jó hír, hogy már mások is észrevették ezt a nehézséget, ezért létre is hoztak erre egy nyelvi elemet. Sőt rögtön létrehoztak még kettőt, 
+hogy több esetet tudjanak lefedni.
+A fenti formulát kicsit azonban átalakították, hogy ne csak számokra működjön a dolog. Az új megközelítésben egy ciklus addig működik, 
+amíg a ciklusnak megadott feltétel IGAZ! értéket ad vissza.
+
 Két fajta ciklus létezik és azon belül összesen három:
-a) Elől tesztelő ciklus  A feltétel ellenőrzése a lefutás előtt megtörténik.
+
+```
+a) Elől tesztelő ciklus ```-->``` A feltétel ellenőrzése a lefutás előtt megtörténik.
 I. FOR Ciklus
 II. WHILE Ciklus
-b) Hátul tesztelő ciklus  A feltétel ellenőrzése csak a lefutás után történik meg, tehát egyszer biztosan lefut!
+```
+
+```
+b) Hátul tesztelő ciklus ```-->``` A feltétel ellenőrzése csak a lefutás után történik meg, tehát egyszer biztosan lefut!
 III. DO_WHILE Ciklus
-A FOR Ciklus
+```
+
+### A FOR Ciklus
+
 A FOR Ciklus áll a legközelebb a fenti példához, a számokkal való Ciklusokhoz. Ehhez nyelvi segítséget is kapunk, három részből áll:
+
+```
 a) INICIALIZÁCIÓ  Ciklusváltozó kezdőértékének beállítása. Csak egyszer fut le!
 b) FELTÉTEL  A Feltételvizsgálat. A ciklus addig tart, amíg a feltétel IGAZ!
 c) FRISSÍTÉS  Megadott változók értékének változtatása, minden újabb ciklus előtt.
+```
+
+```java
 for(INITIALIZATION; CONDITION_CHECK; UPDATE)
 {
 // do something
 }
+```
+
 Nézzük meg a fenti példát:
+
+```java
 int index = 0;
 int result = 0;
 for(index = 0; index <= 10; index++)
 {
 result += index;
 }
-A fenti ciklus addig fut, amíg index <= 10, tehát, amikor az index változó 11 lesz, akkor a ciklus megáll, kilép  A result változóhoz hozzáadott utolsó szám a 10 lesz!
-A WHILE Ciklus
+```
+
+A fenti ciklus addig fut, amíg index <= 10, tehát, amikor az index változó 11 lesz, akkor a ciklus megáll, kilép  A result változóhoz 
+hozzáadott utolsó szám a 10 lesz!
+
+### A WHILE Ciklus
+
 Analóg módon működik a FOR Ciklussal, mindig átalakíthatóak egymásba! Extra magyarázat nélkül következzen a nyelvi formula:
+
+```java
 while(CONDITION_CHECK)
 {
 // do something
 }
+```
+
 Ebben az esetben a ciklusváltozó növeléséről mindig nekünk kell gondoskodnunk!
+
 Nézzük meg itt is a fenti példánkat:
+
+```java
 int index = 0;
 int result = 0;
 while(index <= 10)
@@ -72,14 +104,26 @@ while(index <= 10)
 result += index;
 index++;
 }
-A DO_WHILE Ciklus
-Nagyon hasonló a sima WHILE Ciklushoz, azonban hatalmas különbség, hogy nem Elől, hanem Hátul Tesztelő ciklus. Ez azt jelenti, hogy teljesen mindegy, ha a feltétel sohasem teljesülne, egyszer mindenképpen lefut a ciklus.
-Én azt mondanám, hogy kezdő szinten inkább kerüljük a használatát. Egyrészről, mert amúgy sem használják túl gyakran, másodszor pedig itt már jobban oda kell figyelni mint egy WHILE Ciklusnál. Azért mindenképpen illik ismerni azonban elég, ha ismeri az ember, tudja hogyan működik.
+```
+
+### A DO_WHILE Ciklus
+
+Nagyon hasonló a sima WHILE Ciklushoz, azonban hatalmas különbség, hogy nem Elől, hanem Hátul Tesztelő ciklus. Ez azt jelenti, hogy 
+teljesen mindegy, ha a feltétel sohasem teljesülne, egyszer mindenképpen lefut a ciklus.
+Én azt mondanám, hogy kezdő szinten inkább kerüljük a használatát. Egyrészről, mert amúgy sem használják túl gyakran, másodszor pedig itt 
+már jobban oda kell figyelni mint egy WHILE Ciklusnál. Azért mindenképpen illik ismerni azonban elég, ha ismeri az ember, tudja hogyan 
+működik.
+
+```java
 do
 {
 // do something
 } while(CONDITION_CHECK);
+```
+
 Az összeadásos példa pedig:
+
+```java
 int index = 0;
 int result = 0;
 do
@@ -87,11 +131,22 @@ do
 result += index;
 index++;
 } while(index <= 10);
-Ciklusok megszakítása: BREAK
+```
+
+Ciklusok megszakítása: ```BREAK```
+
 Arra az esetre, ha valamilyen extra kilépési lehetőségre lenne szükség, létrehoztak egy megszakító utasítást:
+
+```
 break;
-Ha a break utasítás meghívódik, akkor az aktuális ciklus megszakad és azonnal kilép, függetlenül az eredetileg megadott feltétel teljesülésétől.
+```
+
+Ha a break utasítás meghívódik, akkor az aktuális ciklus megszakad és azonnal kilép, függetlenül az eredetileg megadott feltétel 
+teljesülésétől.
+
 Nézzünk erre egy példát. Adjuk össze a számokat 0-tól 10-ig, de 5-nél most lépjünk ki (bocsánat, kicsit erőltetett a példa):
+
+```java
 int index = 0;
 int result = 0;
 for(index = 0; index <= 10; index++)
@@ -102,3 +157,4 @@ if(index == 5)
 break;
 }
 }
+```
