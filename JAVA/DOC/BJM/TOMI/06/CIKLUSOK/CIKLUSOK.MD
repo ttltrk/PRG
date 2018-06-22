@@ -50,6 +50,8 @@ b) Hátul tesztelő ciklus - A feltétel ellenőrzése csak a lefutás után tö
 III. DO_WHILE Ciklus
 ```
 
+---
+
 ### A FOR Ciklus
 
 A FOR Ciklus áll a legközelebb a fenti példához, a számokkal való Ciklusokhoz. Ehhez nyelvi segítséget is kapunk, három részből áll:
@@ -82,6 +84,8 @@ for(index = 0; index <= 10; index++)
 A fenti ciklus addig fut, amíg index <= 10, tehát, amikor az index változó 11 lesz, akkor a ciklus megáll, kilép  A result változóhoz 
 hozzáadott utolsó szám a 10 lesz!
 
+---
+
 ### A WHILE Ciklus
 
 Analóg módon működik a FOR Ciklussal, mindig átalakíthatóak egymásba! Extra magyarázat nélkül következzen a nyelvi formula:
@@ -107,6 +111,8 @@ while(index <= 10)
   index++;
   }
 ```
+
+---
 
 ### A DO_WHILE Ciklus
 
@@ -136,7 +142,9 @@ do
   } while(index <= 10);
 ```
 
-Ciklusok megszakítása: ```BREAK```
+---
+
+### Ciklusok megszakítása: ```BREAK```
 
 Arra az esetre, ha valamilyen extra kilépési lehetőségre lenne szükség, létrehoztak egy megszakító utasítást:
 
@@ -162,3 +170,5 @@ for(index = 0; index <= 10; index++)
       }
   }
 ```
+
+---
