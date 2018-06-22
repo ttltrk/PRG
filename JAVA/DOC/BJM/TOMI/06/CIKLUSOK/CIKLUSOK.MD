@@ -62,9 +62,9 @@ c) FRISSÍTÉS - Megadott változók értékének változtatása, minden újabb 
 
 ```java
 for(INITIALIZATION; CONDITION_CHECK; UPDATE)
-{
-// do something
-}
+  {
+  // do something
+  }
 ```
 
 Nézzük meg a fenti példát:
@@ -72,10 +72,11 @@ Nézzük meg a fenti példát:
 ```java
 int index = 0;
 int result = 0;
+
 for(index = 0; index <= 10; index++)
-{
-result += index;
-}
+  {
+  result += index;
+  }
 ```
 
 A fenti ciklus addig fut, amíg index <= 10, tehát, amikor az index változó 11 lesz, akkor a ciklus megáll, kilép  A result változóhoz 
@@ -87,9 +88,9 @@ Analóg módon működik a FOR Ciklussal, mindig átalakíthatóak egymásba! Ex
 
 ```java
 while(CONDITION_CHECK)
-{
-// do something
-}
+  {
+  // do something
+  }
 ```
 
 Ebben az esetben a ciklusváltozó növeléséről mindig nekünk kell gondoskodnunk!
@@ -99,11 +100,12 @@ Nézzük meg itt is a fenti példánkat:
 ```java
 int index = 0;
 int result = 0;
+
 while(index <= 10)
-{
-result += index;
-index++;
-}
+  {
+  result += index;
+  index++;
+  }
 ```
 
 ### A DO_WHILE Ciklus
@@ -116,9 +118,9 @@ működik.
 
 ```java
 do
-{
-// do something
-} while(CONDITION_CHECK);
+  {
+  // do something
+  } while(CONDITION_CHECK);
 ```
 
 Az összeadásos példa pedig:
@@ -126,11 +128,12 @@ Az összeadásos példa pedig:
 ```java
 int index = 0;
 int result = 0;
+
 do
-{
-result += index;
-index++;
-} while(index <= 10);
+  {
+  result += index;
+  index++;
+  } while(index <= 10);
 ```
 
 Ciklusok megszakítása: ```BREAK```
@@ -149,12 +152,13 @@ Nézzünk erre egy példát. Adjuk össze a számokat 0-tól 10-ig, de 5-nél m
 ```java
 int index = 0;
 int result = 0;
+
 for(index = 0; index <= 10; index++)
-{
-result += index;
-if(index == 5)
-{
-break;
-}
-}
+  {
+    result += index;
+    if(index == 5)
+      {
+      break;
+      }
+  }
 ```
