@@ -1,11 +1,10 @@
 
 ---
 
-### Ciklusok
+### Java Ciklusok
 
 ---
 
-* [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/CIKLUSOK/CIKLUSOK.MD)
 * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD)
 
 ---
