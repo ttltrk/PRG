@@ -12,6 +12,7 @@
 ---
 
 * [Python ciklusok](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD)
+* [Shell Script ciklusok]()
 
 ---
 
