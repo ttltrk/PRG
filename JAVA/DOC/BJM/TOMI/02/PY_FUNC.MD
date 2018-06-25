@@ -42,13 +42,15 @@ print(func(4, 6))
 #variables
 a = 5
 b = 10
+bigger = 0
 
 #function
 def func(num1, num2):
   if num1 > num2:
-    return num1
+    bigger = num1
   else:
-    return num2
+    bigger = num2
+  return bigger
 
 #print
 print(func(a, b))
@@ -62,19 +64,23 @@ print(func(a, b))
 #variables
 a = 5
 b = 10
+bigger = 0
 
 #function
 def func(num1, num2):
   if num1 > num2:
-    return num1
+    bigger = num1
   else:
-    return num2
+    bigger = num2
+  return bigger
 
 #print
 print(func(a, 4))
+print(func(a, b))
 
 >>>
 5
+10
 >>>
 ```
 
