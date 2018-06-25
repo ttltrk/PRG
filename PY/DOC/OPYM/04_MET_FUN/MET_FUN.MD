@@ -28,6 +28,10 @@ Furthermore, it avoids repetition and makes code reusable.
 
 ---
 
+* [Java Functions](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
+
+---
+
 [src]()
 
 ---
