@@ -19,6 +19,8 @@ A while loop statement in Python programming language repeatedly executes a targ
 
 While loops, like the ForLoop, are used for repeating sections of code - but unlike a for loop, the while loop will not run n times, but until a defined condition is no longer met. If the condition is initially false, the loop body will not be executed at all.
 
+---
+
 ```python
 x = 0
 
@@ -39,6 +41,8 @@ X is currently:  8
 X is currently:  9
 >>> 
 ```
+
+---
 
 ```python
 x = 0
@@ -64,6 +68,8 @@ All done!
 >>> 
 ```
 
+---
+
 ```python
 while test:
 	code statement
@@ -74,6 +80,8 @@ while test:
 else:
 	final code statements
 ```
+
+---
 
 ```python
 x = 0
@@ -122,6 +130,8 @@ X is still less than 10, adding 1 to x
 continuing
 >>> 
 ```
+
+---
 
 ```python
 x = 0
@@ -150,3 +160,5 @@ X is still less than 10, adding 1 to x
 Hey x equals 3!
 >>>
 ```
+
+---
