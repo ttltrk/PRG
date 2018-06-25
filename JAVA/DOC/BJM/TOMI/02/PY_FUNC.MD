@@ -11,6 +11,10 @@
 
 ---
 
+[Python functions]()
+
+---
+
 ```python
 #function
 def func(num1, num2):
