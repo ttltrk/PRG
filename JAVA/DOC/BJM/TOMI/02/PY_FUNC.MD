@@ -15,19 +15,26 @@
 
 ---
 
+[P IDE](https://repl.it/@ttltrknet/SiennaSarcasticDimension)
+
+---
+
 ```python
 #function
+bigger = 0
+
 def func(num1, num2):
   if num1 > num2:
-    return num1
+    bigger = num1
   else:
-    return num2
+    bigger = num2
+  return bigger
 
 #print    
-print(func(4, 8))
+print(func(4, 6))
 
 >>>
-8
+6
 >>>
 ```
 
