@@ -1,12 +1,19 @@
 
-while Loops
-======
+---
+
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) - [Python Statements](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/03_PY_ST/PY_ST.MD)
+
+---
+
+### while Loops
+
+---
 
 [[jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)] -
 [[tutorialspoint.com](https://www.tutorialspoint.com/python/python_while_loop.htm)] - 
 [[wiki.python.org](https://wiki.python.org/moin/WhileLoop)]
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+---
 
 A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.
 
