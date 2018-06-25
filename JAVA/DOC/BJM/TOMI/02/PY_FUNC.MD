@@ -20,7 +20,6 @@
 ---
 
 ```python
-#function
 bigger = 0
 
 def func(num1, num2):
@@ -30,7 +29,6 @@ def func(num1, num2):
     bigger = num2
   return bigger
 
-#print    
 print(func(4, 6))
 
 >>>
