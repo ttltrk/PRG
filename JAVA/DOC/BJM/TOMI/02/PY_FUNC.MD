@@ -11,7 +11,7 @@
 
 ---
 
-[Python functions]()
+[Python functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/04_MET_FUN/MET_FUN.MD)
 
 ---
 
