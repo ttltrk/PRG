@@ -71,6 +71,8 @@ III. DO_WHILE Ciklus
 
 A FOR Ciklus áll a legközelebb a fenti példához, a számokkal való Ciklusokhoz. Ehhez nyelvi segítséget is kapunk, három részből áll:
 
+### FELTÉTEL - A Feltételvizsgálat. A ciklus addig tart, amíg a feltétel IGAZ!
+
 ```
 a) INICIALIZÁCIÓ - Ciklusváltozó kezdőértékének beállítása. Csak egyszer fut le!
 b) FELTÉTEL - A Feltételvizsgálat. A ciklus addig tart, amíg a feltétel IGAZ!
