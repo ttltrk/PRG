@@ -39,7 +39,7 @@
 
   * 28 - Thu (DIR: 103)
   
-    + [Java (and Python) examples 6th meeting - mostly arrays](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
+    + [Java (and Python) examples 6th meeting, a little bit OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
 
   * 27 - Wed (DIR: 102)
   
