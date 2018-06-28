@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|27|
+|WD|28|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUN
+
+  * 28 - Thu (DIR: 103)
+  
+    + [Java (and Python) examples 6th meeting - mostly arrays](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
 
   * 27 - Wed (DIR: 102)
   
