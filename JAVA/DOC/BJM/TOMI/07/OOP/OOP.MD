@@ -38,8 +38,10 @@ Az alábbiak szerint bontom apróbb Osztályokra a feladatot:
   * Képes összegezni a kosárban lévő termékek árát
   * Lehet egy terméket eltávolítani a Kosárból
   * Lehet fizetni
+  
 2. Termékek
   * Minden Termék egy külön Objektum, egy külön Osztály
+  
 3. Weboldal
   * Felhasználói felület, amin keresztül a Kosár Osztály műveleti meghívhatóak
 
@@ -48,9 +50,8 @@ Az alábbiak szerint bontom apróbb Osztályokra a feladatot:
 Az Osztály nem más mint egy különálló Objektum, az Objektum Orientált programozás alapja.
 
 Egy Osztály két részből épül fel:
-
-1. Attribútumok (változók) - Az Osztály egy tulajdonságát tárolja
-2. Metódusok (függvények) - Az Osztály egy végrehajtható művelete
+  * 1. Attribútumok (változók) - Az Osztály egy tulajdonságát tárolja
+  * 2. Metódusok (függvények) - Az Osztály egy végrehajtható művelete
 
 (de nem kötelező hogy legyen bármelyik is)
 
@@ -61,6 +62,7 @@ Ember Osztály:
 - Attribútumai:
   * Név
   * Telefonszám
+  
 - Metódusai:
   * telefonszamot_valt(uj_tsz)
 
@@ -79,17 +81,30 @@ public class Human {
   }
 }
 ```
+
 Íratlan szabály:
+
+```
 1 Osztály / java fájl
-Példányosítás (Instantiation):
+```
+
+### Példányosítás (Instantiation):
+
 Az Osztály nem más mint egy típusdefiníció, önmagában nem értelmezhető. Az Osztályból létre kell hozni egy példányt amely valóban egy élő példánya az Osztálynak.
+
 Például
- az Ember Osztály egy példánya a Bajor Tamás nevű Ember
- Egy másik példányának a neve Tóth Béla.
-Az Osztály egy példányát, mindig a new kulcsszóval hozzuk létre:
+  * az Ember Osztály egy példánya a Bajor Tamás nevű Ember
+  * Egy másik példányának a neve Tóth Béla.
+
+Az Osztály egy példányát, mindig a ```new``` kulcsszóval hozzuk létre:
+
+```java
 Human humanExample = new Human();
+```
+
 Osztály egy adott példányának saját magára való hivatkozás a saját függvényén belül:
-this kulcsszóval
+```this``` kulcsszóval
+
 Könnyebb megmutatni, mint elmagyarázni. Lásd a példában
 
 ---
