@@ -7,20 +7,23 @@
 
 ---
 
-### OOP
+### Java OOP
 
 ---
 
-A Java egy Objektum Orientált Programozási nyelv (Object Oriented Programming Language /OOP/) Ez egy nagyon fontos kijelentés, de mit jelent ez?
+A Java egy Objektum Orientált Programozási nyelv (Object Oriented Programming Language /OOP/). 
+Ez egy nagyon fontos kijelentés, de mit jelent ez?
 A Java úgy tekint a világra mint Objektumok (Osztályok) halmazára és a közöttük lévő interakciókra.
-Objektum lehet
- Az Auto
- Az Ember
- A Szék
- A Labda
- De még egy Webshop is
- De lehet ettől elvontabb is, például az Egész számok osztálya (Integer)
- Vagy egy Adatbázis
+
+Objektum lehet:
+* Az Auto
+* Az Ember
+* A Szék
+* A Labda
+* De még egy Webshop is
+* De lehet ettől elvontabb is, például az Egész számok osztálya (Integer)
+* Vagy egy Adatbázis
+
 Az, hogy mit definiálunk egy Osztálynak, ez csak tervezési kérdés.
 Nézzünk egy egyszerű elméleti példát:
 Van egy Webshopom egy Kosár alkalmazással. A Kosár alkalmazásom célja, hogy különböző termékeket lehet összeválogatni, majd a végén lehet vásárolni, esetleg szerkeszteni a Kosár tartalmát. Hogyan terveznénk meg ezt a feladatot OOP megközelítéssel?
