@@ -43,24 +43,42 @@ Az alábbiak szerint bontom apróbb Osztályokra a feladatot:
 3. Weboldal
   * Felhasználói felület, amin keresztül a Kosár Osztály műveleti meghívhatóak
 
-Az Osztály a Java programozási nyelv legfontosabb nyelvi eleme! Az Osztály nem más mint egy különálló Objektum, az Objektum Orientált programozás alapja.
+### Az Osztály a Java programozási nyelv legfontosabb nyelvi eleme! 
+
+Az Osztály nem más mint egy különálló Objektum, az Objektum Orientált programozás alapja.
+
 Egy Osztály két részből épül fel:
-1. Attribútumok (változók)  Az Osztály egy tulajdonságát tárolja
-2. Metódusok (függvények)  Az Osztály egy végrehajtható művelete
+
+1. Attribútumok (változók) - Az Osztály egy tulajdonságát tárolja
+2. Metódusok (függvények) - Az Osztály egy végrehajtható művelete
+
 (de nem kötelező hogy legyen bármelyik is)
+
 Például
+
 Ember Osztály:
- Attribútumai:
-o Név
-o Telefonszám
- Metódusai:
-o telefonszamot_valt(uj_tsz)
-Hogyan kell létrehozni egy Osztályt a Java nyelvben?
-Class kulcsszóval public class Human { private String name; private String phoneNumber;
-public void changePhoneNumber(String newPhoneNumber)
-{ this.phoneNumber = newPhoneNumber;
+
+- Attribútumai:
+  * Név
+  * Telefonszám
+- Metódusai:
+  * telefonszamot_valt(uj_tsz)
+
+### Hogyan kell létrehozni egy Osztályt a Java nyelvben?
+
+```Class``` kulcsszóval 
+
+```java
+public class Human { 
+  private String name; 
+  private String phoneNumber;
+  
+  public void changePhoneNumber(String newPhoneNumber)
+  { 
+  this.phoneNumber = newPhoneNumber;
+  }
 }
-}
+```
 Íratlan szabály:
 1 Osztály / java fájl
 Példányosítás (Instantiation):
