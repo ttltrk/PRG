@@ -5,7 +5,7 @@
 
 ---
 
-### Object Oriented Programming
+### Python OOP (Object Oriented Programming)
 
 ---
 
