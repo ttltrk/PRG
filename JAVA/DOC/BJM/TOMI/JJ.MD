@@ -17,6 +17,7 @@ Meetings
 * [2nd-3rd-4th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 * [5th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/05/05.MD)
 * [6th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
+* [7th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
 
 ---
 
