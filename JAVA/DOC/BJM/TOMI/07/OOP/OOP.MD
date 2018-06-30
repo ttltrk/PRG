@@ -7,7 +7,8 @@
 
 ---
 
-### Java OOP
+* [Java OOP]()
+* [Python OOP](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/05_OOP/OOP.MD)
 
 ---
 
