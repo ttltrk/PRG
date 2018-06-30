@@ -25,19 +25,24 @@ Objektum lehet:
 * Vagy egy Adatbázis
 
 Az, hogy mit definiálunk egy Osztálynak, ez csak tervezési kérdés.
+
 Nézzünk egy egyszerű elméleti példát:
+
 Van egy Webshopom egy Kosár alkalmazással. A Kosár alkalmazásom célja, hogy különböző termékeket lehet összeválogatni, majd a végén lehet vásárolni, esetleg szerkeszteni a Kosár tartalmát. Hogyan terveznénk meg ezt a feladatot OOP megközelítéssel?
+
 Az alábbiak szerint bontom apróbb Osztályokra a feladatot:
+
 1. Kosár
- Különálló Objektum
- Tárolja a termékeket
- Képes összegezni a kosárban lévő termékek árát
- Lehet egy terméket eltávolítani a Kosárból
- Lehet fizetni
+  * Különálló Objektum
+  * Tárolja a termékeket
+  * Képes összegezni a kosárban lévő termékek árát
+  * Lehet egy terméket eltávolítani a Kosárból
+  * Lehet fizetni
 2. Termékek
- Minden Termék egy külön Objektum, egy külön Osztály
+  * Minden Termék egy külön Objektum, egy külön Osztály
 3. Weboldal
- Felhasználói felület, amin keresztül a Kosár Osztály műveleti meghívhatóak
+  * Felhasználói felület, amin keresztül a Kosár Osztály műveleti meghívhatóak
+
 Az Osztály a Java programozási nyelv legfontosabb nyelvi eleme! Az Osztály nem más mint egy különálló Objektum, az Objektum Orientált programozás alapja.
 Egy Osztály két részből épül fel:
 1. Attribútumok (változók)  Az Osztály egy tulajdonságát tárolja
