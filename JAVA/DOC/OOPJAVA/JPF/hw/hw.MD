@@ -14,7 +14,15 @@
 ---
 
 ```java
+public class HelloWorld{
+    public static void main(String []args){
+        System.out.println("Hello World");
+    }
+}
 
+>>>
+Hello World
+>>>
 ```
 
 * [J IDE](https://www.tutorialspoint.com/compile_java_online.php)
