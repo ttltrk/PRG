@@ -9,7 +9,7 @@
 
 ---
 
-### Java Tech
+### Java Tech courses
 
 ---
 
@@ -29,6 +29,6 @@
 
 ---
 
-* [codecademy]()
+* [codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CODECADEMY_JV.txt)
 
 ---
