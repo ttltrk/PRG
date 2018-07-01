@@ -16,7 +16,30 @@
 
 ---
 
-### <h4 id='NAV'>2018 - <a href='#2018_01'>JAN</a> | <a href='#2018_02'>FEB</a> | <a href='#2018_03'>MRC</a> | <a href='#2018_04'>APR</a> | <a href='#2018_05'>MAY</a> | <a href='#2018_06'>JUN</a> </h4>
+### <h4 id='NAV'>2018 - <a href='#2018_01'>JAN</a> | <a href='#2018_02'>FEB</a> | <a href='#2018_03'>MRC</a> | <a href='#2018_04'>APR</a> | <a href='#2018_05'>MAY</a> | <a href='#2018_06'>JUN</a> | <a href='#2018_07'>JUL</a></h4>
+
+---
+
+### <h4 id='2018_07'>2018 - JUN</h4>
+
+|F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|  | x|  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
+
+|ST|NU|
+|--|--|
+|WD| 1|
+|RD| 0|
+
+<a href='#NAV'>NAV</a>
+
+* JUL
+
+  * 01 - Sun (DIR: 106)
+  
+    + [Java examples](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OOPJAVA/JPF/hw/hw.MD)
 
 ---
 
@@ -37,7 +60,7 @@
 
 * JUN
 
-  * 30 - Thu (DIR: 105)
+  * 30 - Sat (DIR: 105)
   
     + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
 
