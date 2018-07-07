@@ -36,6 +36,30 @@
 <a href='#NAV'>NAV</a>
 
 * JUL
+ 
+  * 07 - Sat (DIR: 112)
+
+    + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
+
+  * 06 - Fri (DIR: 111)
+
+    + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
+ 
+  * 05 - Thu (DIR: 110)
+    
+    + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
+  
+  * 04 - Wed (DIR: 109)
+  
+    + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
+  
+  * 03 - Tue (DIR: 108)
+  
+    + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
+  
+  * 02 - Mon (DIR: 107)
+  
+    + [Java (and Python) examples 7th meeting, OOP](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/07/07.MD)
 
   * 01 - Sun (DIR: 106)
   
