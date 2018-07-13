@@ -24,23 +24,27 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x| x| x|  |  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x|  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
 
 |ST|NU|
 |--|--|
-|WD|12|
+|WD|13|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUL
 
+  * 13 - Fri (DIR: 118)
+  
+    + [Python for Data Scienece - cognitive class]()
+
   * 12 - Thu (DIR: 117)
   
     + [ETL basics]()
-    + [Python basics]()
+    + [Python for Data Scienece - cognitive class]()
 
   * 11 - Wed (DIR: 116)
   
