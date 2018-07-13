@@ -40,6 +40,7 @@
   * 12 - Thu (DIR: 117)
   
     + [ETL basics]()
+    + [Python basics]()
 
   * 11 - Wed (DIR: 116)
   
