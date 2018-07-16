@@ -9,7 +9,7 @@
 
 ---
 
-* [01. Python Basics]()
+* [01. Python Basics](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/01/01.MD)
 * [02. Python Data Structures]()
 * [03. Python Programming Fundamentals]()
 * [04. Working with Data in Python]()
