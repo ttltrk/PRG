@@ -10,9 +10,9 @@
 ---
 
 * [01. Python Basics](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/01/01.MD)
-* [02. Python Data Structures]()
-* [03. Python Programming Fundamentals]()
-* [04. Working with Data in Python]()
-* [05. Working with Numpy Arrays]()
+* [02. Python Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/02/02.MD)
+* [03. Python Programming Fundamentals](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/03/03.MD)
+* [04. Working with Data in Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/04/04.MD)
+* [05. Working with Numpy Arrays](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/05/05.MD)
 
 ---
