@@ -15,6 +15,7 @@
 
 ---
 
+* [Cognitive Class - PY loops](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/03/32/32.MD)
 * [Java loops](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/CIKLUSOK/CIKLUSOK.MD)
 
 ---
