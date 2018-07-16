@@ -28,6 +28,7 @@ Furthermore, it avoids repetition and makes code reusable.
 
 ---
 
+* [Cognitive class - PY Functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/03/33/33.MD)
 * [Java Functions](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 
 ---
