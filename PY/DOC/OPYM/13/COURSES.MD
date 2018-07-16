@@ -25,3 +25,7 @@
 * [Udemy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/06/UDEMY.MD)
 
 ---
+
+* [Cognitive Class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/CC.MD)
+
+---
