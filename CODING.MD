@@ -24,9 +24,9 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x| x| x| x|  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
+| x|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
@@ -36,6 +36,18 @@
 <a href='#NAV'>NAV</a>
 
 * JUL
+
+  * 16 - MON (DIR: 121)
+  
+    + [Python for Data Scienece - cognitive class]()
+
+  * 15 - Sun (DIR: 120)
+  
+    + [Sololearn - mostly Java, Python, Sql](https://www.sololearn.com/Profile/3771981)
+
+  * 14 - Sat (DIR: 119)
+  
+    + [Sololearn - mostly Java, Python, Sql](https://www.sololearn.com/Profile/3771981)
 
   * 13 - Fri (DIR: 118)
   
