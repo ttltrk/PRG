@@ -30,7 +30,7 @@
 
 |ST|NU|
 |--|--|
-|WD|13|
+|WD|16|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
@@ -39,7 +39,7 @@
 
   * 16 - MON (DIR: 121)
   
-    + [Python for Data Scienece - cognitive class]()
+    + [Python for Data Scienece - cognitive class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/MAN.MD)
 
   * 15 - Sun (DIR: 120)
   
