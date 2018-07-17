@@ -40,6 +40,8 @@
   * 17 - Tue (DIR: 122)
   
     + [Python for Data Scienece - cognitive class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/MAN.MD)
+    + [Jupyter Notebook for All – Part I - O'Reilly]()
+    + [Data Exploration in Python - O'Reilly]
 
   * 16 - Mon (DIR: 121)
   
