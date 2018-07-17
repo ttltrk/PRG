@@ -25,3 +25,7 @@ Every value in Python has a datatype. Since everything is an object in Python pr
 * [Matrix]()
   
 ---
+
+* [PY Objects - Cognitive Class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/03/34/34.MD)
+
+---
