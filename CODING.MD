@@ -41,6 +41,7 @@
   
     + [Sololearn - mostly Java, Python, Sql, CSS](https://www.sololearn.com/Profile/3771981)
     + [Python for Data Scienece - cognitive class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/MAN.MD)
+    + [Data Exploration in Python - O'Reilly]()
 
 
   * 17 - Tue (DIR: 122)
