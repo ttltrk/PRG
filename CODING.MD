@@ -40,6 +40,8 @@
   * 18 - Wed (DIR: 123)
   
     + [Sololearn - mostly Java, Python, Sql, CSS](https://www.sololearn.com/Profile/3771981)
+    + [Python for Data Scienece - cognitive class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/MAN.MD)
+
 
   * 17 - Tue (DIR: 122)
   
