@@ -26,23 +26,27 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x| x| x|  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|17|
+|WD|18|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUL
 
+  * 18 - Wed (DIR: 123)
+  
+    + [Sololearn - mostly Java, Python, Sql, CSS](https://www.sololearn.com/Profile/3771981)
+
   * 17 - Tue (DIR: 122)
   
     + [Python for Data Scienece - cognitive class](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/MAN.MD)
     + [Jupyter Notebook for All – Part I - O'Reilly]()
     + [Data Exploration in Python - O'Reilly]()
-    + [Sololearn - mostly Java, Python, Sql](https://www.sololearn.com/Profile/3771981)
+    + [Sololearn - mostly Java, Python, Sql, CSS](https://www.sololearn.com/Profile/3771981)
 
   * 16 - Mon (DIR: 121)
   
