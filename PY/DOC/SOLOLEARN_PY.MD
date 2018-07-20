@@ -5,7 +5,7 @@
 
 ---
 
-### Python tutorial
+### Sololearn - Python tutorial
 
 ---
 
