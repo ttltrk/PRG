@@ -11,7 +11,7 @@
 
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/BCM/BCM.MD)
 * [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/CPP.MD)
-* [C#]()
+* [C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/CS.MD)
 * [R](https://github.com/ttltrk/PRG/blob/master/R/BRM/BRM.MD)
 * [Go](https://github.com/ttltrk/PRG/blob/master/GO/BMGO/BMGO.MD)
 
