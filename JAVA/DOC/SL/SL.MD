@@ -17,3 +17,7 @@
 * [06. Exceptions, Lists, Threads and Files](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/06/06.MD)
 
 ---
+
+[Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD)
+
+---
