@@ -9,15 +9,15 @@
 
 ---
 
-* [Basic Concepts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/BASIC.MD)
-* [Control Structures]()
-* [Functions & Modules]()
-* [Exceptions & Files]()
-* [More Types]()
-* [Functional Programming]()
-* [Object-Oriented Programming]()
-* [Regular Expressions]()
-* [PYTHONICNESS & PACKAGING]()
+* [01 - Basic Concepts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/BASIC.MD)
+* [02 - Control Structures]()
+* [03 - Functions & Modules]()
+* [04 - Exceptions & Files]()
+* [05 - More Types]()
+* [06 - Functional Programming]()
+* [07 - Object-Oriented Programming]()
+* [08 - Regular Expressions]()
+* [09 - PYTHONICNESS & PACKAGING]()
 
 ---
 
