@@ -19,6 +19,7 @@
 ---
 
 [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD) | 
-[C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/COURSES/SOLOLEARN/SOLOLEARN.MD)
+[C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/COURSES/SOLOLEARN/SOLOLEARN.MD) |
+[C#]()
 
 ---
