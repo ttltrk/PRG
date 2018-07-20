@@ -10,6 +10,6 @@
 ---
 
 * [manuals]()
-* [courses](https://github.com/ttltrk/PRG/edit/master/C/DOC/CS/COURSES/COURSES.MD)
+* [courses](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/COURSES.MD)
 
 ---
