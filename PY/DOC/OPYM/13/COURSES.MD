@@ -7,7 +7,7 @@
 
 ---
 
-### Course manuals
+### courses
 
 ---
 
