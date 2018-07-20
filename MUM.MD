@@ -12,8 +12,8 @@
 * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 * [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/OJM.MD)
 * [C]()
-* [C++]()
-* [C#]()
+* [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/CPP.MD)
+* [C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/CS.MD)
 
 ---
 
