@@ -9,7 +9,7 @@
 
 ---
 
-* [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
+* [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 * [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/OJM.MD)
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/C/C.MD)
 * [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/CPP.MD)
