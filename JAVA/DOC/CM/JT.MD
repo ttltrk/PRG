@@ -14,25 +14,10 @@
 ---
 
 * [Programozzteis](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/JJ.MD)
-
----
-
 * [Tutorialspoint](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/TTP.MD)
-
----
-
 * [Udemy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/UDEMY.MD)
-
----
-
 * [OOP Tervezes es programozas Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OOPJAVA/OOPJAVA.MD)
-
----
-
 * [codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CODECADEMY_JV.MD)
-
----
-
-* [SoloLearn]()
+* [SoloLearn](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD)
 
 ---
