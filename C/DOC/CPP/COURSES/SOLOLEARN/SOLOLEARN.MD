@@ -20,3 +20,9 @@
 * []()
 
 ---
+
+[Python]() |
+[Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD) |
+[C#]()
+
+---
