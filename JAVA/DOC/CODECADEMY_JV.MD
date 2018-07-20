@@ -9,7 +9,7 @@
 
 ---
 
-### Lear Java (codecademy)
+### Learn Java (codecademy)
 
 ---
 
