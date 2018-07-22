@@ -26,16 +26,24 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x|  |  |  |  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x| x|  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|20|
+|WD|22|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUL
+
+  * 22 - Sun (DIR: 127)
+  
+    + [Sololearn - mostly Java, Python, Sql, Swift](https://www.sololearn.com/Profile/3771981)
+
+  * 21 - Sat (DIR: 126)
+  
+    + [Sololearn - mostly Java, Python, Sql, Swift](https://www.sololearn.com/Profile/3771981)
 
   * 20 - Fri (DIR: 125)
   
