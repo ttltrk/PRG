@@ -13,7 +13,7 @@
 
 ---
 
-* [manuals](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/MAN/MAN.MD)
+* [own manuals](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/MAN/MAN.MD)
 * [courses](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/COURSES.MD)
 * [apps]()
 
