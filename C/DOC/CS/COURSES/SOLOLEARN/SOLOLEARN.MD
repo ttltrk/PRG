@@ -13,15 +13,15 @@
 
 ---
 
-* [01 - ]()
-* [02 - ]()
-* [03 - ]()
-* [04 - ]()
-* [05 - ]()
-* [06 - ]()
-* [07 - ]()
-* [08 - ]()
-* [09 - ]()
+* [01 - Basic Concepts]()
+* [02 - Conditionals and Loops]()
+* [03 - Methods]()
+* [04 - Classes and Objects]()
+* [05 - Arrays & Strings]()
+* [06 - More on Classes]()
+* [07 - Inheritance and Polymorphism]()
+* [08 - Structs, Enums, Exceptions & Files]()
+* [09 - Generics]()
 
 ---
 
