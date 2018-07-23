@@ -21,7 +21,7 @@
 
 ---
 
-SL: [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD) | 
+[Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD) | 
 [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/COURSES/SOLOLEARN/SOLOLEARN.MD) |
 [C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/SOLOLEARN.MD) |
 [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/SC/SOLOLEARN/SOLOLEARN.MD)
