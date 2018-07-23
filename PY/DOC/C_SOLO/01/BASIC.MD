@@ -9,7 +9,7 @@
 
 ---
 
-* [01.01 - What is Python?](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/01/01.MD)
+* [01.01 - What is Python?](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/0101/0101.MD)
 * [01.02 - Your first program]()
 * [01.03 - Simple operations]()
 * [01.04 - Floats]()
