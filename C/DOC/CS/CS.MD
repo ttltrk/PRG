@@ -13,5 +13,6 @@
 
 * [manuals]()
 * [courses](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/COURSES.MD)
+* [apps]()
 
 ---
