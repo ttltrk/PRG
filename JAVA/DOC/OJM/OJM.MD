@@ -11,7 +11,7 @@
 
 ---
 
-* [manuals]()
+* [own manuals]()
 * [courses](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/JT.MD)
 * [apps]()
 
