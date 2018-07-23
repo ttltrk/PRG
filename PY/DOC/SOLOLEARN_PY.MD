@@ -11,7 +11,7 @@
 
 ---
 
-* [01 - Basic Concepts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/BASIC.MD)
+* [01 - Basic Concepts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/01.MD)
 * [02 - Control Structures]()
 * [03 - Functions & Modules]()
 * [04 - Exceptions & Files]()
