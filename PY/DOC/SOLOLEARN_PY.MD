@@ -12,14 +12,14 @@
 ---
 
 * [01 - Basic Concepts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/01.MD)
-* [02 - Control Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/02/02.MD
-* [03 - Functions & Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/03/03.MD
-* [04 - Exceptions & Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/04/04.MD
-* [05 - More Types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/05/05.MD
-* [06 - Functional Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/06/06.MD
-* [07 - Object-Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/07/07.MD
-* [08 - Regular Expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/08/08.MD
-* [09 - Pythonicness & Packaging](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/09/09.MD
+* [02 - Control Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/02/02.MD)
+* [03 - Functions & Modules](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/03/03.MD)
+* [04 - Exceptions & Files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/04/04.MD)
+* [05 - More Types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/05/05.MD)
+* [06 - Functional Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/06/06.MD)
+* [07 - Object-Oriented Programming](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/07/07.MD)
+* [08 - Regular Expressions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/08/08.MD)
+* [09 - Pythonicness & Packaging](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/09/09.MD)
 
 ---
 
