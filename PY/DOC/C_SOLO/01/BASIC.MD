@@ -5,24 +5,23 @@
 
 ---
 
-### Basic Concepts
+### 01 - Basic Concepts
 
 ---
 
-* [What is Python?](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/01/01.MD)
-* [Your first program]()
-* [Simple operations]()
-* [Floats]()
-* [Other Numerical Operations]()
-* [Strings]()
-* [Simple Input & Output]()
-* [String Operations]()
-* [Type Conversion]()
-* [Variables]()
-* [In-Place Operators]()
-* [Using an Editor]()
-* [MODULE 1 QUIZ]()
+* [01.01 - What is Python?](https://github.com/ttltrk/PRG/blob/master/PY/DOC/C_SOLO/01/01/01.MD)
+* [01.02 - Your first program]()
+* [01.03 - Simple operations]()
+* [01.04 - Floats]()
+* [01.05 - Other Numerical Operations]()
+* [01.06 - Strings]()
+* [01.07 - Simple Input & Output]()
+* [01.08 - String Operations]()
+* [01.09 - Type Conversion]()
+* [01.10 - Variables]()
+* [01.11 - In-Place Operators]()
+* [01.12 - Using an Editor]()
 
 ---
 
----
+
