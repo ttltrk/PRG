@@ -40,13 +40,14 @@ TP
 [C++]() |
 [C#]() |
 [SQL]() |
-[PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/TUTORIALSP.MD) 
+[PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/TUTORIALSP.MD) |
+[HTML]()
 
 ---
 
 W3
 
-[SQL]()
+[SQL]() |
 [HTML]()
 
 ---
