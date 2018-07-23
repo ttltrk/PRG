@@ -13,15 +13,15 @@
 
 ---
 
-* [01 - Basic Concepts]()
-* [02 - Conditionals and Loops]()
-* [03 - Methods]()
-* [04 - Classes and Objects]()
-* [05 - Arrays & Strings]()
-* [06 - More on Classes]()
-* [07 - Inheritance and Polymorphism]()
-* [08 - Structs, Enums, Exceptions & Files]()
-* [09 - Generics]()
+* [01 - Basic Concepts](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/01/01.MD)
+* [02 - Conditionals and Loops](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/02/02.MD)
+* [03 - Methods](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/03/03.MD)
+* [04 - Classes and Objects](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/04/04.MD)
+* [05 - Arrays & Strings](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/05/05.MD)
+* [06 - More on Classes](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/06/06.MD)
+* [07 - Inheritance and Polymorphism](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/07/07.MD)
+* [08 - Structs, Enums, Exceptions & Files](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/08/08.MD)
+* [09 - Generics](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/09/09.MD)
 
 ---
 
