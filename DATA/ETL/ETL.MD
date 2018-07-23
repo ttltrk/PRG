@@ -9,21 +9,9 @@
 
 ---
 
-* [Home]()
-* [Intro]()
-* [Tasks]()
-* [ETL vs DB Testing]()
-* [Categories]()
-* [Challenges]()
-* [Roles]()
-* [Techniques]()
-* [Process]()
-* [Scenarios]()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [own manuals]()
+* [courses]()
+* [apps]()
 
 ---
 
