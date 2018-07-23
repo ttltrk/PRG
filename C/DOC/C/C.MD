@@ -9,7 +9,7 @@
 
 ---
 
-* [manuals]()
+* [own manuals]()
 * [courses]()
 * [apps]()
 
