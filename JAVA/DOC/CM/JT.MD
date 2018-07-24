@@ -17,7 +17,7 @@
 
 ---
 
-* [SoloLearn](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD)
+* [SoloLearn](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SLM.MD)
 * [Tutorialspoint](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/TTP.MD)
 
 ---
