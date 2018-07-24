@@ -11,7 +11,7 @@
 
 * Java
 
-  + [man]()
+  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/LJ/LJJ/LJJ.MD)
   + [course](http://www.learnjavaonline.org/)
   
 ---
