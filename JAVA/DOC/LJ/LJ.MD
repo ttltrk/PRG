@@ -13,7 +13,9 @@
 
 * Java
 
-  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/LJ/LJJ/LJJ.MD)
+  + [status]()
   + [course](http://www.learnjavaonline.org/)
+  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/LJ/LJJ/LJJ.MD)
+  + [cert]()
   
 ---
