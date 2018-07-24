@@ -12,7 +12,7 @@
 * Python
 
   + [stats]()
-  + [course]()
+  + [course](https://www.tutorialspoint.com/python/index.htm)
   + [man]()
   + [cert]()
   
