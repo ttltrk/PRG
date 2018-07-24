@@ -11,7 +11,7 @@
 
 * Java
 
-  + [man]()
+  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CODECADEMY_JV.MD)
   + [course]()
   
 ---
