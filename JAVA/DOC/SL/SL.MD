@@ -10,7 +10,7 @@
 ---
 
 * [01 - Basic Concepts](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/01/01.MD)
-* [02 - Conditional and Loopes](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/02/02.MD)
+* [02 - Conditional and Loops](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/02/02.MD)
 * [03 - Arrays](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/03/03.MD)
 * [04 - Classes and Objects](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/04/04.MD)
 * [05 - More on Classes](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/05/05.MD)
