@@ -14,7 +14,6 @@
 ---
 
 * [Programozzteis](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/PT.MD)
-* [OOP Tervezes es programozas Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OOPJAVA/OOPJAVA.MD)
 
 ---
 
