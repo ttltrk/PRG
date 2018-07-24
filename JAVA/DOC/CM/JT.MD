@@ -24,7 +24,7 @@
 
 ---
 
-* [codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CA/CA.MD)
+* [Codecademy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CA/CA.MD)
 * [Udemy](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/UDEMY.MD)
 
 ---
