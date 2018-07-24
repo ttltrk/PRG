@@ -5,11 +5,13 @@
 
 ---
 
-### Sololearn - Java
+### Sololearn
 
 ---
 
-* [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD)
-* [course](https://www.sololearn.com/Play/Java)
+* Java
+
+  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD)
+  + [course](https://www.sololearn.com/Play/Java)
 
 ---
