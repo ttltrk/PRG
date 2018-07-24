@@ -19,8 +19,9 @@
 
 ---
 
-* [Learnpython](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/04/LEARNPY.MD)
 * [Sololearn](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/05/SOLO.MD)
+* [Tutorialspoint](https://github.com/ttltrk/PRG/blob/master/PY/DOC/TP/TP.MD)
+* [Learnpython](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/04/LEARNPY.MD)
 
 ---
 
