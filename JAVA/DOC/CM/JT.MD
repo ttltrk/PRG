@@ -20,7 +20,7 @@
 
 * [SoloLearn](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SLM.MD)
 * [Tutorialspoint](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/TTP.MD)
-* [Learnjava]()
+* [Learnjava](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/LJ/LJ.MD)
 
 ---
 
