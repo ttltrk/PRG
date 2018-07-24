@@ -15,7 +15,9 @@
 
 * Complete Java Masterclass
 
-  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/UDEMY/JVMASTERCL/JVMASCL.MD)
+  + [status]()
   + [course](https://www.udemy.com/java-the-complete-java-developer-course/learn/v4/content)
-
+  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/UDEMY/JVMASTERCL/JVMASCL.MD)
+  + [cert]()
+  
 ---
