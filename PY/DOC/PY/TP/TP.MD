@@ -11,7 +11,7 @@
 
 * Python tutorial
 
-  + [man]()
+  + [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/TP/MAN/MAN.MD)
   + [course](https://www.tutorialspoint.com/python/index.htm)
   
 ---
