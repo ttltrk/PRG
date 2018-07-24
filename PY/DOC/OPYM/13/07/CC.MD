@@ -11,8 +11,10 @@
 
 Python for Data Science
 
+  * [status: DONE]()
   * [man](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/07/MAN/MAN.MD)
   * [course]()
+  * [cert]()
 
 ---
 
