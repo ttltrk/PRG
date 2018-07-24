@@ -3,9 +3,6 @@
 
 ###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Java Tech](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/JT/JT.MD) - [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/OJM.MD) - [courses](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/CM/JT.MD) - [Sololearn](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SLM.MD)
 
-###### [Sololearn - Java](https://www.sololearn.com/Play/Java)
-
-###### [J IDE](https://www.tutorialspoint.com/compile_java_online.php)
 ---
 
 ### Sololearn - Java
@@ -21,33 +18,4 @@
 
 ---
 
-SL
 
-[Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SOLOLEARN_PY.MD) | 
-[Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD) |
-[C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/COURSES/SOLOLEARN/SOLOLEARN.MD) |
-[C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/COURSES/SOLOLEARN/SOLOLEARN.MD) |
-[SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/SC/SOLOLEARN/SOLOLEARN.MD) |
-[PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/TUTORIALSP.MD) |
-[HTML]()
-
----
-
-TP
-
-[Python]() | 
-[Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/BJM.MD) |
-[C++]() |
-[C#]() |
-[SQL]() |
-[PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/TUTORIALSP.MD) |
-[HTML]()
-
----
-
-W3
-
-[SQL]() |
-[HTML]()
-
----
