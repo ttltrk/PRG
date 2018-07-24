@@ -11,7 +11,9 @@
 
 * Java
 
-  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD)
+  + [status]()
   + [course](https://www.sololearn.com/Play/Java)
+  + [man](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/SL/SL.MD)
+  + [cert]()
 
 ---
