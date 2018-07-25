@@ -29,3 +29,7 @@
 * [16 - Appendix](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/16/16.MD)
 
 ---
+
+* [src man](https://docs.python.org/3/tutorial/index.html)
+
+---
