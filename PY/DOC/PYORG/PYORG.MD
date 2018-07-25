@@ -12,7 +12,7 @@
 ---
 
 * [01 - Whetting Your Appetite](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/01/01.MD)
-* [02 - Using the Python Interpreter](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/02/03.MD)
+* [02 - Using the Python Interpreter](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/02/02.MD)
 * [03 - An Informal Introduction to Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/03/03.MD)
 * [04 - More Control Flow Tools](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/04/04.MD)
 * [05 - Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/05/05.MD)
