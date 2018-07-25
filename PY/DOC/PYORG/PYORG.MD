@@ -30,6 +30,6 @@
 
 ---
 
-* [src man](https://docs.python.org/3/tutorial/index.html)
+* [man src](https://docs.python.org/3/tutorial/index.html)
 
 ---
