@@ -26,16 +26,21 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|25|
+|WD|26|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUL
+
+  * 26 - Thu (DIR: 131)
+
+    + [Sololearn - C++](https://www.sololearn.com/Profile/3771981)
+    + [SQL commands]()
 
   * 25 - WED (DIR: 130)
   
