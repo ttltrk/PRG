@@ -26,34 +26,44 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|26|
+|WD|27|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUL
 
+  * 27 - Fri (DIR: 132)
+  
+    + [Sololearn - C++](https://www.sololearn.com/Profile/3771981)
+    + [Dagtacamp]()
+    
   * 26 - Thu (DIR: 131)
 
     + [Sololearn - C++](https://www.sololearn.com/Profile/3771981)
+    + [Dagtacamp]()
     + [SQL commands]()
+    + [PYORG man - strings]()
 
   * 25 - WED (DIR: 130)
   
+    + [Sololearn - mostly Java, Python, Sql, Swift](https://www.sololearn.com/Profile/3771981)
+    + [Dagtacamp]()
     + [SQL commands]()
 
   * 24 - Tue (DIR: 129)
 
     + [Sololearn - mostly Java, Python, Sql, Swift](https://www.sololearn.com/Profile/3771981)
-
+    + [Dagtacamp]()
+    
   * 23 - Mon (DIR: 128)
   
     + [Sololearn - mostly Java, Python, Sql, Swift](https://www.sololearn.com/Profile/3771981)
-
+    + [Dagtacamp]()
 
   * 22 - Sun (DIR: 127)
   
