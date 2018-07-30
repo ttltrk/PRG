@@ -26,16 +26,31 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x|  |
 
 |ST|NU|
 |--|--|
-|WD|27|
+|WD|30|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * JUL
+
+  * 28 - Mon (DIR: 135)
+  
+    + [Sololearn - C++](https://www.sololearn.com/Profile/3771981)
+    + [Dagtacamp]()
+
+  * 28 - Sun (DIR: 134)
+  
+    + [Sololearn - C++](https://www.sololearn.com/Profile/3771981)
+    + [Dagtacamp]()
+
+  * 28 - Sat (DIR: 133)
+  
+    + [Sololearn - C++](https://www.sololearn.com/Profile/3771981)
+    + [Dagtacamp]()
 
   * 27 - Fri (DIR: 132)
   
