@@ -14,10 +14,16 @@
 * [numbers]()
 * [strings]()
 * [variables]()
+
+---
+
 * [if..else]()
 * [for](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FOR/FOR.MD)
 * [while](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/WHILE/WHILE.MD)
 * [do..while]()
+
+---
+
 * [functions](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
 * [oop](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/OOP/OOP.MD)
 
