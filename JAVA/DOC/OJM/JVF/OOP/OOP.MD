@@ -12,6 +12,7 @@
 ---
 
 * [cert](https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808)
+* [train](http://education.oracle.com/pls/web_prod-plq-dad/ou_product_category.getPageCert?p_cat_id=267)
 
 ---
 
