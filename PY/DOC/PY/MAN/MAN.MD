@@ -13,7 +13,7 @@
 
 ---
 
-* [PYF](https://github.com/ttltrk/PRG/tree/master/PY/DOC/PYF)
+* [PYF](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/PYF.MD)
 * [PYORG](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYORG/PYORG.MD)
 * [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 
