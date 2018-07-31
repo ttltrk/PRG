@@ -45,8 +45,6 @@ while i < 6:
 
 ---
 
----
-
-[JV]()
+[JV](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/WHILE/WHILE.MD)
 
 ---
