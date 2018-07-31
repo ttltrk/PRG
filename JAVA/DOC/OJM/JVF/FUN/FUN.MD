@@ -12,6 +12,97 @@
 ---
 
 ```java
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+	  func_null();
+	    
+    }
+	
+    private static void func_null() {
+    	System.out.println("hello world");
+	  
+  }
+
+}
+
+>>>
+hello world
+>>>
+```
+
+```java
+public class HelloWorld{
+
+    public static void main(String []args){
+        
+	  func_null();
+	  System.out.println(func_pull());
+	    
+      }
+	
+        private static void func_null() {
+    	  System.out.println("hello world");
+      }
+     
+        private static String func_pull() {
+    	  return ("hw");
+      }
+     
+}
+
+>>>
+hello world
+hw
+>>>
+```
+
+```java
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+	  System.out.println(func_null());
+	  
+    }
+	
+    private static String func_null() {
+    	return ("hello world");
+	  
+  }
+
+}
+
+>>>
+hello world
+>>>
+```
+
+```java
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+	  System.out.println(func_null().length());
+	  
+    }
+	
+    private static String func_null() {
+    	return ("hello world");
+	  
+  }
+
+}
+
+>>>
+11
+>>>
+```
+
+---
+
+```java
 public class Programming {
 	public static void main(String []args){
         
