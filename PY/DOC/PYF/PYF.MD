@@ -13,7 +13,7 @@
 
 * [operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OP/OP.MD)
 * [numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/NUM/NUM.MD)
-* [strings]()
+* [strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/STR/STR.MD)
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
 
 ---
