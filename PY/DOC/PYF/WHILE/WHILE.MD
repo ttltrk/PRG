@@ -43,6 +43,21 @@ while i < 6:
 >>>
 ```
 
+```python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+  
+>>>
+1
+2
+3
+>>>
+```
+
 ---
 
 [JV](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/WHILE/WHILE.MD)
