@@ -11,8 +11,33 @@
 
 ---
 
+```java
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        int index = 0;
+        int result = 0;
+
+        for(index = 0; index <= 4; index++)
+          {
+          System.out.println("Hello World");
+          } 
+        
+     }
+}
+
+>>>
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+>>>
+```
+
 ---
 
-[PY]()
+[PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FOR/FOR.MD)
 
 ---
