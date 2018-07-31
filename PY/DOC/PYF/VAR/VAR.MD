@@ -34,6 +34,27 @@ print(type(d))
 
 ---
 
+```python
+a = 5
+b = 4.0
+c = "John"
+d = True
+
+print("a 'a' erteke = " + str(a))
+print("a 'b' erteke = " + str(b))
+print("a 'c' erteke = " + c)
+print("a 'd' erteke = " + str(d))
+
+>>>
+a 'a' erteke = 5
+a 'b' erteke = 4.0
+a 'c' erteke = John
+a 'd' erteke = True
+>>>
+```
+
+---
+
 [JV]()
 
 ---
