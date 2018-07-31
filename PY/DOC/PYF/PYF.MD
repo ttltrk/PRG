@@ -19,7 +19,7 @@
 ---
 
 * [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LST/LST.MD)
-* [tuples]()
+* [tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/TUP/TUP.MD)
 * [set]()
 * [dictionary]()
 
