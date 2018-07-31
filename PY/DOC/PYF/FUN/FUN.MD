@@ -7,7 +7,7 @@
 
 ---
 
-### Python Function
+### Python Functions
 
 ---
 
@@ -76,6 +76,6 @@ print(func(a, b))
 
 ---
 
-[JV]()
+[JV](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
 
 ---
