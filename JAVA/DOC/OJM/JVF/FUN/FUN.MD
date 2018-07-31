@@ -117,25 +117,25 @@ public class Programming {
 
 ```java
 public class HelloWorld{
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         
-		int a = 12;
-        String b = "13";
-        int c = Integer.parseInt(b);
+    int a = 12;
+    String b = "13";
+    int c = Integer.parseInt(b);
         
-        System.out.println(func(a,c));
+    System.out.println(func(a,c));
         
-     }
+    }
 		
-	  private static int func(int first, int second) {
+    private static int func(int first, int second) {
 		  
-		  int retVal = 0; 
+      int retVal = 0; 
 		  
-	      if (first<second)
-		    retVal = first;
-		  else
-			retVal = second;	      
-	      return retVal;
+      if (first<second)
+        retVal = first;
+      else
+	 retVal = second;	      
+	   return retVal;
 
 	}
 
