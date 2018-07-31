@@ -58,6 +58,27 @@ while i < 6:
 >>>
 ```
 
+```python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    print("itt volt a harmadik step")
+  if i == 5:
+    print("itt meg az otodik")
+  i += 1
+  
+>>>
+1
+2
+3
+itt volt a harmadik step
+4
+5
+itt meg az otodik
+>>>
+```
+
 ---
 
 [JV](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/WHILE/WHILE.MD)
