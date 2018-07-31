@@ -31,3 +31,17 @@ a lambda eredmenye = 19
 
 ---
 
+```python
+x = lambda a, b : a * b
+y = lambda a, b, c : a + b + c
+
+print(x(5, 6))
+print(y(5, 6, 2))
+
+>>>
+30
+13
+>>>
+```
+
+---
