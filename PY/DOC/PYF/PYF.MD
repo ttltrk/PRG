@@ -11,7 +11,7 @@
 
 ---
 
-* [conditions]()
+* [conditions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/CON/CON.MD)
 * [numbers]()
 * [strings]()
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
