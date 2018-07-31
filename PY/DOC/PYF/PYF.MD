@@ -15,14 +15,23 @@
 * [numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/NUM/NUM.MD)
 * [strings]()
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
+
+---
+
 * [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LST/LST.MD)
 * [tuples]()
 * [set]()
 * [dictionary]()
+
+---
+
 * [if..else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/IF/IF.MD)
 * [for](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FOR/FOR.MD)
 * [while](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/WHILE/WHILE.MD)
 * [do..while]()
+
+---
+
 * [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
 * [lambda](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LAM/LAM.MD)
 * [oop](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
