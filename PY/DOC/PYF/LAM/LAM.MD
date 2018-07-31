@@ -59,6 +59,19 @@ print(mydoubler(10))
 >>>
 ```
 
+```python
+def myfunc(n):
+  return lambda a, b : (a + b) * n
+
+mydoubler = myfunc(3)
+
+print(mydoubler(10, 2))
+
+>>>
+36
+>>>
+```
+
 ---
 
 ```python
