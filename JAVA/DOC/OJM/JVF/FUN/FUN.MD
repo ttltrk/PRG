@@ -38,6 +38,6 @@ public class Programming {
 
 ---
 
-[PY]()
+[PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
 
 ---
