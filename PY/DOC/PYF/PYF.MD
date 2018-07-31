@@ -33,6 +33,7 @@
 
 * [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
 * [lambda](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LAM/LAM.MD)
+* [list comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LCO/LCO.MD)
 * [oop](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
 
 ---
