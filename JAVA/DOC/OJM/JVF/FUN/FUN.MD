@@ -86,6 +86,35 @@ public class Programming {
 
 ---
 
+```java
+package pogrammingPackage;
+
+public class Programming {
+  public static void main(String []args){
+        
+		int param1 = 3, param2 = 2;
+		boolean param3 = false;
+		
+		System.out.println(func(param1, param2, param3));
+         
+    }
+	
+    private static int func(int param1, int param2, boolean param3) {
+	  if (param3 == true)
+	    return param1+param2;
+	  else
+	    return param1-param2;	  
+  }
+
+}
+
+>>>
+1
+>>>
+```
+
+---
+
 [PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
 
 ---
