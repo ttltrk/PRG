@@ -15,7 +15,7 @@
 * [strings]()
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
 * [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LST/LST.MD)
-* [tulip]()
+* [tuples]()
 * [set]()
 * [dictionary]()
 * [if..else]()
