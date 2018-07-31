@@ -13,7 +13,7 @@
 
 * [numbers]()
 * [strings]()
-* [variables]()
+* [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
 * [lists]()
 * [tulip]()
 * [set]()
