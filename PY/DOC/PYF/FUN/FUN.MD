@@ -109,6 +109,29 @@ print(func(a, b))
 
 ---
 
+```python
+a = 20
+b = 4
+c = True
+d = False
+
+def no(p1,p2,p3):
+  if (p3 == True):
+    print(p3, p1+p2)
+  else:
+    print(p3, p1-p2)
+  
+no(a,b,c)
+no(a,b,d)
+
+>>>
+(True, 24)
+(False, 16)
+>>>
+```
+
+---
+
 [JV](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
 
 ---
