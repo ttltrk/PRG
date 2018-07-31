@@ -19,7 +19,7 @@
 * [tuples]()
 * [set]()
 * [dictionary]()
-* [if..else]()
+* [if..else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/IF/IF.MD)
 * [for](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FOR/FOR.MD)
 * [while](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/WHILE/WHILE.MD)
 * [do..while]()
