@@ -11,6 +11,34 @@
 
 ---
 
+```python
+Class Dog(object):
+
+    #Class Object Attribute
+    species = "mammal"
+
+    def __init__(self, breed, name, color):
+        self.breed = breed
+        self.name = name
+        self.color = color
+
+sam = Dog(breed="Lab", name = "Sammy", color = "black")
+
+george = Dog(breed="pit", name = "George", color = "white")
+
+print(sam.name, george.name)
+print("Sam species = " + sam.species)
+print("Sam color = " + sam.color)
+print("George color = " + george.color)
+
+>>>
+('Sammy', 'George')
+Sam species = mammal
+Sam color = black
+George color = white
+>>>
+```
+
 ---
 
 [JV](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/OOP/OOP.MD)
