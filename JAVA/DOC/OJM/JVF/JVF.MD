@@ -18,7 +18,7 @@
 * [for]()
 * [while]()
 * [do..while]()
-* [functions]()
+* [functions](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
 * [oop]()
 
 ---
