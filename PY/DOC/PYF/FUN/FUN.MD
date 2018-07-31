@@ -12,6 +12,39 @@
 ---
 
 ```python
+#variables
+a = "hello world"
+b = "xyz"
+c = 5
+d = 7
+
+#functions
+def pr(par1):
+  print(par1)
+  
+def ps(par1, par2):
+  return (par1+par2)
+
+def ms(par1,par2):
+  return (par1-par2)
+
+#STDOUT
+pr(a)
+pr(b)
+print(ps(c,d))
+print(ms(c,d))
+
+>>>
+hello world
+xyz
+12
+-2
+>>>
+```
+
+---
+
+```python
 bigger = 0
 
 def func(num1, num2):
