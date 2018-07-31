@@ -45,3 +45,34 @@ print(y(5, 6, 2))
 ```
 
 ---
+
+```python
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(3)
+
+print(mydoubler(10))
+
+>>>
+30
+>>>
+
+---
+
+```python
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+mytripler = myfunc(3)
+
+print(mydoubler(11)) 
+print(mytripler(11))
+
+>>>
+22
+33
+>>>
+
+---
