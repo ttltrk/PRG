@@ -23,7 +23,7 @@
 * [while]()
 * [do..while]()
 * [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
-* [oop]()
+* [oop](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
 
 ---
 
