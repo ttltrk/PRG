@@ -14,6 +14,8 @@
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/C/C.MD)
 * [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/CPP.MD)
 * [C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/CS.MD)
+* [Assembly]()
+* [Digital_Analog]()
 
 ---
 
