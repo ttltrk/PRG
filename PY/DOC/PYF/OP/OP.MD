@@ -7,7 +7,7 @@
 
 ---
 
-### Python conditions
+### Python operators
 
 ---
 
