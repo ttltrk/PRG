@@ -12,44 +12,21 @@
 ---
 
 ```java
-package pogrammingPackage;
-public class Programming {
-  public static void main(String []args){
-        
-	  func_null();
+public class HelloWorld{
+    public static void main(String []args){
+    
+    func_null();
+    System.out.println(func_pull());
 	    
     }
 	
     private static void func_null() {
-    	System.out.println("hello world");
-	  
-  }
-
-}
-
->>>
-hello world
->>>
-```
-
-```java
-public class HelloWorld{
-
-    public static void main(String []args){
-        
-	  func_null();
-	  System.out.println(func_pull());
-	    
-      }
-	
-        private static void func_null() {
-    	  System.out.println("hello world");
-      }
+      System.out.println("hello world");
+    }
      
-        private static String func_pull() {
-    	  return ("hw");
-      }
-     
+    private static String func_pull() {
+      return ("hw");
+    }
 }
 
 >>>
@@ -58,38 +35,18 @@ hw
 >>>
 ```
 
+---
+
 ```java
-package pogrammingPackage;
 public class Programming {
   public static void main(String []args){
-        
-	  System.out.println(func_null());
-	  
-    }
-	
-    private static String func_null() {
-    	return ("hello world");
+  
+  System.out.println(func_null().length());
 	  
   }
-
-}
-
->>>
-hello world
->>>
-```
-
-```java
-package pogrammingPackage;
-public class Programming {
-  public static void main(String []args){
-        
-	  System.out.println(func_null().length());
-	  
-    }
 	
-    private static String func_null() {
-    	return ("hello world");
+  private static String func_null() {
+    return ("hello world");
 	  
   }
 
