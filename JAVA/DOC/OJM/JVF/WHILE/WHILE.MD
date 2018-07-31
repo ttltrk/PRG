@@ -39,6 +39,6 @@ Hi World
 
 ---
 
-[PY]()
+[PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/WHILE/WHILE.MD)
 
 ---
