@@ -115,6 +115,39 @@ public class Programming {
 
 ---
 
+```java
+public class HelloWorld{
+     public static void main(String[] args) {
+        
+		int a = 12;
+        String b = "13";
+        int c = Integer.parseInt(b);
+        
+        System.out.println(func(a,c));
+        
+     }
+		
+	  private static int func(int first, int second) {
+		  
+		  int retVal = 0; 
+		  
+	      if (first<second)
+		    retVal = first;
+		  else
+			retVal = second;	      
+	      return retVal;
+
+	}
+
+}
+
+>>>
+12
+>>>
+```
+
+---
+
 [PY](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
 
 ---
