@@ -13,7 +13,7 @@
 
 * [numbers]()
 * [strings]()
-* [variables]()
+* [variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/VAR/VAR.MD)
 
 ---
 
