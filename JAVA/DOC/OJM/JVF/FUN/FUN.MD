@@ -33,7 +33,7 @@ public class test {
 	}
 		
 	private static int func(int param1, int param2) {
-	    int res;
+	    int res = 0;
 	      
 	    if (param1 > param2) {
 	        res = param1; 
@@ -118,7 +118,7 @@ public class test {
         }
 	
         private static int func(int param1, int param2, boolean param3) {
-	      int res;        	
+	      int res = 0;        	
         	
               if (param3 == true) {
 	          res = param1+param2;
@@ -152,7 +152,7 @@ public class test {
 	}
 			
 	private static int func(int first, int second) {
-	    int res; 
+	    int res = 0; 
 			  
 	    if (first<second) {
 	        res = first;
