@@ -154,7 +154,7 @@ public class test {
 	private static int func(int first, int second) {
 	    int res = 0; 
 			  
-	    if (first<second) {
+	    if (first>second) {
 	        res = first;
 	    } else {
 		res = second;	      
@@ -165,8 +165,8 @@ public class test {
 }
 
 >>>
-12
 13
+20
 >>>
 ```
 
