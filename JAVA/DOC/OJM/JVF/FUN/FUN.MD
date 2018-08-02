@@ -23,6 +23,40 @@ public static int methodName(int a, int b) {
 package test;
 public class test {
     public static void main(String []args){
+        
+	int a = 10, b = 3, c = 2, d = 1;
+		
+	System.out.println(func(a, b));  
+	System.out.println(func(c, d));    
+
+
+	}
+		
+	private static int func(int param1, int param2) {
+	    int res;
+	      
+	    if (param1 > param2) {
+	        res = param1; 
+	    } else {
+	        res = param2; 
+	    } return res;
+		  
+        }
+			
+}
+
+>>>
+10
+2
+>>>
+```
+
+---
+
+```java
+package test;
+public class test {
+    public static void main(String []args){
 	    
 	    func_null();
 	    System.out.println(func_pull());
@@ -64,34 +98,6 @@ public class test {
 
 >>>
 11
->>>
-```
-
----
-
-```java
-package test;
-public class test {
-	public static void main(String []args){
-        
-		int a = 2, b = 3;
-		
-		System.out.println(func(a, b));    
-
-		}
-		
-	        private static int func(int param1, int param2) {
-		  if (param1 > param2)
-		    return param1;
-		  else
-		    return param2;
-			
-	    }
-
-}
-
->>>
-3
 >>>
 ```
 
