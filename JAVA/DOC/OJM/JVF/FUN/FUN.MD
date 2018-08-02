@@ -104,62 +104,34 @@ public class test {
 ---
 
 ```java
-package pogrammingPackage;
-
-public class Programming {
-  public static void main(String []args){
+package test;
+public class test {
+    public static void main(String []args){
         
-		int param1 = 3, param2 = 2;
-		boolean param3 = false;
+	int param1 = 3, param2 = 2;
+	boolean param3 = false, param4 = true;
 		
-		System.out.println(func(param1, param2, param3));
+	System.out.println(func(param1, param2, param3));
+	System.out.println(func(param1, param2, param4));
+
          
-    }
+        }
 	
-    private static int func(int param1, int param2, boolean param3) {
-	  if (param3 == true)
-	    return param1+param2;
-	  else
-	    return param1-param2;	  
-  }
+        private static int func(int param1, int param2, boolean param3) {
+	      int res;        	
+        	
+              if (param3 == true) {
+	          res = param1+param2;
+              } else {
+	          res = param1-param2;
+              } return res;
+        }
 
 }
 
 >>>
 1
->>>
-```
-
----
-
-```java
-public class HelloWorld{
-    public static void main(String[] args) {
-        
-    int a = 12;
-    String b = "13";
-    int c = Integer.parseInt(b);
-        
-    System.out.println(func(a,c));
-        
-    }
-		
-    private static int func(int first, int second) {
-		  
-      int retVal = 0; 
-		  
-      if (first<second)
-        retVal = first;
-      else
-	 retVal = second;	      
-	   return retVal;
-
-	}
-
-}
-
->>>
-12
+5
 >>>
 ```
 
@@ -167,30 +139,34 @@ public class HelloWorld{
 
 ```java
 package test;
-
 public class test {
 	public static void main(String[] args) {
-		
-		int a = 6, b = 12;
-		
-		System.out.println(func(a, b)); 
-		
-	    }
-		
-		private static int func(int n1, int n2) {
-			   int min;
-			   if (n1 > n2)
-			      min = n2;
-			   else
-			      min = n1;
+        
+	String a = "13";
+	int b = Integer.parseInt(a), c = 12, d = 14;
+	        
+	System.out.println(func(b,c));
+	System.out.println(func(b,d));
 
-			   return min; 
-			}
-
+	        
 	}
-	
+			
+	private static int func(int first, int second) {
+	    int res; 
+			  
+	    if (first<second) {
+	        res = first;
+	    } else {
+		res = second;	      
+	    } return res;
+
+        }
+
+}
+
 >>>
-6
+12
+13
 >>>
 ```
 
