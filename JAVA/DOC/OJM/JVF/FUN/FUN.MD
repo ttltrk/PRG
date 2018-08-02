@@ -20,21 +20,22 @@ public static int methodName(int a, int b) {
 ---
 
 ```java
-public class HelloWorld{
+package test;
+public class test {
     public static void main(String []args){
-    
-    func_null();
-    System.out.println(func_pull());
 	    
-    }
-	
-    private static void func_null() {
-      System.out.println("hello world");
-    }
-     
-    private static String func_pull() {
-      return ("hw");
-    }
+	    func_null();
+	    System.out.println(func_pull());
+		    
+	    }
+		
+	    private static void func_null() {
+	      System.out.println("hello world");
+	    }
+	     
+	    private static String func_pull() {
+	      return ("hw");
+	    }
 }
 
 >>>
@@ -46,17 +47,18 @@ hw
 ---
 
 ```java
-public class Programming {
-  public static void main(String []args){
-  
-  System.out.println(func_null().length());
-	  
-  }
-	
-  private static String func_null() {
-    return ("hello world");
-	  
-  }
+package test;
+public class test {
+	public static void main(String []args){
+		  
+	    System.out.println(func_null().length());
+			  
+	    }
+			
+	    private static String func_null() {
+	      return ("hello world");
+			  
+	    }
 
 }
 
@@ -68,22 +70,23 @@ public class Programming {
 ---
 
 ```java
-public class Programming {
+package test;
+public class test {
 	public static void main(String []args){
         
-	int a = 2, b = 3;
-	
-	System.out.println(func(a, b));    
-
-	}
-	
-    private static int func(int param1, int param2) {
-	  if (param1 > param2)
-	    return param1;
-	  else
-		return param2;
+		int a = 2, b = 3;
 		
-  }
+		System.out.println(func(a, b));    
+
+		}
+		
+	        private static int func(int param1, int param2) {
+		  if (param1 > param2)
+		    return param1;
+		  else
+		    return param2;
+			
+	    }
 
 }
 
