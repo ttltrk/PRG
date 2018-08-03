@@ -17,7 +17,7 @@ int a = 10, b = 10;
 byte B = 22;         
 double pi = 3.14159; 
 char a = 'a';        
-Sring a = "hello";
+String a = "hello";
 boolean a = true, b = false;
 ```
 
