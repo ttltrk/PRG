@@ -28,13 +28,19 @@ package test;
 public class test {
 	public static void main(String[] args) {
         
+		System.out.println(Short.MAX_VALUE);
 	    System.out.println(Integer.MAX_VALUE);
+	    System.out.println(Long.MAX_VALUE);
+	    System.out.println(Double.MAX_VALUE);
 
 	 }
 }
 
 >>>
+32767
 2147483647
+9223372036854775807
+1.7976931348623157E308
 >>>
 ```
 
