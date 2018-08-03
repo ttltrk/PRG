@@ -18,7 +18,7 @@ byte B = 22;
 double pi = 3.14159; 
 char a = 'a';        
 Sring a = "hello";
-boolean a, b = true, false;
+boolean a = true, b = false;
 ```
 
 ---
