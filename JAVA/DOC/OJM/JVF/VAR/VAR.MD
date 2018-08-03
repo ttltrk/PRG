@@ -17,8 +17,8 @@ int a = 10, b = 10;
 byte B = 22;         
 double pi = 3.14159; 
 char a = 'a';        
-string a = "hello"
-boolean a = true, false
+Sring a = "hello";
+boolean a, b = true, false;
 ```
 
 ---
