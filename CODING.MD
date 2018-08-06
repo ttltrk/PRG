@@ -24,18 +24,26 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x|  |  |  |  |  |  |  |  |  |  |  | 
+|  | x| x| x| x| x| x|  |  |  |  |  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD| 4|
+|WD| 6|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * AUG
+
+  * 06 - Mon (DIR: 142)
+  
+    + [Java binarys](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/BIN/BIN.MD)
+
+  * 05 - Sun (DIR: 141)
+  
+    + [SQL datastage]()
 
   * 04 - Sat (DIR: 140)
   
