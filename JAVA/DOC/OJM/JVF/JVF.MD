@@ -11,7 +11,7 @@
 
 ---
 
-* [binarys]()
+* [binarys](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/BIN/BIN.MD)
 * [numbers]()
 * [strings]()
 * [variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/VAR/VAR.MD)
