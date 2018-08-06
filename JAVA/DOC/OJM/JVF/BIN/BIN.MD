@@ -26,4 +26,12 @@
 10011011B = 155D //8 bits = 1 byte
 ```
 
+```
+8 bit = 1 byte
+1000 byte = 1k byte
+1000 kbyte = 1 mbyte
+1000 mbyte = 1 gbyte
+1000 gbyte = 1 tbyte
+```
+
 ---
