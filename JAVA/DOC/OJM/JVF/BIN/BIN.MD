@@ -20,6 +20,9 @@
 ```
 
 ```
+B = Binary
+D = Decimal
+
 1B = 1D //1 bit
 10B = 2D //2 bits
 1111B = 15D //4 bits
