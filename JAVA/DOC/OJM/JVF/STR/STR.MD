@@ -109,3 +109,22 @@ true
 ```
 
 ---
+
+```java
+package test;
+public class test {
+	public static void main(String[] args) {
+		
+		String simpleString = "hello world";
+        
+		System.out.println(simpleString.replaceAll("hello", "yellow"));
+		
+	 }
+}
+
+>>>
+yellow world
+>>>
+```
+
+---
