@@ -86,3 +86,26 @@ llo
 ```
 
 ---
+
+```java
+package test;
+public class test {
+	public static void main(String[] args) {
+		
+		String simpleString = "hello world";
+        
+		System.out.println(simpleString.length());
+		System.out.println(simpleString.equals("hello nadasd"));
+		System.out.println(simpleString.equals("hello world"));
+
+	 }
+}
+
+>>>
+11
+false
+true
+>>>
+```
+
+---
