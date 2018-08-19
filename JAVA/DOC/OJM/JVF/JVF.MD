@@ -36,8 +36,6 @@
 
 ### Java binarys
 
----
-
 ```
 128 - 64 - 32 - 16 - 8 - 4 - 2 - 1
 1   -  0 -  0 -  1 - 1 - 0 - 1 - 1
@@ -69,8 +67,6 @@ D = Decimal
 ---
 
 ### Java strings
-
----
 
 ```java
 package test;
@@ -181,8 +177,6 @@ yellow world
 ---
 
 ### Java variables
-
----
 
 ```java
 int a, b, c;         
