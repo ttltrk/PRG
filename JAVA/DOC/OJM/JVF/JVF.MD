@@ -11,10 +11,6 @@
 
 ---
 
-* [full clip]()
-
----
-
 * [binarys](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/BIN/BIN.MD)
 * [numbers]()
 * [strings](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/STR/STR.MD)
