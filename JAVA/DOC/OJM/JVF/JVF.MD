@@ -89,8 +89,6 @@ y
 >>>
 ```
 
----
-
 ```java
 package test;
 public class test {
@@ -107,8 +105,6 @@ public class test {
 hello world
 >>>
 ```
-
----
 
 ```java
 package test;
@@ -127,8 +123,6 @@ o
 >>>
 ```
 
----
-
 ```java
 package test;
 public class test {
@@ -145,8 +139,6 @@ public class test {
 llo
 >>>
 ```
-
----
 
 ```java
 package test;
@@ -169,8 +161,6 @@ true
 >>>
 ```
 
----
-
 ```java
 package test;
 public class test {
@@ -190,8 +180,6 @@ yellow world
 
 ---
 
----
-
 ### Java variables
 
 ---
@@ -205,8 +193,6 @@ char a = 'a';
 String a = "hello";
 boolean a = true, b = false;
 ```
-
----
 
 ```java
 package test;
