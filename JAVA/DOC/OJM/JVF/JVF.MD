@@ -238,4 +238,259 @@ Value of X is 30
 
 ---
 
+### Java for
+
+```java
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        int index = 0;
+        int result = 0;
+
+        for(index = 0; index <= 4; index++)
+          {
+          System.out.println("Hello World");
+          } 
+        
+     }
+}
+
+>>>
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+>>>
+```
+
+---
+
+### Java while
+
+```java
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        int index = 0;
+        int result = 0;
+          
+        while(index <= 4)
+          {
+          System.out.println("Hi World");
+          index++;
+          }
+        
+     }
+}
+
+>>>
+Hi World
+Hi World
+Hi World
+Hi World
+Hi World
+>>>
+```
+
+---
+
+### Java Functions / Methods
+
+```java
+public static int methodName(int a, int b) {
+   // body
+}
+```
+
+```java
+package test;
+public class test {
+    public static void main(String []args){
+        
+	int a = 10, b = 3, c = 2, d = 1;
+		
+	System.out.println(func(a, b));  
+	System.out.println(func(c, d));    
+
+
+	}
+		
+	private static int func(int param1, int param2) {
+	    int res = 0;
+	      
+	    if (param1 > param2) {
+	        res = param1; 
+	    } else {
+	        res = param2; 
+	    } return res;
+		  
+        }
+			
+}
+
+>>>
+10
+2
+>>>
+```
+
+```java
+package test;
+public class test {
+    public static void main(String []args){
+	    
+	    func_null();
+	    System.out.println(func_pull());
+		    
+	    }
+		
+	    private static void func_null() {
+	      System.out.println("hello world");
+	    }
+	     
+	    private static String func_pull() {
+	      return ("hw");
+	    }
+}
+
+>>>
+hello world
+hw
+>>>
+```
+
+```java
+package test;
+public class test {
+	public static void main(String []args){
+		  
+	    System.out.println(func_null().length());
+			  
+	    }
+			
+	    private static String func_null() {
+	      return ("hello world");
+			  
+	    }
+
+}
+
+>>>
+11
+>>>
+```
+
+```java
+package test;
+public class test {
+    public static void main(String []args){
+        
+	int param1 = 3, param2 = 2;
+	boolean param3 = false, param4 = true;
+		
+	System.out.println(func(param1, param2, param3));
+	System.out.println(func(param1, param2, param4));
+
+         
+        }
+	
+        private static int func(int param1, int param2, boolean param3) {
+	      int res = 0;        	
+        	
+              if (param3 == true) {
+	          res = param1+param2;
+              } else {
+	          res = param1-param2;
+              } return res;
+        }
+
+}
+
+>>>
+1
+5
+>>>
+```
+
+```java
+package test;
+public class test {
+	public static void main(String[] args) {
+        
+	String a = "13";
+	int b = Integer.parseInt(a), c = 12, d = 14;
+	        
+	System.out.println(func(b,c));
+	System.out.println(func(b,d));
+
+	        
+	}
+			
+	private static int func(int first, int second) {
+	    int res = 0; 
+			  
+	    if (first>second) {
+	        res = first;
+	    } else {
+		res = second;	      
+	    } return res;
+
+        }
+
+}
+
+>>>
+13
+20
+>>>
+```
+
+---
+
+### Java OOP
+
+---
+
+```java
+class Calculation {
+   int z;
+	
+   public void addition(int x, int y) {
+      z = x + y;
+      System.out.println("The sum of the given numbers:"+z);
+   }
+	
+   public void Subtraction(int x, int y) {
+      z = x - y;
+      System.out.println("The difference between the given numbers:"+z);
+   }
+}
+
+public class My_Calculation extends Calculation {
+   public void multiplication(int x, int y) {
+      z = x * y;
+      System.out.println("The product of the given numbers:"+z);
+   }
+	
+   public static void main(String args[]) {
+      int a = 20, b = 10;
+      My_Calculation demo = new My_Calculation();
+      demo.addition(a, b);
+      demo.Subtraction(a, b);
+      demo.multiplication(a, b);
+   }
+}
+
+>>>
+The sum of the given numbers:30
+The difference between the given numbers:10
+The product of the given numbers:200
+>>>
+```
+
+---
+
 
