@@ -572,8 +572,6 @@ no(a,b,d)
 >>>
 ```
 
----
-
 ```python
 i = 1
 while i < 6:
