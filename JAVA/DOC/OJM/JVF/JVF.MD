@@ -15,20 +15,12 @@
 * [numbers]()
 * [strings](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/STR/STR.MD)
 * [variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/VAR/VAR.MD)
-
----
-
 * [if..else](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/IF/IF.MD)
 * [for](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FOR/FOR.MD)
 * [while](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/WHILE/WHILE.MD)
 * [do..while]()
-
----
-
 * [functions/methods](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
 * [oop](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/OOP/OOP.MD)
-
----
 
 [PYF](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/PYF.MD)
 
@@ -451,8 +443,6 @@ public class test {
 ---
 
 ### Java OOP
-
----
 
 ```java
 class Calculation {
