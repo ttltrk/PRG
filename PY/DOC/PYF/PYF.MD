@@ -11,7 +11,7 @@
 
 ---
 
-* [operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OP/OP.MD)
+* <a href='#operators'>operators</a>
 * [numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/NUM/NUM.MD)
 * [strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/STR/STR.MD)
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
@@ -31,7 +31,7 @@
 
 ---
 
-### Python operators
+<h3 id='operators'>Python Operators</h3>
 
 ```python
 a == b  (Equals)
