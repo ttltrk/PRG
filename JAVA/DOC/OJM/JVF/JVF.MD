@@ -13,16 +13,16 @@
 
 ---
 
-<a href='#binarys'>binarys</a>
-<a href='#numbers'>numbers</a>
-<a href='#strings'>strings</a>
-<a href='#variables'>variables</a>
-<a href='#ifelse'>if..else</a>
-<a href='#for'>for</a>
-<a href='#while'>while</a>
-<a href='#dowhile'>do..while</a>
-<a href='#functions/methods'>functions/methods</a>
-<a href='#oop'>oop</a>
+* <a href='#binarys'>binarys</a>
+* <a href='#numbers'>numbers</a>
+* <a href='#strings'>strings</a>
+* <a href='#variables'>variables</a>
+* <a href='#ifelse'>if..else</a>
+* <a href='#for'>for</a>
+* <a href='#while'>while</a>
+* <a href='#dowhile'>do..while</a>
+* <a href='#functions/methods'>functions/methods</a>
+* <a href='#oop'>oop</a>
 
 ---
 
