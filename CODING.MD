@@ -24,18 +24,50 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x| x| x| x|  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x|  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|13|
+|WD|21|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * AUG
+
+  * 21 - Tue (DIR: 157)
+
+    + [Python, Java]()
+
+  * 20 - Mon (DIR: 156)
+
+    + [Python, Java]()
+
+  * 19 - Sun (DIR: 155)
+
+    + [Python, Java]()
+
+  * 18 - Sat (DIR: 154)
+
+    + [Python, Java]()
+
+  * 17 - Fri (DIR: 153)
+
+    + [Python, Java]()
+
+  * 16 - Thu (DIR: 152)
+
+    + [Python, Java]()
+
+  * 15 - Wed (DIR: 151)
+
+    + [Python, Java]()
+
+  * 14 - Tue (DIR: 150)
+  
+    + [Python, Java]()
 
   * 13 - Mon (DIR: 149)
   
