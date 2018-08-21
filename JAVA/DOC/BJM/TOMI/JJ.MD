@@ -137,33 +137,84 @@ ff
 
 ```java
 /**
- * 
- * 
+ * Adjon meg logikai relációt számok között és írassa ki annak eredményét:
+ * 5 > 3
+ * 3 > 3
+ * 3 >= 3
+ * 1 < 2
+ * 8 <= 4
+ * 0 != 15
+ * 9 == 9
+ * 5 == 7
+ * Mikor mi az eredmény?
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String[] args) {
+		  boolean res1 = (5 > 3);
+		  boolean res2 = (3 > 3);
+		  boolean res3 = (3 >= 3);
+		  boolean res4 = (1 < 2);
+		  boolean res5 = (8 <= 4);
+		  boolean res6 = (0 != 15);
+		  boolean res7 = (5 == 7);
+		  boolean res8 = (9 == 9);
+		  
+		  System.out.println("1st result (5 > 3) = "+res1);
+		  System.out.println("2nd result (3 > 3) = "+res2);
+		  System.out.println("3rd result (3 >= 3) = "+res3);
+		  System.out.println("4th result (1 < 2) = "+res4);
+		  System.out.println("5th result (8 <= 4) = "+res5);
+		  System.out.println("6th result (0 != 15) = "+res6);
+		  System.out.println("7th result (5 == 7) = "+res7);
+		  System.out.println("8th result (9 == 9) = "+res8);
+		
+	}
 
+}
+
+>>>
+1st result (5 > 3) = true
+2nd result (3 > 3) = false
+3rd result (3 >= 3) = true
+4th result (1 < 2) = true
+5th result (8 <= 4) = false
+6th result (0 != 15) = true
+7th result (5 == 7) = false
+8th result (9 == 9) = true
+>>>
 ```
 
 1.05
 
 ```java
 /**
- * 
- * 
+ * Minek a rövidítése a JRE és mit jelent? Mi az a JVM?
  */
 
+JRE
 
+The Java Runtime Environment (JRE) is a set of software tools for development of Java applications. It combines the Java Virtual Machine (JVM), platform core classes and supporting libraries.
+
+JRE is part of the Java Development Kit (JDK), but can be downloaded separately. JRE was originally developed by Sun Microsystems Inc., a wholly-owned subsidiary of Oracle Corporation. 
+
+Also known as Java runtime.
+
+JVM
+
+A Java virtual machine (JVM) is an abstract computing machine that enables a computer to run Java programs as well as programs written in other languages and compiled to Java bytecode. There are three notions of the JVM: specification, implementation, and instance. 
 ```
 
 1.06
 
 ```java
 /**
- * 
+ * Melyik JRE Package-ben van benne a System println függvénye?
  * 
  */
 
-
+JRE System Library --> rt.jar --> java.io --> PrintStream.class --> println()
 ```
 
 1.07
