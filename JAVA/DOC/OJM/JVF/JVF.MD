@@ -5,22 +5,24 @@
 
 ###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Java Tech](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/JT/JT.MD) - [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/OJM.MD) - [own manuals](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JM/JM.MD)
 
----
-
-### Java Flash
+###### [PRG]()
 
 ---
 
-* [binarys](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/BIN/BIN.MD)
-* [numbers]()
-* [strings](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/STR/STR.MD)
-* [variables](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/VAR/VAR.MD)
-* [if..else](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/IF/IF.MD)
-* [for](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FOR/FOR.MD)
-* [while](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/WHILE/WHILE.MD)
-* [do..while]()
-* [functions/methods](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
-* [oop](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/OOP/OOP.MD)
+<h3 id='^'>Java Flash</h3>
+
+---
+
+<a href='#binarys'>binarys</a>
+<a href='#numbers'>numbers</a>
+<a href='#strings'>strings</a>
+<a href='#variables'>variables</a>
+<a href='#ifelse'>if..else</a>
+<a href='#for'>for</a>
+<a href='#while'>while</a>
+<a href='#dowhile'>do..while</a>
+<a href='#functions/methods'>functions/methods</a>
+<a href='#oop'>oop</a>
 
 ---
 
@@ -29,7 +31,7 @@
 
 ---
 
-### Java binarys
+<h3 id='binarys'>Java binarys</h3>
 
 ```
 128 - 64 - 32 - 16 - 8 - 4 - 2 - 1
@@ -59,9 +61,17 @@ D = Decimal
 1000 gbyte = 1 tbyte
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java strings
+<h3 id='numbers'>Java numbers</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='strings'>Java strings</h3>
 
 ```java
 package test;
@@ -169,9 +179,11 @@ yellow world
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java variables
+<h3 id='variables'>Java variables</h3>
 
 ```java
 int a, b, c;         
@@ -204,9 +216,11 @@ public class test {
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java if..else
+<h3 id='ifelse'>Java if..else</h3>
 
 ```java
 public class Test {
@@ -231,9 +245,11 @@ Value of X is 30
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java for
+<h3 id='for'>Java for</h3>
 
 ```java
 public class HelloWorld{
@@ -260,9 +276,11 @@ Hello World
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java while
+<h3 id='while'>Java while</h3>
 
 ```java
 public class HelloWorld{
@@ -290,9 +308,17 @@ Hi World
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java Functions / Methods
+<h3 id='dowhile'>Java do while</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='Functions / Methods'>Java Functions / Methods</h3>
 
 ```java
 public static int methodName(int a, int b) {
@@ -443,9 +469,11 @@ public class test {
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Java OOP
+<h3 id='OOP'>Java OOP</h3>
 
 ```java
 class Calculation {
@@ -483,6 +511,8 @@ The difference between the given numbers:10
 The product of the given numbers:200
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
