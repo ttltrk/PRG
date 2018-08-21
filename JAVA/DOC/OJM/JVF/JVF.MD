@@ -318,7 +318,7 @@ Hi World
 
 ---
 
-<h3 id='Functions / Methods'>Java Functions / Methods</h3>
+<h3 id='functions/methods'>Java Functions / Methods</h3>
 
 ```java
 public static int methodName(int a, int b) {
