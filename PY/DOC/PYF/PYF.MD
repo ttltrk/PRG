@@ -26,7 +26,7 @@
 * <a href='#lambda'>lambda</a>
 * <a href='#list_comprehensions'>list comprehensions</a>
 * <a href='#oop'>oop</a>
-* []()
+  []()
 * [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD)
 * [JVF](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/JVF.MD)
 
