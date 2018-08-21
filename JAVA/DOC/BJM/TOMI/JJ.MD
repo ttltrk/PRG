@@ -475,33 +475,38 @@ String c = "abc"
 boolean d = true
 ```
 
+<a href='#^'>^^^</a>
+
 Function/method
 
 ```java
-package pogrammingPackage;
-public class Programming {
-	public static void main(String []args){
-        
-		int a = 2, b = 3;
+package test;
+public class test {
+    public static void main(String[] args) {
 		
-		System.out.println(func(a, b));
+    int a = 2, b = 3;
+		
+     System.out.println(func(a, b));
          
      }
 	
-private static int func(int param1, int param2) {
-	if (param1 > param2)
-	  return param1;
-	else
-		return param2;
-		  
-  }
-
+     private static int func(int param1, int param2) {
+       int res = 0;
+        
+       if (param1 > param2) {
+	     res = param1;
+       } else {
+	     res = param2;
+       } return res;
+    }
 }
 
 >>>
 3
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 234.01
 
@@ -964,6 +969,8 @@ public class Programming {
 
 ```
 
+<a href='#^'>^^^</a>
+
 5.02
 
 ```java
@@ -974,6 +981,8 @@ public class Programming {
 
 ```
 
+<a href='#^'>^^^</a>
+
 5.03
 
 ```java
@@ -983,6 +992,8 @@ public class Programming {
  */
 
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -998,6 +1009,8 @@ public class Programming {
 
 ```
 
+<a href='#^'>^^^</a>
+
 6.02
 
 ```java
@@ -1008,6 +1021,8 @@ public class Programming {
 
 ```
 
+<a href='#^'>^^^</a>
+
 6.03
 
 ```java
@@ -1017,6 +1032,8 @@ public class Programming {
  */
 
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -1032,6 +1049,8 @@ public class Programming {
 
 ```
 
+<a href='#^'>^^^</a>
+
 7.02
 
 ```java
@@ -1042,6 +1061,9 @@ public class Programming {
 
 ```
 
+<a href='#^'>^^^</a>
+
+
 7.03
 
 ```java
@@ -1051,5 +1073,7 @@ public class Programming {
  */
 
 ```
+
+<a href='#^'>^^^</a>
 
 ---
