@@ -5,26 +5,12 @@
 
 ---
 
-### Learn Python
+<h3 id='^'>Learn Python</h3>
 
 ---
 
-* [Python Syntax]()
-* [Strings and Console Output]()
-* [Conditionals and Control Flow]()
-* [Functions]()
-* [Lists & Dictionaries]()
-* [Students Becomes the Teachers]()
-* [Lists and Functions]()
-* [Loops]()
-* [Exam Statistics]()
-* [Advanced Topics in Python]()
-* [Introduction to Classes]()
-* [File Input and Output]()
-
----
-
-##### Python Syntax
+Python Syntax
+  
   * <a href="#01">01 - Welcome!</a>
   * <a href="#02">02 - Variables</a>
   * <a href="#03">03 - Booleans</a>
@@ -39,16 +25,18 @@
   * <a href="#12">12 - Modulo</a>
   * <a href="#13">13 - Bringing It All Together</a>
 
-##### Tip Calculator
+Tip Calculator
+  
   * <a href="#14">14 - The Meal</a>
   * <a href="#15">15 - The Tax</a>
   * <a href="#16">16 - The Tip</a>
   * <a href="#17">17 - Reassign in a Single Line</a>
   * <a href="#18">18 - The Total</a>
 
-### Strings and Console Output
+Strings and Console Output
 
-##### Strings and Console Output
+Strings and Console Output
+  
   * <a href="#19">19 - Strings</a>
   * <a href="#20">20 - Practice</a>
   * <a href="#21">21 - Escaping Characters</a>
@@ -65,7 +53,8 @@
   * <a href="#32">32 - String Formatting with %, Part 2</a>
   * <a href="#33">33 - And now, For Something Completely Familiar</a>
 
-##### Date and Time
+Date and Time
+  
   * <a href="#34">34 - The datetime Library</a>
   * <a href="#35">35 - Getting the Current Date and Time</a>
   * <a href="#36">36 - Extracting Information</a>
@@ -73,9 +62,10 @@
   * <a href="#38">38 - Pretty Time</a>
   * <a href="#39">39 - Grande Finale</a>
 
-### Conditionals and Control Flow
+Conditionals and Control Flow
 
-##### Conditionals & Control Flow
+Conditionals & Control Flow
+  
   * <a href="#40">40 - Go with the Flow</a>
   * <a href="#41">41 - Compare Closely!</a>
   * <a href="#42">42 - Compare...Closelier!</a>
@@ -92,7 +82,8 @@
   * <a href="#53">53 - I got 99 Problems, but a switch ain't one</a>
   * <a href="#54">54 - The big if</a>
 
-##### PygLatin
+PygLatin
+  
   * <a href="#55">55 - Break it down</a>
   * <a href="#56">56 - Ahoy!</a>
   * <a href="#57">57 - Input!</a>
@@ -105,9 +96,10 @@
   * <a href="#64">64 - Ending Up</a>
   * <a href="#65">65 - Testing, testing, is this Thing On?</a>
   
-### Functions
+Functions
 
-##### Functions
+Functions
+  
   * <a href="#66">66 - What Good are Functions?</a>
   * <a href="#67">67 - Function Junction</a>
   * <a href="#68">68 - Call and Response</a>
@@ -128,7 +120,8 @@
   * <a href="#83">83 - Review: Modules</a>
   * <a href="#84">84 - Review: Built-In Functions</a>
 
-##### Taking a Vacation
+Taking a Vacation
+  
   * <a href="#85">85 - Before We Begin</a>
   * <a href="#86">86 - Planning Your Trip</a>
   * <a href="#87">87 - Getting There</a>
@@ -137,9 +130,10 @@
   * <a href="#90">90 - Hey, You Never Know!</a>
   * <a href="#91">91 - Plan Your Trip!</a>
 
-###  Lists & Dictionaries
+Lists & Dictionaries
 
-##### Python Lists and Dictionaries
+Python Lists and Dictionaries
+  
   * <a href="#92">92 - Introduction to Lists</a>
   * <a href="#93">93 - Access by Index</a>
   * <a href="#94">94 - New Neighbors</a>
@@ -155,7 +149,8 @@
   * <a href="#104">104 - Remove a Few Things</a>
   * <a href="#105">105 - It's Dangerous to Go Alone! Take This</a>  
 
-##### A Day at the Supermarket
+A Day at the Supermarket
+  
   * <a href="#106">106 - BeFOR We Begin</a>
   * <a href="#107">107 - This is KEY!</a>
   * <a href="#108">108 - Control Flow and Looping</a>
@@ -170,9 +165,10 @@
   * <a href="#117">117 - Stocking Out</a>
   * <a href="#118">118 - Let's Check Out!</a>  
 
-###  Students Becomes the Teachers
+Students Becomes the Teachers
 
-##### Students Becomes the Teachers
+Students Becomes the Teachers
+  
   * <a href="#119">119 - Lesson Number One</a>
   * <a href="#120">120 - What's the Score?</a>
   * <a href="#121">121 - Put It Together</a>
@@ -183,9 +179,10 @@
   * <a href="#126">126 - Part of the Whole</a>
   * <a href="#127">127 - How is Everybody Doing?</a>
 
-###  Lists and Functions
+Lists and Functions
 
-##### Lists and Functions
+Lists and Functions
+  
   * <a href="#128">128 - List accessing</a>
   * <a href="#129">129 - List element modification</a>
   * <a href="#130">130 - Appending to a list</a>
@@ -205,7 +202,8 @@
   * <a href="#144">144 - Using two lists as two arguments in a function</a>
   * <a href="#145">145 - Using a list of lists in a function</a>
 
-##### Battleship!
+Battleship!
+  
   * <a href="#146">146 - Welcome to Battleship!</a>
   * <a href="#147">147 - Getting Our Feet Wet</a>
   * <a href="#148">148 - Make a List</a>
@@ -227,33 +225,37 @@
   * <a href="#164">164 - Extra Credit</a>
 
 
-### Loops
+Loops
 
-##### Loops
+Loops
 
-##### Practice Makes Perfect
+Practice Makes Perfect
 
-### Exam Statistics
+Exam Statistics
 
-##### Exam Statistics
+Exam Statistics
 
-### Advanced Topics in Python
+Advanced Topics in Python
 
-##### Advanced Topics in Python
+Advanced Topics in Python
 
-##### Introduction to Bitwise Operators
+Introduction to Bitwise Operators
 
-### Introduction to Classes
+Introduction to Classes
 
-##### Introduction to Classes
+Introduction to Classes
 
-##### Classes
+Classes
 
-### File Input and Output
+File Input and Output
 
-##### File Input/Output
+File Input/Output
 
-#### PYTHON FINAL PROJECT
+PYTHON FINAL PROJECT
+
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='01'>01 - Welcome!</h3>
 
@@ -265,9 +267,9 @@ Welcome to Python!
 >>>
 ```
 
-[repl.it](https://repl.it/@ttltrknet/CA01-Welcome)
+<a href='#^'>^^^</a>
 
-<a href='#home'>↑</a3>
+---
 
 <h3 id='02'>02 - Variables</h3>
 
@@ -295,9 +297,9 @@ print(curry)
 >>>
 ```
 
-[repl.it](https://repl.it/@ttltrknet/CA02-Variables)
+<a href='#^'>^^^</a>
 
-<a href='#home'>↑</a3>
+---
 
 <h3 id='03'>03 - Booleans</h3>
 
@@ -329,7 +331,9 @@ True False
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='04'>04 - You've Been Reassigned</h3>
 
@@ -348,7 +352,9 @@ print (my_int)
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='05'>05 - Whitespace</h3>
 
@@ -369,7 +375,9 @@ Syntax error
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='06'>06 - Whitespace Means Right Space</h3>
 
@@ -390,7 +398,9 @@ print (spam())
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='07'>07 - A Matter of Interpretation</h3>
 
@@ -412,7 +422,9 @@ False
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='08'>08 - Single Line Comments</h3>
 
@@ -431,7 +443,9 @@ print(mysterious_variable)
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='09'>09 - Multi-Line Comments</h3>
 
@@ -454,7 +468,9 @@ print(mysterious_variable)
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='10'>10 - Math</h3>
 
@@ -479,7 +495,9 @@ print (count_to)
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='11'>11 - Exponentiation</h3>
 
@@ -501,7 +519,9 @@ print (eggs)
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='12'>12 - Modulo</h3>
 
@@ -519,7 +539,9 @@ print (spam)
 >>>
 ```
 
-<a href='#home'>↑</a3>
+<a href='#^'>^^^</a>
+
+---
 
 <h3 id='13'>13 - Bringing It All Together</h3>
 
