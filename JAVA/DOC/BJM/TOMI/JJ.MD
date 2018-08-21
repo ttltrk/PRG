@@ -28,3 +28,94 @@ Meetings
 * [src - programozz te is](http://programozzteis.hu/)
 
 ---
+
+Hello World
+
+<h3 id='1st'>1st</h3>
+
+```java
+/**
+ * 
+ */
+package pogrammingPackage;
+
+/**
+ * @author attilatorok
+ *
+ */
+public class Programming {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println(2+3);
+		System.out.println(2-3);
+		System.out.println(2-3.5);
+		System.out.println((50/10)/5);
+		
+		System.out.println(
+				(2+3) +" "+ (2-3) +" "+ (1+1)
+				);
+		
+	}
+
+}
+
+>>>
+5
+-1
+-1.5
+1
+5 -1 2
+>>>
+```
+
+1.01
+
+```java
+/**Szabja testre az Eclipse nézetét: Csak a "Console" és az "Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t
+use the ```minimize``` button
+
+window --> show view
+```
+
+1.02
+
+```java
+/**Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?
+
+package + class
+
+expand, collapse
+```
+
+1.03
+
+1.04
+
+1.05
+
+1.06
+
+1.07
+
+1.08
+
+1.09
+
+1.10
+
+1.11
+
+1.12
+
+1.13
+
+1.14
+
+1.15
+
+1.16
+
+---
