@@ -1,22 +1,20 @@
 
-[Complete Python Bootcamp: Go from zero to hero in Python](https://www.udemy.com/complete-python-bootcamp/learn/v4/content)
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+<h3 id='^'>Complete Python Bootcamp: Go from zero to hero in Python</h3>
 
 ---
 
-[[on jupyter](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)] - 
-[[on github](https://github.com/jmportilla/Complete-Python-Bootcamp)]
-
-### Section 1 - Course Overview
+Section 1 - Course Overview
+  
   * <a href='#1'>1 - Course Introduction</a>
   * <a href='#2'>2 - Course Curriculum Overview</a>
   * <a href='#3'>3 - Python 2 vs Python 3</a>
   * <a href='#4'>4 - Have to Approach this Course</a>
   * <a href='#5'>5 - Course Faq</a>
 
-### Section 2 - Python Setup
+Section 2 - Python Setup
+  
   * <a href='#6'>6 - Installation Notes</a>
   * <a href='#7'>7 - Jupyter Notebook Installation</a>
   * <a href='#8'>8 - IDE Selection</a>
@@ -25,7 +23,8 @@
   * <a href='#11'>11 - Additional Resources</a>
   * <a href='#12'>12 - Git and Github Overview</a> 
 
-### Section 3 - Python Objects and Data Structure Basics
+Section 3 - Python Objects and Data Structure Basics
+  
   * <a href='#13'>13 - Numbers</a> 
   * <a href='#14'>14 - Numbers Faq</a> 
   * <a href='#15'>15 - Strings</a> 
@@ -43,11 +42,13 @@
   * <a href='#27'>27 - Objects and Data Structures Assessment Test</a> 
   * <a href='#28'>28 - Objects and Data Structures Assessment Solutions</a> 
   
-### Section 4 - Python Comparison Operators
+Section 4 - Python Comparison Operators
+  
   * <a href='#29'>29 - Comparison Operators</a>
   * <a href='#30'>30 - Chained Comparison Operators</a>
  
-### Section 5 - Python Statements
+Section 5 - Python Statements
+  
   * <a href='#31'>31 - Introduction to Python Statements</a>
   * <a href='#32'>32 - if, elif and else Statements</a>
   * <a href='#33'>33 - for Loops</a>
@@ -57,7 +58,8 @@
   * <a href='#37'>37 - Statements Assessments Test</a>
   * <a href='#38'>38 - Statements Assessments Solutions</a>
   
-### Section 6 - Methods and Functions
+Section 6 - Methods and Functions
+  
   * <a href='#39'>39 - Methods</a>
   * <a href='#40'>40 - Functions</a>
   * <a href='#41'>41 - Lambda Expressions</a>
@@ -66,7 +68,8 @@
   * <a href='#44'>44 - Functions and Methods Homework Hints and Tips</a>
   * <a href='#45'>45 - Functions and Methods Homework Solutions</a>
   
-### Section 7 - Milestone Project 1
+Section 7 - Milestone Project 1
+  
   * <a href='#46'>46 - Milestone Project 1 Session</a>
   * <a href='#47'>47 - Milestone Project 1 Assignment Overview</a>
   * <a href='#48'>48 - Milestone Project 1 Help</a>
@@ -75,7 +78,8 @@
   * <a href='#51'>51 - Milestone Project 1 Solution PT 3</a>
   * <a href='#52'>52 - Advanced Project Solution Overview</a>
 
-### Section 8 - Object Oriented Programming
+Section 8 - Object Oriented Programming
+  
   * <a href='#53'>53 - OOP PT1 - Objects</a>
   * <a href='#54'>54 - OOP PT2 - Classes</a>
   * <a href='#55'>55 - OOP PT3 - Methods</a>
@@ -84,22 +88,26 @@
   * <a href='#58'>58 - OOP - Homework Assignment</a>
   * <a href='#59'>59 - OOP - Homework Solution</a>
   
-### Section 9 - Errors And Exceptions Handling
+Section 9 - Errors And Exceptions Handling
+  
   * <a href='#60'>60 - Errors and Exceptions</a>
   * <a href='#61'>61 - Exception Handling: Try, Except, Finally</a>
   * <a href='#62'>62 - Errors and Exceptions HO</a>
   * <a href='#63'>63 - Errors and Exceptions HO Solution</a>
   
-### Section 10 - Milestone Project 2
+Section 10 - Milestone Project 2
+  
   * <a href='#64'>64 - Project Overview</a>
   * <a href='#65'>65 - Project 2 Solution</a>
 
-### Section 11 - Modules and Packages
+Section 11 - Modules and Packages
+  
   * <a href='#66'>66 - Modules, Packages and Imports</a>
   * <a href='#67'>67 - Modules and Packages Assignment</a>
   * <a href='#68'>68 - Create your own Python Modules</a>
 
-### Section 12 - Built-in Functions
+Section 12 - Built-in Functions
+  
   * <a href='#69'>69 - Python 3 Notes for Map, Reduce and Filter</a>
   * <a href='#70'>70 - Map</a>
   * <a href='#71'>71 - Reduce</a>
@@ -111,22 +119,26 @@
   * <a href='#77'>77 - Built-in Functions Assessment Test</a>
   * <a href='#78'>78 - Built-in Functions Assessment Test Solution</a>
 
-### Section 13 - Python Decorators
+Section 13 - Python Decorators
+  
   * <a href='#79'>79 - Decorators - Part 1</a>
   * <a href='#80'>80 - Decorators - Part 2</a>
   * <a href='#81'>81 - Decorators - Part 3</a>
   * <a href='#82'>82 - Decorators Homework</a>
 
-### Section 14 - Python Generators
+Section 14 - Python Generators
+  
   * <a href='#83'>83 - Iteration vs Generation</a>
   * <a href='#84'>84 - Creating Generators</a>
   * <a href='#85'>85 - Iterators and Generators Homework</a>
   * <a href='#86'>86 - Iterators and Generators Homework Solution</a>
   
-### Section 15 - Final Capstone Python Project
+Section 15 - Final Capstone Python Project
+  
   * <a href='#87'>87 - Final Capstone Python Project</a>
   
-### Section 16 - Advanced Python Modules
+Section 16 - Advanced Python Modules
+  
   * <a href='#88'>88 - Collections Module - counter</a>
   * <a href='#89'>89 - Collections Module - defaultdict</a>
   * <a href='#90'>90 - Collections Module - OrderedDict</a>
@@ -138,7 +150,8 @@
   * <a href='#96'>96 - StringIO</a>
   * <a href='#97'>97 - Advanced Python Modules FAQ</a>
 
-### Section 17 - Advanced Python Objects and Data Structures
+Section 17 - Advanced Python Objects and Data Structures
+  
   * <a href='#98'>98 - Advanced Numbers</a>
   * <a href='#99'>99 - Advanced Strings</a>
   * <a href='#100'>100 - Advanced Sets</a>
@@ -147,7 +160,8 @@
   * <a href='#103'>103 - Advanced Python Objects Assessment Test</a>
   * <a href='#104'>104 - Advanced Python Objects Assessment Test Solutions</a>
   
-### Section 18 - Introduction to GUIs
+Section 18 - Introduction to GUIs
+  
   * <a href='#105'>105 - Introduction to GUIs</a>
   * <a href='#106'>106 - Quick note about ipywidgets</a>
   * <a href='#107'>107 - Interact</a>
@@ -157,84 +171,87 @@
   * <a href='#111'>111 - Widget Styling</a>
   * <a href='#112'>112 - Custom Widget Example</a>
 
-### Section 19 - Bonus Special Offers
-  * <a href='#113'>113 - Bonus Offers</a>
+Section 19 - Bonus Special Offers
   
-Section 1 - Course Overview
-------
+  * <a href='#113'>113 - Bonus Offers</a>
 
-### <h3 id='1'>1 - Course Introduction</h3>
+<a href='^'></a>
 
-[[Course Introduction.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421822?start=0)]
+---
 
-### <h3 id='2'>2 - Course Curriculum Overview</h3>
+<h3 id='1'>1 - Course Introduction</h3>
 
-[[Course Curriculum Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3421834?start=0)]
+<a href='^'></a>
 
-### <h3 id='3'>3 - Python 2 vs Python 3</h3>
+---
 
-[[Python 2 vs Python 3.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3778666?start=0)]
+<h3 id='2'>2 - Course Curriculum Overview</h3>
 
-[[key differences](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)]
+<a href='^'></a>
 
-### <h3 id='4'>4 - Have to Approach this Course</h3>
+---
 
-[[Have to Approach this Course.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3779296?start=0)]
+<h3 id='3'>3 - Python 2 vs Python 3</h3>
 
-### <h3 id='5'>5 - Course Faq</h3>
+<a href='^'></a>
 
-[[Course Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3789748?start=0)]
+---
 
-Section 2 - Python Setup
-------
+<h3 id='4'>4 - Have to Approach this Course</h3>
 
-### <h3 id='6'>6 - Installation Notes</h3>
+<a href='^'></a>
 
-[[Installation Notes.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4492658?start=0)]
+---
 
-### <h3 id='7'>7 - Jupyter Notebook Installation</h3>
+<h3 id='5'>5 - Course Faq</h3>
 
-[[Jupyter Notebook Installation.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/6350270?start=0)]
+<a href='^'></a>
 
-[[jupyter](https://jupyter.org/)]
+---
 
-### <h3 id='8'>8 - IDE Selection</h3>
+<h3 id='6'>6 - Installation Notes</h3>
 
-[[IDE Selection.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422020?start=0)]
+<a href='^'></a>
 
-### <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
+---
 
-[[Jupyther (iPython) Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422022?start=0)]
+<h3 id='7'>7 - Jupyter Notebook Installation</h3>
 
-[[jupyter User Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb)]
+<a href='^'></a>
 
-### <h3 id='10'>10 - Faq - Notebooks</h3>
+---
 
-[[Faq - Notebooks.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3811670?start=0)]
+<h3 id='8'>8 - IDE Selection</h3>
 
-[[jupyter notebooks](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/)]
+<a href='^'></a>
 
-### <h3 id='11'>11 - Additional Resources</h3>
+---
 
-[[Additional Resources.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422034?start=0)]
+<h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
 
-### <h3 id='12'>12 - Git and Github Overview</h3>
+<a href='^'></a>
 
-[[Git and Github Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0)]
+---
 
-  [[Git Hello World](https://guides.github.com/activities/hello-world/)]
- 
-  [[GitHub Resources](https://help.github.com/articles/git-and-github-learning-resources/)] 
- 
-  [[GitHub CodeSchool](https://try.github.io/levels/1/challenges/1)]
+<h3 id='10'>10 - Faq - Notebooks</h3>
 
-Section 3 - Python Objects and Data Structure Basics
-------
+<a href='^'></a>
 
-### <h3 id='13'>13 - Numbers</h3>
+---
 
-[[Numbers.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Numbers.ipynb)] - 
-[[Numbers.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422056?start=0)]
+<h3 id='11'>11 - Additional Resources</h3>
+
+<a href='^'></a>
+
+---
+
+<h3 id='12'>12 - Git and Github Overview</h3>
+
+<a href='^'></a>
+
+---
+
+<h3 id='13'>13 - Numbers</h3>
 
 ```python
 >>> 3/2
@@ -268,14 +285,17 @@ Section 3 - Python Objects and Data Structure Basics
 >>> 
 ```
 
-### <h3 id='14'>14 - Numbers Faq</h3>
+<a href='^'></a>
 
-[[Numbers Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729814?start=0)]
+---
 
-### <h3 id='15'>15 - Strings</h3> 
+<h3 id='14'>14 - Numbers Faq</h3>
 
-[[Strings.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Strings.ipynb)] - 
-[[Strings.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422058?start=0)]
+<a href='^'></a>
+
+---
+
+<h3 id='15'>15 - Strings</h3> 
 
 ```python
 >>> 'hello'
@@ -409,14 +429,17 @@ hello world
 >>> 
 ```
 
-### <h3 id='16'>16 - Strings Faq</h3>
+<a href='^'></a>
 
-[[Strings Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729810?start=0)]
+---
 
-### <h3 id='17'>17 - Print Formatting</h3>
+<h3 id='16'>16 - Strings Faq</h3>
 
-[[Print Formatting.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Print%20Formatting.ipynb)] - 
-[[Print Formatting.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3759600?start=0)]
+<a href='^'></a>
+
+---
+
+<h3 id='17'>17 - Print Formatting</h3>
 
 ```python
 >>> print ("this is a string")
@@ -461,16 +484,17 @@ First inserted, Second inserted, Third szohi
 >>> 
 ```
 
-### <h3 id='18'>18 - Print Formatting Faq</h3>
+<a href='^'></a>
 
-[[Print Formatting Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3810438?start=0)]
+---
 
-### <h3 id='19'>19 - Lists</h3>
+<h3 id='18'>18 - Print Formatting Faq</h3>
 
-[[Lists.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lists.ipynb)] - 
-[[Lists.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422060?start=0)]
+<a href='^'></a>
 
-[[usefull links - DO](https://www.digitalocean.com/community/tutorials/understanding-lists-in-python-3)]
+---
+
+<h3 id='19'>19 - Lists</h3>
 
 ```python
 >>> my_list = [1, 2, 3]
@@ -598,16 +622,17 @@ print(numbers[::3])
 >>>
 ```
 
-### <h3 id='20'>20 - Lists Faq</h3>
+<a href='^'></a>
 
-[[Lists Faq.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729818?start=0)]
+---
 
-### <h3 id='21'>21 - Dictionaries</h3>
+<h3 id='20'>20 - Lists Faq</h3>
 
-[[Dictionaries.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Dictionaries.ipynb)] - 
-[[Dictionaries.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422062?start=0)]
+<a href='^'></a>
 
-[[DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-dictionaries-in-python-3)]
+---
+
+<h3 id='21'>21 - Dictionaries</h3>
 
 ```python
 >>> my_dict = {"key1" : "value1", "key2" : "value2"}
@@ -713,14 +738,17 @@ dict_items([('k1', 1), ('k3', 3), ('k2', 2)])
 >>> 
 ```
 
-### <h3 id='22'>22 - Dictionaries FAQ</h3>
+<a href='^'></a>
 
-[[Dictionaries FAQ.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3729816?start=0)]
+---
 
-### <h3 id='23'>23 - Tuples</h3>
+<h3 id='22'>22 - Dictionaries FAQ</h3>
 
-[[Tuples.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Tuples.ipynb)] - 
-[[Tuples.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422066?start=0)]
+<a href='^'></a>
+
+---
+
+<h3 id='23'>23 - Tuples</h3>
 
 ```python
 >>> t = (1, 2, 3)
@@ -780,10 +808,11 @@ TypeError: 'tuple' object does not support item assignment
 >>> 
 ```
 
-### <h3 id='24'>24 - Files</h3>
+<a href='^'></a>
 
-[[Files.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Files.ipynb)] - 
-[[Files.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422068?start=0)]
+---
+
+<h3 id='24'>24 - Files</h3>
 
 ```python
 >>> f = open("test.txt")
@@ -818,10 +847,11 @@ Second line
 >>> 
 ```
 
-### <h3 id='25'>25 - Sets and Booleans</h3>
+<a href='^'></a>
 
-[[Sets and Booleans.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Sets%20and%20Booleans.ipynb)] - 
-[[Sets and Booleans.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512862?start=0)]
+---
+
+<h3 id='25'>25 - Sets and Booleans</h3>
 
 ```python
 >>> x = set()
@@ -873,35 +903,25 @@ True
 >>> 
 ```
 
-### <h3 id='26'>26 - Resources Form More Basic Practice</h3>
+<a href='^'></a>
 
-[[Resources Form More Basic Practice.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4450394?start=0)]
+---
 
-[[Basic Practice](http://codingbat.com/python)] - 
+<h3 id='26'>26 - Resources Form More Basic Practice</h3>
 
-[[More Mathematical (and Harder) Practice](https://projecteuler.net/archives)] - 
+<h3 id="27">27 - Objects and Data Structures Assessment Test</h3>
 
-[[List of Practice Problem](http://www.codeabbey.com/index/task_list)] - 
+<a href='^'></a>
 
-[[A SubReddit Devoted to Daily Practice Problems](https://www.reddit.com/r/dailyprogrammer)] - 
+---
 
-[[A very tricky website with very few hints and touch problems (Not for beginners but still interesting)](http://www.pythonchallenge.com/)]
+<h3 id="28">28 - Objects and Data Structures Assessment Test Solutions</h3>
 
-### <h3 id="27">27 - Objects and Data Structures Assessment Test</h3>
+<a href='^'></a>
 
-[[Objects and Data Structures Assessment Test.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422070?start=0)]
+---
 
-### <h3 id="28">28 - Objects and Data Structures Assessment Test Solutions</h3>
-
-[[Objects and Data Structures Assessment Test Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547934?start=0)]
-
-Python Comparison Operators
-------
-
-### <h3 id='29'>29 - Comparison Operators</h3>
-
-[[Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Comparison%20Operators.ipynb)] - 
-[[Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512348?start=0)]
+<h3 id='29'>29 - Comparison Operators</h3>
 
 ```python
 >>> 2 == 2
@@ -951,10 +971,11 @@ True
 >>> 
 ```
 
-### <h3 id='30'>30 - Chained Comparison Operators</h3>
+<a href='^'></a>
 
-[[Chained Comparison Operators.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Chained%20Comparison%20Operators.ipynb)] - 
-[[Chained Comparison Operators.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3620216?start=0)]
+---
+
+<h3 id='30'>30 - Chained Comparison Operators</h3>
 
 ```python
 >>> 1 < 2
@@ -982,18 +1003,13 @@ True
 >>> 
 ```
 
-Python Statements
-------
+<h3 id="31">31 - Introduction to Python Statements</h3>
 
-### <h3 id="31">31 - Introduction to Python Statements</h3>
+<a href='^'></a>
 
-[[Introduction to Python Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Introduction%20to%20Python%20Statements.ipynb)] - 
-[[Introduction to Python Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3767812?start=0)]
+---
 
-### <h3 id='32'>32 - if, elif and else Statements</h3>
-
-[[if, elif, and else Statements.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/If%2C%20elif%2C%20and%20else%20Statements.ipynb)] -
-[[if, elif, and else Statements.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512298?start=0)]
+<h3 id='32'>32 - if, elif and else Statements</h3>
 
 Perhaps the most well-known statement type is the if statement.
 
@@ -1086,11 +1102,11 @@ Welcome to the Mall!
 >>> 
 ```
 
-### <h3 id='33'>33 - for Loops</h3>
+<a href='^'></a>
 
-[for Loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/For%20Loops.ipynb)
+---
 
-[for Loops.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512314?start=0)
+<h3 id='33'>33 - for Loops</h3>
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -1333,11 +1349,11 @@ k3
 >>> 
 ```
 
-### <h3 id='34'>34 - while Loops</h3>
+<a href='^'></a>
 
-[while loops.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/While%20loops.ipynb)
+---
 
-[while loops.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512318?start=0)
+<h3 id='34'>34 - while Loops</h3>
 
 ```python
 x = 0
@@ -1471,11 +1487,11 @@ Hey x equals 3!
 >>>
 ```
 
-### <h3 id="35">35 - range()</h3> 
+<a href='^'></a>
 
-[range().ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Range%28%29.ipynb)
+---
 
-[range().ipynb](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547574?start=0)
+<h3 id="35">35 - range()</h3> 
 
 ```python
 >>> x = range(1,5)
@@ -1542,11 +1558,11 @@ for num in range(1,11):
 >>> 
 ```
 
-### <h3 id="36">36 - List Comprehensions</h3>
+<a href='^'></a>
 
-[List Comprehensions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/List%20Comprehensions.ipynb)
+---
 
-[List Comprehensions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3632380?start=0)
+<h3 id="36">36 - List Comprehensions</h3>
 
 ```python
 l = []
@@ -1641,17 +1657,13 @@ print (lst)
 >>> 
 ```
 
-### <h3 id="37">37 - Statement Assessment Test</h3>
+<h3 id="37">37 - Statement Assessment Test</h3>
 
-[Statement Assessment Test.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Statements%20Assessment%20Test.ipynb)
+<a href='^'></a>
 
-[Statement Assessment Test.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512326?start=0)
+---
 
-### <h3 id="38">38 - Statement Assessment Solutions</h3>
-
-[Statements Assessment Test - Solutions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Statements%20Assessment%20Test%20-%20Solutions.ipynb)
-
-[Statement Assessment Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547946?start=0)
+<h3 id="38">38 - Statement Assessment Solutions</h3>
 
 ```python
 st = 'Print only the words that start with s in this sentence'
@@ -1759,14 +1771,11 @@ Buzz
 >>> 
 ```
 
-Methods and Functions
-------
+<a href='^'></a>
 
-### <h3 id="39">39 - Methods</h3>
+---
 
-[Methods.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Methods.ipynb)
-
-[Methods.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512208?start=0)
+<h3 id="39">39 - Methods</h3>
 
 ```python
 >>> l = [1,2,3,4,5]
@@ -1799,9 +1808,11 @@ count(...) method of builtins.list instance
 >>> 
 ```
 
-### <h3 id="40">FUNCTIONS</h3>
+<a href='^'></a>
 
-[Functions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions.ipynb)
+---
+
+<h3 id="40">FUNCTIONS</h3>
 
 ```python
 def name_of_function():
@@ -1938,9 +1949,11 @@ the number is prime!
 >>> 
 ```
 
-### <h3 id="41">LAMBDA EXPRESSIONS</h3>
+<a href='^'></a>
 
-[Lambda expressions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Lambda%20expressions.ipynb)
+---
+
+<h3 id="41">LAMBDA EXPRESSIONS</h3>
 
 ```python
 def square(num):
@@ -2055,8 +2068,6 @@ filter()
 reduce()
 ```
 
-[[pythonconquerstheuniverse](https://pythonconquerstheuniverse.wordpress.com/)]
-
 ```python
 len_check = lambda item: len(item)
 
@@ -2067,9 +2078,11 @@ print (len_check("blabla"))
 >>>
 ```
 
-### <h3 id="42">NESTED STATEMENTS AND SCOPE</h3>
+<a href='^'></a>
 
-[Nested Statements and Scope.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Nested%20Statements%20and%20Scope.ipynb)
+---
+
+<h3 id="42">NESTED STATEMENTS AND SCOPE</h3>
 
 ```python
 x = 25
@@ -2241,40 +2254,47 @@ Value of x (outside of func()) is:  2
 >>>
 ```
 
-### <h3 id='43'>43 - Functions and Methods Homework</a>
+<a href='^'></a>
 
-[[Functions and Methods Homework.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions%20and%20Methods%20Homework.ipynb)] -
-[[Functions and Methods Homework.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3512240?start=0)]
+---
 
-### <h3 id='44'>44 - Functions and Methods Homework Hints and Tips</a>
+<h3 id='43'>43 - Functions and Methods Homework</a>
 
-[[Functions and Methods Homework Hints and Tips.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4411912?start=0)]
+<a href='^'></a>
 
-### <h3 id='45'>45 - Functions and Methods Homework Solutions</a>
+---
 
-[[Functions and Methods Homework Solutions.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Functions%20and%20Methods%20Homework%20-%20Solutions.ipynb)] -
-[[Functions and Methods Homework Solutions.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3547938?start=0)]
-  
-Section 7 - Milestone Project 1
-------
+<h3 id='44'>44 - Functions and Methods Homework Hints and Tips</a>
 
-### <h3 id='46'>46 - Milestone Project 1 Session</a>
+<a href='^'></a>
 
-[[Milestone Project 1 Session.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4481550?start=0)]
+---
 
-### <h3 id='47'>47 - Milestone Project 1 Assignment Overview</a>
+<h3 id='45'>45 - Functions and Methods Homework Solutions</a>
 
-[[Milestone Project 1 Assignment Overview.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Assignment.ipynb)] -
-[[Milestone Project 1 Assignment Overview.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4487484?start=0)]
+<a href='^'></a>
 
-### <h3 id='48'>48 - Milestone Project 1 Help</a>
+---
 
-[[Milestone Project 1 Help.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4249558?start=0)]
+<h3 id='46'>46 - Milestone Project 1 Session</a>
 
-### <h3 id='49'>49 - Milestone Project 1 Solution PT 1</h3>
+<a href='^'></a>
 
-[[Milestone Project 1 Solution PT 1.ipynb](http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Walkthrough%20Steps%20Workbook.ipynb)] - 
-[[Milestone Project 1 Solution PT 1.udemy](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/4487490?start=0)]
+---
+
+<h3 id='47'>47 - Milestone Project 1 Assignment Overview</a>
+
+<a href='^'></a>
+
+---
+
+<h3 id='48'>48 - Milestone Project 1 Help</a>
+
+<a href='^'></a>
+
+---
+
+<h3 id='49'>49 - Milestone Project 1 Solution PT 1</h3>
 
 Step 1 (1)
 
@@ -2590,14 +2610,11 @@ None
 
 050. MILESTONE PROJECT 1 SOLUTION PT 2
 
-http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/blob/master/Milestone%20Project%201-%20Walkthrough%20Steps%20Workbook.ipynb
+050.1.
 
-----------------------------------
+STEP 5 - Write a function that uses the random module to randomly decide which player goes first.
 
-#050.1.
-
-#STEP 5 - Write a function that uses the random module to randomly decide which player goes first.
-
+```python
 # ---> COINFLIP!!! <---
 
 import random
@@ -2637,26 +2654,26 @@ Player 2
 >>>
 Player 1
 >>> 
+```
 
-----------------------------------
+050.2.
 
-#050.2.
+STEP 6 - Write a function that returns a boolean indicating whether a space on the board is freely available.
 
-#STEP 6 - Write a function that returns a boolean indicating whether a space on the board is freely available.
-
+```python
 def space_check(board, position):
     return board[position] == " "
 	
 >>>
 None
 >>>
+```
 
-----------------------------------
+050.3.
 
-#050.3.
+STEP 7 - Write a function that checks if the board is full and returns a boolean value. True if full.
 
-#STEP 7 - Write a function that checks if the board is full and returns a boolean value. True if full.
-
+```python
 def full_board_check(board):
     for i in range(1, 10):
         if space_check(board, i):
@@ -2666,11 +2683,11 @@ def full_board_check(board):
 >>>
 None
 >>>
+```
 
-----------------------------------
+050.4.
 
-#050.4.
-
+```python
 """
 STEP 8 - Write a function that asks for a player next position (num 1-9) and then uses the function
 from step 6 to check if its a free position.
@@ -2688,11 +2705,11 @@ def player_choice(board):
 >>>
 None
 >>>
+```
 
-----------------------------------
+050.5.
 
-#050.5.
-
+```python
 """
 STEP 9 - Write a function that asks the player if they want to play again and returns a boolean True
 if they do want to play again.
@@ -2705,14 +2722,7 @@ def replay():
 >>>
 None
 >>>
-
-----------------------------------
-
---------------------------------------------------------------------------
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
---------------------------------------------------------------------------
+```
 
 051. MILESTONE PROJECT 1 SOLUTION PT 3
 
