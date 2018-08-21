@@ -12,20 +12,20 @@
 ---
 
 * <a href='#operators'>operators</a>
-* [numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/NUM/NUM.MD)
-* [strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/STR/STR.MD)
-* [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/VAR/VAR.MD)
-* [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LST/LST.MD)
-* [tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/TUP/TUP.MD)
-* [set](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/SET/SET.MD)
-* [dictionary]()
-* [if..else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/IF/IF.MD)
-* [for](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FOR/FOR.MD)
-* [while](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/WHILE/WHILE.MD)
-* [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FUN/FUN.MD)
-* [lambda](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LAM/LAM.MD)
-* [list comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/LCO/LCO.MD)
-* [oop](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
+* <a href='#numbers'>numbers</a>
+* <a href='#strings'>strings</a>
+* <a href='#variables'>variables</a>
+* <a href='#lists'>lists</a>
+* <a href='#tuples'>tuples</a>
+* <a href='#set'>set</a>
+* <a href='#dictionary'>dictionary</a>
+* <a href='#if..else'>if..else</a>
+* <a href='#for'>for</a>
+* <a href='#while'>while</a>
+* <a href='#functions'>functions</a>
+* <a href='#lambda'>lambda</a>
+* <a href='#list_comprehensions'>list comprehensions</a>
+* <a href='#oop'>oop</a>
 
 [JVF](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/JVF.MD)
 
@@ -46,7 +46,7 @@ a >= b  (Greater than or equal to)
 
 ---
 
-### Python numbers
+<h3 id='numbers'>Python numbers</h3>
 
 ```python
 x = 1
@@ -128,9 +128,11 @@ print(type(z))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python strings
+<h3 id='strings'>Python strings</h3>
 
 ```python
 a = "Hello, World!"
@@ -174,9 +176,11 @@ Jello, World!
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python variables
+<h3 id='variables'>Python variables</h3>
 
 ```python
 a = 5
@@ -218,9 +222,11 @@ a 'd' erteke = True
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python lists
+<h3 id='lists'>Python lists</h3>
 
 ```python
 lst = ["apple", "banana", "cherry"]
@@ -267,9 +273,11 @@ print(len(lst))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python tuples
+<h3 id='tuples'>Python tuples</h3>
 
 ```python
 tup = ("apple", "banana", "cherry")
@@ -314,9 +322,11 @@ print(len(tup))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python sets
+<h3 id='sets'>Python sets</h3>
 
 ```python
 sts = {"apple", "banana", "cherry"}
@@ -341,9 +351,11 @@ print(len(sts))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python if..else
+<h3 id='if..else'>Python if..else</h3>
 
 ```python
 a = 33
@@ -387,9 +399,11 @@ a is greater than b
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python for
+<h3 id='for'>Python for</h3>
 
 ```python
 for element in range(5):
@@ -419,9 +433,11 @@ hello world
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python while
+<h3 id='while'>Python while</h3>
 
 ```python
 a = "hi world"
@@ -455,9 +471,11 @@ while i < 6:
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python Functions
+<h3 id='functions'>Python functions</h3>
 
 ```python
 #variables
@@ -610,9 +628,11 @@ itt meg az otodik
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python lambda
+<h3 id='lambda'>Python lambda</h3>
 
 ```python
 #function
@@ -687,9 +707,11 @@ print(mytripler(11))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python list comprehensions
+<h3 id='list_comprehensions'>Python list comprehensions</h3>
 
 ```python
 l = []
@@ -804,7 +826,6 @@ print (fahrenheit)
 >>> 
 ```
 
-
 ```python
 lst = [x**2 for x in [x**2 for x in range(11)]]
 
@@ -815,9 +836,11 @@ print (lst)
 >>> 
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
-### Python OOP
+<h3 id='oop'>Python OOP</h3>
 
 ```python
 Class Dog(object):
@@ -846,6 +869,8 @@ Sam color = black
 George color = white
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
