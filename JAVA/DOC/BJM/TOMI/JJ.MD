@@ -470,10 +470,27 @@ Sat Apr 28 22:08:43 CEST 2018
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy-egy String változót a vezetéknévnek és a keresztnévnek. 
+ * Fűzzük össze a két változót egy harmadikba.
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        
+		String n1 = "ttl ";
+		String n2 = "trk";
+		String n3 = n1+n2;
+		
+		System.out.println(n3);
+         		  
+  }
+
+}
+
+>>>
+ttl trk
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -482,10 +499,25 @@ Sat Apr 28 22:08:43 CEST 2018
  
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy egész típust és adjunk neki értékül egy nem egész számot 
+ * (pl.: 5,5). Mi történik?
  */
 
+public class HelloWorld{
+     public static void main(String []args){
+         
+         int i = 5.5;
+         
+        System.out.println(i);
+     }
+}
+
+>>>
+HelloWorld.java:5: error: incompatible types: possible lossy conversion from double to int
+         int i = 5.5;
+                 ^
+1 error
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -494,10 +526,26 @@ Sat Apr 28 22:08:43 CEST 2018
  
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy double és egy int típust. 
+ * A double típus legyen egyenlő az int típusú változó kétszeresével.
  */
 
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         int i = 5;
+         double d = 2*i;
+         
+        System.out.println(i);
+        System.out.println(d);
+     }
+}
+
+>>>
+5
+10.0
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -506,10 +554,29 @@ Sat Apr 28 22:08:43 CEST 2018
 
 ```java
 /**
- * 
+ * A 3. feladatban létrehozott változókat most fordítva használjuk:
+ * Az int típusú változó legyen egyenlő a double típus 3,14-szeresével. Mi történik?
  * 
  */
 
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        double d = 10.0;
+        int i = 3.14*d;
+        
+        System.out.println(i);
+        System.out.println(d);
+     }
+}
+
+>>>
+HelloWorld.java:6: error: incompatible types: possible lossy conversion from double to int
+        int i = 3.14*d;
+                    ^
+1 error
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -518,10 +585,90 @@ Sat Apr 28 22:08:43 CEST 2018
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy függvényt visszatérési érték és bemeneti paraméter nélkül. 
+ * Írassuk ki vele, hogy "Hello World"
  */
 
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+	  func_null();
+	    
+    }
+	
+    private static void func_null() {
+    	System.out.println("hello world");
+	  
+  }
+
+}
+
+>>>
+hello world
+>>>
+
+public class HelloWorld{
+
+    public static void main(String []args){
+        
+	  func_null();
+	  System.out.println(func_pull());
+	    
+      }
+	
+        private static void func_null() {
+    	  System.out.println("hello world");
+      }
+     
+        private static String func_pull() {
+    	  return ("hw");
+      }
+     
+}
+
+>>>
+hello world
+hw
+>>>
+
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+	  System.out.println(func_null());
+	  
+    }
+	
+    private static String func_null() {
+    	return ("hello world");
+	  
+  }
+
+}
+
+>>>
+hello world
+>>>
+
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+	  System.out.println(func_null().length());
+	  
+    }
+	
+    private static String func_null() {
+    	return ("hello world");
+	  
+  }
+
+}
+
+>>>
+11
+>>>
 ```
 
 <a href='#^'>^^^</a>
