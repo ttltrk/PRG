@@ -76,6 +76,8 @@ use the ```minimize``` button
 window --> show view
 ```
 
+<a href='#^'>^^^</a>
+
 1.02
 
 ```java
@@ -87,6 +89,8 @@ package + class
 
 expand, collapse
 ```
+
+<a href='#^'>^^^</a>
 
 1.03
 
@@ -124,6 +128,8 @@ fa
 ff
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 1.04
 
@@ -178,6 +184,8 @@ public class Programming {
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 1.05
 
 ```java
@@ -204,6 +212,8 @@ to run Java programs as well as programs written in other languages and compiled
 to Java bytecode. There are three notions of the JVM: specification, implementation, and instance. 
 ```
 
+<a href='#^'>^^^</a>
+
 1.06
 
 ```java
@@ -214,6 +224,8 @@ to Java bytecode. There are three notions of the JVM: specification, implementat
 
 JRE System Library --> rt.jar --> java.io --> PrintStream.class --> println()
 ```
+
+<a href='#^'>^^^</a>
 
 1.07
 
@@ -240,6 +252,8 @@ gut, gut
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 1.08
 
 ```java
@@ -262,6 +276,8 @@ public class Programming {
 3.14
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 1.09
 
@@ -286,6 +302,8 @@ public class Programming {
 Value of the "pi" approximately: [valueOfPI]
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 1.10
 
@@ -319,6 +337,8 @@ public class Programming {
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 1.11
 
 ```java
@@ -326,9 +346,9 @@ public class Programming {
  * Használjuk fel a 3. feladatban létrehozott változókat,
  * de most az alapérték legyen 6-tól 10-ig
  */
-
-
 ```
+
+<a href='#^'>^^^</a>
 
 1.12
 
@@ -353,6 +373,8 @@ public class Programming {
 25
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 1.13
 
@@ -379,6 +401,8 @@ Exception in thread "main" java.lang.Error: Unresolved compilation problem:
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 1.14
 
 ```java
@@ -398,11 +422,14 @@ public class Programming {
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 1.15
 
 ```java
 /**
- * Hozzunk létre egy függvényt ami kiírja dátum formátumba a paraméterként megkapott [year], [month], [day] változókat. * 
+ * Hozzunk létre egy függvényt ami kiírja dátum formátumba a paraméterként 
+ * megkapott [year], [month], [day] változókat. * 
  */
 
 package pogrammingPackage;
@@ -419,6 +446,8 @@ Sat Apr 28 22:08:43 CEST 2018
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 1.16
 
 ```java
@@ -430,6 +459,8 @@ Sat Apr 28 22:08:43 CEST 2018
  */
 
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
