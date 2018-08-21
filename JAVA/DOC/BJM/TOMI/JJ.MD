@@ -11,8 +11,6 @@
 
 ---
 
-Meetings
-
 * [1st](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/01/1st.md)
 * [2nd-3rd-4th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 * [5th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/05/05.MD)
@@ -187,15 +185,21 @@ public class Programming {
 
 JRE
 
-The Java Runtime Environment (JRE) is a set of software tools for development of Java applications. It combines the Java Virtual Machine (JVM), platform core classes and supporting libraries.
+The Java Runtime Environment (JRE) is a set of software tools for development 
+of Java applications. It combines the Java Virtual Machine (JVM), 
+platform core classes and supporting libraries.
 
-JRE is part of the Java Development Kit (JDK), but can be downloaded separately. JRE was originally developed by Sun Microsystems Inc., a wholly-owned subsidiary of Oracle Corporation. 
+JRE is part of the Java Development Kit (JDK), but can be downloaded separately. 
+JRE was originally developed by Sun Microsystems Inc., 
+a wholly-owned subsidiary of Oracle Corporation. 
 
 Also known as Java runtime.
 
 JVM
 
-A Java virtual machine (JVM) is an abstract computing machine that enables a computer to run Java programs as well as programs written in other languages and compiled to Java bytecode. There are three notions of the JVM: specification, implementation, and instance. 
+A Java virtual machine (JVM) is an abstract computing machine that enables a computer 
+to run Java programs as well as programs written in other languages and compiled 
+to Java bytecode. There are three notions of the JVM: specification, implementation, and instance. 
 ```
 
 1.06
@@ -213,52 +217,112 @@ JRE System Library --> rt.jar --> java.io --> PrintStream.class --> println()
 
 ```java
 /**
- * 
- * 
+ * Írjon az "err" console-ra ha a hexadecimálisan megjelnített 255 nem egyenlő 0xDE-vel
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String[] args) {
+		String hexa = Integer.toHexString(255);
+		if (hexa.equals("0xDE"))
+		  System.out.println("err");
+		else
+		  System.out.println("gut, gut");
+		
+	}
 
+}
+
+>>>
+gut, gut
+>>>
 ```
 
 1.08
 
 ```java
 /**
- * 
- * 
+ * Definiáljuk a pi-t egy változóba a main függvényben
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String[] args) {
+		double pi = 3.14;	
+				
+		System.out.println(pi);
+		
+	}
 
+}
+
+>>>
+3.14
+>>>
 ```
 
 1.09
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy szöveges változót ami a következőt tárolja: 
+ * "Value of the "pi" approximately: [valueOfPI]" a main függvényben
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String[] args) {
+		String val = "Value of the \"pi\" approximately: [valueOfPI]";	
+				
+		System.out.println(val);
+		
+	}
 
+}
+
+>>>
+Value of the "pi" approximately: [valueOfPI]
+>>>
 ```
 
 1.10
 
 ```java
 /**
- * 
+ * Hozzuk létre a számokat 1-től 5-ig, tároljuk le azokat változókba, 
+ * majd hozzunk létre egy 6. változó az előző számok összegének tárolására
  * 
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String[] args) {
+		int one = 1;
+		int two = 2;
+		int three = 3;
+		int four = 4;
+		int five = 5;
+		int six;
+		
+		six = (one+two+three+four+five);
+				
+		System.out.println(six);
+		
+	}
 
+}
+
+>>>
+15
+>>>
 ```
 
 1.11
 
 ```java
 /**
- * 
- * 
+ * Használjuk fel a 3. feladatban létrehozott változókat,
+ * de most az alapérték legyen 6-tól 10-ig
  */
 
 
@@ -268,54 +332,100 @@ JRE System Library --> rt.jar --> java.io --> PrintStream.class --> println()
 
 ```java
 /**
- * 
+ * Inicializáljunk egy változót úgy, hogy egy függvény visszatérési értékét vegye fel
  * 
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        int y;
+        y = 5*5;
+        
+        int x = y;
+        System.out.print(x);
+     }
+}
 
+>>>
+25
+>>>
 ```
 
 1.13
 
 ```java
 /**
- * 
- * 
+ * Hozzunk létre egy int változót keződérték nélkül. 
+ * Növeljük meg az értékét 3-mal. Nézzük meg a futás eredményét.
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        int y;
+        y = y + 3;        
+        System.out.print(y);
+     }
+}
 
+>>>
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	The local variable y may not have been initialized
+
+	at pogrammingPackage.Programming.main(Programming.java:5)
+>>>
 ```
 
 1.14
 
 ```java
 /**
- * 
- * 
+ * Hozzunk létre egy függvényt ami visszaadja a pi értékét
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        System.out.print(Math.PI);
+     }
+}
 
+>>>
+3.141592653589793
+>>>
 ```
 
 1.15
 
 ```java
 /**
- * 
- * 
+ * Hozzunk létre egy függvényt ami kiírja dátum formátumba a paraméterként megkapott [year], [month], [day] változókat. * 
  */
 
+package pogrammingPackage;
+import java.util.Date;
+public class Programming {
+	   public static void main(String args[]) {
+		      Date date = new Date();
+		      System.out.println(date.toString());
+		}
+}
 
+>>>
+Sat Apr 28 22:08:43 CEST 2018
+>>>
 ```
 
 1.16
 
 ```java
 /**
- * 
- * 
+ * Hozzunk létre 3 függvényt, paraméter és visszatérési érték nélkül. 
+ * Mindegyik függvény tartalmazzon egy kiírató utasítást az első és
+ * az utolsó utasításaként, hogy a futása elkezdődött illetve a futása befejeződött. 
+ * Hívják meg a függvények egymást. Mi lesz a kimenete a programnak?
  */
-
 
 ```
 
