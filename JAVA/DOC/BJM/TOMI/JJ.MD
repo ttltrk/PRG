@@ -466,6 +466,43 @@ Sat Apr 28 22:08:43 CEST 2018
 
 <h3 id='234'>2nd, 3rd, 4th</h3>
 
+Basic Variables
+
+```java
+int a = 1
+double b = 2.2
+String c = "abc"
+boolean d = true
+```
+
+Function/method
+
+```java
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        
+		int a = 2, b = 3;
+		
+		System.out.println(func(a, b));
+         
+     }
+	
+private static int func(int param1, int param2) {
+	if (param1 > param2)
+	  return param1;
+	else
+		return param2;
+		  
+  }
+
+}
+
+>>>
+3
+>>>
+```
+
 234.01
 
 ```java
