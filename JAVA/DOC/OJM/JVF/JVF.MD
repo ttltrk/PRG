@@ -22,7 +22,10 @@
 * [functions/methods](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/FUN/FUN.MD)
 * [oop](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/OOP/OOP.MD)
 
-[PYF](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/PYF.MD)
+---
+
+* [Programozzteis](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/PT.MD)
+* [PYF](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/PYF.MD)
 
 ---
 
