@@ -75,9 +75,9 @@ public class Programming {
 
 ```java
 /**
-Szabja testre az Eclipse nézetét: Csak a "Console" és az 
-"Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t
-**/
+ * Szabja testre az Eclipse nézetét: Csak a "Console" és az 
+ * "Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t
+ */
 
 use the ```minimize``` button
 
@@ -88,8 +88,8 @@ window --> show view
 
 ```java
 /**
-Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?
-**/
+ * Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?
+ */
 
 package + class
 
@@ -100,8 +100,8 @@ expand, collapse
 
 ```java
 /**
-Jelenítse meg hexadecimálisan a 255-t egy beépített függvény segítségével
-**/
+ * Jelenítse meg hexadecimálisan a 255-t egy beépített függvény segítségével
+ */
 
 package pogrammingPackage;
 public class Programming {
@@ -136,78 +136,143 @@ ff
 1.04
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.05
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.06
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.07
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.08
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.09
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.10
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.11
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.12
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.13
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.14
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.15
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
 1.16
 
 ```java
+/**
+ * 
+ * 
+ */
+
 
 ```
 
