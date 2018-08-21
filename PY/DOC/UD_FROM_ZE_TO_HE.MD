@@ -175,19 +175,19 @@ Section 19 - Bonus Special Offers
   
   * <a href='#113'>113 - Bonus Offers</a>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='1'>1 - Course Introduction</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='2'>2 - Course Curriculum Overview</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
