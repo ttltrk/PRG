@@ -74,7 +74,11 @@ public class Programming {
 1.01
 
 ```java
-/**Szabja testre az Eclipse nézetét: Csak a "Console" és az "Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t
+/**
+Szabja testre az Eclipse nézetét: Csak a "Console" és az 
+"Outline" ablakokat tartsa meg valamint adja hozzá a "Search View"-t
+**/
+
 use the ```minimize``` button
 
 window --> show view
@@ -83,7 +87,9 @@ window --> show view
 1.02
 
 ```java
-/**Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?
+/**
+Mit lát az Outline View-ban? Hogyan tud fájlon belül keresni?
+**/
 
 package + class
 
@@ -92,30 +98,117 @@ expand, collapse
 
 1.03
 
+```java
+/**
+Jelenítse meg hexadecimálisan a 255-t egy beépített függvény segítségével
+**/
+
+package pogrammingPackage;
+public class Programming {
+	public static void main(String[] args) {
+		String hexa_1;
+		String hexa_2;
+		String hexa_3;
+		
+		int num_1 = 200;
+		int num_2 = 250;
+		int num_3 = 255;
+		
+		hexa_1 = Integer.toHexString(num_1);
+		hexa_2 = Integer.toHexString(num_2);
+		hexa_3 = Integer.toHexString(num_3);
+		
+		System.out.println(hexa_1);
+		System.out.println(hexa_2);
+		System.out.println(hexa_3);
+		
+	}
+
+}
+
+>>>
+c8
+fa
+ff
+>>>
+```
+
 1.04
+
+```java
+
+```
 
 1.05
 
+```java
+
+```
+
 1.06
+
+```java
+
+```
 
 1.07
 
+```java
+
+```
+
 1.08
+
+```java
+
+```
 
 1.09
 
+```java
+
+```
+
 1.10
+
+```java
+
+```
 
 1.11
 
+```java
+
+```
+
 1.12
+
+```java
+
+```
 
 1.13
 
+```java
+
+```
+
 1.14
+
+```java
+
+```
 
 1.15
 
+```java
+
+```
+
 1.16
+
+```java
+
+```
 
 ---
