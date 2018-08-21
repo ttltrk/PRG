@@ -1,73 +1,85 @@
 
-[30 Days of Python](https://www.udemy.com/30-days-of-python/learn/v4/content)
-======
+---
 
-[<<<](https://github.com/ttltrk/PRG/blob/master/PY/MAN_PY.MD)
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [basic manuals](https://github.com/ttltrk/PRG/blob/master/MANUALS.MD) - [Scripts](https://github.com/ttltrk/PRG/blob/master/PY/DOC/SC/SC.MD) - [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) - [Courses](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/COURSES.MD) - [Udemy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/13/06/UDEMY.MD)
+
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [.co.](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [manuals](https://github.com/ttltrk/PRG/blob/master/MAN.MD) - [most used manuals](https://github.com/ttltrk/PRG/blob/master/MUM.MD) 
 
 ---
 
-### Section 1 - Welcome
+<h3 id='^'>30 Days of Python</h3>
+
+---
+
+Section 1 - Welcome
+  
   * <a href='#1'>1 - Welcome</a>
   * <a href='#2'>2 - Getting help</a>
   * <a href='#3'>3 - Youtube and Suggestions</a>
 
-### Section 2 - Days 1: Basics
+Section 2 - Days 1: Basics
+  
   * <a href='#4'>4 - Setup, String, Variables and Integers</a>
 
-### Section 3 - Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
+Section 3 - Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
+  
   * <a href='#5'>5 - Lists</a>
   * <a href='#6'>6 - Dictionaries and Tuples</a>
   * <a href='#7'>7 - Loops: For Loops and While Loops</a>
 
-### Section 4 - Day 4: Conditionals
+Section 4 - Day 4: Conditionals
+  
   * <a href='#8'>8 - Conditionals</a>
   * <a href='#9'>9 - Using Conditionals Expressions</a>
 
-### Section 5 - Day 5: Functions
+Section 5 - Day 5: Functions
+  
   * <a href='#10'>10 - Functions P1</a>
   * <a href='#11'>11 - Functions P2</a>
 
-### Section 6
+Section 6
 
-### Section 7
+Section 7
 
-### Section 8
+Section 8
 
-### Section 9
+Section 9
 
-### Section 10
+Section 10
 
-### Section 11
+Section 11
 
-### Section 12
+Section 12
 
-### Section 13
+Section 13
 
-### Section 14
+Section 14
 
-### Section 15
+Section 15
 
-Section 1 - Welcome
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='1'>1 - Welcome</h3>
+---
 
-[[Welcome.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800476?start=0)]
+<h3 id='1'>1 - Welcome</h3>
 
-### <h3 id='2'>2 - Getting help</h3>
+<a href='#^'>^^^</a>
 
-[[Getting help.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800738?start=0)]
+---
 
-### <h3 id='3'>3 - Youtube and Suggestions</h3>
+<h3 id='2'>2 - Getting help</h3>
 
-[[Youtube and Suggestions.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800742?start=0)]
+<a href='#^'>^^^</a>
 
-Section 2 - Days 1: Basics
-------
+---
 
-### <h3 id='4'>4 - Setup, String, Variables and Integers</h3>
+<h3 id='3'>3 - Youtube and Suggestions</h3>
 
-[[Setup, String, Variables and Integers.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5800734?start=0)]
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='4'>4 - Setup, String, Variables and Integers</h3>
 
 STRINGS
 
@@ -122,12 +134,11 @@ print(b)
 >>>
 ```
 
-Section 3 - Day 2 & 3 - Lists, Dictionaries, Tuples and Loops
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='5'>5 - Lists</h3>
+---
 
-[[Lists.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872358?start=0)]
+<h3 id='5'>5 - Lists</h3>
 
 ```python
 l = ['some string', 123, 'another string']
@@ -186,9 +197,11 @@ James
 >>>
 ```
 
-### <h3 id='6'>6 - Dictionaries and Tuples</h3>
+<a href='#^'>^^^</a>
 
-[[Dictionaries and Tuples.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872366?start=0)]
+---
+
+<h3 id='6'>6 - Dictionaries and Tuples</h3>
 
 Dictionaries
 
@@ -262,9 +275,11 @@ yetanother
 >>>
 ```
 
-### <h3 id='7'>7 - Loops: For Loops and While Loops</h3>
+<a href='#^'>^^^</a>
 
-[[Loops: For Loops and While Loops.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872370?start=0)]
+---
+
+<h3 id='7'>7 - Loops: For Loops and While Loops</h3>
 
 FOR LOOP
 
@@ -348,12 +363,11 @@ while i < 11:
 >>>
 ```
 
-Section 4 - Day 4: Conditionals
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='8'>8 - Conditionals</h3>
+---
 
-[[Conditionals.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872374?start=0)]
+<h3 id='8'>8 - Conditionals</h3>
 
 ```python
 True
@@ -412,9 +426,11 @@ True
 >>>
 ```
 
-### <h3 id='9'>9 - Using Conditionals Expressions</h3>
+<a href='#^'>^^^</a>
 
-[[Using Conditionals Expressions.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872376?start=0)]
+---
+
+<h3 id='9'>9 - Using Conditionals Expressions</h3>
 
 ```python
 list_a = [1,2,3,4]
@@ -495,12 +511,11 @@ print(list_d)
 >>>
 ```
 
-Section 5 - Day 5: Functions
-------
+<a href='#^'>^^^</a>
 
-### <h3 id='10'>10 - Functions P1</h3>
+---
 
-[[Functions P1.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872380?start=0)]
+<h3 id='10'>10 - Functions P1</h3>
 
 ```sort()```
 
@@ -598,16 +613,11 @@ print(average)
 >>>
 ```
 
-### <h3 id='11'>11 - Functions P2</h3> 
+<a href='#^'>^^^</a>
 
-[[Functions P2.udemy](https://www.udemy.com/30-days-of-python/learn/v4/t/lecture/5872382?start=15)]
+---
 
-```python
-
->>>
-
->>>
-```
+<h3 id='11'>11 - Functions P2</h3> 
 
 ```python
 
@@ -629,3 +639,14 @@ print(average)
 
 >>>
 ```
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
