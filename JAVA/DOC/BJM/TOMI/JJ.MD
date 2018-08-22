@@ -1042,11 +1042,6 @@ public class Programming {
 7.01
 
 ```
-1. Hozzunk létre egy Teszt Osztályt!
-
-2. Definiáljunk a Teszt Osztályban hét darab String attribútumot, amely a hét napjaitt
-fogja tartalmazni.
-
 3. Adjunk a Teszt Osztályhoz egy metódust, ami egy int bemenetet vár és visszaadja a hét
 megfelelő napjához tartozó változót. (1  „Hétfő”, 2  „Kedd”, 7  „Vasárnap”)
 Milyen String-et ad vissza a függvény, ha a bemeneti paraméter nagyobb mint 7?
@@ -1092,8 +1087,7 @@ paraméterekkel.
 
 ```java
 /**
- * 
- * 
+ * Hozzunk létre egy Teszt Osztályt!
  */
 
 ```
@@ -1104,8 +1098,8 @@ paraméterekkel.
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk a Teszt Osztályban hét darab String attribútumot, amely a hét napjaitt
+ * fogja tartalmazni.
  */
 
 ```
