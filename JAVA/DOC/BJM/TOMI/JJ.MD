@@ -1041,6 +1041,55 @@ public class Programming {
 
 7.01
 
+```
+1. Hozzunk létre egy Teszt Osztályt!
+
+2. Definiáljunk a Teszt Osztályban hét darab String attribútumot, amely a hét napjaitt
+fogja tartalmazni.
+
+3. Adjunk a Teszt Osztályhoz egy metódust, ami egy int bemenetet vár és visszaadja a hét
+megfelelő napjához tartozó változót. (1  „Hétfő”, 2  „Kedd”, 7  „Vasárnap”)
+Milyen String-et ad vissza a függvény, ha a bemeneti paraméter nagyobb mint 7?
+
+4. Példányosítsuk a Teszt Osztályunkat, majd olvassuk ki a hét 2., 5. és 13. napját. Írassuk
+ki az eredményt!
+
+5. Hozzuk létre a Téglalap Osztályt!
+Legyen az attribútuma a két oldalának hossza és legyen egy kerület és egy terület számító
+függvénye. Példányosítsunk 3 téglalapot, adjuk meg oldalainak hosszát majd számoljuk ki a
+kerületüket és a területüket egy ciklusban.
+
+6. Implementáljunk egy biggerRectangle függvényt, ami 2 bemeneti téglalap közül
+visszaadja a nagyobbat. Keressük meg a 3 téglalap közül a legnagyobbat!
+
+7. Hozzunk létre egy Négyzet Osztályt, ami tárolja az oldalának a hosszát és legyen egy-
+egy metódusa a kerület és a terület kiszámítására
+
+8. Milyen összefüggés van a Négyzet és a Téglalap Osztály között? Hogyan lehet Négyzetet
+létrehozni Téglalap segítségével?
+
+9. Hozzunk létre egy Mosógép Osztályt. A Mosógéphez vannak előre megírt mosási opciók:
+ KisMosás
+ KözepesMosás
+ NagyMosás
+Milyen típusú attribútumban érdemes tárolni ezeket az opciókat?
+Nem, nem String-ben! Gondolkozz, mi a hátránya a String-nek?
+
+10. Legyen egy Autó Osztály!
+Definiáljuk a súly, a fogyasztás, a lóerő és a gyártási évet. Találjon ki egy függvényt, ami
+kiszámolja az autó árát az adatok függvényében:
+Value_Of_Car := f(weight, consumption, power, production_year);
+
+11. Hozzunk létre egy Ember Osztályt. Legyen egy Neve (String) és egy TV típusú
+attribútuma.
+
+12. Példányosítsunk egy Ember és egy TV Osztályt, majd rendeljük hozzá az Ember TV
+attribútumához a létrehozott TV példányt. Vezérelje az Ember a hozzárendelt TV-t!
+
+13. Nézzen utána, majd hozza létre az Ember Osztálynak egy Konstruktorát, a Név és a TV
+paraméterekkel.
+```
+
 ```java
 /**
  * 
