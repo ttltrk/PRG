@@ -199,61 +199,61 @@ Section 19 - Bonus Special Offers
 
 <h3 id='3'>3 - Python 2 vs Python 3</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='4'>4 - Have to Approach this Course</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='5'>5 - Course Faq</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='6'>6 - Installation Notes</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='7'>7 - Jupyter Notebook Installation</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='8'>8 - IDE Selection</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='9'>9 - Jupyther (iPython) Notebooks</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='10'>10 - Faq - Notebooks</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='11'>11 - Additional Resources</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='12'>12 - Git and Github Overview</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
@@ -291,13 +291,13 @@ Section 19 - Bonus Special Offers
 >>> 
 ```
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='14'>14 - Numbers Faq</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
@@ -435,13 +435,13 @@ hello world
 >>> 
 ```
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='16'>16 - Strings Faq</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
@@ -490,13 +490,13 @@ First inserted, Second inserted, Third szohi
 >>> 
 ```
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='18'>18 - Print Formatting Faq</h3>
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
@@ -628,7 +628,7 @@ print(numbers[::3])
 >>>
 ```
 
-<a href='^'></a>
+<a href='#^'>^^^</a>
 
 ---
 
