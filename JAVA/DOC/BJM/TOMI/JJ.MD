@@ -16,6 +16,8 @@
 * <a href='#5th'>5th</a>
 * <a href='#6th'>6th</a>
 * <a href='#7th'>7th</a>
+* <a href='#8th'>8th</a>
+
 ---
 
 <h3 id='1st'>1st</h3>
@@ -2183,6 +2185,15 @@ public class HelloWorld{
  */
 
 ```
+```
+Milestones:
+	1. Struktúra – Rajz
+	2. Java Nyelvbe való megvalósítás
+	3. Osztályok vázának létrehozása (skeleton)
+	4. Minden metódus és Attribútum definiálása – Skeleton
+	5. Metódusok implementálása
+	6. Main függvény megvalósítása
+```	
 ---
 
 
