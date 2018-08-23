@@ -11,11 +11,11 @@
 
 ---
 
-Intro</a>            
+Intro          
 
-Setup</a>
+Setup
 
-First Steps</a>
+First Steps
 
 Variables, Datatypes and Operators
   * <a href='#15'>15 - Intro</a>
@@ -27,26 +27,45 @@ Variables, Datatypes and Operators
   * <a href='#21'>21 - Operators in Java</a>
   * <a href='#22'>22 - More on Operators and Operator Precedence</a>
 
-Java tutorial: Expressions, Statements, Code Blocks, Methods and more</a>
-Control Flow Statements</a>
-OOP Part 1 - Classes, Constructors and Inheritance</a>
-OOP Part 2 - Composition, Encapsulation and Polymorphism</a>
-Arrays, Java Inbuilt Lists, Autoboxing and Unboxing</a>
-Inner and Abstract Classes & Interfaces</a>
-Java Generics</a>
-Naming Conventions and Packages. static and final keywords</a>
-Java Collections</a>
-JavaFX</a>
-Basic Input and Output including java.util</a>
-Concurrency in Java</a>
-Lambda Expressions</a>
-Regular Expressions</a>
-Debugging and Unit Testing</a>
-Databases</a>
-Java Networking Programming</a>
-Java 9 Module System</a>
-Migrating Java Projects to Java 9</a>
-Bonus Material</a>
+Java tutorial: Expressions, Statements, Code Blocks, Methods and more
+
+Control Flow Statements
+
+OOP Part 1 - Classes, Constructors and Inheritance
+
+OOP Part 2 - Composition, Encapsulation and Polymorphism
+
+Arrays, Java Inbuilt Lists, Autoboxing and Unboxing
+
+Inner and Abstract Classes & Interfaces
+
+Java Generics
+
+Naming Conventions and Packages. static and final keywords
+
+Java Collections
+
+JavaFX
+
+Basic Input and Output including java.util
+
+Concurrency in Java
+
+Lambda Expressions
+
+Regular Expressions
+
+Debugging and Unit Testing
+
+Databases
+
+Java Networking Programming
+
+Java 9 Module System
+
+Migrating Java Projects to Java 9
+
+Bonus Material
 
 ---
 
