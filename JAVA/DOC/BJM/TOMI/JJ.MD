@@ -7,14 +7,14 @@
 
 ---
 
-<h3 id='^'>JAVA PT</h3>
+<h3 id='^'>Java PT</h3>
 
 ---
 
 * <a href='#1st'>1st</a>
 * [2nd-3rd-4th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
 * <a href='#5th'>5th</a>
-* [6th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
+* <a href='#6th'>6th</a>
 * <a href='#7th'>7th</a>
 ---
 
@@ -1467,14 +1467,37 @@ Param is higher or equal than 10
 
 <h3 id='6th'>6th</h3>
 
+* [ciklusok](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/CIKLUSOK/CIKLUSOK.MD)
+
 6.01
 
 ```java
 /**
- * 
- * 
+ * Írassa ki egymás után ötször, hogy "Hello World", FOR ciklussal
  */
 
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        int index = 0;
+        int result = 0;
+
+        for(index = 0; index <= 4; index++)
+          {
+          System.out.println("Hello World");
+          } 
+        
+     }
+}
+
+>>>
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -1483,10 +1506,64 @@ Param is higher or equal than 10
 
 ```java
 /**
- * 
- * 
+ * Írassa ki egymás után ötször, hogy "Hello World", WHILE, DO_WHILE ciklussal.
  */
+```
 
+WHILE
+
+```java
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        int index = 0;
+        int result = 0;
+          
+        while(index <= 4)
+          {
+          System.out.println("Hello World");
+          index++;
+          }
+        
+     }
+}
+
+>>>
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+>>>
+```
+
+DO WHILE
+
+```java
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        int index = 0;
+        int result = 0;
+          
+        do
+          {
+          System.out.println("Hello World");
+          index++;
+          } while(index <= 4);
+        
+     }
+}
+
+>>>
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -1495,8 +1572,426 @@ Param is higher or equal than 10
 
 ```java
 /**
+ * Készítsen el egy függvényt, ami a paraméteréül 
+ * kapott darabszámszor megjeleníti a "Hello World" szöveget
+ */
+
+import java.util.Scanner;
+
+public class HelloWorld{
+     public static void main(String []args){
+        Scanner trk = new Scanner(System.in);  
+        //System.out.println("Enter your username: ");
+        int i = trk.nextInt();
+     }
+}
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.04
+
+```java
+/**
+ * Implementálja le az alábbi függvény tartalmát, ami 3 paramétert vár:
+ */
+
+/**
+* Summarize the integer numbers
+* from firstElem to lastElem with diff steps
+*
+* @param firstElem
+* First element of the Sum
+*
+* @param lastElem
+* Last element of the Sum
+*
+* @param diff
+* Difference between two elements
+*/
+public static void getSumOfIntegers(int firstElem, int lastElem, int diff);
+```
+
+```java
+package pogrammingPackage;
+public class Programming {
+		public static void main(String []args){
+	        
+	        int first = 1;
+	        int last = 5;
+	        int d = 1;
+	    
+	        System.out.println(getSumOfIntegers(1,5,1));
+	        
+		}
+		public static int getSumOfIntegers(int firstElem, int lastElem, int diff) {
+	    
+			int result = 0;
+			int index = 0;
+			
+	      for(index = firstElem; result <= lastElem; index+= diff)
+	        {
+	        result += index;
+	        }
+	      return result;
+	}
+}
+
+>>>
+6
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.05
+
+```java
+/**
+ * Implementálja le az alábbi ciklust:
+ */
+```
+ 
+```java
+while(true)
+{
+System.out.println("Hello World");
+}
+```
+
+```java
+public class HelloWorld{
+
+     public static void main(String []args);    
+     
+       while(true)
+         {
+         System.out.println("Hello World");
+         }
+    }
+}
+
+>>>
+inf.
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.06
+
+```java
+/**
+ * Keresse meg a legkisebb közös többszörösét a 81 és 12-nek. 
+ * Hányszorosa a talált szám a 81-nek és hányszorosa a 12-nek?
+ */
+
+public class HelloWorld{
+
+    public static void main(String []args){
+     
+        int firstNum = 81, secNum = 12;
+		int index1 = 0;
+		
+		for(index1 = 2; index1 <= secNum; index1++) {
+			if((secNum % index1 == 0) && (firstNum % index1 == 0)){
+				System.out.println("Found: " + index1);
+			}
+		}
+    }
+}
+
+>>>
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.07
+
+```java
+/**
+ * Implementáljon egy függvényt, ami betűnként végigiterál egy String-en és megjeleníti az eredményt
+ */
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        String s = "programozzteis";
+        
+        for (int i = 0; i < s.length(); i++) {
+            System.out.println(s.charAt(i));
+            
+        }
+
+     }
+}
+
+>>>
+p
+r
+o
+g
+r
+a
+m
+o
+z
+z
+t
+e
+i
+s
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.08
+
+```java
+/**
+ * Implementáljon rész String kereső függvényt. 
+ * Az egyik paramétere legyen a teljes String, a második paramétere a keresendő String 
+ * és a visszatérési értéke adja meg, hogy tartalmazza-e vagy sem.
+ */
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+        String strOrig = "Hello readers";
+        int intIndex = strOrig.indexOf("Hello");
+      
+        if(intIndex == - 1) {
+          System.out.println("Hello not found");
+        } else {
+          System.out.println("Found Hello at index " + intIndex);
+        }
+         
+     }
+}
+
+>>>
+Found Hello at index 0
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.09
+
+```java
+/**
+ * Cserélje ki a "This is a String" szövegben a " a " szót a "my" szóra. 
+ * Elvárt végeredmény: "This is my String"
+ */
+
+public class HelloWorld{
+
+    public static void main(String []args){
+     
+    String s1="This is a String";  
+    String replaceString=s1.replace("a","my");
+    System.out.println(replaceString);  
+    
+    }
+}
+
+>>>
+This is my String
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.10
+
+```java
+/**
+ * Implementáljon egy függvényt, ami megnézni, hogy a paraméteréül kapott szám 
+ * benne van-e a Fibonacci számsorozat a paraméteréül kapott első X elemébe. 
+ * Írassa ki az eredményt!
+ */
+
+public class Test {
+    
+    public static boolean contains(int[] arr, int item) {
+      for (int n : arr) {
+         if (item == n) {
+            return true;
+         }
+      }
+      return false;
+    }
+    
+    public static void main(String[] args) {
+      int[] myArray = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 };
+      System.out.println(contains(myArray, 1));
+      System.out.println(contains(myArray, 13));
+      System.out.println(contains(myArray, 25));
+      
+    }
+}
+
+>>>
+true
+true
+false
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.11
+
+```java
+/**
+ * Módosítsa úgy az előző feladatot, hogy ne iteráljon végig a paraméterül kapott
+ * Fibonacci számsorozat első X elemén, hanem ha megtalálta 
+ * a keresett számot lépjen ki a ciklusból. Írassa ki az eredményt!
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+6.12
+
+```java
+/**
+ * Implementáljon egy Digitális Órát! Az óra másodperc, perc és óra mutatókkal 
+ * rendelkezik és a program mindig a 00:00:00 időpontban induljon, 
+ * majd másodpercenként növelje az időt. Minden másodperc változáskor írassa ki az új időt!
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+6.13
+
+```java
+/**
+ * Valósítson meg egy függvényt, ami addig generál 1 és 10 közötti Random számot, 
+ * amíg a Random szám értéke meg nem egyezik a paraméterül kapott szám értékével.
+ * Ellenőrizze a paramétert, hogy a megfelelő értéktartományban van-e (1 <= Param <= 10)
+ * Hajtsa végre többször a programot ugyanarra a paraméterre!
+ * Általában hány Random szám generálás szükséges?
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+6.14
+
+```java
+/**
+ * A 21-es feladatban létrehozott Digitális Óra segítségével mérje meg, 
+ * hogy mennyi idő alatt melegszik fel egy X fokos pohár víz a  
+ * levegő Y hőmérsékletére, ha a víz hőmérséklete másodpercenként változhat csak. 
+ * Az alábbi feltételezéssel éljen:
  * 
+ * Y >= X
+ * Felfelé kerekítsen, ha szükséges
+ * A víz melegedése az alábbi egyenlettel írható le:
  * 
+ * f(x,y,delta_t) = x + ((y-x)/(2*delta_t))
+ * 
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+6.15
+
+```java
+/**
+ * Hozzon létre egy int tömböt a természetes számoknak 1-től 10-ig!
+ */
+
+public class HelloWorld{
+
+     public static void main(String []args){
+        int[] intArray = new int[10];
+        intArray[0] = 1;
+        intArray[1] = 2;
+        intArray[2] = 3;
+        intArray[3] = 4;
+        intArray[4] = 5;
+        intArray[5] = 6;
+        intArray[6] = 7;
+        intArray[7] = 8;
+        intArray[8] = 9;
+        intArray[9] = 10;
+
+     }
+}
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.16
+
+```java
+/**
+ * Iteráljon végig a tömbön és írassa ki a tömb egyes elemeinek értékét!
+ */
+
+public class HelloWorld{
+
+     public static void main(String []args){
+        int[] intArray = new int[10];
+        intArray[0] = 1;
+        intArray[1] = 2;
+        intArray[2] = 3;
+        intArray[3] = 4;
+        intArray[4] = 5;
+        intArray[5] = 6;
+        intArray[6] = 7;
+        intArray[7] = 8;
+        intArray[8] = 9;
+        intArray[9] = 10;
+
+        for (int i=0; i<intArray.length; i++)
+          {
+          System.out.println(intArray[i]);
+          }
+     }
+}
+
+>>>
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+6.17
+
+```java
+/**
+ * Valósítson meg egy rendező függvényt, ami egy int tömböt vár és növekvő sorrendbe rendezi!
  */
 
 ```
