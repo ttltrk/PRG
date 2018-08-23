@@ -1041,50 +1041,6 @@ public class Programming {
 
 7.01
 
-```
-3. Adjunk a Teszt Osztályhoz egy metódust, ami egy int bemenetet vár és visszaadja a hét
-megfelelő napjához tartozó változót. (1  „Hétfő”, 2  „Kedd”, 7  „Vasárnap”)
-Milyen String-et ad vissza a függvény, ha a bemeneti paraméter nagyobb mint 7?
-
-4. Példányosítsuk a Teszt Osztályunkat, majd olvassuk ki a hét 2., 5. és 13. napját. Írassuk
-ki az eredményt!
-
-5. Hozzuk létre a Téglalap Osztályt!
-Legyen az attribútuma a két oldalának hossza és legyen egy kerület és egy terület számító
-függvénye. Példányosítsunk 3 téglalapot, adjuk meg oldalainak hosszát majd számoljuk ki a
-kerületüket és a területüket egy ciklusban.
-
-6. Implementáljunk egy biggerRectangle függvényt, ami 2 bemeneti téglalap közül
-visszaadja a nagyobbat. Keressük meg a 3 téglalap közül a legnagyobbat!
-
-7. Hozzunk létre egy Négyzet Osztályt, ami tárolja az oldalának a hosszát és legyen egy-
-egy metódusa a kerület és a terület kiszámítására
-
-8. Milyen összefüggés van a Négyzet és a Téglalap Osztály között? Hogyan lehet Négyzetet
-létrehozni Téglalap segítségével?
-
-9. Hozzunk létre egy Mosógép Osztályt. A Mosógéphez vannak előre megírt mosási opciók:
- KisMosás
- KözepesMosás
- NagyMosás
-Milyen típusú attribútumban érdemes tárolni ezeket az opciókat?
-Nem, nem String-ben! Gondolkozz, mi a hátránya a String-nek?
-
-10. Legyen egy Autó Osztály!
-Definiáljuk a súly, a fogyasztás, a lóerő és a gyártási évet. Találjon ki egy függvényt, ami
-kiszámolja az autó árát az adatok függvényében:
-Value_Of_Car := f(weight, consumption, power, production_year);
-
-11. Hozzunk létre egy Ember Osztályt. Legyen egy Neve (String) és egy TV típusú
-attribútuma.
-
-12. Példányosítsunk egy Ember és egy TV Osztályt, majd rendeljük hozzá az Ember TV
-attribútumához a létrehozott TV példányt. Vezérelje az Ember a hozzárendelt TV-t!
-
-13. Nézzen utána, majd hozza létre az Ember Osztálynak egy Konstruktorát, a Név és a TV
-paraméterekkel.
-```
-
 ```java
 /**
  * Hozzunk létre egy Teszt Osztályt!
@@ -1111,8 +1067,138 @@ paraméterekkel.
 
 ```java
 /**
- * 
- * 
+ * Adjunk a Teszt Osztályhoz egy metódust, ami egy int bemenetet vár és visszaadja a hét
+ * megfelelő napjához tartozó változót. (1  „Hétfő”, 2  „Kedd”, 7  „Vasárnap”)
+ * Milyen String-et ad vissza a függvény, ha a bemeneti paraméter nagyobb mint 7?
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.04
+
+```java
+/**
+ * Példányosítsuk a Teszt Osztályunkat, majd olvassuk ki 
+ * a hét 2., 5. és 13. napját. Írassuk ki az eredményt!
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.05
+
+```java
+/**
+ * Hozzuk létre a Téglalap Osztályt!
+ * Legyen az attribútuma a két oldalának hossza és legyen egy kerület és egy terület számító
+ * függvénye. Példányosítsunk 3 téglalapot, adjuk meg oldalainak hosszát majd számoljuk ki a
+ * kerületüket és a területüket egy ciklusban.
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.06
+
+```java
+/**
+ * Implementáljunk egy biggerRectangle függvényt, ami 2 bemeneti téglalap közül
+ * visszaadja a nagyobbat. Keressük meg a 3 téglalap közül a legnagyobbat!
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.07
+
+```java
+/**
+ * Hozzunk létre egy Négyzet Osztályt, ami tárolja az oldalának a hosszát és legyen egy-
+ * egy metódusa a kerület és a terület kiszámítására
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.08
+
+```java
+/**
+ * Milyen összefüggés van a Négyzet és a Téglalap Osztály között? Hogyan lehet Négyzetet
+ * létrehozni Téglalap segítségével?
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.09
+
+```java
+/**
+ * Hozzunk létre egy Mosógép Osztályt. A Mosógéphez vannak előre megírt mosási opciók:
+ *  KisMosás
+ *  KözepesMosás
+ *  NagyMosás
+ * Milyen típusú attribútumban érdemes tárolni ezeket az opciókat?
+ * Nem, nem String-ben! Gondolkozz, mi a hátránya a String-nek?
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.10
+
+```java
+/**
+ * Legyen egy Autó Osztály!
+ * Definiáljuk a súly, a fogyasztás, a lóerő és a gyártási évet. 
+ * Találjon ki egy függvényt, ami
+ * kiszámolja az autó árát az adatok függvényében:
+ * Value_Of_Car := f(weight, consumption, power, production_year);
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.11
+
+```java
+/**
+ * Hozzunk létre egy Ember Osztályt. Legyen egy Neve (String) és egy TV típusú
+ * attribútuma.
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.12
+
+```java
+/**
+ * Példányosítsunk egy Ember és egy TV Osztályt, majd rendeljük hozzá az Ember TV
+ * attribútumához a létrehozott TV példányt. Vezérelje az Ember a hozzárendelt TV-t!
+ */
+
+```
+
+<a href='#^'>^^^</a>
+
+7.13
+
+```java
+/**
+ * Nézzen utána, majd hozza létre az Ember Osztálynak egy Konstruktorát, a Név és a TV
+ * paraméterekkel.
  */
 
 ```
