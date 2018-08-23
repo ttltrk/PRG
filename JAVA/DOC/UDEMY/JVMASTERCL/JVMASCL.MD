@@ -18,14 +18,14 @@
 03 - First Steps</a>
 
 04 - Variables, Datatypes and Operators
-  * <a href='#'>04.01 - Intro</a>
-  * <a href='#'>04.02 - What are variables</a>
-  * <a href='#'>04.03 - Getting to know Primitive Data Types - The byte, short, int and long</a>
-  * <a href='#'>04.04 - Getting to know Primitive Data Types - The float and double</a>
-  * <a href='#'>04.05 - Getting to know Primitive Data Types - The char and boolean</a>
-  * <a href='#'>04.06 - Understanding Strings and Finishing Up Primitive Data Types</a>
-  * <a href='#'>04.07 - Operators in Java</a>
-  * <a href='#'>04.08 - More on Operators and Operator Precedence</a>
+  * <a href='#15'>15 - Intro</a>
+  * <a href='#16'>16 - What are variables</a>
+  * <a href='#17'>17 - Getting to know Primitive Data Types - The byte, short, int and long</a>
+  * <a href='#18'>18 - Getting to know Primitive Data Types - The float and double</a>
+  * <a href='#19'>19 - Getting to know Primitive Data Types - The char and boolean</a>
+  * <a href='#20'>20 - Understanding Strings and Finishing Up Primitive Data Types</a>
+  * <a href='#21'>21 - Operators in Java</a>
+  * <a href='#22'>22 - More on Operators and Operator Precedence</a>
 
 05 - Java tutorial: Expressions, Statements, Code Blocks, Methods and more</a>
 
@@ -87,13 +87,11 @@
 
 ---
 
-<h3 id='04'>Variables, Datatypes and Operators</h3>
-
-<h3 id='04.01'>04.01 - Intro</h3>
+<h3 id='15'>15 - Intro</h3>
   
 <a href='#^'>^^^</a>
 
-<h3 id='04.02'>04.02 - What are variables</h3>
+<h3 id='16'>16 - What are variables</h3>
 
 ```java
 public class HelloWorld{
@@ -144,27 +142,27 @@ public class HelloWorld{
 ```
 <a href='#^'>^^^</a>
 
-<h3 id='04.03'>04.03 - Getting to know Primitive Data Types - The byte, short, int and long</h3>
+<h3 id='17'>17 - Getting to know Primitive Data Types - The byte, short, int and long</h3>
 
 <a href='#^'>^^^</a>
 
-<h3 id='04.04'>04.04 - Getting to know Primitive Data Types - The float and double</h3>
+<h3 id='18'>18 - Getting to know Primitive Data Types - The float and double</h3>
 
 <a href='#^'>^^^</a>
 
-<h3 id='04.05'>04.05 - Getting to know Primitive Data Types - The char and boolean</h3>
+<h3 id='19'>19 - Getting to know Primitive Data Types - The char and boolean</h3>
 
 <a href='#^'>^^^</a>
 
-<h3 id='04.06'>04.06 - Understanding Strings and Finishing Up Primitive Data Types</h3>
+<h3 id='20'>20 - Understanding Strings and Finishing Up Primitive Data Types</h3>
 
 <a href='#^'>^^^</a>
 
-<h3 id='04.07'>04.07 - Operators in Java</h3>
+<h3 id='21'>21 - Operators in Java</h3>
 
 <a href='#^'>^^^</a>
 
-<h3 id='04.08'>04.08 - More on Operators and Operator Precedence</h3>
+<h3 id='22'>22 - More on Operators and Operator Precedence</h3>
 
 <a href='#^'>^^^</a>
 
