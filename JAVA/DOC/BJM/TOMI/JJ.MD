@@ -13,7 +13,7 @@
 
 * <a href='#1st'>1st</a>
 * [2nd-3rd-4th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/02/2nd.MD)
-* [5th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/05/05.MD)
+* <a href='#5th'>5th</a>
 * [6th](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/BJM/TOMI/06/06.MD)
 * <a href='#7th'>7th</a>
 ---
@@ -718,10 +718,85 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy kiírató függvényt, aminek nincs visszatérési 
+ * értéke de egy bemenő String-et vár amit a Println() függvénnyel ki tudunk iratni.
  */
+ 
+package pogrammingPackage;
+public class Programming {
+public static void main(String []args){
+        
+	    String a = "hello world";
+		
+		func_null(a);
+         
+    }
+	
+    private static void func_null(String a) {
+    	System.out.println(a);
+	  
+  }
 
+}
+
+
+>>>
+hello world
+>>>
+
+package pogrammingPackage;
+public class Programming {
+public static void main(String []args){
+        
+	    String a = "hello world";
+	    String b = "xyz";
+		
+	    System.out.println(a);
+	    func_null(b);
+         
+    }
+	
+    private static void func_null(String param1) {
+    	System.out.println(param1);
+	  
+  }
+
+}
+
+>>>
+hello world
+xyz
+>>>
+
+package pogrammingPackage;
+public class Programming {
+public static void main(String []args){
+        
+	    String a = "hello world";
+	    String b = "xyz";
+		String c = a+b;
+		a = a+b;
+		
+	    System.out.println(a);
+	    func_null(b);
+	    func_null("abc");
+	    func_null(c);
+         
+    }
+	
+    private static void func_null(String param1) {
+    	System.out.println(param1);
+	  
+  }
+
+}
+
+>>>
+hello worldxyz
+xyz
+abc
+hello worldxyz
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -730,10 +805,34 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Legyen egy függvény ami bemenetként 2 számot és egy boolean értéket vár. 
+ * Ha a boolean igaz, akkor a két számot össszeadni, ha hamis akkor pedig kivonni kell. 
+ * Hogyan nevezné el a paramétereket, hogy jól olvasható legyen a függvény?
  */
 
+package pogrammingPackage;
+public class Programming {
+  public static void main(String []args){
+        
+		int param1 = 3, param2 = 2;
+		boolean param3 = false;
+		
+		System.out.println(func(param1, param2, param3));
+         
+    }
+	
+    private static int func(int param1, int param2, boolean param3) {
+	  if (param3 == true)
+	    return param1+param2;
+	  else
+	    return param1-param2;	  
+  }
+
+}
+
+>>>
+1
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -742,22 +841,84 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Definiáljon egy átalakító függvényt, ami int típusból String típust csinál. 
+ * Hogyan néz ki a függvény definíciója (visszatérési érték függvény név - paraméterek)?
  */
 
+package pogrammingPackage;
+public class Programming {
+	public static void main(String []args){
+        
+		String number = "10";
+		int res = Integer.parseInt(number);		
+		
+		System.out.println(func(res));
+		
+	  }
+		
+	  private static int func(int result) {
+		  return result;
+	  
+  }
+
+}
+
+
+>>>
+10
+>>>
 ```
 
 <a href='#^'>^^^</a>
 
 234.09
 
+
 ```java
 /**
- * 
- * 
+ * Mi a baj a következő függvénnyel?
  */
+```
 
+```java
+private static void getLengthOfString(String whatIsLength)
+{
+	int whatIsLength = 0;
+	WhatIsLength = WhatIsLength.length();
+	return whatIsLength;
+}
+```
+
+```java
+package pogrammingPackage;
+public class Programming {
+public static void main(String []args){
+		
+		String a = "a";
+		String b = "bb";
+		String c = "ccc";
+        
+	  System.out.println(getLengthOfString(a));
+	  System.out.println(getLengthOfString(b));
+	  System.out.println(getLengthOfString(c));
+		
+	  }
+		
+	  private static int getLengthOfString(String WhatIsLength)
+	
+	{
+		int whatIsLength = 0;
+		whatIsLength = WhatIsLength.length();
+		return whatIsLength;
+	}
+
+}
+
+>>>
+1
+2
+3
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -766,10 +927,62 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Mi lesz a kimenete a következő függvénynek:
  */
+```
 
+234.10.01
+
+```java
+static int whatIsTheRetVal()
+{
+	calculatedIntResult = 2;
+	++calculatedIntResult;
+	return calculatedIntResult++;
+}
+```
+
+234.10.02
+
+```java
+static int whatIsTheRetVal()
+{
+	calculatedIntResult = 2;
+	++calculatedIntResult;
+	return ++calculatedIntResult;
+}
+```
+
+```java
+package pogrammingPackage;
+public class Programming {public static void main(String []args){
+		
+        
+		System.out.println(whatIsTheRetVal_1());
+		System.out.println(whatIsTheRetVal_2());
+		
+	  }
+	  
+	static int whatIsTheRetVal_1()
+	{
+		int calculatedIntResult = 2;
+		++calculatedIntResult;
+		return ++calculatedIntResult;
+	}
+		
+	static int whatIsTheRetVal_2()
+	{
+		int calculatedIntResult = 2;
+		++calculatedIntResult;
+		return calculatedIntResult++;
+	}
+	
+}
+
+>>>
+4
+3
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -778,10 +991,42 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy függvényt ami kiírja a paramétereként kapott számot 
+ * majd megnöveli azt egyel. Mielőtt a függvény végrehajtása befejeződik, 
+ * hívja meg saját magát a megnövelt paraméter értékkel. Mi lesz a futás eredménye?
  */
+ 
+ package pogrammingPackage;
+public class Programming {
+public static void main(String []args){
+        
+		int p1 = 10;
+		
+		func(p1);
+         
+    }
+	
+    private static void func(int param1) {
+	  
+    	System.out.println(++param1);
+    	func(param1);
+    	
+        }
 
+	  
+  }
+
+>>>
+10827
+10828
+10829
+10830
+Exception in thread "main" java.lang.StackOverflowError
+	at sun.nio.cs.UTF_8$Encoder.encodeLoop(UTF_8.java:691)
+	at java.nio.charset.CharsetEncoder.encode(CharsetEncoder.java:579)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:271)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -790,10 +1035,33 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Definiáljunk egy függvényt ami visszaadja a 2 paramétere közül a nagyobbat.
  */
 
+public class HelloWorld{
+
+    public static void main(String []args){
+        
+		int a = 2, b = 3, c = 4, d = 5;
+		
+		System.out.println(func(a, b));
+		System.out.println(func(d, c));
+         
+    }
+	
+    private static int func(int param1, int param2) {
+	  if (param1 > param2)
+	    return param1;
+	  else
+		return param2;
+    }
+     
+}
+
+>>>
+3
+5
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -802,10 +1070,61 @@ public class Programming {
 
 ```java
 /**
- * 
+ * Definiáljuk az osztás függvényt, ami 0-val való osztás esetén hibaértéket ad vissza
  * 
  */
+```
 
+```java
+public class HelloWorld{
+	public static void main(String []args){
+        
+		int param1 = 10;
+		int param2 = param1/0;
+		String param3 = "err";
+		
+		System.out.println(func(param1, param2, param3));
+         
+    }
+	
+    private static int func(int param1, int param2, String param3) {
+	  if (param2 == 0)
+	    return param3;
+	  
+        }
+
+}
+
+>>>
+HelloWorld.java:14: error: incompatible types: String cannot be converted to int
+	    return param3;
+	           ^
+1 error
+>>>
+```
+
+```java
+public class HelloWorld{
+	public static void main(String []args){
+        
+		int param1 = 10;
+		
+		System.out.println(func(param1));
+         
+    }
+	
+    private static int func(int param1) {
+	  return param1/0;
+	  
+        }
+
+}
+
+>>>
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at HelloWorld.func(HelloWorld.java:11)
+	at HelloWorld.main(HelloWorld.java:6)
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -814,10 +1133,13 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Implementáljuk az alábbi függvények tartalmát, 
+ * hogy minden változó kombinációra helyes értéket adjon vissza:
  */
 
+AND: boolean getAndLogicResult(boolean a, boolean b, boolean c);
+OR: boolean getOrLogicResult(boolean a, boolean b, boolean c, boolean d);
+NOT: boolean getNotLogicResult(boolean a);
 ```
 
 <a href='#^'>^^^</a>
@@ -962,10 +1284,27 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Írassa ki az alábbi összehasonlítás eredményét: Ha 5 kisebb egyenlő mint 3 akkor "5<=3" egyébként "5>3" 
  */
 
+public class HelloWorld{
+
+     public static void main(String[] args) {
+         
+        int a = 5;
+        
+		if (a<=3)
+		  System.out.println("5<=3");
+		else
+		  System.out.println("5>3");
+		  
+	}
+
+}
+
+>>>
+5>3
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -974,10 +1313,32 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Negálja meg a fenti feltételt és úgy írassa ki az eredményét. 
+ * Negálás után melyik ág futott le?
  */
+ 
+public class HelloWorld{
 
+     public static void main(String[] args) {
+        
+        int a = 5;
+        
+		if (!(a<=3))
+		  {
+		  System.out.println("5<=3");
+		  }
+		else
+		  {
+		  System.out.println("5>3");
+		  }
+		
+	}
+
+}
+
+>>>
+5<=3
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -986,10 +1347,118 @@ public class Programming {
 
 ```java
 /**
- * 
- * 
+ * Implementáljon le egy függvényt ami az alábbi logikai kifejezés igazság értékét 
+ * adja vissza, legyen A, B és C egy boolean bementi paramétere a függvénynek: 
+ * ((!(!A && B)) || C) Mely A, B és C értékek esetén ad TRUE eredményt a függvény?
  */
 
+boolean A = true;
+boolean B = false;
+boolean C = true;
+```
+
+<a href='#^'>^^^</a>
+
+5.04
+
+```java
+/**
+ * Implementáljon egy függvényt, ami két boolean paramétert vár 
+ * és az OR logikai igazságtáblát valósítja meg, de csak az AND 
+ * és a Negálás logikai műveletét használhatja.
+ */
+
+!(a && b) ≡ !a || !b
+!(a || b) ≡ !a && !b
+```
+
+<a href='#^'>^^^</a>
+
+5.05
+
+```java
+/**
+ * Most implementáljon le egy hasonló függvényt, ami az AND 
+ * logikai igazsságtáblát valósítja meg, de csak az OR és 
+ * a Negálás logikai műveletét használhatja.
+ */
+
+!(a && b) ≡ !a || !b
+!(a || b) ≡ !a && !b
+```
+
+<a href='#^'>^^^</a>
+
+5.06
+
+```java
+/**
+ * Implementáljon le egy függvényt, ami String-ként kap egy számot 
+ * valamint int-ként is kap egy számot és visszaadja a kisebbet.
+ */
+ 
+public class HelloWorld{
+     public static void main(String[] args) {
+        
+		int a = 12;
+        String b = "13";
+        int c = Integer.parseInt(b);
+        
+        System.out.println(func(a,c));
+        
+     }
+		
+	  private static int func(int first, int second) {
+		  
+		  int retVal = 0; 
+		  
+	      if (first<second)
+		    retVal = first;
+		  else
+			retVal = second;	      
+	      return retVal;
+
+	}
+
+}
+
+>>>
+12
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+5.07
+
+```java
+/**
+ * Implementálja le a következő logikai vizsgálatot a 
+ * lehető legkevesebb feltétel vizsgálattal: Ha a paraméterül kapott szám kisebb mint 5, 
+ * akkor írassuk ki, hogy "Param is smaller than 5", egyébként írassuk ki, hogy 
+ * "Param is higher or equal than 5". Ha 10-től kisebb akkor írassuk ki, hogy 
+ * "Param is smaller than 10", egyébként írassuk ki, hogy "Param is higher or equal than 10".
+ */
+ 
+public class HelloWorld{
+     public static void main(String[] args) {
+
+        int a = 11;
+        
+		if (a < 5) 
+		  System.out.println("Param is smaller than 5 and Param is smaller than 10");
+		else if (a >= 5 && a < 10)
+		  System.out.println("Param is higher or equal than 5 and Param is smaller than 10");
+		else
+		  System.out.println("Param is higher or equal than 10");  
+		
+	}
+
+}
+
+>>>
+Param is higher or equal than 10
+>>> 
 ```
 
 <a href='#^'>^^^</a>
