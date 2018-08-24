@@ -26,16 +26,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |  |
+| x| x| x| x| x| x| x| x| x|  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|23|
+|WD|24|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * AUG
+
+  * 24 - Fri (DIR: 160)
+  
+    + [Most drawn lotto numbers - Python](https://github.com/ttltrk/PRG/blob/master/PY/APP/EJ/SC_EJ.MD)
 
   * 23 - Thu (DIR: 159)
   
