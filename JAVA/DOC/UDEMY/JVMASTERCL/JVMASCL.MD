@@ -12,24 +12,24 @@
 ---
 
 Intro          
-  * <a href='#1'>Getting Started With This Course</a>
+  * <a href='#1'>1 - Getting Started With This Course</a>
   
 Setup
-  * <a href='#2'>Which version of Java should you use?</a>
-  * <a href='#3'>Install JDK 10 on Windows</a>
-  * <a href='#4'>Install and Configure IntelliJ on Windows</a>
-  * <a href='#5'>Free 90 Day Extended Trial of IntelliJ Ultimate Edition Now Available</a>
-  * <a href='#6'>Install JDK 10 on Mac</a>
-  * <a href='#7'>Install and Configure IntelliJ on a Mac</a>
-  * <a href='#8'>Free 90 Day Extended Trial of IntelliJ Ultimate Edition Now Available</a>
-  * <a href='#9'>Install JDK 10 on Linux</a>
-  * <a href='#10'>Install and Configure IntelliJ on Linux</a>
-  * <a href='#11'>Free 90 day Extended Trial of IntelliJ Ultimate Edition Now Available</a>
+  * <a href='#2'>2 - Which version of Java should you use?</a>
+  * <a href='#3'>3 - Install JDK 10 on Windows</a>
+  * <a href='#4'>4 - Install and Configure IntelliJ on Windows</a>
+  * <a href='#5'>5 - Free 90 Day Extended Trial of IntelliJ Ultimate Edition Now Available</a>
+  * <a href='#6'>6 - Install JDK 10 on Mac</a>
+  * <a href='#7'>7 - Install and Configure IntelliJ on a Mac</a>
+  * <a href='#8'>8 - Free 90 Day Extended Trial of IntelliJ Ultimate Edition Now Available</a>
+  * <a href='#9'>9 - Install JDK 10 on Linux</a>
+  * <a href='#10'>10 - Install and Configure IntelliJ on Linux</a>
+  * <a href='#11'>11 - Free 90 day Extended Trial of IntelliJ Ultimate Edition Now Available</a>
 
 First Steps
-  * <a href='#12'>Intro</a>
-  * <a href='#13'>Creating your first Java project</a>
-  * <a href='#14'>Exploring the IntelliJ Interface</a>
+  * <a href='#12'>12 - Intro</a>
+  * <a href='#13'>13 - Creating your first Java project</a>
+  * <a href='#14'>14 - Exploring the IntelliJ Interface</a>
 
 Variables, Datatypes and Operators
   * <a href='#15'>15 - Intro</a>
