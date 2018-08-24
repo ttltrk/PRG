@@ -1,7 +1,8 @@
 ```python
 '''
-eurojackpot most drawn numbers
+lotto most drawn numbers
 '''
+
 import openpyxl
 import pickle
 
