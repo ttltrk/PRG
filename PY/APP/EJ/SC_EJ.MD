@@ -1,6 +1,6 @@
 ```python
 '''
-lotto most drawn numbers
+most drawn lotto numbers
 '''
 
 import openpyxl
