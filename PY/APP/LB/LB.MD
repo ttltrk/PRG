@@ -1,3 +1,4 @@
+```python
 def again():
     return work()
 
@@ -13,3 +14,4 @@ def work():
             return exit()
 
 again()
+```
