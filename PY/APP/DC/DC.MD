@@ -1,0 +1,242 @@
+```python
+
+'''
+*********************************************************************
+*
+* Login part
+*
+*********************************************************************
+'''
+
+user_pwd = int(input('add your pwd in numerical format... \n'))
+user_name = input('setup your name... \n')
+user_role = int(input('press [1] if you want buy a car \n or press [2] if you want sell a car... \n'))
+
+login_q = int(input('please type your pwd once again... \n'))
+
+def wrongpwd():
+    print('wrong pwd')
+
+def pwdCheck():
+    if login_q != user_pwd:
+        return wrongpwd()
+    else:
+        print(' ')
+        print('Welcome on the DreamCars 1.0')
+        print(' ')
+        return again()
+
+'''
+*********************************************************************
+*
+* inside the app
+*
+*********************************************************************
+'''
+
+def again():
+    return mainConsole()
+
+def exit():
+    print('bye')
+
+'''
+*********************************************************************
+*
+* Home section
+*
+*********************************************************************
+'''
+
+def checkHome():
+    welcome = 'Welcome on the DreamCars 1.0, the place where you can buy or sell, car(s)'
+    print(' ')
+    print('---------------------------------------------------------------------------------')
+    print(welcome)
+    print('---------------------------------------------------------------------------------')
+    print(' ')
+    return again()
+
+'''
+*********************************************************************
+*
+* Profile end
+*
+*********************************************************************
+'''
+
+def checkProfileBuyer():
+    b_role = 'buyer'
+    ld = ['name', 'role', 'pwd']
+    ll = [user_name, b_role, user_pwd]
+    zipl = zip(ld, ll)
+    dictl = dict(zipl)
+    print(dictl)
+    return again()
+
+def checkProfileSeller():
+    s_role = 'seller'
+    ld = ['name', 'role', 'pwd']
+    ll = [user_name, s_role, user_pwd]
+    zipl = zip(ld, ll)
+    dictl = dict(zipl)
+    print(dictl)
+    return again()
+
+def checkProfileSUser():
+    su_role = 'Super User / Admin'
+    print(su_role)
+    return again()
+
+def checkProfile():
+    cpr = ' '
+    if user_role == 1:
+        cpr = checkProfileBuyer()
+    elif user_role == 2:
+        cpr = checkProfileSeller()
+    else:
+        cpr = checkProfileSUser()
+    return cpr
+
+'''
+*********************************************************************
+*
+* Profile start
+*
+* Adv end
+*
+*********************************************************************
+'''
+
+mainListOfCars1 = []
+mainListOfCars2 = []
+mainListOfCars3 = []
+mainListOfCars4 = []
+
+def listOfCars():
+    print(mainListOfCars1)
+    print(mainListOfCars2)
+    print(mainListOfCars3)
+    print(mainListOfCars4)
+    return again()
+
+def checkAdvAsBuyer():
+    buyAcar = 'which car do you need, check out the List of cars topic'
+    print(buyAcar)
+    return again()
+
+def checkAdvAsSeller():
+    print('add the parameters')
+    carType = input('type = ')
+    carYear = int(input('year ='))
+    carHP = int(input('hp = '))
+    carlk = int(input('l/km ='))
+    paramList = [carType, carYear, carHP, carlk]
+    if mainListOfCars1 == []:
+        mainListOfCars1.append(paramList)
+    elif mainListOfCars2 == []:
+        mainListOfCars2.append(paramList)
+    elif mainListOfCars3 == []:
+        mainListOfCars3.append(paramList)
+    else:
+        mainListOfCars4.append(paramList)
+    return listOfCars()
+
+def checkAdvAsAdmin():
+    advasadm = ('modify or delete')
+    print(advasadm)
+    return again()
+
+def checkAdvertisement():
+    catr = ' '
+    if user_role == 1:
+        catr = checkAdvAsBuyer()
+    elif user_role == 2:
+        catr = checkAdvAsSeller()
+    else:
+        catr = checkAdvAsAdmin()
+    return catr
+
+'''
+*********************************************************************
+*
+* Adv start
+*
+* Adm end 
+*
+*********************************************************************
+'''
+
+def checkAdmBuyer():
+    b_admin1 = '1 - Accept'
+    print(b_admin1)
+    return again()
+
+def checkAdmSeller():
+    s_admin1 = '1 - Advertisement'
+    s_admin2 = '2 - Modify'
+    s_admin3 = '3 - Remove'
+    s_admin4 = '4 - back to the menu'
+    casr = ' '
+    ls = [s_admin1, s_admin2, s_admin3, s_admin4]
+    print(ls)
+    chosenAdmSeller = int(input('choose one option - 1, 2, 3, 4'))
+    if chosenAdmSeller == '1':
+        return checkAdvAsSeller()
+    elif chosenAdmSeller == '2':
+        return again()
+    elif chosenAdmSeller == '3':
+        return again()
+    else:
+        return again()
+
+def checkAdmSUser():
+    su_admin1 = '1 - Remove'
+    su_admin2 = '2 - Modify'
+    lsu = [su_admin1, su_admin2]
+    print(lsu)
+    return again()
+
+def checkAdm():
+    car = ' '
+    if user_role == 1:
+        car = checkAdmBuyer()
+    elif user_role == 2:
+        car = checkAdmSeller()
+    else:
+        car = checkAdmSUser()
+    return car
+
+'''
+*********************************************************************
+*
+* Adm start
+* Main Console
+*
+*********************************************************************
+'''
+
+def mainConsole():
+    while True:
+        a = input('---------------------------------------------------------------------------------------------------- \n |  '
+                  'H = Home  |  P = Profile  |  '
+                  'M = Adm  |  A = Advertisement  |  L = List of Cars  |'
+                  '  X = Exit |\n---------------------------------------------------------------------------------------------------- \n \n ')
+        mcr = ' '
+        if a == 'h':
+            mcr = checkHome()
+        elif a == 'p':
+            mcr = checkProfile()
+        elif a == 'a':
+            mcr = checkAdvertisement()
+        elif a == 'm':
+            mcr = checkAdm()
+        elif a == 'l':
+            mcr = listOfCars()
+        elif a == 'x':
+            mcr = exit()
+        return mcr
+
+pwdCheck()
+#again()
+```
