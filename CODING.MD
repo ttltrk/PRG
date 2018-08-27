@@ -37,6 +37,18 @@
 
 * AUG
 
+  * 27 - Mon (DIR: 163)
+  
+    + [Loop back script - Python](https://github.com/ttltrk/PRG/blob/master/PY/APP/LB/LB.MD)
+    
+  * 26 - Sun (DIR: 162)
+  
+    + [Python project - DreamCars 1.0]()
+    
+  * 25 - Sat (DIRL 161)
+  
+    + [Python project - DreamCars 1.0]()
+
   * 24 - Fri (DIR: 160)
   
     + [Most drawn lotto numbers - Python](https://github.com/ttltrk/PRG/blob/master/PY/APP/EJ/SC_EJ.MD)
