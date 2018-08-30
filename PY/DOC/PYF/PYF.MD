@@ -621,6 +621,120 @@ a is greater than b
 <h3 id='for'>Python for</h3>
 
 ```python
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+
+sum = 0
+
+for val in numbers:
+	sum = sum+val
+
+print("The sum is", sum)
+
+>>>
+The sum is 48
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+print(range(10))
+print(list(range(10)))
+print(list(range(2, 8)))
+print(list(range(2, 20, 3)))
+
+>>>
+range(0, 10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[2, 3, 4, 5, 6, 7]
+[2, 5, 8, 11, 14, 17]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+genre = ['pop', 'rock', 'jazz']
+
+for i in range(len(genre)):
+	print("I like", genre[i])
+
+>>>
+I like pop
+I like rock
+I like jazz
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+>>> x = range(1,5)
+>>> type (x)
+<class 'range'>
+>>> 
+```
+
+```python
+>>> list(range(0, 10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> 
+```
+
+```python
+>>> list(range(20))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> 
+```
+
+```python
+>>> x = list(range(0,10))
+>>> x
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> type(x)
+<class 'list'>
+>>> 
+```
+
+```python
+>>> start = 5
+>>> stop = 20
+>>> list(range(start,stop))
+[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> 
+```
+
+```python
+>>> start = 5
+>>> stop = 20
+>>> list(range(start,stop,2))
+[5, 7, 9, 11, 13, 15, 17, 19]
+>>>
+```
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in range(1,11):
+    print (num)
+	
+>>>
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
 for element in range(5):
     print ("hello world")
 
@@ -632,6 +746,8 @@ hello world
 hello world
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 l = [1, 2, 3, 4, 5]
