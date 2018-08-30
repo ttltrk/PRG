@@ -936,30 +936,57 @@ white
 ```
 
 ```python
-class Dog(object):
+class Door:
+    colour = 'brown'
 
-    #Class Object Attribute
-    species = "mammal"
+    def __init__(self, number, status):
+        self.number = number
+        self.status = status
 
-    def __init__(self, breed, name, color):
-        self.breed = breed
-        self.name = name
-        self.color = color
+    @classmethod
+    def knock(cls):
+        print("Knock!")
 
-sam = Dog(breed="Lab", name = "Sammy", color = "black")
+    @classmethod
+    def paint(cls, colour):
+        cls.colour = colour
 
-george = Dog(breed="pit", name = "George", color = "white")
+    def open(self):
+        self.status = 'open'
 
-print(sam.name, george.name)
-print("Sam species = " + sam.species)
-print("Sam color = " + sam.color)
-print("George color = " + george.color)
+    def close(self):
+        self.status = 'closed'
+
+d = Door
+d1 = Door(1, 'open')
+d2 = Door(2, 'close')
+
+print(d.colour)
+print(d1.colour)
+print(d2.colour)
+
+d.paint('white')
+
+print(d.colour)
+print(d1.colour)
+print(d2.colour)
+
+d1.paint('yellow')
+
+print(d.colour)
+print(d1.colour)
+print(d2.colour)
 
 >>>
-('Sammy', 'George')
-Sam species = mammal
-Sam color = black
-George color = white
+brown
+brown
+brown
+white
+white
+white
+yellow
+yellow
+yellow
 >>>
 ```
 
