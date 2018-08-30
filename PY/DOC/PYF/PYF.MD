@@ -492,11 +492,6 @@ print(len(sts))
 <h3 id='if..else'>Python if..else</h3>
 
 ```python
-if test expression:
-    statement(s)
-```
-
-```python
 num = 3
 if num > 0:
     print(num, "is a positive number.")
@@ -511,6 +506,67 @@ print("This is also always printed.")
 3 is a positive number.
 This is always printed.
 This is also always printed.
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+num = 3
+
+if num >= 0:
+    print("Positive or Zero")
+else:
+    print("Negative number")
+
+>>>
+Positive or Zero
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+num = 3.4
+
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
+else:
+    print("Negative number")
+    
+>>>
+Positive number
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+num = float(input("Enter a number: "))
+
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+    
+>>>
+Enter a number:  10
+Positive number
+>>>
+
+>>>
+Enter a number:  0
+Zero
+>>>
+
+>>>
+Enter a number:  -2
+Negative number
 >>>
 ```
 
