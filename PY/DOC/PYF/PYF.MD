@@ -845,22 +845,27 @@ print (lst)
 
 ```python
 class Complex:
-    def __init__(self, realpart, imagpart):
-        self.r = realpart
-        self.i = imagpart
+    def __init__(self, alma, korte, szilva):
+        self.a = alma
+        self.k = korte
+        self.sz = szilva
 
-x = Complex(10, 15)
+x = Complex(5, 10, 15)
 
-print('realpart =',x.r)
-print('realpart =',x.i)
+def masik():
+    res = x.a + x.k + x.sz
+    print('res =', res)
+    print('a1 =', x.a)
+    print('b1 =', x.k)
+    print('c1 =', x.sz)
 
-res = x.r + x.i
-print('res =', res)
+masik()
 
 >>>
-realpart = 10
-realpart = 15
-res = 25
+res = 30
+a1 = 5
+b1 = 10
+c1 = 15
 >>>
 ```
 
