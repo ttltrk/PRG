@@ -870,6 +870,34 @@ c1 = 15
 ```
 
 ```python
+class Door:
+    def __init__(self, number, status):
+        self.number = number
+        self.status = status
+
+    def open(self):
+        self.status = 'open'
+
+    def close(self):
+        self.status = 'closed'
+
+door1 = Door(1, 'closed')
+door2 = Door(2, 'open')
+
+print("door1 = Door(1, 'closed') =", door1.number)
+print("door2 = Door(2, 'open') =", door2.number)
+print("door1 = Door(1, 'closed') =", door1.status)
+print("door2 = Door(2, 'open') =", door2.status)
+
+>>>
+door1 = Door(1, 'closed') = 1
+door2 = Door(2, 'open') = 2
+door1 = Door(1, 'closed') = closed
+door2 = Door(2, 'open') = open
+>>>
+```
+
+```python
 class Dog(object):
 
     #Class Object Attribute
