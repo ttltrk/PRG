@@ -12,6 +12,7 @@
 ---
 
 * <a href='#operators'>operators</a>
+* <a href='#comments'>comments</a>
 * <a href='#numbers'>numbers</a>
 * <a href='#strings'>strings</a>
 * <a href='#variables'>variables</a>
@@ -44,6 +45,37 @@ a >= b  (Greater than or equal to)
 ```
 
 <a href='#^'>^^^</a>
+
+---
+
+<h3 id='comments'>comments</h3>
+
+One line comment
+
+```python
+#This is a comment
+#print out Hello
+print('Hello')
+
+>>>
+Hello
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+Multi line comment
+
+```python
+"""This is also a
+perfect example of
+multi-line comments"""
+print('hello')
+
+>>>
+hello
+>>>
+```
 
 ---
 
