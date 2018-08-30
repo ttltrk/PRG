@@ -1,5 +1,6 @@
 ```python
 
+
 '''
 *********************************************************************
 *
@@ -10,8 +11,8 @@
 
 user_pwd = int(input('add your pwd in numerical format... \n'))
 user_name = input('setup your name... \n')
-user_role = int(input('press [1] if you want buy a car \n or press [2] if you want sell a car... \n'))
-
+user_role = int(input('1. - press [1] if you want BUY a car \n2. - press [2] if you want SELL a car... \n'))
+user_crd = int(input('1. - if you a seller press [0] \n2. - if you want BUY a car then add your credit frame in [EUR] \n'))
 login_q = int(input('please type your pwd once again... \n'))
 
 def wrongpwd():
@@ -67,20 +68,22 @@ def checkHome():
 
 def checkProfileBuyer():
     b_role = 'buyer'
-    ld = ['name', 'role', 'pwd']
-    ll = [user_name, b_role, user_pwd]
+    ld = ['name:', 'role:', 'pwd:', 'crd in EUR:']
+    ll = [user_name, b_role, user_pwd, user_crd]
     zipl = zip(ld, ll)
     dictl = dict(zipl)
-    print(dictl)
+    for key in dictl:
+        print(key, dictl[key])
     return again()
 
 def checkProfileSeller():
     s_role = 'seller'
-    ld = ['name', 'role', 'pwd']
+    ld = ['name:', 'role:', 'pwd:']
     ll = [user_name, s_role, user_pwd]
     zipl = zip(ld, ll)
     dictl = dict(zipl)
-    print(dictl)
+    for key in dictl:
+        print(key, dictl[key])
     return again()
 
 def checkProfileSUser():
@@ -128,10 +131,36 @@ def checkAdvAsBuyer():
 def checkAdvAsSeller():
     print('add the parameters')
     carType = input('type = ')
-    carYear = int(input('year ='))
-    carHP = int(input('hp = '))
-    carlk = int(input('l/km ='))
-    paramList = [carType, carYear, carHP, carlk]
+    carYear = int(input('year =')) # 2018-2015 = 10, 2014-2010 = 8, 2009-2005 = 6, 2004 - = 4
+    carHP = int(input('hp = ')) # -100 = 4, 101-200 = 6, 201 - 450 = 8, 451 - = 10
+    carlk = int(input('l/km =')) # -5 = 10, 6-10 = 8, 11-15 = 6, 16- = 4
+    carVal1 = ' '
+    carVal2 = ' '
+    carVal3 = ' '
+    if carYear > 2014:
+        carVal1 = 10
+    elif carYear < 2014:
+        carVal1 = 8
+
+    if carHP > 100:
+        carVal2 = 10
+    elif carHP < 100:
+        carVal2 = 8
+
+    if carlk < 10:
+        carVal3 = 10
+    elif carlk > 10:
+        carVal3 = 8
+
+    carVal = carVal1 + carVal2 + carVal3
+    if carVal > 25:
+        carPrice = 20000
+    elif carVal <20 and carVal > 15:
+        carPrice = 10000
+    else:
+        carPrice = 5000
+
+    paramList = [carType, carYear, carHP, carlk, carVal, carPrice]
     if mainListOfCars1 == []:
         mainListOfCars1.append(paramList)
     elif mainListOfCars2 == []:
@@ -238,5 +267,4 @@ def mainConsole():
         return mcr
 
 pwdCheck()
-#again()
-```
+#again()```
