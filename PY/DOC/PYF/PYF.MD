@@ -28,9 +28,6 @@
 * <a href='#list_comprehensions'>list comprehensions</a>
 * <a href='#oop'>oop</a>
 
- [OPyM](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD) |
- [JVF](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/JVF/JVF.MD)
-
 ---
 
 <h3 id='operators'>Python Operators</h3>
@@ -42,6 +39,108 @@ a < b   (Less than)
 a <= b  (Less than or equal to)
 a > b   (Greater than)
 a >= b  (Greater than or equal to)
+```
+
+<a href='#^'>^^^</a>
+
+Arithmetic operator
+
+```python
+x = 15
+y = 4
+
+print('x + y =',x+y)
+
+print('x - y =',x-y)
+
+print('x * y =',x*y)
+
+print('x / y =',x/y)
+
+print('x // y =',x//y)
+
+print('x ** y =',x**y)
+
+>>>
+x + y = 19
+x - y = 11
+x * y = 60
+x / y = 3.75
+x // y = 3
+x ** y = 50625
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+Comparison operators
+
+```python
+>>> 2 == 2
+True
+
+>>> 1 == 1
+True
+
+>>> 1 == 0
+False
+>>> 
+
+>>> 2 != 1
+True
+
+>>> 2 != 2
+False
+>>> 
+
+>>> 2 > 1
+True
+
+>>> 2 > 4
+False
+>>> 
+
+>>> 2 < 4
+True
+
+>>> 2 < 1
+False
+>>> 
+
+>>> 2 >= 2
+True
+
+>>> 2 >= 1
+True
+>>> 
+
+>>> 2 <= 10
+True
+>>> 
+
+>>> 1 < 2
+True
+
+>>> 2 < 3
+True
+
+>>> 1 < 2 < 3
+True
+>>> 
+
+>>> 1 < 2 and 2 < 3
+True
+
+>>> 1 < 2 and 2 < 1
+False
+>>>
+
+>>> 1 < 2 or 2 < 3
+True
+
+>>> 1 < 2 or 2 < 1
+True
+>>> 
 ```
 
 <a href='#^'>^^^</a>
@@ -76,6 +175,8 @@ print('hello')
 hello
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
