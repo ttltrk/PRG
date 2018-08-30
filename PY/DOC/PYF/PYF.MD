@@ -844,7 +844,28 @@ print (lst)
 <h3 id='oop'>Python OOP</h3>
 
 ```python
-Class Dog(object):
+class Complex:
+    def __init__(self, realpart, imagpart):
+        self.r = realpart
+        self.i = imagpart
+
+x = Complex(10, 15)
+
+print('realpart =',x.r)
+print('realpart =',x.i)
+
+res = x.r + x.i
+print('res =', res)
+
+>>>
+realpart = 10
+realpart = 15
+res = 25
+>>>
+```
+
+```python
+class Dog(object):
 
     #Class Object Attribute
     species = "mammal"
