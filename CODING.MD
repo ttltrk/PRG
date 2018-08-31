@@ -26,16 +26,32 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |
+| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x|
 
 |ST|NU|
 |--|--|
-|WD|27|
+|WD|31|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * AUG
+
+  * 31 - Fri (DIR: 167)
+  
+    + [Python project - DreamCars 1.0]()
+
+  * 30 - Thu (DIR: 166)
+  
+    + [Python project - DreamCars 1.0]()
+
+  * 29 - Wed (DIR: 165)
+  
+    + [Python project - DreamCars 1.0]()
+
+  * 28 - Tue (DIR: 164)
+  
+    + [Python project - DreamCars 1.0]()
 
   * 27 - Mon (DIR: 163)
   
