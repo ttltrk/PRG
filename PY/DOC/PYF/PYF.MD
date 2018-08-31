@@ -2379,6 +2379,47 @@ Hey x equals 3!
 <h3 id='functions'>Python functions</h3>
 
 ```python
+hometown = 'ds'
+age = '35'
+user_name = 'trk'
+
+x = 10
+y = 20
+z = 42
+
+def year(ccc, aaa):
+    print("Hello, ", ccc, ". You are", aaa, "old")
+
+def place(ccc, bbb):
+    print('hey', ccc, 'you are from', bbb, 'right?')
+
+def greet(ccc):
+    print("Hello, ", ccc, ". Good morning!")
+
+def kkk():
+    yu = 66+18
+    return yu
+
+kyu = kkk()
+
+def ct():
+    ppp = z+y+z+kyu
+    return ppp
+
+def sowhat():
+    xxx = ct() + z
+    print(xxx)
+
+year(user_name, age)
+place(user_name, hometown)
+greet(user_name)
+print(ct())
+sowhat()
+```
+
+<a href='#^'>^^^</a>
+
+```python
 #variables
 a = "hello world"
 b = "xyz"
