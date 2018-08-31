@@ -766,6 +766,295 @@ hello world
 
 <a href='#^'>^^^</a>
 
+```python
+l = [1, 2, 3, 4, 5]
+
+for element in l:
+    print (element)
+	
+>>>
+1
+2
+3
+4
+5
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for element in l:
+    print ("something")
+	
+>>>
+something
+something
+something
+something
+something
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in l:
+    if num % 2 == 0:
+        print (num)
+
+>>>
+2
+4
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in l:
+    if num % 2 == 1:
+        print (num)
+
+>>>
+1
+3
+5
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+for num in l:
+    if num % 2 == 0:
+        print ("here is an even")
+    else:
+        print ("Odd number!")
+		
+>>>
+Odd number!
+here is an even
+Odd number!
+here is an even
+Odd number!
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 2, 3, 4, 5]
+list_sum = 0
+
+for num in l:
+    list_sum = list_sum + num
+
+print (list_sum)
+
+>>>
+15
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = ("a", "b", "c")
+lst = ""
+
+for abc in l:
+    lst = lst + abc
+
+print (lst)
+
+>>>
+abc
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 2, 3, 4, 5]
+list_sum = 0
+
+for num in l:
+    list_sum += num
+
+print (list_sum)
+
+>>>
+15
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = "this is a string!"
+
+for item in s:
+    print (item)
+	
+>>>
+t
+h
+i
+s
+ 
+i
+s
+ 
+a
+ 
+s
+t
+r
+i
+n
+g
+!
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+tup = (1, 2, 3, 4, 5)
+
+for t in tup:
+    print (t)
+	
+>>>
+1
+2
+3
+4
+5
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for tup in l:
+    print (tup)
+	
+>>>
+(2, 4)
+(6, 8)
+(10, 12)
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for (t1, t2) in l:
+    print (t1)
+	
+>>>
+2
+6
+10
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for (t1, t2) in l:
+    print (t2)
+	
+>>>
+4
+8
+12
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(2,4),(6,8),(10,12)]
+
+for (t1, t2) in l:
+    print (t1 - t2)
+	
+>>>
+-2
+-2
+-2
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {"k1" : 1, "k2" : 2, "k3" : 3}
+
+for item in d:
+    print (item)
+	
+>>>
+k3
+k1
+k2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {"k1" : 1, "k2" : 2, "k3" : 3}
+
+for k, v in d.items():
+    print (k)
+    print (v)
+	
+>>>
+k2
+2
+k1
+1
+k3
+3
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+digits = [0, 1, 5]
+
+for i in digits:
+    print(i)
+else:
+    print("No items left.")
+    
+>>>
+0
+1
+5
+No items left.
+>>>
+```
+
 ---
 
 <h3 id='while'>Python while</h3>
@@ -787,6 +1076,8 @@ hi world
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 i = 1
 while i < 6:
@@ -799,6 +1090,143 @@ while i < 6:
 3
 4
 5
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```
+x = 0
+
+while x < 10:
+    print ("X is currently: ", x)
+    x +=1
+	
+>>>
+X is currently:  0
+X is currently:  1
+X is currently:  2
+X is currently:  3
+X is currently:  4
+X is currently:  5
+X is currently:  6
+X is currently:  7
+X is currently:  8
+X is currently:  9
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+x = 0
+
+while x < 10:
+    print ("X is currently: ", x)
+    x +=1
+else:
+    print ("All done!")
+	
+>>>
+X is currently:  0
+X is currently:  1
+X is currently:  2
+X is currently:  3
+X is currently:  4
+X is currently:  5
+X is currently:  6
+X is currently:  7
+X is currently:  8
+X is currently:  9
+All done!
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+while test:
+	code statement
+	if test:
+		break
+	if test:
+		continue
+else:
+	final code statements
+x = 0
+
+while x < 10:
+    print ("X is currently: ", x)
+    print ("X is still less than 10, adding 1 to x")
+    x +=1
+
+    if x==3:
+        print ("Hey x equals 3!")
+    else:
+        print ("continuing")
+        continue
+		
+>>>
+X is currently:  0
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  1
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  2
+X is still less than 10, adding 1 to x
+Hey x equals 3!
+X is currently:  3
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  4
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  5
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  6
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  7
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  8
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  9
+X is still less than 10, adding 1 to x
+continuing
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+x = 0
+
+while x < 10:
+    print ("X is currently: ", x)
+    print ("X is still less than 10, adding 1 to x")
+    x +=1
+
+    if x==3:
+        print ("Hey x equals 3!")
+        break
+    else:
+        print ("continuing")
+        continue
+		
+>>>
+X is currently:  0
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  1
+X is still less than 10, adding 1 to x
+continuing
+X is currently:  2
+X is still less than 10, adding 1 to x
+Hey x equals 3!
 >>>
 ```
 
