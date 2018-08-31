@@ -7,7 +7,7 @@
 
 ---
 
-<h3 id='^'>Python Flash</h3>
+<h3 id='^'>Python Man</h3>
 
 ---
 
