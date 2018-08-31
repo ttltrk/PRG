@@ -22,7 +22,7 @@
 * <a href='#lists'>lists</a>
 * <a href='#list_methods'>list methods</a>
 * <a href='#tuples'>tuples</a>
-* <a href='#set'>set</a>
+* <a href='#sets'>sets</a>
 * <a href='#dictionary'>dictionary</a>
 
 ---
