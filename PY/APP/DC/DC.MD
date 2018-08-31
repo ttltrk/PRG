@@ -10,7 +10,6 @@
 ---
 
 ```python
-
 '''
 *********************************************************************
 *
@@ -19,8 +18,8 @@
 *********************************************************************
 '''
 
-user_pwd = int(input('add your pwd in numerical format... \n'))
 user_name = input('setup your name... \n')
+user_pwd = int(input('add your pwd in numerical format... \n'))
 user_role = int(input('1. - press [1] if you want BUY a car \n2. - press [2] if you want SELL a car... \n'))
 user_crd = int(input('1. - if you a seller press [0] \n2. - if you want BUY a car then add your credit frame in [EUR] \n'))
 login_q = int(input('please type your pwd once again... \n'))
@@ -54,13 +53,17 @@ def exit():
 '''
 *********************************************************************
 *
-* Home section
+* Home end
 *
 *********************************************************************
 '''
 
 def checkHome():
     welcome = 'Welcome on the DreamCars 1.0, the place where you can buy or sell, car(s)'
+    print(' ')
+    print('--------------------')
+    print('** HOME **')
+    print('--------------------')
     print(' ')
     print('---------------------------------------------------------------------------------')
     print(welcome)
@@ -71,29 +74,69 @@ def checkHome():
 '''
 *********************************************************************
 *
+* Home start
+* 
 * Profile end
 *
 *********************************************************************
 '''
 
+b_role = 'buyer'
+s_role = 'seller'
+
+def switchUserForBuyer():
+    if b_role == 'buyer':
+        b_switchUser = 'seller'
+    return b_switchUser
+
+def switchuserForSeller():
+    if s_role == 'seller':
+        s_witchUser = 'buyer'
+    return s_witchUser
+
+swutb = switchUserForBuyer()
+swuts = switchuserForSeller()
+
 def checkProfileBuyer():
-    b_role = 'buyer'
-    ld = ['name:', 'role:', 'pwd:', 'crd in EUR:']
-    ll = [user_name, b_role, user_pwd, user_crd]
+    b_swu = input('do you want switch your user role from buyer to seller? - Y or N')
+    if b_swu == 'Y':
+        b_role = swutb
+    else:
+        b_role = 'buyer'
+    user_perm = 'accept an offer'
+    ld = ['name:', 'role:', 'permissions:', 'password:', 'credit in EUR:']
+    ll = [user_name, b_role, user_perm, user_pwd, user_crd]
     zipl = zip(ld, ll)
     dictl = dict(zipl)
+    print(' ')
+    print('--------------------')
+    print('** PROFILE **')
+    print('--------------------')
+    print(' ')
     for key in dictl:
         print(key, dictl[key])
+        print(' ')
     return again()
 
 def checkProfileSeller():
-    s_role = 'seller'
-    ld = ['name:', 'role:', 'pwd:']
-    ll = [user_name, s_role, user_pwd]
+    s_swu = input('do you want switch your user role from seller to buyer? - Y or N')
+    if s_swu == 'Y':
+        s_role = swuts
+    else:
+        s_role = 'seller'
+    user_perm = 'add an advertisement, modify your adv, delete your adv'
+    ld = ['name:', 'role:', 'permissions:', 'password:']
+    ll = [user_name, s_role, user_perm, user_pwd]
     zipl = zip(ld, ll)
     dictl = dict(zipl)
+    print(' ')
+    print('--------------------')
+    print('** PROFILE **')
+    print('--------------------')
+    print(' ')
     for key in dictl:
         print(key, dictl[key])
+        print(' ')
     return again()
 
 def checkProfileSUser():
@@ -127,10 +170,16 @@ mainListOfCars3 = []
 mainListOfCars4 = []
 
 def listOfCars():
+    print(' ')
+    print('--------------------')
+    print('** List of Cars **')
+    print('--------------------')
+    print(' ')
     print(mainListOfCars1)
     print(mainListOfCars2)
     print(mainListOfCars3)
     print(mainListOfCars4)
+    print(' ')
     return again()
 
 def checkAdvAsBuyer():
@@ -139,11 +188,17 @@ def checkAdvAsBuyer():
     return again()
 
 def checkAdvAsSeller():
+    print(' ')
+    print('--------------------')
+    print('** ADVERTISEMENT **')
+    print('--------------------')
+    print(' ')
     print('add the parameters')
     carType = input('type = ')
     carYear = int(input('year =')) # 2018-2015 = 10, 2014-2010 = 8, 2009-2005 = 6, 2004 - = 4
     carHP = int(input('hp = ')) # -100 = 4, 101-200 = 6, 201 - 450 = 8, 451 - = 10
     carlk = int(input('l/km =')) # -5 = 10, 6-10 = 8, 11-15 = 6, 16- = 4
+    print(' ')
     carVal1 = ' '
     carVal2 = ' '
     carVal3 = ' '
@@ -201,55 +256,6 @@ def checkAdvertisement():
 *
 * Adv start
 *
-* Adm end 
-*
-*********************************************************************
-'''
-
-def checkAdmBuyer():
-    b_admin1 = '1 - Accept'
-    print(b_admin1)
-    return again()
-
-def checkAdmSeller():
-    s_admin1 = '1 - Advertisement'
-    s_admin2 = '2 - Modify'
-    s_admin3 = '3 - Remove'
-    s_admin4 = '4 - back to the menu'
-    casr = ' '
-    ls = [s_admin1, s_admin2, s_admin3, s_admin4]
-    print(ls)
-    chosenAdmSeller = int(input('choose one option - 1, 2, 3, 4'))
-    if chosenAdmSeller == '1':
-        return checkAdvAsSeller()
-    elif chosenAdmSeller == '2':
-        return again()
-    elif chosenAdmSeller == '3':
-        return again()
-    else:
-        return again()
-
-def checkAdmSUser():
-    su_admin1 = '1 - Remove'
-    su_admin2 = '2 - Modify'
-    lsu = [su_admin1, su_admin2]
-    print(lsu)
-    return again()
-
-def checkAdm():
-    car = ' '
-    if user_role == 1:
-        car = checkAdmBuyer()
-    elif user_role == 2:
-        car = checkAdmSeller()
-    else:
-        car = checkAdmSUser()
-    return car
-
-'''
-*********************************************************************
-*
-* Adm start
 * Main Console
 *
 *********************************************************************
@@ -259,7 +265,7 @@ def mainConsole():
     while True:
         a = input('---------------------------------------------------------------------------------------------------- \n |  '
                   'H = Home  |  P = Profile  |  '
-                  'M = Adm  |  A = Advertisement  |  L = List of Cars  |'
+                  'A = Advertisement  |  L = List of Cars  |'
                   '  X = Exit |\n---------------------------------------------------------------------------------------------------- \n \n ')
         mcr = ' '
         if a == 'h':
@@ -268,8 +274,6 @@ def mainConsole():
             mcr = checkProfile()
         elif a == 'a':
             mcr = checkAdvertisement()
-        elif a == 'm':
-            mcr = checkAdm()
         elif a == 'l':
             mcr = listOfCars()
         elif a == 'x':
@@ -277,4 +281,4 @@ def mainConsole():
         return mcr
 
 pwdCheck()
-#again()```
+```
