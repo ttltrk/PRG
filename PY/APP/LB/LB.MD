@@ -14,7 +14,11 @@ def again():
     return work()
 
 def exit():
-    print('bye')
+    ch = input('do you want really log off Y or N')
+    if ch == 'Y':
+        print('bye')
+    elif ch == 'N':
+        return again()
 
 def work():
     while True:
