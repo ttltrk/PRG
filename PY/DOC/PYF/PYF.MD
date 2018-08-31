@@ -2420,6 +2420,381 @@ sowhat()
 <a href='#^'>^^^</a>
 
 ```python
+def my_add_func(arg1, arg2):    
+    print (arg1 + arg2)
+
+my_add_func(1, 2)
+
+>>>
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def add_num(num1, num2):
+    return (num1 + num2)
+
+x = add_num(2, 3)
+
+print(x)
+
+>>>
+5
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def add_num(num1, num2):
+    return (num1 + num2)
+
+x = add_num("one", "two")
+
+print(x)
+
+>>>
+onetwo
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def is_prime(num):
+    """
+    IN: A number
+    OUT: A print statement wheter or not the number is prime.
+    """
+
+    for n in range(2, num):
+        if num % n == 0:
+            print ("not prime")
+            break
+        else:
+            print ("the number is prime!")
+            
+is_prime(12)
+
+>>>
+not prime
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def is_prime(num):
+    """
+    IN: A number
+    OUT: A print statement wheter or not the number is prime.
+    """
+
+    for n in range(2, num):
+        if num % n == 0:
+            print ("not prime")
+            break
+        else:
+            print ("the number is prime!")
+            
+is_prime(11)
+    
+>>>
+the number is prime!
+the number is prime!
+the number is prime!
+the number is prime!
+the number is prime!
+the number is prime!
+the number is prime!
+the number is prime!
+the number is prime!
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def hello(name='trk'):
+  print("the hello() function has been executed")
+  
+  def greet():
+    return "\t This is inside the greet() function"
+  
+  def welcome():
+    return "\t This is inside the welcome() function"
+    
+  print(greet())
+  print(welcome())
+  print("now we are back inside the hello() function")
+    
+print(hello())
+
+>>>
+the hello() function has been executed
+	 This is inside the greet() function
+	 This is inside the welcome() function
+now we are back inside the hello() function
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def hello(name='trk'):
+  
+  def greet():
+    return "\t This is inside the greet() function"
+  
+  def welcome():
+    return "\t This is inside the welcome() function"
+    
+  if name == 'trk':
+    return greet
+  else:
+    return welcome
+  
+print(hello())
+
+>>>
+<function hello.<locals>.greet at 0x7f3364132620>
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def hello():
+  return 'hi trk!'
+  
+def other(func):
+  print('other code goes here')
+  print(func())
+  
+print(other(hello))
+
+>>>
+other code goes here
+hi trk!
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def new_decorator(func):
+  
+  def wrap_func():
+    print('code here, before executing the func')
+    
+    func()
+    
+    print('code here will execute after the func()')
+    
+  return wrap_func
+  
+def func_needs_decorator():
+  print('This function needs a decorator')
+  
+func_needs_decorator = new_decorator(func_needs_decorator)
+
+print(func_needs_decorator())
+
+>>>
+code here, before executing the func
+This function needs a decorator
+code here will execute after the func()
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def new_decorator(func):
+  
+  def wrap_func():
+    print('code here, before executing the func')
+    
+    func()
+    
+    print('code here will execute after the func()')
+    
+  return wrap_func
+  
+@new_decorator
+def func_needs_decorator():
+  print('This function needs a decorator')
+  
+print(func_needs_decorator())
+
+>>>
+code here, before executing the func
+This function needs a decorator
+code here will execute after the func()
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def gencubes(n):
+  for num in range(n):
+    yield num**3
+    
+for x in gencubes(10):
+  print(x)
+  
+>>>
+0
+1
+8
+27
+64
+125
+216
+343
+512
+729
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def genfibon(n):
+  a = 1
+  b = 1
+  
+  for i in range(n):
+    yield a
+    t = a
+    a = b
+    b = t+b 
+
+for num in genfibon(10):
+  print(num)
+  
+>>>
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def fibon(n):
+  a = 1
+  b = 1
+  
+  output = []
+  
+  for i in range(n):
+    output.append(a)
+    a,b = b, a+b 
+    
+  return output
+  
+print(fibon(10))
+
+>>>
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def simple_gen():
+  for x in range(3):
+    yield x
+    
+g = simple_gen()
+
+print(next(g))
+print(next(g))
+print(next(g))
+
+>>>
+0
+1
+2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = 'hello'
+
+for let in s:
+  print(let)
+  
+>>>
+h
+e
+l
+l
+o
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = 'hello'
+
+s_iter = iter(s)
+
+print(next(s_iter))
+
+>>>
+h
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = 'hello'
+s_iter = iter(s)
+
+print(next(s_iter))
+print('+')
+print(next(s_iter))
+print('+')
+print(next(s_iter))
+print('+')
+print(next(s_iter))
+print('+')
+print(next(s_iter))
+
+>>>
+h
++
+e
++
+l
++
+l
++
+o
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 #variables
 a = "hello world"
 b = "xyz"
@@ -2575,6 +2950,143 @@ itt meg az otodik
 ---
 
 <h3 id='lambda'>Python lambda</h3>
+
+```python
+def square(num):
+    result = num**2
+    return result
+
+print (square(2))
+
+>>>
+4
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def square(num):
+    return num**2
+
+print (square(3))
+
+>>>
+9
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def square(num): return num**2
+
+print (square(4))
+
+>>>
+16
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+square = lambda num: num**2
+
+print (square(5))
+
+>>>
+25
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+even = lambda num: num %2 == 0
+
+print (even(4))
+
+>>>
+True
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def even(num):
+    return num %2 == 0
+
+print (even(10))
+
+>>>
+True
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+first = lambda s: s[0]
+
+print (first("hello"))
+
+>>>
+h
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+rev = lambda s: s[::-1]
+
+print (rev("hello"))
+
+>>>
+olleh
+>>> 
+```
+
+<a href='#^'>^^^</a>
+
+```python
+def adder(x, y):
+    return x + y
+
+print (adder(10, 12))
+
+>>>
+22
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+adder = lambda x, y: x + y
+
+print (adder(15, 2))
+
+>>>
+17
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+len_check = lambda item: len(item)
+
+print (len_check("blabla"))
+
+>>>
+6
+>>>
+```
+
+<a href='#^'>^^^</a>
 
 ```python
 #function
