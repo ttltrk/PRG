@@ -20,6 +20,7 @@
 ---
 
 * <a href='#lists'>lists</a>
+* <a href='#list_methods'>list methods</a>
 * <a href='#tuples'>tuples</a>
 * <a href='#set'>set</a>
 * <a href='#dictionary'>dictionary</a>
@@ -802,6 +803,122 @@ a 'd' erteke = True
 <h3 id='lists'>Python lists</h3>
 
 ```python
+a = [1,2,3]
+print(a)
+
+a[2]=4
+print(a)
+
+>>>
+[1, 2, 3]
+[1, 2, 4]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+# empty list
+my_list = []
+print(my_list)
+
+# list of integers
+my_list = [1, 2, 3]
+print(my_list)
+
+# list with mixed datatypes
+my_list = [1, "Hello", 3.4]
+print(my_list)
+
+>>>
+[]
+[1, 2, 3]
+[1, 'Hello', 3.4]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+# nested list
+my_list = ["mouse", [8, 4, 6], ['a']]
+
+print(my_list)
+
+>>>
+['mouse', [8, 4, 6], ['a']]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+my_list = ['p','r','o','b','e']
+
+print(my_list[0])
+print(my_list[1])
+print(my_list[2])
+print(my_list[3])
+print(my_list[4])
+
+>>>
+p
+r
+o
+b
+e
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+n_list = ["Happy", [2,0,1,5]]
+
+print(n_list[0][1])    
+print(n_list[1][3])
+
+>>>
+a
+5
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+my_list = ['p','r','o','b','e']
+
+print(my_list[-1])
+print(my_list[-5])
+
+>>>
+e
+p
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+my_list = [1, 2, 3, 4, 5, 6, 7]
+
+print(my_list[2:5])
+print(my_list[:-5])
+print(my_list[5:])
+print(my_list[:])
+
+>>>
+[3, 4, 5]
+[1, 2]
+[6, 7]
+[1, 2, 3, 4, 5, 6, 7]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 lst = ["apple", "banana", "cherry"]
 
 print(lst)
@@ -816,6 +933,8 @@ print(lst)
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 lst = ["apple", "banana", "cherry"]
 lst.append("damson")
@@ -828,6 +947,8 @@ print(lst * 2)
 ['apple', 'banana', 'cherry', 'damson', 'apple', 'banana', 'cherry', 'damson']
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 lst = ["apple", "banana", "cherry"]
@@ -850,6 +971,205 @@ print(len(lst))
 
 ---
 
+<h3 id='list_methods'>Python List Methods</h3>
+
+append
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.append(7)
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+copy
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l2 = l.copy()
+l2.append(7)
+print(l2)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+count
+
+```python
+l = [1, 2, 3, 3, 4, 5, 6]
+print(l)
+print(l.count(1))
+print(l.count(2))
+print(l.count(3))
+
+>>>
+[1, 2, 3, 3, 4, 5, 6]
+1
+1
+2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+clear
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.clear()
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+extend
+
+```python
+l1 = [1, 2, 3, 4, 5, 6]
+l2 = [11, 22, 33, 44, 55, 66]
+print(l1)
+print(l2)
+l1.extend(l2)
+print(l1)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[11, 22, 33, 44, 55, 66]
+[1, 2, 3, 4, 5, 6, 11, 22, 33, 44, 55, 66]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+index
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+print(l.index(1))
+print(l.index(2))
+print(l.index(3))
+
+>>>
+[1, 2, 3, 4, 5, 6]
+0
+1
+2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+insert
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.insert(3, "X")
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 'X', 4, 5, 6]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+pop
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.pop(3)
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 5, 6]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+remove
+
+```python
+l = [1, 2, 3, 3, 3, 3, 4, 5, 6]
+print(l)
+l.remove(3)
+print(l)
+l.remove(4)
+print(l)
+
+>>>
+[1, 2, 3, 3, 3, 3, 4, 5, 6]
+[1, 2, 3, 3, 3, 4, 5, 6]
+[1, 2, 3, 3, 3, 5, 6]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+reverse
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.reverse()
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[6, 5, 4, 3, 2, 1]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+sort
+
+```python
+l1 = [1, 3, 6, 5, 2, 4]
+l2 = ["c", "b", "g", "e", "f", "a", "d"]
+print(l1)
+print(l2)
+l1.sort()
+l2.sort()
+print(l1)
+print(l2)
+
+>>>
+[1, 3, 6, 5, 2, 4]
+['c', 'b', 'g', 'e', 'f', 'a', 'd']
+[1, 2, 3, 4, 5, 6]
+['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 <h3 id='tuples'>Python tuples</h3>
 
 ```python
@@ -862,6 +1182,8 @@ print(tup)
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 tup = ("apple", "banana", "cherry")
 
@@ -871,6 +1193,8 @@ print(tup[1])
 banana
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 tup = ("apple", "banana", "cherry")
@@ -884,6 +1208,8 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 tup = ("apple", "banana", "cherry")
