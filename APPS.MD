@@ -5,7 +5,7 @@
 
 ---
 
-### scripts
+### Scripts
 
 ---
 
