@@ -16,16 +16,25 @@
 * <a href='#numbers'>numbers</a>
 * <a href='#strings'>strings</a>
 * <a href='#variables'>variables</a>
+
+---
+
 * <a href='#lists'>lists</a>
 * <a href='#tuples'>tuples</a>
 * <a href='#set'>set</a>
 * <a href='#dictionary'>dictionary</a>
+
+---
+
 * <a href='#if..else'>if..else</a>
 * <a href='#for'>for</a>
 * <a href='#while'>while</a>
 * <a href='#functions'>functions</a>
 * <a href='#lambda'>lambda</a>
 * <a href='#list_comprehensions'>list comprehensions</a>
+
+---
+
 * <a href='#oop'>oop</a>
 
 ---
@@ -264,6 +273,187 @@ print(type(z))
 
 <a href='#^'>^^^</a>
 
+```python
+a = 5
+
+print(type(a))
+print(type(5.0))
+
+c = 5 + 3j
+
+print(c + 3)
+print(isinstance(c, complex))
+
+>>>
+<class 'int'>
+<class 'float'>
+(8+3j)
+True
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+a = 5
+print(a, "is of type", type(a))
+
+a = 2.0
+print(a, "is of type", type(a))
+
+a = 1+2j
+print(a, "is complex number?", isinstance(1+2j,complex))
+
+>>>
+5 is of type <class 'int'>
+2.0 is of type <class 'float'>
+(1+2j) is complex number? True
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+n1 = 1 + 2.0
+
+print(n1)
+print(int(2.3))
+print(int(-2.8))
+print(float(5))
+print(complex('3+5j'))
+
+>>>
+3.0
+2
+-2
+5.0
+(3+5j)
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+n1 = 1.1 + 2.2
+print(n1 == 3.3)
+print(n1)
+
+>>>
+False
+3.3000000000000003
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import decimal
+
+print(0.1)
+print(decimal.Decimal(0.1))
+
+>>>
+0.1
+0.1000000000000000055511151231257827021181583404541015625
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import math
+
+print(math.pi)
+print(math.cos(math.pi))
+print(math.exp(10))
+print(math.log10(1000))
+print(math.sinh(1))
+print(math.factorial(6))
+
+>>>
+3.141592653589793
+-1.0
+22026.465794806718
+3.0
+1.1752011936438014
+720
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import random
+
+print(random.randrange(10,20))
+
+x = ['a', 'b', 'c', 'd', 'e']
+
+print(random.choice(x))
+
+random.shuffle(x)
+
+print(x)
+print(random.random())
+
+>>>
+14
+e
+['b', 'd', 'a', 'e', 'c']
+0.14933393166286335
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import fractions
+
+print(fractions.Fraction(1.5))
+print(fractions.Fraction(5))
+print(fractions.Fraction(1,3))
+
+>>>
+3/2
+5
+1/3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import fractions
+
+print(fractions.Fraction(1.1))
+print(fractions.Fraction('1.1'))
+
+>>>
+2476979795053773/2251799813685248
+11/10
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+from fractions import Fraction as F
+
+print(F(1,3) + F(1,3))
+print(1 / F(5,6))
+print(F(-3,10) > 0)
+print(F(-3,10) < 0)
+
+>>>
+2/3
+6/5
+False
+True
+>>>
+```
+
+<a href='#^'>^^^</a>
+
 ---
 
 <h3 id='strings'>Python strings</h3>
@@ -307,6 +497,263 @@ hello, world!
 HELLO, WORLD!
 Jello, World!
 ['Hello', ' World!']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+ms1 = 'Hello'
+print(ms1)
+
+ms2 = "Hello"
+print(ms2)
+
+ms3 = '''Hello'''
+print(ms3)
+
+ms4 = """Hello, welcome to
+           the world of Python"""
+print(ms4)
+
+>>>
+Hello
+Hello
+Hello
+Hello, welcome to
+           the world of Python
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+| P | y | t | h | o | n |
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+```
+
+<a href='#^'>^^^</a>
+
+```python
+str = 'programiz'
+print('str = ', str)
+
+print('str[0] = ', str[0])
+
+print('str[-1] = ', str[-1])
+
+print('str[1:5] = ', str[1:5])
+
+print('str[5:-2] = ', str[5:-2])
+
+>>>
+str =  programiz
+str[0] =  p
+str[-1] =  z
+str[1:5] =  rogr
+str[5:-2] =  am
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[0])
+print(ss[1])
+print(ss[2])
+print(ss[3])
+print(ss[4])
+print(ss[5])
+print(ss[6])
+print(ss[7])
+print(ss[8])
+print(ss[9])
+print(ss[10])
+print(ss[11])
+print(ss[12])
+
+>>>
+S
+a
+m
+m
+y
+ 
+S
+h
+a
+r
+k
+!
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[-1])
+print(ss[-2])
+print(ss[-3])
+print(ss[-4])
+print(ss[-5])
+print(ss[-6])
+print(ss[-7])
+print(ss[-8])
+print(ss[-9])
+print(ss[-10])
+print(ss[-11])
+print(ss[-12])
+
+>>>
+!
+k
+r
+a
+h
+S
+ 
+y
+m
+m
+a
+S
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[:5])
+print(ss[6:11])
+print(ss[7:])
+
+>>>
+Sammy
+Shark
+hark!
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[0:12:1])
+print(ss[0:12:2])
+print(ss[0:12:3])
+print(ss[::1])
+print(ss[::2])
+print(ss[::3])
+
+>>>
+Sammy Shark!
+SmySak
+SmSr
+Sammy Shark!
+SmySak
+SmSr
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+ss = "Sammy Shark!"
+
+print(ss[::-1])
+print(ss[::-2])
+print(ss[::-3])
+
+>>>
+!krahS ymmaS
+!rh ma
+!a m
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+str1 = 'Hello'
+str2 ='World!'
+
+print('str1 + str2 = ', str1 + str2)
+
+print('str1 * 3 =', str1 * 3)
+
+>>>
+str1 + str2 =  HelloWorld!
+str1 * 3 = HelloHelloHello
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = 'Hello World concatenate me!'
+
+print(s.upper())
+print(s.lower())
+print(s.split())
+print(s.split('W'))
+
+>>>
+HELLO WORLD CONCATENATE ME!
+hello world concatenate me!
+['Hello', 'World', 'concatenate', 'me!']
+['Hello ', 'orld concatenate me!']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+count = 0
+for letter in 'Hello World':
+    if(letter == 'l'):
+        count += 1
+print(count,'letters found')
+
+>>>
+3 letters found
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+str = 'cold'
+
+list_enumerate = list(enumerate(str))
+
+print('list(enumerate(str) = ', list_enumerate)
+print('len(str) = ', len(str))
+
+>>>
+list(enumerate(str) =  [(0, 'c'), (1, 'o'), (2, 'l'), (3, 'd')]
+len(str) =  4
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+print('''He said, "What's there?"''')
+print('He said, "What\'s there?"')
+print("He said, \"What's there?\"")
+
+>>>
+He said, "What's there?"
+He said, "What's there?"
+He said, "What's there?"
 >>>
 ```
 
