@@ -52,8 +52,6 @@ a >= b  (Greater than or equal to)
 
 <a href='#^'>^^^</a>
 
-Arithmetic operator
-
 ```python
 x = 15
 y = 4
@@ -81,8 +79,6 @@ x ** y = 50625
 ```
 
 <a href='#^'>^^^</a>
-
-Comparison operators
 
 ```python
 >>> 2 == 2
@@ -156,9 +152,7 @@ True
 
 ---
 
-<h3 id='comments'>comments</h3>
-
-One line comment
+<h3 id='comments'>Python comments</h3>
 
 ```python
 #This is a comment
@@ -171,8 +165,6 @@ Hello
 ```
 
 <a href='#^'>^^^</a>
-
-Multi line comment
 
 ```python
 """This is also a
