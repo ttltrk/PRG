@@ -2379,6 +2379,42 @@ Hey x equals 3!
 <h3 id='functions'>Python functions</h3>
 
 ```python
+a = 10
+b = 20
+d = 3
+e = 6
+
+def elso():
+    c = a+b
+    return c
+
+def masodik():
+    f = d+e
+    return f
+
+ee = elso()
+mm = masodik()
+
+def harmadik():
+    x = ee+mm
+    return x
+
+def negyedik(x,y):
+    final = x+y
+    print(final)
+
+print(harmadik())
+negyedik(ee, mm)
+
+>>>
+39
+39
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 hometown = 'ds'
 age = '35'
 user_name = 'trk'
