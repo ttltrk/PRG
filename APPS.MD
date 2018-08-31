@@ -5,7 +5,7 @@
 
 ---
 
-### applications
+### scripts
 
 ---
 
