@@ -14,10 +14,10 @@ def again():
     return work()
 
 def exit():
-    ch = input('do you want really log off Y or N')
+    ch = input('do you want really log off: Y or N')
     if ch == 'Y':
         print('bye')
-    elif ch == 'N':
+    else:
         return again()
 
 def work():
