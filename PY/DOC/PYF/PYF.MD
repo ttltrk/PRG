@@ -1173,12 +1173,182 @@ print(l2)
 <h3 id='tuples'>Python tuples</h3>
 
 ```python
+t = ()
+print(t)
+
+t = (1, 2, 3)
+print(t)
+
+t = (1, "Hello", 3.4)
+print(t)
+
+t = ("mouse", [8, 4, 6], (1, 2, 3))
+print(t)
+
+t = 3, 4.6, "dog"
+print(t)
+
+a, b, c = t
+print(a)
+print(b)
+print(c)
+
+>>>
+()
+(1, 2, 3)
+(1, 'Hello', 3.4)
+('mouse', [8, 4, 6], (1, 2, 3))
+(3, 4.6, 'dog')
+3
+4.6
+dog
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t1 = ("hello")
+print(type(t1))
+
+t2 = ("hello",)  
+print(type(t2))
+
+t3 = "hello",
+print(type(t3))
+
+>>>
+<class 'str'>
+<class 'tuple'>
+<class 'tuple'>
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t = ('p','e','r','m','i','t')
+
+print(t[0])
+print(t[5])
+
+n_t = ("mouse", [8, 4, 6], (1, 2, 3))
+
+print(n_t[0][3])
+print(n_t[1][1])
+print(n_t[2][2])
+
+>>>
+p
+t
+s
+4
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t = ('p','e','r','m','i','t')
+
+print(t[-1])
+print(t[-6])
+
+>>>
+t
+p
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t = ('p','r','o','g','r','a','m','i','z')
+
+print(t[1:4])
+print(t[:-7])
+print(t[7:])
+print(t[:])
+
+>>>
+('r', 'o', 'g')
+('p', 'r')
+('i', 'z')
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 tup = ("apple", "banana", "cherry")
 
 print(tup)
 
 >>>
 ('apple', 'banana', 'cherry')
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t = (4, 2, 3, [6, 5])
+t[3][0] = 9
+
+print(t)
+
+t = ('p','r','o','g','r','a','m','i','z')
+
+print(t)
+
+>>>
+(4, 2, 3, [9, 5])
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+print((1, 2, 3) + (4, 5, 6))
+print(("Repeat",) * 3)
+
+>>>
+(1, 2, 3, 4, 5, 6)
+('Repeat', 'Repeat', 'Repeat')
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t = ('p','r','o','g','r','a','m','i','z')
+print(t)
+
+del t
+print(t)
+
+>>>
+('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
+Traceback (most recent call last):
+  File "python", line 5, in <module>
+NameError: name 't' is not defined
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+t = ('a','p','p','l','e',)
+
+print(t.count('p'))
+print(t.index('l'))
+
+>>>
+2
+3
 >>>
 ```
 
@@ -1226,6 +1396,173 @@ print(len(tup))
 ---
 
 <h3 id='sets'>Python sets</h3>
+
+```python
+st = {1, 2, 3}
+print(st)
+
+st = {1.0, "Hello", (1, 2, 3)}
+print(st)
+
+>>>
+{1, 2, 3}
+{1.0, 'Hello', (1, 2, 3)}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+st = {1,2,3,4,3,2}
+print(st)
+
+st = set([1,2,3,2])
+print(st)
+
+>>>
+{1, 2, 3, 4}
+{1, 2, 3}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+a = {}
+print(type(a))
+
+a = set()
+print(type(a))
+
+>>>
+<class 'dict'>
+<class 'set'>
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+st = {1,3}
+print(st)
+
+st.add(2)
+print(st)
+
+st.update([2,3,4])
+print(st)
+
+st.update([4,5], {1,6,8})
+print(st)
+
+>>>
+{1, 3}
+{1, 2, 3}
+{1, 2, 3, 4}
+{1, 2, 3, 4, 5, 6, 8}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+st = {1, 3, 4, 5, 6}
+print(st)
+
+st.discard(4)
+print(st)
+
+st.remove(6)
+print(st)
+
+st.discard(2)
+print(st)
+
+>>>
+{1, 3, 4, 5, 6}
+{1, 3, 5, 6}
+{1, 3, 5}
+{1, 3, 5}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+st = set("HelloWorld")
+print(st)
+
+print(st.pop())
+
+st.pop()
+print(st)
+
+st.clear()
+print(st)
+
+>>>
+{'r', 'e', 'H', 'l', 'o', 'W', 'd'}
+r
+{'H', 'l', 'o', 'W', 'd'}
+set()
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+print(A | B)
+
+>>>
+{1, 2, 3, 4, 5, 6, 7, 8}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+print(A & B)
+
+>>>
+{4, 5}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+print(A - B)
+print(B - A)
+
+>>>
+{1, 2, 3}
+{8, 6, 7}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+print(A ^ B)
+
+>>>
+{1, 2, 3, 6, 7, 8}
+>>>
+```
+
+<a href='#^'>^^^</a>
 
 ```python
 sts = {"apple", "banana", "cherry"}
