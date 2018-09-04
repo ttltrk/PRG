@@ -54,6 +54,8 @@ set	= {'a','b'}
 bool	= True, False
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 <h3 id='operators'>Python Operators</h3>
@@ -98,6 +100,12 @@ x ** y = 50625
 <a href='#^'>^^^</a>
 
 ```python
+>>> '2' == 2 
+False
+
+>>> 'bye' == 'BYE'
+False
+
 >>> 2 == 2
 True
 
@@ -150,6 +158,15 @@ True
 True
 >>> 
 
+<a href='#^'>^^^</a>
+
+```python
+Logical operators
+
+and
+or
+not
+
 >>> 1 < 2 and 2 < 3
 True
 
@@ -163,6 +180,12 @@ True
 >>> 1 < 2 or 2 < 1
 True
 >>> 
+
+>>> not 1 == 1 
+False
+
+>>> not 1 == 2
+True
 ```
 
 <a href='#^'>^^^</a>
