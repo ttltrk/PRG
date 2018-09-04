@@ -16,6 +16,7 @@
 * <a href='#comments'>comments</a>
 * <a href='#numbers'>numbers</a>
 * <a href='#strings'>strings</a>
+* <a href='#stringmeth'>string methods</a>
 * <a href='#variables'>variables</a>
 
 ---
@@ -502,36 +503,6 @@ llo
 >>>
 ```
 
-```python
-a = " Hello, World! "
-
-print(a.strip())
-print(a)
-
->>>
-Hello, World!
- Hello, World! 
->>>
-```
-
-```python
-a = "Hello, World!"
-
-print(len(a))
-print(a.lower())
-print(a.upper())
-print(a.replace("H", "J"))
-print(a.split(","))
-
->>>
-13
-hello, world!
-HELLO, WORLD!
-Jello, World!
-['Hello', ' World!']
->>>
-```
-
 <a href='#^'>^^^</a>
 
 ```python
@@ -730,24 +701,6 @@ str1 * 3 = HelloHelloHello
 <a href='#^'>^^^</a>
 
 ```python
-s = 'Hello World concatenate me!'
-
-print(s.upper())
-print(s.lower())
-print(s.split())
-print(s.split('W'))
-
->>>
-HELLO WORLD CONCATENATE ME!
-hello world concatenate me!
-['Hello', 'World', 'concatenate', 'me!']
-['Hello ', 'orld concatenate me!']
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
 count = 0
 for letter in 'Hello World':
     if(letter == 'l'):
@@ -786,6 +739,76 @@ print("He said, \"What's there?\"")
 He said, "What's there?"
 He said, "What's there?"
 He said, "What's there?"
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='stringmeth'>Python String methods</h3>
+
+```python
+s = 'Hello World concatenate me!'
+
+print(s.upper())
+print(s.lower())
+print(s.split())
+print(s.split('W'))
+
+>>>
+HELLO WORLD CONCATENATE ME!
+hello world concatenate me!
+['Hello', 'World', 'concatenate', 'me!']
+['Hello ', 'orld concatenate me!']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+a = "Hello, World!"
+
+print(len(a))
+print(a.lower())
+print(a.upper())
+print(a.replace("H", "J"))
+print(a.split(","))
+
+>>>
+13
+hello, world!
+HELLO, WORLD!
+Jello, World!
+['Hello', ' World!']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+a = 'hi this is a string'
+b = a.split()
+c = a.split('i')
+
+print(b)
+print(c)
+
+>>>
+['hi', 'this', 'is', 'a', 'string']
+['h', ' th', 's ', 's a str', 'ng']
+>>>
+```
+
+```python
+a = " Hello, World! "
+
+print(a.strip())
+print(a)
+
+>>>
+Hello, World!
+ Hello, World! 
 >>>
 ```
 
