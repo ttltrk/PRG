@@ -3333,6 +3333,46 @@ print (lst)
 <h3 id='oop'>Python OOP</h3>
 
 ```python
+class NameOfClass():
+
+  def __init__(self, param1, param2):
+    self.param1 = param1
+    self.param2 = param2
+  
+  def some_methods(self):
+    print(self.param1)
+```
+
+```python
+class Sample():
+    pass
+
+my_sample = Sample()
+
+print(type(my_sample))
+
+>>>
+<class '__main__.Sample'>
+>>>
+```
+
+```python
+class Dog():
+
+    def __init__(self, breed):
+
+        self.breed = breed
+
+my_dog = Dog(breed='Lab')
+
+print(my_dog.breed)
+
+>>>
+Lab
+>>>
+```
+
+```python
 class Complex:
     def __init__(self, alma, korte, szilva):
         self.a = alma
