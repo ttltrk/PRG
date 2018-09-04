@@ -11,6 +11,7 @@
 
 ---
 
+* <a href='#dattyp'>data types</a>
 * <a href='#operators'>operators</a>
 * <a href='#comments'>comments</a>
 * <a href='#numbers'>numbers</a>
@@ -37,6 +38,21 @@
 ---
 
 * <a href='#oop'>oop</a>
+
+---
+
+<h3 id='dattyp'>Python Data types</h3>
+
+```python
+int	= 3, 300, 201
+float	= 2.3, 4.5, 100.0
+str	= 'hello', "Sammy", '2000'
+list	= [10, 'hello', 200.3]
+dict	= {'key':'value', 'name':'Frankie'}
+tup	= (10, 'hello', 200.3)
+set	= {'a','b'}
+bool	= True, False
+```
 
 ---
 
@@ -3359,16 +3375,19 @@ print(type(my_sample))
 ```python
 class Dog():
 
-    def __init__(self, breed):
+    def __init__(self, breed, name):
 
         self.breed = breed
+        self.name = name
 
-my_dog = Dog(breed='Lab')
+my_dog = Dog(breed='Lab', name='cat')
 
 print(my_dog.breed)
+print(my_dog.name)
 
 >>>
 Lab
+cat
 >>>
 ```
 
