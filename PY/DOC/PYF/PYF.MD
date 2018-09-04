@@ -1673,6 +1673,15 @@ print(my_dict4)
 <h3 id='if..else'>Python if..else</h3>
 
 ```python
+if some_condition:
+    # execute some code
+elif some_other_condition:
+    # do something different
+else:
+    # do something else
+```
+
+```python
 num = 3
 if num > 0:
     print(num, "is a positive number.")
