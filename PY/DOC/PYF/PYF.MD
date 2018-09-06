@@ -958,6 +958,87 @@ hi my name is trk and Im 35
 <h3 id='files'>Python files</h3>
 
 ```python
+mf = open('C:\\path\\path\\path\\test.txt')
+
+>>>
+Process finished with exit code 0
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+mf = open('C:\\path\\path\\path\\test.txt')
+print(mf.read())
+
+>>>
+hello world
+new line
+third line and hello 
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+mf = open('C:\\path\\path\\path\\test.txt')
+print(mf.read())
+#you can't use read() twice, use the seek as it is described below 
+mf.seek(0)
+print(mf.read())
+
+>>>
+hello world
+new line
+third line and hello 
+hello world
+new line
+third line and hello 
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+mf = open('C:\\path\\path\\path\\test.txt')
+
+print(mf.readlines())
+
+>>>
+['hello world\n', 'new line\n', 'third line and hello ']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 
 >>>
 
