@@ -27,6 +27,7 @@
 * <a href='#lists'>lists</a>
 * <a href='#list_methods'>list methods</a>
 * <a href='#tuples'>tuples</a>
+* <a href='#tupmeth'>tuple methods</a>
 * <a href='#sets'>sets</a>
 * <a href='#dictionary'>dictionary</a>
 
@@ -1324,6 +1325,23 @@ print(l2)
 
 <h3 id='tuples'>Python tuples</h3>
 
+Tuples are immutable, cannot be changed.
+
+```python
+t = (1,2,3)
+l = [1,2,3]
+
+print(type(t))
+print(type(l))
+
+>>>
+<class 'tuple'>
+<class 'list'>
+>>>
+```
+
+<a href='#^'>^^^</a>
+
 ```python
 t = ()
 print(t)
@@ -1493,20 +1511,6 @@ NameError: name 't' is not defined
 <a href='#^'>^^^</a>
 
 ```python
-t = ('a','p','p','l','e',)
-
-print(t.count('p'))
-print(t.index('l'))
-
->>>
-2
-3
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
 tup = ("apple", "banana", "cherry")
 
 print(tup[1])
@@ -1539,6 +1543,24 @@ tup = ("apple", "banana", "cherry")
 print(len(tup))
 
 >>>
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='tupmeth'>Python tuple methods</h3>
+
+```python
+t = ('a','p','p','l','e',)
+
+print(t.count('p'))
+print(t.index('l'))
+
+>>>
+2
 3
 >>>
 ```
