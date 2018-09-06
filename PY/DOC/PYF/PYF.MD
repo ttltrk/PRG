@@ -1620,6 +1620,18 @@ print(s)
 <a href='#^'>^^^</a>
 
 ```python
+s = set('Mississippi')
+
+print(s)
+
+>>>
+{'p', 'i', 's', 'M'}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 st = {1, 2, 3}
 print(st)
 
