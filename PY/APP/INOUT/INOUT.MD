@@ -9,30 +9,36 @@
 ---
 
 ```python
-with open('C:\\path\\path\\D1.txt', mode='r') as d1_txt:
-    d1 = d1_txt.read()
+def doc1():
+    with open('C:\\path\\path\\D1.txt', mode='r') as d1_txt:
+        d1 = d1_txt.read()
+        return d1
 
-with open('C:\\path\\path\\D2.txt', mode='r') as d2_txt:
-    d2 = d2_txt.read()
-    
-#string to list
-sp1 = d1.split()
-sp2 = d2.split()
+def doc2():
+    with open('C:\\path\\path\\D2.txt', mode='r') as d2_txt:
+        d2 = d2_txt.read()
+        return d2
 
-sp = sp1+sp2
+def compile():
+    d1 = doc1()
+    d2 = doc2()
+    #string to list
+    sp1 = d1.split()
+    sp2 = d2.split()
+    sp = sp1+sp2
+    #list to set
+    ss = set(sp)
+    sss = sorted(ss)
+    #set to string
+    ssp = ' '.join(sss)
+    return ssp
 
-#list to set
-ss = set(sp)
-sss = sorted(ss)
+def out():
+    with open('C:\\path\\path\\OUT.txt', mode='w') as out_txt:
+        outtxt = out_txt.write(compile())
+    with open('C:\\path\\path\\OUT.txt', mode='r') as out_txt:
+        outtxt = out_txt.read()
+    print(outtxt)
 
-#set to string
-ssp = ' '.join(sss)
-
-with open('C:\\path\\path\\OUT.txt', mode='w') as out_txt:
-    outtxt = out_txt.write(ssp)
-
-with open('C:\\path\\path\\OUT.txt', mode='r') as out_txt:
-    outtxt = out_txt.read()
-
-print(outtxt)
+out()
 ```
