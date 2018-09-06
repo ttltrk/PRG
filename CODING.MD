@@ -37,17 +37,29 @@
 
 * SEP
 
+  * 06 - Thu (DIR: 173)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+  
+  * 05 - Wed (DIR: 172)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 04 - Tue (DIR: 171)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
   * 03 - Mon (DIR: 170)
   
-    + [Python]()
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
   
   * 02 - Sun (DIR: 169)
     
-    + [Python]()
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
     
   * 01 - Sat (DIR: 168)
   
-    + [Python]()
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
 ---
 
