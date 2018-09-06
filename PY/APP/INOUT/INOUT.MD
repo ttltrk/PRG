@@ -21,6 +21,7 @@ def doc2():
         d2 = d2_txt.read()
         return d2
 
+#multiply the inputs
 def compile():
     d1 = doc1()
     d2 = doc2()
