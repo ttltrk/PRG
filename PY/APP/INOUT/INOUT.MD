@@ -9,11 +9,13 @@
 ---
 
 ```python
+#first input
 def doc1():
     with open('C:\\path\\path\\D1.txt', mode='r') as d1_txt:
         d1 = d1_txt.read()
         return d1
 
+#second input
 def doc2():
     with open('C:\\path\\path\\D2.txt', mode='r') as d2_txt:
         d2 = d2_txt.read()
@@ -22,17 +24,18 @@ def doc2():
 def compile():
     d1 = doc1()
     d2 = doc2()
-    #string to list
+    #convert string to list
     sp1 = d1.split()
     sp2 = d2.split()
     sp = sp1+sp2
-    #list to set
+    #convert list to set
     ss = set(sp)
     sss = sorted(ss)
-    #set to string
+    #convert set to string
     ssp = ' '.join(sss)
     return ssp
 
+#send the whole stuff to the output
 def out():
     with open('C:\\path\\path\\OUT.txt', mode='w') as out_txt:
         outtxt = out_txt.write(compile())
