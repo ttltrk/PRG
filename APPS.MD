@@ -11,7 +11,7 @@
 
 Python
 
-* [Read from IN, write to OUT](https://github.com/ttltrk/PRG/blob/master/PY/APP/INOUT/INOUT.MD)
+* [Read from IN1 and IN2, compile and write to OUT](https://github.com/ttltrk/PRG/blob/master/PY/APP/INOUT/INOUT.MD)
 * [DreamCars 1.0](https://github.com/ttltrk/PRG/blob/master/PY/APP/DC/DC.MD)
 * [Most drawn lotto numbers](https://github.com/ttltrk/PRG/blob/master/PY/APP/EJ/SC_EJ.MD)
 * [Loop back script](https://github.com/ttltrk/PRG/blob/master/PY/APP/LB/LB.MD)
