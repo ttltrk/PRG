@@ -1746,6 +1746,106 @@ print(len(sts))
 <h3 id='dictionary'>Python dictionary</h3>
 
 ```python
+{'key1':'value1','key2':'value2'}
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'key1':'value1','key2':'value2'}
+print(d)
+print(d['key1'])
+
+>>>
+{'key1': 'value1', 'key2': 'value2'}
+value1
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+prices = {'apple':1.20, 'orange':2.15, 'milk':0.99}
+
+print(prices['apple'])
+
+>>>
+1.2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'k1':123, 'k2':[0,1,2], 'k3':{'ins':'100'}}
+
+print(d['k2'])
+print(d['k2'][2])
+print(d['k3']['ins'])
+
+>>>
+[0, 1, 2]
+2
+100
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'k1':123, 'k2':[0,1,2], 'k3':{'ins':'100'}, 'k4':['a','b','c']}
+
+print(d['k4'][2])
+print(d['k4'][2].upper())
+
+>>>
+c
+C
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'k1':100, 'k2':200}
+
+d['k3'] = 300
+
+print(d)
+
+d['k1'] = 'NEW VALUE'
+
+print(d)
+
+>>>
+{'k1': 100, 'k2': 200, 'k3': 300}
+{'k1': 'NEW VALUE', 'k2': 200, 'k3': 300}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'k1':100, 'k2':200}
+
+d['k3'] = 300
+
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
+
+
+>>>
+{'k1': 100, 'k2': 200, 'k3': 300}
+dict_keys(['k1', 'k2', 'k3'])
+dict_values([100, 200, 300])
+dict_items([('k1', 100), ('k2', 200), ('k3', 300)])
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 my_dict = {}
 
 my_dict1 = {
