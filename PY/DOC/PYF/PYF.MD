@@ -1012,27 +1012,46 @@ print(mf.readlines())
 <a href='#^'>^^^</a>
 
 ```python
+with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\test.txt') as myfile:
+    contents = myfile.read()
+
+print(contents)
 
 >>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-
->>>
-
+hello world
+new line
+third line and hello
 >>>
 ```
 
 <a href='#^'>^^^</a>
 
 ```python
+with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\test.txt', mode='a') as myfile:
+    contents = myfile.write('hey hey hey')
+
+with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\test.txt', mode='r') as myfile:
+    contents = myfile.read()
+
+print(contents)
+>>>
+hey hey hey
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\zzz.txt', mode='w') as zzz:
+    zx = zzz.write('eyyo')
+
+with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\zzz.txt', mode='r') as zzz:
+    zx = zzz.read()
+
+print(zx)
 
 >>>
-
+eyyo
 >>>
 ```
 
