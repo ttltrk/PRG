@@ -14,11 +14,22 @@ with open('C:\\path\\path\\D1.txt', mode='r') as d1_txt:
 
 with open('C:\\path\\path\\D2.txt', mode='r') as d2_txt:
     d2 = d2_txt.read()
+    
+#string to list
+sp1 = d1.split()
+sp2 = d2.split()
 
-out = d1+d2
+sp = sp1+sp2
+
+#list to set
+ss = set(sp)
+sss = sorted(ss)
+
+#set to string
+ssp = ' '.join(sss)
 
 with open('C:\\path\\path\\OUT.txt', mode='w') as out_txt:
-    outtxt = out_txt.write(out)
+    outtxt = out_txt.write(ssp)
 
 with open('C:\\path\\path\\OUT.txt', mode='r') as out_txt:
     outtxt = out_txt.read()
