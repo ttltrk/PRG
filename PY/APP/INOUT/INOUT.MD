@@ -9,18 +9,18 @@
 ---
 
 ```python
-with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\TEST\\D1.txt', mode='r') as d1_txt:
+with open('C:\\path\\path\\D1.txt', mode='r') as d1_txt:
     d1 = d1_txt.read()
 
-with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\TEST\\D2.txt', mode='r') as d2_txt:
+with open('C:\\path\\path\\D2.txt', mode='r') as d2_txt:
     d2 = d2_txt.read()
 
 out = d1+d2
 
-with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\TEST\\OUT.txt', mode='w') as out_txt:
+with open('C:\\path\\path\\OUT.txt', mode='w') as out_txt:
     outtxt = out_txt.write(out)
 
-with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\TEST\\OUT.txt', mode='r') as out_txt:
+with open('C:\\path\\path\\OUT.txt', mode='r') as out_txt:
     outtxt = out_txt.read()
 
 print(outtxt)
