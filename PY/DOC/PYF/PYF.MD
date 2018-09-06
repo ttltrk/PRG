@@ -21,6 +21,7 @@
 * <a href='#stringmeth'>string methods</a>
 * <a href='#variables'>variables</a>
 * <a href='#printform'>print formatting</a>
+* <a href='#files'>files</a>
 
 ---
 
@@ -947,6 +948,19 @@ print(f'hi my name is {n} and Im {a}')
 >>>
 hi my name is trk
 hi my name is trk and Im 35
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='files'>Python files</h3>
+
+```python
+
+>>>
+
 >>>
 ```
 
