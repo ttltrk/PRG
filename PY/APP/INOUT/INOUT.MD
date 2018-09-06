@@ -1,3 +1,12 @@
+---
+
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [C](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [scripts](https://github.com/ttltrk/PRG/blob/master/APPS.MD)
+
+---
+
+### Read from IN, write to OUT
+
+---
 
 ```python
 with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\TEST\\IN.txt', mode='r') as in_txt:
