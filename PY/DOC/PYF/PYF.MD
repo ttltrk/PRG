@@ -1571,6 +1571,54 @@ print(t.index('l'))
 
 <h3 id='sets'>Python sets</h3>
 
+Sets are unordered collections of unique elements
+
+```python
+s = set()
+
+print(type(s))
+
+>>>
+<class 'set'>
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = set()
+
+s.add(1)
+print(s)
+
+s.add(2)
+print(s)
+
+s.add(2)
+print(s)
+
+>>>
+{1}
+{1, 2}
+{1, 2}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3]
+s = set(l)
+
+print(s)
+
+>>>
+{1, 2, 3}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
 ```python
 st = {1, 2, 3}
 print(st)
