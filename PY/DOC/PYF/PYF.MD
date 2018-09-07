@@ -2222,6 +2222,244 @@ a is greater than b
 <h3 id='for'>Python for</h3>
 
 ```python
+my_iterable = [1,2,3]
+for item_name in my_iterable:
+    print(item_name)
+
+>>>
+1
+2
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [1,2,3, 4, 5, 6, 7, 8, 9, 10]
+for num in l:
+    if num % 2 == 0:
+        print(num)
+    else:
+        print(f'odd number:{num}')
+	
+>>>
+odd number:1
+2
+odd number:3
+4
+odd number:5
+6
+odd number:7
+8
+odd number:9
+10
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+#how to count the sum of the list = final number
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ls = 0
+
+for num in l:
+    ls = ls + num
+
+print(ls)
+
+>>>
+55
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+#how to count the sum of the list = the whole chain
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ls = 0
+
+for num in l:
+    ls = ls + num
+
+    print(ls)
+    
+>>>
+1
+3
+6
+10
+15
+21
+28
+36
+45
+55
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+s = 'trk'
+
+for letters in s:
+    print(letters)
+    
+>>>
+t
+r
+k
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+for letters in 'trk':
+    print(letters)
+    
+>>>
+t
+r
+k
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+for _ in 'trk':
+    print('hey')
+    
+>>>
+trk
+trk
+trk
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(1,2),(3,4),(5,6),(7,8)]
+print(len(l))
+
+for n in l:
+    print(n)
+    
+>>>
+4
+(1, 2)
+(3, 4)
+(5, 6)
+(7, 8)
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(1,2),(3,4),(5,6),(7,8)]
+
+for (a,b) in l:
+    print(a)
+    print(b)
+    
+>>>
+1
+2
+3
+4
+5
+6
+7
+8
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(1,2),(3,4),(5,6),(7,8)]
+
+for a,b in l:
+    print(a)
+    
+>>>
+1
+3
+5
+7
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+l = [(1, 2, 3),(4, 5, 6),(7, 8, 9)]
+
+for a, b, c in l:
+    print(b)
+    
+>>>
+2
+5
+8
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'k1':1, 'k2':2, 'k3':3}
+
+for k,v in d.items():
+    print(k)
+ 
+>>>
+k1
+k2
+k3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+
+```python
+d = {'k1':1, 'k2':2, 'k3':3}
+
+for k,v in d.items:
+    print(v)
+    
+>>>
+1
+2
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+d = {'k1':1, 'k2':2, 'k3':3}
+
+for item in d.items():
+    print(item)
+    
+>>>
+('k1', 1)
+('k2', 2)
+('k3', 3)
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
 numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 
 sum = 0
