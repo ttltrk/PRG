@@ -2273,6 +2273,23 @@ print(ls)
 55
 >>>
 ```
+|
+|
+|
+```python
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+
+sum = 0
+
+for val in numbers:
+	sum = sum+val
+
+print("The sum is", sum)
+
+>>>
+The sum is 48
+>>>
+```
 
 <a href='#^'>^^^</a>
 
@@ -2454,23 +2471,6 @@ for item in d.items():
 ('k1', 1)
 ('k2', 2)
 ('k3', 3)
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
-
-sum = 0
-
-for val in numbers:
-	sum = sum+val
-
-print("The sum is", sum)
-
->>>
-The sum is 48
 >>>
 ```
 
