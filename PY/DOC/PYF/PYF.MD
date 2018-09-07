@@ -182,7 +182,7 @@ True
 
 ---
 
-Logical operators
+<h4 id=''>Logical operators</h4>
 
 ---
 
@@ -575,6 +575,8 @@ True
 
 <h3 id='strings'>Python strings</h3>
 
+---
+
 ```python
 a = "Hello, World!"
 
@@ -832,6 +834,8 @@ He said, "What's there?"
 
 <h3 id='stringmeth'>Python String methods</h3>
 
+---
+
 ```python
 s = 'Hello World concatenate me!'
 
@@ -849,6 +853,8 @@ hello world concatenate me!
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 a = "Hello, World!"
@@ -870,6 +876,8 @@ Jello, World!
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 a = 'hi this is a string'
 b = a.split()
@@ -883,6 +891,10 @@ print(c)
 ['h', ' th', 's ', 's a str', 'ng']
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 a = " Hello, World! "
@@ -923,6 +935,10 @@ print(type(d))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 a = 5
 b = 4.0
@@ -948,11 +964,15 @@ a 'd' erteke = True
 
 <h3 id='printform'>Python Print formatting</h3>
 
+---
+
 ```python
 'String here {} then here {}'.format('something1', 'something2')
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 print('this is a string {}'.format('INSERTED'))
@@ -963,6 +983,8 @@ this is a string INSERTED
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 print('the {} {} {}'.format('fox', 'brown', 'quick'))
@@ -977,6 +999,8 @@ the brown quick fox
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def choose():
@@ -1016,6 +1040,8 @@ no or wrong pwd
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 n = 'trk'
 a = '35'
@@ -1045,6 +1071,8 @@ Process finished with exit code 0
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 mf = open('C:\\path\\path\\path\\test.txt')
 print(mf.read())
@@ -1057,6 +1085,8 @@ third line and hello
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 mf = open('C:\\path\\path\\path\\test.txt')
@@ -1077,6 +1107,8 @@ third line and hello
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 mf = open('C:\\path\\path\\path\\test.txt')
 
@@ -1088,6 +1120,8 @@ print(mf.readlines())
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\test.txt') as myfile:
@@ -1104,6 +1138,8 @@ third line and hello
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\test.txt', mode='a') as myfile:
     contents = myfile.write('hey hey hey')
@@ -1118,6 +1154,8 @@ hey hey hey
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 with open('C:\\Users\\AttilaTorok\\Desktop\\ADM\\PY\\APPS\\TEST\\zzz.txt', mode='w') as zzz:
@@ -1135,18 +1173,11 @@ eyyo
 
 <a href='#^'>^^^</a>
 
-```python
-
->>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
 ---
 
 <h3 id='lists'>Python lists</h3>
+
+---
 
 ```python
 a = [1,2,3]
@@ -1162,6 +1193,8 @@ print(a)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 # empty list
@@ -1185,6 +1218,8 @@ print(my_list)
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 # nested list
 my_list = ["mouse", [8, 4, 6], ['a']]
@@ -1197,6 +1232,8 @@ print(my_list)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 my_list = ['p','r','o','b','e']
@@ -1218,6 +1255,8 @@ e
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 n_list = ["Happy", [2,0,1,5]]
 
@@ -1232,6 +1271,8 @@ a
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 my_list = ['p','r','o','b','e']
 
@@ -1245,6 +1286,8 @@ p
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 my_list = [1, 2, 3, 4, 5, 6, 7]
@@ -1264,6 +1307,8 @@ print(my_list[:])
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 lst = ["apple", "banana", "cherry"]
 
@@ -1281,6 +1326,8 @@ print(lst)
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 lst = ["apple", "banana", "cherry"]
 lst.append("damson")
@@ -1295,6 +1342,8 @@ print(lst * 2)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 lst = ["apple", "banana", "cherry"]
@@ -1331,6 +1380,10 @@ range(0, 10)
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 >>> x = range(1,5)
 >>> type (x)
@@ -1338,17 +1391,29 @@ range(0, 10)
 >>> 
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 >>> list(range(0, 10))
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>> 
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 >>> list(range(20))
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 >>> 
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 >>> x = list(range(0,10))
@@ -1359,6 +1424,10 @@ range(0, 10)
 >>> 
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 >>> start = 5
 >>> stop = 20
@@ -1366,6 +1435,10 @@ range(0, 10)
 [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 >>> 
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 >>> start = 5
@@ -1378,6 +1451,8 @@ range(0, 10)
 ---
 
 <h3 id='list_methods'>Python List Methods</h3>
+
+---
 
 append
 
@@ -1395,6 +1470,8 @@ print(l)
 
 <a href='#^'>^^^</a>
 
+---
+
 copy
 
 ```python
@@ -1411,6 +1488,8 @@ print(l2)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 count
 
@@ -1431,6 +1510,8 @@ print(l.count(3))
 
 <a href='#^'>^^^</a>
 
+---
+
 clear
 
 ```python
@@ -1446,6 +1527,8 @@ print(l)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 extend
 
@@ -1466,6 +1549,8 @@ print(l1)
 
 <a href='#^'>^^^</a>
 
+---
+
 index
 
 ```python
@@ -1485,6 +1570,8 @@ print(l.index(3))
 
 <a href='#^'>^^^</a>
 
+---
+
 insert
 
 ```python
@@ -1501,6 +1588,8 @@ print(l)
 
 <a href='#^'>^^^</a>
 
+---
+
 pop
 
 ```python
@@ -1516,6 +1605,8 @@ print(l)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 remove
 
@@ -1536,6 +1627,8 @@ print(l)
 
 <a href='#^'>^^^</a>
 
+---
+
 reverse
 
 ```python
@@ -1551,6 +1644,8 @@ print(l)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 sort
 
@@ -1577,6 +1672,8 @@ print(l2)
 ---
 
 <h3 id='tuples'>Python tuples</h3>
+
+---
 
 Tuples are immutable, cannot be changed.
 
