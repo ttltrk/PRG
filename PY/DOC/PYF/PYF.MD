@@ -2299,7 +2299,12 @@ a is greater than b
 
 <h3 id='for'>Python for</h3>
 
+---
+
+Basic script
+
 ```python
+#python for
 my_iterable = [1,2,3]
 for item_name in my_iterable:
     print(item_name)
@@ -2313,7 +2318,12 @@ for item_name in my_iterable:
 
 <a href='#^'>^^^</a>
 
+---
+
+Odd and Even numbers
+
 ```python
+#python for
 l = [1,2,3, 4, 5, 6, 7, 8, 9, 10]
 for num in l:
     if num % 2 == 0:
@@ -2337,7 +2347,12 @@ odd number:9
 
 <a href='#^'>^^^</a>
 
+---
+
+Sum of the list
+
 ```python
+#python for
 numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 
 sum = 0
@@ -2352,7 +2367,10 @@ The sum is 48
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
+#python for
 #how to count the sum of the list = final number
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ls = 0
@@ -2367,7 +2385,10 @@ print(ls)
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
+#python for
 #how to count the sum of the list = the whole chain
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ls = 0
@@ -2393,7 +2414,12 @@ for num in l:
 
 <a href='#^'>^^^</a>
 
+---
+
+Iterate a string
+
 ```python
+#python for
 s = 'trk'
 
 for letters in s:
@@ -2409,6 +2435,7 @@ k
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 for letters in 'trk':
     print(letters)
     
@@ -2422,6 +2449,7 @@ k
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 for _ in 'trk':
     print('hey')
     
@@ -2432,9 +2460,14 @@ trk
 >>>
 ```
 
+---
+
 <a href='#^'>^^^</a>
 
+Iterate tuples
+
 ```python
+#python for
 l = [(1,2),(3,4),(5,6),(7,8)]
 print(len(l))
 
@@ -2453,6 +2486,7 @@ for n in l:
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 l = [(1,2),(3,4),(5,6),(7,8)]
 
 for (a,b) in l:
@@ -2474,6 +2508,7 @@ for (a,b) in l:
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 l = [(1,2),(3,4),(5,6),(7,8)]
 
 for a,b in l:
@@ -2490,6 +2525,7 @@ for a,b in l:
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 l = [(1, 2, 3),(4, 5, 6),(7, 8, 9)]
 
 for a, b, c in l:
@@ -2504,7 +2540,12 @@ for a, b, c in l:
 
 <a href='#^'>^^^</a>
 
+---
+
+Iterate dictionary
+
 ```python
+#python for
 d = {'k1':1, 'k2':2, 'k3':3}
 
 for k,v in d.items():
@@ -2521,6 +2562,7 @@ k3
 
 
 ```python
+#python for
 d = {'k1':1, 'k2':2, 'k3':3}
 
 for k,v in d.items:
@@ -2536,6 +2578,7 @@ for k,v in d.items:
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 d = {'k1':1, 'k2':2, 'k3':3}
 
 for item in d.items():
@@ -2550,7 +2593,10 @@ for item in d.items():
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python for
 print(range(10))
 print(list(range(10)))
 print(list(range(2, 8)))
@@ -2567,6 +2613,7 @@ range(0, 10)
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 genre = ['pop', 'rock', 'jazz']
 
 for i in range(len(genre)):
@@ -2582,6 +2629,7 @@ I like jazz
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 >>> x = range(1,5)
 >>> type (x)
 <class 'range'>
@@ -2589,18 +2637,21 @@ I like jazz
 ```
 
 ```python
+#python for
 >>> list(range(0, 10))
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>> 
 ```
 
 ```python
+#python for
 >>> list(range(20))
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 >>> 
 ```
 
 ```python
+#python for
 >>> x = list(range(0,10))
 >>> x
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -2610,6 +2661,7 @@ I like jazz
 ```
 
 ```python
+#python for
 >>> start = 5
 >>> stop = 20
 >>> list(range(start,stop))
@@ -2618,6 +2670,7 @@ I like jazz
 ```
 
 ```python
+#python for
 >>> start = 5
 >>> stop = 20
 >>> list(range(start,stop,2))
@@ -2626,6 +2679,7 @@ I like jazz
 ```
 
 ```python
+#python for
 l = [1, 2, 3, 4, 5]
 
 for num in range(1,11):
@@ -2648,6 +2702,7 @@ for num in range(1,11):
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 for element in range(5):
     print ("hello world")
 
@@ -2663,6 +2718,7 @@ hello world
 <a href='#^'>^^^</a>
 
 ```python
+#python for
 l = [1, 2, 3, 4, 5]
 
 for element in l:
@@ -2678,295 +2734,6 @@ hello world
 ```
 
 <a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-
-for element in l:
-    print (element)
-	
->>>
-1
-2
-3
-4
-5
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-
-for element in l:
-    print ("something")
-	
->>>
-something
-something
-something
-something
-something
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-
-for num in l:
-    if num % 2 == 0:
-        print (num)
-
->>>
-2
-4
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-
-for num in l:
-    if num % 2 == 1:
-        print (num)
-
->>>
-1
-3
-5
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-
-for num in l:
-    if num % 2 == 0:
-        print ("here is an even")
-    else:
-        print ("Odd number!")
-		
->>>
-Odd number!
-here is an even
-Odd number!
-here is an even
-Odd number!
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-list_sum = 0
-
-for num in l:
-    list_sum = list_sum + num
-
-print (list_sum)
-
->>>
-15
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = ("a", "b", "c")
-lst = ""
-
-for abc in l:
-    lst = lst + abc
-
-print (lst)
-
->>>
-abc
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [1, 2, 3, 4, 5]
-list_sum = 0
-
-for num in l:
-    list_sum += num
-
-print (list_sum)
-
->>>
-15
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-s = "this is a string!"
-
-for item in s:
-    print (item)
-	
->>>
-t
-h
-i
-s
- 
-i
-s
- 
-a
- 
-s
-t
-r
-i
-n
-g
-!
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-tup = (1, 2, 3, 4, 5)
-
-for t in tup:
-    print (t)
-	
->>>
-1
-2
-3
-4
-5
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [(2,4),(6,8),(10,12)]
-
-for tup in l:
-    print (tup)
-	
->>>
-(2, 4)
-(6, 8)
-(10, 12)
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [(2,4),(6,8),(10,12)]
-
-for (t1, t2) in l:
-    print (t1)
-	
->>>
-2
-6
-10
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [(2,4),(6,8),(10,12)]
-
-for (t1, t2) in l:
-    print (t2)
-	
->>>
-4
-8
-12
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-l = [(2,4),(6,8),(10,12)]
-
-for (t1, t2) in l:
-    print (t1 - t2)
-	
->>>
--2
--2
--2
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-d = {"k1" : 1, "k2" : 2, "k3" : 3}
-
-for item in d:
-    print (item)
-	
->>>
-k3
-k1
-k2
->>>
-```
-
-<a href='#^'>^^^</a>
-
-```python
-d = {"k1" : 1, "k2" : 2, "k3" : 3}
-
-for k, v in d.items():
-    print (k)
-    print (v)
-	
->>>
-k2
-2
-k1
-1
-k3
-3
->>> 
-```
-
-<a href='#^'>^^^</a>
-
-```python
-digits = [0, 1, 5]
-
-for i in digits:
-    print(i)
-else:
-    print("No items left.")
-    
->>>
-0
-1
-5
-No items left.
->>>
-```
 
 ---
 
