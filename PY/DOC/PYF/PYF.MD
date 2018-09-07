@@ -2788,7 +2788,230 @@ hello world
 
 ---
 
+<h4 id='passfor'>pass for</h4>
+
+```python
+x = [1, 2, 3]
+
+for nums in x:
+    pass
+
+print('how to use pass')
+
+>>>
+how to use pass
+>>>
+```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='confor'>continue for</h4>
+
+```print
+x = 'sammy'
+
+for letter in x:
+    if letter == 'a':
+        continue
+    print(letter)
+    
+>>>
+s
+m
+m
+y
+>>>
+```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='breakfor'>break for</h4>
+
+```python
+x = 'sammy'
+
+for letter in x:
+    if letter == 'a':
+        break
+    print(letter)
+
+>>>
+s
+>>>
+```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 <h3 id='while'>Python while</h3>
+
+---
+
+<h4 id=''>while Template</h4>
+
+```python
+while some_boolean_condition:
+    #do something
+```
+
+<a href='#^'>^^^</a>
+
+```python
+while some_boolean_condition:
+    #do something
+else:
+    #do something different
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''>Infinity loop
+
+```python
+x = 0
+
+while x < 10:
+    print(f'the current status of x is {x}')
+    
+>>>
+...
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''>Basic while loop</h4>
+
+```python
+x = 0
+while x < 5:
+    print(f'the current status of x is {x}')
+    #x = x + 1
+    x += 1
+    
+>>>
+the current status of x is 0
+the current status of x is 1
+the current status of x is 2
+the current status of x is 3
+the current status of x is 4
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+x = 1
+while x < 5:
+    print(f'the current status of x is {x}')
+    #x = x + 1
+    x += 1
+    
+>>>
+the current status of x is 1
+the current status of x is 2
+the current status of x is 3
+the current status of x is 4
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+x = 3
+while x < 5:
+    print(f'the current status of x is {x}')
+    #x = x + 1
+    x += 1   
+    
+>>>
+the current status of x is 3
+the current status of x is 4
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''>while with else
+
+```python
+x = 1
+while x < 5:
+    print(f'the current status of x is {x}')
+    #x = x + 1
+    x += 1
+else:
+    print('x is less than 5')
+    
+>>>
+the current status of x is 1
+the current status of x is 2
+the current status of x is 3
+the current status of x is 4
+x is less than 5
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''>break while</h4>
+
+```python
+x = 0
+
+while x < 5:
+    if x == 2:
+        break
+    print(f'x is now {x}')
+    x += 1
+    
+>>>
+x is now 0
+x is now 1
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 a = "hi world"
