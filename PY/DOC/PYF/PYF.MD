@@ -62,9 +62,10 @@ bool	= True, False
 
 <a href='#^'>^^^</a>
 
+<h3 id='operators'>Python Operators</h3>
 ===
 
-<h3 id='operators'>Python Operators</h3>
+---
 
 ```python
 a == b  (Equals)
@@ -206,6 +207,9 @@ True
 ---
 
 <h3 id='comments'>Python comments</h3>
+===
+
+---
 
 ```python
 #This is a comment
@@ -218,6 +222,8 @@ Hello
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 """This is also a
@@ -235,6 +241,9 @@ hello
 ---
 
 <h3 id='numbers'>Python numbers</h3>
+===
+
+---
 
 ```python
 x = 1
@@ -251,6 +260,8 @@ print(type(z))
 <class 'complex'>
 >>>
 ```
+
+---
 
 ```python
 x = 1
