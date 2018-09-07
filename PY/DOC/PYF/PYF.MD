@@ -2226,8 +2226,8 @@ print(my_dict4)
 <a href='#temp'>Template</a><br>
 <a href='#ifif'>if</a><br>
 <a href='#ifelse'>if..else</a><br>
-<a href='ifelifelse'>if..elif..else</a><br>
-<a href='ifinput'>input</a><br><br>
+<a href='#ifelifelse'>if..elif..else</a><br>
+<a href='#ifinput'>input</a><br><br>
 
 <a href='#^'>^^^</a>
 
@@ -2405,13 +2405,13 @@ Negative number
 
 ---
 <h4 id='^^'></h4>
-* <a href ='#basscr'>Basic script</a><br>
-* <a href ='#odevnu'>Odd and Even numbers</a><br>
-* <a href ='#sumlis'>Sum of the list</a><br>
-* <a href ='#itestr'>Iterate a string</a><br>
-* <a href ='#itetup'>Iterate tuples</a><br>
-* <a href ='#itedic'>Iterate dictionary</a><br>
-* <a href ='#forran'>for with range()</a><br><br>
+<a href ='#basscr'>Basic script</a><br>
+<a href ='#odevnu'>Odd and Even numbers</a><br>
+<a href ='#sumlis'>Sum of the list</a><br>
+<a href ='#itestr'>Iterate a string</a><br>
+<a href ='#itetup'>Iterate tuples</a><br>
+<a href ='#itedic'>Iterate dictionary</a><br>
+<a href ='#forran'>for with range()</a><br><br>
 <a href='#^'>^^^</a>
 
 ---
