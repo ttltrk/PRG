@@ -2875,7 +2875,7 @@ else:
 
 ---
 
-<h4 id=''>Infinity loop
+<h4 id=''>Infinity loop</h4>
 
 ```python
 x = 0
@@ -2946,7 +2946,7 @@ the current status of x is 4
 
 ---
 
-<h4 id=''>while with else
+<h4 id=''>while with else</h4>
 
 ```python
 x = 1
