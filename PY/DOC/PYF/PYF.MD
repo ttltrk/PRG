@@ -1317,6 +1317,66 @@ print(len(lst))
 
 ---
 
+```python
+print(range(10))
+print(list(range(10)))
+print(list(range(2, 8)))
+print(list(range(2, 20, 3)))
+
+>>>
+range(0, 10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[2, 3, 4, 5, 6, 7]
+[2, 5, 8, 11, 14, 17]
+>>>
+```
+
+```python
+>>> x = range(1,5)
+>>> type (x)
+<class 'range'>
+>>> 
+```
+
+```python
+>>> list(range(0, 10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> 
+```
+
+```python
+>>> list(range(20))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> 
+```
+
+```python
+>>> x = list(range(0,10))
+>>> x
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> type(x)
+<class 'list'>
+>>> 
+```
+
+```python
+>>> start = 5
+>>> stop = 20
+>>> list(range(start,stop))
+[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> 
+```
+
+```python
+>>> start = 5
+>>> stop = 20
+>>> list(range(start,stop,2))
+[5, 7, 9, 11, 13, 15, 17, 19]
+>>>
+```
+
+---
+
 <h3 id='list_methods'>Python List Methods</h3>
 
 append
@@ -2306,8 +2366,8 @@ a is greater than b
 * <a href ='#sumlis'>Sum of the list</a><br>
 * <a href ='#itestr'>Iterate a string</a><br>
 * <a href ='#itetup'>Iterate tuples</a><br>
-* <a href ='#itedic'>Iterate dictionary</a><br><br>
-
+* <a href ='#itedic'>Iterate dictionary</a><br>
+* <a href ='#forran'>for with range()</a><br><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -2316,9 +2376,10 @@ a is greater than b
 
 ```python
 #python for
-my_iterable = [1,2,3]
-for item_name in my_iterable:
-    print(item_name)
+l = [1,2,3]
+
+for n in l:
+    print(l)
 
 >>>
 1
@@ -2621,22 +2682,7 @@ for item in d.items():
 
 ---
 
-```python
-#python for
-print(range(10))
-print(list(range(10)))
-print(list(range(2, 8)))
-print(list(range(2, 20, 3)))
-
->>>
-range(0, 10)
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-[2, 3, 4, 5, 6, 7]
-[2, 5, 8, 11, 14, 17]
->>>
-```
-
-<a href='#^'>^^^</a>
+<h4 id='forran'>for with range()</h4>
 
 ```python
 #python for
@@ -2652,57 +2698,8 @@ I like jazz
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
-
-```python
-#python for
->>> x = range(1,5)
->>> type (x)
-<class 'range'>
->>> 
-```
-
-```python
-#python for
->>> list(range(0, 10))
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> 
-```
-
-```python
-#python for
->>> list(range(20))
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
->>> 
-```
-
-```python
-#python for
->>> x = list(range(0,10))
->>> x
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
->>> type(x)
-<class 'list'>
->>> 
-```
-
-```python
-#python for
->>> start = 5
->>> stop = 20
->>> list(range(start,stop))
-[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
->>> 
-```
-
-```python
-#python for
->>> start = 5
->>> stop = 20
->>> list(range(start,stop,2))
-[5, 7, 9, 11, 13, 15, 17, 19]
->>>
-```
 
 ```python
 #python for
@@ -2725,6 +2722,7 @@ for num in range(1,11):
 >>> 
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2741,24 +2739,7 @@ hello world
 >>>
 ```
 
-<a href='#^'>^^^</a>
-
-```python
-#python for
-l = [1, 2, 3, 4, 5]
-
-for element in l:
-    print ("hello world")
-
->>>
-hello world
-hello world
-hello world
-hello world
-hello world
->>>
-```
-
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
