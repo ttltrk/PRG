@@ -62,7 +62,7 @@ bool	= True, False
 
 <a href='#^'>^^^</a>
 
----
+===
 
 <h3 id='operators'>Python Operators</h3>
 
@@ -76,6 +76,8 @@ a >= b  (Greater than or equal to)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 x = 15
@@ -104,6 +106,8 @@ x ** y = 50625
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 >>> '2' == 2 
@@ -166,6 +170,8 @@ True
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 Logical operators
