@@ -2227,7 +2227,7 @@ print(my_dict4)
 <a href='#ifif'>if</a><br>
 <a href='#ifelse'>if..else</a><br>
 <a href='#ifelifelse'>if..elif..else</a><br>
-<a href='#ifinput'>input</a><br><br>
+<a href='#ifinput'>Nested if with input</a><br><br>
 
 <a href='#^'>^^^</a>
 
@@ -2367,7 +2367,7 @@ a and b are equal
 
 ---
 
-<h4 id='ifinput'>input</h4>
+<h4 id='ifinput'>Nested if with input</h4>
 
 ```python
 num = float(input("Enter a number: "))
