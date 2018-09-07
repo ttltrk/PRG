@@ -2221,6 +2221,20 @@ print(my_dict4)
 
 <h3 id='if..else'>Python if..else</h3>
 
+---
+<h4 id='^^'></h4>
+<a href='#temp'>Template</a><br>
+<a href='#ifif'>if</a><br>
+<a href='#ifelse'>if..else</a><br>
+<a href='ifelifelse'>if..elif..else</a><br>
+<a href='ifinput'>input</a><br><br>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='basie'>Template</h4>
+
 ```python
 if some_condition:
     # execute some code
@@ -2229,6 +2243,28 @@ elif some_other_condition:
 else:
     # do something else
 ```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='ifif'>if</h4>
+
+```python
+a = 33
+b = 200
+
+if b > a:
+    print("b is greater than a")
+
+>>>
+b is greater than a
+>>>
+```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
 
 ```python
 num = 3
@@ -2248,7 +2284,12 @@ This is also always printed.
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
+
+---
+
+<h4 id='ifelse'>if..else</h4>
 
 ```python
 num = 3
@@ -2263,7 +2304,12 @@ Positive or Zero
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
+
+---
+
+<h4 id='ifelifelse'>if..elif..else</h4>
 
 ```python
 num = 3.4
@@ -2280,7 +2326,48 @@ Positive number
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
+
+```python
+a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+  
+>>>
+a is greater than b
+>>>
+```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+```python
+a = 33
+b = 33
+
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+  
+>>>
+a and b are equal
+>>>
+```
+
+<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='ifinput'>input</h4>
 
 ```python
 num = float(input("Enter a number: "))
@@ -2309,50 +2396,7 @@ Negative number
 >>>
 ```
 
-<a href='#^'>^^^</a>
-
-```python
-a = 33
-b = 200
-
-if b > a:
-    print("b is greater than a")
-
->>>
-b is greater than a
->>>
-```
-
-```python
-a = 33
-b = 33
-
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
-  
->>>
-a and b are equal
->>>
-```
-
-```python
-a = 200
-b = 33
-
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
-else:
-  print("a is greater than b")
-  
->>>
-a is greater than b
->>>
-```
-
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
