@@ -2306,7 +2306,7 @@ a is greater than b
 * <a href ='#sumlis'>Sum of the list</a><br>
 * <a href ='#itestr'>Iterate a string</a><br>
 * <a href ='#itetup'>Iterate tuples</a><br>
-* <a href ='#itedic'>Iterate dictionary</a><br>
+* <a href ='#itedic'>Iterate dictionary</a><br><br>
 
 <a href='#^'>^^^</a>
 
@@ -2332,7 +2332,7 @@ for item_name in my_iterable:
 
 ---
 
-Odd and Even numbers
+<h4 id='odevnu'>Odd and Even numbers</h4>
 
 ```python
 #python for
@@ -2357,11 +2357,12 @@ odd number:9
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-Sum of the list
+<h4 id='sumlis'>Sum of the list</h4>
 
 ```python
 #python for
@@ -2379,6 +2380,7 @@ The sum is 48
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2397,6 +2399,7 @@ print(ls)
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2424,11 +2427,12 @@ for num in l:
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-Iterate a string
+<h4 id='itestr'>Iterate a string</h4>
 
 ```python
 #python for
@@ -2444,6 +2448,7 @@ k
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2458,6 +2463,7 @@ k
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2472,11 +2478,12 @@ trk
 >>>
 ```
 
----
-
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
-Iterate tuples
+---
+
+<h4 id='itetup'>Iterate tuples</h4>
 
 ```python
 #python for
@@ -2495,6 +2502,7 @@ for n in l:
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2517,6 +2525,7 @@ for (a,b) in l:
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2534,6 +2543,7 @@ for a,b in l:
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2550,11 +2560,12 @@ for a, b, c in l:
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-Iterate dictionary
+<h4 id='itedic'>Iterate dictionary</h4>
 
 ```python
 #python for
@@ -2570,6 +2581,7 @@ k3
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 
@@ -2587,6 +2599,7 @@ for k,v in d.items:
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2603,6 +2616,7 @@ for item in d.items():
 >>>
 ```
 
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
