@@ -2260,23 +2260,6 @@ odd number:9
 <a href='#^'>^^^</a>
 
 ```python
-#how to count the sum of the list = final number
-l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-ls = 0
-
-for num in l:
-    ls = ls + num
-
-print(ls)
-
->>>
-55
->>>
-```
-|
-|
-|
-```python
 numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 
 sum = 0
@@ -2291,7 +2274,20 @@ The sum is 48
 >>>
 ```
 
-<a href='#^'>^^^</a>
+```python
+#how to count the sum of the list = final number
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ls = 0
+
+for num in l:
+    ls = ls + num
+
+print(ls)
+
+>>>
+55
+>>>
+```
 
 ```python
 #how to count the sum of the list = the whole chain
