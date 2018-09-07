@@ -2301,12 +2301,14 @@ a is greater than b
 
 ---
 <h4 id='^^'></h4>
-* <a href ='#basscr'>Basic script</a>
-* <a href ='#odevnu'>Odd and Even numbers</a>
-* <a href ='#sumlis'>Sum of the list</a>
-* <a href ='#itestr'>Iterate a string</a>
-* <a href ='#itetup'>Iterate tuples</a>
-* <a href ='#itedic'>Iterate dictionary</a>
+* <a href ='#basscr'>Basic script</a><br>
+* <a href ='#odevnu'>Odd and Even numbers</a><br>
+* <a href ='#sumlis'>Sum of the list</a><br>
+* <a href ='#itestr'>Iterate a string</a><br>
+* <a href ='#itetup'>Iterate tuples</a><br>
+* <a href ='#itedic'>Iterate dictionary</a><br>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -2325,7 +2327,7 @@ for item_name in my_iterable:
 >>>
 ```
 
-<a href='#^^'>^^</a>
+<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
