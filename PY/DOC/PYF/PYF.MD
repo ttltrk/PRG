@@ -52,6 +52,7 @@
 ---
 
 ```python
+#python data types
 int	= 3, 300, 201
 float	= 2.3, 4.5, 100.0
 str	= 'hello', "Sammy", '2000'
@@ -71,6 +72,7 @@ bool	= True, False
 ---
 
 ```python
+#python operators
 a == b  (Equals)
 a != b  (Not Equals)
 a < b   (Less than)
@@ -84,6 +86,8 @@ a >= b  (Greater than or equal to)
 ---
 
 ```python
+
+#python operators
 x = 15
 y = 4
 
@@ -114,6 +118,7 @@ x ** y = 50625
 ---
 
 ```python
+#python operators
 >>> '2' == 2 
 False
 
@@ -177,8 +182,12 @@ True
 
 ---
 
-```python
 Logical operators
+
+---
+
+```python
+#python operators
 
 and
 or
@@ -214,6 +223,7 @@ True
 ---
 
 ```python
+#python comments
 #This is a comment
 #print out Hello
 print('Hello')
@@ -228,6 +238,7 @@ Hello
 ---
 
 ```python
+#python comments
 """This is also a
 perfect example of
 multi-line comments"""
@@ -247,6 +258,7 @@ hello
 ---
 
 ```python
+#python numbers
 x = 1
 y = 2.8  
 z = 1j   
@@ -262,9 +274,12 @@ print(type(z))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
+#python numbers
 x = 1
 y = 35656222554887711
 z = -3255522
@@ -280,7 +295,12 @@ print(type(z))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
+#python numbers
 x = 1.10
 y = 1.0
 z = -35.59
@@ -296,7 +316,12 @@ print(type(z))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
+#python numbers
 x = 35e3
 y = 12E4
 z = -87.7e100
@@ -312,7 +337,12 @@ print(type(z))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
+#python numbers
 x = 3+5j
 y = 5j
 z = -5j
@@ -330,7 +360,10 @@ print(type(z))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 a = 5
 
 print(type(a))
@@ -351,7 +384,10 @@ True
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 a = 5
 print(a, "is of type", type(a))
 
@@ -370,7 +406,10 @@ print(a, "is complex number?", isinstance(1+2j,complex))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 n1 = 1 + 2.0
 
 print(n1)
@@ -390,7 +429,10 @@ print(complex('3+5j'))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 n1 = 1.1 + 2.2
 print(n1 == 3.3)
 print(n1)
@@ -403,7 +445,10 @@ False
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 import decimal
 
 print(0.1)
@@ -417,7 +462,10 @@ print(decimal.Decimal(0.1))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 import math
 
 print(math.pi)
@@ -439,7 +487,10 @@ print(math.factorial(6))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 import random
 
 print(random.randrange(10,20))
@@ -463,7 +514,10 @@ e
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 import fractions
 
 print(fractions.Fraction(1.5))
@@ -479,7 +533,10 @@ print(fractions.Fraction(1,3))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 import fractions
 
 print(fractions.Fraction(1.1))
@@ -493,7 +550,10 @@ print(fractions.Fraction('1.1'))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
+#python numbers
 from fractions import Fraction as F
 
 print(F(1,3) + F(1,3))
