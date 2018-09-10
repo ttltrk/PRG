@@ -869,11 +869,23 @@ He said, "What's there?"
 ---
 
 <a href='#capit'>capitalize</a><br>
-
+<a href='#casefold'>casefold</a><br>
+<a href='#str_center'>center</a><br>
+<a href='#str_count'>count</a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
+<a href='#'></a><br>
 
 ---
 
-<h4 id='capit'>Capitalize</h4>
+<h4 id='capit'>capitalize</h4>
 
 ```python
 s = 'test'
@@ -882,6 +894,116 @@ print(s.capitalize())
 
 >>>
 Test
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='casefold'>casefold</h4>
+
+```python
+s = 'ß'
+
+print(s.casefold())
+
+>>>
+ss
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='str_center'>center</h4>
+
+```python
+s = 'test'
+
+print(s.center(5, 'y'))
+print(s.center(6, 'y'))
+print(s.center(10, 'y'))
+
+>>>
+ytest
+ytesty
+yyytestyyy
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='str_count'>count</h4>
+
+```python
+s = 'blablaabcdefgblabla'
+s1 = 'b'
+s2 = 'f'
+
+print(s.count(s1, 5, 10))
+print(s.count(s1, 6, 100))
+print(s.count(s2, 0, 100))
+
+>>>
+1
+3
+1
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
 >>>
 ```
 
