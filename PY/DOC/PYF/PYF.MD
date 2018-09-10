@@ -586,6 +586,16 @@ True
 ---
 
 ```python
+| P | y | t | h | o | n |
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
 a = "Hello, World!"
 
 print(a[1])
@@ -598,6 +608,8 @@ llo
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 ms1 = 'Hello'
@@ -624,13 +636,7 @@ Hello, welcome to
 
 <a href='#^'>^^^</a>
 
-```python
-| P | y | t | h | o | n |
- 0   1   2   3   4   5   6
--6  -5  -4  -3  -2  -1
-```
-
-<a href='#^'>^^^</a>
+---
 
 ```python
 str = 'programiz'
@@ -654,6 +660,8 @@ str[5:-2] =  am
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 ss = "Sammy Shark!"
@@ -690,6 +698,8 @@ k
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 ss = "Sammy Shark!"
 
@@ -724,6 +734,8 @@ S
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 ss = "Sammy Shark!"
 
@@ -739,6 +751,8 @@ hark!
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 ss = "Sammy Shark!"
@@ -762,6 +776,8 @@ SmSr
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 ss = "Sammy Shark!"
 
@@ -777,6 +793,8 @@ print(ss[::-3])
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 str1 = 'Hello'
@@ -794,6 +812,8 @@ str1 * 3 = HelloHelloHello
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 count = 0
 for letter in 'Hello World':
@@ -807,6 +827,8 @@ print(count,'letters found')
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 str = 'cold'
@@ -823,6 +845,8 @@ len(str) =  4
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 print('''He said, "What's there?"''')
@@ -841,6 +865,27 @@ He said, "What's there?"
 ---
 
 <h3 id='stringmeth'>Python String methods</h3>
+
+---
+
+<a href='#capit'>capitalize</a><br>
+
+
+---
+
+<h4 id='capit'>Capitalize</h4>
+
+```python
+s = 'test'
+
+print(s.capitalize())
+
+>>>
+Test
+>>>
+```
+
+<a href='#^'>^^^</a>
 
 ---
 
