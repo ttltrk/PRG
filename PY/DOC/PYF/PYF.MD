@@ -872,7 +872,7 @@ He said, "What's there?"
 <a href='#casefold'>casefold</a><br>
 <a href='#str_center'>center</a><br>
 <a href='#str_count'>count</a><br>
-<a href='#'></a><br>
+<a href='#str_encode'>encode</a><br>
 <a href='#'></a><br>
 <a href='#'></a><br>
 <a href='#'></a><br>
@@ -959,12 +959,18 @@ print(s.count(s2, 0, 100))
 
 ---
 
-<h4 id=''></h4>
+<h4 id='str_encode'>encode</h4>
 
 ```python
+string = 'pythön!'
+print('The string is:', string)
+
+string_utf = string.encode()
+print('The encoded version is:', string_utf)
 
 >>>
-
+The string is: pythön!
+The encoded version is: b'pyth\xc3\xb6n!'
 >>>
 ```
 
