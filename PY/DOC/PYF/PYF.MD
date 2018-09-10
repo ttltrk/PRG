@@ -2505,10 +2505,15 @@ Negative number
 <a href ='#basscr'>Basic script</a><br>
 <a href ='#odevnu'>Odd and Even numbers</a><br>
 <a href ='#sumlis'>Sum of the list</a><br>
+<a href ='#mullis'>Multiply two lists
 <a href ='#itestr'>Iterate a string</a><br>
 <a href ='#itetup'>Iterate tuples</a><br>
 <a href ='#itedic'>Iterate dictionary</a><br>
 <a href ='#forran'>for with range()</a><br><br>
+<a href ='#passfor'>pass for</a>
+<a href ='#confor'>continue for</a>
+<a href ='#brkfor'>break for</a>
+<a href ='#enufor'>enumerate for</a>
 <a href='#^'>^^^</a>
 
 ---
@@ -2631,6 +2636,40 @@ for num in l:
 
 <a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
+
+---
+
+<h4 id='mullis'>Multiply two lists</h4>
+
+```python
+# elements by elements
+l1 = [1, 2, 3]
+l2 = ['a', 'b', 'c']
+
+for item in zip(l1, l2):
+    print(item)
+    
+>>>
+(1, 'a')
+(2, 'b')
+(3, 'c')
+>>>
+```
+
+```python
+l1 = [1, 2, 3]
+l2 = ['a', 'b', 'c']
+l3 = [100, 200, 300]
+
+for item in zip(l1, l2, l3):
+    print(item)
+    
+>>>
+(1, 'a', 100)
+(2, 'b', 200)
+(3, 'c', 300)
+>>>
+```
 
 ---
 
@@ -2928,7 +2967,7 @@ y
 
 ---
 
-<h4 id='breakfor'>break for</h4>
+<h4 id='brkfor'>break for</h4>
 
 ```python
 x = 'sammy'
@@ -2944,6 +2983,61 @@ s
 ```
 
 <a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='enufor'>enumerate for</h4>
+
+```python
+index_count = 0
+
+for letter in 'abc':
+    print('at index {} the letter is {}'.format(index_count, letter))
+    index_count += 1
+    
+>>>
+at index 0 the letter is a
+at index 1 the letter is b
+at index 2 the letter is c
+>>>
+```
+
+```python
+word = 'abc'
+
+for item in enumerate(word):
+    print(item)
+    
+>>>
+(0, 'a')
+(1, 'b')
+(2, 'c')
+>>>
+```
+
+```python
+word = 'abc'
+
+for index, letter in enumerate(word):
+    print(index)
+    print(letter)
+    print('\n')
+    
+>>>
+0
+a
+
+
+1
+b
+
+
+2
+c
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
