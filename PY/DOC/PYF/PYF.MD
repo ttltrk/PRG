@@ -43,7 +43,7 @@
 
 ---
 
-* <a href='#mopali'>Modules, Packages, libs</a>
+* <a href='#mopali'>modules, packages, libs</a>
 
 ---
 
@@ -72,6 +72,10 @@ bool	= True, False
 ---
 
 <h3 id='operators'>Python Operators</h3> 
+
+---
+
+<a href='#logope'>logical operators</a>
 
 ---
 
@@ -186,7 +190,7 @@ True
 
 ---
 
-<h4 id=''>Logical operators</h4>
+<h4 id='logope'>Logical operators</h4>
 
 ---
 
