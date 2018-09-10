@@ -51,6 +51,10 @@
 
 ---
 
+* <a href='#py_links'>links</a>
+
+---
+
 <h3 id='dattyp'>Python Data types</h3> 
 
 ---
@@ -4762,6 +4766,14 @@ yellow
 ```
 
 <a href='#^'>^^^</a>
+
+---
+
+<h3 id='py_links'>Python links</h3>
+
+* [python.org](https://docs.python.org/3/tutorial/index.html)
+* [programiz](https://www.programiz.com/python-programming)
+* [udemy - from 0 to hero](https://www.udemy.com/complete-python-bootcamp/learn/v4/content)
 
 ---
 
