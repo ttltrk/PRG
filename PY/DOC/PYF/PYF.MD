@@ -43,6 +43,10 @@
 
 ---
 
+* <a href='#mopali'>Modules, Packages, libs</a>
+
+---
+
 * <a href='#oop'>oop</a>
 
 ---
@@ -1232,6 +1236,21 @@ print(my_list)
 ```
 
 <a href='#^'>^^^</a>
+
+---
+
+```python
+#min max
+l1 = [1, 2, 3, 50, 60, 100]
+
+print(min(l1))
+print(max(l1))
+
+>>>
+1
+100
+>>>
+```
 
 ---
 
@@ -4330,6 +4349,46 @@ print (lst)
 ```
 
 <a href='#^'>^^^</a>
+
+---
+
+<h3 id='mopali'>Modules, Packages, Libs</h3>
+
+---
+
+<a href='#shuffle'>shuffle</a>
+<a href='randint'>randint</a>
+
+---
+
+<h4 id='shuffle'>shuffle</h4>
+
+```python
+from random import shuffle
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+shuffle(l)
+print(l)
+
+>>>
+[5, 2, 4, 3, 1, 8, 9, 6, 7]
+>>>
+```
+
+---
+
+<h4 id='randint'>randint</h4>
+
+```python
+from random import randint
+
+print(randint(0, 100))
+
+>>>
+58
+>>>
+```
 
 ---
 
