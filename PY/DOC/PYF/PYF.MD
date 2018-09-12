@@ -3710,6 +3710,62 @@ Hey x equals 3!
 
 <h3 id='functions'>Python functions</h3>
 
+---
+
+```python
+
+#your variables
+x = 2
+y = 3
+m = 'yellow'
+n = ' '
+p = 'uuuuuugh'
+
+#first todo function
+def first(aa, bb):
+    a = aa+bb
+    return a
+
+#second todo function
+def sec(nn, mm):
+    k = 'hello'
+    return k+n+mm
+
+#third todo function
+def third(fff, ooo):
+    l = 'fffUUU'
+    return l+fff+ooo
+
+#main function
+def prime():
+    a = int(input('num?'))
+    if a == 1:
+        print(first(x,y))
+    elif a == 2:
+        print(sec(n,m))
+    elif a == 3:
+        print(third(n, p))
+    else:
+        print('give me a num')
+
+prime()
+
+>>>
+num?1
+5
+
+num?2
+hello yellow
+
+num?3
+fffUUU uuuuuugh
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 a = 10
 b = 20
@@ -3745,6 +3801,8 @@ negyedik(ee, mm)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 hometown = 'ds'
@@ -3787,6 +3845,8 @@ sowhat()
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def my_add_func(arg1, arg2):    
     print (arg1 + arg2)
@@ -3799,6 +3859,8 @@ my_add_func(1, 2)
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def add_num(num1, num2):
@@ -3815,6 +3877,8 @@ print(x)
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def add_num(num1, num2):
     return (num1 + num2)
@@ -3829,6 +3893,8 @@ onetwo
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def is_prime(num):
@@ -3852,6 +3918,8 @@ not prime
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def is_prime(num):
@@ -3884,6 +3952,8 @@ the number is prime!
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def hello(name='trk'):
   print("the hello() function has been executed")
@@ -3910,6 +3980,8 @@ now we are back inside the hello() function
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def hello(name='trk'):
   
@@ -3933,6 +4005,8 @@ print(hello())
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def hello():
   return 'hi trk!'
@@ -3950,6 +4024,8 @@ hi trk!
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def new_decorator(func):
@@ -3979,6 +4055,8 @@ code here will execute after the func()
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def new_decorator(func):
   
@@ -4006,6 +4084,8 @@ code here will execute after the func()
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def gencubes(n):
   for num in range(n):
@@ -4029,6 +4109,8 @@ for x in gencubes(10):
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def genfibon(n):
@@ -4060,6 +4142,8 @@ for num in genfibon(10):
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def fibon(n):
   a = 1
@@ -4082,6 +4166,8 @@ print(fibon(10))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def simple_gen():
   for x in range(3):
@@ -4102,6 +4188,8 @@ print(next(g))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 s = 'hello'
 
@@ -4119,6 +4207,8 @@ o
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 s = 'hello'
 
@@ -4132,6 +4222,8 @@ h
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 s = 'hello'
@@ -4161,6 +4253,8 @@ o
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 #variables
@@ -4193,6 +4287,10 @@ xyz
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 bigger = 0
 
@@ -4209,6 +4307,10 @@ print(func(4, 6))
 6
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 #variables
@@ -4231,6 +4333,10 @@ print(func(a, b))
 10
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 #variables
@@ -4255,6 +4361,10 @@ print(func(a, b))
 10
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 a = 20
@@ -4291,6 +4401,10 @@ while i < 6:
 3
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 i = 1
