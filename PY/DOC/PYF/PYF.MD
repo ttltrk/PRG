@@ -3713,6 +3713,102 @@ Hey x equals 3!
 ---
 
 ```python
+def say_hello(name='NAME'):
+    print('hello', name)
+
+say_hello()
+say_hello('trk')
+
+>>>
+hello NAME
+hello trk
+>>>
+```
+
+---
+
+```python
+def dog_check(s):
+    if 'dog' in s:
+        return True
+    else:
+        return False
+
+print(dog_check('my dog ran away'))
+print(dog_check('my Dog ran away'))
+print(dog_check('my cat ran away'))
+
+>>>
+True
+False
+False
+>>>
+```
+
+---
+
+```python
+def dog_check(s):
+    if 'dog' in s.lower():
+        return True
+    else:
+        return False
+
+print(dog_check('my dog ran away'))
+print(dog_check('my Dog ran away'))
+print(dog_check('my cat ran away'))
+
+>>>
+True
+True
+False
+>>>
+```
+
+---
+
+```python
+def cat_check(s):
+    return 'cat' in s.lower()
+
+print(cat_check('my dog ran away'))
+print(cat_check('my Cat ran away'))
+print(cat_check('my cat ran away'))
+
+>>>
+False
+True
+True
+>>>
+```
+
+---
+
+```python
+def pig_latin(word):
+    first_letter = word[0]
+    if first_letter in 'aeiou':
+        pig_word = word + 'ay'
+    else:
+        pig_word = word[1:] + first_letter + 'ay'
+    return pig_word
+
+print(pig_latin('word'))
+print(pig_latin('trk'))
+print(pig_latin('Hello'))
+print(pig_latin('apple'))
+
+>>>
+ordway
+rktay
+elloHay
+appleay
+>>>
+```
+
+---
+
+```python
 #-----------------------------------------
 #
 #variables
