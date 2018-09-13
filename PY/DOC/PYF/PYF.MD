@@ -3725,6 +3725,8 @@ hello trk
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
@@ -3744,6 +3746,8 @@ False
 False
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -3765,6 +3769,8 @@ False
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
@@ -3781,6 +3787,8 @@ True
 True
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -3805,6 +3813,8 @@ elloHay
 appleay
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -3903,6 +3913,8 @@ def exit():
 
 prime()
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -4641,6 +4653,8 @@ print (square(2))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def square(num):
     return num**2
@@ -4654,6 +4668,8 @@ print (square(3))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 def square(num): return num**2
 
@@ -4665,6 +4681,8 @@ print (square(4))
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 square = lambda num: num**2
@@ -4678,6 +4696,8 @@ print (square(5))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 even = lambda num: num %2 == 0
 
@@ -4689,6 +4709,8 @@ True
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def even(num):
@@ -4703,6 +4725,8 @@ True
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 first = lambda s: s[0]
 
@@ -4715,6 +4739,8 @@ h
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 rev = lambda s: s[::-1]
 
@@ -4726,6 +4752,8 @@ olleh
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 def adder(x, y):
@@ -4740,6 +4768,8 @@ print (adder(10, 12))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 adder = lambda x, y: x + y
 
@@ -4752,6 +4782,8 @@ print (adder(15, 2))
 
 <a href='#^'>^^^</a>
 
+---
+
 ```python
 len_check = lambda item: len(item)
 
@@ -4763,6 +4795,8 @@ print (len_check("blabla"))
 ```
 
 <a href='#^'>^^^</a>
+
+---
 
 ```python
 #function
@@ -4782,6 +4816,10 @@ a lambda eredmenye = 19
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 x = lambda a, b : a * b
 y = lambda a, b, c : a + b + c
@@ -4794,6 +4832,10 @@ print(y(5, 6, 2))
 13
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 def myfunc(n):
@@ -4808,6 +4850,10 @@ print(mydoubler(10))
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 def myfunc(n):
   return lambda a, b : (a + b) * n
@@ -4820,6 +4866,10 @@ print(mydoubler(10, 2))
 36
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 def myfunc(n):
