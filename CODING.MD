@@ -23,18 +23,34 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x|  |  |  |  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x|  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
 
 |ST|NU|
 |--|--|
-|WD| 9|
+|WD|14|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * SEP
+
+  * 14 - Fri (DIR: 181)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 13 - Mon (DIR: 180)
+
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 12 - Mon (DIR: 179)
+
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+  
+  * 11 - Tue (DIR: 178)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 10 - Mon (DIR: 177)
   
