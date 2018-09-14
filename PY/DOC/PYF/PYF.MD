@@ -4038,20 +4038,18 @@ mf(1, 2, 3, 4, 5)
 ---
 
 ```python
+def mf(**kwargs):
+    print(kwargs)
+    if 'fruit' in kwargs:
+        print('my fruit of choice is {}' .format(kwargs['fruit']))
+    else:
+        print('i didnt find any fruit here')
+
+mf(fruit='apple', veggie ='lettuce')
 
 >>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-
->>>
-
+{'fruit': 'apple', 'veggie': 'lettuce'}
+my fruit of choice is apple
 >>>
 ```
 
@@ -4060,54 +4058,19 @@ mf(1, 2, 3, 4, 5)
 ---
 
 ```python
+def mf(*args, **kwargs):
+    print('I would like {} {}' .format(args[0], kwargs['food']))
+    print(' ')
+    print(args)
+    print(kwargs)
+
+mf(10, 20, 30, 40, 50, fruit='apple', food ='eggs')
 
 >>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-
->>>
-
->>>
+I would like 10 eggs
+ 
+(10, 20, 30, 40, 50)
+{'fruit': 'apple', 'food': 'eggs'}>>>
 ```
 
 <a href='#^'>^^^</a>
