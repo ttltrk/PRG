@@ -3973,6 +3973,148 @@ fffUUU uuuuuugh
 ---
 
 ```python
+def mf(*args):
+    return sum(args)*2
+
+print(mf(10, 20, 30))
+
+>>>
+120
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def mf(*args):
+    print (args)
+
+mf(10, 20, 30)
+
+>>>
+(10, 20, 30)
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def mf(*whatever):
+    print (whatever)
+
+mf(1, 2, 3, 4, 5)
+
+>>>
+(1, 2, 3, 4, 5)
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def mf(*args):
+    for item in args:
+        print(item)
+
+mf(1, 2, 3, 4, 5)
+
+>>>
+1
+2
+3
+4
+5
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
 a = 10
 b = 20
 d = 3
