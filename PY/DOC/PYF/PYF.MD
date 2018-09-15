@@ -3712,6 +3712,12 @@ Hey x equals 3!
 
 ---
 
+* <a href='#args'>args</a>
+* <a href='#kwargs'>kwargs</a>
+* <a href='#defevenodd'>even and odd numbers</a>
+
+---
+
 ```python
 def say_hello(name='NAME'):
     print('hello', name)
@@ -3972,6 +3978,8 @@ fffUUU uuuuuugh
 
 ---
 
+<h4 id='args'>args</h4>
+
 ```python
 def mf(*args):
     return sum(args)*2
@@ -4037,6 +4045,8 @@ mf(1, 2, 3, 4, 5)
 
 ---
 
+<h4 id='defevenodd'>even and odd numbers</h4>
+
 ```python
 def mf(*args):
     l_e = []
@@ -4060,6 +4070,8 @@ even numbers are: [2, 4, 6, 8, 10]
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='kwargs'>kwargs</h4>
 
 ```python
 def mf(**kwargs):
