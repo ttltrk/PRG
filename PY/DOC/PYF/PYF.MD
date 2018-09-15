@@ -4046,14 +4046,14 @@ def mf(*args):
             l_e.append(nums)
         elif nums%2 == 1:
             l_o.append(nums)
-    print(l_o)
-    print(l_e)
+    print('odd numbers are:', l_o)
+    print('even numbers are:', l_e)
 
 mf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 >>>
-[1, 3, 5, 7, 9]
-[2, 4, 6, 8, 10]
+odd numbers are: [1, 3, 5, 7, 9]
+even numbers are: [2, 4, 6, 8, 10]
 >>>
 ```
 
