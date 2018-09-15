@@ -4038,6 +4038,25 @@ mf(1, 2, 3, 4, 5)
 ---
 
 ```python
+l = []
+def mf(*args):
+    for nums in args:
+        if (nums)%2 == 0:
+            l.append(nums)
+    return l
+
+print(mf(1, 2, 3, 4, 5))
+
+>>>
+[2, 4]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
 def mf(**kwargs):
     print(kwargs)
     if 'fruit' in kwargs:
