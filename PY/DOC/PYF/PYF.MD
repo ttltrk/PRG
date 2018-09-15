@@ -4038,17 +4038,22 @@ mf(1, 2, 3, 4, 5)
 ---
 
 ```python
-l = []
 def mf(*args):
+    l_e = []
+    l_o = []
     for nums in args:
-        if (nums)%2 == 0:
-            l.append(nums)
-    return l
+        if nums%2 == 0:
+            l_e.append(nums)
+        elif nums%2 == 1:
+            l_o.append(nums)
+    print(l_o)
+    print(l_e)
 
-print(mf(1, 2, 3, 4, 5))
+mf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 >>>
-[2, 4]
+[1, 3, 5, 7, 9]
+[2, 4, 6, 8, 10]
 >>>
 ```
 
