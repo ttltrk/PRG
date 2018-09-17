@@ -4303,9 +4303,19 @@ MacDonald
 ---
 
 ```python
+def test(text):
+    s1 = text[0:100:2].upper()
+    s2 = text[1:100:2].lower()
+    l1 = list(s1)
+    l2 = list(s2)
+    baz = [x + y for x, y in zip(l1, l2)]
+    s3 = ''.join(baz)
+    return s3
+
+print(test('abcdefgijklmnop'))
 
 >>>
-
+AbCdEfGiJkLmNo
 >>>
 ```
 
