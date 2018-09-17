@@ -4234,6 +4234,97 @@ true
 ---
 
 ```python
+def makes_twenty(n1, n2):
+    if n1+n2 == 20:
+        return True
+    elif n1 == 20:
+        return True
+    elif n2 == 20:
+        return True
+    else:
+        return False
+
+print(makes_twenty(10, 10))
+print(makes_twenty(20, 10))
+print(makes_twenty(10, 20))
+print(makes_twenty(21, 19))
+
+>>>
+True
+True
+True
+False
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def makes_twenty(n1, n2):
+    return (n1+n2) == 20 or n1 == 20 or n2 == 20
+
+print(makes_twenty(10, 10))
+print(makes_twenty(20, 10))
+print(makes_twenty(10, 20))
+print(makes_twenty(21, 19))
+
+>>>
+True
+True
+True
+False
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def old_macdonald(name):
+    first_letter = name[0]
+    inbetween = name[1:3]
+    fourth_letter = name[3]
+    rest = name[4:]
+
+    return first_letter.upper()+inbetween+fourth_letter.upper()+rest
+
+print(old_macdonald('macdonald'))
+
+>>>
+MacDonald
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
 
 >>>
 
