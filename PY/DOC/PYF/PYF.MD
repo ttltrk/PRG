@@ -3709,12 +3709,14 @@ Hey x equals 3!
 ---
 
 <h3 id='functions'>Python functions</h3>
+<h3 id='^^def'></h3>
 
 ---
 
 * <a href='#args'>args</a>
 * <a href='#kwargs'>kwargs</a>
 * <a href='#defevenodd'>even and odd numbers</a>
+* <a href='#uppersec'>upper() every 2nd char</a>
 
 ---
 
@@ -3731,6 +3733,7 @@ hello trk
 >>>
 ```
 
+<a href='#^^def'>^^</a>
 <a href='#^'>^^^</a>
 
 ---
@@ -3753,6 +3756,7 @@ False
 >>>
 ```
 
+<a href='#^^def'>^^</a>
 <a href='#^'>^^^</a>
 
 ---
@@ -3775,6 +3779,7 @@ False
 >>>
 ```
 
+<a href='#^^def'>^^</a>
 <a href='#^'>^^^</a>
 
 ---
@@ -3794,6 +3799,7 @@ True
 >>>
 ```
 
+<a href='#^^def'>^^</a>
 <a href='#^'>^^^</a>
 
 ---
@@ -3820,6 +3826,7 @@ appleay
 >>>
 ```
 
+<a href='#^^def'>^^</a>
 <a href='#^'>^^^</a>
 
 ---
@@ -4301,6 +4308,8 @@ MacDonald
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='uppersec'>upper() every 2nd char</h4>
 
 ```python
 def test(text):
