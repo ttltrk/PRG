@@ -2830,7 +2830,7 @@ Negative number
 <h3 id='for'>Python for</h3>
 
 ---
-<h4 id='^^'></h4>
+<h4 id='^^for'></h4>
 <a href ='#basscr'>Basic script</a><br>
 <a href ='#odevnu'>Odd and Even numbers</a><br>
 <a href ='#sumlis'>Sum of the list</a><br>
@@ -2863,7 +2863,7 @@ for n in l:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^for'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -2893,7 +2893,7 @@ odd number:9
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^for'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -2916,7 +2916,7 @@ The sum is 48
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^for'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2935,7 +2935,7 @@ print(ls)
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^for'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -2963,7 +2963,7 @@ for num in l:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^for'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3018,7 +3018,7 @@ k
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3033,7 +3033,7 @@ k
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3048,7 +3048,7 @@ trk
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3072,7 +3072,7 @@ for n in l:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3095,7 +3095,7 @@ for (a,b) in l:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3113,7 +3113,7 @@ for a,b in l:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3130,7 +3130,7 @@ for a, b, c in l:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3151,7 +3151,7 @@ k3
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 
@@ -3169,7 +3169,7 @@ for k,v in d.items:
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3186,7 +3186,7 @@ for item in d.items():
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3207,7 +3207,7 @@ I like jazz
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3231,7 +3231,7 @@ for num in range(1,11):
 >>> 
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -3248,7 +3248,7 @@ hello world
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3268,7 +3268,7 @@ how to use pass
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3291,7 +3291,7 @@ y
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3311,7 +3311,7 @@ s
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3332,6 +3332,11 @@ at index 2 the letter is c
 >>>
 ```
 
+<a href='#^^'>^^for</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 word = 'abc'
 
@@ -3344,6 +3349,11 @@ for item in enumerate(word):
 (2, 'c')
 >>>
 ```
+
+---
+
+<a href='#^^'>^^for</a><br>
+<a href='#^'>^^^</a>
 
 ```python
 word = 'abc'
@@ -3367,6 +3377,7 @@ c
 >>>
 ```
 
+<a href='#^^'>^^for</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3733,7 +3744,7 @@ hello trk
 >>>
 ```
 
-<a href='#^^def'>^^</a>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3756,7 +3767,7 @@ False
 >>>
 ```
 
-<a href='#^^def'>^^</a>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3779,7 +3790,7 @@ False
 >>>
 ```
 
-<a href='#^^def'>^^</a>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3799,7 +3810,7 @@ True
 >>>
 ```
 
-<a href='#^^def'>^^</a>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3826,7 +3837,7 @@ appleay
 >>>
 ```
 
-<a href='#^^def'>^^</a>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3927,6 +3938,7 @@ def exit():
 prime()
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3981,6 +3993,7 @@ fffUUU uuuuuugh
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -3998,6 +4011,7 @@ print(mf(10, 20, 30))
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4013,6 +4027,7 @@ mf(10, 20, 30)
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4028,6 +4043,7 @@ mf(1, 2, 3, 4, 5)
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4048,6 +4064,7 @@ mf(1, 2, 3, 4, 5)
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4074,6 +4091,7 @@ even numbers are: [2, 4, 6, 8, 10]
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4096,6 +4114,7 @@ my fruit of choice is apple
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4116,6 +4135,7 @@ I would like 10 eggs
 {'fruit': 'apple', 'food': 'eggs'}>>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4147,6 +4167,7 @@ print(lesser_of_two_evens(7,5))
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4172,6 +4193,7 @@ print(lesser_of_two_evens(7,5))
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4197,6 +4219,7 @@ False
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4216,6 +4239,7 @@ False
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4236,6 +4260,7 @@ true
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4264,6 +4289,7 @@ False
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4285,6 +4311,7 @@ False
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4305,6 +4332,7 @@ MacDonald
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -4328,6 +4356,7 @@ AbCdEfGiJkLmNo
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
