@@ -4114,6 +4114,170 @@ I would like 10 eggs
 ---
 
 ```python
+def lesser_of_two_evens(a,b):
+    if a%2 == 0 and b%2 == 0:
+        if a < b:
+            result = a
+        else:
+            result = b
+    else:
+        if a > b:
+            result = a
+        else:
+            result = b
+    return result
+
+print(lesser_of_two_evens(2,4))
+print(lesser_of_two_evens(8,4))
+print(lesser_of_two_evens(2,5))
+print(lesser_of_two_evens(7,5))
+
+>>>
+2
+4
+5
+7
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def lesser_of_two_evens(a,b):
+    if a%2 == 0 and b%2 == 0:
+        result = min(a,b)
+    else:
+        result = max(a,b)
+    return result
+
+print(lesser_of_two_evens(2,4))
+print(lesser_of_two_evens(8,4))
+print(lesser_of_two_evens(2,5))
+print(lesser_of_two_evens(7,5))
+
+>>>
+2
+4
+5
+7
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def animal_crackers(text):
+    wordlist = text.split()
+    print(wordlist)
+
+    first = wordlist[0]
+    second = wordlist[1]
+
+    return first[0] == second[0]
+
+print(animal_crackers('Levelhead Llama'))
+print(animal_crackers('Crazy Kangaroo'))
+
+>>>
+['Levelhead', 'Llama']
+True
+['Crazy', 'Kangaroo']
+False
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def animal_crackers(text):
+    wordlist = text.split()
+
+    return wordlist[0][0] == wordlist[1][0]
+
+print(animal_crackers('Levelhead Llama'))
+print(animal_crackers('Crazy Kangaroo'))
+
+>>>
+True
+False
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+def animal_crackers(text):
+    wordlist1 = text.split()
+    wordlist2 = text.lower().split()
+
+    print(wordlist1[0][0] == wordlist1[1][0])
+    print(wordlist2[0][0] == wordlist2[1][0])
+
+animal_crackers('Crazy cat')
+
+>>>
+False
+true
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
 a = 10
 b = 20
 d = 3
