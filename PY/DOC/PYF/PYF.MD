@@ -3739,6 +3739,8 @@ Hey x equals 3!
 * <a href='#defevenodd'>even and odd numbers</a>
 * <a href='#old_macdonald'>old_macdonald</a>
 * <a href='#uppersec'>upper() every 2nd char</a>
+* <a href='#master_yoda'>master_yoda</a>
+* <a href='#almost_there'>almost_there</a>
 
 <a href='#^'>^^^</a>
 
@@ -4388,24 +4390,48 @@ AbCdEfGiJkLmNo
 
 ---
 
+<h4 id='master_yoda'>master_yoda</h4>
+
 ```python
+def master_yoda(text):
+    wordlist = text.split()
+    reverse_word_list = wordlist[::-1]
+    return ' '.join(reverse_word_list)
+
+print(master_yoda('I am home'))
 
 >>>
-
+home am I
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
+<h4 id='almost_there'>almost_there</h4>
+
 ```python
+def almost_there(n):
+    return (abs(100-n) <= 10) or (abs(200-n) <= 10)
+
+print(almost_there(104))
+print(almost_there(89))
+print(almost_there(189))
+print(almost_there(204))
+print(almost_there(211))
 
 >>>
-
+True
+False
+False
+True
+False
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
