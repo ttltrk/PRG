@@ -3728,10 +3728,19 @@ Hey x equals 3!
 
 ---
 
+* <a href='#dog_check'>dog_check</a>
+* <a href='#cat_check'>cat_check</a>
+* <a href='#pig_latin'>pig_latin</a>
+* <a href='#lesser_of_two_evens'>lesser_of_two_evens</a>
 * <a href='#args'>args</a>
 * <a href='#kwargs'>kwargs</a>
+* <a href='#animal_crackers'>animal_crackers</a>
+* <a href='#makes_twenty'>makes_twenty</a>
 * <a href='#defevenodd'>even and odd numbers</a>
+* <a href='#old_macdonald'>old_macdonald</a>
 * <a href='#uppersec'>upper() every 2nd char</a>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -3752,6 +3761,8 @@ hello trk
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='dog_check'>dog_check</h4>
 
 ```python
 def dog_check(s):
@@ -3799,6 +3810,8 @@ False
 
 ---
 
+<h4 id='cat_check'>cat_check</h4>
+
 ```python
 def cat_check(s):
     return 'cat' in s.lower()
@@ -3818,6 +3831,8 @@ True
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='pig_latin'>pig_latin</h4>
 
 ```python
 def pig_latin(word):
@@ -4144,6 +4159,8 @@ I would like 10 eggs
 
 ---
 
+<h4 id='lesser_of_two_evens'>lesser_of_two_evens</h4>
+
 ```python
 def lesser_of_two_evens(a,b):
     if a%2 == 0 and b%2 == 0:
@@ -4201,6 +4218,8 @@ print(lesser_of_two_evens(7,5))
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='animal_crackers'>animal_crackers</h4>
 
 ```python
 def animal_crackers(text):
@@ -4269,6 +4288,8 @@ true
 
 ---
 
+<h4 id='makes_twenty'>makes_twenty</h4>
+
 ```python
 def makes_twenty(n1, n2):
     if n1+n2 == 20:
@@ -4319,6 +4340,8 @@ False
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='old_macdonald'>old_macdonald</h4>
 
 ```python
 def old_macdonald(name):
