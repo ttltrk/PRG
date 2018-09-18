@@ -23,18 +23,34 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x|  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30| 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
+| x| x| x|  |  |  |  |  |  |  |  |  |  |  |  |  
 
 |ST|NU|
 |--|--|
-|WD|14|
+|WD|18|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * SEP
+
+  * 18 - Tue (DIR: 185)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 17 - Mon (DIR: 184)
+
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 16 - Sun (DIR: 183)
+
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 15 - Sat (DIR: 182)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 14 - Fri (DIR: 181)
   
