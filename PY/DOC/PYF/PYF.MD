@@ -3742,6 +3742,8 @@ Hey x equals 3!
 * <a href='#master_yoda'>master_yoda</a>
 * <a href='#almost_there'>almost_there</a>
 * <a href='#has_33'>has_33</a>
+* <a href='#paper_doll'>paper_doll</a>
+* <a href='#blackjack'>blackjack</a>
 
 <a href='#^'>^^^</a>
 
@@ -4447,7 +4449,6 @@ def has_33(nums):
 
     return False
 
-
 print(has_33([1,3,3]))
 print(has_33([3,1,3]))
 print(has_33([1,3,1,3]))
@@ -4466,17 +4467,59 @@ True
 
 ---
 
+<h4 id='paper_doll'>paper_doll</h4>
+
 ```python
+def paper_doll(text):
+    result = ''
+    for char in text:
+        result += char*3
+    return result
+
+
+print(paper_doll('hello'))
+print(paper_doll('trk'))
 
 >>>
-
+hhheeellllllooo
+tttrrrkkk
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
+<h4 id='blackjack'>blackjack</h4>
+
+```python
+def blackjack(a, b, c):
+    if sum([a, b, c]) <= 21:
+        return sum([a, b, c])
+    elif 11 in [a, b, c] and sum([a, b, c]) <= 31:
+        return sum([a, b, c])-10
+    else:
+        return 'BUST'
+
+print(blackjack(8, 7, 9))
+print(blackjack(5, 6, 7))
+print(blackjack(9, 9, 11))
+
+>>>
+BUST
+18
+19
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
 ```python
 
 >>>
@@ -4484,6 +4527,77 @@ True
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
