@@ -3744,6 +3744,7 @@ Hey x equals 3!
 * <a href='#has_33'>has_33</a>
 * <a href='#paper_doll'>paper_doll</a>
 * <a href='#blackjack'>blackjack</a>
+* <a href='#summer_69'>summer_69</a>
 
 <a href='#^'>^^^</a>
 
@@ -4518,12 +4519,36 @@ BUST
 
 ---
 
-<h4 id=''></h4>
+<h4 id='summer_69'>summer_69</h4>
 
 ```python
+def summer_69(arr):
+    total = 0
+    add = True
+
+    for num in arr:
+        while add:
+            if num!=6:
+                total += num
+                break
+            else:
+                add = False
+        while not add:
+            if num != 9:
+                break
+            else:
+                add = True
+                break
+    return total
+
+print(summer_69([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]))
+print(summer_69([5, 6, 7, 8, 9, 10]))
+print(summer_69([6, 7, 8, 9, 10]))
 
 >>>
-
+36
+15
+10
 >>>
 ```
 
