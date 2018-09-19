@@ -4557,12 +4557,26 @@ print(summer_69([6, 7, 8, 9, 10]))
 
 ---
 
-<h4 id=''></h4>
+<h4 id='spy_game'>spy_game</h4>
 
 ```python
+def spy_game(nums):
+
+    code = [0, 0, 7, 'x']
+
+    for num in nums:
+        if num == code[0]:
+            code.pop(0)
+    return len(code) == 1
+
+print(spy_game([1, 2, 3, 0, 4, 0, 7]))
+print(spy_game([1, 2, 3, 0, 0, 7]))
+print(spy_game([0, 7, 0]))
 
 >>>
-
+True
+True
+False
 >>>
 ```
 
