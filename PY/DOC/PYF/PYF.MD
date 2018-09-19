@@ -3745,6 +3745,7 @@ Hey x equals 3!
 * <a href='#paper_doll'>paper_doll</a>
 * <a href='#blackjack'>blackjack</a>
 * <a href='#summer_69'>summer_69</a>
+* <a href='#count_primes'>count_primes</a>
 
 <a href='#^'>^^^</a>
 
@@ -4585,12 +4586,31 @@ False
 
 ---
 
-<h4 id=''></h4>
+<h4 id='count_primes'>count_primes</h4>
 
 ```python
+def count_primes(num):
+    if num < 2:
+        return 0
+    primes = [2]
+    x = 3
+
+    while x <= num:
+        for y in range(3,x,2):
+            if x%2 == 0:
+                x +=2
+                break
+        else:
+            primes.append(x)
+            x += 2
+    print(primes)
+    return len(primes)
+
+print(count_primes(20))
 
 >>>
-
+[2, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+10
 >>>
 ```
 
