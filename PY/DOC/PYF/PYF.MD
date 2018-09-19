@@ -3728,6 +3728,11 @@ Hey x equals 3!
 
 ---
 
+* <a href='#temp_01'>temp_01</a>
+* <a href='#temp_02'>temp_02</a>
+* <a href='#temp_03'>temp_03</a>
+* <a href='#temp_04'>temp_04</a>
+* <a href='#say_hello'>say_hello</a>
 * <a href='#dog_check'>dog_check</a>
 * <a href='#cat_check'>cat_check</a>
 * <a href='#pig_latin'>pig_latin</a>
@@ -3750,6 +3755,242 @@ Hey x equals 3!
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='temp_01'>temp_01</h4>
+
+```python
+######################
+#variables
+######################
+
+vn11 = 10
+vn12 = 9
+vn13 = 5
+vn14 = 8
+
+vn31 = 27
+vn32 = 71
+
+######################
+#Level 1
+######################
+
+def l11(a,b):
+    x11 = a+b
+    return x11
+
+def l12(a,b):
+    x12 = a*b
+    return x12
+
+######################
+#Level 2
+######################
+
+def l21():
+    y21 = l11(vn11, vn12)+l12(vn13, vn14)
+    return y21
+
+def l22():
+    y22 = l11(vn11, vn12) - l12(vn13, vn14)
+    return y22
+
+######################
+#Level 3
+######################
+
+def l31():
+    z31 = l21() + vn31
+    return z31
+
+def l32():
+    z32 = l21() + vn32
+    return z32
+
+def l33():
+    z33 = l22() - 10
+    return z33
+
+######################
+#prime, again, exit
+######################
+
+def prime():
+    while True:
+        p1 = int(input('n1-n2-n3-n4 or n5 exit \n'))
+        if p1 == 1:
+            print(l31())
+        elif p1 == 2:
+            print(l32())
+        elif p1 == 3:
+            print(l33())
+        elif p1 == 4:
+            print(l31(), l32(), l33())
+        elif p1 == 5:
+            return exit()
+
+def again():
+    return prime()
+
+def exit():
+    print('bye')
+
+######################
+#run
+######################
+
+prime()
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='temp_02'>temp_02</h4>
+
+```python
+#your variables
+x = 2
+y = 3
+m = 'yellow'
+n = ' '
+p = 'uuuuuugh'
+
+#first todo function
+def first(aa, bb):
+    a = aa+bb
+    return a
+
+#second todo function
+def sec(nn, mm):
+    k = 'hello'
+    return k+n+mm
+
+#third todo function
+def third(fff, ooo):
+    l = 'fffUUU'
+    return l+fff+ooo
+
+#main function
+def prime():
+    a = int(input('num?'))
+    if a == 1:
+        print(first(x,y))
+    elif a == 2:
+        print(sec(n,m))
+    elif a == 3:
+        print(third(n, p))
+    else:
+        print('give me a num')
+
+prime()
+
+>>>
+num?1
+5
+
+num?2
+hello yellow
+
+num?3
+fffUUU uuuuuugh
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='temp_03'>temp_03</h4>
+
+```python
+a = 10
+b = 20
+d = 3
+e = 6
+
+def elso():
+    c = a+b
+    return c
+
+def masodik():
+    f = d+e
+    return f
+
+ee = elso()
+mm = masodik()
+
+def harmadik():
+    x = ee+mm
+    return x
+
+def negyedik(x,y):
+    final = x+y
+    print(final)
+
+print(harmadik())
+negyedik(ee, mm)
+
+>>>
+39
+39
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='temp_04'>temp_04</h4>
+
+```python
+hometown = 'ds'
+age = '35'
+user_name = 'trk'
+
+x = 10
+y = 20
+z = 42
+
+def year(ccc, aaa):
+    print("Hello, ", ccc, ". You are", aaa, "old")
+
+def place(ccc, bbb):
+    print('hey', ccc, 'you are from', bbb, 'right?')
+
+def greet(ccc):
+    print("Hello, ", ccc, ". Good morning!")
+
+def kkk():
+    yu = 66+18
+    return yu
+
+kyu = kkk()
+
+def ct():
+    ppp = z+y+z+kyu
+    return ppp
+
+def sowhat():
+    xxx = ct() + z
+    print(xxx)
+
+year(user_name, age)
+place(user_name, hometown)
+greet(user_name)
+print(ct())
+sowhat()
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='say_hello'>say_hello</h4>
 
 ```python
 def say_hello(name='NAME'):
@@ -3791,8 +4032,6 @@ False
 
 <a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
-
----
 
 ```python
 def dog_check(s):
@@ -3860,162 +4099,6 @@ ordway
 rktay
 elloHay
 appleay
->>>
-```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-```python
-#-----------------------------------------
-#
-#variables
-#
-#-----------------------------------------
-
-vn11 = 10
-vn12 = 9
-vn13 = 5
-vn14 = 8
-
-vn31 = 27
-vn32 = 71
-
-#-----------------------------------------
-#
-#Level 1
-#
-#-----------------------------------------
-
-def l11(a,b):
-    x11 = a+b
-    return x11
-
-def l12(a,b):
-    x12 = a*b
-    return x12
-
-#-----------------------------------------
-#
-#Level 2
-#
-#-----------------------------------------
-
-def l21():
-    y21 = l11(vn11, vn12)+l12(vn13, vn14)
-    return y21
-
-def l22():
-    y22 = l11(vn11, vn12) - l12(vn13, vn14)
-    return y22
-
-#-----------------------------------------
-#
-#Level 3
-#
-#-----------------------------------------
-
-def l31():
-    z31 = l21() + vn31
-    return z31
-
-def l32():
-    z32 = l21() + vn32
-    return z32
-
-def l33():
-    z33 = l22() - 10
-    return z33
-
-#-----------------------------------------
-#
-#prime, again, exit
-#
-#-----------------------------------------
-
-def prime():
-    while True:
-        p1 = int(input('n1-n2-n3-n4 or n5 exit \n'))
-        if p1 == 1:
-            print(l31())
-        elif p1 == 2:
-            print(l32())
-        elif p1 == 3:
-            print(l33())
-        elif p1 == 4:
-            print(l31(), l32(), l33())
-        elif p1 == 5:
-            return exit()
-
-def again():
-    return prime()
-
-def exit():
-    print('bye')
-
-#-----------------------------------------
-#
-#run
-#
-#-----------------------------------------
-
-prime()
-```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-```python
-
-#your variables
-x = 2
-y = 3
-m = 'yellow'
-n = ' '
-p = 'uuuuuugh'
-
-#first todo function
-def first(aa, bb):
-    a = aa+bb
-    return a
-
-#second todo function
-def sec(nn, mm):
-    k = 'hello'
-    return k+n+mm
-
-#third todo function
-def third(fff, ooo):
-    l = 'fffUUU'
-    return l+fff+ooo
-
-#main function
-def prime():
-    a = int(input('num?'))
-    if a == 1:
-        print(first(x,y))
-    elif a == 2:
-        print(sec(n,m))
-    elif a == 3:
-        print(third(n, p))
-    else:
-        print('give me a num')
-
-prime()
-
->>>
-num?1
-5
-
-num?2
-hello yellow
-
-num?3
-fffUUU uuuuuugh
 >>>
 ```
 
@@ -4615,129 +4698,6 @@ print(count_primes(20))
 ```
 
 <a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-```python
-a = 10
-b = 20
-d = 3
-e = 6
-
-def elso():
-    c = a+b
-    return c
-
-def masodik():
-    f = d+e
-    return f
-
-ee = elso()
-mm = masodik()
-
-def harmadik():
-    x = ee+mm
-    return x
-
-def negyedik(x,y):
-    final = x+y
-    print(final)
-
-print(harmadik())
-negyedik(ee, mm)
-
->>>
-39
-39
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-hometown = 'ds'
-age = '35'
-user_name = 'trk'
-
-x = 10
-y = 20
-z = 42
-
-def year(ccc, aaa):
-    print("Hello, ", ccc, ". You are", aaa, "old")
-
-def place(ccc, bbb):
-    print('hey', ccc, 'you are from', bbb, 'right?')
-
-def greet(ccc):
-    print("Hello, ", ccc, ". Good morning!")
-
-def kkk():
-    yu = 66+18
-    return yu
-
-kyu = kkk()
-
-def ct():
-    ppp = z+y+z+kyu
-    return ppp
-
-def sowhat():
-    xxx = ct() + z
-    print(xxx)
-
-year(user_name, age)
-place(user_name, hometown)
-greet(user_name)
-print(ct())
-sowhat()
-```
-
 <a href='#^'>^^^</a>
 
 ---
