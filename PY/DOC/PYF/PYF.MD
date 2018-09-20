@@ -3800,6 +3800,8 @@ itt meg az otodik
 * <a href='#summer_69'>summer_69</a>
 * <a href='#count_primes'>count_primes</a>
 * <a href='#fibon'>fibon</a>
+* <a href='#map'>map</a><br>
+* <a href='#filter'>filter</a><br>
 
 <a href='#^'>^^^</a>
 
@@ -4976,21 +4978,6 @@ for num in genfibon(10):
 
 ---
 
-<h3 id='lambda'>Python lambda</h3>
-
----
-
-<h4 id='^^lam'></h4>
-* <a href='#map'>map</a><br>
-* <a href='#filter'>filter</a><br>
-* <a href='#'></a><br>
-* <a href='#'></a><br>
-* <a href='#'></a><br>
-
-<a href='#^'>^^^</a>
-
----
-
 <h4 id='map'>map</h4>
 
 ```python
@@ -5077,6 +5064,19 @@ for n in filter(check_even,mynums):
 ```
 
 <a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='lambda'>Python lambda</h3>
+
+---
+
+<h4 id='^^lam'></h4>
+* <a href='#'></a><br>
+* <a href='#'></a><br>
+* <a href='#'></a><br>
+
 <a href='#^'>^^^</a>
 
 ---
