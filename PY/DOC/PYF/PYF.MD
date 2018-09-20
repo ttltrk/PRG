@@ -3723,6 +3723,50 @@ Hey x equals 3!
 
 ---
 
+```python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+  
+>>>
+1
+2
+3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    print("itt volt a harmadik step")
+  if i == 5:
+    print("itt meg az otodik")
+  i += 1
+  
+>>>
+1
+2
+3
+itt volt a harmadik step
+4
+5
+itt meg az otodik
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 <h3 id='functions'>Python functions</h3>
 <h3 id='^^def'></h3>
 
@@ -5082,48 +5126,6 @@ no(a,b,d)
 (False, 16)
 >>>
 ```
-
-```python
-i = 1
-while i < 6:
-  print(i)
-  if i == 3:
-    break
-  i += 1
-  
->>>
-1
-2
-3
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-i = 1
-while i < 6:
-  print(i)
-  if i == 3:
-    print("itt volt a harmadik step")
-  if i == 5:
-    print("itt meg az otodik")
-  i += 1
-  
->>>
-1
-2
-3
-itt volt a harmadik step
-4
-5
-itt meg az otodik
->>>
-```
-
-<a href='#^'>^^^</a>
 
 ---
 
