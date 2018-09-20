@@ -3733,6 +3733,7 @@ Hey x equals 3!
 * <a href='#temp_03'>temp_03</a>
 * <a href='#temp_04'>temp_04</a>
 * <a href='#say_hello'>say_hello</a>
+* <a href='#sum_strings'>sum_strings</a>
 * <a href='#dog_check'>dog_check</a>
 * <a href='#cat_check'>cat_check</a>
 * <a href='#pig_latin'>pig_latin</a>
@@ -4005,6 +4006,50 @@ hello trk
 >>>
 ```
 
+```python
+def say_hello(name='trk'):
+  print("the say_hello() function has been executed")
+  
+  def greet():
+    return "\t This is inside the greet() function"
+  
+  def welcome():
+    return "\t This is inside the welcome() function"
+    
+  print(greet())
+  print(welcome())
+  print("now we are back inside the hello() function")
+    
+print(say_hello())
+
+>>>
+the say_hello() function has been executed
+	 This is inside the greet() function
+	 This is inside the welcome() function
+now we are back inside the hello() function
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='sum_strings'>sum_strings</h4>
+
+```python
+def sum_strings(num1, num2):
+    return (num1 + num2)
+
+x = add_num("one", "two")
+
+print(x)
+
+>>>
+onetwo
+>>>
+```
+
 <a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
@@ -4029,9 +4074,6 @@ False
 False
 >>>
 ```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
 
 ```python
 def dog_check(s):
@@ -4120,11 +4162,6 @@ print(mf(10, 20, 30))
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def mf(*args):
     print (args)
@@ -4136,11 +4173,6 @@ mf(10, 20, 30)
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def mf(*whatever):
     print (whatever)
@@ -4151,11 +4183,6 @@ mf(1, 2, 3, 4, 5)
 (1, 2, 3, 4, 5)
 >>>
 ```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
 
 ```python
 def mf(*args):
@@ -4172,11 +4199,6 @@ mf(1, 2, 3, 4, 5)
 5
 >>>
 ```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
 
 <h4 id='defevenodd'>even and odd numbers</h4>
 
@@ -4222,11 +4244,6 @@ mf(fruit='apple', veggie ='lettuce')
 my fruit of choice is apple
 >>>
 ```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
 
 ```python
 def mf(*args, **kwargs):
@@ -4278,11 +4295,6 @@ print(lesser_of_two_evens(7,5))
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def lesser_of_two_evens(a,b):
     if a%2 == 0 and b%2 == 0:
@@ -4332,11 +4344,6 @@ False
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def animal_crackers(text):
     wordlist = text.split()
@@ -4351,11 +4358,6 @@ True
 False
 >>>
 ```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
 
 ```python
 def animal_crackers(text):
@@ -4403,11 +4405,6 @@ True
 False
 >>>
 ```
-
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
 
 ```python
 def makes_twenty(n1, n2):
@@ -4697,60 +4694,6 @@ print(count_primes(20))
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-```python
-def my_add_func(arg1, arg2):    
-    print (arg1 + arg2)
-
-my_add_func(1, 2)
-
->>>
-3
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-def add_num(num1, num2):
-    return (num1 + num2)
-
-x = add_num(2, 3)
-
-print(x)
-
->>>
-5
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-def add_num(num1, num2):
-    return (num1 + num2)
-
-x = add_num("one", "two")
-
-print(x)
-
->>>
-onetwo
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def is_prime(num):
     """
@@ -4772,11 +4715,6 @@ not prime
 >>>
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-```python
 def is_prime(num):
     """
     IN: A number
@@ -4805,79 +4743,7 @@ the number is prime!
 >>> 
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-```python
-def hello(name='trk'):
-  print("the hello() function has been executed")
-  
-  def greet():
-    return "\t This is inside the greet() function"
-  
-  def welcome():
-    return "\t This is inside the welcome() function"
-    
-  print(greet())
-  print(welcome())
-  print("now we are back inside the hello() function")
-    
-print(hello())
-
->>>
-the hello() function has been executed
-	 This is inside the greet() function
-	 This is inside the welcome() function
-now we are back inside the hello() function
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-def hello(name='trk'):
-  
-  def greet():
-    return "\t This is inside the greet() function"
-  
-  def welcome():
-    return "\t This is inside the welcome() function"
-    
-  if name == 'trk':
-    return greet
-  else:
-    return welcome
-  
-print(hello())
-
->>>
-<function hello.<locals>.greet at 0x7f3364132620>
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-def hello():
-  return 'hi trk!'
-  
-def other(func):
-  print('other code goes here')
-  print(func())
-  
-print(other(hello))
-
->>>
-other code goes here
-hi trk!
->>>
-```
-
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -5045,38 +4911,7 @@ print(next(g))
 
 ---
 
-```python
-s = 'hello'
 
-for let in s:
-  print(let)
-  
->>>
-h
-e
-l
-l
-o
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-s = 'hello'
-
-s_iter = iter(s)
-
-print(next(s_iter))
-
->>>
-h
->>>
-```
-
-<a href='#^'>^^^</a>
 
 ---
 
