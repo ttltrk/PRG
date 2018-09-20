@@ -5027,7 +5027,7 @@ print(list(map(splicer, names)))
 >>>
 ```
 
-<a href='#^^lam'>^^</a><br>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -5063,7 +5063,7 @@ for n in filter(check_even,mynums):
 >>>
 ```
 
-<a href='#^^lam'>^^</a><br>
+<a href='#^^def'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
