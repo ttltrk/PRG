@@ -4978,6 +4978,178 @@ for num in genfibon(10):
 
 <h3 id='lambda'>Python lambda</h3>
 
+---
+<h4 id='^^lam></h4>
+* <a href='#map'>map</a>
+* <a href='#filter'>filter</a>
+* <a href='#'></a>
+* <a href='#'></a>
+* <a href='#'></a>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='map'>map</h4>
+
+```python
+def square(num):
+    return num**2
+
+nums = [1, 2, 3, 4, 5]
+
+for item in map(square, nums):
+    print(item)
+    
+>>>
+1
+4
+9
+16
+25
+>>>
+```
+
+```python
+def square(num):
+    return num**2
+
+nums = [1, 2, 3, 4, 5]
+
+print(list(map(square,nums)))
+
+>>>
+[1, 4, 9, 16, 25]
+>>>
+```
+
+```python
+def splicer(mystring):
+    if len(mystring)%2 == 0:
+        return 'EVEN'
+    else:
+        return mystring[0]
+
+names = ['Andy', 'Eve', 'Sally']
+
+print(list(map(splicer, names)))
+
+>>>
+['EVEN', 'E', 'S']
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='filter'>filter</h4>
+
+```python
+def check_even(num):
+    return num%2 == 0
+
+mynums = [1, 2, 3, 4, 5, 6]
+
+print(list(filter(check_even, mynums)))
+
+>>>
+[2, 4, 6]
+>>>
+```
+
+```python
+def check_even(num):
+    return num%2 == 0
+
+mynums = [1, 2, 3, 4, 5, 6]
+
+for n in filter(check_even,mynums):
+    print(n)
+    
+>>>
+2
+4
+6
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 def square(num):
     result = num**2
