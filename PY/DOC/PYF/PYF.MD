@@ -4200,6 +4200,8 @@ mf(1, 2, 3, 4, 5)
 >>>
 ```
 
+---
+
 <h4 id='defevenodd'>even and odd numbers</h4>
 
 ```python
