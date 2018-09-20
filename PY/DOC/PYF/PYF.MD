@@ -3776,8 +3776,11 @@ itt meg az otodik
 * <a href='#temp_02'>temp_02</a>
 * <a href='#temp_03'>temp_03</a>
 * <a href='#temp_04'>temp_04</a>
+* <a href='#temp_05'>temp_05</a>
 * <a href='#say_hello'>say_hello</a>
 * <a href='#sum_strings'>sum_strings</a>
+* <a href='#bigger'>bigger</a>
+* <a href='#trueorfalse'>true or false</a>
 * <a href='#dog_check'>dog_check</a>
 * <a href='#cat_check'>cat_check</a>
 * <a href='#pig_latin'>pig_latin</a>
@@ -4036,6 +4039,44 @@ sowhat()
 
 ---
 
+<h4 id='temp_05'>temp_05</h4>
+
+```python
+#variables
+a = "hello world"
+b = "xyz"
+c = 5
+d = 7
+
+#functions
+def pr(par1):
+  print(par1)
+  
+def ps(par1, par2):
+  return (par1+par2)
+
+def ms(par1,par2):
+  return (par1-par2)
+
+#STDOUT
+pr(a)
+pr(b)
+print(ps(c,d))
+print(ms(c,d))
+
+>>>
+hello world
+xyz
+12
+-2
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='say_hello'>say_hello</h4>
 
 ```python
@@ -4092,6 +4133,87 @@ print(x)
 
 >>>
 onetwo
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='bigger'>bigger</h4>
+
+```python
+#variables
+a = 5
+b = 10
+bigger = 0
+
+#function
+def func(num1, num2):
+  if num1 > num2:
+    bigger = num1
+  else:
+    bigger = num2
+  return bigger
+
+#print
+print(func(a, b))
+
+>>>
+10
+>>>
+```
+
+```python
+#variables
+a = 5
+b = 10
+bigger = 0
+
+#function
+def func(num1, num2):
+  if num1 > num2:
+    bigger = num1
+  else:
+    bigger = num2
+  return bigger
+
+#print
+print(func(a, 4))
+print(func(a, b))
+
+>>>
+5
+10
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='trueorfalse'>true or false</h4>
+
+```python
+a = 20
+b = 4
+c = True
+d = False
+
+def no(p1,p2,p3):
+  if (p3 == True):
+    print(p3, p1+p2)
+  else:
+    print(p3, p1-p2)
+  
+no(a,b,c)
+no(a,b,d)
+
+>>>
+(True, 24)
+(False, 16)
 >>>
 ```
 
@@ -4958,174 +5080,6 @@ print(next(g))
 ```
 
 <a href='#^'>^^^</a>
-
----
-
-
-
----
-
-```python
-s = 'hello'
-s_iter = iter(s)
-
-print(next(s_iter))
-print('+')
-print(next(s_iter))
-print('+')
-print(next(s_iter))
-print('+')
-print(next(s_iter))
-print('+')
-print(next(s_iter))
-
->>>
-h
-+
-e
-+
-l
-+
-l
-+
-o
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-#variables
-a = "hello world"
-b = "xyz"
-c = 5
-d = 7
-
-#functions
-def pr(par1):
-  print(par1)
-  
-def ps(par1, par2):
-  return (par1+par2)
-
-def ms(par1,par2):
-  return (par1-par2)
-
-#STDOUT
-pr(a)
-pr(b)
-print(ps(c,d))
-print(ms(c,d))
-
->>>
-hello world
-xyz
-12
--2
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-bigger = 0
-
-def func(num1, num2):
-  if num1 > num2:
-    bigger = num1
-  else:
-    bigger = num2
-  return bigger
-
-print(func(4, 6))
-
->>>
-6
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-#variables
-a = 5
-b = 10
-bigger = 0
-
-#function
-def func(num1, num2):
-  if num1 > num2:
-    bigger = num1
-  else:
-    bigger = num2
-  return bigger
-
-#print
-print(func(a, b))
-
->>>
-10
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-#variables
-a = 5
-b = 10
-bigger = 0
-
-#function
-def func(num1, num2):
-  if num1 > num2:
-    bigger = num1
-  else:
-    bigger = num2
-  return bigger
-
-#print
-print(func(a, 4))
-print(func(a, b))
-
->>>
-5
-10
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-a = 20
-b = 4
-c = True
-d = False
-
-def no(p1,p2,p3):
-  if (p3 == True):
-    print(p3, p1+p2)
-  else:
-    print(p3, p1-p2)
-  
-no(a,b,c)
-no(a,b,d)
-
->>>
-(True, 24)
-(False, 16)
->>>
-```
 
 ---
 
