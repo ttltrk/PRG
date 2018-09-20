@@ -4715,6 +4715,7 @@ not prime
 >>>
 ```
 
+```python
 def is_prime(num):
     """
     IN: A number
