@@ -3752,6 +3752,7 @@ Hey x equals 3!
 * <a href='#blackjack'>blackjack</a>
 * <a href='#summer_69'>summer_69</a>
 * <a href='#count_primes'>count_primes</a>
+* <a href='#fibon'>fibon</a>
 
 <a href='#^'>^^^</a>
 
@@ -4754,6 +4755,61 @@ the number is prime!
 
 ---
 
+<h4 id='fibon'>fibon</h4>
+
+```python
+def fibon(n):
+  a = 1
+  b = 1
+  
+  output = []
+  
+  for i in range(n):
+    output.append(a)
+    a,b = b, a+b 
+    
+  return output
+  
+print(fibon(10))
+
+>>>
+[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+>>>
+```
+
+```python
+def genfibon(n):
+  a = 1
+  b = 1
+  
+  for i in range(n):
+    yield a
+    t = a
+    a = b
+    b = t+b 
+
+for num in genfibon(10):
+  print(num)
+  
+>>>
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 def new_decorator(func):
   
@@ -4832,62 +4888,6 @@ for x in gencubes(10):
 343
 512
 729
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-def genfibon(n):
-  a = 1
-  b = 1
-  
-  for i in range(n):
-    yield a
-    t = a
-    a = b
-    b = t+b 
-
-for num in genfibon(10):
-  print(num)
-  
->>>
-1
-1
-2
-3
-5
-8
-13
-21
-34
-55
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
-def fibon(n):
-  a = 1
-  b = 1
-  
-  output = []
-  
-  for i in range(n):
-    output.append(a)
-    a,b = b, a+b 
-    
-  return output
-  
-print(fibon(10))
-
->>>
-[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 >>>
 ```
 
