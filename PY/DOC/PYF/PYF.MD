@@ -4979,7 +4979,8 @@ for num in genfibon(10):
 <h3 id='lambda'>Python lambda</h3>
 
 ---
-<h4 id='^^lam></h4>
+
+<h4 id='^^lam'></h4>
 * <a href='#map'>map</a><br>
 * <a href='#filter'>filter</a><br>
 * <a href='#'></a><br>
