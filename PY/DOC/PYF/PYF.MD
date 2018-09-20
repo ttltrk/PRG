@@ -4200,6 +4200,9 @@ mf(1, 2, 3, 4, 5)
 >>>
 ```
 
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
 ---
 
 <h4 id='defevenodd'>even and odd numbers</h4>
