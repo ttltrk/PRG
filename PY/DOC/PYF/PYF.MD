@@ -4980,11 +4980,11 @@ for num in genfibon(10):
 
 ---
 <h4 id='^^lam></h4>
-* <a href='#map'>map</a>
-* <a href='#filter'>filter</a>
-* <a href='#'></a>
-* <a href='#'></a>
-* <a href='#'></a>
+* <a href='#map'>map</a><br>
+* <a href='#filter'>filter</a><br>
+* <a href='#'></a><br>
+* <a href='#'></a><br>
+* <a href='#'></a><br>
 
 <a href='#^'>^^^</a>
 
