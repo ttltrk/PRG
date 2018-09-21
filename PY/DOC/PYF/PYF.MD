@@ -25,7 +25,7 @@
 
 ---
 
-* <a href='#lists'>lists</a>
+* <a href='#lists'>list</a>
 * <a href='#list_methods'>list methods</a>
 * <a href='#list_comprehensions'>list comprehensions</a>
 * <a href='#tuples'>tuples</a>
@@ -1368,7 +1368,7 @@ eyyo
 
 ---
 <h3 id='^^lst'></h3>
-* <a href='#listtostr'>list to string</a>
+* <a href='#listtostr'>list to string</a><br>
 * <a href='#listtotup'>list to tuple</a>
 
 ---
