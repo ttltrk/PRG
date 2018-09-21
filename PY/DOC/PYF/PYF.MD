@@ -1782,10 +1782,25 @@ range(0, 10)
 ---
 
 <h3 id='list_methods'>Python List Methods</h3>
+<h3 id='^^lstm'></h3>
 
 ---
 
-append
+* <a href='#lstmappend'>append</a>
+* <a href='#lstmclear'>clear</a>
+* <a href='#lstmcopy'>copy</a>
+* <a href='#lstmcount'>count</a>
+* <a href='#lstmextend'>extend</a>
+* <a href='#lstmindex'>index</a>
+* <a href='#lstminsert'>insert</a>
+* <a href='#lstmpop'>pop</a>
+* <a href='#lstmremove'>remove</a>
+* <a href='#lstmreverse'>reverse</a>
+* <a href='#lstmsort'>sort</a>
+
+---
+
+<h4 id='lstmappend'>append</h4>
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -1799,11 +1814,31 @@ print(l)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-copy
+<h4 id='lstmclear'>clear</h4>
+
+```python
+l = [1, 2, 3, 4, 5, 6]
+print(l)
+l.clear()
+print(l)
+
+>>>
+[1, 2, 3, 4, 5, 6]
+[]
+>>>
+```
+
+<a href='#^^lstm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='lstmcopy'>copy</h4>
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -1818,11 +1853,12 @@ print(l2)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-count
+<h4 id='lstmcount'>count</h4>
 
 ```python
 l = [1, 2, 3, 3, 4, 5, 6]
@@ -1839,29 +1875,12 @@ print(l.count(3))
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-clear
-
-```python
-l = [1, 2, 3, 4, 5, 6]
-print(l)
-l.clear()
-print(l)
-
->>>
-[1, 2, 3, 4, 5, 6]
-[]
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-extend
+<h4 id='lstmextend'>extend</h4>
 
 ```python
 l1 = [1, 2, 3, 4, 5, 6]
@@ -1878,11 +1897,12 @@ print(l1)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-index
+<h4 id='lstmindex'>index</h4>
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -1899,11 +1919,12 @@ print(l.index(3))
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-insert
+<h4 id='lstminsert'>insert</h4>
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -1917,11 +1938,12 @@ print(l)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-pop
+<h4 id='lstmpop'>pop</h4>
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -1935,11 +1957,12 @@ print(l)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-remove
+<h4 id='lstmremove'>remove</h4>
 
 ```python
 l = [1, 2, 3, 3, 3, 3, 4, 5, 6]
@@ -1956,11 +1979,12 @@ print(l)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-reverse
+<h4 id='lstmreverse'>reverse</h4>
 
 ```python
 l = [1, 2, 3, 4, 5, 6]
@@ -1974,11 +1998,12 @@ print(l)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-sort
+<h4 id='lstmsort'>sort</h4>
 
 ```python
 l1 = [1, 3, 6, 5, 2, 4]
@@ -1998,11 +2023,14 @@ print(l2)
 >>>
 ```
 
+<a href='#^^lstm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
 <h3 id='list_comprehensions'>Python list comprehensions</h3>
+
+---
 
 ```python
 l = []
