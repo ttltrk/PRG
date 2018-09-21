@@ -872,6 +872,7 @@ He said, "What's there?"
 ---
 
 <h3 id='stringmeth'>Python String methods</h3>
+<h3 id='^^strm'></h3>
 
 ---
 
@@ -880,15 +881,45 @@ He said, "What's there?"
 * <a href='#str_center'>center</a><br>
 * <a href='#str_count'>count</a><br>
 * <a href='#str_encode'>encode</a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
-<a href='#'></a><br>
+* <a href='#str_endswith'>endswith</a><br>
+* <a href='#str_expandtabs'>expandtabs</a><br>
+* <a href='#str_find'>find</a><br>
+* <a href='#str_format'>format</a><br>
+* <a href='#str_format_map'>format_map</a><br>
+* <a href='#str_index'>index</a><br>
+* <a href='#str_isalnum'>isalnum</a><br>
+* <a href='#str_isalpha'>isalpha</a><br>
+* <a href='#str_isdecimal'>isdecimal</a><br>
+* <a href='#str_isdigit'>isdigit</a><br>
+* <a href='#str_isidentifier'>isidentifier</a><br>
+* <a href='#str_islower'>islower</a><br>
+* <a href='#str_isnumeric'>isnumeric</a><br>
+* <a href='#str_isprintable'>isprintable</a><br>
+* <a href='#str_isspace'>isspace</a><br>
+* <a href='#str_istitle'>istitle</a><br>
+* <a href='#str_isupper'>isupper</a><br>
+* <a href='#str_join'>join</a><br>
+* <a href='#str_ljust'>ljust</a><br>
+* <a href='#str_lower'>lower</a><br>
+* <a href='#str_lstrip'>lstrip</a><br>
+* <a href='#str_maketrans'>maketrans</a><br>
+* <a href='#str_partition'>partition</a><br>
+* <a href='#str_replace'>replace</a><br>
+* <a href='#str_rfind'>rfind</a><br>
+* <a href='#str_rindex'>rindex</a><br>
+* <a href='#str_rpartition'>rpartition</a><br>
+* <a href='#str_rsplit'>rsplit</a><br>
+* <a href='#str_rstrip'>rstrip</a><br>
+* <a href='#str_split'>split</a><br>
+* <a href='#str_splitlines'>splitlines</a><br>
+* <a href='#str_startswith'>startswith</a><br>
+* <a href='#str_swapcase'>swapcase</a><br>
+* <a href='#str_title'>title</a><br>
+* <a href='#str_translate'>translate</a><br>
+* <a href='#str_upper'>upper</a><br>
+* <a href='#str_zfill'>zfill</a>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -904,6 +935,7 @@ Test
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -920,6 +952,7 @@ ss
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -940,6 +973,7 @@ yyytestyyy
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -962,6 +996,7 @@ print(s.count(s2, 0, 100))
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -981,6 +1016,7 @@ The encoded version is: b'pyth\xc3\xb6n!'
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -994,6 +1030,7 @@ The encoded version is: b'pyth\xc3\xb6n!'
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -1007,6 +1044,7 @@ The encoded version is: b'pyth\xc3\xb6n!'
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -1020,6 +1058,7 @@ The encoded version is: b'pyth\xc3\xb6n!'
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
