@@ -83,6 +83,16 @@ bool	= True, False
 
 ---
 
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+
+---
+
 <a href='#logope'>logical operators</a>
 
 ---
