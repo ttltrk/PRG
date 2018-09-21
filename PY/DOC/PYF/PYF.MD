@@ -876,11 +876,11 @@ He said, "What's there?"
 
 ---
 
-<a href='#capit'>capitalize</a><br>
-<a href='#casefold'>casefold</a><br>
-<a href='#str_center'>center</a><br>
-<a href='#str_count'>count</a><br>
-<a href='#str_encode'>encode</a><br>
+* <a href='#capit'>capitalize</a><br>
+* <a href='#casefold'>casefold</a><br>
+* <a href='#str_center'>center</a><br>
+* <a href='#str_count'>count</a><br>
+* <a href='#str_encode'>encode</a><br>
 <a href='#'></a><br>
 <a href='#'></a><br>
 <a href='#'></a><br>
@@ -1786,16 +1786,16 @@ range(0, 10)
 
 ---
 
-* <a href='#lstmappend'>append</a>
-* <a href='#lstmclear'>clear</a>
-* <a href='#lstmcopy'>copy</a>
-* <a href='#lstmcount'>count</a>
-* <a href='#lstmextend'>extend</a>
-* <a href='#lstmindex'>index</a>
-* <a href='#lstminsert'>insert</a>
-* <a href='#lstmpop'>pop</a>
-* <a href='#lstmremove'>remove</a>
-* <a href='#lstmreverse'>reverse</a>
+* <a href='#lstmappend'>append</a><br>
+* <a href='#lstmclear'>clear</a><br>
+* <a href='#lstmcopy'>copy</a><br>
+* <a href='#lstmcount'>count</a><br>
+* <a href='#lstmextend'>extend</a><br>
+* <a href='#lstmindex'>index</a><br>
+* <a href='#lstminsert'>insert</a><br>
+* <a href='#lstmpop'>pop</a><br>
+* <a href='#lstmremove'>remove</a><br>
+* <a href='#lstmreverse'>reverse</a><br>
 * <a href='#lstmsort'>sort</a>
 
 ---
