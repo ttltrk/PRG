@@ -1372,6 +1372,9 @@ eyyo
 * <a href='#listtostr'>list to string</a><br>
 * <a href='#listtotup'>list to tuple</a><br>
 * <a href='#listtodict'>list to dictionary</a>
+* <a href='#listtoset'>list to set</a>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -1441,12 +1444,21 @@ print(d)
 
 ---
 
-<h4 id=''></h4>
+<h4 id='listtoset'>list to set</h4>
 
 ```python
+l1 = ['bi','double','duo','two']
+l2 = [1, 2, 3, 4, 5]
+
+s1 = set(l1)
+s2 = set(l2)
+
+print(s1)
+print(s2)
 
 >>>
-
+{'two', 'bi', 'double', 'duo'}
+{1, 2, 3, 4, 5}
 >>>
 ```
 
