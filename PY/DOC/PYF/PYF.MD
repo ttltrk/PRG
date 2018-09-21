@@ -102,7 +102,6 @@ a >= b  (Greater than or equal to)
 ---
 
 ```python
-
 #python operators
 x = 15
 y = 4
