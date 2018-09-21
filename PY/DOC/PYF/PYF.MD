@@ -1365,11 +1365,13 @@ eyyo
 ---
 
 <h3 id='lists'>Python lists</h3>
+<h3 id='^^lst'></h3>
 
 ---
-<h3 id='^^lst'></h3>
+
 * <a href='#listtostr'>list to string</a><br>
 * <a href='#listtotup'>list to tuple</a>
+* <a href='#listtodict'>list to dictionary</a>
 
 ---
 
@@ -1420,12 +1422,17 @@ print(t)
 
 ---
 
-<h4 id=''></h4>
+<h4 id='listtodict'>list to dictionary</h4>
 
 ```python
+l = ['bi','double','duo','two']
+
+d = dict((k,2) for k in l)
+
+print(d)
 
 >>>
-
+{'bi': 2, 'double': 2, 'duo': 2, 'two': 2}
 >>>
 ```
 
