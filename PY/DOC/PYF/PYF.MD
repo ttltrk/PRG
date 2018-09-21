@@ -83,17 +83,13 @@ bool	= True, False
 
 ---
 
-Arithmetic operators
-Assignment operators
-Comparison operators
-Logical operators
-Identity operators
-Membership operators
-Bitwise operators
-
----
-
-<a href='#logope'>logical operators</a>
+* <a href='#'>arithmetic operators</a><br>
+* <a href='#'>assignment operators</a><br>
+* <a href='#'>comparison operators</a><br>
+* <a href='#logope'>logical operators</a><br>
+* <a href='#'>identity operators</a><br>
+* <a href='#'>membership operators</a><br>
+* <a href='#'>bitwise operators</a>
 
 ---
 
@@ -207,7 +203,7 @@ True
 
 ---
 
-<h4 id='logope'>Logical operators</h4>
+<h4 id='logope'>logical operators</h4>
 
 ---
 
