@@ -1367,6 +1367,58 @@ eyyo
 <h3 id='lists'>Python lists</h3>
 
 ---
+<h3 id='^^lst'></h3>
+* < a href='#listtostr'>list to string</a>
+* < a href='#listtotup'>list to tuple</a>
+
+---
+
+<h4 id='listtostr'>list to string</h4>
+
+```python
+list1 = ['1', '2', '3']
+str1 = ''.join(list1)
+str2 = ' '.join(list1)
+str3 = '-'.join(list1)
+str4 = 'x'.join(list1)
+
+print(str1)
+print(str2)
+print(str3)
+print(str4)
+
+>>>
+123
+1 2 3
+1-2-3
+1x2x3
+>>>
+```
+
+<a href='#^^lst'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='listtotup'>list to tuple</h4>
+
+```python
+l = [4,5,6]
+t = tuple(l)
+
+print(l)
+print(t)
+
+>>>
+[4, 5, 6]
+(4, 5, 6)
+>>>
+```
+
+<a href='#^^lst'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 a = [1,2,3]
