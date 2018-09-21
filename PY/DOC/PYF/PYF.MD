@@ -926,12 +926,14 @@ He said, "What's there?"
 <h4 id='capit'>capitalize</h4>
 
 ```python
-s = 'test'
+txt = "hello, and welcome to my world."
 
-print(s.capitalize())
+x = txt.capitalize()
+
+print (x)
 
 >>>
-Test
+Hello, and welcome to my world.
 >>>
 ```
 
@@ -943,9 +945,11 @@ Test
 <h4 id='casefold'>casefold</h4>
 
 ```python
-s = 'ß'
+txt = "Hello, And Welcome To My World!"
 
-print(s.casefold())
+x = txt.casefold()
+
+print(x)
 
 >>>
 ss
@@ -960,16 +964,29 @@ ss
 <h4 id='str_center'>center</h4>
 
 ```python
-s = 'test'
+txt = "banana"
 
-print(s.center(5, 'y'))
-print(s.center(6, 'y'))
-print(s.center(10, 'y'))
+x1 = txt.center(10)
+x2 = txt.center(20)
+x3 = txt.center(30)
+x4 = txt.center(10, 'x')
+x5 = txt.center(20, 'x')
+x6 = txt.center(30, 'x')
+
+print(x1)
+print(x2)
+print(x3)
+print(x4)
+print(x5)
+print(x6)
 
 >>>
-ytest
-ytesty
-yyytestyyy
+  banana  
+       banana       
+            banana            
+xxbananaxx
+xxxxxxxbananaxxxxxxx
+xxxxxxxxxxxxbananaxxxxxxxxxxxx
 >>>
 ```
 
@@ -993,6 +1010,18 @@ print(s.count(s2, 0, 100))
 1
 3
 1
+>>>
+```
+
+```python
+txt = "I love apples, apple are my favorite fruit"
+
+x = txt.count("apple")
+
+print(x)
+
+>>>
+2
 >>>
 ```
 
@@ -1063,78 +1092,170 @@ The encoded version is: b'pyth\xc3\xb6n!'
 
 ---
 
-```python
-s = 'Hello World concatenate me!'
+<h4 id=''></h4>
 
-print(s.upper())
-print(s.lower())
-print(s.split())
-print(s.split('W'))
+```python
 
 >>>
-HELLO WORLD CONCATENATE ME!
-hello world concatenate me!
-['Hello', 'World', 'concatenate', 'me!']
-['Hello ', 'orld concatenate me!']
+
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-```python
-a = "Hello, World!"
+<h4 id=''></h4>
 
-print(len(a))
-print(a.lower())
-print(a.upper())
-print(a.replace("H", "J"))
-print(a.split(","))
+```python
 
 >>>
-13
-hello, world!
-HELLO, WORLD!
-Jello, World!
-['Hello', ' World!']
+
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-```python
-a = 'hi this is a string'
-b = a.split()
-c = a.split('i')
+<h4 id=''></h4>
 
-print(b)
-print(c)
+```python
 
 >>>
-['hi', 'this', 'is', 'a', 'string']
-['h', ' th', 's ', 's a str', 'ng']
+
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-```python
-a = " Hello, World! "
+<h4 id=''></h4>
 
-print(a.strip())
-print(a)
+```python
 
 >>>
-Hello, World!
- Hello, World! 
+
 >>>
 ```
 
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
