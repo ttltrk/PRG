@@ -1368,8 +1368,8 @@ eyyo
 
 ---
 <h3 id='^^lst'></h3>
-* < a href='#listtostr'>list to string</a>
-* < a href='#listtotup'>list to tuple</a>
+* <a href='#listtostr'>list to string</a>
+* <a href='#listtotup'>list to tuple</a>
 
 ---
 
@@ -1412,6 +1412,62 @@ print(t)
 >>>
 [4, 5, 6]
 (4, 5, 6)
+>>>
+```
+
+<a href='#^^lst'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lst'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lst'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^lst'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''></h4>
+
+```python
+
+>>>
+
 >>>
 ```
 
