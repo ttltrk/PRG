@@ -5520,76 +5520,6 @@ for n in filter(check_even,mynums):
 
 ---
 
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^lam'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^lam'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^lam'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^lam'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^lam'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def square(num):
     result = num**2
@@ -5649,6 +5579,63 @@ print (square(5))
 
 ---
 
+<h4 id=''>lambda with map</h4>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+square = list(map(lambda num: num**2,l))
+
+print(square)
+
+>>>
+[1, 4, 9, 16, 25]
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''>lambda map names</h4>
+
+```python
+l = ['Andy', 'Sam', 'John']
+
+names = list(map(lambda chars:chars[0],l))
+
+print(names)
+
+>>>
+['A', 'S', 'J']
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id=''>lambda map names reverse</h4>
+
+```python
+l = ['Andy', 'Sam', 'John']
+
+names = list(map(lambda chars:chars[::-1],l))
+
+print(names)
+
+>>>
+['ydnA', 'maS', 'nhoJ']
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 even = lambda num: num %2 == 0
 
@@ -5659,6 +5646,26 @@ True
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
+
+<h4 id=''>lambda with filter</h4>
+
+```python
+l = [1, 2, 3, 4, 5]
+
+square = list(filter(lambda num: num%2==0,l))
+
+print(square)
+
+>>>
+[2, 4]
+>>>
+```
+
+<a href='#^^lam'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
