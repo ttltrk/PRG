@@ -1001,54 +1001,54 @@ He said, "What's there?"
 
 ---
 
-* <a href='#capit'>capitalize</a><br>
-* <a href='#casefold'>casefold</a><br>
-* <a href='#str_center'>center</a><br>
-* <a href='#str_count'>count</a><br>
-* <a href='#str_encode'>encode</a><br>
-* <a href='#str_endswith'>endswith</a><br>
-* <a href='#str_expandtabs'>expandtabs</a><br>
-* <a href='#str_find'>find</a><br>
-* <a href='#str_format'>format</a><br>
-* <a href='#str_format_map'>format_map</a><br>
-* <a href='#str_index'>index</a><br>
-* <a href='#str_isalnum'>isalnum</a><br>
-* <a href='#str_isalpha'>isalpha</a><br>
-* <a href='#str_isdecimal'>isdecimal</a><br>
-* <a href='#str_isdigit'>isdigit</a><br>
-* <a href='#str_isidentifier'>isidentifier</a><br>
-* <a href='#str_islower'>islower</a><br>
-* <a href='#str_isnumeric'>isnumeric</a><br>
-* <a href='#str_isprintable'>isprintable</a><br>
-* <a href='#str_isspace'>isspace</a><br>
-* <a href='#str_istitle'>istitle</a><br>
-* <a href='#str_isupper'>isupper</a><br>
-* <a href='#str_join'>join</a><br>
-* <a href='#str_ljust'>ljust</a><br>
-* <a href='#str_lower'>lower</a><br>
-* <a href='#str_lstrip'>lstrip</a><br>
-* <a href='#str_maketrans'>maketrans</a><br>
-* <a href='#str_partition'>partition</a><br>
-* <a href='#str_replace'>replace</a><br>
-* <a href='#str_rfind'>rfind</a><br>
-* <a href='#str_rindex'>rindex</a><br>
-* <a href='#str_rpartition'>rpartition</a><br>
-* <a href='#str_rsplit'>rsplit</a><br>
-* <a href='#str_rstrip'>rstrip</a><br>
-* <a href='#str_split'>split</a><br>
-* <a href='#str_splitlines'>splitlines</a><br>
-* <a href='#str_startswith'>startswith</a><br>
-* <a href='#str_swapcase'>swapcase</a><br>
-* <a href='#str_title'>title</a><br>
-* <a href='#str_translate'>translate</a><br>
-* <a href='#str_upper'>upper</a><br>
-* <a href='#str_zfill'>zfill</a>
+<a href='#str_capitalize'>capitalize</a><br>
+<a href='#str_casefold'>casefold</a><br>
+<a href='#str_center'>center</a><br>
+<a href='#str_count'>count</a><br>
+<a href='#str_encode'>encode</a><br>
+<a href='#str_endswith'>endswith</a><br>
+<a href='#str_expandtabs'>expandtabs</a><br>
+<a href='#str_find'>find</a><br>
+<a href='#str_format'>format</a><br>
+<a href='#str_format_map'>format_map</a><br>
+<a href='#str_index'>index</a><br>
+<a href='#str_isalnum'>isalnum</a><br>
+<a href='#str_isalpha'>isalpha</a><br>
+<a href='#str_isdecimal'>isdecimal</a><br>
+<a href='#str_isdigit'>isdigit</a><br>
+<a href='#str_isidentifier'>isidentifier</a><br>
+<a href='#str_islower'>islower</a><br>
+<a href='#str_isnumeric'>isnumeric</a><br>
+<a href='#str_isprintable'>isprintable</a><br>
+<a href='#str_isspace'>isspace</a><br>
+<a href='#str_istitle'>istitle</a><br>
+<a href='#str_isupper'>isupper</a><br>
+<a href='#str_join'>join</a><br>
+<a href='#str_ljust'>ljust</a><br>
+<a href='#str_lower'>lower</a><br>
+<a href='#str_lstrip'>lstrip</a><br>
+<a href='#str_maketrans'>maketrans</a><br>
+<a href='#str_partition'>partition</a><br>
+<a href='#str_replace'>replace</a><br>
+<a href='#str_rfind'>rfind</a><br>
+<a href='#str_rindex'>rindex</a><br>
+<a href='#str_rpartition'>rpartition</a><br>
+<a href='#str_rsplit'>rsplit</a><br>
+<a href='#str_rstrip'>rstrip</a><br>
+<a href='#str_split'>split</a><br>
+<a href='#str_splitlines'>splitlines</a><br>
+<a href='#str_startswith'>startswith</a><br>
+<a href='#str_swapcase'>swapcase</a><br>
+<a href='#str_title'>title</a><br>
+<a href='#str_translate'>translate</a><br>
+<a href='#str_upper'>upper</a><br>
+<a href='#str_zfill'>zfill</a><br><br>
 
 <a href='#^'>^^^</a>
 
 ---
 
-<h4 id='capit'>capitalize</h4>
+<h4 id='str_capitalize'>capitalize</h4>
 
 ```python
 txt = "hello, and welcome to my world."
@@ -1067,7 +1067,7 @@ Hello, and welcome to my world.
 
 ---
 
-<h4 id='casefold'>casefold</h4>
+<h4 id='str_casefold'>casefold</h4>
 
 ```python
 txt = "Hello, And Welcome To My World!"
@@ -1158,15 +1158,20 @@ print(x)
 <h4 id='str_encode'>encode</h4>
 
 ```python
-string = 'pythön!'
-print('The string is:', string)
+string01 = 'pythön!'
+print('The string is:', string01)
 
-string_utf = string.encode()
-print('The encoded version is:', string_utf)
+string02 = string01.encode()
+print('The encoded version is:', string02)
+
+string03 = "My name is Ståle"
+str03 = string03.encode()
+print(str03)
 
 >>>
 The string is: pythön!
 The encoded version is: b'pyth\xc3\xb6n!'
+b'My name is St\xc3\xa5le'
 >>>
 ```
 
@@ -1175,9 +1180,16 @@ The encoded version is: b'pyth\xc3\xb6n!'
 
 ---
 
-<h4 id=''></h4>
+<h4 id='str_endswith'>endswith</h4>
 
 ```python
+txt = "Hello, welcome to my world."
+
+x = txt.endswith(".")
+y = txt.endswith("a")
+
+print(x)
+print(y)
 
 >>>
 
@@ -1189,12 +1201,23 @@ The encoded version is: b'pyth\xc3\xb6n!'
 
 ---
 
-<h4 id=''></h4>
+<h4 id='str_expandtabs'>expandtabs</h4>
 
 ```python
+txt = "H\te\tl\tl\to"
+
+print(txt)
+print(txt.expandtabs())
+print(txt.expandtabs(2))
+print(txt.expandtabs(4))
+print(txt.expandtabs(10))
 
 >>>
-
+H	e	l	l	o
+H       e       l       l       o
+H e l l o
+H   e   l   l   o
+H         e         l         l         o
 >>>
 ```
 
@@ -1203,12 +1226,29 @@ The encoded version is: b'pyth\xc3\xb6n!'
 
 ---
 
-<h4 id=''></h4>
+<h4 id='str_find'>find</h4>
 
 ```python
+txt = "Hello, welcome to my world."
+
+s1 = txt.find("Hello")
+s2 = txt.find("welcome")
+s3 = txt.find("to")
+s4 = txt.find("my")
+s5 = txt.find("world")
+
+print(s1)
+print(s2)
+print(s3)
+print(s4)
+print(s5)
 
 >>>
-
+0
+7
+15
+18
+21
 >>>
 ```
 
