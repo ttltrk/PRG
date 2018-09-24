@@ -5512,13 +5512,17 @@ for n in filter(check_even,mynums):
 ---
 
 <h4 id='^^lam'></h4>
-* <a href='#'></a><br>
-* <a href='#'></a><br>
-* <a href='#'></a><br>
+* <a href='#latese'>lambda temp sequence</a><br>
+* <a href='#lamap'>lambda with map</a><br>
+* <a href='#lamane'>lambda map names</a><br>
+* <a href='#lamanerev'>lambda map names reverse</a><br>
+* <a href='#lamfil'>lambda with filter</a><br>
 
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='latese'>lambda temp sequence</h4>
 
 ```python
 def square(num):
@@ -5532,10 +5536,6 @@ print (square(2))
 >>>
 ```
 
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def square(num):
     return num**2
@@ -5547,10 +5547,6 @@ print (square(3))
 >>>
 ```
 
-<a href='#^'>^^^</a>
-
----
-
 ```python
 def square(num): return num**2
 
@@ -5560,10 +5556,6 @@ print (square(4))
 16
 >>>
 ```
-
-<a href='#^'>^^^</a>
-
----
 
 ```python
 square = lambda num: num**2
@@ -5575,11 +5567,12 @@ print (square(5))
 >>>
 ```
 
+<a href='#^^lam'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
-<h4 id=''>lambda with map</h4>
+<h4 id='lamap'>lambda with map</h4>
 
 ```python
 l = [1, 2, 3, 4, 5]
@@ -5598,7 +5591,7 @@ print(square)
 
 ---
 
-<h4 id=''>lambda map names</h4>
+<h4 id='lamane'>lambda map names</h4>
 
 ```python
 l = ['Andy', 'Sam', 'John']
@@ -5617,7 +5610,7 @@ print(names)
 
 ---
 
-<h4 id=''>lambda map names reverse</h4>
+<h4 id='lamanerev'>lambda map names reverse</h4>
 
 ```python
 l = ['Andy', 'Sam', 'John']
@@ -5646,12 +5639,13 @@ True
 >>>
 ```
 
+<a href='#^^lam'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
 
 
-<h4 id=''>lambda with filter</h4>
+<h4 id='lamfil'>lambda with filter</h4>
 
 ```python
 l = [1, 2, 3, 4, 5]
