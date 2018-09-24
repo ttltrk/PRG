@@ -5516,7 +5516,7 @@ for n in filter(check_even,mynums):
 * <a href='#lamap'>lambda with map</a><br>
 * <a href='#lamane'>lambda map names</a><br>
 * <a href='#lamanerev'>lambda map names reverse</a><br>
-* <a href='#lamfil'>lambda with filter</a><br>
+* <a href='#lamfil'>lambda with filter</a><br><br>
 
 <a href='#^'>^^^</a>
 
