@@ -1042,7 +1042,7 @@ He said, "What's there?"
 <a href='#str_title'>title</a><br>
 <a href='#str_translate'>translate</a><br>
 <a href='#str_upper'>upper</a><br>
-<a href='#str_zfill'>zfill</a><br><br>
+<a href='#str_zfill'>zfill</a><br>
 
 <a href='#^'>^^^</a>
 
@@ -1237,18 +1237,24 @@ s3 = txt.find("to")
 s4 = txt.find("my")
 s5 = txt.find("world")
 
+x1 = txt.find("e", 1, 10)
+x2 = txt.find("e", 2, 10)
+
 print(s1)
 print(s2)
 print(s3)
 print(s4)
 print(s5)
-
+print(x1)
+print(x2)
 >>>
 0
 7
 15
 18
 21
+1
+8
 >>>
 ```
 
