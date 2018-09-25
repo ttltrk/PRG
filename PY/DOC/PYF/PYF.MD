@@ -5553,6 +5553,97 @@ for n in filter(check_even,mynums):
 
 ---
 
+<h4 id='funnesstat'>Nested statement</h4>
+
+```python
+name = 'THIS IS A GLOBAL STRING'
+
+def greet():
+
+    name = 'Sammy'
+
+    def hello():
+        name = 'IM A LOCAL'
+        print('Hello '+name)
+
+    hello()
+
+greet()
+
+>>>
+Hello IM A LOCAL
+>>>
+```
+
+```python
+name = 'THIS IS A GLOBAL STRING'
+
+def greet():
+
+    name = 'Sammy'
+
+    def hello():
+        #name = 'IM A LOCAL'
+        print('Hello '+name)
+
+    hello()
+
+greet()
+
+>>>
+Hello Sammy
+>>>
+```
+
+```python
+name = 'THIS IS A GLOBAL STRING'
+
+def greet():
+
+    #name = 'Sammy'
+
+    def hello():
+        #name = 'IM A LOCAL'
+        print('Hello '+name)
+
+    hello()
+
+greet()
+
+>>>
+Hello THIS IS A GLOBAL STRING
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+<a href='#^^def'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
 <h3 id='lambda'>Python lambda</h3>
 
 ---
