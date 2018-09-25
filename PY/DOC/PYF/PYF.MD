@@ -4257,36 +4257,37 @@ itt meg az otodik
 
 ---
 
-* <a href='#temp_01'>temp_01</a>
-* <a href='#temp_02'>temp_02</a>
-* <a href='#temp_03'>temp_03</a>
-* <a href='#temp_04'>temp_04</a>
-* <a href='#temp_05'>temp_05</a>
-* <a href='#say_hello'>say_hello</a>
-* <a href='#sum_strings'>sum_strings</a>
-* <a href='#bigger'>bigger</a>
-* <a href='#trueorfalse'>true or false</a>
-* <a href='#dog_check'>dog_check</a>
-* <a href='#cat_check'>cat_check</a>
-* <a href='#pig_latin'>pig_latin</a>
-* <a href='#lesser_of_two_evens'>lesser_of_two_evens</a>
-* <a href='#args'>args</a>
-* <a href='#kwargs'>kwargs</a>
-* <a href='#animal_crackers'>animal_crackers</a>
-* <a href='#makes_twenty'>makes_twenty</a>
-* <a href='#defevenodd'>even and odd numbers</a>
-* <a href='#old_macdonald'>old_macdonald</a>
-* <a href='#uppersec'>upper() every 2nd char</a>
-* <a href='#master_yoda'>master_yoda</a>
-* <a href='#almost_there'>almost_there</a>
-* <a href='#has_33'>has_33</a>
-* <a href='#paper_doll'>paper_doll</a>
-* <a href='#blackjack'>blackjack</a>
-* <a href='#summer_69'>summer_69</a>
-* <a href='#count_primes'>count_primes</a>
-* <a href='#fibon'>fibon</a>
-* <a href='#map'>map</a><br>
-* <a href='#filter'>filter</a><br>
+<a href='#temp_01'>temp_01</a>
+<a href='#temp_02'>temp_02</a>
+<a href='#temp_03'>temp_03</a>
+<a href='#temp_04'>temp_04</a>
+<a href='#temp_05'>temp_05</a>
+<a href='#say_hello'>say_hello</a>
+<a href='#sum_strings'>sum_strings</a>
+<a href='#bigger'>bigger</a>
+<a href='#trueorfalse'>true or false</a>
+<a href='#dog_check'>dog_check</a>
+<a href='#cat_check'>cat_check</a>
+<a href='#pig_latin'>pig_latin</a>
+<a href='#lesser_of_two_evens'>lesser_of_two_evens</a>
+<a href='#args'>args</a>
+<a href='#kwargs'>kwargs</a>
+<a href='#animal_crackers'>animal_crackers</a>
+<a href='#makes_twenty'>makes_twenty</a>
+<a href='#defevenodd'>even and odd numbers</a>
+<a href='#old_macdonald'>old_macdonald</a>
+<a href='#uppersec'>upper() every 2nd char</a>
+<a href='#master_yoda'>master_yoda</a>
+<a href='#almost_there'>almost_there</a>
+<a href='#has_33'>has_33</a>
+<a href='#paper_doll'>paper_doll</a>
+<a href='#blackjack'>blackjack</a>
+<a href='#summer_69'>summer_69</a>
+<a href='#count_primes'>count_primes</a>
+<a href='#fibon'>fibon</a>
+<a href='#map'>map</a><br>
+<a href='#filter'>filter</a><br>
+<a href='#funnesstat'>nested statement</a><br>
 
 <a href='#^'>^^^</a>
 
@@ -5615,27 +5616,42 @@ Hello THIS IS A GLOBAL STRING
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
+x = 50
+
+def func(x):
+    print(f'X is {x}')
+
+    x = 200
+    print(f'I just LOCALLY changed x to {x}')
+
+func(x)
+print(f'outside print x is: {x}')
 
 >>>
-
+X is 50
+I just LOCALLY changed x to 200
+outside print x is: 50
 >>>
 ```
 
-<a href='#^^def'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
 ```python
+x = 50
+
+def func():
+    global x
+    print(f'X is {x}')
+
+    x = 'NEW VALUE'
+    print(f'I just LOCALLY changed x to {x}')
+
+func()
+print(f'outside print x is: {x}')
 
 >>>
-
+X is 50
+I just LOCALLY changed x to NEW VALUE
+outside print x is: NEW VALUE
 >>>
 ```
 
@@ -5649,11 +5665,11 @@ Hello THIS IS A GLOBAL STRING
 ---
 
 <h4 id='^^lam'></h4>
-* <a href='#latese'>lambda temp sequence</a><br>
-* <a href='#lamap'>lambda with map</a><br>
-* <a href='#lamane'>lambda map names</a><br>
-* <a href='#lamanerev'>lambda map names reverse</a><br>
-* <a href='#lamfil'>lambda with filter</a><br><br>
+<a href='#latese'>lambda temp sequence</a><br>
+<a href='#lamap'>lambda with map</a><br>
+<a href='#lamane'>lambda map names</a><br>
+<a href='#lamanerev'>lambda map names reverse</a><br>
+<a href='#lamfil'>lambda with filter</a><br>
 
 <a href='#^'>^^^</a>
 
