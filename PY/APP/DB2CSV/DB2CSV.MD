@@ -1,4 +1,14 @@
 
+---
+
+###### [改善](https://github.com/ttltrk/0C/blob/master/README.MD) - [C](https://github.com/ttltrk/PRG/blob/master/CODING.MD) - [scripts](https://github.com/ttltrk/PRG/blob/master/APPS.MD)
+
+---
+
+### read data from DB2 and write it to .CSV file
+
+---
+
 ```python
 import csv
 import ibm_db
