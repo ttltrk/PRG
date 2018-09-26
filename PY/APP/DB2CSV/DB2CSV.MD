@@ -5,7 +5,7 @@
 
 ---
 
-### read data from DB2 and write it to .CSV file
+### read data from DB2 and write it to a .CSV file
 
 ---
 
