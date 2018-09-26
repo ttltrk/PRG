@@ -6002,6 +6002,7 @@ print(mytripler(11))
 
 <a href='#shuffle'>shuffle</a>
 <a href='randint'>randint</a>
+<a href='pippip'>pip</a>
 
 ---
 
@@ -6032,6 +6033,16 @@ print(randint(0, 100))
 >>>
 58
 >>>
+```
+
+---
+
+<h4 id='pippip'>pip</h4>
+
+```
+download --> get-pip.py
+launch --> get-pip.py
+in cmd --> py -m pip instal <pkg_name>
 ```
 
 ---
