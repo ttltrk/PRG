@@ -9,6 +9,10 @@
 
 ---
 
+* [usefull links](https://www.ibm.com/support/knowledgecenter/en/SSEPGG_9.5.0/com.ibm.db2.luw.apdv.python.doc/doc/t0054388.html)
+
+---
+
 ```python
 import csv
 import ibm_db
