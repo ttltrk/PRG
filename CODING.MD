@@ -25,16 +25,20 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30| 
-| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  |  
+| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  
 
 |ST|NU|
 |--|--|
-|WD|26|
+|WD|27|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * SEP
+
+  * 27 - Thu (DIR: 194)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 26 - Wed (DIR: 193)
 
