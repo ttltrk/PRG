@@ -9,7 +9,8 @@
 
 ---
 
-* [usefull links](https://www.ibm.com/support/knowledgecenter/en/SSEPGG_9.5.0/com.ibm.db2.luw.apdv.python.doc/doc/t0054388.html)
+* [DB2 links](https://www.ibm.com/support/knowledgecenter/en/SSEPGG_9.5.0/com.ibm.db2.luw.apdv.python.doc/doc/t0054388.html)
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
 
 ---
 
