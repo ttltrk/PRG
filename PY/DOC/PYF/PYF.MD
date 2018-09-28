@@ -44,14 +44,12 @@
 ---
 
 * <a href='#mopali'>modules, packages, libs</a>
+* <a href='#numpy'>NumPy</a>
+* <a href='#processing'>processing</a>
 
 ---
 
 * <a href='#oop'>oop</a>
-
----
-
-* <a href='https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/17/PROC.MD'>processing</a>
 
 ---
 
@@ -6043,6 +6041,256 @@ print(randint(0, 100))
 download --> get-pip.py
 launch --> get-pip.py
 in cmd --> py -m pip instal <pkg_name>
+```
+
+---
+
+<h3 id='numpy'>NumPy</h3>
+
+---
+
+<a href='#numarrays'>NumPy Arrays</a><br>
+
+---
+
+<h4 id='numarrays'>NumPy Arrays</h4>
+
+```python
+import numpy as np
+
+l = [1, 2, 3, 4, 5]
+
+arr = np.array(l)
+
+print('l =', l)
+print('arr =', arr)
+
+>>>
+l = [1, 2, 3, 4, 5]
+arr = [1 2 3 4 5]
+>>>
+```
+
+```python
+import numpy as np
+
+l = [[1, 2, 3],[4, 5, 6], [7, 8, 9]]
+
+arr = np.array(l)
+
+print(l)
+print(arr)
+
+>>>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+>>>
+```
+
+```python
+import numpy as np
+
+ran1 = np.arange(0, 10)
+ran2 = np.arange(0, 10, 2)
+
+print(ran1)
+print(ran2)
+
+>>>
+[0 1 2 3 4 5 6 7 8 9]
+[0 2 4 6 8]
+>>>
+```
+
+```python
+import numpy as np
+
+zer1 = np.zeros(3)
+zer2 = np.zeros((3, 3))
+one1 = np.ones(4)
+one2 = np.ones((2, 4))
+
+print(zer1)
+print(zer2)
+print(one1)
+print(one2)
+
+>>>
+[0. 0. 0.]
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[1. 1. 1. 1.]
+[[1. 1. 1. 1.]
+ [1. 1. 1. 1.]]
+>>>
+```
+
+```python
+import numpy as np
+
+lin1 = np.linspace(1, 5, 10)
+
+print(lin1)
+
+>>>
+[1.         1.44444444 1.88888889 2.33333333 2.77777778 3.22222222
+ 3.66666667 4.11111111 4.55555556 5.        ]
+>>>
+```
+
+```python
+import numpy as np
+
+eye1 = np.eye(2)
+eye2 = np.eye(4)
+eye3 = np.eye(6)
+
+print(eye1)
+print(eye2)
+print(eye3)
+
+>>>
+[[1. 0.]
+ [0. 1.]]
+[[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]
+ [0. 0. 0. 1.]]
+[[1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0.]
+ [0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 1.]]
+>>>
+```
+
+```python
+import numpy as np
+
+rand1 = np.random.rand(2)
+rand2 = np.random.rand(5, 5)
+
+print(rand1)
+print(rand2)
+
+>>>
+[0.53429942 0.03083587]
+[[0.56266049 0.26195416 0.27630701 0.57626409 0.70289117]
+ [0.48973053 0.41366423 0.61769248 0.318832   0.26887037]
+ [0.71457293 0.24885933 0.26328144 0.54152156 0.40952062]
+ [0.48591904 0.40144865 0.96884957 0.13419017 0.7895068 ]
+ [0.08522755 0.95422188 0.78722507 0.08625817 0.12516238]]
+>>>
+```
+
+```python
+import numpy as np
+
+ranin1 = np.random.randint(9)
+ranin2 = np.random.randint(10,30)
+ranin3 = np.random.randint(50,100, 10)
+
+print(ranin1)
+print(ranin2)
+print(ranin3)
+
+>>>
+2
+22
+[57 94 89 57 61 78 55 70 69 82]
+>>>
+```
+
+```python
+import numpy as np
+
+arr = np.arange(25)
+resh1 = arr.reshape(5,5)
+
+print(resh1)
+
+>>>
+[[ 0  1  2  3  4]
+ [ 5  6  7  8  9]
+ [10 11 12 13 14]
+ [15 16 17 18 19]
+ [20 21 22 23 24]]
+>>>
+```
+
+```python
+import numpy as np
+
+ranarr = np.random.randint(0, 50, 10)
+maxran = ranarr.max()
+print(ranarr)
+print(maxran)
+
+>>>
+[22 15 25 13 48 25 24 44  6  3]
+48
+>>>
+```
+
+```python
+import numpy as np
+
+ranarr = np.random.randint(0, 50, 10)
+
+maxran = ranarr.max()
+minran = ranarr.min()
+maxarg = ranarr.argmax()
+minarg = ranarr.argmin()
+
+print(ranarr)
+print(' ')
+print('the highest number of the arr:', maxran)
+print('the lowest number of the arr:', minran)
+print('the position of the highest num in the arr:', maxarg)
+print('the position of the lowest num in the arr:', minarg)
+
+>>>
+[43 29 39 19 36 37 10 20 46 37]
+ 
+the highest number of the arr: 46
+the lowest number of the arr: 10
+the position of the highest num in the arr: 8
+the position of the lowest num in the arr: 6
+>>>
+```
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
 ```
 
 ---
