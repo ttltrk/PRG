@@ -6266,9 +6266,22 @@ the position of the lowest num in the arr: 6
 ---
 
 ```python
+import numpy as np
+
+arr = np.arange(0, 11)
+
+print(arr)
+print(arr[2])
+print(arr[5])
+print(arr[1:4])
+print(arr[2:8])
 
 >>>
-
+[ 0  1  2  3  4  5  6  7  8  9 10]
+2
+5
+[1 2 3]
+[2 3 4 5 6 7]
 >>>
 ```
 
