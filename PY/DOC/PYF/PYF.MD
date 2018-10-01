@@ -6440,10 +6440,27 @@ print(a1)
 
 ---
 
+<h4 id='Numoper'>NumPy Operations</h4>
+
 ```python
+import numpy as np
+
+arr = np.arange(0,11)
+s = arr+arr
+m = arr*arr
+h = arr+100
+e = arr ** 2
+
+print(s)
+print(m)
+print(h)
+print(e)
 
 >>>
-
+[ 0  2  4  6  8 10 12 14 16 18 20]
+[  0   1   4   9  16  25  36  49  64  81 100]
+[100 101 102 103 104 105 106 107 108 109 110]
+[  0   1   4   9  16  25  36  49  64  81 100]
 >>>
 ```
 
