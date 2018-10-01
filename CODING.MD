@@ -36,7 +36,7 @@
 
   * 01 - Mon (DIR: 198)
   
-    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
   
 ---
 
