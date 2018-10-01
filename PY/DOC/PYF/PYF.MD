@@ -6545,6 +6545,25 @@ dtype: int64
 ```
 
 ```python
+import numpy as np
+import pandas as pd
+
+ser1 = pd.Series([1, 2, 3, 4], ['USA', 'GER', 'USSR', 'JPN'])
+
+print(ser1)
+print(ser1['USA'])
+
+>>>
+USA     1
+GER     2
+USSR    3
+JPN     4
+dtype: int64
+1
+>>>
+```
+
+```python
 
 >>>
 
@@ -6559,14 +6578,7 @@ dtype: int64
 ```
 
 ```python
-
->>>
-
->>>
-```
-
-```python
-
+ 
 >>>
 
 >>>
