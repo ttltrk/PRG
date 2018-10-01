@@ -15,8 +15,29 @@
 
 ---
 
-### <h4 id='NAV'>2018 - <a href='#2018_01'>JAN</a> | <a href='#2018_02'>FEB</a> | <a href='#2018_03'>MRC</a> | <a href='#2018_04'>APR</a> | <a href='#2018_05'>MAY</a> | <a href='#2018_06'>JUN</a> | <a href='#2018_07'>JUL</a> | <a href='#2018_08'>AUG</a> | <a href='#2018_09'>SEP</a> </h4>
+### <h4 id='NAV'>2018 - <a href='#2018_01'>JAN</a> | <a href='#2018_02'>FEB</a> | <a href='#2018_03'>MRC</a> | <a href='#2018_04'>APR</a> | <a href='#2018_05'>MAY</a> | <a href='#2018_06'>JUN</a> | <a href='#2018_07'>JUL</a> | <a href='#2018_08'>AUG</a> | <a href='#2018_09'>SEP</a> | <a href='#2018_10'>OCT</a></h4>
 
+### <h4 id='2018_10'>2018 - OCT</h4>
+
+|F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|  | x|  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+|ST|NU|
+|--|--|
+|WD| 1|
+|RD|  |
+
+<a href='#NAV'>NAV</a>
+
+* OCT
+
+  * 01 - Mon (DIR: 198)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+  
 ---
 
 ### <h4 id='2018_09'>2018 - SEP</h4>
@@ -25,16 +46,28 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30| 
-| x| x| x| x| x| x| x| x| x| x| x| x|  |  |  |  
+| x| x| x| x| x| x| x| x| x| x| x| x| x| x| x|  
 
 |ST|NU|
 |--|--|
-|WD|27|
+|WD|30|
 |RD| 0|
 
 <a href='#NAV'>NAV</a>
 
 * SEP
+  
+  * 30 - Sun (DIR: 197)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+  
+  * 29 - Sat (DIR: 196)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+    
+  * 28 - Fri (DIR: 195)
+  
+    + [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 27 - Thu (DIR: 194)
   
