@@ -50,6 +50,10 @@
 
 ---
 
+* <a href='#bonobo'>Bonobo</a>
+
+---
+
 * <a href='#oop'>oop</a>
 
 ---
@@ -6582,6 +6586,33 @@ dtype: int64
 >>>
 
 >>>
+```
+
+---
+
+<h3 id='bonobo'>Bonobo</h3>
+
+---
+
+<a href='#'></a>
+
+---
+
+<h4 id='boninstall'>Install</h4>
+
+```python
+#install bonobo
+py -m pip install bonobo
+```
+
+```python
+#create simple job
+py -m bonobo init my-etl.py
+```
+
+```python
+ran the first job
+py -m my-etl.py
 ```
 
 ---
