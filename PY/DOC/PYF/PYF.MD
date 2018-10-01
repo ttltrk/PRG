@@ -6050,6 +6050,8 @@ in cmd --> py -m pip instal <pkg_name>
 ---
 
 <a href='#numarrays'>NumPy Arrays</a><br>
+<a href='#nuarrin'>NumPy Array Indexing</a><br>
+<a href='#nuinse'>NumPy Indexing and Selection</a><br>
 
 ---
 
@@ -6265,6 +6267,8 @@ the position of the lowest num in the arr: 6
 
 ---
 
+<h4 id='nuarrin'>NumPy Array Indexing</h4>
+
 ```python
 import numpy as np
 
@@ -6282,6 +6286,185 @@ print(arr[2:8])
 5
 [1 2 3]
 [2 3 4 5 6 7]
+>>>
+```
+
+```python
+import numpy as np
+
+arr = np.arange(0, 11)
+arr[0:5]=100
+print(arr)
+
+>>>
+[100 100 100 100 100   5   6   7   8   9  10]
+>>>
+```
+
+```python
+import numpy as np
+
+arr = np.arange(0, 11)
+sa = arr[0:6]
+print(sa)
+sa[:] = 99
+print(sa)
+
+>>>
+[0 1 2 3 4 5]
+[99 99 99 99 99 99]
+>>>
+```
+
+```python
+import numpy as np
+
+arr = np.arange(0, 11)
+arr_copy = arr.copy()
+print(arr)
+print(arr_copy)
+arr_copy[:] = 100
+print(arr)
+print(arr_copy)
+
+>>>
+[ 0  1  2  3  4  5  6  7  8  9 10]
+[ 0  1  2  3  4  5  6  7  8  9 10]
+[ 0  1  2  3  4  5  6  7  8  9 10]
+[100 100 100 100 100 100 100 100 100 100 100]
+>>>
+```
+
+---
+
+<h4 id='nuinse'>NumPy Indexing and Selection</h4>
+
+```python
+import numpy as np
+
+arr_2d = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]])
+
+print(arr_2d)
+print(arr_2d[0])
+print(arr_2d[0][0])
+print(arr_2d[1,1])
+print(arr_2d[2,2])
+
+>>>
+[[ 5 10 15]
+ [20 25 30]
+ [35 40 45]]
+[ 5 10 15]
+5
+25
+45
+>>>
+```
+
+```python
+import numpy as np
+
+arr_2d = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]])
+
+print(arr_2d)
+print(arr_2d[:2])
+print(arr_2d[:2,1:])
+
+>>>
+[[ 5 10 15]
+ [20 25 30]
+ [35 40 45]]
+[[ 5 10 15]
+ [20 25 30]]
+[[10 15]
+ [25 30]]
+>>>
+```
+
+```python
+import numpy as np
+
+arr = np.arange(1, 11)
+
+print(arr > 5)
+
+>>>
+[False False False False False  True  True  True  True  True]
+>>>
+```
+
+```python
+import numpy as np
+
+arr = np.arange(1, 11)
+bool_arr = arr > 5
+print(bool_arr)
+
+a = arr[bool_arr]
+print(a)
+
+a1 = arr[arr<3]
+a2 = arr[arr>7]
+print(a1)
+print(a2)
+
+>>>
+[False False False False False  True  True  True  True  True]
+[ 6  7  8  9 10]
+[1 2]
+[ 8  9 10]
+>>>
+```
+
+```python
+import numpy as np
+
+arr_2d = np.arange(50).reshape(5,10)
+print(arr_2d)
+print(' ')
+
+a1 = arr_2d[1:3,3:5]
+print(a1)
+
+>>>
+[[ 0  1  2  3  4  5  6  7  8  9]
+ [10 11 12 13 14 15 16 17 18 19]
+ [20 21 22 23 24 25 26 27 28 29]
+ [30 31 32 33 34 35 36 37 38 39]
+ [40 41 42 43 44 45 46 47 48 49]]
+ 
+[[13 14]
+ [23 24]]
+>>>
+```
+
+---
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
 >>>
 ```
 
