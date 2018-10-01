@@ -45,6 +45,7 @@
 
 * <a href='#mopali'>modules, packages, libs</a>
 * <a href='#numpy'>NumPy</a>
+* <a href='#pandas'>Pandas</a>
 * <a href='#processing'>processing</a>
 
 ---
@@ -6486,10 +6487,60 @@ print(np2)
 
 ---
 
+<h3 id='pandas'>Pandas</h3>
+
+---
+
+<a href='#panser'>Series</a>
+
+---
+
+<h4 id='panser'>Series</h4>
+
 ```python
+import numpy as np
+import pandas as pd
+
+lab = ['a', 'b', 'c']
+my_data = [10, 20, 30]
+arr = np.array(my_data)
+d = {'a':10, 'b':20, 'c':30}
+
+a1 = pd.Series(data = my_data)
+a2 = pd.Series(data = my_data, index=lab)
+a3 = pd.Series(arr)
+a4 = pd.Series(d)
+
+print('------------ LIST')
+print(a1)
+print('------------ LIST with INDEX')
+print(a2)
+print('------------ ARRAY')
+print(a3)
+print('------------ DICTIONARY')
+print(a4)
 
 >>>
-
+------------ LIST
+0    10
+1    20
+2    30
+dtype: int64
+------------ LIST with INDEX
+a    10
+b    20
+c    30
+dtype: int64
+------------ ARRAY
+0    10
+1    20
+2    30
+dtype: int32
+------------ DICTIONARY
+a    10
+b    20
+c    30
+dtype: int64
 >>>
 ```
 
