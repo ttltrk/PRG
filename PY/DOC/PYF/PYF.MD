@@ -6567,8 +6567,187 @@ dtype: int64
 >>>
 ```
 
+<h4 id=''>DataFrame</h4>
+
+```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+print(df)
+print('')
+print(df['W'])
+print('')
+print(df.W)
+print('')
+x = df.X
+print(x)
+print('')
+print(df[['W', 'Z']])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+
+A    2.706850
+B    0.651118
+C   -2.018168
+D    0.188695
+E    0.190794
+Name: W, dtype: float64
+
+A    2.706850
+B    0.651118
+C   -2.018168
+D    0.188695
+E    0.190794
+Name: W, dtype: float64
+
+A    0.628133
+B   -0.319318
+C    0.740122
+D   -0.758872
+E    1.978757
+Name: X, dtype: float64
+
+          W         Z
+A  2.706850  0.503826
+B  0.651118  0.605965
+C -2.018168 -0.589001
+D  0.188695  0.955057
+E  0.190794  0.683509
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+df['new'] = df['W'] + df['Y']
+
+print(df)
+
+>>>
+          W         X         Y         Z       new
+A  2.706850  0.628133  0.907969  0.503826  3.614819
+B  0.651118 -0.319318 -0.848077  0.605965 -0.196959
+C -2.018168  0.740122  0.528813 -0.589001 -1.489355
+D  0.188695 -0.758872 -0.933237  0.955057 -0.744542
+E  0.190794  1.978757  2.605967  0.683509  2.796762
+>>>
+```
+
+```python
+ import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df.loc['A'])
+
+>>>
+W    2.706850
+X    0.628133
+Y    0.907969
+Z    0.503826
+Name: A, dtype: float64
+>>>
+```
+
 ```python
 
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
 >>>
 
 >>>
