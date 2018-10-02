@@ -6670,23 +6670,67 @@ Name: A, dtype: float64
 ```
 
 ```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+l1 = df.loc['C']
+print(l1)
+
+l2 = df.iloc[2]
+print(l2)
 
 >>>
-
+W   -2.018168
+X    0.740122
+Y    0.528813
+Z   -0.589001
+Name: C, dtype: float64
+W   -2.018168
+X    0.740122
+Y    0.528813
+Z   -0.589001
+Name: C, dtype: float64
 >>>
 ```
 
 ```python
- 
->>>
+ import numpy as np
+import pandas as pd
 
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+l1 = df.loc['B', 'Y']
+print(l1)
+
+>>>
+-0.8480769834036315
 >>>
 ```
 
 ```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+l1 = df.loc[['A', 'B'], ['X', 'Y']]
+print(l1)
 
 >>>
-
+          X         Y
+A  0.628133  0.907969
+B -0.319318 -0.848077
 >>>
 ```
 
