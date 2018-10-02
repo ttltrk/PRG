@@ -6054,9 +6054,12 @@ in cmd --> py -m pip instal <pkg_name>
 
 ---
 
+<h4 id='^^numpy'></h4>
 <a href='#numarrays'>NumPy Arrays</a><br>
 <a href='#nuarrin'>NumPy Array Indexing</a><br>
 <a href='#nuinse'>NumPy Indexing and Selection</a><br>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -6270,6 +6273,9 @@ the position of the lowest num in the arr: 6
 >>>
 ```
 
+<a href='#^^numpy'>^^</a><br>
+<a href='#^'>^^^</a>
+
 ---
 
 <h4 id='nuarrin'>NumPy Array Indexing</h4>
@@ -6339,6 +6345,9 @@ print(arr_copy)
 [100 100 100 100 100 100 100 100 100 100 100]
 >>>
 ```
+
+<a href='#^^numpy'>^^</a><br>
+<a href='#^'>^^^</a>
 
 ---
 
@@ -6443,6 +6452,9 @@ print(a1)
 >>>
 ```
 
+<a href='#^^numpy'>^^</a><br>
+<a href='#^'>^^^</a>
+
 ---
 
 <h4 id='Numoper'>NumPy Operations</h4>
@@ -6489,13 +6501,20 @@ print(np2)
 >>>
 ```
 
+<a href='#^^numpy'>^^</a><br>
+<a href='#^'>^^^</a>
+
 ---
 
 <h3 id='pandas'>Pandas</h3>
 
 ---
 
-<a href='#panser'>Series</a>
+<h4 id='^^pand'></h4>
+<a href='#panser'>Series</a><br>
+<a href='#pddataframe'>DataFrame</a><br>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -6567,7 +6586,12 @@ dtype: int64
 >>>
 ```
 
-<h4 id=''>DataFrame</h4>
+<a href='#^^pand'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='pddataframe'>DataFrame</h4>
 
 ```python
 import numpy as np
@@ -6754,6 +6778,11 @@ B -0.319318 -0.848077
 
 >>>
 ```
+
+<a href='#^^pand'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
 
 ```python
 
