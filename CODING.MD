@@ -34,19 +34,19 @@
 
 * OCT
 
-  * 08 - Thu (DIR: 201)
+  * 08 - Thu (DIR: 205)
 
     * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
-  * 07 - Thu (DIR: 201)
+  * 07 - Thu (DIR: 204)
 
     * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
-  * 06 - Thu (DIR: 201)
+  * 06 - Thu (DIR: 203)
 
     * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
-  * 05 - Thu (DIR: 201)
+  * 05 - Thu (DIR: 202)
 
     * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
