@@ -21,18 +21,34 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x|  |  |  |  |  |  |  |  |  |  |  | 
+|  | x| x| x| x| x| x| x| x|  |  |  |  |  |  |  | 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD| 4|
+|WD| 8|
 |RD|  |
 
 <a href='#NAV'>NAV</a>
 
 * OCT
+
+  * 08 - Thu (DIR: 201)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 07 - Thu (DIR: 201)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 06 - Thu (DIR: 201)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 05 - Thu (DIR: 201)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 04 - Thu (DIR: 201)
 
