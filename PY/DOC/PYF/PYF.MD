@@ -7039,9 +7039,170 @@ E  0.190794  1.978757  2.605967  0.683509
 ```
 
 ```python
+import pandas
+import numpy
+
+newind = 'CA NY WY OR CO'.split()
+print(newind)
 
 >>>
+['CA', 'NY', 'WY', 'OR', 'CO']
+>>>
+```
 
+```python
+ import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+newind = 'CA NY WY OR CO'.split()
+df['States'] = newind
+
+print(df)
+
+>>>
+          W         X         Y         Z States
+A  2.706850  0.628133  0.907969  0.503826     CA
+B  0.651118 -0.319318 -0.848077  0.605965     NY
+C -2.018168  0.740122  0.528813 -0.589001     WY
+D  0.188695 -0.758872 -0.933237  0.955057     OR
+E  0.190794  1.978757  2.605967  0.683509     CO
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+newind = 'CA NY WY OR CO'.split()
+df['States'] = newind
+a = df.set_index('States')
+
+print(a)
+
+>>>
+               W         X         Y         Z
+States                                        
+CA      2.706850  0.628133  0.907969  0.503826
+NY      0.651118 -0.319318 -0.848077  0.605965
+WY     -2.018168  0.740122  0.528813 -0.589001
+OR      0.188695 -0.758872 -0.933237  0.955057
+CO      0.190794  1.978757  2.605967  0.683509
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1, 2, 3, 1, 2, 3]
+hier_index = list(zip(outside,inside))
+#hier_index = pd.MultiIndex.from_tuples(hier_index)
+
+print(hier_index)
+
+>>>
+[('G1', 1), ('G1', 2), ('G1', 3), ('G2', 1), ('G2', 2), ('G2', 3)]
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1, 2, 3, 1, 2, 3]
+hier_index = list(zip(outside,inside))
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+
+print(hier_index)
+
+>>>
+MultiIndex(levels=[['G1', 'G2'], [1, 2, 3]],
+           labels=[[0, 0, 0, 1, 1, 1], [0, 1, 2, 0, 1, 2]])
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1, 2, 3, 1, 2, 3]
+hier_index = list(zip(outside,inside))
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+
+print(df)
+
+>>>
+             A         B
+G1 1  2.706850  0.628133
+   2  0.907969  0.503826
+   3  0.651118 -0.319318
+G2 1 -0.848077  0.605965
+   2 -2.018168  0.740122
+   3  0.528813 -0.589001
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1, 2, 3, 1, 2, 3]
+hier_index = list(zip(outside,inside))
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+a = df.loc['G1']
+print(a)
+
+>>>
+          A         B
+1  2.706850  0.628133
+2  0.907969  0.503826
+3  0.651118 -0.319318
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1, 2, 3, 1, 2, 3]
+hier_index = list(zip(outside,inside))
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+a = df.loc['G1']
+a1 = df.loc['G1'].loc[1]
+
+print(a1)
+
+>>>
+A    2.706850
+B    0.628133
+Name: 1, dtype: float64
 >>>
 ```
 
@@ -7053,7 +7214,7 @@ E  0.190794  1.978757  2.605967  0.683509
 ```
 
 ```python
-
+ 
 >>>
 
 >>>
