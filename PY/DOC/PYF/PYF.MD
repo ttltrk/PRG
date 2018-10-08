@@ -7207,6 +7207,70 @@ Name: 1, dtype: float64
 ```
 
 ```python
+import numpy as np
+import pandas as pd
+
+from numpy.random import randn
+np.random.seed(101)
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1, 2, 3, 1, 2, 3]
+hier_index = list(zip(outside,inside))
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+a = df.loc['G1']
+a1 = df.loc['G1'].loc[1]
+df.index.names = ['Groups', 'Num']
+print(df)
+
+>>>
+                   A         B
+Groups Num                    
+G1     1    2.706850  0.628133
+       2    0.907969  0.503826
+       3    0.651118 -0.319318
+G2     1   -0.848077  0.605965
+       2   -2.018168  0.740122
+       3    0.528813 -0.589001
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
  
 >>>
 
