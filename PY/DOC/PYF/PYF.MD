@@ -7885,8 +7885,8 @@ yellow
 
 ---
 
-<a href='#boninstall'>Install</a><br><br>
-<a href='#bonver'>Version</a><br><br>
+<a href='#boninstall'>Install</a><br>
+<a href='#bonver'>Version</a><br>
 <a href='#bonfirstjob'>First Job</a><br><br>
 
 <a href='#^'>^^^</a>
