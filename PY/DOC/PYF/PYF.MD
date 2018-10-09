@@ -7886,6 +7886,8 @@ yellow
 ---
 
 <a href='#boninstall'>Install</a><br><br>
+<a href='#bonver'>Version</a><br><br>
+<a href='#bonfirstjob'>First Job</a><br><br>
 
 <a href='#^'>^^^</a>
 
@@ -7898,14 +7900,39 @@ yellow
 py -m pip install bonobo
 ```
 
-```python
-#create simple job
-py -m bonobo init my-etl.py
-```
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='bonver'>Version</h4>
 
 ```python
-ran the first job
-py -m my-etl.py
+#check version
+py -m bonobo version
+
+>>>
+bonobo v.0.6.3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='bonfirstjob'>First Job</h4>
+
+```python
+C:\Users\AttilaTorok>py -m bonobo init first.py
+INFO|0000|init: Generated first.py using template 'default'.
+
+C:\Users\AttilaTorok>first.py
+Hello
+World
+ - extract in=1 out=2 [done]
+ - transform in=2 out=2 [done]
+ - load in=2 [done]
+
+C:\Users\AttilaTorok>
 ```
 
 <a href='#^'>^^^</a>
