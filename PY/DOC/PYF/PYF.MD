@@ -7882,7 +7882,9 @@ yellow
 
 ---
 
-<a href='#'></a>
+<a href='#boninstall'>Install</a><br><br>
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -7903,17 +7905,25 @@ ran the first job
 py -m my-etl.py
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 <h3 id='db2'>DB2</h3>
+
+<a href='#^'>^^^</a>
 
 ---
 
 <h3 id='postgresql'>PostgreSQL</h3>
 
+<a href='#^'>^^^</a>
+
 ---
 
+<h3 id='raspberrypi'>Raspberry Pi</h3>
 
+<a href='#^'>^^^</a>
 
 ---
 
@@ -7922,6 +7932,8 @@ py -m my-etl.py
 * [python.org](https://docs.python.org/3/tutorial/index.html)
 * [programiz](https://www.programiz.com/python-programming)
 * [udemy - from 0 to hero](https://www.udemy.com/complete-python-bootcamp/learn/v4/content)
+
+<a href='#^'>^^^</a>
 
 ---
 
