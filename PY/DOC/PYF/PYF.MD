@@ -7922,17 +7922,15 @@ bonobo v.0.6.3
 <h4 id='bonfirstjob'>First Job</h4>
 
 ```python
-C:\Users\AttilaTorok>py -m bonobo init first.py
+C:\path\path>py -m bonobo init first.py
 INFO|0000|init: Generated first.py using template 'default'.
 
-C:\Users\AttilaTorok>first.py
+C:\path\path>first.py
 Hello
 World
  - extract in=1 out=2 [done]
  - transform in=2 out=2 [done]
  - load in=2 [done]
-
-C:\Users\AttilaTorok>
 ```
 
 <a href='#^'>^^^</a>
