@@ -46,7 +46,6 @@
 * <a href='#mopali'>modules, packages, libs</a>
 * <a href='#numpy'>NumPy</a>
 * <a href='#pandas'>Pandas</a>
-* <a href='#processing'>processing</a>
 
 ---
 
@@ -64,6 +63,10 @@
 ---
 
 * <a href='#raspberrypi'>raspberry Pi</a>
+
+---
+
+* <a href='#processing'>processing</a>
 
 ---
 
@@ -7922,6 +7925,12 @@ py -m my-etl.py
 ---
 
 <h3 id='raspberrypi'>Raspberry Pi</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='processing'>Processing</h3>
 
 <a href='#^'>^^^</a>
 
