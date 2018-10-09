@@ -50,15 +50,20 @@
 
 ---
 
-* <a href='#bonobo'>Bonobo</a>
-
----
-
 * <a href='#oop'>oop</a>
 
 ---
 
+* <a href='#bonobo'>Bonobo</a>
+
+---
+
 * <a href='#db2'>db2</a>
+* <a href='#postgresql'>PostgreSQL</a>
+
+---
+
+* <a href='#raspberrypi'>raspberry Pi</a>
 
 ---
 
@@ -7677,33 +7682,6 @@ MSFT      2.0  232.0  152.735065  124.0  178.00  232.0  286.00  340.0
 
 ---
 
-<h3 id='bonobo'>Bonobo</h3>
-
----
-
-<a href='#'></a>
-
----
-
-<h4 id='boninstall'>Install</h4>
-
-```python
-#install bonobo
-py -m pip install bonobo
-```
-
-```python
-#create simple job
-py -m bonobo init my-etl.py
-```
-
-```python
-ran the first job
-py -m my-etl.py
-```
-
----
-
 <h3 id='oop'>Python OOP</h3>
 
 ```python
@@ -7900,7 +7878,38 @@ yellow
 
 ---
 
+<h3 id='bonobo'>Bonobo</h3>
+
+---
+
+<a href='#'></a>
+
+---
+
+<h4 id='boninstall'>Install</h4>
+
+```python
+#install bonobo
+py -m pip install bonobo
+```
+
+```python
+#create simple job
+py -m bonobo init my-etl.py
+```
+
+```python
+ran the first job
+py -m my-etl.py
+```
+
+---
+
 <h3 id='db2'>DB2</h3>
+
+---
+
+<h3 id='postgresql'>PostgreSQL</h3>
 
 ---
 
