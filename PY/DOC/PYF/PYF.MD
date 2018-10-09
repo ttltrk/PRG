@@ -6517,6 +6517,7 @@ print(np2)
 <h4 id='^^pand'></h4>
 <a href='#panser'>Series</a><br>
 <a href='#pddataframe'>DataFrame</a><br>
+<a href='#missingdata'>Missing data</a><br>
 
 <a href='#^'>^^^</a>
 
@@ -7235,59 +7236,339 @@ G2     1   -0.848077  0.605965
 >>>
 ```
 
-```python
- 
->>>
+<a href='#^^pand'>^^</a><br>
+<a href='#^'>^^^</a>
 
+---
+
+<h4 id='missingdata'>Missing Data</h4>
+
+```python
+import numpy as np
+import pandas as pd
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+print(df)
+
+>>>
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
 >>>
 ```
 
 ```python
- 
->>>
+import numpy as np
+import pandas as pd
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+a1 = df.dropna()
+print(a1)
 
 >>>
-```
-
-```python
- 
->>>
-
->>>
-```
-
-```python
- 
->>>
-
+     A    B  C
+0  1.0  5.0  1
 >>>
 ```
 
 ```python
- 
->>>
+import numpy as np
+import pandas as pd
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+a1 = df.dropna(axis=1)
+print(a1)
 
 >>>
-```
-
-```python
- 
->>>
-
->>>
-```
-
-```python
- 
->>>
-
+   C
+0  1
+1  2
+2  3
 >>>
 ```
 
 ```python
- 
->>>
+import numpy as np
+import pandas as pd
 
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+a1 = df.dropna(thresh=2)
+print(a1)
+
+>>>
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+a1 = df.dropna(thresh=2)
+a2 = df.fillna(value='FILL VALUE')
+print(a2)
+
+>>>
+            A           B  C
+0           1           5  1
+1           2  FILL VALUE  2
+2  FILL VALUE  FILL VALUE  3
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+a1 = df.dropna(thresh=2)
+a2 = df.fillna(value='FILL VALUE')
+a3 = df['A'].fillna(value=df['A'].mean())
+print(a3)
+
+>>>
+0    1.0
+1    2.0
+2    1.5
+Name: A, dtype: float64
+>>>
+```
+
+<a href='#^^pand'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='groupby'>Groupby</h4>
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+>>>
+  Company   Person  Sales
+0    GOOG      Sam    200
+1    GOOG  Charlie    120
+2    MSFT      Amy    340
+3    MSFT  Vanessa    124
+4      FB     Carl    243
+5      FB    Sarah    350
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+a1 = byComp.mean()
+
+print(a1)
+
+>>>
+         Sales
+Company       
+FB       296.5
+GOOG     160.0
+MSFT     232.0
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+
+a1 = byComp.mean()
+a2 = byComp.sum()
+
+print(a2)
+
+>>>
+         Sales
+Company       
+FB         593
+GOOG       320
+MSFT       464
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+
+a1 = byComp.mean()
+a2 = byComp.sum()
+a3 = byComp.std()
+
+print(a3)
+
+>>>
+              Sales
+Company            
+FB        75.660426
+GOOG      56.568542
+MSFT     152.735065
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+
+a1 = byComp.mean()
+a2 = byComp.sum()
+a3 = byComp.std()
+a4 = byComp.sum().loc['FB']
+
+print(a4)
+
+>>>
+Sales    593
+Name: FB, dtype: int64
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+
+a1 = byComp.mean()
+a2 = byComp.sum()
+a3 = byComp.std()
+a4 = byComp.sum().loc['FB']
+a5 = df.groupby('Company').count()
+
+print(a5)
+
+>>>
+         Person  Sales
+Company               
+FB            2      2
+GOOG          2      2
+MSFT          2      2
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+
+a1 = byComp.mean()
+a2 = byComp.sum()
+a3 = byComp.std()
+a4 = byComp.sum().loc['FB']
+a5 = df.groupby('Company').count()
+a6 = df.groupby('Company').max()
+
+print(a6)
+
+>>>
+          Person  Sales
+Company                
+FB         Sarah    350
+GOOG         Sam    200
+MSFT     Vanessa    340
+>>>
+```
+
+```python
+import numpy as np
+import pandas as pd
+
+data = {'Company':['GOOG','GOOG','MSFT','MSFT','FB','FB'],
+        'Person':['Sam','Charlie','Amy','Vanessa','Carl','Sarah'],
+        'Sales':[200,120,340,124,243,350]}
+
+df = pd.DataFrame(data)
+
+byComp = df.groupby('Company')
+
+a1 = byComp.mean()
+a2 = byComp.sum()
+a3 = byComp.std()
+a4 = byComp.sum().loc['FB']
+a5 = df.groupby('Company').count()
+a6 = df.groupby('Company').max()
+a7 = df.groupby('Company').describe()
+
+print(a7)
+
+>>>
+        Sales                                                        
+        count   mean         std    min     25%    50%     75%    max
+Company                                                              
+FB        2.0  296.5   75.660426  243.0  269.75  296.5  323.25  350.0
+GOOG      2.0  160.0   56.568542  120.0  140.00  160.0  180.00  200.0
+MSFT      2.0  232.0  152.735065  124.0  178.00  232.0  286.00  340.0
 >>>
 ```
 
@@ -7311,6 +7592,13 @@ G2     1   -0.848077  0.605965
 ```
 
 ```python
+ 
+>>>
+
+>>>
+```
+
+```python
 
 >>>
 
@@ -7325,7 +7613,42 @@ G2     1   -0.848077  0.605965
 ```
 
 ```python
+ 
+>>>
 
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+ 
+>>>
+
+>>>
+```
+
+```python
+
+>>>
+
+>>>
+```
+
+```python
+ 
 >>>
 
 >>>
