@@ -53,10 +53,6 @@
 
 ---
 
-* <a href='#kivy'>Kivy</a>
-
----
-
 * <a href='#bonobo'>Bonobo</a>
 
 ---
@@ -70,6 +66,7 @@
 
 ---
 
+* <a href='#kivy'>Kivy</a>
 * <a href='#processing'>processing</a>
 
 ---
@@ -8120,16 +8117,6 @@ yellow
 
 ---
 
-<h3 id='kivy'>Kivy</h3>
-
----
-
-<a href='#kivyinstall'>Install</a><br>
-
-<a href='#^'>^^^</a>
-
----
-
 <h3 id='bonobo'>Bonobo</h3>
 
 ---
@@ -8199,6 +8186,16 @@ World
 ---
 
 <h3 id='raspberrypi'>Raspberry Pi</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='kivy'>Kivy</h3>
+
+---
+
+<a href='#kivyinstall'>Install</a><br>
 
 <a href='#^'>^^^</a>
 
