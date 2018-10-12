@@ -53,6 +53,10 @@
 
 ---
 
+* <a href='#kivy'>Kivy</a>
+
+---
+
 * <a href='#bonobo'>Bonobo</a>
 
 ---
@@ -8111,6 +8115,16 @@ yellow
 yellow
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='kivy'>Kivy</h3>
+
+---
+
+<a href='#kivyinstall'>Install</a><br>
 
 <a href='#^'>^^^</a>
 
