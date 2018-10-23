@@ -21,9 +21,9 @@
 
 |F | 1| 2| 3| 4| 5| 6| 7| 8| 9|10|11|12|13|14|15|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|  | x| x| x| x| x| x| x| x| x| x| x| x| x|  |  | 
+|  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| x|RD|RD|RD|RD|RD|RD| x|  |  |  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
@@ -33,6 +33,46 @@
 <a href='#NAV'>NAV</a>
 
 * OCT
+
+  * 23 - Tue (DIR: 1)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 22 - Mon 
+  
+    * RD
+  
+  * 21 - Sun
+  
+    * RD
+  
+  * 20 - Sat
+  
+    * RD
+  
+  * 19 - Fri
+  
+    * RD
+  
+  * 18 - Thu
+  
+    * RD
+  
+  * 17 - Wed 
+
+    * RD
+  
+  * 16 - Tue (DIR: 213)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 15 - Mon (DIR: 212)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 14 - Sun (DIR: 211)
+
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 13 - Sat (DIR: 210)
 
