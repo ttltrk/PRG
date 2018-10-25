@@ -23,16 +23,24 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x|RD|RD|RD|RD|RD|RD| x|  |  |  |  |  |  |  |  |
+| x|RD|RD|RD|RD|RD|RD| x| x| x|  |  |  |  |  |  |
 
 |ST|NU|
 |--|--|
-|WD|13|
-|RD|  |
+|WD|19|
+|RD| 6|
 
 <a href='#NAV'>NAV</a>
 
 * OCT
+
+  * 25 - Thu (DIR: 3)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 24 - Wed (DIR: 2)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 23 - Tue (DIR: 1)
   
