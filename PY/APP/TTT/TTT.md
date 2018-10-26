@@ -139,7 +139,7 @@ while True:
 
              if win_check(the_board,player2_marker):
                  display_board(the_board)
-                 print('Player 1 has won')
+                 print('Player 2 has won')
                  game_on = False
              else:
                  if full_board_check(the_board):
