@@ -8794,7 +8794,7 @@ yellow
 
 ---
 
-* <h3 id='errexc'>errors and exceptions</h3>
+<h3 id='errexc'>errors and exceptions</h3>
 
 ---
 
