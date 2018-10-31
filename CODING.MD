@@ -23,16 +23,40 @@
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |  | x| x| x| x| x| x| x| x| x| x| x| x| x| x| x| 
 |16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31| 
-| x|RD|RD|RD|RD|RD|RD| x| x| x|  |  |  |  |  |  |
+| x|RD|RD|RD|RD|RD|RD| x| x| x| x| x| x| x| x| x|
 
 |ST|NU|
 |--|--|
-|WD|19|
+|WD|25|
 |RD| 6|
 
 <a href='#NAV'>NAV</a>
 
 * OCT
+
+  * 31 - Thu (DIR: 9)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 30 - Thu (DIR: 8)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 29 - Thu (DIR: 7)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 28 - Thu (DIR: 6)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 27 - Thu (DIR: 5)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+
+  * 26 - Thu (DIR: 4)
+  
+    * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
 
   * 25 - Thu (DIR: 3)
   
