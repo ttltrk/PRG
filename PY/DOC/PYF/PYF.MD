@@ -8948,6 +8948,37 @@ I will always run at the end
 >>>
 ```
 
+```python
+try:
+    for i in ['a','b','c']:
+        print(i**2)
+
+except:
+    print('Type error, watch out!')
+
+>>>
+Type error, watch out!
+>>>
+```
+
+```python
+try:
+    x = 5
+    y = 0
+    z = x/y
+
+except:
+    print('error')
+
+finally:
+    print('all done')
+
+>>>
+error
+all done
+>>>
+```
+
 ---
 
 <h3 id='bonobo'>Bonobo</h3>
