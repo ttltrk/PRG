@@ -8979,6 +8979,39 @@ all done
 >>>
 ```
 
+```python
+def ask():
+
+    while True:
+        try:
+            n = int(input('Enter a number: '))
+        except:
+            print('Please try again! \n')
+            continue
+        else:
+            break
+
+    print('Your number squared is: ')
+    print(n**2)
+
+ask()
+
+>>>
+Enter a number: we
+Please try again! 
+
+Enter a number: pe
+Please try again! 
+
+Enter a number: ti
+Please try again! 
+
+Enter a number: 10
+Your number squared is: 
+100
+>>> 
+```
+
 ---
 
 <h3 id='bonobo'>Bonobo</h3>
