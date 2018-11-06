@@ -15,6 +15,8 @@
 
 ---
 
+<!--
+
 ### <h4 id='NAV'>2018 - <a href='#2018_01'>JAN</a> | <a href='#2018_02'>FEB</a> | <a href='#2018_03'>MRC</a> | <a href='#2018_04'>APR</a> | <a href='#2018_05'>MAY</a> | <a href='#2018_06'>JUN</a> | <a href='#2018_07'>JUL</a> | <a href='#2018_08'>AUG</a> | <a href='#2018_09'>SEP</a> | <a href='#2018_10'>OCT</a></h4>
 
 ### <h4 id='2018_10'>2018 - OCT</h4>
@@ -1595,3 +1597,5 @@
       + Checked some old udemy tutorials, and updated [OPyM 1.0](https://github.com/ttltrk/PRG/blob/master/PY/DOC/OPYM/OPYM.MD).
 
 ---
+
+-->
