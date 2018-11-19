@@ -57,6 +57,10 @@
 
 ---
 
+* <a href='#decorators'>decorators</a>
+
+---
+
 * <a href='#bonobo'>Bonobo</a>
 
 ---
