@@ -3018,6 +3018,177 @@ print(len(sts))
 
 ---
 
+```python
+s = set()
+s.add(1)
+s.add(2)
+
+print(s)
+
+>>>
+{1, 2}
+>>>
+```
+
+```python
+s = set()
+s.add(1)
+s.add(2)
+
+print(s)
+s.clear()
+print(s)
+
+>>>
+{1, 2}
+set()
+>>>
+```
+
+```python
+s = {1,2,3}
+
+sc = s.copy()
+s.add(4)
+
+print(s)
+print(sc)
+
+>>>
+{1, 2, 3, 4}
+{1, 2, 3}
+>>>
+```
+
+```python
+s = {1,2,3}
+
+sc = s.copy()
+s.add(4)
+ss = s.difference(sc)
+print(ss)
+
+>>>
+{4}
+>>>
+```
+
+```python
+s1 = {1,2,3}
+s2 = {1,4,5}
+
+s1.difference_update(s2)
+
+print(s1)
+
+>>>
+{2, 3}
+>>>
+```
+
+```python
+s = {1,2,3,4}
+
+s.discard(2)
+
+print(s)
+
+>>>
+{1,2,3}
+>>>
+```
+
+```python
+s1 = {1,2,3}
+s2 = {1,2,4}
+
+s = s1.intersection(s2)
+
+print(s)
+
+>>>
+{1,2}
+>>>
+```
+
+```python
+s1 = {1,2}
+s2 = {1,2,4}
+s3 = {5}
+
+s = s1.isdisjoint(s2)
+ss = s1.isdisjoint(s3)
+
+print(s)
+print(ss)
+
+>>>
+False
+True
+>>>
+```
+
+```python
+s1 = {1,2}
+s2 = {1,2,4}
+s3 = {5}
+
+s = s1.issubset(s2)
+ss = s1.issubset(s3)
+
+print(s)
+print(ss)
+
+>>>
+True
+False
+>>>
+```
+
+```python
+s1 = {1,2,5}
+s2 = {1,2,4}
+s3 = {4,5,6}
+
+s = s1.symmetric_difference(s2)
+ss = s1.symmetric_difference(s3)
+sss = s2.symmetric_difference(s3)
+
+print(s)
+print(ss)
+print(sss)
+
+>>>
+{4, 5}
+{1, 2, 4, 6}
+{1, 2, 5, 6}
+>>>
+```
+
+```python
+s1 = {1,2,5}
+s2 = {1,2,4}
+s3 = {4,5,6}
+
+s = s1.union(s2)
+ss = s1.union(s3)
+sss = s2.union(s3)
+
+print(s)
+print(ss)
+print(sss)
+
+>>>
+{1, 2, 4, 5}
+{1, 2, 4, 5, 6}
+{1, 2, 4, 5, 6}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 <h3 id='dictionary'>Python dictionary</h3>
 
 ```python
