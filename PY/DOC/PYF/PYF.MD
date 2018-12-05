@@ -9645,10 +9645,10 @@ World
 
 <h3 id='tkinter'>Tkinter</h3>
 
-* <a href='#window'></a>Creating window<br>
-* <a href='#addtext'></a>Adding text<br>
-* <a href='#buttons'></a>Buttons<br>
-* <a href='#decbut'></a>Decorating buttons<br>
+* <a href='#window'>Creating window</a><br>
+* <a href='#addtext'>Adding text</a><br>
+* <a href='#buttons'>Buttons</a><br>
+* <a href='#decbut'>Decorating buttons</a><br>
 * <a href='#intbut'>Interactive buttons</a><br>
 
 <a href='#^'>^^^</a>
