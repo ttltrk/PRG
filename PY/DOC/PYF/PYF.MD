@@ -9645,6 +9645,211 @@ World
 
 <h3 id='tkinter'>Tkinter</h3>
 
+* <a href='#window'></a>Creating window<br>
+* <a href='#addtext'></a>Adding text<br>
+* <a href='#buttons'></a>Buttons<br>
+* <a href='#decbut'></a>Decorating buttons<br>
+* <a href='#intbut'>Interactive buttons</a><br>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='window'>Creating window</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+root.mainloop()
+
+>>>
+G first window
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='addtext'>Adding text</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+amazing_label = Label(root,text='Amazing!')
+amazing_label.pack()
+root.mainloop()
+
+>>>
+G window with label Amazing
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+amazing_label = Label(root,text='Amazing!')
+label_2 = Label(root,text='And still...')
+
+amazing_label.pack()
+label_2.pack()
+root.mainloop()
+
+>>>
+G window with label Amazing and with And still
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='buttons'>Buttons</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+fun_button = Button(root,text='click me')
+fun_button.pack()
+
+root.mainloop()
+
+>>>
+simple button with click me
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+fun_button = Button(root,text='click me')
+fun_button.pack(side=LEFT)
+#fun_button.pack(side=RIGHT)
+#fun_button.pack(side=TOP)
+#fun_button.pack(side=BOTTOM)
+
+root.mainloop()
+
+>>>
+the button is on the left/right/top/bottom side
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+lb1 = Label(root,text='lil label')
+fun_button = Button(root,text='click me')
+
+lb1.pack(side=RIGHT)
+fun_button.pack(side=LEFT)
+
+root.mainloop()
+
+>>>
+the button is on the left and the label is on the right side
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='decbut'>Decorating Buttons</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+bt1 = Button(root,text='I am a button',padx=200)
+bt1.pack()
+
+root.mainloop()
+
+>>>
+button with padding x is 200
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+bt1 = Button(root,text='I am a button',pady=200)
+bt1.pack()
+
+root.mainloop()
+
+>>>
+button with padding y is 200
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+bt1 = Button(root,text='I am a button',padx=100,pady=100,fg='blue')
+bt1.pack()
+
+root.mainloop()
+
+>>>
+button with blue text
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+bt1 = Button(root,text='I am a button',padx=100,pady=100,fg='blue',bg='green')
+bt1.pack()
+
+root.mainloop()
+
+>>>
+button with blue text and with green background
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='intbut'>Interactive Buttons</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def btn():
+    print('the button has been clicked')
+
+bt1 = Button(root,text='click me',command=btn)
+bt1.pack()
+
+root.mainloop()
+
+>>>
+button with command 'button has been clicked'
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
