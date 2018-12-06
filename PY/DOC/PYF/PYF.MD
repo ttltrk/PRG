@@ -9850,6 +9850,204 @@ button with command 'button has been clicked'
 >>>
 ```
 
+```python
+from tkinter import *
+
+root = Tk()
+
+def btn():
+    bt1.config(text='oh no, I;ve been clicked')
+
+bt1 = Button(root,text='click me',command=btn)
+bt1.pack()
+
+root.mainloop()
+
+>>>
+button after click will be change the text
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def btn():
+    bt1.config(text='oh no, Ive been clicked', fg='red')
+
+bt1 = Button(root,text='click me',command=btn)
+bt1.pack()
+
+root.mainloop()
+
+>>>
+same as above, just with red text
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def btn():
+    bt1.pack(side=LEFT)
+
+bt1 = Button(root,text='click me',command=btn)
+bt1.pack()
+
+root.mainloop()
+
+>>>
+after click moved to the left side
+>>>
+```
+
+<h4 id='tk_userinput'>User input</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def name_submit():
+    print("your name is: {}".format(e1.get()))
+
+label1 = Label(root,text='whats your name?')
+e1 = Entry(root)
+btn1 = Button(root,text='submit',command=name_submit())
+
+label1.pack()
+e1.pack()
+btn1.pack()
+
+root.mainloop()
+
+>>>
+user input with name
+>>>
+```
+
+<h4 id='tk_frames'>Frames</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+frame1 = Frame(root)
+frame2 = Frame(root)
+
+label1 = Label(frame1,text='Iam in frame one')
+button1 = Button(frame1,text='Im frame 1 too')
+
+label2 = Label(frame2,text='Iam in frame 22')
+button2 = Button(frame2,text='Im frame 2 too')
+
+frame1.pack()
+frame2.pack(side=BOTTOM)
+label1.pack(side=LEFT)
+label2.pack(side=RIGHT)
+button1.pack()
+button2.pack()
+
+root.mainloop()
+
+>>>
+separate the labels and buttons top and bottom, left and right
+>>>
+```
+
+<h4 id='tk_title'>Adding a title</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+root.title("window")
+
+root.mainloop()
+
+>>>
+window title - window
+>>>
+```
+
+<h4 id='tk_icon'>Adding an icon</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+root.title("icon test")
+root.iconbitmap("C:\\path\\path\\favicon.ico")
+
+root.mainloop()
+
+>>>
+icon in the title bar
+>>>
+```
+
+<h4 id='tk_images'>Adding images</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+photo = PhotoImage(file="C:\\path\\path\\blabla.gif")
+w = Label(root,image=photo)
+w.pack()
+
+root.mainloop()
+
+>>>
+open images
+>>>
+```
+
+<h4 id='tk_defsize'>Default size of the window</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+root.geometry("500x500")
+
+root.mainloop()
+
+>>>
+creating window with 500x500
+>>>
+```
+
+<h4 id='tk_fill'>Fill</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+label1 = Label(root,text='Red', bg='red')
+label2 = Label(root,text='Green', bg='green')
+label3 = Label(root,text='Blue', bg='blue')
+
+label1.pack(fill=X)
+label2.pack(fill=X)
+label3.pack(fill=X)
+
+root.mainloop()
+
+>>>
+3 labels red, green, blue
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
