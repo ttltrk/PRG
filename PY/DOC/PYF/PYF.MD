@@ -97,7 +97,7 @@ set	= {'a','b'}
 bool	= True, False
 ```
 
-<a href='#^'>^^^</a>
+<a href='#^'>Python menu</a>
 
 ---
 
@@ -114,7 +114,7 @@ bool	= True, False
 * <a href='#memops'>membership operators</a><br>
 * <a href='#bitops'>bitwise operators</a>
 
-<a href='#^'>^^^</a>
+<a href='#^'>Python menu</a>
 
 ---
 
@@ -131,8 +131,8 @@ Operator	Name		Example	Try it
 //		Floor division	x // y
 ```
 
-<a href='#^^ops'>^^</a><br>
-<a href='#^'>^^^</a>
+<a href='#^^ops'>Operators menu</a><br>
+<a href='#^'>Python menu</a>
 
 ---
 
