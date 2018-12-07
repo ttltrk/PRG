@@ -9650,17 +9650,17 @@ World
 * <a href='#buttons'>Buttons</a><br>
 * <a href='#decbut'>Decorating buttons</a><br>
 * <a href='#intbut'>Interactive buttons</a><br>
-* <a href='#'tk_userinput'>User input</a><br>
-* <a href='#'tk_frames'>Frames</a><br>
-* <a href='#'tk_title'>Adding a title</a><br>
-* <a href='#'tk_icon'>Adding an icon</a><br>
-* <a href='#'tk_images'>Adding images</a><br>
-* <a href='#'tk_defsize'>Default size of the window</a><br>
-* <a href='#'tk_fill'>Fill</a><br>
-* <a href='#'tk_usinggrid'>using grid</a><br>
-* <a href='#'tk_aligning'>aligning</a><br>
-* <a href='#'tk_spanningcolumns'>spanning columns</a><br>
-* <a href='#'tk_bindingfunctions'>binding functions</a><br>
+* <a href='#tk_userinput'>User input</a><br>
+* <a href='#tk_frames'>Frames</a><br>
+* <a href='#tk_title'>Adding a title</a><br>
+* <a href='#tk_icon'>Adding an icon</a><br>
+* <a href='#tk_images'>Adding images</a><br>
+* <a href='#tk_defsize'>Default size of the window</a><br>
+* <a href='#tk_fill'>Fill</a><br>
+* <a href='#tk_usinggrid'>using grid</a><br>
+* <a href='#tk_aligning'>aligning</a><br>
+* <a href='#tk_spanningcolumns'>spanning columns</a><br>
+* <a href='#tk_bindingfunctions'>binding functions</a><br>
 
 <a href='#^'>^^^</a>
 
