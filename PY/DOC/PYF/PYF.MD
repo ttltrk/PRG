@@ -9916,7 +9916,7 @@ def name_submit():
 
 label1 = Label(root,text='whats your name?')
 e1 = Entry(root)
-btn1 = Button(root,text='submit',command=name_submit())
+btn1 = Button(root,text='submit',command=name_submit)
 
 label1.pack()
 e1.pack()
@@ -10045,6 +10045,126 @@ root.mainloop()
 
 >>>
 3 labels red, green, blue
+>>>
+```
+
+<h4 id='tk_usinggrid'>using grid</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+mail_label = Label(root,text='mail:')
+password_label = Label(root,text='pwd:')
+
+mail_entry = Entry(root)
+password_entry = Entry(root)
+
+mail_label.grid(row=0,column=0)
+mail_entry.grid(row=0,column=1)
+password_label.grid(row=1,column=0)
+password_entry.grid(row=1,column=1)
+
+root.mainloop()
+```
+
+<h4 id='tk_aligning'>aligning</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+label_1 = Label(root,text="mail:")
+label_2 = Label(root,text="password:")
+
+entry_1 = Entry(root)
+entry_2 = Entry(root)
+
+label_1.grid(row=0,column=0,sticky=E)
+label_2.grid(row=1,column=0)
+
+entry_1.grid(row=0,column=1,pady=100)
+entry_2.grid(row=1,column=1,ipady=200)
+
+root.mainloop()
+```
+
+<h4 id='tk_spanningcolumns'>spanning columns</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+check = Checkbutton(root)
+label1 = Label(root,text='keep me logged in')
+
+check.grid(row=0,column=0)
+label1.grid(row=1,column=0,columnspan=2)
+
+root.mainloop()
+
+>>>
+checkbutton config
+>>>
+```
+
+<h4 id='tk_bindingfunctions'>binding functions</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def button_clicked(event):
+    print('great click')
+
+button1 = Button(root,text='Click me')
+button1.bind('<Button-1>',button_clicked)
+button1.pack()
+
+root.mainloop()
+
+>>>
+after click - event
+>>>
+```
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def button_clicked(event):
+    print('great click')
+
+def key_pressed(event):
+    print('I see you key pressed')
+
+root.bind('<Key>',key_pressed)
+
+button1 = Button(root,text='Click me')
+button1.bind('<Button-1>',button_clicked)
+button1.pack()
+
+root.mainloop()
+
+>>>
+great click
+great click
+great click
+great click
+I see you key pressed
+I see you key pressed
+I see you key pressed
+I see you key pressed
+I see you key pressed
+I see you key pressed
+I see you key pressed
+I see you key pressed
+I see you key pressed
 >>>
 ```
 
