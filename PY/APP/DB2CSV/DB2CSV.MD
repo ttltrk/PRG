@@ -9,12 +9,6 @@
 
 ---
 
-* [DB2](https://www.ibm.com/support/knowledgecenter/en/SSEPGG_9.5.0/com.ibm.db2.luw.apdv.python.doc/doc/t0054388.html)
-* [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
-* [NumPy](https://docs.scipy.org/doc/numpy/index.html)
-
----
-
 ```python
 import csv
 import ibm_db
