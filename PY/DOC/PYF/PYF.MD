@@ -9915,6 +9915,10 @@ after click moved to the left side
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='tk_userinput'>User input</h4>
 
 ```python
@@ -9939,6 +9943,10 @@ root.mainloop()
 user input with name
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 <h4 id='tk_frames'>Frames</h4>
 
@@ -9970,6 +9978,10 @@ separate the labels and buttons top and bottom, left and right
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='tk_title'>Adding a title</h4>
 
 ```python
@@ -9985,6 +9997,10 @@ root.mainloop()
 window title - window
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 <h4 id='tk_icon'>Adding an icon</h4>
 
@@ -10003,6 +10019,10 @@ icon in the title bar
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='tk_images'>Adding images</h4>
 
 ```python
@@ -10020,6 +10040,10 @@ root.mainloop()
 open images
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 <h4 id='tk_defsize'>Default size of the window</h4>
 
@@ -10059,6 +10083,10 @@ root.mainloop()
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='tk_usinggrid'>using grid</h4>
 
 ```python
@@ -10079,6 +10107,10 @@ password_entry.grid(row=1,column=1)
 
 root.mainloop()
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 <h4 id='tk_aligning'>aligning</h4>
 
@@ -10102,6 +10134,10 @@ entry_2.grid(row=1,column=1,ipady=200)
 root.mainloop()
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='tk_spanningcolumns'>spanning columns</h4>
 
 ```python
@@ -10121,6 +10157,10 @@ root.mainloop()
 checkbutton config
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
 
 <h4 id='tk_bindingfunctions'>binding functions</h4>
 
