@@ -18,7 +18,12 @@ import pandas as pd
 import sqlalchemy
 
 def db2select():
-    conn = ibm_db.pconnect("DATABASE=dbname;HOSTNAME=host.com;PORT=portnum;PROTOCOL=TCPIP;UID=user;PWD=pwd;", "", "")
+    conn = ibm_db.pconnect("DATABASE=dbname;
+                            HOSTNAME=host.com;
+                            PORT=portnum;
+                            PROTOCOL=TCPIP;
+                            UID=user;
+                            PWD=pwd;", "", "")
     sql = "SELECT * FROM temp"
     stmt = ibm_db.exec_immediate(conn, sql)
     tuple = ibm_db.fetch_tuple(stmt)
