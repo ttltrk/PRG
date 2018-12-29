@@ -9670,6 +9670,15 @@ World
 * <a href='#entins'>entry insert</a><br>
 * <a href='#tkdrws'>drawings</a><br>
 * <a href='#tkpaint'>creating a basic paint program</a><br>
+* <a href='#tkscale'>scale</a><br>
+* <a href='#tkstorescale'>storing scale inputs</a><br>
+* <a href='#tktheapp'>thermostat app</a><br>
+* <a href='#tkmessagebox'>messagebox</a><br>
+* <a href='#tkwindowcolour'>window colour</a><br>
+* <a href='#tkdycrwi'>dynamically creating widgets</a><br>
+* <a href='#tkdystywi'>dynamically styling widgets</a><br>
+* <a href='#tkguessgame'>guess game</a><br>
+* <a href='#tkguessgamepp'>guess game++</a><br>
 
 <a href='#^'>^^^</a>
 
@@ -10782,6 +10791,265 @@ root.mainloop()
 >>>
 basic paint program
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkscale'>scale</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+scale = Scale(root,from_=20,to=200,orient=HORIZONTAL)
+scale.pack()
+
+root.mainloop()
+
+>>>
+creating a scale
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkstorescale'>storing scale inputs</h4>
+
+from tkinter import *
+
+root = Tk()
+
+def store_scale():
+    score = scale.get()
+    print(score)
+
+    if score > 50:
+        print('more than 50')
+
+
+scale = Scale(root)
+scale.pack()
+
+button1 = Button(root,text='enter',command=store_scale)
+button1.pack()
+
+root.mainloop()
+
+>>>
+print out the scale input
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tktheapp'>thermostat app</h4>
+
+```python
+from tkinter import *
+
+root = Tk()
+
+def change_temp():
+    temp = thermostat.get()
+
+    if temp < 10:
+        print('coldddd')
+    elif temp > 50 and temp < 89:
+        print('warning, high temp')
+    elif temp > 90:
+        print('upppps HOOOOOOT')
+
+thermostat = Scale(root)
+warning = Label(root,text='this is your thermostat, take care')
+warning.pack()
+thermostat.pack()
+
+button1 = Button(root,text='change temp',command=change_temp)
+button1.pack()
+
+root.mainloop()
+
+>>>
+making a thermostat app
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkmessagebox'>messagebox</h4>
+
+```python
+from tkinter import *
+from tkinter import messagebox
+root = Tk()
+
+def error_message():
+    messagebox.showinfo('this is an error')
+
+button1 = Button(root,text='donot click me',command=error_message)
+button1.pack()
+
+root.mainloop()
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkwindowcolour'>window colour</h4>
+
+```python
+#window colour
+from tkinter import *
+
+root = Tk()
+
+root.configure(bg='blue')
+
+root.mainloop()
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkdycrwi'>dynamically creating widgets</h4>
+
+```python
+#dynamically creating widgets
+from tkinter import *
+
+root = Tk()
+
+colours = ['red','green','blue']
+
+for colour in colours:
+    button = Button(root,text=colour)
+    button.pack(side=LEFT)
+
+root.mainloop()
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkdystywi'>dynamically styling widgets</h4>
+
+```python
+#dynamically styling widgets
+from tkinter import *
+
+root = Tk()
+
+colour_list = ['red','green','blue','yellow','black']
+country_list = ['UK', 'Portugal', 'Spain', 'US', 'Germany']
+
+for i in range(5):
+    button = Button(root,text=country_list[i],bg=colour_list[i])
+    button.pack(side=LEFT)
+
+root.mainloop()
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkguessgame'>guess game</h4>
+
+```python
+#guess game
+from tkinter import *
+import random
+
+root = Tk()
+
+x_coord = random.randint(0,200)
+y_coord = random.randint(0,200)
+
+def guess(event):
+    print('you clicked at x: {} y: {}. You are {} away from x and {} from y'
+          .format(event.x,event.y,abs(event.x-x_coord),abs(event.y-y_coord)))
+    if abs(event.x-x_coord) < 5 and abs(event.y-y_coord) < 5:
+        print('YOU HAVE FOUND THE TREAAASUREE')
+        welcome_label.config(text='you have won')
+
+welcome_label = Label(root,text='click on the map to search for treasure')
+myframe = Frame(root,bg='yellow',height=200,width=200)
+
+myframe.bind('<Button-1>',guess)
+
+welcome_label.pack()
+myframe.pack()
+
+root.mainloop()
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='tkguessgamepp'>guess game++</h4>
+
+```python
+#guess game++
+from tkinter import *
+import random
+
+root = Tk()
+
+root.title('yar or nar')
+
+x_coord = random.randint(0,200)
+y_coord = random.randint(0,200)
+button_counter = 1
+counter = 1
+
+def guess(event):
+    global counter
+    counter += 1
+    if counter >= 10:
+        global button_counter
+        if button_counter == 1:
+            button1 = Button(root,text='use parrot')
+            button1.bind('<Button-1>',parrot)
+            button1.pack()
+
+    print('you clicked at x: {} y: {}. You are {} away from x and {} from y'
+          .format(event.x,event.y,abs(event.x-x_coord),abs(event.y-y_coord)))
+    if abs(event.x-x_coord) < 5 and abs(event.y-y_coord) < 5:
+        print('YOU HAVE FOUND THE TREAAASUREE')
+        welcome_label.config(text='you have won!Guess: {}'.format(counter))
+
+def parrot(event):
+    print('parrot search')
+    global button_counter
+    button_counter -= 1
+    print('you clicked at x: {} y: {}. You are {} away from x and {} from y'
+          .format(event.x, event.y, abs(event.x - x_coord), abs(event.y - y_coord)))
+    if abs(event.x - x_coord) < 10 and abs(event.y - y_coord) < 10:
+        print('YOU HAVE FOUND THE TREAAASUREE')
+        welcome_label.config(text='you have won!Guess: {}'.format(counter))
+
+welcome_label = Label(root,text='click on the map to search for treasure')
+myframe = Frame(root,bg='yellow',height=200,width=200)
+
+myframe.bind('<Button-1>',guess)
+
+welcome_label.pack()
+myframe.pack()
+
+root.mainloop()
 ```
 
 <a href='#^'>^^^</a>
