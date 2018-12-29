@@ -10820,6 +10820,7 @@ creating a scale
 
 <h4 id='tkstorescale'>storing scale inputs</h4>
 
+```python
 from tkinter import *
 
 root = Tk()
