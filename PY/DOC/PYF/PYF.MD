@@ -8155,7 +8155,7 @@ import os
 print(os.getcwd())
 
 >>>
-C:\Users\AttilaTorok\Desktop\ADM\MM\PY\UDEMY
+C:\path\path
 >>>
 ```
 
@@ -8169,14 +8169,14 @@ C:\Users\AttilaTorok\Desktop\ADM\MM\PY\UDEMY
 import openpyxl
 import os
 
-path='C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx'
+path='C:/path/path/op_test.xlsx'
 wb = openpyxl.load_workbook('op_test.xlsx')
 print(type(wb))
 print(path)
 
 >>>
 <class 'openpyxl.workbook.workbook.Workbook'>
-C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx
+C:/path/path/op_test.xlsx
 >>>
 ```
 
@@ -8184,7 +8184,7 @@ C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx
 import openpyxl
 import os
 
-wb=openpyxl.load_workbook('C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx')
+wb=openpyxl.load_workbook('C:/path/path/op_test.xlsx')
 
 print(wb.sheetnames)
 
@@ -8203,7 +8203,7 @@ print(wb.sheetnames)
 import openpyxl
 import os
 
-wb=openpyxl.load_workbook('C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx')
+wb=openpyxl.load_workbook('C:/path/path/op_test.xlsx')
 wb.sheetnames
 sheet = wb['employee_data']
 
@@ -8218,7 +8218,7 @@ employee_data
 import openpyxl
 import os
 
-wb=openpyxl.load_workbook('C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx')
+wb=openpyxl.load_workbook('C:/path/path/op_test.xlsx')
 wb.sheetnames
 sheet = wb['employee_data']
 
@@ -8237,11 +8237,11 @@ max column:  4
 import openpyxl
 import os
 
-wb=openpyxl.load_workbook('C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx')
+wb=openpyxl.load_workbook('C:/path/path/op_test.xlsx')
 wb.sheetnames
 sheet = wb['employee_data']
 sheet.title='NewTitle'
-wb.save('C:/Users/AttilaTorok/Desktop/ADM/MM/PY/UDEMY/op_test.xlsx')
+wb.save('C:/path/path/op_test.xlsx')
 
 print('title of the table: ', sheet.title)
 print('max row: ', sheet.max_row)
@@ -8259,8 +8259,6 @@ max column:  4
 ---
 
 <h3 id='oop'>Python OOP</h3>
-
----
 
 ```python
 class NameOfClass():
