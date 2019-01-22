@@ -18,34 +18,10 @@
 * [OOP](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
 * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/Pack.MD)
 * [Errors](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ERR/ERR.MD)
-
----
-
-* [ETL]()
-
-* <a href='#bonobo'>Bonobo</a>
-
----
-
-* [DB]()
-
-* <a href='#db2'>db2</a>
-* <a href='#postgresql'>PostgreSQL</a>
-
----
-
-* [HW]()
-
-* <a href='#raspberrypi'>raspberry Pi</a>
-
----
-
-* [Front end]()
-
-* [Django]()
-* <a href='#kivy'>Kivy</a>
-* <a href='#tkinter'>Tkinter</a>
-* <a href='#processing'>processing</a>
+* [ETL](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ETL/ETL.MD)
+* [DB](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DB/DB.MD)
+* [HW](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/HW/HW.MD)
+* [Front end](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FrontEnd/FE.MD)
 
 ---
 
