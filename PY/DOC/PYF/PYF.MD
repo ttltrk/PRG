@@ -16,16 +16,7 @@
 * [Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/DS.MD)
 * [Control Flow](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/CF.MD)
 * [OOP](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
-
----
-
-* [Packages]()
-
-* <a href='#mopali'>modules, packages, libs</a>
-* <a href='#numpy'>NumPy</a>
-* <a href='#pandas'>Pandas</a>
-* <a href='#openpyxl'>Openpyxl</a>
-* <a href='#files'>files</a>
+* [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/Pack.MD)
 
 ---
 
