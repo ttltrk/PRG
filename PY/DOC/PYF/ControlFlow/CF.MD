@@ -17,5 +17,7 @@
 * <a href='#while'>while</a>
 * <a href='#functions'>functions</a>
 * <a href='#lambda'>lambda</a>
+* <a href='#decorators'>decorators</a>
+* <a href='#generators'>generators</a>
 
 ---
