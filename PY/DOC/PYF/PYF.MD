@@ -13,23 +13,7 @@
 
 ---
 
-* [Data Structures]()
-
-* <a href='#dattyp'>data types</a>
-* <a href='#operators'>operators</a>
-* <a href='#comments'>comments</a>
-* <a href='#numbers'>numbers</a>
-* <a href='#strings'>strings</a>
-* <a href='#stringmeth'>string methods</a>
-* <a href='#variables'>variables</a>
-* <a href='#printform'>print formatting</a>
-* <a href='#lists'>list</a>
-* <a href='#list_methods'>list methods</a>
-* <a href='#list_comprehensions'>list comprehensions</a>
-* <a href='#tuples'>tuples</a>
-* <a href='#tupmeth'>tuple methods</a>
-* <a href='#sets'>sets</a>
-* <a href='#dictionary'>dictionary</a>
+* [Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/DS.MD)
 
 ---
 
