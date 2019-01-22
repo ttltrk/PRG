@@ -15,8 +15,8 @@
 
 * [data types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/DaTy/DT.MD)
 * [operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/OP/OP.MD)
-* <a href='#comments'>comments</a>
-* <a href='#numbers'>numbers</a>
+* [comments](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/COMM/COMM.MD)
+* [numbers](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Nums/Nums.MD)
 * <a href='#strings'>strings</a>
 * <a href='#stringmeth'>string methods</a>
 * <a href='#variables'>variables</a>
