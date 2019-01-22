@@ -14,7 +14,7 @@
 ---
 
 * [data types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/DaTy/DT.MD)
-* <a href='#operators'>operators</a>
+* [operators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/OP/OP.MD)
 * <a href='#comments'>comments</a>
 * <a href='#numbers'>numbers</a>
 * <a href='#strings'>strings</a>
