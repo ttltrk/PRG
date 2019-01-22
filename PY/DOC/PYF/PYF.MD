@@ -17,10 +17,7 @@
 * [Control Flow](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/CF.MD)
 * [OOP](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/OOP/OOP.MD)
 * [Packages](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/Pack.MD)
-
----
-
-* <a href='#errexc'>errors and exceptions</a>
+* [Errors](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ERR/ERR.MD)
 
 ---
 
@@ -42,9 +39,13 @@
 
 ---
 
+* [HW]()
+
 * <a href='#raspberrypi'>raspberry Pi</a>
 
 ---
+
+* [Front end]()
 
 * <a href='#kivy'>Kivy</a>
 * <a href='#tkinter'>Tkinter</a>
