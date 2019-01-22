@@ -25,6 +25,4 @@ set	= {'a','b'}
 bool	= True, False
 ```
 
-<a href='#^'>^^^</a>
-
 ---
