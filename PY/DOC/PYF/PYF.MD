@@ -14,16 +14,7 @@
 ---
 
 * [Data Structures](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/DS.MD)
-
----
-
 * [Control Flow]()
-
-* <a href='#if..else'>if..else</a>
-* <a href='#for'>for</a>
-* <a href='#while'>while</a>
-* <a href='#functions'>functions</a>
-* <a href='#lambda'>lambda</a>
 
 ---
 
