@@ -13,7 +13,7 @@
 
 ---
 
-* <a href='#dattyp'>data types</a>
+* [data types](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/DaTy/DT.MD)
 * <a href='#operators'>operators</a>
 * <a href='#comments'>comments</a>
 * <a href='#numbers'>numbers</a>
