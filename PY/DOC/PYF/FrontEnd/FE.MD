@@ -13,7 +13,7 @@
 
 ---
 
-* [Django]()
+* [Django](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/FrontEnd/DJANGO/DJ.MD)
 * <a href='#kivy'>Kivy</a>
 * <a href='#tkinter'>Tkinter</a>
 * <a href='#processing'>processing</a>
