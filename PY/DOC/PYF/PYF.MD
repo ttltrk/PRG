@@ -21,11 +21,6 @@
 
 ---
 
-* <a href='#decorators'>decorators</a>
-* <a href='#generators'>generators</a>
-
----
-
 * [ETL]()
 
 * <a href='#bonobo'>Bonobo</a>
@@ -47,6 +42,7 @@
 
 * [Front end]()
 
+* [Django]()
 * <a href='#kivy'>Kivy</a>
 * <a href='#tkinter'>Tkinter</a>
 * <a href='#processing'>processing</a>
