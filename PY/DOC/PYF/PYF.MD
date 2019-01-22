@@ -13,6 +13,8 @@
 
 ---
 
+* [Data Structures]()
+
 * <a href='#dattyp'>data types</a>
 * <a href='#operators'>operators</a>
 * <a href='#comments'>comments</a>
@@ -21,10 +23,6 @@
 * <a href='#stringmeth'>string methods</a>
 * <a href='#variables'>variables</a>
 * <a href='#printform'>print formatting</a>
-* <a href='#files'>files</a>
-
----
-
 * <a href='#lists'>list</a>
 * <a href='#list_methods'>list methods</a>
 * <a href='#list_comprehensions'>list comprehensions</a>
@@ -35,6 +33,8 @@
 
 ---
 
+* [Control Flow]()
+
 * <a href='#if..else'>if..else</a>
 * <a href='#for'>for</a>
 * <a href='#while'>while</a>
@@ -43,14 +43,19 @@
 
 ---
 
+* [OOP]()
+
+* <a href='#oop'>oop</a>
+
+---
+
+* [Packages]()
+
 * <a href='#mopali'>modules, packages, libs</a>
 * <a href='#numpy'>NumPy</a>
 * <a href='#pandas'>Pandas</a>
 * <a href='#openpyxl'>Openpyxl</a>
-
----
-
-* <a href='#oop'>oop</a>
+* <a href='#files'>files</a>
 
 ---
 
@@ -63,9 +68,13 @@
 
 ---
 
+* [ETL]()
+
 * <a href='#bonobo'>Bonobo</a>
 
 ---
+
+* [DB]()
 
 * <a href='#db2'>db2</a>
 * <a href='#postgresql'>PostgreSQL</a>
