@@ -13,8 +13,6 @@
 
 ---
 
----
-
 ```python
 #python data types
 int	= 3, 300, 201
