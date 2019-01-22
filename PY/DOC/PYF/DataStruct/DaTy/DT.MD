@@ -12,3 +12,21 @@
 <h3 id='^'>Python - Data Structures - Data Types</h3>
 
 ---
+
+---
+
+```python
+#python data types
+int	= 3, 300, 201
+float	= 2.3, 4.5, 100.0
+str	= 'hello', "Sammy", '2000'
+list	= [10, 'hello', 200.3]
+dict	= {'key':'value', 'name':'Frankie'}
+tup	= (10, 'hello', 200.3)
+set	= {'a','b'}
+bool	= True, False
+```
+
+<a href='#^'>^^^</a>
+
+---
