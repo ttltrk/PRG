@@ -20,7 +20,7 @@
 * [strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Str/Str.MD)
 * [string methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/StrMe/StrMe.MD)
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Var/Var.MD)
-* <a href='#printform'>print formatting</a>
+* [print formatting](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/PrFo/PrFo.MD)
 * <a href='#lists'>list</a>
 * <a href='#list_methods'>list methods</a>
 * <a href='#list_comprehensions'>list comprehensions</a>
