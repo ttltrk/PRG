@@ -24,7 +24,7 @@
 * [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Lists/Lists.MD)
 * [list methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiMe/LiMe.MD)
 * [list comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiCo/LiCo.MD)
-* <a href='#tuples'>tuples</a>
+* [tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Tup/Tup.MD)
 * <a href='#tupmeth'>tuple methods</a>
 * <a href='#sets'>sets</a>
 * <a href='#dictionary'>dictionary</a>
