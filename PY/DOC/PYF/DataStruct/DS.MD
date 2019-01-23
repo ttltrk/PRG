@@ -27,6 +27,6 @@
 * [tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Tup/Tup.MD)
 * [tuple methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/TuMe/TuMe.MD)
 * [sets](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Sets/Sets.MD)
-* <a href='#dictionary'>dictionary</a>
+* [dictionary](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Dict/Dict.MD)
 
 ---
