@@ -22,7 +22,7 @@
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Var/Var.MD)
 * [print formatting](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/PrFo/PrFo.MD)
 * [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Lists/Lists.MD)
-* <a href='#list_methods'>list methods</a>
+* [list methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiMe/LiMe.MD)
 * <a href='#list_comprehensions'>list comprehensions</a>
 * <a href='#tuples'>tuples</a>
 * <a href='#tupmeth'>tuple methods</a>
