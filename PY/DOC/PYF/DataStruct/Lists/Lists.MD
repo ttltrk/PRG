@@ -13,8 +13,6 @@
 
 ---
 
----
-
 * <a href='#listtostr'>list to string</a><br>
 * <a href='#listtotup'>list to tuple</a><br>
 * <a href='#listtodict'>list to dictionary</a>
