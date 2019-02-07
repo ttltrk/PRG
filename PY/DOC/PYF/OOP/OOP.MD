@@ -711,4 +711,78 @@ Feat6 is working
 >>>
 ```
 
+```python
+class A:
+
+    def Feat1(self):
+        print("Feat1 is working")
+
+    def Feat2(self):
+        print("Feat2 is working")
+
+class B():
+
+    def Feat3(self):
+        print("Feat3 is working")
+
+    def Feat4(self):
+        print("Feat4 is working")
+
+class C(A,B):
+
+    def Feat5(self):
+        print("Feat5 is working")
+
+    def Feat6(self):
+        print("Feat6 is working")
+
+a1 = A()
+b1 = B()
+c1 = C()
+
+print('------------ \n')
+print('A class: \n')
+a1.Feat1()
+a1.Feat2()
+print('\n ------------ \n')
+print('B class: \n')
+b1.Feat3()
+b1.Feat4()
+print('\n ------------ \n')
+print('C class: \n')
+c1.Feat1()
+c1.Feat2()
+c1.Feat3()
+c1.Feat4()
+c1.Feat5()
+c1.Feat6()
+
+>>>
+------------ 
+
+A class: 
+
+Feat1 is working
+Feat2 is working
+
+ ------------ 
+
+B class: 
+
+Feat3 is working
+Feat4 is working
+
+ ------------ 
+
+C class: 
+
+Feat1 is working
+Feat2 is working
+Feat3 is working
+Feat4 is working
+Feat5 is working
+Feat6 is working
+>>>
+```
+
 ---
