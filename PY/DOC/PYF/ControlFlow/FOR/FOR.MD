@@ -21,11 +21,11 @@
 <a href ='#itestr'>Iterate a string</a><br>
 <a href ='#itetup'>Iterate tuples</a><br>
 <a href ='#itedic'>Iterate dictionary</a><br>
-<a href ='#forran'>for with range()</a><br><br>
-<a href ='#passfor'>pass for</a>
-<a href ='#confor'>continue for</a>
-<a href ='#brkfor'>break for</a>
-<a href ='#enufor'>enumerate for</a>
+<a href ='#forran'>for with range()</a><br>
+<a href ='#passfor'>pass for</a><br>
+<a href ='#confor'>continue for</a><br>
+<a href ='#brkfor'>break for</a><br>
+<a href ='#enufor'>enumerate for</a><br>
 <a href='#^'>^^^</a>
 
 ---
