@@ -13,7 +13,6 @@
 
 ---
 
----
 <h4 id='^^for'></h4>
 <a href ='#basscr'>Basic script</a><br>
 <a href ='#odevnu'>Odd and Even numbers</a><br>
