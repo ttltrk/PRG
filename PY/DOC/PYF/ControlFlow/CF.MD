@@ -12,7 +12,7 @@
 
 ---
 
-* <a href='#if..else'>if..else</a>
+* [if..else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/IFELSE/IFELSE.MD)
 * <a href='#for'>for</a>
 * <a href='#while'>while</a>
 * <a href='#functions'>functions</a>
