@@ -14,7 +14,7 @@
 
 * [if..else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/IFELSE/IFELSE.MD)
 * [for](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/FOR/FOR.MD)
-* <a href='#while'>while</a>
+* [while](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/WHILE/WHILE.MD)
 * <a href='#functions'>functions</a>
 * <a href='#lambda'>lambda</a>
 * <a href='#decorators'>decorators</a>
