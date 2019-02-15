@@ -15,7 +15,7 @@
 * [if..else](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/IFELSE/IFELSE.MD)
 * [for](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/FOR/FOR.MD)
 * [while](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/WHILE/WHILE.MD)
-* <a href='#functions'>functions</a>
+* [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/FUNCTIONS/FUNCTIONS.MD)
 * <a href='#lambda'>lambda</a>
 * <a href='#decorators'>decorators</a>
 * <a href='#generators'>generators</a>
