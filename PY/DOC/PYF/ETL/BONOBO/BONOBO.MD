@@ -12,3 +12,67 @@
 <h3 id='^'>Python - ETL - Bonobo</h3>
 
 ---
+
+<a href='#boninstall'>Install</a><br>
+<a href='#bonver'>Version</a><br>
+<a href='#bonfirstjob'>First Job</a><br><br>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='boninstall'>Install</h4>
+
+```python
+#install bonobo
+py -m pip install bonobo
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='bonver'>Version</h4>
+
+```python
+#check version
+py -m bonobo version
+
+>>>
+bonobo v.0.6.3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='bonfirstjob'>First Job</h4>
+
+```python
+C:\path\path>py -m bonobo init first.py
+INFO|0000|init: Generated first.py using template 'default'.
+
+C:\path\path>first.py
+Hello
+World
+ - extract in=1 out=2 [done]
+ - transform in=2 out=2 [done]
+ - load in=2 [done]
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='db2'>DB2</h3>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='postgresql'>PostgreSQL</h3>
+
+<a href='#^'>^^^</a>
+
+---
