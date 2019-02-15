@@ -17,7 +17,7 @@
 * [while](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/WHILE/WHILE.MD)
 * [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/FUNCTIONS/FUNCTIONS.MD)
 * [lambda](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/LAMBDA/LAMBDA.MD)
-* <a href='#decorators'>decorators</a>
+* [decorators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/DECOR/DECOR.MD)
 * <a href='#generators'>generators</a>
 
 ---
