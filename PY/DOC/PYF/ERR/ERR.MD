@@ -13,6 +13,4 @@
 
 ---
 
-* <a href='#errexc'>errors and exceptions</a>
 
----
