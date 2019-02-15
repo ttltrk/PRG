@@ -15,8 +15,8 @@
 
 * <a href='#mopali'>modules, packages, libs</a>
 * [NumPy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/NUMPY/NUMPY.MD)
-* [Pandas]()
-* <a href='#openpyxl'>Openpyxl</a>
+* [Pandas](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/PANDAS/PANDAS.MD)
+* [Openpyxl]()</a>
 * [files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/Files/Files.MD)
 
 ---
