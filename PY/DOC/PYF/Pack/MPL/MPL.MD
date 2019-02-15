@@ -13,3 +13,50 @@
 <h3 id='^'>Python - Packages/Modules/Files - Packages/Modules</h3>
 
 ---
+
+<a href='#shuffle'>shuffle</a>
+<a href='randint'>randint</a>
+<a href='pippip'>pip</a>
+
+---
+
+<h4 id='shuffle'>shuffle</h4>
+
+```python
+from random import shuffle
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+shuffle(l)
+print(l)
+
+>>>
+[5, 2, 4, 3, 1, 8, 9, 6, 7]
+>>>
+```
+
+---
+
+<h4 id='randint'>randint</h4>
+
+```python
+from random import randint
+
+print(randint(0, 100))
+
+>>>
+58
+>>>
+```
+
+---
+
+<h4 id='pippip'>pip</h4>
+
+```
+download --> get-pip.py
+launch --> get-pip.py
+in cmd --> py -m pip instal <pkg_name>
+```
+
+---
