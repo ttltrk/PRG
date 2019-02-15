@@ -26,25 +26,6 @@
 
 ---
 
-
-<h3 id='raspberrypi'>Raspberry Pi</h3>
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id='kivy'>Kivy</h3>
-
----
-
-<a href='#kivyinstall'>Install</a><br>
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id='tkinter'>Tkinter</h3>
-
 * <a href='#window'>Creating window</a><br>
 * <a href='#addtext'>Adding text</a><br>
 * <a href='#buttons'>Buttons</a><br>
