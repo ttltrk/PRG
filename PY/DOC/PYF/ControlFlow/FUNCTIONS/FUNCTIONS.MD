@@ -11,9 +11,6 @@
 ---
 
 <h3 id='^'>Python - Control Flow - Functions</h3>
-
----
-
 <h3 id='^^def'></h3>
 
 ---
