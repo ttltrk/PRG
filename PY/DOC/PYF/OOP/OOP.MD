@@ -1207,3 +1207,869 @@ in B Show
 ```
 
 ---
+
+```python
+class NameOfClass():
+
+    def __init__(self,param1,param2):
+        self.param1 = param1
+        self.param2 = param2
+
+    def some_method(self):
+        print(self.param1)
+```
+
+```python
+class Dog():
+
+    def __init__(self,breed):
+        self.breed = breed
+
+my_dog = Dog(breed='Lab')
+
+print(my_dog.breed)
+
+>>>
+Lab
+>>>
+```
+
+```python
+class Dog():
+
+    def __init__(self,mybreed):
+        self.breed = mybreed
+
+my_dog = Dog(mybreed='Huskie')
+
+print(my_dog.breed)
+
+>>>
+Huskie
+>>>
+```
+
+```python
+class Dog():
+
+    def __init__(self,breed,name,spots):
+        self.breed = breed
+        self.name = name
+        self.spots = spots
+
+my_dog = Dog(breed='Huskie', name='Sam', spots='False')
+
+print(my_dog.breed)
+print(my_dog.name)
+print(my_dog.spots)
+
+>>>
+Huskie
+Sam
+False
+>>>
+```
+
+```python
+class Dog():
+
+    species ='mammal'
+
+    def __init__(self,breed,name,spots):
+        self.breed = breed
+        self.name = name
+        self.spots = spots
+
+my_dog = Dog(breed='Huskie', name='Sam', spots='False')
+
+print(my_dog.species)
+
+>>>
+mammal
+>>>
+```
+
+```python
+class Dog():
+
+    species ='mammal'
+
+    def __init__(self,breed,name):
+        self.breed = breed
+        self.name = name
+
+    def bark(self):
+        print('WOOF')
+
+my_dog = Dog('lab','Frankie')
+
+print(my_dog.name)
+print(my_dog.species)
+my_dog.bark()
+
+>>>
+Frankie
+mammal
+WOOF
+>>>
+```
+
+```python
+class Dog():
+
+    species ='mammal'
+
+    def __init__(self,breed,name):
+        self.breed = breed
+        self.name = name
+
+    def bark(self):
+        print('WOOF, My name is {}'.format(self.name))
+
+my_dog = Dog('lab','Frankie')
+
+my_dog.bark()
+
+>>>
+WOOF, My name is Frankie
+>>>
+```
+
+```python
+class Dog():
+
+    species ='mammal'
+
+    def __init__(self,breed,name):
+        self.breed = breed
+        self.name = name
+
+    def bark(self,number):
+        print('WOOF, My name is {} and the number is {}'.format(self.name,number))
+
+my_dog = Dog('lab','Frankie')
+
+my_dog.bark(2)
+
+>>>
+WOOF, My name is Frankie and the number is 2
+>>>
+```
+
+```python
+class Circle():
+
+    pi = 3.14
+
+    def __init__(self,radius=1):
+        self.radius = radius
+
+    def get_circumference(self):
+        return self.radius * self.pi * 2
+
+my_circle = Circle()
+
+print(my_circle.pi)
+print(my_circle.radius)
+print(my_circle.get_circumference())
+
+>>>
+3.14
+1
+6.28
+>>>
+```
+
+```python
+class Circle():
+
+    pi = 3.14
+
+    def __init__(self,radius=1):
+        self.radius = radius
+
+    def get_circumference(self):
+        print(self.radius * self.pi * 2)
+
+my_circle = Circle(5)
+
+print(my_circle.pi)
+print(my_circle.radius)
+my_circle.get_circumference()
+
+>>>
+3.14
+5
+31.4
+>>>
+```
+
+```python
+class Circle():
+
+    pi = 3.14
+
+    def __init__(self,radius=1):
+        self.radius = radius
+        self.area = radius*radius*self.pi
+
+    def get_circumference(self):
+        return self.radius * self.pi * 2
+
+my_circle = Circle(5)
+
+print(my_circle.area)
+
+>>>
+78.5
+>>>
+```
+
+```python
+class Circle():
+
+    pi = 3.14
+
+    def __init__(self,radius=1):
+        self.radius = radius
+        self.area = radius*radius*Circle.pi
+
+    def get_circumference(self):
+        return self.radius * Circle.pi * 2
+
+my_circle = Circle(5)
+
+print(my_circle.area)
+print(my_circle.get_circumference())
+
+>>>
+78.5
+31.4000000
+>>>
+```
+
+```python
+class Animal():
+    
+    def __init__(self):
+        print('ANIMAL CREATED')
+
+myanimal = Animal()
+
+myanimal
+
+>>>
+ANIMAL CREATED
+>>>
+```
+
+```python
+class Animal():
+    
+    def __init__(self):
+        print('ANIMAL CREATED')
+
+    def whoami(self):
+        print('I am an animal')
+
+    def eat(self):
+        print('I am eating')
+
+myanimal = Animal()
+
+myanimal.eat()
+myanimal.whoami()
+
+>>>
+ANIMAL CREATED
+I am eating
+I am an animal
+>>>
+```
+
+```python
+class Animal():
+    
+    def __init__(self):
+        print('ANIMAL CREATED')
+
+    def whoami(self):
+        print('I am an animal')
+
+    def eat(self):
+        print('I am eating')
+
+class Dog(Animal):
+
+    def __init__(self):
+        Animal.__init__(self)
+        print('Dog created')
+
+mydog = Dog()
+
+>>>
+ANIMAL CREATED
+Dog created
+>>>
+```
+
+```python
+class Animal():
+    
+    def __init__(self):
+        print('ANIMAL CREATED')
+
+    def whoami(self):
+        print('I am an animal')
+
+    def eat(self):
+        print('I am eating')
+
+class Dog(Animal):
+
+    def __init__(self):
+        Animal.__init__(self)
+        print('Dog created')
+
+mydog = Dog()
+mydog.eat()
+mydog.whoami()
+
+>>>
+ANIMAL CREATED
+Dog created
+I am eating
+I am an animal
+>>>
+```
+
+```python
+class Animal():
+    
+    def __init__(self):
+        print('ANIMAL CREATED')
+
+    def whoami(self):
+        print('I am an animal')
+
+    def eat(self):
+        print('I am eating')
+
+class Dog(Animal):
+
+    def __init__(self):
+        Animal.__init__(self)
+        print('Dog created')
+
+    def whoami(self):
+        print('I am a dog')
+
+myanimal = Animal()
+mydog = Dog()
+
+mydog.whoami()
+myanimal.whoami()
+
+>>>
+ANIMAL CREATED
+ANIMAL CREATED
+Dog created
+I am a dog
+I am an animal
+>>>
+```
+
+```python
+class Animal():
+    
+    def __init__(self):
+        print('ANIMAL CREATED')
+
+    def whoami(self):
+        print('I am an animal')
+
+    def eat(self):
+        print('I am eating')
+
+class Dog(Animal):
+
+    def __init__(self):
+        Animal.__init__(self)
+        print('Dog created')
+
+    def eat(self):
+        print('I am a dog and eating')
+
+    def bark(self):
+        print('WOOF')
+
+mydog = Dog()
+
+mydog.eat()
+mydog.bark()
+
+>>>
+ANIMAL CREATED
+Dog created
+I am a dog and eating
+WOOF
+>>>
+```
+
+```python
+class Dog():
+
+    def __init__(self,name):
+        self.name = name
+
+    def speak(self):
+        return self.name + ' says woof'
+
+class Cat():
+
+    def __init__(self,name):
+        self.name = name
+
+    def speak(self):
+        return self.name + ' says meow'
+
+niko = Dog('niko')
+felix = Cat('felix')
+
+print(niko.speak())
+print(felix.speak())
+
+>>>
+niko says woof
+felix says meow
+>>>
+```
+
+```python
+class Dog():
+
+    def __init__(self,name):
+        self.name = name
+
+    def speak(self):
+        return self.name + ' says woof'
+
+class Cat():
+
+    def __init__(self,name):
+        self.name = name
+
+    def speak(self):
+        return self.name + ' says meow'
+
+def pet_speak(pet):
+    print(pet.speak())
+
+niko = Dog('niko')
+felix = Cat('felix')
+
+pet_speak(niko)
+pet_speak(felix)
+
+>>>
+niko says woof
+felix says meow
+>>>
+```
+
+```python
+class Book():
+
+    def __init__(self,title,author,pages):
+
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+
+    def __len__(self):
+        return self.pages
+
+b = Book('Python manual','trk',99)
+
+print(b)
+print(str(b))
+print(len(b))
+
+>>>
+Python manual by trk
+Python manual by trk
+99
+>>>
+```
+
+```python
+class Book():
+
+    def __init__(self,title,author,pages):
+
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+
+    def __len__(self):
+        return self.pages
+
+    def __del__(self):
+        print('A book object has been deleted')
+
+b = Book('Python manual','trk',99)
+
+del b
+print(b)
+
+>>>
+A book object has been deleted
+
+Traceback (most recent call last):
+    print(b)
+NameError: name 'b' is not defined
+>>>
+```
+
+```python
+class Line:
+
+    def __init__(self,coor1,coor2):
+        self.coor1 = coor1
+        self.coor2 = coor2
+
+    def distance(self):
+
+        x1,y1 = self.coor1
+        x2,y2 = self.coor2
+        
+        return ((x2-x1)**2 + (y2-y1)**2)**0.5
+
+    def slope(self):
+
+        x1,y1 = self.coor1
+        x2,y2 = self.coor2
+
+        return (y2-y1) / (x2-x1)
+
+c1 = (3,2)
+c2 = (8,10)
+
+myline = Line(c1,c2)
+
+print(myline.distance())
+print(myline.slope())
+
+>>>
+9.433981132056603
+1.6
+>>>
+```
+
+```python
+class Cylinder:
+
+    def __init__(self,height=1,radius=1):
+        self.height = height
+        self.radius = radius
+
+    def volume(self):
+        return self.height * 3.14 * (self.radius)**2
+
+    def surface_area(self):
+        top = 3.14 * (self.radius**2)
+        return (2*top) + (2*3.14*self.radius*self.height)
+
+mycyl = Cylinder(2,3)
+
+print(mycyl.volume())
+print(mycyl.surface_area())
+
+>>>
+56.52
+94.2
+>>>
+```
+
+```python
+class Account():
+
+    def __init__(self,owner,balance=0):
+
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self,dep_amt):
+
+        self.balance = self.balance + dep_amt
+        print(f'Added {dep_amt} to the balance')
+
+    def withdrawal(self,wd_amt):
+
+        if self.balance >= wd_amt:
+            self.balance = self.balance
+            print('Withdrawal accepted')
+        else:
+            print('Sorry not enough funds')
+
+    def __str__(self):
+
+        return f'Owner: {self.owner} \nBalance: {self.balance}'
+
+a = Account('Sam',500)
+
+print(a)
+a.deposit(100)
+print(a)
+
+>>>
+Owner: Sam 
+Balance: 500
+Added 100 to the balance
+Owner: Sam 
+Balance: 600
+>>>
+```
+
+```python
+class Account():
+
+    def __init__(self,owner,balance=0):
+
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self,dep_amt):
+
+        self.balance = self.balance + dep_amt
+        print(f'Added {dep_amt} to the balance')
+
+    def withdrawal(self,wd_amt):
+
+        if self.balance >= wd_amt:
+            self.balance = self.balance - wd_amt
+            print('Withdrawal accepted')
+        else:
+            print('Sorry not enough funds')
+
+    def __str__(self):
+
+        return f'Owner: {self.owner} \nBalance: {self.balance}'
+
+a = Account('Sam',500)
+
+print(a)
+a.withdrawal(350)
+print(a)
+
+>>>
+Owner: Sam 
+Balance: 500
+Withdrawal accepted
+Owner: Sam 
+Balance: 150
+>>>
+```
+
+---
+
+```python
+class NameOfClass():
+
+  def __init__(self, param1, param2):
+    self.param1 = param1
+    self.param2 = param2
+  
+  def some_methods(self):
+    print(self.param1)
+```
+
+```python
+class Sample():
+    pass
+
+my_sample = Sample()
+
+print(type(my_sample))
+
+>>>
+<class '__main__.Sample'>
+>>>
+```
+
+```python
+class Dog():
+
+    def __init__(self, breed, name):
+
+        self.breed = breed
+        self.name = name
+
+my_dog = Dog(breed='Lab', name='cat')
+
+print(my_dog.breed)
+print(my_dog.name)
+
+>>>
+Lab
+cat
+>>>
+```
+
+```python
+class Complex:
+    def __init__(self, alma, korte, szilva):
+        self.a = alma
+        self.k = korte
+        self.sz = szilva
+
+x = Complex(5, 10, 15)
+
+def masik():
+    res = x.a + x.k + x.sz
+    print('res =', res)
+    print('a1 =', x.a)
+    print('b1 =', x.k)
+    print('c1 =', x.sz)
+
+masik()
+
+>>>
+res = 30
+a1 = 5
+b1 = 10
+c1 = 15
+>>>
+```
+
+```python
+class Door:
+    def __init__(self, number, status):
+        self.number = number
+        self.status = status
+
+    def open(self):
+        self.status = 'open'
+
+    def close(self):
+        self.status = 'closed'
+
+door1 = Door(1, 'closed')
+door2 = Door(2, 'open')
+
+print("door1 = Door(1, 'closed') =", door1.number)
+print("door2 = Door(2, 'open') =", door2.number)
+print("door1 = Door(1, 'closed') =", door1.status)
+print("door2 = Door(2, 'open') =", door2.status)
+
+>>>
+door1 = Door(1, 'closed') = 1
+door2 = Door(2, 'open') = 2
+door1 = Door(1, 'closed') = closed
+door2 = Door(2, 'open') = open
+>>>
+```
+
+```python
+class Door:
+
+    colour ='brown'
+
+    def __init__(self, number, status):
+        self.number = number
+        self.status = status
+
+    def open(self):
+        self.status = 'open'
+
+    def close(self):
+        self.status = 'closed'
+
+door1 = Door(1, 'closed')
+door2 = Door(2, 'closed')
+
+print(Door.colour)
+print(door1.colour)
+print(door2.colour)
+
+Door.colour = 'white'
+
+print(Door.colour)
+print(door1.colour)
+print(door2.colour)
+
+>>>
+brown
+brown
+brown
+white
+white
+white
+>>>
+```
+
+```python
+class Door:
+    colour = 'brown'
+
+    def __init__(self, number, status):
+        self.number = number
+        self.status = status
+
+    @classmethod
+    def knock(cls):
+        print("Knock!")
+
+    @classmethod
+    def paint(cls, colour):
+        cls.colour = colour
+
+    def open(self):
+        self.status = 'open'
+
+    def close(self):
+        self.status = 'closed'
+
+d = Door
+d1 = Door(1, 'open')
+d2 = Door(2, 'close')
+
+print(d.colour)
+print(d1.colour)
+print(d2.colour)
+
+d.paint('white')
+
+print(d.colour)
+print(d1.colour)
+print(d2.colour)
+
+d1.paint('yellow')
+
+print(d.colour)
+print(d1.colour)
+print(d2.colour)
+
+>>>
+brown
+brown
+brown
+white
+white
+white
+yellow
+yellow
+yellow
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
