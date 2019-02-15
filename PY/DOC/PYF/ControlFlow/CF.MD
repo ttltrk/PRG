@@ -18,6 +18,6 @@
 * [functions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/FUNCTIONS/FUNCTIONS.MD)
 * [lambda](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/LAMBDA/LAMBDA.MD)
 * [decorators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/DECOR/DECOR.MD)
-* <a href='#generators'>generators</a>
+* [generators](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/ControlFlow/GENER/GENER.MD)
 
 ---
