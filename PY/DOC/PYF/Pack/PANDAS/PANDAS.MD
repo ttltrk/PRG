@@ -342,6 +342,8 @@ dtype: float64
 
 <h4 id='pandf'>DataFrames</h4>
 
+01
+
 ```python
 import numpy as np
 import pandas as pd
@@ -364,6 +366,8 @@ E  0.190794  1.978757  2.605967  0.683509
 ```
 
 <a href='#^'>^^^</a>
+
+02
 
 ```python
 import numpy as np
@@ -396,6 +400,8 @@ Name: W, dtype: float64
 ```
 
 <a href='#^'>^^^</a>
+
+03
 
 ```python
 import numpy as np
@@ -430,6 +436,8 @@ Name: W, dtype: float64
 
 <a href='#^'>^^^</a>
 
+04
+
 ```python
 import numpy as np
 import pandas as pd
@@ -462,6 +470,8 @@ E  0.190794  0.683509
 ```
 
 <a href='#^'>^^^</a>
+
+05
 
 ```python
 import numpy as np
@@ -497,6 +507,8 @@ Name: new, dtype: float64
 ```
 
 <a href='#^'>^^^</a>
+
+06
 
 ```python
 import numpy as np
@@ -558,6 +570,8 @@ E  0.190794  1.978757  2.605967  0.683509
 
 <a href='#^'>^^^</a>
 
+07
+
 ```python
 import numpy as np
 import pandas as pd
@@ -576,6 +590,8 @@ print(df.shape)
 ```
 
 <a href='#^'>^^^</a>
+
+08
 
 ```python
 import numpy as np
@@ -608,6 +624,8 @@ Name: A, dtype: float64
 ```
 
 <a href='#^'>^^^</a>
+
+09
 
 ```python
 import numpy as np
@@ -649,6 +667,8 @@ Name: C, dtype: float64
 
 <a href='#^'>^^^</a>
 
+10
+
 ```python
 import numpy as np
 import pandas as pd
@@ -676,6 +696,8 @@ E  0.190794  1.978757  2.605967  0.683509
 ```
 
 <a href='#^'>^^^</a>
+
+11
 
 ```python
 import numpy as np
