@@ -65,6 +65,8 @@ dtype: int64
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -85,6 +87,8 @@ c    30
 dtype: int64
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -107,6 +111,8 @@ dtype: int32
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -127,6 +133,8 @@ c    30
 dtype: int32
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -149,6 +157,8 @@ dtype: int64
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -170,6 +180,8 @@ dtype: object
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -187,6 +199,8 @@ print(a[1])
 b
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -209,6 +223,8 @@ dtype: object
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -224,6 +240,8 @@ jpn     4
 dtype: int64
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -251,6 +269,8 @@ dtype: int64
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -268,6 +288,8 @@ print(ser2['ita'])
 5
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -287,6 +309,8 @@ ussr    NaN
 dtype: float64
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -312,6 +336,8 @@ D  0.188695 -0.758872 -0.933237  0.955057
 E  0.190794  1.978757  2.605967  0.683509
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -342,6 +368,8 @@ E    0.190794
 Name: W, dtype: float64
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -374,6 +402,8 @@ Name: W, dtype: float64
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -404,6 +434,8 @@ D  0.188695  0.955057
 E  0.190794  0.683509
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -437,6 +469,8 @@ E    0.874303
 Name: new, dtype: float64
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -496,6 +530,8 @@ E  0.190794  1.978757  2.605967  0.683509
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -512,6 +548,8 @@ print(df.shape)
 (5,4)
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -542,6 +580,8 @@ Z    0.503826
 Name: A, dtype: float64
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -581,6 +621,8 @@ Name: C, dtype: float64
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ```python
 import numpy as np
 import pandas as pd
@@ -606,6 +648,8 @@ E  0.190794  1.978757  2.605967  0.683509
 -0.8480769834036315
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ```python
 import numpy as np
@@ -634,3 +678,7 @@ A  2.706850  0.907969
 B  0.651118 -0.848077
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
