@@ -20,6 +20,8 @@
 
 <h4 id='panseries'>Series</h4>
 
+01
+
 ```python
 import numpy as np
 import pandas as pd
@@ -44,6 +46,8 @@ print(d)
 
 <a href='#^'>^^^</a>
 
+02
+
 ```python
 import numpy as np
 import pandas as pd
@@ -66,6 +70,8 @@ dtype: int64
 ```
 
 <a href='#^'>^^^</a>
+
+03
 
 ```python
 import numpy as np
@@ -90,6 +96,8 @@ dtype: int64
 
 <a href='#^'>^^^</a>
 
+04
+
 ```python
 import numpy as np
 import pandas as pd
@@ -112,6 +120,8 @@ dtype: int32
 ```
 
 <a href='#^'>^^^</a>
+
+05
 
 ```python
 import numpy as np
@@ -136,6 +146,8 @@ dtype: int32
 
 <a href='#^'>^^^</a>
 
+06
+
 ```python
 import numpy as np
 import pandas as pd
@@ -158,6 +170,8 @@ dtype: int64
 ```
 
 <a href='#^'>^^^</a>
+
+07
 
 ```python
 import numpy as np
@@ -182,6 +196,8 @@ dtype: object
 
 <a href='#^'>^^^</a>
 
+08
+
 ```python
 import numpy as np
 import pandas as pd
@@ -201,6 +217,8 @@ b
 ```
 
 <a href='#^'>^^^</a>
+
+09
 
 ```python
 import numpy as np
@@ -225,6 +243,8 @@ dtype: object
 
 <a href='#^'>^^^</a>
 
+10
+
 ```python
 import numpy as np
 import pandas as pd
@@ -242,6 +262,8 @@ dtype: int64
 ```
 
 <a href='#^'>^^^</a>
+
+11
 
 ```python
 import numpy as np
@@ -271,6 +293,8 @@ dtype: int64
 
 <a href='#^'>^^^</a>
 
+12
+
 ```python
 import numpy as np
 import pandas as pd
@@ -290,6 +314,8 @@ print(ser2['ita'])
 ```
 
 <a href='#^'>^^^</a>
+
+13
 
 ```python
 import numpy as np
