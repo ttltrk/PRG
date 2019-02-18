@@ -13,9 +13,8 @@
 
 ---
 
-<h4 id='^^pandas'></h4>
 <a href='#panseries'>Series</a><br>
-<a href='#pandf'>DataFrames</a><br>
+<a href='#pandf1'>DataFrames 1</a><br>
 
 ---
 
@@ -42,6 +41,8 @@ print(d)
 {'a': 10, 'b': 20, 'c': 30}
 >>>
 ```
+
+<a href='#^'></a>
 
 ```python
 import numpy as np
