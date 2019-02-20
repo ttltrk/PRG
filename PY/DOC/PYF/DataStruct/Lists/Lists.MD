@@ -18,8 +18,6 @@
 * <a href='#listtodict'>list to dictionary</a>
 * <a href='#listtoset'>list to set</a>
 
-<a href='#^'>^^^</a>
-
 ---
 
 <h4 id='listtostr'>list to string</h4>
@@ -44,7 +42,6 @@ print(str4)
 >>>
 ```
 
-<a href='#^^lst'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -64,7 +61,6 @@ print(t)
 >>>
 ```
 
-<a href='#^^lst'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -83,7 +79,6 @@ print(d)
 >>>
 ```
 
-<a href='#^^lst'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -106,7 +101,6 @@ print(s2)
 >>>
 ```
 
-<a href='#^^lst'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -120,21 +114,6 @@ print(s2)
 >>>
 ```
 
-<a href='#^^lst'>^^</a><br>
-<a href='#^'>^^^</a>
-
----
-
-<h4 id=''></h4>
-
-```python
-
->>>
-
->>>
-```
-
-<a href='#^^lst'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
