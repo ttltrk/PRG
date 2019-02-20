@@ -37,7 +37,9 @@ print(labels)
 print(my_data)
 print(arr)
 print(d)
+```
 
+```python
 >>>
 ['a', 'b', 'c']
 [10, 20, 30]
