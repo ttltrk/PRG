@@ -15,6 +15,8 @@
 
 <a href='#panseries'>Series</a><br>
 <a href='#pandf1'>DataFrames 1</a><br>
+<a href='#pandf2'>DataFrames 2</a><br>
+
 
 ---
 
@@ -724,6 +726,435 @@ E  0.190794  1.978757  2.605967  0.683509
           W         Y
 A  2.706850  0.907969
 B  0.651118 -0.848077
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='pandf2'>DataFrames 2</h4>
+
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df > 0)
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+       W      X      Y      Z
+A   True   True   True   True
+B   True  False  False   True
+C  False   True   True  False
+D   True  False  False   True
+E   True   True   True   True
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+booldf = df > 0
+
+print(df)
+print(' ')
+print(df[booldf])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118       NaN       NaN  0.605965
+C       NaN  0.740122  0.528813       NaN
+D  0.188695       NaN       NaN  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df[df>0])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118       NaN       NaN  0.605965
+C       NaN  0.740122  0.528813       NaN
+D  0.188695       NaN       NaN  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df['W'])
+print(' ')
+print(df['W']>0)
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+A    2.706850
+B    0.651118
+C   -2.018168
+D    0.188695
+E    0.190794
+Name: W, dtype: float64
+ 
+A     True
+B     True
+C    False
+D     True
+E     True
+Name: W, dtype: bool
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df[df['W']>0])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df[df['Z']<0])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+C -2.018168  0.740122  0.528813 -0.589001
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+resultdf = df[df['W']>0]
+
+print(df)
+print(' ')
+print(resultdf)
+print(' ')
+print(resultdf['X'])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+A    0.628133
+B   -0.319318
+D   -0.758872
+E    1.978757
+Name: X, dtype: float64
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df[df['W']>0])
+print(' ')
+print(df[df['W']>0]['X'])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+A    0.628133
+B   -0.319318
+D   -0.758872
+E    1.978757
+Name: X, dtype: float64
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df[df['W']>0])
+print(' ')
+print(df[(df['W']>0) & (df['W']>1)])
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+         W         X         Y         Z
+A  2.70685  0.628133  0.907969  0.503826
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+print(df)
+print(' ')
+print(df.reset_index())
+
+>>>
+          W         X         Y         Z
+A  2.706850  0.628133  0.907969  0.503826
+B  0.651118 -0.319318 -0.848077  0.605965
+C -2.018168  0.740122  0.528813 -0.589001
+D  0.188695 -0.758872 -0.933237  0.955057
+E  0.190794  1.978757  2.605967  0.683509
+ 
+  index         W         X         Y         Z
+0     A  2.706850  0.628133  0.907969  0.503826
+1     B  0.651118 -0.319318 -0.848077  0.605965
+2     C -2.018168  0.740122  0.528813 -0.589001
+3     D  0.188695 -0.758872 -0.933237  0.955057
+4     E  0.190794  1.978757  2.605967  0.683509
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+newind = 'CA NY WY OR CO'.split()
+df['States'] = newind
+
+print(newind)
+print(' ')
+print(df)
+
+>>>
+['CA', 'NY', 'WY', 'OR', 'CO']
+ 
+          W         X         Y         Z States
+A  2.706850  0.628133  0.907969  0.503826     CA
+B  0.651118 -0.319318 -0.848077  0.605965     NY
+C -2.018168  0.740122  0.528813 -0.589001     WY
+D  0.188695 -0.758872 -0.933237  0.955057     OR
+E  0.190794  1.978757  2.605967  0.683509     CO
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+np.random.seed(101)
+l = [1, 2, 3, 4]
+
+df = pd.DataFrame(randn(5,4),['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
+
+newind = 'CA NY WY OR CO'.split()
+df['States'] = newind
+
+print(df)
+print(' ')
+print(df.set_index('States'))
+
+>>>
+          W         X         Y         Z States
+A  2.706850  0.628133  0.907969  0.503826     CA
+B  0.651118 -0.319318 -0.848077  0.605965     NY
+C -2.018168  0.740122  0.528813 -0.589001     WY
+D  0.188695 -0.758872 -0.933237  0.955057     OR
+E  0.190794  1.978757  2.605967  0.683509     CO
+ 
+               W         X         Y         Z
+States                                        
+CA      2.706850  0.628133  0.907969  0.503826
+NY      0.651118 -0.319318 -0.848077  0.605965
+WY     -2.018168  0.740122  0.528813 -0.589001
+OR      0.188695 -0.758872 -0.933237  0.955057
+CO      0.190794  1.978757  2.605967  0.683509
 >>>
 ```
 
