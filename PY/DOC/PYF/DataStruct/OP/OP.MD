@@ -21,8 +21,6 @@
 * <a href='#memops'>membership operators</a><br>
 * <a href='#bitops'>bitwise operators</a>
 
-<a href='#^'>^^^</a>
-
 ---
 
 <h4 id='aritops'>arithmetic operators</h4>
@@ -38,7 +36,6 @@ Operator	Name		Example	Try it
 //		Floor division	x // y
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -61,7 +58,6 @@ Operator	Name		Example	Try it
 <<=	x <<= 3	x = x << 3
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -78,7 +74,6 @@ Operator	Name				Example
 <=		Less than or equal to		x <= y
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -92,7 +87,6 @@ or		Returns True if one of the statements is true			x < 5 or x < 4
 not		Reverse the result, returns False if the result is true		not(x < 5 and x < 10)
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -105,7 +99,6 @@ is 		Returns true if both variables are the same object	x is y
 is not		Returns true if both variables are not the same object	x is not y
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -118,7 +111,6 @@ in 		Returns True if a sequence with the specified value is present in the objec
 not in		Returns True if a sequence with the specified value is not present in the object	x not in y
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -136,7 +128,6 @@ Operator	Name			Description
 fall off
 ```
 
-<a href='#^^ops'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
