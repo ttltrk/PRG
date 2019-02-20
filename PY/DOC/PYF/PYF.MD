@@ -1,7 +1,7 @@
 
 ---
 
-###### [MUM](https://github.com/ttltrk/PRG/blob/master/MUM.MD) - [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/SQLM/SQLM.MD#^) - [SS](https://github.com/ttltrk/ELSE/blob/master/SHELL/OSSM/SSCR/SSCR.MD) - [UX](https://github.com/ttltrk/ELSE/blob/master/M/UX/UX.MD)
+###### [MUM](https://github.com/ttltrk/PRG/blob/master/MUM.MD) - [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSQLM/SQLM/SQLM.MD) - [SS](https://github.com/ttltrk/ELSE/blob/master/SHELL/OSSM/SSCR/SSCR.MD) - [UX](https://github.com/ttltrk/ELSE/blob/master/M/UX/UX.MD)
 
 ---
 
