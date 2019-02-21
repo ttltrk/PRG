@@ -16,7 +16,7 @@
 <a href='#panseries'>Series</a><br>
 <a href='#pandf1'>DataFrames 1</a><br>
 <a href='#pandf2'>DataFrames 2</a><br>
-
+<a href='#pandf3'>DataFrames 3</a><br>
 
 ---
 
@@ -1161,3 +1161,262 @@ CO      0.190794  1.978757  2.605967  0.683509
 <a href='#^'>^^^</a>
 
 ---
+
+<h4 id='pandf3'>DataFrames 3</h4>
+
+```python
+import numpy as np
+import pandas as pd
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+print(outside)
+print(' ')
+print(inside)
+print(' ')
+print(hier_index)
+print(' ')
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+print(hier_index)
+
+>>>
+['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+ 
+[1, 2, 3, 1, 2, 3]
+ 
+[('G1', 1), ('G1', 2), ('G1', 3), ('G2', 1), ('G2', 2), ('G2', 3)]
+ 
+MultiIndex(levels=[['G1', 'G2'], [1, 2, 3]],
+           labels=[[0, 0, 0, 1, 1, 1], [0, 1, 2, 0, 1, 2]])
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+
+print(df)
+
+>>>
+             A         B
+G1 1  1.280937 -0.236612
+   2  0.372966  1.201955
+   3  0.449831  0.219009
+G2 1 -0.171675 -1.316123
+   2  0.845793  0.285667
+   3  1.206388  0.854464
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+
+print(df)
+print(' ')
+print(df.loc['G1'])
+
+>>>
+             A         B
+G1 1 -0.426018  0.601013
+   2  0.283416 -0.852927
+   3  0.005474  0.994846
+G2 1  0.085804  0.562624
+   2 -0.351142  1.856567
+   3  1.360953  0.200511
+ 
+          A         B
+1 -0.426018  0.601013
+2  0.283416 -0.852927
+3  0.005474  0.994846
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+
+print(df)
+print(' ')
+print(df.loc['G1'])
+print(' ')
+print(df.loc['G1'].loc[1])
+
+>>>
+             A         B
+G1 1  0.157766 -1.808455
+   2  0.724344 -2.247547
+   3  1.952164  0.785557
+G2 1 -0.604003  0.004664
+   2 -1.771062  1.327195
+   3 -0.902754 -1.506650
+ 
+          A         B
+1  0.157766 -1.808455
+2  0.724344 -2.247547
+3  1.952164  0.785557
+ 
+A    0.157766
+B   -1.808455
+Name: 1, dtype: float64
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+
+print(df)
+print(' ')
+
+df.index.names = ['Groups','Num']
+print(df)
+
+>>>
+             A         B
+G1 1 -1.725999 -1.690544
+   2  0.792964  1.390087
+   3  1.188152  1.368345
+G2 1  0.983025 -2.201848
+   2  1.011586  0.602077
+   3 -0.146601 -0.581571
+ 
+                   A         B
+Groups Num                    
+G1     1   -1.725999 -1.690544
+       2    0.792964  1.390087
+       3    1.188152  1.368345
+G2     1    0.983025 -2.201848
+       2    1.011586  0.602077
+       3   -0.146601 -0.581571
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+df.index.names = ['Groups','Num']
+
+print(df)
+print(' ')
+print(df.loc['G2'])
+print(' ')
+print(df.loc['G2'].loc[2])
+print(' ')
+print(df.loc['G2'].loc[2]['B'])
+
+>>>
+                   A         B
+Groups Num                    
+G1     1    1.133368  2.463548
+       2    0.913694 -0.543514
+       3   -1.990372 -0.156860
+G2     1   -0.711758 -0.037313
+       2   -1.313573  0.507473
+       3   -0.340687 -0.656961
+ 
+            A         B
+Num                    
+1   -0.711758 -0.037313
+2   -1.313573  0.507473
+3   -0.340687 -0.656961
+ 
+A   -1.313573
+B    0.507473
+Name: 2, dtype: float64
+ 
+0.5074734431695828
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+outside = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
+inside = [1,2,3,1,2,3]
+hier_index = list(zip(outside,inside))
+
+hier_index = pd.MultiIndex.from_tuples(hier_index)
+df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
+df.index.names = ['Groups','Num']
+
+print(df)
+print(' ')
+print(df.xs(1,level='Num'))
+
+>>>
+                   A         B
+Groups Num                    
+G1     1    0.311833 -1.176028
+       2   -0.136651 -0.191222
+       3   -0.404261  0.579887
+G2     1   -1.564641  1.009269
+       2   -0.410623 -1.718002
+       3    0.431931  1.650564
+ 
+               A         B
+Groups                    
+G1      0.311833 -1.176028
+G2     -1.564641  1.009269
+>>>
+```
