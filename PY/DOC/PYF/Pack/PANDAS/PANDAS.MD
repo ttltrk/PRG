@@ -17,6 +17,7 @@
 <a href='#pandf1'>DataFrames 1</a><br>
 <a href='#pandf2'>DataFrames 2</a><br>
 <a href='#pandf3'>DataFrames 3</a><br>
+<a href='#panmissda'>Missing Data</a><br>
 
 ---
 
@@ -1420,3 +1421,216 @@ G1      0.311833 -1.176028
 G2     -1.564641  1.009269
 >>>
 ```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='panmissda'>Missing Data</h4>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+print(d)
+print(' ')
+print(df)
+
+>>>
+{'A': [1, 2, nan], 'B': [5, nan, nan], 'C': [1, 2, 3]}
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+c1 = [1,2,3]
+c2 = [4,5,6]
+c3 = [7,8,9]
+
+c = {'A':c1, 'B':c2, 'C':c3}
+df = pd.DataFrame(c)
+
+print(c)
+print(' ')
+print(df)
+
+>>>
+{'A': [1, 2, 3], 'B': [4, 5, 6], 'C': [7, 8, 9]}
+ 
+   A  B  C
+0  1  4  7
+1  2  5  8
+2  3  6  9
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+print(d)
+print(' ')
+print(df)
+print(' ')
+print(df.dropna())
+
+>>>
+{'A': [1, 2, nan], 'B': [5, nan, nan], 'C': [1, 2, 3]}
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
+ 
+     A    B  C
+0  1.0  5.0  1
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+print(d)
+print(' ')
+print(df)
+print(' ')
+print(df.dropna(axis=1))
+
+>>>
+{'A': [1, 2, nan], 'B': [5, nan, nan], 'C': [1, 2, 3]}
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
+ 
+   C
+0  1
+1  2
+2  3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+print(d)
+print(' ')
+print(df)
+print(' ')
+print(df.dropna(thresh=2))
+
+>>>
+{'A': [1, 2, nan], 'B': [5, nan, nan], 'C': [1, 2, 3]}
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+print(d)
+print(' ')
+print(df)
+print(' ')
+print(df.fillna(value='FILL VALUE'))
+
+>>>
+{'A': [1, 2, nan], 'B': [5, nan, nan], 'C': [1, 2, 3]}
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
+ 
+            A           B  C
+0           1           5  1
+1           2  FILL VALUE  2
+2  FILL VALUE  FILL VALUE  3
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
+d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
+df = pd.DataFrame(d)
+
+print(d)
+print(' ')
+print(df)
+print(' ')
+print(df['A'].fillna(value=df['A'].mean()))
+
+>>>
+{'A': [1, 2, nan], 'B': [5, nan, nan], 'C': [1, 2, 3]}
+ 
+     A    B  C
+0  1.0  5.0  1
+1  2.0  NaN  2
+2  NaN  NaN  3
+ 
+0    1.0
+1    2.0
+2    1.5
+Name: A, dtype: float64
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
