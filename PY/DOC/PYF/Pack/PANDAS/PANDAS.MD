@@ -1485,6 +1485,38 @@ import numpy as np
 import pandas as pd
 from numpy.random import randn
 
+x = np.nan
+
+c1 = [1,2,3,4,5]
+c2 = [10,11,12,x,x]
+c3 = [20,21,22,23,x]
+
+c = {'C1':c1, 'C2':c2, 'C3':c3}
+df = pd.DataFrame(c)
+
+print(c)
+print(' ')
+print(df)
+
+>>>
+{'C1': [1, 2, 3, 4, 5], 'C2': [10, 11, 12, nan, nan], 'C3': [20, 21, 22, 23, nan]}
+ 
+   C1    C2    C3
+0   1  10.0  20.0
+1   2  11.0  21.0
+2   3  12.0  22.0
+3   4   NaN  23.0
+4   5   NaN   NaN
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+```python
+import numpy as np
+import pandas as pd
+from numpy.random import randn
+
 d = {'A':[1,2,np.nan],'B':[5,np.nan,np.nan],'C':[1,2,3]}
 df = pd.DataFrame(d)
 
