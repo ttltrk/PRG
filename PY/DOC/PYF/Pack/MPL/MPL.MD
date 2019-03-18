@@ -17,6 +17,7 @@
 <a href='#shuffle'>shuffle</a>
 <a href='randint'>randint</a>
 <a href='pippip'>pip</a>
+<a href='py2exe'>Python to .exe</a>
 
 ---
 
@@ -56,7 +57,18 @@ print(randint(0, 100))
 ```
 download --> get-pip.py
 launch --> get-pip.py
-in cmd --> py -m pip instal <pkg_name>
+in cmd --> py -m pip instal <pkg_name> (in anaconda prompt)
 ```
 
 ---
+
+<h4 id='py2exe'>Python to .exe</h4>
+
+```
+
+```
+
+---
+
+
+
