@@ -57,7 +57,7 @@ print(randint(0, 100))
 ```
 download --> get-pip.py
 launch --> get-pip.py
-in cmd --> py -m pip instal <pkg_name> (in anaconda prompt)
+in cmd --> py -m pip install <pkg_name> (in anaconda prompt)
 ```
 
 ---
