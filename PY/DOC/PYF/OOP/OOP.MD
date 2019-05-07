@@ -573,6 +573,8 @@ trk
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
@@ -605,6 +607,8 @@ This is Student class...in abc module
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
@@ -628,6 +632,8 @@ trk 2
 vrg 3
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -661,6 +667,8 @@ print(lap1)
 <class '__main__.Student.Laptop'>
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -700,6 +708,8 @@ HP i5 8
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
@@ -721,6 +731,8 @@ Feat1 is working
 Feat2 is working
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -762,6 +774,8 @@ Feat3 is working
 Feat4 is working
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -917,6 +931,8 @@ Feat6 is working
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 ```python
@@ -949,6 +965,8 @@ b = B()
 Print B init
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -984,6 +1002,8 @@ Print A init
 Print B init
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -1022,6 +1042,8 @@ b = C()
 Print C init
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
@@ -2008,6 +2030,8 @@ Owner: Sam
 Balance: 150
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
