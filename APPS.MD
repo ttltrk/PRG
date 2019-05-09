@@ -21,3 +21,9 @@ Python
 * [Gauss table](https://github.com/ttltrk/PRG/tree/master/PY/APP/GT)
 
 ---
+
+Shell
+
+* [write2file](https://github.com/ttltrk/PRG/blob/master/SHELL/SCRIPTS/write2file.sh)
+
+---
