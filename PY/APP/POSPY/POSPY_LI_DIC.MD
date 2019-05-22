@@ -11,7 +11,13 @@
 import psycopg2 as p2
 import pandas as pd
 
+#--------------------------------------------
+# connection to the db 
+
 conn = p2.connect(host="127.0.0.1", database="test", user="postgres", password="***")
+
+#--------------------------------------------
+# your querys
 
 def test1():
     cur1 = conn.cursor()
@@ -25,8 +31,14 @@ def test2():
     row2 = cur2.fetchall()
     return row2
 
+#--------------------------------------------
+# column headers
+
 lab1 = ['bla']
 lab2 = ['bla']
+
+#--------------------------------------------
+# pandas dataframe connection
 
 pan1 = (pd.DataFrame.from_records(test1(), columns=lab1))
 pan2 = (pd.DataFrame.from_records(test2(), columns=lab2))
@@ -44,7 +56,6 @@ dfToList1 = pan1['new'].tolist()
 
 pan2['new'] = pan2['bla']
 dfToList2 = pan2['new'].tolist()
-#--------------------------------------------
 
 print(dfToList1)
 print(dfToList2)
@@ -56,7 +67,6 @@ print(' ')
 d1 = dict(zip(dfToList1, dfToList2))
 d2 = {k: v for (k, v) in d1.items() if v == 'doe'}  
 #d1d2 = list(d2.keys())
-#--------------------------------------------
 
 print(d1)
 print(d2)
