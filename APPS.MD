@@ -18,6 +18,7 @@ Python - text part
 Python - DB part
 
 * [PostgreSQL with Python](https://github.com/ttltrk/PRG/blob/master/PY/APP/POSPY/POSPY.md)
+* [columns >> list >> dictionary](https://github.com/ttltrk/PRG/blob/master/PY/APP/POSPY/POSPY_LI_DIC.MD)
 * [read data from DB2 and write it to a .CSV file](https://github.com/ttltrk/PRG/blob/master/PY/APP/DB2CSV/DB2CSV.MD)
 
 ---
