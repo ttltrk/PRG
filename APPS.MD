@@ -12,6 +12,7 @@
 Python - DB part
 
 * [Read from IN1 and IN2, compile and write to OUT](https://github.com/ttltrk/PRG/blob/master/PY/APP/INOUT/INOUT.MD)
+* [PostgreSQL with Python](https://github.com/ttltrk/PRG/blob/master/PY/APP/POSPY/POSPY.md)
 
 ---
 
