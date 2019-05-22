@@ -5,7 +5,7 @@
 
 ---
 
-### column records to the list - lists to the dictionary
+### column records >> list >> dictionary
 
 ```python
 import psycopg2 as p2
