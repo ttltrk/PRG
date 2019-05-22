@@ -9,11 +9,16 @@
 
 ---
 
-Python
+Python - DB part
+
+* [Read from IN1 and IN2, compile and write to OUT](https://github.com/ttltrk/PRG/blob/master/PY/APP/INOUT/INOUT.MD)
+
+---
+
+Python - rest
 
 * [tic tac toe](https://github.com/ttltrk/PRG/blob/master/PY/APP/TTT/TTT.md)
 * [read data from DB2 and write it to a .CSV file](https://github.com/ttltrk/PRG/blob/master/PY/APP/DB2CSV/DB2CSV.MD)
-* [Read from IN1 and IN2, compile and write to OUT](https://github.com/ttltrk/PRG/blob/master/PY/APP/INOUT/INOUT.MD)
 * [DreamCars 1.0](https://github.com/ttltrk/PRG/blob/master/PY/APP/DC/DC.MD)
 * [Most drawn lotto numbers](https://github.com/ttltrk/PRG/blob/master/PY/APP/EJ/SC_EJ.MD)
 * [Loop back script](https://github.com/ttltrk/PRG/blob/master/PY/APP/LB/LB.MD)
