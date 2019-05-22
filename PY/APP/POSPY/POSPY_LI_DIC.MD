@@ -17,7 +17,7 @@ import pandas as pd
 conn = p2.connect(host="127.0.0.1", database="test", user="postgres", password="***")
 
 #--------------------------------------------
-# your querys
+# your queries
 
 def test1():
     cur1 = conn.cursor()
