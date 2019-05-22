@@ -1,3 +1,7 @@
+
+
+
+```python
 import psycopg2 as p2
 import pandas as pd
 
@@ -24,3 +28,4 @@ pan2 = (pd.DataFrame.from_records(test2(), columns=lab2))
 print(pan1)
 print(' ')
 print(pan2)
+```
