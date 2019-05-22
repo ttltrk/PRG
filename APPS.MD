@@ -9,6 +9,12 @@
 
 ---
 
+Python - os part
+
+* [play with os](https://github.com/ttltrk/PRG/blob/master/PY/APP/OS/OSPY.MD)
+
+---
+
 Python - text part
 
 * [Read from IN1 and IN2, compile and write to OUT](https://github.com/ttltrk/PRG/blob/master/PY/APP/INOUT/INOUT.MD)
