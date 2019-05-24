@@ -73,6 +73,21 @@ print(lst)
 ```
 
 ```python
+n = int(input()) #for example 5
+
+for n in range(0,n):
+  print(n**2)
+  
+>>>
+0
+1
+4
+9
+16
+>>>
+```
+
+```python
 lst = [x**2 for x in range(0,11)]
 print(lst)
 
