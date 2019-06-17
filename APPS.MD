@@ -9,6 +9,12 @@
 
 ---
 
+Python - function part
+
+* [call functions from different file]()
+
+---
+
 Python - os part
 
 * [play with os](https://github.com/ttltrk/PRG/blob/master/PY/APP/OS/OSPY.MD)
