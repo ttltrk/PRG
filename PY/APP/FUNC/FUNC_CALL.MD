@@ -51,6 +51,7 @@ def second():
    
 ```python
 #funks2.py
+
 def third():
     ch = input('hey, go for it \n \n')
     print(ch)    
