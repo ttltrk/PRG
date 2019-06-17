@@ -11,7 +11,7 @@
 
 Python - function part
 
-* [call functions from different file]()
+* [call functions from different file](https://github.com/ttltrk/PRG/blob/master/PY/APP/FUNC/FUNC_CALL.MD)
 
 ---
 
