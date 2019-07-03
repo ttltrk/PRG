@@ -5,7 +5,7 @@
 
 ---
 
-### Python - rest - Leap Year
+### Python - Leap Year
 
 ```python
 def is_leap(year):
