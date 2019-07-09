@@ -16,6 +16,7 @@
 * [modules, packages, libs](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/MPL/MPL.MD)
 * [NumPy](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/NUMPY/NUMPY.MD)
 * [Pandas](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/PANDAS/PANDAS.MD)
+* [Matplotlib](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/MATPLOTLIB/MATPLOTLIB.MD)
 * [Openpyxl](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/OPPY/OPPY.MD)
 * [files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/Files/Files.MD)
 
