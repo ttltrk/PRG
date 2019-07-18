@@ -49,7 +49,7 @@ Python - rest
 
 Shell
 
-* [write2file](https://github.com/ttltrk/PRG/blob/master/SHELL/SCRIPTS/write2file.sh)
-* [dir_with_timestamp]()
+* [write2file](https://github.com/ttltrk/PRG/blob/master/SHELL/SCRIPTS/write2file.md)
+* [dir_with_timestamp](https://github.com/ttltrk/PRG/blob/master/SHELL/SCRIPTS/dwts.md)
 
 ---
