@@ -91,4 +91,17 @@ fig,axes = plt.subplots()
 print(plt.show())
 ```
 
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,5,11)
+y = x**2
+
+fig,axes = plt.subplots()
+axes.plot(x,y)
+
+print(plt.show())
+```
+
 <a href='#^'>^^^</a>
