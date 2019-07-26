@@ -14,3 +14,26 @@
 * [function]()
 
 ---
+
+<h3 id='function'>function</h3>
+
+```pl
+sub elso {
+	print "Hello, trk!\n";
+	print "elso funkcio!\n";
+}
+
+elso
+
+>>>
+$ perl hw.pl
+Hello, trk!
+elso funkcio!
+$
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
