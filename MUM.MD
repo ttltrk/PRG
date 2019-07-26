@@ -12,17 +12,22 @@
 ---
 
 * [Python](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PY/PY.MD)
+* [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSM.MD)
+* [Shell Scripts](https://github.com/ttltrk/ELSE/blob/master/SHELL/OSSM/OSSM.MD)
 * [Java](https://github.com/ttltrk/PRG/blob/master/JAVA/DOC/OJM/OJM.MD)
+* [Perl](https://github.com/ttltrk/PRG/blob/master/PERL/PL.MD)
 * [C](https://github.com/ttltrk/PRG/blob/master/C/DOC/C/C.MD)
-* [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/CPP.MD)
-* [C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/CS.MD)
 * [Assembly]()
 * [Digital_Analog]()
 * [Math]()
 
 ---
 
-* [SQL](https://github.com/ttltrk/DB/blob/master/SQL/DOC/OSM/OSM.MD)
+* [C++](https://github.com/ttltrk/PRG/blob/master/C/DOC/CPP/CPP.MD)
+* [C#](https://github.com/ttltrk/PRG/blob/master/C/DOC/CS/CS.MD)
+
+---
+
 * [PL/SQL](https://github.com/ttltrk/DB/blob/master/PLSQL/DOC/OPSM/OPSM.MD)
 * [PostgreSQL](https://github.com/ttltrk/DB/blob/master/POSTGRESQL/OPSM/OPSM.MD)
 * [Oracle](https://github.com/ttltrk/DB/blob/master/ORA/BMO/BMO.MD)
@@ -43,8 +48,6 @@
 
 * [Unix](https://github.com/ttltrk/ELSE/blob/master/SHELL/OUM/OUM.MD)
 * [RPI](https://github.com/ttltrk/ELSE/blob/master/RPI/BMRPI/BMRPI.MD)
-* [Shell Scripts](https://github.com/ttltrk/ELSE/blob/master/SHELL/OSSM/OSSM.MD)
-* [Perl](https://github.com/ttltrk/PRG/blob/master/PERL/PL.MD)
 
 ---
 
