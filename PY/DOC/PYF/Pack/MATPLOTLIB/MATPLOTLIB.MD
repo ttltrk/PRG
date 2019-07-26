@@ -82,4 +82,13 @@ axes.set_title('Set Title')
 print(plt.show())
 ```
 
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig,axes = plt.subplots()
+
+print(plt.show())
+```
+
 <a href='#^'>^^^</a>
