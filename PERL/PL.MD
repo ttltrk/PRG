@@ -12,6 +12,7 @@
 ---
 
 * [function]()
+* [web]()
 
 ---
 
@@ -31,6 +32,44 @@ Hello, trk!
 elso funkcio!
 $
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='web'>web</h3>
+
+get a webpage
+
+```perl
+use strict;
+use warnings;
+use LWP::Simple;
+
+sub main {
+    print "Downloading... \n";
+    print get("http://www.google.com/");
+    print "Finished!\n";
+}
+
+main();
+```
+
+store a webpage
+
+```perl
+use strict;
+use warnings;
+use LWP::Simple;
+
+sub main {
+    print "Downloading... \n";
+    getstore("http://www.google.com/", "home.html");
+    print "Finished!\n";
+}
+
+main();
 ```
 
 <a href='#^'>^^^</a>
