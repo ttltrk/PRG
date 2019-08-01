@@ -61,6 +61,29 @@ Found file
 >>>
 ```
 
+```perl
+use strict;
+use warnings;
+
+sub main {
+
+    my $file = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\WEB\logo.png';
+
+    if (-f $file) {
+        print "Found file\n";
+    }
+    else {
+        print "File not found\n";
+    }
+}
+
+main();
+
+>>>
+Found file
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
