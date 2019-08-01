@@ -19,7 +19,15 @@
 <h3 id='hw'>hello world</h3>
 
 ```java
+public class ttt {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
 
+>>>
+Hello World
+>>>
 ```
 
 <a href='#^'>^^^</a>
