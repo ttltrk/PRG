@@ -19,7 +19,19 @@
 <h3 id='hw'>hello world</h3>
 
 ```c
+#include<stdio.h>
+#include<conio.h>
 
+int main()
+{
+	printf("Hello Wolrd!");
+	getch;
+	return 0;
+}
+
+>>>
+Hello Wolrd!
+>>>
 ```
 
 <a href='#^'>^^^</a>
