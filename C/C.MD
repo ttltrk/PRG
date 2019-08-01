@@ -18,8 +18,20 @@
 
 <h3 id='hw'>hello world</h3>
 
+```c
+
+```
+
+<a href='#^'>^^^</a>
+
 ---
 
 <h3 id='functions'>functions</h3>
+
+```c
+
+```
+
+<a href='#^'>^^^</a>
 
 ---
