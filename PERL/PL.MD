@@ -12,6 +12,7 @@
 ---
 
 * [function]()
+* [file]()
 * [web]()
 
 ---
@@ -31,6 +32,32 @@ $ perl hw.pl
 Hello, trk!
 elso funkcio!
 $
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='file'>file</h3>
+
+```perl
+use strict;
+use warnings;
+
+sub main {
+    if (-f 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\WEB\logo.png') {
+        print "Found file\n";
+    }
+    else {
+        print "File not found\n";
+    }
+}
+
+main();
+
+>>>
+Found file
 >>>
 ```
 
