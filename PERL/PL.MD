@@ -194,3 +194,29 @@ main();
 
 ---
 
+<h3 id='regex'>regex</h3>
+
+Read file
+
+```perl
+use strict;
+use warnings;
+
+$|=1;
+
+sub main {
+    my $file = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\REGEX\mymanjeeves.txt';
+    open(INPUT, $file) or die("Input file $file not found.\n");
+    while(my $line = <INPUT>) {
+        print "$line\n"
+    }
+    close (INPUT);
+}
+
+main();
+```
+
+<a href='#^'>^^^</a>
+
+---
+
