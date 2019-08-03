@@ -56,6 +56,26 @@ public class ttt {
 >>>
 ```
 
+```java
+public class ttt {
+    public static void main(String []args){
+        int param1 = 4, param2 = 2;
+        boolean param3 = false;
+        func(param1, param2, param3);
+    }
+    private static void func(int param1, int param2, boolean param3) {
+        if (param3 == true)
+            System.out.println(param1+param2);
+        else
+            System.out.println(param1-param2);
+    }
+}
+
+>>>
+2
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
