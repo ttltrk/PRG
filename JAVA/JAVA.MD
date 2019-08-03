@@ -41,9 +41,11 @@ public class ttt {
     public static void main(String []args){
         int param1 = 3, param2 = 2;
         boolean param3 = false;
-        System.out.println(func(param1, param2, param3));
+        
+        System.out.println(first(param1, param2, param3));        
     }
-    private static int func(int param1, int param2, boolean param3) {
+    
+    private static int first(int param1, int param2, boolean param3) {
         if (param3 == true)
             return param1+param2;
         else
@@ -61,9 +63,11 @@ public class ttt {
     public static void main(String []args){
         int param1 = 4, param2 = 2;
         boolean param3 = false;
-        func(param1, param2, param3);
+        
+        second(param1, param2, param3);        
     }
-    private static void func(int param1, int param2, boolean param3) {
+    
+    private static void second(int param1, int param2, boolean param3) {
         if (param3 == true)
             System.out.println(param1+param2);
         else
