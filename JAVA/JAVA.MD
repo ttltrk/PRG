@@ -38,56 +38,6 @@ Hello World
 
 ---
 
-<h3 id='functions'>functions</h3>
-
-```java
-public class ttt {
-    public static void main(String []args){
-        int param1 = 3, param2 = 2;
-        boolean param3 = false;
-        
-        System.out.println(first(param1, param2, param3));        
-    }
-    
-    private static int first(int param1, int param2, boolean param3) {
-        if (param3 == true)
-            return param1+param2;
-        else
-            return param1-param2;
-    }
-}
-
->>>
-1
->>>
-```
-
-```java
-public class ttt {
-    public static void main(String []args){
-        int param1 = 4, param2 = 2;
-        boolean param3 = false;
-        
-        second(param1, param2, param3);        
-    }
-    
-    private static void second(int param1, int param2, boolean param3) {
-        if (param3 == true)
-            System.out.println(param1+param2);
-        else
-            System.out.println(param1-param2);
-    }
-}
-
->>>
-2
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
 <h3 id='userinput'>User input</h3>
 
 ```java
@@ -142,3 +92,54 @@ User age is: 36
 <a href='#^'>^^^</a>
 
 ---
+
+<h3 id='functions'>functions</h3>
+
+```java
+public class ttt {
+    public static void main(String []args){
+        int param1 = 3, param2 = 2;
+        boolean param3 = false;
+        
+        System.out.println(first(param1, param2, param3));        
+    }
+    
+    private static int first(int param1, int param2, boolean param3) {
+        if (param3 == true)
+            return param1+param2;
+        else
+            return param1-param2;
+    }
+}
+
+>>>
+1
+>>>
+```
+
+```java
+public class ttt {
+    public static void main(String []args){
+        int param1 = 4, param2 = 2;
+        boolean param3 = false;
+        
+        second(param1, param2, param3);        
+    }
+    
+    private static void second(int param1, int param2, boolean param3) {
+        if (param3 == true)
+            System.out.println(param1+param2);
+        else
+            System.out.println(param1-param2);
+    }
+}
+
+>>>
+2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
