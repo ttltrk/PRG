@@ -15,6 +15,7 @@
 
 ---
 
+* <a href='#temp_0'>temp_0</a>
 * <a href='#temp_01'>temp_01</a>
 * <a href='#temp_02'>temp_02</a>
 * <a href='#temp_03'>temp_03</a>
@@ -46,6 +47,28 @@
 * <a href='#map'>map</a><br>
 * <a href='#filter'>filter</a><br>
 * <a href='#funnesstat'>nested statement</a><br>
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='temp_0'>temp_0</h4>
+
+```py
+def elso():
+    print('elso')
+
+def masodik():
+    return 'masodik'
+
+elso()
+print(masodik())
+
+>>>
+elso
+masodik
+>>>
+```
 
 <a href='#^'>^^^</a>
 
