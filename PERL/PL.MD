@@ -12,7 +12,8 @@
 ---
 
 * <a href='#hw'>hello world</a></br>
-* <a href='#function'>function</a></br>
+* <a href='#userinput'>user input</a></br>
+* <a href='#functions'>functions</a></br>
 * <a href='#file'>file</a></br>
 * <a href='#web'>web</a></br>
 * <a href='#regex'>regex</a></br>
