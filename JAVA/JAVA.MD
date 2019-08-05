@@ -13,6 +13,7 @@
 
 * <a href='#hw'>hello world</a></br>
 * <a href='#functions'>functions</a></br>
+* <a href='#userinput'>user input</a></br>
 
 ---
 
@@ -78,6 +79,16 @@ public class ttt {
 >>>
 2
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='userinput'>User input</h3>
+
+```java
+
 ```
 
 <a href='#^'>^^^</a>
