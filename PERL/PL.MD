@@ -20,6 +20,7 @@
 * <a href='#file'>file</a></br>
 * <a href='#web'>web</a></br>
 * <a href='#regex'>regex</a></br>
+* <a href='#arrays'>arrays</a></br>
 
 ---
 
@@ -263,6 +264,8 @@ main();
 
 ---
 
+<h3 id='arrays'>arrays</h3>
+
 ```pl
 use strict;
 use warnings;
@@ -274,9 +277,11 @@ my @users = ("user1", "user2", "user3");
 print $users[1];
 
 >>>
-
+user2
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
