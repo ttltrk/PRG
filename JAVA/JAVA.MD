@@ -88,7 +88,23 @@ public class ttt {
 <h3 id='userinput'>User input</h3>
 
 ```java
+import java.util.Scanner;  // Import the Scanner class
 
+public class ttt {
+    public static void main(String []args){
+        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter username");
+
+        String userName = myObj.nextLine();  // Read user input
+        System.out.println("Username is: " + userName);  // Output user input
+    }
+}
+
+>>>
+Enter username
+trk
+Username is: trk
+>>>
 ```
 
 <a href='#^'>^^^</a>
