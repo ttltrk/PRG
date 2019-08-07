@@ -139,6 +139,23 @@ File not found: C:\Users\AttilaTorok\Desktop\ADM\MM\PL\WEB\home.txt
 >>>
 ```
 
+file output
+
+```perl
+use strict;
+use warnings;
+
+$|=1;
+
+sub main {
+    my $output = '>C:\Users\AttilaTorok\Desktop\ADM\MM\PL\FILE\output.txt';
+    open(OUTPUT, $output) or die "can't create the output\n";
+    close(OUTPUT);
+}
+
+main();
+```
+
 <a href='#^'>^^^</a>
 
 ---
