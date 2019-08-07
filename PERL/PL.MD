@@ -156,6 +156,28 @@ sub main {
 main();
 ```
 
+```perl
+use strict;
+use warnings;
+
+$|=1;
+
+sub main {
+    my $output = '>C:\Users\AttilaTorok\Desktop\ADM\MM\PL\FILE\output.txt';
+    open(OUTPUT, $output) or die "can't create the output\n";
+    print OUTPUT "hello world!\n";
+    close(OUTPUT);
+}
+
+main();
+
+>>>
+$ cat output.txt
+hello world!
+$
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
