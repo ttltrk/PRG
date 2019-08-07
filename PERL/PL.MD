@@ -178,6 +178,44 @@ $
 >>>
 ```
 
+find the word and past into the text
+
+```perl
+use strict;
+use warnings;
+
+$|=1;
+
+sub main {
+    my $input = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\REGEX\mymanjeeves.txt';
+    open(INPUT, $input) or die("Input file $input not found.\n");
+
+    my $output = '>C:\Users\AttilaTorok\Desktop\ADM\MM\PL\FILE\output.txt';
+    open(OUTPUT, $output) or die "can't create the output\n";
+
+    while(my $line = <INPUT>) {
+        if($line =~ / egg /) { #egg
+            print OUTPUT $line;
+        }
+    }
+    close (INPUT);
+    close(OUTPUT);
+}
+
+main();
+
+>>>
+$ cat output.txt
+portrait, and the sitter is that human poached egg that has butted in
+engulfed an egg or two and a beaker of coffee.
+"Won't you have an egg or something? Or a sausage or something? Or
+I champed my egg for a bit. I was most awfully moved, don't you know,
+hen--call it one hen for the sake of argument. It lays an egg every
+you once get a bit of capital. You buy a hen, and it lays an egg every
+$
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
