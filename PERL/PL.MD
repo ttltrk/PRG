@@ -20,7 +20,6 @@
 * <a href='#file'>file</a></br>
 * <a href='#web'>web</a></br>
 * <a href='#regex'>regex</a></br>
-* <a href='#arrays'>arrays</a></br>
 
 ---
 
@@ -60,7 +59,122 @@ $
 
 ---
 
-<h3 id='file'>file</h3>
+<h3 id='web'>web</h3>
+
+get a webpage
+
+```perl
+use strict;
+use warnings;
+use LWP::Simple;
+
+sub main {
+    print "Downloading... \n";
+    print get("http://www.google.com/");
+    print "Finished!\n";
+}
+
+main();
+```
+
+store a webpage
+
+```perl
+use strict;
+use warnings;
+use LWP::Simple;
+
+sub main {
+    print "Downloading... \n";
+    getstore("http://www.google.com/", "home.html");
+    print "Finished!\n";
+}
+
+main();
+```
+
+```perl
+use strict;
+use warnings;
+use LWP::Simple;
+
+sub main {
+    print "Downloading... \n";
+    getstore('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png', 'logo.png');
+    print "Finished!\n";
+}
+
+main();
+```
+
+```perl
+use strict;
+use warnings;
+use LWP::Simple;
+
+sub main {
+    print "Downloading... \n";
+    my $code = getstore('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png', 'logo.png');
+    if($code == 200) {
+        print "Success\n";
+    }
+    else {
+        print "Failed\n";
+    }
+    print "Finished!\n";
+}
+
+main();
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='regex'>regex</h3>
+
+Read file
+
+```perl
+use strict;
+use warnings;
+
+$|=1;
+
+sub main {
+    my $file = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\REGEX\mymanjeeves.txt';
+    open(INPUT, $file) or die("Input file $file not found.\n");
+    while(my $line = <INPUT>) {
+        print "$line\n"
+    }
+    close (INPUT);
+}
+
+main();
+```
+
+Find a word in a text
+
+```pl
+use strict;
+use warnings;
+
+$|=1;
+
+sub main {
+    my $file = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\REGEX\mymanjeeves.txt';
+    open(INPUT, $file) or die("Input file $file not found.\n");
+    while(my $line = <INPUT>) {
+        if($line =~ / egg /) { #egg
+        #if($line =~ /egg/) { #*egg*
+            print $line;
+        }
+    }
+    close (INPUT);
+}
+
+main();
+```
 
 ```perl
 use strict;
@@ -220,145 +334,4 @@ $
 
 ---
 
-<h3 id='web'>web</h3>
-
-get a webpage
-
-```perl
-use strict;
-use warnings;
-use LWP::Simple;
-
-sub main {
-    print "Downloading... \n";
-    print get("http://www.google.com/");
-    print "Finished!\n";
-}
-
-main();
-```
-
-store a webpage
-
-```perl
-use strict;
-use warnings;
-use LWP::Simple;
-
-sub main {
-    print "Downloading... \n";
-    getstore("http://www.google.com/", "home.html");
-    print "Finished!\n";
-}
-
-main();
-```
-
-```perl
-use strict;
-use warnings;
-use LWP::Simple;
-
-sub main {
-    print "Downloading... \n";
-    getstore('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png', 'logo.png');
-    print "Finished!\n";
-}
-
-main();
-```
-
-```perl
-use strict;
-use warnings;
-use LWP::Simple;
-
-sub main {
-    print "Downloading... \n";
-    my $code = getstore('https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png', 'logo.png');
-    if($code == 200) {
-        print "Success\n";
-    }
-    else {
-        print "Failed\n";
-    }
-    print "Finished!\n";
-}
-
-main();
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id='regex'>regex</h3>
-
-Read file
-
-```perl
-use strict;
-use warnings;
-
-$|=1;
-
-sub main {
-    my $file = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\REGEX\mymanjeeves.txt';
-    open(INPUT, $file) or die("Input file $file not found.\n");
-    while(my $line = <INPUT>) {
-        print "$line\n"
-    }
-    close (INPUT);
-}
-
-main();
-```
-
-Find a word in a text
-
-```pl
-use strict;
-use warnings;
-
-$|=1;
-
-sub main {
-    my $file = 'C:\Users\AttilaTorok\Desktop\ADM\MM\PL\REGEX\mymanjeeves.txt';
-    open(INPUT, $file) or die("Input file $file not found.\n");
-    while(my $line = <INPUT>) {
-        if($line =~ / egg /) { #egg
-        #if($line =~ /egg/) { #*egg*
-            print $line;
-        }
-    }
-    close (INPUT);
-}
-
-main();
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id='arrays'>arrays</h3>
-
-```pl
-use strict;
-use warnings;
-
-$|=1;
-
-my @users = ("user1", "user2", "user3");
-
-print $users[1];
-
->>>
-user2
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
 
