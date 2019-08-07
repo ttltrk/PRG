@@ -17,7 +17,6 @@
 * <a href='#ifelse'>if-else</a></br>
 * <a href='#for'>for</a></br>
 * <a href='#while'>while</a><br>
-* <a href='#file'>file</a></br>
 * <a href='#web'>web</a></br>
 * <a href='#regex'>regex</a></br>
 
