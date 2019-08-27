@@ -105,12 +105,22 @@ print(s2)
 
 ---
 
-<h4 id=''></h4>
+<h4 id='uniqueel'>find a unique element</h4>
 
 ```python
+def find_uniq(arr):
+    if (arr[0] == arr[1]) or (arr[0] != arr[1] and arr[0] == arr[2]):
+        repeatableNum = arr[0]
+    else:
+        repeatableNum = arr[1]
+    for nums in arr:
+        if nums != repeatableNum:
+            return nums
+
+print(find_uniq(arr = [ 3, 10, 3, 3, 3 ]))
 
 >>>
-
+10
 >>>
 ```
 
