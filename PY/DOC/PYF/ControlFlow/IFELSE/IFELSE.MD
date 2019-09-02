@@ -187,7 +187,28 @@ Negative number
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='evenorodd'>Even or odd</h4>
+
+```python
+def even_or_odd(number):
+    e = 'Even'
+    o = 'Odd'
+    if number % 2 == 0:
+        return e
+    else:
+        return o
+        
+print(even_or_odd(2))
+
+>>>
+Even
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
