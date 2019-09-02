@@ -75,7 +75,6 @@ Hello, and welcome to my world.
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -94,7 +93,6 @@ ss
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -128,7 +126,6 @@ xxxxxxxxxxxxbananaxxxxxxxxxxxx
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -163,7 +160,6 @@ print(x)
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -188,7 +184,6 @@ b'My name is St\xc3\xa5le'
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -209,7 +204,6 @@ print(y)
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -234,7 +228,6 @@ H         e         l         l         o
 >>>
 ```
 
-<a href='#^^strm'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -271,6 +264,8 @@ print(x2)
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
 
 <h4 id='str_split'>split</h4>
@@ -296,3 +291,6 @@ def remove_duplicate_words(s):
     
     ```
 
+<a href='#^'>^^^</a>
+
+---
