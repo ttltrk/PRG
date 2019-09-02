@@ -274,3 +274,27 @@ print(x2)
 ```
 
 ---
+
+<h4 id='str_split'>split</h4>
+
+remove duplicate words
+
+```python
+def remove_duplicate_words(s):
+    x = s.split()
+    uniqueWords = []
+    for i in x:
+        if not i in uniqueWords:
+            uniqueWords.append(i)
+            str1 = ' '.join(uniqueWords)
+
+    return str1
+    
+    print(remove_duplicate_words('bye hello bye szia'))
+    
+    >>>
+    bye hello szia
+    >>>
+    
+    ```
+
