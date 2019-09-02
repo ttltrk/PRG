@@ -418,7 +418,7 @@ range(0, 10)
 
 ---
 
-<h4 id='sorthval'>sort the values</h4>
+<h4 id='sortval'>sort the values</h4>
 
 
 ```python
