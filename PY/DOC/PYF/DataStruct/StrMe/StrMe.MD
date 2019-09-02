@@ -283,13 +283,12 @@ def remove_duplicate_words(s):
 
     return str1
     
-    print(remove_duplicate_words('bye hello bye szia'))
+print(remove_duplicate_words('bye hello bye szia'))
     
-    >>>
-    bye hello szia
-    >>>
-    
-    ```
+>>>
+bye hello szia
+>>>
+```
 
 <a href='#^'>^^^</a>
 
