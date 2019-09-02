@@ -412,4 +412,38 @@ range(0, 10)
 >>>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='sorthval'>sort the values</h4>
+
+
+```python
+def men_from_boys(arr):
+    le, lo, ls = [], [], []
+
+    for nums in arr:
+        if nums % 2 == 0:
+            le.append(nums)
+        else:
+            lo.append(nums)
+
+    le.sort(reverse=False)
+    lo.sort(reverse=True)
+    le = list(dict.fromkeys(le))
+    lo = list(dict.fromkeys(lo))
+    ls.extend(le)
+    ls.extend(lo)
+    return ls
+
+print(men_from_boys([1,2,3,4,5,3,4,5,6,1,2,3]))
+
+>>>
+[2, 4, 6, 5, 3, 1]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
 ---
