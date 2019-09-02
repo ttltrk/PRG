@@ -15,8 +15,10 @@
 
 * <a href='#listtostr'>list to string</a><br>
 * <a href='#listtotup'>list to tuple</a><br>
-* <a href='#listtodict'>list to dictionary</a>
-* <a href='#listtoset'>list to set</a>
+* <a href='#listtodict'>list to dictionary</a><br>
+* <a href='#listtoset'>list to set</a><br>
+* <a href='#sortval'>sorth the values</a><br>
+
 
 ---
 
