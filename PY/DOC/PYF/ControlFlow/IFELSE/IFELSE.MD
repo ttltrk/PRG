@@ -19,8 +19,7 @@
 <a href='#ifelse'>if..else</a><br>
 <a href='#ifelifelse'>if..elif..else</a><br>
 <a href='#ifinput'>Nested if with input</a><br><br>
-
-<a href='#^'>^^^</a>
+<a href='#evenorodd'>Even or odd</a><br><br>
 
 ---
 
@@ -35,7 +34,6 @@ else:
     # do something else
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -54,7 +52,6 @@ b is greater than a
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -75,7 +72,6 @@ This is also always printed.
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -95,7 +91,6 @@ Positive or Zero
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
@@ -117,7 +112,6 @@ Positive number
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -136,7 +130,6 @@ a is greater than b
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ```python
@@ -153,7 +146,6 @@ a and b are equal
 >>>
 ```
 
-<a href='#^^'>^^</a><br>
 <a href='#^'>^^^</a>
 
 ---
