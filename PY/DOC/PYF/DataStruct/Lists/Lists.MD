@@ -18,7 +18,7 @@
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#sortval'>sorth the values</a><br>
-
+* <a href='#findunique'>find unique numbers</a><br>
 
 ---
 
@@ -443,6 +443,32 @@ print(men_from_boys([1,2,3,4,5,3,4,5,6,1,2,3]))
 
 >>>
 [2, 4, 6, 5, 3, 1]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='findunique'>find unique numbers</h4>
+
+```python
+def find_uniq(arr):
+    if (arr[0] == arr[1]) or (arr[0] != arr[1] and arr[0] == arr[2]):
+        repeatableNum = arr[0]
+    else:
+        repeatableNum = arr[1]
+
+    for nums in arr:
+        if nums != repeatableNum:
+            return nums
+
+    return nums
+
+print(find_uniq([1,2,1]))
+
+>>>
+2
 >>>
 ```
 
