@@ -37,6 +37,7 @@ Python - DB part
 
 Python - rest
 
+* [Morse decoder](https://github.com/ttltrk/PRG/blob/master/PY/APP/MORSE/MORSE.MD)
 * [Leap Year](https://github.com/ttltrk/PRG/blob/master/PY/APP/leapYear/leapYear.MD)
 * [tic tac toe](https://github.com/ttltrk/PRG/blob/master/PY/APP/TTT/TTT.md)
 * [DreamCars 1.0](https://github.com/ttltrk/PRG/blob/master/PY/APP/DC/DC.MD)
