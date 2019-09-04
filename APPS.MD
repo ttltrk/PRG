@@ -37,7 +37,7 @@ Python - DB part
 
 Python - rest
 
-* [Roman Number calculator](https://github.com/ttltrk/PRG/blob/master/PY/APP/ROMANCAL/ROMANCAL.MD)
+* [Roman Number Decoder](https://github.com/ttltrk/PRG/blob/master/PY/APP/ROMANCAL/ROMANCAL.MD)
 * [Morse decoder](https://github.com/ttltrk/PRG/blob/master/PY/APP/MORSE/MORSE.MD)
 * [Leap Year](https://github.com/ttltrk/PRG/blob/master/PY/APP/leapYear/leapYear.MD)
 * [tic tac toe](https://github.com/ttltrk/PRG/blob/master/PY/APP/TTT/TTT.md)
