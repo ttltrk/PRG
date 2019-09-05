@@ -17,7 +17,7 @@
 * [string methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/StrMe/StrMe.MD)
 * [variables](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Var/Var.MD)
 * [print formatting](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/PrFo/PrFo.MD)
-* [lists](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Lists/Lists.MD)
+* [list](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Lists/Lists.MD)
 * [list methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiMe/LiMe.MD)
 * [list comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiCo/LiCo.MD)
 * [tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Tup/Tup.MD)
