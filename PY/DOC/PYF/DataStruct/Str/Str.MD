@@ -23,6 +23,24 @@
 
 ---
 
+string to list - separately
+
+```python
+def split(word):
+    l = [char for char in word]
+    return l
+
+print(split('heyho'))
+
+>>>
+['h', 'e', 'y', 'h', 'o']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 a = "Hello, World!"
 
