@@ -19,6 +19,7 @@
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#sortval'>sorth the values</a><br>
 * <a href='#findunique'>find unique numbers</a><br>
+* <a href='#diff2arr'>differences between two arrays</a><br>
 
 ---
 
@@ -469,6 +470,49 @@ print(find_uniq([1,2,1]))
 
 >>>
 2
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='diff2arrays'>Differences between two arrays</h4>
+
+```python
+def firstElem(tem):
+
+    main = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 
+    'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+            'v', 'w', 'x', 'y', 'z']
+
+    #change the temp list to lowercase
+    temp = [x.lower() for x in tem]
+
+    #find the first element
+    for x in temp:
+        for y in main:
+            if x == y:
+
+                firstElem = main.index(y)
+                tempnum = len(temp)
+                lastElem = tempnum+firstElem
+                convmain = main[firstElem:lastElem + 1]
+                diff = list(set(convmain) - set(temp))
+
+                #list to string
+                finalConv = ''.join(diff)
+
+                #change the output from lower to upper if it is needed
+                if tem[0].isupper():
+                    return finalConv.upper()
+                else:
+                    return finalConv
+
+print(firstElem(['O','Q','R','S']))
+
+>>>
+P
 >>>
 ```
 
