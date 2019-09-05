@@ -102,7 +102,23 @@ print(l.count(3))
 >>>
 ```
 
-<a href='#^^lstm'>^^</a><br>
+```python
+def well(x):
+    count = x.count('good')
+    if count > 2:
+        return 'I smell a series!'
+    elif count >= 1 and count < 2:
+        return 'Publish!'
+    else:
+        return 'Fail!'
+
+print(well(['good','good','bad', 'bad', 'bad']))
+
+>>>
+Publish!
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
