@@ -18,6 +18,7 @@
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#avglist'>average of the list</a><br>
+* <a href='#dedelem'>change dedicated elements in the list</a><br>
 * <a href='#sortval'>sort the values</a><br>
 * <a href='#findunique'>find unique numbers</a><br>
 * <a href='#diff2arr'>differences between two arrays</a><br>
@@ -119,6 +120,36 @@ print(a)
 
 >>>
 25
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='dedelem'>change dedicated elements in the list</h4>
+
+```python
+def DNAtoRNA(dna):
+
+    #string to list
+    l = list(dna)
+
+    #change all the Ts to U
+    for n, i in enumerate(l):
+        if i == 'T':
+            l[n] = 'U'
+
+    #change list to string
+    str1 = ''.join(l)
+
+    return str1
+
+
+print(DNAtoRNA("TTTT"))
+
+>>>
+UUUU
 >>>
 ```
 
