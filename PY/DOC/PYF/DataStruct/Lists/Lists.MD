@@ -9,7 +9,7 @@
 
 ---
 
-<h3 id='^'>Python - Data Structures - Lists</h3>
+<h3 id='^'>Python - Data Structures - List</h3>
 
 ---
 
