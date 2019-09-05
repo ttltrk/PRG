@@ -477,7 +477,7 @@ print(find_uniq([1,2,1]))
 
 ---
 
-<h4 id='diff2arrays'>Differences between two arrays</h4>
+<h4 id='diff2arr'>Differences between two arrays</h4>
 
 ```python
 def firstElem(tem):
