@@ -37,6 +37,32 @@ print(split('heyho'))
 >>>
 ```
 
+```python
+word = 'abc'
+l = list(word)
+print(l)
+
+>>>
+['a', 'b', 'c']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+string to list - full
+
+```python
+a = 'mary'
+z = a.split()
+print(z)
+
+>>>
+
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
