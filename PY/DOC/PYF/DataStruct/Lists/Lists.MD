@@ -17,7 +17,8 @@
 * <a href='#listtotup'>list to tuple</a><br>
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
-* <a href='#sortval'>sorth the values</a><br>
+* <a href='#avglist'>average of the list</a><br>
+* <a href='#sortval'>sort the values</a><br>
 * <a href='#findunique'>find unique numbers</a><br>
 * <a href='#diff2arr'>differences between two arrays</a><br>
 
@@ -101,6 +102,23 @@ print(s2)
 >>>
 {'two', 'bi', 'double', 'duo'}
 {1, 2, 3, 4, 5}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='avglist'>average of the list</h4>
+
+```python
+l = [1, 5, 87, 45, 8, 8]
+
+a = int(sum(l)/len(l))
+print(a)
+
+>>>
+25
 >>>
 ```
 
