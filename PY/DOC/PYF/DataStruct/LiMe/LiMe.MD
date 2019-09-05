@@ -184,7 +184,26 @@ print(l)
 >>>
 ```
 
-<a href='#^^lstm'>^^</a><br>
+remove first and last element from the list
+
+```python
+word = 'baabca'
+
+#convert string to list
+l = list(word)
+
+#remove the first element 
+l.pop(0)
+
+#remove the last element
+l.pop(-1)
+
+#convert the list back to string
+str1 = ''.join(l)
+
+print(str1)
+```
+
 <a href='#^'>^^^</a>
 
 ---
