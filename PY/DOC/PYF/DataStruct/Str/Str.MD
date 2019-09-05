@@ -59,7 +59,7 @@ z = a.split()
 print(z)
 
 >>>
-
+['mary']
 >>>
 ```
 
