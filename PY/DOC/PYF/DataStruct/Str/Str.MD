@@ -13,6 +13,15 @@
 
 ---
 
+* <a href='#strbasics'>string basics</a><br>
+* <a href='#strlistsep'>string to list separately</a><br>
+* <a href='#strlistfull'>string to list full</a><br>
+* <a href='#strset'>string to set</a><br>
+
+---
+
+<h4 id='strbasics'>string basics</h4>
+
 ```python
 | P | y | t | h | o | n |
  0   1   2   3   4   5   6
@@ -23,7 +32,7 @@
 
 ---
 
-string to list - separately
+<h4 id='strlistsep'>string to list separately</h4>
 
 ```python
 def split(word):
@@ -51,7 +60,7 @@ print(l)
 
 ---
 
-string to list - full
+<h4 id='strlistful'>string to list full</h4>
 
 ```python
 a = 'mary'
@@ -67,7 +76,7 @@ print(z)
 
 ---
 
-string to set
+<h4 id='strset'>string to set</h4>
 
 ```python
 s = "blabla"
