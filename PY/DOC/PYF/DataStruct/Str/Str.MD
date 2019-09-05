@@ -67,6 +67,24 @@ print(z)
 
 ---
 
+string to set
+
+```python
+s = "blabla"
+f = {s}
+
+print(type(f))
+print(f)
+
+>>>
+{'blabla'}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 ```python
 a = "Hello, World!"
 
