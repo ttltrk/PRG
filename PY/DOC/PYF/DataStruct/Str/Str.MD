@@ -17,6 +17,7 @@
 * <a href='#strlistsep'>string to list separately</a><br>
 * <a href='#strlistfull'>string to list full</a><br>
 * <a href='#strset'>string to set</a><br>
+* <a href='#strtup'>string to tuple</a><br>
 
 ---
 
@@ -87,6 +88,23 @@ print(f)
 
 >>>
 {'blabla'}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='strtup'>String to tuple</h4>
+
+```python
+string="heyho"
+a = tuple(string)
+
+print(a)
+
+>>>
+('h', 'e', 'y', 'h', 'o')
 >>>
 ```
 
