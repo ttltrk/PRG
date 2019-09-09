@@ -232,7 +232,7 @@ print(find_short("bitcoin take over the world maybe who knows perhaps"))
 
 def row_sum_odd_numbers(n):
 
-    #define the size of the list to 100
+    #define the size of the list to 10000
     l = list(range(10000))
 
     #return only the odd elements
@@ -277,10 +277,9 @@ print(row_sum_odd_numbers(5))
 [21, 23, 25, 27, 29]
 125
 >>>
+```
 
 <a href='#^'>^^^</a>
-
-```
 
 ---
 
