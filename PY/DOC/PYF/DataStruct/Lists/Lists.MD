@@ -17,6 +17,7 @@
 * <a href='#listtotup'>list to tuple</a><br>
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
+* <a href='#strtoint'>string to int in list</a><br>
 * <a href='#avglist'>average of the list</a><br>
 * <a href='#dedelem'>change dedicated elements in the list</a><br>
 * <a href='#sortval'>sort the values</a><br>
@@ -103,6 +104,29 @@ print(s2)
 >>>
 {'two', 'bi', 'double', 'duo'}
 {1, 2, 3, 4, 5}
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='strtoint'>string to int in list</h4>
+
+```python
+
+def sum_mix(arr):
+
+    #convert all the string into the int
+    l = [int(i) for i in arr]
+
+    ll = sum(l)
+    return ll
+
+print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
+
+>>>
+71
 >>>
 ```
 
