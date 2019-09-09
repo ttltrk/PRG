@@ -23,6 +23,7 @@
 * <a href='#sortval'>sort the values</a><br>
 * <a href='#findunique'>find unique numbers</a><br>
 * <a href='#diff2arr'>differences between two arrays</a><br>
+* <a href='#shortword'>shortest word in the list</a><br>
 
 ---
 
@@ -197,6 +198,26 @@ print(find_uniq(arr = [ 3, 10, 3, 3, 3 ]))
 
 >>>
 10
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='shortword'>shortest word in the list</h4>
+
+```python
+def find_short(s):
+
+    z = s.split()
+    minimunWordLength = min([len(word) for word in z])
+    return minimunWordLength
+
+print(find_short("bitcoin take over the world maybe who knows perhaps"))
+
+>>>
+3
 >>>
 ```
 
