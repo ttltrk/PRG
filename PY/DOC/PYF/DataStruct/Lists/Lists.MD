@@ -24,6 +24,7 @@
 * <a href='#findunique'>find unique numbers</a><br>
 * <a href='#diff2arr'>differences between two arrays</a><br>
 * <a href='#shortword'>shortest word in the list</a><br>
+* <a href='#sumodd'>Sum of odd numbers</a><br>
 
 ---
 
@@ -222,6 +223,64 @@ print(find_short("bitcoin take over the world maybe who knows perhaps"))
 ```
 
 <a href='#^'>^^^</a>
+
+---
+
+<h4 id='sumodd'>Sum of odd numbers</h4>
+
+```python
+
+def row_sum_odd_numbers(n):
+
+    #define the size of the list to 100
+    l = list(range(10000))
+
+    #return only the odd elements
+    ll = [nums for nums in l if nums %2 == 1]
+
+    #find the first element
+    firstElement = ((n*(n-1))+1)
+
+    #check the index of the first element
+    firstIndex = ll.index(firstElement)
+
+    finalList = []
+
+    #create the final list
+    finalListBeta = ll[firstIndex:]
+    finalList = finalListBeta[:n]
+
+    print(finalList)
+    
+    #return sum of the finalList
+    return sum(finalList)
+
+print(row_sum_odd_numbers(1))
+print(row_sum_odd_numbers(2))
+print(row_sum_odd_numbers(3))
+print(row_sum_odd_numbers(4))
+print(row_sum_odd_numbers(5))
+
+>>>
+[1]
+1
+
+[3, 5]
+8
+
+[7, 9, 11]
+27
+
+[13, 15, 17, 19]
+64
+
+[21, 23, 25, 27, 29]
+125
+>>>
+
+<a href='#^'>^^^</a>
+
+```
 
 ---
 
