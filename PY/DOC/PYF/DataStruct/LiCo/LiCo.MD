@@ -154,3 +154,28 @@ print (lst)
 <a href='#^'>^^^</a>
 
 ---
+
+Count by
+
+```python
+def count_by(x, n):
+
+    #create a list with 10 element
+    l = list(range(10))
+
+    #slice until n element
+    a = l[1:n+1]
+    ll = [val*x for val in a]
+    return ll
+
+print(count_by(93,2))
+print(count_by(100,5))
+
+>>>
+[93, 186]
+[100, 200, 300, 400, 500]
+>>>
+
+<a href='#^'>^^^</a>
+
+```
