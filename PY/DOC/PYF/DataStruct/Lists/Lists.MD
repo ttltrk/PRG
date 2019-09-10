@@ -18,6 +18,7 @@
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#strtoint'>string to int in list</a><br>
+* <a href='#multele'>multiply elements</a><br>
 * <a href='#avglist'>average of the list</a><br>
 * <a href='#dedelem'>change dedicated elements in the list</a><br>
 * <a href='#sortval'>sort the values</a><br>
@@ -129,6 +130,27 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 
 >>>
 71
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='multele'>multiply elements</h4>
+
+```python
+def grow(arr):
+
+    result = 1
+    for x in arr:
+         result = result * x
+    return result
+
+print(grow([1,2,3]))
+
+>>>
+6
 >>>
 ```
 
