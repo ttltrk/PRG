@@ -26,7 +26,7 @@
 * <a href='#diff2arr'>differences between two arrays</a><br>
 * <a href='#shortword'>shortest word in the list</a><br>
 * <a href='#sumodd'>Sum of odd numbers</a><br>
-* <a href='#findoddint'>find odd integer</a><br>
+* <a href='#findoddint'>find the larger odd integer or number</a><br>
 
 ---
 
@@ -306,7 +306,7 @@ print(row_sum_odd_numbers(5))
 
 ---
 
-<h4 id='findoddint'>find odd integer</h4>
+<h4 id='findoddint'>find the larger odd integer or number</h4>
 
 ```python
 def find_it(seq):
