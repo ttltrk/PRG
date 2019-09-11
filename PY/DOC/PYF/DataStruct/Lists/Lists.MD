@@ -18,6 +18,7 @@
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#strtoint'>string to int in list</a><br>
+* <a href='#strint'>string list to int list</a><br>
 
 ---
 
@@ -137,6 +138,63 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 >>>
 71
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='strint'>string list to int list</h4>
+
+```python
+def scoreboard(string):
+
+    l = ['nil', 'one', 'two', 'three', 'four']
+    #print(l)
+
+    #convert string to list
+    z = string.split()
+    #print(z)
+
+    #find the matches in two diff lists
+    a = [x for x in z if x in l]
+    #print(a)
+
+    #change the elements in the list
+    for n, i in enumerate(a):
+        if i == 'nil':
+            a[n] = 0
+        elif i == 'one':
+            a[n] = 1
+        elif i == 'two':
+            a[n] = 2
+        elif i == 'three':
+            a[n] = 3
+        elif i == 'four':
+            a[n] = 4
+        elif i == 'five':
+            a[n] = 5
+        elif i == 'six':
+            a[n] = 6
+        elif i == 'seven':
+            a[n] = 7
+        elif i == 'eight':
+            a[n] = 8
+        elif i == 'nine':
+            a[n] = 9
+
+    if len(a) == 1:
+        a.append(a[n])
+        return a
+    else:
+        return a
+
+print(scoreboard("The score is two nil"))
+
+>>>
+[2, 0]
+>>>
+
 ```
 
 <a href='#^'>^^^</a>
