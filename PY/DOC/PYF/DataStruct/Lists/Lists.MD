@@ -26,6 +26,7 @@
 * <a href='#diff2arr'>differences between two arrays</a><br>
 * <a href='#shortword'>shortest word in the list</a><br>
 * <a href='#sumodd'>Sum of odd numbers</a><br>
+* <a href='#findoddint'>find odd integer</a><br>
 
 ---
 
@@ -298,6 +299,44 @@ print(row_sum_odd_numbers(5))
 
 [21, 23, 25, 27, 29]
 125
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='findoddint'>find odd integer</h4>
+
+```python
+def find_it(seq):
+
+    #find the odd integers
+    res = [nums for nums in seq if nums % 2 == 1]
+    #print(res)
+
+    #find the occurencies
+    listOutOrigin = []
+    for element in res:
+        a = res.count(element)
+        listOutOrigin.append(a)
+    #print(listOutOrigin)
+
+    #join odd integers with odd occurencies into the dict
+    dictionary = dict(zip(res, listOutOrigin))
+    #print(dictionary)
+
+    #max value and max key from dict
+    max_value = max(dictionary.values())  # maximum value
+    max_keys = [k for k, v in dictionary.items() if v == max_value]  # getting all keys containing the `maximum`
+    #print(max_value, max_keys)
+
+    return max_keys[0]
+
+print(find_it([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5, -1, -1, -1, -1, -1, -1, -1]))
+
+>>>
+-1
 >>>
 ```
 
