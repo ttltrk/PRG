@@ -27,6 +27,8 @@
 * <a href='#shortword'>shortest word in the list</a><br>
 * <a href='#sumodd'>Sum of odd numbers</a><br>
 * <a href='#findoddint'>find the larger odd integer or number</a><br>
+* <a href='#findoccur'>find the occurencies in the list</a><br>
+* <a href='#findmax'>find the max value in the list</a><br>
 
 ---
 
@@ -338,6 +340,53 @@ print(find_it([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5, -1, -1, -1, -1, -1, -1, 
 >>>
 -1
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='findoccur'>find the occurencies in the list</h4>
+
+```python
+def find_it(seq):
+
+    #find the occurencies
+    listOutOrigin = []
+    for element in seq:
+        a = seq.count(element)
+        listOutOrigin.append(a)
+    return listOutOrigin
+
+print(find_it([12, 10, 8, 12, 7, 6, 4, 10, 12, 16, 16, 16]))
+
+>>>
+[3, 2, 1, 3, 1, 1, 1, 2, 3, 3, 3, 3]
+>>>
+
+```
+
+<h4 id='findmax'>find the max value in the list</h4>
+
+```python
+def find_it(seq):
+
+    return max(seq)
+
+print(find_it([12, 10, 8, 12, 7, 6, 4, 10, 12, 16, 16, 16]))
+
+>>>
+16
+>>>
+
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+```python
+
 ```
 
 <a href='#^'>^^^</a>
