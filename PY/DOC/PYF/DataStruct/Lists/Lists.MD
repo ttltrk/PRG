@@ -369,6 +369,10 @@ print(find_it([12, 10, 8, 12, 7, 6, 4, 10, 12, 16, 16, 16]))
 
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
 <h4 id='findmax'>find the max value in the list</h4>
 
 ```python
@@ -381,14 +385,6 @@ print(find_it([12, 10, 8, 12, 7, 6, 4, 10, 12, 16, 16, 16]))
 >>>
 16
 >>>
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-```python
 
 ```
 
