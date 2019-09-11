@@ -13,6 +13,21 @@
 
 ---
 
+count from 1 to n
+
+```python
+def monkey_count(n):
+    l = [x for x in range(1, n+1)]
+    return l
+    
+>>>
+[1, 2, 3, 4, 5]
+>>>
+
+```
+
+---
+
 ```python
 l = []
 
