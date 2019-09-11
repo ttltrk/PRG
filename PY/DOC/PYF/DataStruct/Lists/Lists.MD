@@ -18,6 +18,9 @@
 * <a href='#listtodict'>list to dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#strtoint'>string to int in list</a><br>
+
+---
+
 * <a href='#multele'>multiply elements</a><br>
 * <a href='#avglist'>average of the list</a><br>
 * <a href='#dedelem'>change dedicated elements in the list</a><br>
