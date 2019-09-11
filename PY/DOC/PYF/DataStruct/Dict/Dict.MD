@@ -14,6 +14,28 @@
 
 ---
 
+join two list into the one dict
+max value and key from dict
+
+---
+
+```python
+    #join odd integers with odd occurencies into the dict
+    dictionary = dict(zip(seq, listOutOrigin))
+    print(dictionary)
+```
+
+---
+
+```python
+    #max value and max key from dict
+    max_value = max(dictionary.values())  # maximum value
+    max_keys = [k for k, v in dictionary.items() if v == max_value]  # getting all keys containing the `maximum`
+    print(max_value, max_keys)
+```
+
+---
+
 ```python
 {'key1':'value1','key2':'value2'}
 ```
