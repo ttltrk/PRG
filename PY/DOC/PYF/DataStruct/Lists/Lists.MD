@@ -22,6 +22,7 @@
 
 ---
 
+* <a href='#negpos'>negative to positive</a><br>
 * <a href='#multele'>multiply elements</a><br>
 * <a href='#avglist'>average of the list</a><br>
 * <a href='#dedelem'>change dedicated elements in the list</a><br>
@@ -138,6 +139,25 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 >>>
 71
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='negpos'>negative to positive</h4>
+
+```python
+def invert(lst):
+    lst[:] = [-1 * x for x in lst]
+    return lst
+
+print(invert([1,-2,3,-4,5]))
+
+>>>
+[-1, 2, -3, 4, -5]
+>>>
+
 ```
 
 <a href='#^'>^^^</a>
