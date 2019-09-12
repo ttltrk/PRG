@@ -18,6 +18,8 @@
 * <a href='#strlistfull'>string to list full</a><br>
 * <a href='#strset'>string to set</a><br>
 * <a href='#strtup'>string to tuple</a><br>
+* <a href='#pwdgen'>password check</a><br>
+
 
 ---
 
@@ -106,6 +108,47 @@ print(a)
 >>>
 ('h', 'e', 'y', 'h', 'o')
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='pwdgen'>password check</h4>
+
+```python
+def password(string):
+
+    #check if the string contains uppercase char
+    r1 = [any(x.isupper() for x in string)]
+    print(r1)
+
+    #check if the string contains uppercase char
+    r2 = [any(x.islower() for x in string)]
+    print(r2)
+
+    #check if the string contains uppercase char
+    r3 = [any(x.isdigit() for x in string)]
+    print(r3)
+
+    r4 = len(string)
+    print(r4)
+
+    if r1 == [False] or r2 == [False] or r3 == [False] or r4 < 8:
+        return False
+    else:
+        return True
+
+print(password("abcd1234"))
+
+>>>
+[False]
+[True]
+[True]
+8
+False
+>>>
+
 ```
 
 <a href='#^'>^^^</a>
