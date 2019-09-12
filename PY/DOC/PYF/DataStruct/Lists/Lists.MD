@@ -22,6 +22,7 @@
 
 ---
 
+* <a href='#mintomax'>sort from the min to max</a><br>
 * <a href='#negpos'>negative to positive</a><br>
 * <a href='#sub'>Remove all the elements that occur in one list from another</a><br>
 * <a href='#multele'>multiply elements</a><br>
@@ -140,6 +141,16 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 >>>
 71
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='mintomax'>sort from the min to max</h4>
+
+```python
+l.sort()
 ```
 
 <a href='#^'>^^^</a>
