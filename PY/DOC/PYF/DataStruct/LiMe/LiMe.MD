@@ -162,7 +162,26 @@ print(l.index(3))
 >>>
 ```
 
-<a href='#^^lstm'>^^</a><br>
+find index with string/int
+
+```python
+def warn_the_sheep(queue):
+
+    wolfIndex = queue.index('wolf')
+    print(wolfIndex)
+
+    listWolf = queue[wolfIndex:]
+    print((listWolf))
+
+
+warn_the_sheep(['wolf', 'sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'sheep'])
+
+>>>
+0
+['wolf', 'sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'sheep']
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
