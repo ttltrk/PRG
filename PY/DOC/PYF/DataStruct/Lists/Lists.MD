@@ -23,6 +23,7 @@
 ---
 
 * <a href='#negpos'>negative to positive</a><br>
+* <a href='#sub'>Remove all the elements that occur in one list from another</a><br>
 * <a href='#multele'>multiply elements</a><br>
 * <a href='#avglist'>average of the list</a><br>
 * <a href='#dedelem'>change dedicated elements in the list</a><br>
@@ -158,6 +159,27 @@ print(invert([1,-2,3,-4,5]))
 [-1, 2, -3, 4, -5]
 >>>
 
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='sub'>Remove all the elements that occur in one list from another</h4>
+
+```python
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+
+def goose_filter(birds):
+    res = [x for x in birds if x not in geese]
+    return res
+
+
+print(goose_filter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]))
+
+>>>
+['Mallard', 'Hook Bill', 'Crested', 'Blue Swedish']
+>>>
 ```
 
 <a href='#^'>^^^</a>
