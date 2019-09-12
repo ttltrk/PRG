@@ -13,6 +13,14 @@
 
 ---
 
+Set to list
+
+```python
+l = list(s)
+```
+
+---
+
 Sets are unordered collections of unique elements
 
 ```python
