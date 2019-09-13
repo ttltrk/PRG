@@ -20,8 +20,7 @@
 * <a href='#strtup'>string to tuple</a><br>
 * <a href='#pwdgen'>password check</a><br>
 * <a href='#palcheck'>palindrome check</a><br>
-
-
+* <a href='#changeordswap'>change the order and use swapcase</a><br>
 
 ---
 
@@ -176,6 +175,29 @@ print(is_palindrome('Abba'))
 True
 >>>
 
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='changeordswap'>change the order and use swapcase</h4>
+
+```python
+def string_transformer(s):
+
+    #reverse the order of the words in the string
+    reversed_string = " ".join(s.split(" ")[::-1])
+
+    #use swapcase for change all the upper to lower and back
+    sc = reversed_string.swapcase()
+    return sc
+
+print(string_transformer("Example string"))
+
+>>>
+STRING eXAMPLE
+>>>
 ```
 
 <a href='#^'>^^^</a>
