@@ -19,6 +19,8 @@
 * <a href='#strset'>string to set</a><br>
 * <a href='#strtup'>string to tuple</a><br>
 * <a href='#pwdgen'>password check</a><br>
+* <a href='#palcheck'>palindrome check</a><br>
+
 
 
 ---
@@ -147,6 +149,31 @@ print(password("abcd1234"))
 [True]
 8
 False
+>>>
+
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='palcheck'>palindrome check</h4>
+
+```python
+def is_palindrome(s):
+
+    st = s.lower()
+    rev = st[::-1]
+
+    if st == rev:
+        return True
+    else:
+        return False
+
+print(is_palindrome('Abba'))
+
+>>>
+True
 >>>
 
 ```
