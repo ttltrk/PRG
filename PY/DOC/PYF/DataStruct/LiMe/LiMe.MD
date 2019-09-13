@@ -182,6 +182,14 @@ warn_the_sheep(['wolf', 'sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'sheep'])
 >>>
 ```
 
+find the results in the list according to the indexes from another list
+
+```python
+#make a list for the results
+finalRes = [numbers[indexes] for indexes in findIndexesInTheList1]
+return finalRes
+```
+
 <a href='#^'>^^^</a>
 
 ---
