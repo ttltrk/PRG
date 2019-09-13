@@ -22,6 +22,8 @@
 
 ---
 
+* <a href='#sumlists'>sum of two lists</a><br>
+* <a href='#maxnum'>find the max number in the list</a><br>
 * <a href='#mintomax'>sort from the min to max</a><br>
 * <a href='#negpos'>negative to positive</a><br>
 * <a href='#sub'>Remove all the elements that occur in one list from another</a><br>
@@ -143,6 +145,26 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 >>>
 71
 >>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='sumlists'>sum of two lists</h4>
+
+```python
+sumOfTheList = firstList + secList
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='maxnum'>find the max number in the list</h4>
+
+```python
+highest = max(arr)
 ```
 
 <a href='#^'>^^^</a>
