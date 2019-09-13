@@ -36,6 +36,8 @@
 * <a href='#findoddint'>find the larger odd integer or number</a><br>
 * <a href='#findoccur'>find the occurencies in the list</a><br>
 * <a href='#findmax'>find the max value in the list</a><br>
+* <a href='#findevenocc'>find the even occuranves in in the list</a><br>
+
 
 ---
 
@@ -885,6 +887,43 @@ print(firstElem(['O','Q','R','S']))
 
 >>>
 P
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='findevenocc'>find the even occuranves in in the list</h4>
+
+```python
+def odd_ones_out(numbers):
+
+    #print(numbers)
+
+    #occurencies
+    listOutOrigin = []
+    for element in numbers:
+        a = numbers.count(element)
+        listOutOrigin.append(a)
+    #print(listOutOrigin)
+
+    #find the even occurencies in the list
+    findTrue = [occurencies % 2 == 0 for occurencies in listOutOrigin]
+    #print(findTrue)
+
+    #find more than one index in the list
+    findIndexesInTheList1 = [i for i, e in enumerate(findTrue) if e == True]
+    #print(findIndexesInTheList1)
+
+    #make a list for the results
+    finalRes = [numbers[indexes] for indexes in findIndexesInTheList1]
+    return finalRes
+
+print(odd_ones_out([75, 68, 75, 47, 68]))
+
+>>>
+
 >>>
 ```
 
