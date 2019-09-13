@@ -923,7 +923,7 @@ def odd_ones_out(numbers):
 print(odd_ones_out([75, 68, 75, 47, 68]))
 
 >>>
-
+[75, 68, 75, 68]
 >>>
 ```
 
