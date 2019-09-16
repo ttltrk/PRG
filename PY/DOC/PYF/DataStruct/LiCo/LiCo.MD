@@ -15,21 +15,27 @@
 
 Bigger than zero
 
+```python
 biggerThanZero = [nums > 0 for nums in arr]
+```
 
 ---
 
 Zero
 
+```python
 zeros = [nums == 0 for nums in arr]
+```
 
 ---
 
 Less than zero
 
+```python
 ltz = []
 
 lessThanZero = [ltz.append(nums) for nums in arr if nums < 0]
+```
 
 ---
 
