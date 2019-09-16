@@ -13,6 +13,26 @@
 
 ---
 
+Bigger than zero
+
+biggerThanZero = [nums > 0 for nums in arr]
+
+---
+
+Zero
+
+zeros = [nums == 0 for nums in arr]
+
+---
+
+Less than zero
+
+ltz = []
+
+lessThanZero = [ltz.append(nums) for nums in arr if nums < 0]
+
+---
+
 count from 1 to n
 
 ```python
