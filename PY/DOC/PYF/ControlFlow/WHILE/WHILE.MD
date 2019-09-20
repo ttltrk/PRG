@@ -33,6 +33,40 @@ else:
 
 ---
 
+find the nex correct year
+
+```python
+def next_happy_year(year):
+
+    x = year+1
+    while x < year+5000:
+        s = str(x)
+        l = list(s)
+        ll = [int(i) for i in l]
+        checkYear = len(ll)
+        template = [1] * checkYear
+        listOutOrigin = []
+        for element in ll:
+            aa = ll.count(element)
+            listOutOrigin.append(aa)
+        if template == listOutOrigin:
+            break
+        x += 1
+
+    l = [str(i) for i in ll]
+    str1 = ''.join(l)
+    final = int(str1)
+    return final
+
+print(next_happy_year(1987))
+
+>>>
+2013
+>>>
+```
+
+---
+
 <h4 id=''>Infinity loop</h4>
 
 ```python
