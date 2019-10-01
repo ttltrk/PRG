@@ -20,6 +20,7 @@
 * [list](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Lists/Lists.MD)
 * [list methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiMe/LiMe.MD)
 * [list comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiCo/LiCo.MD)
+* [nested list](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/NesLis/NesLis.MD)
 * [enumerate](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Enumerate/Enumerate.md)
 * [tuples](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Tup/Tup.MD)
 * [tuple methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/TuMe/TuMe.MD)
