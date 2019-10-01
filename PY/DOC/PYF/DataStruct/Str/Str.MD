@@ -96,6 +96,18 @@ print(z)
 >>>
 ```
 
+```python
+def high(x):    
+    inpL = x.split()
+    return inpL
+
+high('man i need a taxi up to ubud')
+
+>>>
+['man', 'i', 'need', 'a', 'taxi', 'up', 'to', 'ubud']
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
