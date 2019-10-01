@@ -56,5 +56,34 @@ high('man i need a taxi up to ubud')
 >>>
 ```
 
+```python
+def high(x):
+    
+    abc=st.ascii_lowercase
+    
+    abcL=list(abc)
+    numsL=[nums for nums in range(1,27)]
+    inpL = x.split()
+    
+    #convert two list into a dict
+    dic = dict(zip(abcL,numsL))
+       
+    #slice a string into a nested list
+    fl=[list(i) for s in inpL for i in s.split()]
+    print(fl)
+    
+    #change the values to the numbers
+    fl3=[]
+    fl2=[fl3.append(dic[value]) for sub_list in fl for value in sub_list]
+    print(fl3)
+    
+high('man i need a taxi up to ubud')
+
+>>>
+[['m', 'a', 'n'], ['i'], ['n', 'e', 'e', 'd'], ['a'], ['t', 'a', 'x', 'i'], ['u', 'p'], ['t', 'o'], ['u', 'b', 'u', 'd']]
+[13, 1, 14, 9, 14, 5, 5, 4, 1, 20, 1, 24, 9, 21, 16, 20, 15, 21, 2, 21, 4]
+>>>
+```
+
 ---
 
