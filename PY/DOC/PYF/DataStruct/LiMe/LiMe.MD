@@ -190,6 +190,8 @@ finalRes = [numbers[indexes] for indexes in findIndexesInTheList1]
 return finalRes
 ```
 
+first nth index, second nth index
+
 ```python
 def length_of_sequence(arr,n):
     
