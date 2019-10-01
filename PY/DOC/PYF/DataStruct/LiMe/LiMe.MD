@@ -190,6 +190,23 @@ finalRes = [numbers[indexes] for indexes in findIndexesInTheList1]
 return finalRes
 ```
 
+```python
+def length_of_sequence(arr,n):
+    
+    #first nth index
+    first=[i for i, num in enumerate(arr) if num == n][0]
+    #second nth index
+    sec=[i for i, num in enumerate(arr) if num == n][1]
+    
+    return first,sec
+        
+print(length_of_sequence([-7, 5, 0, 2, 9, 5], 5))
+
+>>>
+(1, 5)
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
