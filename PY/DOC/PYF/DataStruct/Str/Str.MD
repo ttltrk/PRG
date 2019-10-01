@@ -36,6 +36,26 @@
 
 ---
 
+```python
+import string as st
+def high():
+    
+    abc=st.ascii_lowercase
+    print(abc)
+    print(abc[-1])
+    print(abc[::-1])
+
+print(high())
+
+>>>
+abcdefghijklmnopqrstuvwxyz
+z
+zyxwvutsrqponmlkjihgfedcba
+>>>
+```
+
+---
+
 <h4 id='strlistsep'>string to list separately</h4>
 
 ```python
