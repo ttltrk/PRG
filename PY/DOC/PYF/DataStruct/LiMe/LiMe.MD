@@ -209,6 +209,24 @@ print(length_of_sequence([-7, 5, 0, 2, 9, 5], 5))
 >>>
 ```
 
+How can I count the occurrences of a list item?
+
+```python
+def check_the_bucket(bucket):
+    fin=bucket.count('gold')
+    
+    if fin >= 1:
+        return True
+    else:
+        return False
+    
+print(check_the_bucket(['stone', 'stone', 'gold', 'stone', 'stone',]))
+
+>>>
+True
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
