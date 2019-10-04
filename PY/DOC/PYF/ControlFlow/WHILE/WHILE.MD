@@ -33,6 +33,28 @@ else:
 
 ---
 
+count the sheep
+
+```python
+def count_sheep(n):    
+  
+    x = 0
+    while x < n:
+        l=[]
+        ll=[l.append(str(nums)+' sheep...') for nums in range(1,n+1)]
+        x += 1
+    str1=''.join(l)    
+    return str1
+   
+print(count_sheep(5))    
+
+>>>
+1 sheep...2 sheep...3 sheep...4 sheep...5 sheep...
+>>>
+```
+
+---
+
 find the nex correct year
 
 ```python
