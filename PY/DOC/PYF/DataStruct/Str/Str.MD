@@ -36,6 +36,23 @@
 
 ---
 
+count the occurences of the dedicated letters in the string
+
+```python
+def str_count(strng, letter):
+   
+    res = strng.count(letter)
+    return res
+    
+print(str_count('hello', 'l'))
+
+>>>
+2
+>>>
+```
+
+---
+
 ```python
 import string as st
 def high():
