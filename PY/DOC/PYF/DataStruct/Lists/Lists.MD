@@ -529,6 +529,14 @@ print(find_it([12, 10, 8, 12, 7, 6, 4, 10, 12, 16, 16, 16]))
 [3, 2, 1, 3, 1, 1, 1, 2, 3, 3, 3, 3]
 >>>
 
+oneliner, same as above
+
+```python
+l1=list(s)    
+l2 = []
+l3 = [l2.append(l1.count(el)) for el in l1]   
+```
+
 ```
 
 <a href='#^'>^^^</a>
