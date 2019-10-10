@@ -119,6 +119,28 @@ print(dic)
 >>>
 ```
 
+```python
+def letter_count(s):
+    
+    l1=list(s)    
+    l2 = []
+    l3 = [l2.append(l1.count(el)) for el in l1]   
+    
+    print(l1)
+    print(l2)
+    
+    d = dict(zip(l1,l2))
+    print(d)
+    
+print(letter_count('ssziaa'))
+
+>>>
+['s', 's', 'z', 'i', 'a', 'a']
+[2, 2, 1, 1, 2, 2]
+{'s': 2, 'z': 1, 'i': 1, 'a': 2}
+>>>
+```
+
 <a href='#^'>^^^</a>
 
 ---
