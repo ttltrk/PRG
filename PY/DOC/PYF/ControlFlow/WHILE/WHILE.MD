@@ -33,6 +33,63 @@ else:
 
 ---
 
+String reverse
+
+```python
+def reverse_slice(s):
+    
+    l=[]
+    ss=s[::-1]
+    l.append(ss)
+    print(l)
+    
+    l.append(ss[1:])
+    print(l)
+    
+    l.append(ss[2:])
+    print(l)
+    
+    l.append(ss[3:])
+    print(l)
+    
+    l.append(ss[4:])
+    print(l)
+    
+    print(len(s))
+    
+print(reverse_slice('abcde'))
+
+>>>
+['edcba']
+['edcba', 'dcba']
+['edcba', 'dcba', 'cba']
+['edcba', 'dcba', 'cba', 'ba']
+['edcba', 'dcba', 'cba', 'ba', 'a']
+5
+>>>
+
+def reverse_slice(s):
+    
+    x=1
+    l=[]
+    ss=s[::-1]
+    l.append(ss)
+    while x < len(s):
+        l.append(ss[x:])
+        x += 1
+    return l
+
+print(reverse_slice('abcde'))
+
+>>>
+['edcba', 'dcba', 'cba', 'ba', 'a']
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 count the sheep
 
 ```python
