@@ -44,6 +44,36 @@
 
 ---
 
+join two lists
+
+```python
+def add_length(str_):
+    
+    l=str_.split()
+    
+    lc=[len(vals) for vals in l]
+    
+    if len(l) == 1:
+        lf_1=[]
+        lf_1.append(str_ + ' ' + str(len(str_)))
+        return lf_1
+    else:
+        x=0
+        lf=[]
+        while x < len(l):
+            lf.append(l[x]+' '+str(lc[x]))
+            x += 1
+        return lf
+
+print(add_length('apple banana hey'))
+
+>>>
+['apple 5', 'banana 6', 'hey 3']
+>>>
+```
+
+---
+
 <h4 id='listtostr'>list to string</h4>
 
 ```python
