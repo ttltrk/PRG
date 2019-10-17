@@ -36,6 +36,24 @@
 
 ---
 
+how to convert only the numbers to int from the string
+
+```python
+#how to convert only the numbers to int from the string
+s = '1 2 Fizz 4 Buzz'
+l=list(s)
+l1=[int(vals) for vals in l if vals.isdigit()]
+print(l1)
+
+>>>
+[1, 2, 4]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 count the occurences of the dedicated letters in the string
 
 ```python
