@@ -14,10 +14,40 @@
 
 ---
 
-join two list into the one dict
-max value and key from dict
+how to find any string (in our case bingo) in the dictionary 
+
+```python
+import string as st
+
+def bingo(array): 
+    
+    abc=st.ascii_lowercase
+    
+    labc=list(abc)    
+    lnum=list(range(1,len(abc)+1))
+    dic = dict(zip(lnum,labc))
+
+    res=[dic[nums] for nums in array]
+    print(res)
+    
+    if 'b' in res and 'i' in res and 'n' in res and 'g' in res and 'o' in res:
+        return True
+    else:
+        return False
+    
+print(bingo([1, 2, 3, 7, 5, 14, 7, 15, 9, 10]))
+
+>>>
+['a', 'b', 'c', 'g', 'e', 'n', 'g', 'o', 'i', 'j']
+True
+>>>
+```
+
+<a href='#^'>^^^</a>
 
 ---
+
+join two list into the one dict
 
 ```python
     #join odd integers with odd occurencies into the dict
@@ -25,7 +55,11 @@ max value and key from dict
     print(dictionary)
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+max value and key from dict
 
 ```python
     #max value and max key from dict
@@ -33,6 +67,8 @@ max value and key from dict
     max_keys = [k for k, v in dictionary.items() if v == max_value]  # getting all keys containing the `maximum`
     print(max_value, max_keys)
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
