@@ -11,7 +11,7 @@
 
 <h3 id='^'>Python - Data Structures - Strings</h3>
 
-* [string methods]()
+[string methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/StrMe/StrMe.MD)
 
 ---
 
