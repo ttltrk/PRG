@@ -14,6 +14,7 @@
 ---
 
 * <a href='#strbasics'>string basics</a><br>
+* <a href='#fullabc'>full abc</a><br>
 * <a href='#strlistsep'>string to list separately</a><br>
 * <a href='#strlistfull'>string to list full</a><br>
 * <a href='#strset'>string to set</a><br>
@@ -38,6 +39,9 @@
 
 ---
 
+<h4 id='fullabc'>full abc</h4>
+
+
 ```python
 import string as st
 def high():
@@ -55,6 +59,8 @@ z
 zyxwvutsrqponmlkjihgfedcba
 >>>
 ```
+
+<a href='#^'>^^^</a>
 
 ---
 
