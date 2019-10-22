@@ -11,6 +11,8 @@
 
 <h3 id='^'>Python - Data Structures - Strings</h3>
 
+* [string methods]()
+
 ---
 
 * <a href='#strbasics'>string basics</a><br>
