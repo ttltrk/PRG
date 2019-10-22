@@ -18,6 +18,8 @@
 * <a href='#strlistfull'>string to list full</a><br>
 * <a href='#strset'>string to set</a><br>
 * <a href='#strtup'>string to tuple</a><br>
+* <a href='#numtoint'>convert only the numbers to int from the string</a>
+* <a href='#countoccstr'>count the occurences of the dedicated letters in the string</a>
 * <a href='#pwdgen'>password check</a><br>
 * <a href='#palcheck'>palindrome check</a><br>
 * <a href='#changeordswap'>change the order and use swapcase</a><br>
@@ -33,41 +35,6 @@
 ```
 
 <a href='#^'>^^^</a>
-
----
-
-how to convert only the numbers to int from the string
-
-```python
-#how to convert only the numbers to int from the string
-s = '1 2 Fizz 4 Buzz'
-l=list(s)
-l1=[int(vals) for vals in l if vals.isdigit()]
-print(l1)
-
->>>
-[1, 2, 4]
->>>
-```
-
-<a href='#^'>^^^</a>
-
----
-
-count the occurences of the dedicated letters in the string
-
-```python
-def str_count(strng, letter):
-   
-    res = strng.count(letter)
-    return res
-    
-print(str_count('hello', 'l'))
-
->>>
-2
->>>
-```
 
 ---
 
@@ -175,6 +142,43 @@ print(a)
 
 >>>
 ('h', 'e', 'y', 'h', 'o')
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='numtoint'>convert only the numbers to int from the string</h4>
+
+```python
+#how to convert only the numbers to int from the string
+s = '1 2 Fizz 4 Buzz'
+l=list(s)
+l1=[int(vals) for vals in l if vals.isdigit()]
+print(l1)
+
+>>>
+[1, 2, 4]
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='countoccstr'>count the occurences of the dedicated letters in the string</h4>
+
+```python
+def str_count(strng, letter):
+   
+    res = strng.count(letter)
+    return res
+    
+print(str_count('hello', 'l'))
+
+>>>
+2
 >>>
 ```
 
