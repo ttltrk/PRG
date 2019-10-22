@@ -450,3 +450,45 @@ bye hello szia
 <a href='#^'>^^^</a>
 
 ---
+
+splitlines
+
+<a href='#^'>^^^</a>
+
+---
+
+startswith
+
+<a href='#^'>^^^</a>
+
+---
+
+swapcase
+
+<a href='#^'>^^^</a>
+
+---
+
+title
+
+<a href='#^'>^^^</a>
+
+---
+
+translate
+
+<a href='#^'>^^^</a>
+
+---
+
+upper
+
+<a href='#^'>^^^</a>
+
+---
+
+zfill
+
+<a href='#^'>^^^</a>
+
+---
