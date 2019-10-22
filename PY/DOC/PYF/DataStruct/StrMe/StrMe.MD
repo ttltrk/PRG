@@ -12,6 +12,8 @@
 
 <h3 id='^'>Python - Data Structures - String Methods</h3>
 
+[strings](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Str/Str.MD)
+
 ---
 
 <a href='#str_capitalize'>capitalize</a><br>
