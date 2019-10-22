@@ -270,6 +270,161 @@ print(x2)
 
 ---
 
+format
+
+<a href='#^'>^^^</a>
+
+---
+
+format_map
+
+<a href='#^'>^^^</a>
+
+---
+
+index
+
+<a href='#^'>^^^</a>
+
+---
+
+isalnum
+
+<a href='#^'>^^^</a>
+
+---
+
+isalpha
+
+<a href='#^'>^^^</a>
+
+---
+
+isdecimal
+
+<a href='#^'>^^^</a>
+
+---
+
+isdigit
+
+<a href='#^'>^^^</a>
+
+---
+
+isidentifier
+
+<a href='#^'>^^^</a>
+
+---
+
+islower
+
+<a href='#^'>^^^</a>
+
+---
+
+isnumeric
+
+<a href='#^'>^^^</a>
+
+---
+
+isprintable
+
+<a href='#^'>^^^</a>
+
+---
+
+isspace
+
+<a href='#^'>^^^</a>
+
+---
+
+istitle
+
+<a href='#^'>^^^</a>
+
+---
+
+isupper
+
+<a href='#^'>^^^</a>
+
+---
+
+join
+
+<a href='#^'>^^^</a>
+
+---
+
+ljust
+
+<a href='#^'>^^^</a>
+
+---
+
+lower
+
+<a href='#^'>^^^</a>
+
+---
+
+lstrip
+
+<a href='#^'>^^^</a>
+
+---
+
+
+maketrans
+
+<a href='#^'>^^^</a>
+
+---
+
+partition
+
+<a href='#^'>^^^</a>
+
+---
+
+replace
+
+<a href='#^'>^^^</a>
+
+---
+
+rfind
+
+<a href='#^'>^^^</a>
+
+---
+
+rindex
+
+<a href='#^'>^^^</a>
+
+---
+
+rpartition
+
+<a href='#^'>^^^</a>
+
+---
+
+rsplit
+
+<a href='#^'>^^^</a>
+
+---
+
+rstrip
+
+---
+
 <h4 id='str_split'>split</h4>
 
 remove duplicate words
