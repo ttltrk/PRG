@@ -140,7 +140,7 @@ print(f)
 
 ---
 
-<h4 id='strtup'>String to tuple</h4>
+<h4 id='strtup'>string to tuple</h4>
 
 ```python
 string="heyho"
