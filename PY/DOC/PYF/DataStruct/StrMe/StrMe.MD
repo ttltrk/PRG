@@ -431,18 +431,31 @@ remove duplicate words
 
 ```python
 def remove_duplicate_words(s):
+    
+    print(s)
+    #bye hello bye szia
+    
     x = s.split()
+    print(x)    
+    #['bye', 'hello', 'bye', 'szia']
+    
     uniqueWords = []
-    for i in x:
-        if not i in uniqueWords:
-            uniqueWords.append(i)
-            str1 = ' '.join(uniqueWords)
+    
+    #remove duplicates with append
+    l1=[uniqueWords.append(i) for i in x if not i in uniqueWords]
+    print(uniqueWords)
+    #['bye', 'hello', 'szia']
+    
+    str1 = ' '.join(uniqueWords)
 
     return str1
     
 print(remove_duplicate_words('bye hello bye szia'))
     
 >>>
+bye hello bye szia
+['bye', 'hello', 'bye', 'szia']
+['bye', 'hello', 'szia']
 bye hello szia
 >>>
 ```
