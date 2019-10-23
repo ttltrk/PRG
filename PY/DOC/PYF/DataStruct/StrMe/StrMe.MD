@@ -66,14 +66,22 @@
 <h4 id='str_capitalize'>capitalize</h4>
 
 ```python
-txt = "hello, and welcome to my world."
+txt1='hello, and welcome to my world.'
+txt2='bye'
+txt3='iGLO'
 
-x = txt.capitalize()
+x1=txt1.capitalize()
+x2=txt2.capitalize()
+x3=txt3.capitalize()
 
-print (x)
+print(x1)
+print(x2)
+print(x3)
 
 >>>
 Hello, and welcome to my world.
+Bye
+Iglo
 >>>
 ```
 
