@@ -92,14 +92,22 @@ Iglo
 <h4 id='str_casefold'>casefold</h4>
 
 ```python
-txt = "Hello, And Welcome To My World!"
+txt1='Hello, And Welcome To My World!'
+txt2='BYE'
+txt3='Bye'
 
-x = txt.casefold()
+x1=txt1.casefold()
+x2=txt2.casefold()
+x3=txt3.casefold()
 
-print(x)
+print(x1)
+print(x2)
+print(x3)
 
 >>>
-ss
+hello, and welcome to my world!
+bye
+bye
 >>>
 ```
 
