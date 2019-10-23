@@ -439,9 +439,8 @@ def remove_duplicate_words(s):
     print(x)    
     #['bye', 'hello', 'bye', 'szia']
     
-    uniqueWords = []
-    
     #remove duplicates with append
+    uniqueWords = []
     l1=[uniqueWords.append(i) for i in x if not i in uniqueWords]
     print(uniqueWords)
     #['bye', 'hello', 'szia']
