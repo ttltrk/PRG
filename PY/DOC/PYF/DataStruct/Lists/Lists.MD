@@ -22,6 +22,7 @@
 
 ---
 
+* <a href='#jointwolst'>join two lists</a><br>
 * <a href='#remsecel'>remove every second element from the list</a><br>
 * <a href='#sumlists'>sum of two lists</a><br>
 * <a href='#maxnum'>find the max number in the list</a><br>
@@ -40,37 +41,6 @@
 * <a href='#findoccur'>find the occurencies in the list</a><br>
 * <a href='#findmax'>find the max value in the list</a><br>
 * <a href='#findevenocc'>find the even occuranves in in the list</a><br>
-
-
----
-
-join two lists
-
-```python
-def add_length(str_):
-    
-    l=str_.split()
-    
-    lc=[len(vals) for vals in l]
-    
-    if len(l) == 1:
-        lf_1=[]
-        lf_1.append(str_ + ' ' + str(len(str_)))
-        return lf_1
-    else:
-        x=0
-        lf=[]
-        while x < len(l):
-            lf.append(l[x]+' '+str(lc[x]))
-            x += 1
-        return lf
-
-print(add_length('apple banana hey'))
-
->>>
-['apple 5', 'banana 6', 'hey 3']
->>>
-```
 
 ---
 
@@ -213,6 +183,40 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 
 >>>
 71
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='jointwolst'>join two lists</h4>
+
+join two lists
+
+```python
+def add_length(str_):
+    
+    l=str_.split()
+    
+    lc=[len(vals) for vals in l]
+    
+    if len(l) == 1:
+        lf_1=[]
+        lf_1.append(str_ + ' ' + str(len(str_)))
+        return lf_1
+    else:
+        x=0
+        lf=[]
+        while x < len(l):
+            lf.append(l[x]+' '+str(lc[x]))
+            x += 1
+        return lf
+
+print(add_length('apple banana hey'))
+
+>>>
+['apple 5', 'banana 6', 'hey 3']
 >>>
 ```
 
