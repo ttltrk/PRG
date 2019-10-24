@@ -11,6 +11,8 @@
 
 <h3 id='^'>Python - Data Structures - List Methods</h3>
 
+[List basics](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Lists/Lists.MD) | [List Comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiCo/LiCo.MD) | [Enumerate](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Enumerate/Enumerate.md)
+
 ---
 
 * <a href='#lstmappend'>append</a><br>
