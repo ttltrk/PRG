@@ -11,6 +11,8 @@
 
 <h3 id='^'>Python - Data Structures - List</h3>
 
+[List methods](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiMe/LiMe.MD) | [List Comprehensions](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/LiCo/LiCo.MD) | [Enumerate](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/DataStruct/Enumerate/Enumerate.md)
+
 ---
 
 * <a href='#listtostr'>list to string</a><br>
