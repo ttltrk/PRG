@@ -16,6 +16,7 @@
 * <a href='#listtostr'>list to string</a><br>
 * <a href='#listtotup'>list to tuple</a><br>
 * <a href='#listtodict'>list to dictionary</a><br>
+* <a href='#twolistdic'>two list into a dictionary</a><br>
 * <a href='#listtoset'>list to set</a><br>
 * <a href='#strtoint'>string to int in list</a><br>
 * <a href='#strint'>string list to int list</a><br>
@@ -103,7 +104,11 @@ print(d)
 >>>
 ```
 
-two lists into a dict
+<a href='#^'>^^^</a>
+
+---
+
+<h4 id='twolistdic'>two lists into a dict</h4>
 
 ```python
 #create two lists
