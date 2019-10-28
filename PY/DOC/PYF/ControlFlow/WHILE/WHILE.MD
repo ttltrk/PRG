@@ -33,6 +33,41 @@ else:
 
 ---
 
+from dict find the numbers or sum as per the string/list
+
+```python
+import string as st
+
+def words_to_marks(s):   
+    
+    abc=st.ascii_lowercase
+    
+    #join two lists into the dict
+    labc=list(abc)    
+    lnum=list(range(1,len(abc)+1))
+    dic = dict(zip(labc,lnum))
+    
+    l=list(s)
+    
+    #from dict find the numbers or sum as per the string/list
+    x=0
+    l1=[]
+    while x < len(l):
+        l1.append(dic[l[x]])
+        x += 1
+    return sum(l1)
+
+print(words_to_marks('attitude'))
+
+>>>
+100
+>>>
+```
+
+<a href='#^'>^^^</a>
+
+---
+
 String reverse
 
 ```python
