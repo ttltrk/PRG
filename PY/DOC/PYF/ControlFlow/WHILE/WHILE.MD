@@ -33,6 +33,29 @@ else:
 
 ---
 
+join letters 
+
+```python
+def triple_trouble(one, two, three): 
+   
+    x=0
+    l=[]
+    while x < len(one):
+        res=one[x]+two[x]+three[x]
+        l.append(res)
+        x += 1
+    str1=''.join(l)
+    return str1
+    
+print(triple_trouble("aaa","bbb","ccc"))
+
+>>>
+abcabcabc
+>>>
+```
+
+---
+
 count the average of the lists
 
 ```python
