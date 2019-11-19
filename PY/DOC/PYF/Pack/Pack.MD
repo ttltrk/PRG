@@ -19,5 +19,6 @@
 * [Matplotlib](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/MATPLOTLIB/MATPLOTLIB.MD)
 * [Openpyxl](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/OPPY/OPPY.MD)
 * [files](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/Files/Files.MD)
+* [re](https://github.com/ttltrk/PRG/blob/master/PY/DOC/PYF/Pack/re/re.MD)
 
 ---
